@@ -1172,3 +1172,41 @@
 [02/18/25 15:04:37] crowsnest: V4L2 Control: No parameters set for [cam 1]. Skipped.
 [02/18/25 15:04:40] crowsnest: Starting ustreamer with Device /dev/video0 ...
 [02/18/25 15:04:42] crowsnest:  ... Done!
+[02/18/25 15:09:49] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[02/18/25 15:09:49] crowsnest: Version: v4.1.10-1-gdd390b6
+[02/18/25 15:09:49] crowsnest: Prepare Startup ...
+[02/18/25 15:09:49] crowsnest: INFO: Host information:
+[02/18/25 15:09:49] crowsnest: Host Info: Distribution: Ubuntu 20.04.6 LTS
+[02/18/25 15:09:49] crowsnest: Host Info: Kernel: Linux 5.15.0-131-generic x86_64
+[02/18/25 15:09:49] crowsnest: Host Info: Model:  Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+[02/18/25 15:09:49] crowsnest: Host Info: Available CPU Cores: 4
+[02/18/25 15:09:49] crowsnest: Host Info: Available Memory: 3933588 kB
+[02/18/25 15:09:49] crowsnest: Host Info: Diskspace (avail. / total): 15G / 29G
+[02/18/25 15:09:49] crowsnest: INFO: Checking Dependencies
+[02/18/25 15:09:49] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[02/18/25 15:09:49] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[02/18/25 15:09:50] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[02/18/25 15:09:50] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[02/18/25 15:09:50] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[02/18/25 15:09:50] crowsnest: INFO: Print Configfile: '/home/chase/printer_data/config/crowsnest.conf'
+[02/18/25 15:09:50] crowsnest:		[crowsnest]
+[02/18/25 15:09:50] crowsnest:		log_path: /home/chase/printer_data/logs/crowsnest.log
+[02/18/25 15:09:50] crowsnest:		log_level: verbose
+[02/18/25 15:09:50] crowsnest:		delete_log: false
+[02/18/25 15:09:50] crowsnest:		no_proxy: false
+[02/18/25 15:09:50] crowsnest:		
+[02/18/25 15:09:50] crowsnest:		[cam 1]
+[02/18/25 15:09:50] crowsnest:		mode: ustreamer
+[02/18/25 15:09:50] crowsnest:		
+[02/18/25 15:09:50] crowsnest:		enable_rtsp: false
+[02/18/25 15:09:50] crowsnest:		rtsp_port: 8554
+[02/18/25 15:09:50] crowsnest:		port: 8080
+[02/18/25 15:09:50] crowsnest:		device: /dev/video0
+[02/18/25 15:09:50] crowsnest:		resolution: 1920x1080
+[02/18/25 15:09:50] crowsnest:		max_fps: 18
+[02/18/25 15:09:50] crowsnest:		
+[02/18/25 15:09:50] crowsnest: INFO: Detect available Devices
+[02/18/25 15:09:50] crowsnest: INFO: Found 1 total available Device(s)
+[02/18/25 15:09:50] crowsnest: INFO: Found 1 available v4l2 (UVC) camera(s)
+[02/18/25 15:09:50] crowsnest: /dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB_2.0_Camera-video-index0 -> /dev/video0
+[02/18/25 15:09:50] crowsnest: Supported Formats:
