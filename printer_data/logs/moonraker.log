@@ -3540,3 +3540,12 @@ Properties:
 2025-02-18 15:04:41,839 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
 2025-02-18 15:04:41,842 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.54ms
 2025-02-18 15:04:41,851 [websockets.py:open()] - Websocket Opened: ID: 139904784104032, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-18 15:06:05,267 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 15:06:05,270 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 15:06:05,273 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
