@@ -2851,3 +2851,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary21Xl9zAyuZ7AXx
 2025-02-18 10:37:42,643 [application.py:post()] - Processing Uploaded File: printer.cfg
 2025-02-18 10:37:42,658 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 40.78ms
 2025-02-18 10:37:42,684 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:37:43,943 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:37:44,635 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:37:44,638 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:37:44,642 [klippy_connection.py:_check_ready()] - 
+Option 'control' in section 'extruder' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2025-02-18 10:41:17,325 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytbSzKqakkAkmEYc2
+2025-02-18 10:41:17,355 [application.py:post()] - Processing Uploaded File: printer.cfg
+2025-02-18 10:41:17,370 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 47.02ms
+2025-02-18 10:41:17,390 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:41:18,653 [klippy_connection.py:_do_connect()] - Klippy Connection Established

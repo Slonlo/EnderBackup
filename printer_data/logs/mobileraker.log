@@ -354,3 +354,4 @@ ConnectionRefusedError: [Errno 111] Connect call failed ('192.168.1.130', 7125)
 2025-02-18 10:36:45,079 mobileraker.Ender3V2.sync INFO - Moonraker's connection to Klippy has terminated/disconnected
 2025-02-18 10:37:07,925 mobileraker.Ender3V2.sync INFO - Moonraker's connection to Klippy has terminated/disconnected
 2025-02-18 10:37:42,688 mobileraker.Ender3V2.sync INFO - Moonraker's connection to Klippy has terminated/disconnected
+2025-02-18 10:41:17,393 mobileraker.Ender3V2.sync INFO - Moonraker's connection to Klippy has terminated/disconnected
