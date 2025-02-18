@@ -2867,3 +2867,32 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytbSzKqakkAkmEY
 2025-02-18 10:41:17,370 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 47.02ms
 2025-02-18 10:41:17,390 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-02-18 10:41:18,653 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:41:20,574 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:41:20,576 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:41:20,580 [klippy_connection.py:_check_ready()] - 
+Failed automated reset of MCU 'mcu'
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2025-02-18 10:41:29,945 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:41:31,211 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:41:34,122 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:41:34,125 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:41:34,377 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-18 10:41:34,656 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-18 10:41:35,143 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-18 10:42:30,934 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: BLTouch failed to deploy
+2025-02-18 10:43:00,137 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 117.500 117.500 -40.000 [0.000]
+2025-02-18 10:44:37,020 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Existing config autosave is corrupted. Can't complete SAVE_CONFIG
+2025-02-18 10:45:38,603 [websockets.py:on_close()] - Websocket Closed: ID: 140430870125872 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.12
+2025-02-18 10:46:05,519 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.16ms
+2025-02-18 10:46:05,519 [websockets.py:open()] - Websocket Opened: ID: 140430739518464, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-18 10:46:05,529 [websockets.py:_handle_identify()] - Websocket 140430739518464 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-18 10:46:11,456 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Existing config autosave is corrupted. Can't complete SAVE_CONFIG
+2025-02-18 10:46:42,550 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLznPPydEsiEsyAB8
+2025-02-18 10:46:42,576 [application.py:post()] - Processing Uploaded File: printer.cfg
+2025-02-18 10:46:42,590 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 42.36ms
+2025-02-18 10:46:43,647 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
