@@ -4148,3 +4148,7 @@ Content-Type: multipart/form-data; boundary=------------------------294c212208c8
 
 2025-02-18 16:34:58,902 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: book_stand_x_v_0_3_5_PETG_1h9m.gcode, sliced by OrcaSlicer
 
+2025-02-18 16:35:01,923 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-02pkflqs.json) successfully finished
+2025-02-18 16:35:01,927 [klippy_apis.py:start_print()] - Requesting Job Start, filename = book_stand_x_v_0_3_5_PETG_1h9m.gcode
+2025-02-18 16:35:01,962 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 3832.31ms
+2025-02-18 16:35:02,141 [job_state.py:_status_update()] - Job Started: book_stand_x_v_0_3_5_PETG_1h9m.gcode
