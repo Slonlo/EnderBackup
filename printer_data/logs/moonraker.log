@@ -2821,3 +2821,18 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzbfe4RkUlRdQbw
 2025-02-18 10:36:45,041 [application.py:post()] - Processing Uploaded File: printer.cfg
 2025-02-18 10:36:45,054 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 64.32ms
 2025-02-18 10:36:45,077 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:36:46,340 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:36:46,951 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:36:46,954 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:36:46,957 [klippy_connection.py:_check_ready()] - 
+Option 'pid_Kp' in section 'heater_bed' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2025-02-18 10:37:07,871 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary3O56yB34hh0r6BvD
+2025-02-18 10:37:07,887 [application.py:post()] - Processing Uploaded File: printer.cfg
+2025-02-18 10:37:07,900 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 31.71ms
+2025-02-18 10:37:07,921 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
