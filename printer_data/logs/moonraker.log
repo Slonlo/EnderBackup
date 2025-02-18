@@ -4166,3 +4166,7 @@ Content-Type: multipart/form-data; boundary=------------------------95cedb9794c4
 2025-02-18 17:16:10,364 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 3801.21ms
 2025-02-18 17:16:10,530 [job_state.py:_status_update()] - Job Started: book_stand_x_v_0_3_5_PLA_1h9m.gcode
 2025-02-18 18:19:53,356 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-02-18 18:23:31,859 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.111
+2025-02-18 18:23:31,863 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 7.84ms
+2025-02-18 18:23:31,864 [websockets.py:open()] - Websocket Opened: ID: 139962246504656, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-18 18:23:31,875 [websockets.py:_handle_identify()] - Websocket 139962246504656 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
