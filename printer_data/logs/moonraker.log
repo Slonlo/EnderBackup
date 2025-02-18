@@ -2921,3 +2921,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJbl2zmS8zTYzpc
 2025-02-18 10:48:13,777 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-18 10:48:14,271 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-02-18 10:52:53,741 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:52:55,000 [klippy_connection.py:_do_connect()] - Klippy Connection Established
