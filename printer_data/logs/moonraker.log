@@ -4090,3 +4090,26 @@ Pinned Commit: None
 2025-02-18 15:09:54,349 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Next refresh in: 6 Days, 17 Hours, 38 Minutes, 49 Seconds
 2025-02-18 15:09:54,349 [base_deploy.py:log_info()] - Git Repo klipper-backup: Next refresh in: 6 Days, 17 Hours, 58 Minutes, 41 Seconds
 2025-02-18 15:09:54,349 [base_deploy.py:log_info()] - Git Repo mobileraker: Next refresh in: 6 Days, 17 Hours, 5 Minutes, 3 Seconds
+2025-02-18 15:09:55,002 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/chase/printer_data/comms/moonraker.sock'
+2025-02-18 15:09:55,022 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: klipperender
+2025-02-18 15:09:55,030 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2025-02-18 15:09:55,286 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 15:09:55,452 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-18 15:09:55,466 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 15.45ms
+2025-02-18 15:09:55,466 [websockets.py:open()] - Websocket Opened: ID: 139962770458416, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-18 15:09:55,514 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice']
+**After=['network-online.target', '-.mount', 'basic.target', 'sysinit.target', 'systemd-journald.socket', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+2025-02-18 15:09:55,769 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-439-g1fc6d214f-dirty
