@@ -2927,3 +2927,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJbl2zmS8zTYzpc
 2025-02-18 10:52:58,165 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-02-18 10:52:58,432 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-18 10:52:58,935 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-18 10:53:05,453 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 0.000 0.000 25.000 [0.000]
