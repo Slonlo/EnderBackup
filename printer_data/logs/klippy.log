@@ -27801,3 +27801,4 @@ webhooks client 140663723286384: New connection
 webhooks client 140663723286384: Client info {'program': 'Moonraker', 'version': 'v0.9.3-58-ga0164e1'}
 mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
 mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
