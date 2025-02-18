@@ -4113,3 +4113,12 @@ Properties:
 **Description=Klipper 3D Printer Firmware SV1
 **User=chase
 2025-02-18 15:09:55,769 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-02-18 15:11:23,006 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 15:11:23,009 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 15:11:23,013 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
