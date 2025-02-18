@@ -2786,3 +2786,38 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2025-02-18 10:32:46,518 [websockets.py:on_close()] - Websocket Closed: ID: 140430869330816 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.87
+2025-02-18 10:32:46,519 [websockets.py:on_close()] - Websocket Closed: ID: 140430870126016 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.14
+2025-02-18 10:32:48,477 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-02-18 10:32:48,479 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 5.02ms
+2025-02-18 10:32:48,479 [websockets.py:open()] - Websocket Opened: ID: 140430870125872, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-18 10:32:48,485 [websockets.py:_handle_identify()] - Websocket 140430870125872 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-18 10:33:19,032 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 6.29ms
+2025-02-18 10:33:19,033 [websockets.py:open()] - Websocket Opened: ID: 140430869331680, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-18 10:33:20,872 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:33:22,634 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:33:23,352 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:33:23,356 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:33:23,360 [klippy_connection.py:_check_ready()] - 
+Option 'control' in section 'heater_bed' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2025-02-18 10:33:34,785 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:33:36,047 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:33:36,599 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:33:36,602 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:33:36,605 [klippy_connection.py:_check_ready()] - 
+Option 'control' in section 'heater_bed' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2025-02-18 10:36:44,995 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzbfe4RkUlRdQbwrI
+2025-02-18 10:36:45,041 [application.py:post()] - Processing Uploaded File: printer.cfg
+2025-02-18 10:36:45,054 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 64.32ms
+2025-02-18 10:36:45,077 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
