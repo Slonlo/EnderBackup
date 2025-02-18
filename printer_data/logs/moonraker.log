@@ -4140,3 +4140,4 @@ Error configuring printer
 2025-02-18 16:29:58,378 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
 2025-02-18 16:29:58,628 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-02-18 16:29:58,899 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-18 16:29:59,638 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
