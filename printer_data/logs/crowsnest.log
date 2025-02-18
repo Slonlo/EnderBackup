@@ -910,3 +910,16 @@
 [02/18/25 08:40:13] crowsnest: V4L2 Control: No parameters set for [cam 1]. Skipped.
 [02/18/25 08:40:14] crowsnest: Starting ustreamer with Device /dev/video0 ...
 [02/18/25 08:40:16] crowsnest:  ... Done!
+[02/18/25 11:40:12] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[02/18/25 11:40:12] crowsnest: Version: v4.1.10-1-gdd390b6
+[02/18/25 11:40:12] crowsnest: Prepare Startup ...
+[02/18/25 11:40:12] crowsnest: INFO: Host information:
+[02/18/25 11:40:12] crowsnest: Host Info: Distribution: Ubuntu 20.04.6 LTS
+[02/18/25 11:40:12] crowsnest: Host Info: Kernel: Linux 5.15.0-131-generic x86_64
+[02/18/25 11:40:12] crowsnest: Host Info: Model:  Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+[02/18/25 11:40:12] crowsnest: Host Info: Available CPU Cores: 4
+[02/18/25 11:40:12] crowsnest: Host Info: Available Memory: 3933584 kB
+[02/18/25 11:40:12] crowsnest: Host Info: Diskspace (avail. / total): 15G / 29G
+[02/18/25 11:40:12] crowsnest: INFO: Checking Dependencies
+[02/18/25 11:40:12] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[02/18/25 11:40:12] crowsnest: Dependency: 'find' found in /usr/bin/find.

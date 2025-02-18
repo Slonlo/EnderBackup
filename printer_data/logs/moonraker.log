@@ -2928,3 +2928,44 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJbl2zmS8zTYzpc
 2025-02-18 10:52:58,432 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-18 10:52:58,935 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-02-18 10:53:05,453 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 0.000 0.000 25.000 [0.000]
+2025-02-18 10:57:28,409 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.41ms
+2025-02-18 10:57:28,410 [websockets.py:open()] - Websocket Opened: ID: 140430868936832, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-18 10:57:28,421 [websockets.py:_handle_identify()] - Websocket 140430868936832 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-18 10:57:31,901 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------2b6fdc219d2a5aa4
+2025-02-18 10:57:31,942 [application.py:post()] - Processing Uploaded File: Frontplatte Raspberry 4_PETG_14m52s.gcode
+2025-02-18 10:57:32,455 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-18 10:57:32,457 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Frontplatte Raspberry 4_PETG_14m52s.gcode, sliced by OrcaSlicer
+
+2025-02-18 10:57:33,085 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-5ewed7rc.json) successfully finished
+2025-02-18 10:57:33,091 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Frontplatte Raspberry 4_PETG_14m52s.gcode
+2025-02-18 10:57:33,108 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 1208.81ms
+2025-02-18 10:57:33,160 [job_state.py:_status_update()] - Job Started: Frontplatte Raspberry 4_PETG_14m52s.gcode
+2025-02-18 11:33:36,378 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-02-18 11:33:36,401 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-02-18 11:33:36,411 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 11:33:36,431 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-18 11:33:38,068 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
+2025-02-18 11:40:11,296 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9fq3QsLukm7AENZB
+2025-02-18 11:40:11,315 [application.py:post()] - Processing Uploaded File: crowsnest.conf
+2025-02-18 11:40:11,325 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 32.32ms
