@@ -2776,3 +2776,13 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=chase
+2025-02-18 10:31:19,870 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-02-18 10:31:19,892 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-18 10:31:19,894 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-18 10:31:19,897 [klippy_connection.py:_check_ready()] - 
+Option 'control' in section 'heater_bed' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
