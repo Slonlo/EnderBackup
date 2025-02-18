@@ -4154,3 +4154,10 @@ Content-Type: multipart/form-data; boundary=------------------------294c212208c8
 2025-02-18 16:35:02,141 [job_state.py:_status_update()] - Job Started: book_stand_x_v_0_3_5_PETG_1h9m.gcode
 2025-02-18 17:14:55,255 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-02-18 17:14:56,498 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2025-02-18 17:16:06,566 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------95cedb9794c4c020
+2025-02-18 17:16:06,919 [application.py:post()] - Processing Uploaded File: book_stand_x_v_0_3_5_PLA_1h9m.gcode
+2025-02-18 17:16:07,419 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-18 17:16:07,421 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: book_stand_x_v_0_3_5_PLA_1h9m.gcode, sliced by OrcaSlicer
+
