@@ -4141,3 +4141,10 @@ Error configuring printer
 2025-02-18 16:29:58,628 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-02-18 16:29:58,899 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-18 16:29:59,638 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-18 16:34:58,132 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------294c212208c8c3b1
+2025-02-18 16:34:58,313 [application.py:post()] - Processing Uploaded File: book_stand_x_v_0_3_5_PETG_1h9m.gcode
+2025-02-18 16:34:58,901 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-18 16:34:58,902 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: book_stand_x_v_0_3_5_PETG_1h9m.gcode, sliced by OrcaSlicer
+
