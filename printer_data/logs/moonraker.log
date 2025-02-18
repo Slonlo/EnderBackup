@@ -2759,3 +2759,20 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
 2025-02-18 10:08:10,650 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.database.get_item, Code: -32601, Message: Key 'webcams' in namespace 'mobileraker' not found
 2025-02-18 10:13:38,051 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
 2025-02-18 10:13:38,052 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-02-18 10:31:17,998 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-18 10:31:19,008 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-18 10:31:19,082 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'system.slice', 'sysinit.target']
+**After=['network-online.target', 'system.slice', 'basic.target', 'systemd-journald.socket', 'sysinit.target', '-.mount']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
