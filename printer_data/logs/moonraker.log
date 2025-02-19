@@ -310,3 +310,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0lPzSdXAvGGV6Q
 2025-02-19 07:09:28,123 [application.py:post()] - Processing Uploaded File: printer.cfg
 2025-02-19 07:09:28,136 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 63.31ms
 2025-02-19 07:09:29,222 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-19 07:09:30,485 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-19 07:09:33,376 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-19 07:09:33,381 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
