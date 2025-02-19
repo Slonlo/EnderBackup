@@ -294,3 +294,14 @@ Properties:
 2025-02-19 06:49:14,925 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.07ms
 2025-02-19 06:49:14,927 [websockets.py:open()] - Websocket Opened: ID: 139962717563536, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-02-19 06:49:14,932 [websockets.py:_handle_identify()] - Websocket 139962717563536 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-19 06:50:04,237 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------c25918a76b1d3b91
+2025-02-19 06:50:04,263 [application.py:post()] - Processing Uploaded File: Cube_PLA_7m2s.gcode
+2025-02-19 06:50:04,638 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-19 06:50:04,645 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Cube_PLA_7m2s.gcode, sliced by OrcaSlicer
+
+2025-02-19 06:50:04,766 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-9y1exsk8.json) successfully finished
+2025-02-19 06:50:04,769 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Cube_PLA_7m2s.gcode
+2025-02-19 06:50:04,802 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 567.95ms
+2025-02-19 06:50:04,872 [job_state.py:_status_update()] - Job Started: Cube_PLA_7m2s.gcode
