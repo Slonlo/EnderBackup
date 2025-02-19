@@ -1675,3 +1675,4 @@ ConnectionRefusedError: [Errno 111] Connect call failed ('192.168.1.130', 7125)
 2025-02-19 06:49:14,257 mobileraker.cam INFO - Trying to take a snapshot from URI: http://192.168.1.130/webcam/?action=snapshot
 2025-02-19 06:49:14,529 mobileraker.cam INFO - Took webcam snapshot! Rotating it using rotation 0°
 2025-02-19 06:49:14,535 mobileraker.fcm INFO - Submitting 1 device-requets to mobileraker server
+2025-02-19 06:49:15,974 mobileraker.Ender3V2 INFO - ---- Completed Evaluations Task! ----
