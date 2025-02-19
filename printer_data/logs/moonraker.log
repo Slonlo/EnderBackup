@@ -316,3 +316,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0lPzSdXAvGGV6Q
 2025-02-19 07:09:33,627 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-02-19 07:09:33,905 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-19 07:09:34,648 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-19 07:17:08,836 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 5.05ms
+2025-02-19 07:17:08,837 [websockets.py:open()] - Websocket Opened: ID: 139962717548208, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-19 07:17:08,842 [websockets.py:_handle_identify()] - Websocket 139962717548208 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
