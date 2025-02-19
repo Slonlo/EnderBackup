@@ -4205,3 +4205,17 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-18 18:50:24,185 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.52ms
+2025-02-18 18:50:24,186 [websockets.py:open()] - Websocket Opened: ID: 139962717557568, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-18 18:50:24,225 [websockets.py:_handle_identify()] - Websocket 139962717557568 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-18 18:50:55,366 [websockets.py:on_close()] - Websocket Closed: ID: 139962717557568 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.37
+2025-02-18 18:54:41,652 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 5.53ms
+2025-02-18 18:54:41,654 [websockets.py:open()] - Websocket Opened: ID: 139962718564160, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-18 18:54:41,733 [websockets.py:_handle_identify()] - Websocket 139962718564160 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-18 18:54:58,354 [websockets.py:on_close()] - Websocket Closed: ID: 139962718564160 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.67
+2025-02-18 18:55:02,725 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 5.13ms
+2025-02-18 18:55:02,725 [websockets.py:open()] - Websocket Opened: ID: 139962717701744, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-18 18:55:02,748 [websockets.py:_handle_identify()] - Websocket 139962717701744 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-18 18:55:27,901 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962717701744
+2025-02-18 18:55:27,903 [websockets.py:on_close()] - Websocket Closed: ID: 139962717701744 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.02
+2025-02-18 19:59:53,372 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
