@@ -3752,3 +3752,13 @@ Index |  Tool Adjusted  |   Probe
   224 | (225.9, 188.9)  | (184.9, 184.9)
 Starting heater checks for extruder
 Stats 57604.8: gcodein=0  mcu: mcu_awake=0.000 mcu_task_avg=0.000000 mcu_task_stddev=0.000000 bytes_write=1117 bytes_read=4230 bytes_retransmit=9 bytes_invalid=0 send_seq=123 receive_seq=123 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003793  heater_bed: target=0 temp=44.5 pwm=0.000 sysload=0.40 cputime=38.110 memavail=2769632 print_time=4.342 buffer_time=0.216 print_stall=0 extruder: target=0 temp=0.0 pwm=0.000
+webhooks: registering remote method 'shutdown_machine' for connection id: 140659434882096
+webhooks: registering remote method 'reboot_machine' for connection id: 140659434882096
+webhooks: registering remote method 'pause_job_queue' for connection id: 140659434882096
+webhooks: registering remote method 'start_job_queue' for connection id: 140659434882096
+webhooks: registering remote method 'set_wled_state' for connection id: 140659434882096
+webhooks: registering remote method 'set_wled' for connection id: 140659434882096
+webhooks: registering remote method 'set_device_power' for connection id: 140659434882096
+Stats 57605.8: gcodein=0  mcu: mcu_awake=0.005 mcu_task_avg=0.000029 mcu_task_stddev=0.000048 bytes_write=1123 bytes_read=4366 bytes_retransmit=9 bytes_invalid=0 send_seq=124 receive_seq=124 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002947  heater_bed: target=0 temp=44.4 pwm=0.000 sysload=0.45 cputime=38.159 memavail=2759776 print_time=4.342 buffer_time=0.000 print_stall=0 extruder: target=0 temp=68.4 pwm=0.000
+Stats 57606.8: gcodein=0  mcu: mcu_awake=0.005 mcu_task_avg=0.000029 mcu_task_stddev=0.000048 bytes_write=1129 bytes_read=4472 bytes_retransmit=9 bytes_invalid=0 send_seq=125 receive_seq=125 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002505  heater_bed: target=0 temp=44.4 pwm=0.000 sysload=0.45 cputime=38.208 memavail=2764228 print_time=4.342 buffer_time=0.000 print_stall=0 extruder: target=0 temp=68.3 pwm=0.000
+Stats 57607.8: gcodein=0  mcu: mcu_awake=0.005 mcu_task_avg=0.000029 mcu_task_stddev=0.000048 bytes_write=1135 bytes_read=4593 bytes_retransmit=9 bytes_invalid=0 send_seq=126 receive_seq=126 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002542  heater_bed: target=0 temp=44.4 pwm=0.000 sysload=0.45 cputime=38.229 memavail=2768580 print_time=4.342 buffer_time=0.000 print_stall=0 extruder: target=0 temp=68.2 pwm=0.000
