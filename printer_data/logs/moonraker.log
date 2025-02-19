@@ -285,3 +285,7 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=chase
+2025-02-19 06:49:13,421 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-19 06:49:13,424 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-19 06:49:13,673 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-19 06:49:13,944 [klippy_connection.py:_check_ready()] - Klippy ready
