@@ -1,4 +1,4 @@
--------------------- Log Start | Wed Feb 19 10:16:53 2025 --------------------
+-------------------- Log Start | Thu Feb 20 08:00:26 2025 --------------------
 platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -238,7 +238,7 @@ is_default: True
 manager: systemd
 Properties:
 **Requires=['sysinit.target', '-.mount', 'system.slice']
-**After=['network-online.target', '-.mount', 'basic.target', 'sysinit.target', 'systemd-journald.socket', 'system.slice']
+**After=['network-online.target', 'basic.target', 'system.slice', 'systemd-journald.socket', 'sysinit.target', '-.mount']
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
 **ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
@@ -255,101 +255,4 @@ Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-02-19 05:16:53,495 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.227
-2025-02-19 05:16:53,500 [application.py:log_request()] - 101 GET /websocket (192.168.1.227) [_TRUSTED_USER_] 8.04ms
-2025-02-19 05:16:53,500 [websockets.py:open()] - Websocket Opened: ID: 139962718561376, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
-2025-02-19 05:16:53,529 [websockets.py:_handle_identify()] - Websocket 139962718561376 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
-2025-02-19 05:17:40,967 [websockets.py:on_close()] - Websocket Closed: ID: 139962718561376 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.41
-2025-02-19 06:19:53,459 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.227
-2025-02-19 06:44:33,855 [websockets.py:on_close()] - Websocket Closed: ID: 139962718562720 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.69
-2025-02-19 06:48:36,362 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
-2025-02-19 06:48:36,364 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 5.26ms
-2025-02-19 06:48:36,364 [websockets.py:open()] - Websocket Opened: ID: 139962718622816, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
-2025-02-19 06:48:36,371 [websockets.py:_handle_identify()] - Websocket 139962718622816 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
-2025-02-19 06:49:09,010 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
-2025-02-19 06:49:09,037 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
-2025-02-19 06:49:09,065 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
-2025-02-19 06:49:09,947 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2025-02-19 06:49:10,031 [server.py:add_log_rollover_item()] - 
-Systemd unit klipper.service:
-unit_name: klipper.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['sysinit.target', '-.mount', 'system.slice']
-**After=['network-online.target', 'basic.target', 'system.slice', 'systemd-journald.socket', 'sysinit.target', '-.mount']
-**SupplementaryGroups=[]
-**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
-**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
-**WorkingDirectory=/home/chase/klipper
-**FragmentPath=/etc/systemd/system/klipper.service
-**Description=Klipper 3D Printer Firmware SV1
-**User=chase
-2025-02-19 06:49:13,421 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
-2025-02-19 06:49:13,424 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
-2025-02-19 06:49:13,673 [job_state.py:_handle_started()] - Job state initialized: standby
-2025-02-19 06:49:13,944 [klippy_connection.py:_check_ready()] - Klippy ready
-2025-02-19 06:49:14,686 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
-2025-02-19 06:49:14,758 [websockets.py:on_close()] - Websocket Closed: ID: 139962718622816 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.39
-2025-02-19 06:49:14,925 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.07ms
-2025-02-19 06:49:14,927 [websockets.py:open()] - Websocket Opened: ID: 139962717563536, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
-2025-02-19 06:49:14,932 [websockets.py:_handle_identify()] - Websocket 139962717563536 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
-2025-02-19 06:50:04,237 [application.py:prepare()] - Upload Request Received from 192.168.1.6
-Content-Type: multipart/form-data; boundary=------------------------c25918a76b1d3b91
-2025-02-19 06:50:04,263 [application.py:post()] - Processing Uploaded File: Cube_PLA_7m2s.gcode
-2025-02-19 06:50:04,638 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
-
-2025-02-19 06:50:04,645 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Cube_PLA_7m2s.gcode, sliced by OrcaSlicer
-
-2025-02-19 06:50:04,766 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-9y1exsk8.json) successfully finished
-2025-02-19 06:50:04,769 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Cube_PLA_7m2s.gcode
-2025-02-19 06:50:04,802 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 567.95ms
-2025-02-19 06:50:04,872 [job_state.py:_status_update()] - Job Started: Cube_PLA_7m2s.gcode
-2025-02-19 07:09:28,077 [application.py:prepare()] - Upload Request Received from 192.168.1.6
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0lPzSdXAvGGV6QCd
-2025-02-19 07:09:28,123 [application.py:post()] - Processing Uploaded File: printer.cfg
-2025-02-19 07:09:28,136 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 63.31ms
-2025-02-19 07:09:29,222 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2025-02-19 07:09:30,485 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2025-02-19 07:09:33,376 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
-2025-02-19 07:09:33,381 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
-2025-02-19 07:09:33,627 [job_state.py:_handle_started()] - Job state initialized: standby
-2025-02-19 07:09:33,905 [klippy_connection.py:_check_ready()] - Klippy ready
-2025-02-19 07:09:34,648 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
-2025-02-19 07:17:08,836 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 5.05ms
-2025-02-19 07:17:08,837 [websockets.py:open()] - Websocket Opened: ID: 139962717548208, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
-2025-02-19 07:17:08,842 [websockets.py:_handle_identify()] - Websocket 139962717548208 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
-2025-02-19 07:19:43,039 [application.py:prepare()] - Upload Request Received from 192.168.1.6
-Content-Type: multipart/form-data; boundary=------------------------72e6c0002fe764d1
-2025-02-19 07:19:43,228 [application.py:post()] - Processing Uploaded File: Body2_PETG_26m53s.gcode
-2025-02-19 07:19:43,687 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
-
-2025-02-19 07:19:43,688 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body2_PETG_26m53s.gcode, sliced by OrcaSlicer
-
-2025-02-19 07:19:45,273 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-oaw16m3i.json) successfully finished
-2025-02-19 07:19:45,278 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body2_PETG_26m53s.gcode
-2025-02-19 07:19:45,315 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 2277.98ms
-2025-02-19 07:19:45,541 [job_state.py:_status_update()] - Job Started: Body2_PETG_26m53s.gcode
-2025-02-19 08:07:06,897 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
-2025-02-19 08:07:06,922 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
-2025-02-19 08:07:06,933 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2025-02-19 08:07:06,953 [eventloop.py:_wrapper()] - Error Running Callback
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
-    await ret
-  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
-    await self.process_power_changed()
-  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
-    await self.process_bound_services()
-  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
-    await machine_cmp.do_service_action(action, svc)
-  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
-    await self.sys_provider.do_service_action(action, service_name)
-  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
-    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
-  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
-    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
-  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
-    raise DBusError._from_message(msg)
-dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
-2025-02-19 08:24:53,481 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-02-20 03:00:26,941 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
