@@ -309,3 +309,5 @@ Traceback (most recent call last):
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 
 2025-02-21 17:40:44,515 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-21 17:40:50,060 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-21 17:40:50,064 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
