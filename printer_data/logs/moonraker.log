@@ -352,3 +352,4 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-21 17:48:51,348 [websockets.py:open()] - Websocket Opened: ID: 139962718738032, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
 2025-02-21 17:48:51,377 [websockets.py:_handle_identify()] - Websocket 139962718738032 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-02-21 17:48:55,032 [websockets.py:on_close()] - Websocket Closed: ID: 139962718738032 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.69
+2025-02-21 18:44:54,072 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
