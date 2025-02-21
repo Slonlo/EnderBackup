@@ -1,4 +1,4 @@
--------------------- Log Start | Fri Feb 21 14:05:02 2025 --------------------
+-------------------- Log Start | Thu Feb 20 08:00:26 2025 --------------------
 platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -255,7 +255,25 @@ Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-02-21 09:05:02,306 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
-2025-02-21 09:05:02,309 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 6.05ms
-2025-02-21 09:05:02,309 [websockets.py:open()] - Websocket Opened: ID: 139962718711712, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
-2025-02-21 09:05:02,318 [websockets.py:_handle_identify()] - Websocket 139962718711712 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-20 03:00:26,941 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-20 03:00:54,938 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962717563536
+2025-02-20 03:00:58,942 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718701216
+2025-02-20 03:00:58,943 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962717548208
+2025-02-20 03:00:59,932 [websockets.py:on_close()] - Websocket Closed: ID: 139962717563536 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-02-20 03:01:03,754 [websockets.py:on_close()] - Websocket Closed: ID: 139962718701216 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-02-20 03:01:03,840 [websockets.py:on_close()] - Websocket Closed: ID: 139962717548208 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-20 03:01:15,960 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962770458416
+2025-02-20 03:01:20,471 [websockets.py:on_close()] - Websocket Closed: ID: 139962770458416 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-20 03:02:37,079 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-20 03:02:41,575 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-20 03:02:41,579 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 8.65ms
+2025-02-20 03:02:41,579 [websockets.py:open()] - Websocket Opened: ID: 139962717546240, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-20 04:04:53,664 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-02-20 20:48:36,895 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-20 20:49:21,907 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962717546240
+2025-02-20 20:49:26,584 [websockets.py:on_close()] - Websocket Closed: ID: 139962717546240 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-20 20:50:47,027 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-20 20:51:11,937 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-20 20:51:11,939 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 6.38ms
+2025-02-20 20:51:11,939 [websockets.py:open()] - Websocket Opened: ID: 139962718711520, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-20 21:54:53,853 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
