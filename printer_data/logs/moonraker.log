@@ -256,3 +256,24 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-02-22 08:29:09,234 [websockets.py:on_close()] - Websocket Closed: ID: 139962718741312 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.14
+2025-02-22 08:36:43,673 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.127
+2025-02-22 08:36:43,675 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 5.38ms
+2025-02-22 08:36:43,676 [websockets.py:open()] - Websocket Opened: ID: 139962718151296, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 08:36:43,727 [websockets.py:_handle_identify()] - Websocket 139962718151296 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 08:37:13,797 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718152016
+2025-02-22 08:37:18,008 [websockets.py:on_close()] - Websocket Closed: ID: 139962718152016 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-02-22 08:38:06,507 [websockets.py:on_close()] - Websocket Closed: ID: 139962718151296 Close Code: None, Close Reason: None, Pong Time Elapsed: 22.81
+2025-02-22 08:48:47,077 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 6.54ms
+2025-02-22 08:48:47,078 [websockets.py:open()] - Websocket Opened: ID: 139962718152208, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 08:48:47,115 [websockets.py:_handle_identify()] - Websocket 139962718152208 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 08:51:06,100 [websockets.py:on_close()] - Websocket Closed: ID: 139962718152208 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.71
+2025-02-22 08:52:17,207 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 4.86ms
+2025-02-22 08:52:17,208 [websockets.py:open()] - Websocket Opened: ID: 139962718151152, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 08:52:17,249 [websockets.py:_handle_identify()] - Websocket 139962718151152 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 08:52:46,184 [application.py:prepare()] - Upload Request Received from 192.168.1.127
+Content-Type: multipart/form-data; boundary=------------------------34b2c234ff6a800f
+2025-02-22 08:52:46,773 [application.py:post()] - Processing Uploaded File: MeshBody1_PETG_1h51m.gcode
+2025-02-22 08:52:47,246 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-22 08:52:47,249 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: MeshBody1_PETG_1h51m.gcode, sliced by OrcaSlicer
+
