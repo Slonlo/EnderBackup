@@ -529,3 +529,15 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-22 16:25:46,425 [websockets.py:open()] - Websocket Opened: ID: 139962718622624, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-02-22 16:25:46,564 [websockets.py:_handle_identify()] - Websocket 139962718622624 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
 2025-02-22 16:26:26,810 [websockets.py:on_close()] - Websocket Closed: ID: 139962718622624 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.34
+2025-02-22 16:42:15,207 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.41ms
+2025-02-22 16:42:15,208 [websockets.py:open()] - Websocket Opened: ID: 139962718877728, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 16:42:15,282 [websockets.py:_handle_identify()] - Websocket 139962718877728 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 16:42:38,829 [websockets.py:on_close()] - Websocket Closed: ID: 139962718877728 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.48
+2025-02-22 16:42:44,661 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.32ms
+2025-02-22 16:42:44,661 [websockets.py:open()] - Websocket Opened: ID: 139962771288464, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 16:42:44,731 [websockets.py:_handle_identify()] - Websocket 139962771288464 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 16:43:17,301 [websockets.py:on_close()] - Websocket Closed: ID: 139962771288464 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.54
+2025-02-22 16:43:19,591 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.17ms
+2025-02-22 16:43:19,591 [websockets.py:open()] - Websocket Opened: ID: 139962246668448, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 16:43:19,667 [websockets.py:_handle_identify()] - Websocket 139962246668448 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 16:44:57,856 [websockets.py:on_close()] - Websocket Closed: ID: 139962246668448 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.21
