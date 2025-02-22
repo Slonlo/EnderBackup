@@ -334,3 +334,6 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-22 10:03:14,666 [websockets.py:open()] - Websocket Opened: ID: 139962771290720, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-02-22 10:03:14,719 [websockets.py:_handle_identify()] - Websocket 139962771290720 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
 2025-02-22 10:04:22,135 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290720 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.39
+2025-02-22 10:34:40,675 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.70ms
+2025-02-22 10:34:40,677 [websockets.py:open()] - Websocket Opened: ID: 139962771291440, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:34:40,732 [websockets.py:_handle_identify()] - Websocket 139962771291440 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
