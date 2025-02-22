@@ -396,3 +396,95 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-22 11:18:38,020 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 11:18:38,023 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 6.01ms
+2025-02-22 11:18:38,024 [websockets.py:open()] - Websocket Opened: ID: 139962771290432, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 11:18:38,108 [websockets.py:_handle_identify()] - Websocket 139962771290432 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 11:19:08,140 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718151152
+2025-02-22 11:19:12,215 [websockets.py:on_close()] - Websocket Closed: ID: 139962718151152 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-02-22 11:40:04,058 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f4b9c100af0>, <Task finished name='Task-4504084' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2025-02-22 11:40:09,561 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f4b9c0fa1f0>, <Task finished name='Task-4504142' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2025-02-22 11:59:54,286 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.247
+2025-02-22 12:19:54,289 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 13:19:36,730 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 13:19:36,734 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 8.52ms
+2025-02-22 13:19:36,735 [websockets.py:open()] - Websocket Opened: ID: 139962718899264, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 13:19:36,789 [websockets.py:_handle_identify()] - Websocket 139962718899264 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 13:19:39,397 [websockets.py:on_close()] - Websocket Closed: ID: 139962718899264 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.67
+2025-02-22 13:23:18,760 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962771290432
+2025-02-22 13:23:23,032 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290432 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.71
+2025-02-22 13:23:40,658 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 6.45ms
+2025-02-22 13:23:40,659 [websockets.py:open()] - Websocket Opened: ID: 139962718708448, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 13:23:40,780 [websockets.py:_handle_identify()] - Websocket 139962718708448 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 13:24:12,846 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 13:24:40,848 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718708448
+2025-02-22 13:24:45,664 [websockets.py:on_close()] - Websocket Closed: ID: 139962718708448 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.74
+2025-02-22 13:25:02,897 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718711520
+2025-02-22 13:25:06,943 [websockets.py:on_close()] - Websocket Closed: ID: 139962718711520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-22 13:25:52,958 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 13:25:55,790 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.67ms
+2025-02-22 13:25:55,791 [websockets.py:open()] - Websocket Opened: ID: 139962718710800, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 13:25:56,032 [websockets.py:_handle_identify()] - Websocket 139962718710800 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 13:25:57,002 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-22 13:25:57,004 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.87ms
+2025-02-22 13:25:57,005 [websockets.py:open()] - Websocket Opened: ID: 139962770650928, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-22 13:31:07,201 [websockets.py:on_close()] - Websocket Closed: ID: 139962718710800 Close Code: None, Close Reason: None, Pong Time Elapsed: 11.38
+2025-02-22 14:05:04,735 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 14:05:47,745 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962770650928
+2025-02-22 14:05:52,010 [websockets.py:on_close()] - Websocket Closed: ID: 139962770650928 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-22 14:06:29,172 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.83ms
+2025-02-22 14:06:29,173 [websockets.py:open()] - Websocket Opened: ID: 139962771288560, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-22 14:06:34,827 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 14:24:16,585 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.27ms
+2025-02-22 14:24:16,586 [websockets.py:open()] - Websocket Opened: ID: 139962770652704, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 14:24:16,628 [websockets.py:_handle_identify()] - Websocket 139962770652704 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 14:33:43,524 [websockets.py:on_close()] - Websocket Closed: ID: 139962770652704 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.82
+2025-02-22 15:09:54,312 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-02-22 15:18:48,071 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 15:19:40,098 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962771288560
+2025-02-22 15:19:44,178 [websockets.py:on_close()] - Websocket Closed: ID: 139962771288560 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-22 15:20:58,210 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-02-22 15:20:58,213 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-02-22 15:21:08,204 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 15:21:08,206 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-02-22 15:21:15,020 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-22 15:21:15,028 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 11.01ms
+2025-02-22 15:21:15,029 [websockets.py:open()] - Websocket Opened: ID: 139962718708976, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-22 15:24:54,313 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 15:48:00,112 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 15:48:00,116 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 7.37ms
+2025-02-22 15:48:00,117 [websockets.py:open()] - Websocket Opened: ID: 139962761832000, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 15:48:00,150 [websockets.py:_handle_identify()] - Websocket 139962761832000 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 15:49:30,152 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------7ca56ae73b1d4f72
+2025-02-22 15:49:31,709 [application.py:post()] - Processing Uploaded File: Body1_PETG_55m58s.gcode
+2025-02-22 15:49:32,182 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-22 15:49:32,184 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PETG_55m58s.gcode, sliced by OrcaSlicer
+
