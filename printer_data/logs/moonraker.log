@@ -388,3 +388,28 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-21 20:18:51,628 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.127
+2025-02-21 20:18:51,631 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 5.51ms
+2025-02-21 20:18:51,631 [websockets.py:open()] - Websocket Opened: ID: 139962718707872, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-21 20:18:51,637 [websockets.py:_handle_identify()] - Websocket 139962718707872 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-21 20:18:51,658 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 2.62ms
+2025-02-21 20:18:51,658 [websockets.py:open()] - Websocket Opened: ID: 139962718624592, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-21 20:18:51,667 [websockets.py:_handle_identify()] - Websocket 139962718624592 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-21 20:19:23,349 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718151680
+2025-02-21 20:19:23,350 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718742752
+2025-02-21 20:19:28,251 [websockets.py:on_close()] - Websocket Closed: ID: 139962718151680 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-02-21 20:19:28,312 [websockets.py:on_close()] - Websocket Closed: ID: 139962718742752 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-02-21 20:49:54,115 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-21 20:54:13,000 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-21 20:54:13,003 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 8.46ms
+2025-02-21 20:54:13,004 [websockets.py:open()] - Websocket Opened: ID: 139962718152016, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-21 20:54:13,022 [websockets.py:_handle_identify()] - Websocket 139962718152016 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-21 20:54:13,051 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.33ms
+2025-02-21 20:54:13,052 [websockets.py:open()] - Websocket Opened: ID: 139962718741312, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-21 20:54:13,064 [websockets.py:_handle_identify()] - Websocket 139962718741312 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-21 20:54:41,885 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718707872
+2025-02-21 20:54:41,888 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718624592
+2025-02-21 20:54:46,634 [websockets.py:on_close()] - Websocket Closed: ID: 139962718707872 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
+2025-02-21 20:54:46,661 [websockets.py:on_close()] - Websocket Closed: ID: 139962718624592 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.96
+2025-02-21 21:19:54,122 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.127
+2025-02-21 21:54:54,129 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
