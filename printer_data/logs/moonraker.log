@@ -346,3 +346,22 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-22 10:48:11,595 [websockets.py:open()] - Websocket Opened: ID: 139962771291248, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-02-22 10:48:11,695 [websockets.py:_handle_identify()] - Websocket 139962771291248 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
 2025-02-22 10:48:54,297 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291248 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.60
+2025-02-22 10:49:51,810 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.40ms
+2025-02-22 10:49:51,810 [websockets.py:open()] - Websocket Opened: ID: 139962771290336, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:49:51,996 [websockets.py:_handle_identify()] - Websocket 139962771290336 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:50:56,509 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290336 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.62
+2025-02-22 10:51:16,804 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.44ms
+2025-02-22 10:51:16,805 [websockets.py:open()] - Websocket Opened: ID: 139962771290384, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:51:16,892 [websockets.py:_handle_identify()] - Websocket 139962771290384 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:52:51,157 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290384 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.28
+2025-02-22 10:52:54,497 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.41ms
+2025-02-22 10:52:54,498 [websockets.py:open()] - Websocket Opened: ID: 139962771289424, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:52:54,559 [websockets.py:_handle_identify()] - Websocket 139962771289424 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:53:22,181 [websockets.py:on_close()] - Websocket Closed: ID: 139962771289424 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.53
+2025-02-22 10:53:24,640 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 3.89ms
+2025-02-22 10:53:24,641 [websockets.py:open()] - Websocket Opened: ID: 139962771291968, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:53:24,747 [websockets.py:_handle_identify()] - Websocket 139962771291968 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:53:59,516 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291968 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.73
+2025-02-22 10:54:22,159 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.20ms
+2025-02-22 10:54:22,160 [websockets.py:open()] - Websocket Opened: ID: 139962771291968, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:54:22,239 [websockets.py:_handle_identify()] - Websocket 139962771291968 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
