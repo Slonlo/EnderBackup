@@ -1,0 +1,586 @@
+-------------------- Log Start | Sat Feb 22 13:29:09 2025 --------------------
+platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.29
+data_path: /home/chase/printer_data
+is_default_data_path: False
+config_file: /home/chase/printer_data/config/moonraker.conf
+backup_config: None
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: b8aeafbbdbb14078bbacb03f480f8081
+unix_socket_path: /home/chase/printer_data/comms/moonraker.sock
+software_version: v0.9.3-58-ga0164e1
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker
+modified_files: []
+unofficial_components: []
+log_file: /home/chase/printer_data/logs/moonraker.log
+python_version: 3.8.10 (default, Jan 17 2025, 14:40:23)  [GCC 9.4.0]
+launch_args: /home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/moonraker.py -d /home/chase/printer_data
+msgspec_enabled: True
+uvloop_enabled: True
+
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[file_manager]
+enable_object_processing = True
+queue_gcode_uploads = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+[power Power]
+type = tplink_smartplug
+address = 192.168.1.31
+off_when_shutdown = True
+on_when_job_queued = True
+restart_klipper_when_powered = True
+locked_while_printing = False
+bound_services = 
+	klipper
+	klipper-mcu
+
+[wled printerled]
+type = http
+address = 192.168.1.154
+initial_red = 0.0
+initial_green = 0.0
+initial_blue = 0.0
+chain_count = 20
+
+[job_queue]
+load_on_startup = True
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/chase/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/chase/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager mobileraker]
+type = git_repo
+path = /home/chase/mobileraker_companion
+origin = https://github.com/Clon1998/mobileraker_companion.git
+primary_branch = main
+managed_services = mobileraker
+env = /home/chase/mobileraker-env/bin/python
+requirements = scripts/mobileraker-requirements.txt
+install_script = scripts/install.sh
+
+#################################################################
+All Configuration Files:
+/home/chase/printer_data/config/moonraker.conf
+/home/chase/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+Loading Sqlite database provider. Sqlite Version: 3.31.1
+Unsafe Shutdown Count: 2
+
+System Info:
+
+***python***
+  version: (3, 8, 10, 'final', 0)
+  version_string: 3.8.10 (default, Jan 17 2025, 14:40:23)  [GCC 9.4.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 64bit
+  processor: x86_64
+  cpu_desc: Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+  serial_number: 
+  hardware_desc: 
+  model: 
+  total_memory: 3933588
+  memory_units: kB
+
+***sd_info***
+  manufacturer_id: 45
+  manufacturer: Unknown
+  oem_id: 0100
+  product_name: DA403
+  product_revision: 3.2
+  serial_number: 0146a370
+  manufacturer_date: 5/2102
+  capacity: Unknown
+  total_bytes: 0
+
+***distribution***
+  name: Ubuntu 20.04.6 LTS
+  id: ubuntu
+  version: 20.04
+  version_parts: {'major': '20', 'minor': '04', 'build_number': ''}
+  like: debian
+  codename: focal
+  release_info: {}
+  kernel_version: 5.15.0-131-generic
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+  mobileraker
+Module libcamera unavailble, import failed
+
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', 'network-online.target', '-.mount', 'system.slice']
+**After=['systemd-journald.socket', 'sysinit.target', 'basic.target', 'network-online.target', 'system.slice', '-.mount']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/chase/printer_data/systemd/moonraker.env
+**ExecStart=/home/chase/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/chase/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=chase
+
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice']
+**After=['network-online.target', 'basic.target', 'system.slice', 'systemd-journald.socket', 'sysinit.target', '-.mount']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+Git Repo moonraker: No warnings detected
+Git Repo klipper: No warnings detected
+Git Repo mainsail-config: No warnings detected
+Git Repo crowsnest: No warnings detected
+Git Repo sonar: No warnings detected
+Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
+Git Repo klipper-backup: No warnings detected
+Git Repo mobileraker: No warnings detected
+Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-02-22 08:29:09,234 [websockets.py:on_close()] - Websocket Closed: ID: 139962718741312 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.14
+2025-02-22 08:36:43,673 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.127
+2025-02-22 08:36:43,675 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 5.38ms
+2025-02-22 08:36:43,676 [websockets.py:open()] - Websocket Opened: ID: 139962718151296, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 08:36:43,727 [websockets.py:_handle_identify()] - Websocket 139962718151296 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 08:37:13,797 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718152016
+2025-02-22 08:37:18,008 [websockets.py:on_close()] - Websocket Closed: ID: 139962718152016 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-02-22 08:38:06,507 [websockets.py:on_close()] - Websocket Closed: ID: 139962718151296 Close Code: None, Close Reason: None, Pong Time Elapsed: 22.81
+2025-02-22 08:48:47,077 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 6.54ms
+2025-02-22 08:48:47,078 [websockets.py:open()] - Websocket Opened: ID: 139962718152208, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 08:48:47,115 [websockets.py:_handle_identify()] - Websocket 139962718152208 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 08:51:06,100 [websockets.py:on_close()] - Websocket Closed: ID: 139962718152208 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.71
+2025-02-22 08:52:17,207 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 4.86ms
+2025-02-22 08:52:17,208 [websockets.py:open()] - Websocket Opened: ID: 139962718151152, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 08:52:17,249 [websockets.py:_handle_identify()] - Websocket 139962718151152 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 08:52:46,184 [application.py:prepare()] - Upload Request Received from 192.168.1.127
+Content-Type: multipart/form-data; boundary=------------------------34b2c234ff6a800f
+2025-02-22 08:52:46,773 [application.py:post()] - Processing Uploaded File: MeshBody1_PETG_1h51m.gcode
+2025-02-22 08:52:47,246 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-22 08:52:47,249 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: MeshBody1_PETG_1h51m.gcode, sliced by OrcaSlicer
+
+2025-02-22 08:52:52,344 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-cidmpj5s.json) successfully finished
+2025-02-22 08:52:52,348 [klippy_apis.py:start_print()] - Requesting Job Start, filename = MeshBody1_PETG_1h51m.gcode
+2025-02-22 08:52:52,358 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.127) [_TRUSTED_USER_] 6177.75ms
+2025-02-22 08:52:52,402 [power.py:_handle_job_queued()] - Power Device Power: Job 'MeshBody1_PETG_1h51m.gcode' queued, powering on
+2025-02-22 08:52:53,374 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-02-22 08:52:53,400 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-02-22 08:52:53,430 [server.py:_process_event()] - 
+Error processing callback in event job_queue:job_queue_changed
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/power.py", line 132, in _handle_job_queued
+    await dev.process_request("on")
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1245, in do_service_action
+    await mgr.call_start_unit(service_name, "replace")  # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
+
+2025-02-22 08:52:54,417 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-22 08:52:59,775 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-22 08:52:59,777 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-22 08:53:00,028 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-22 08:53:00,297 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-22 08:53:00,780 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-22 08:53:01,542 [klippy_apis.py:start_print()] - Requesting Job Start, filename = MeshBody1_PETG_1h51m.gcode
+2025-02-22 08:53:01,787 [job_state.py:_status_update()] - Job Started: MeshBody1_PETG_1h51m.gcode
+2025-02-22 09:00:42,823 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.247
+2025-02-22 09:00:42,826 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.47ms
+2025-02-22 09:00:42,826 [websockets.py:open()] - Websocket Opened: ID: 139962718736880, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 09:00:42,928 [websockets.py:_handle_identify()] - Websocket 139962718736880 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 09:01:08,349 [websockets.py:on_close()] - Websocket Closed: ID: 139962718736880 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.48
+2025-02-22 09:20:08,558 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.13ms
+2025-02-22 09:20:08,559 [websockets.py:open()] - Websocket Opened: ID: 139962718708352, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 09:20:08,656 [websockets.py:_handle_identify()] - Websocket 139962718708352 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 09:20:37,394 [websockets.py:on_close()] - Websocket Closed: ID: 139962718708352 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.57
+2025-02-22 09:22:28,957 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.49ms
+2025-02-22 09:22:28,958 [websockets.py:open()] - Websocket Opened: ID: 139962718737120, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 09:22:29,058 [websockets.py:_handle_identify()] - Websocket 139962718737120 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 09:23:43,864 [websockets.py:on_close()] - Websocket Closed: ID: 139962718737120 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.73
+2025-02-22 09:50:33,766 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.37ms
+2025-02-22 09:50:33,767 [websockets.py:open()] - Websocket Opened: ID: 139962771290672, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 09:50:33,837 [websockets.py:_handle_identify()] - Websocket 139962771290672 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 09:51:59,125 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290672 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.93
+2025-02-22 09:54:54,267 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.127
+2025-02-22 10:03:14,666 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.26ms
+2025-02-22 10:03:14,666 [websockets.py:open()] - Websocket Opened: ID: 139962771290720, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:03:14,719 [websockets.py:_handle_identify()] - Websocket 139962771290720 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:04:22,135 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290720 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.39
+2025-02-22 10:34:40,675 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.70ms
+2025-02-22 10:34:40,677 [websockets.py:open()] - Websocket Opened: ID: 139962771291440, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:34:40,732 [websockets.py:_handle_identify()] - Websocket 139962771291440 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:35:12,991 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291440 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.17
+2025-02-22 10:45:57,489 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.42ms
+2025-02-22 10:45:57,490 [websockets.py:open()] - Websocket Opened: ID: 139962771291632, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:45:57,575 [websockets.py:_handle_identify()] - Websocket 139962771291632 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:47:18,172 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291632 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.57
+2025-02-22 10:48:11,594 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.27ms
+2025-02-22 10:48:11,595 [websockets.py:open()] - Websocket Opened: ID: 139962771291248, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:48:11,695 [websockets.py:_handle_identify()] - Websocket 139962771291248 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:48:54,297 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291248 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.60
+2025-02-22 10:49:51,810 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.40ms
+2025-02-22 10:49:51,810 [websockets.py:open()] - Websocket Opened: ID: 139962771290336, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:49:51,996 [websockets.py:_handle_identify()] - Websocket 139962771290336 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:50:56,509 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290336 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.62
+2025-02-22 10:51:16,804 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.44ms
+2025-02-22 10:51:16,805 [websockets.py:open()] - Websocket Opened: ID: 139962771290384, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:51:16,892 [websockets.py:_handle_identify()] - Websocket 139962771290384 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:52:51,157 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290384 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.28
+2025-02-22 10:52:54,497 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.41ms
+2025-02-22 10:52:54,498 [websockets.py:open()] - Websocket Opened: ID: 139962771289424, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:52:54,559 [websockets.py:_handle_identify()] - Websocket 139962771289424 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:53:22,181 [websockets.py:on_close()] - Websocket Closed: ID: 139962771289424 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.53
+2025-02-22 10:53:24,640 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 3.89ms
+2025-02-22 10:53:24,641 [websockets.py:open()] - Websocket Opened: ID: 139962771291968, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:53:24,747 [websockets.py:_handle_identify()] - Websocket 139962771291968 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:53:59,516 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291968 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.73
+2025-02-22 10:54:22,159 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.20ms
+2025-02-22 10:54:22,160 [websockets.py:open()] - Websocket Opened: ID: 139962771291968, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:54:22,239 [websockets.py:_handle_identify()] - Websocket 139962771291968 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:55:43,034 [websockets.py:on_close()] - Websocket Closed: ID: 139962771291968 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.68
+2025-02-22 10:56:11,031 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.66ms
+2025-02-22 10:56:11,032 [websockets.py:open()] - Websocket Opened: ID: 139962771289520, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:56:11,069 [websockets.py:_handle_identify()] - Websocket 139962771289520 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 10:58:15,324 [websockets.py:on_close()] - Websocket Closed: ID: 139962771289520 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.23
+2025-02-22 10:58:23,826 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.13ms
+2025-02-22 10:58:23,827 [websockets.py:open()] - Websocket Opened: ID: 139962771292016, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 10:58:23,916 [websockets.py:_handle_identify()] - Websocket 139962771292016 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 11:01:42,801 [websockets.py:on_close()] - Websocket Closed: ID: 139962771292016 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.62
+2025-02-22 11:16:25,717 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-02-22 11:16:25,746 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-02-22 11:16:25,752 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-22 11:16:25,773 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-22 11:18:38,020 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 11:18:38,023 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 6.01ms
+2025-02-22 11:18:38,024 [websockets.py:open()] - Websocket Opened: ID: 139962771290432, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 11:18:38,108 [websockets.py:_handle_identify()] - Websocket 139962771290432 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 11:19:08,140 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718151152
+2025-02-22 11:19:12,215 [websockets.py:on_close()] - Websocket Closed: ID: 139962718151152 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-02-22 11:40:04,058 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f4b9c100af0>, <Task finished name='Task-4504084' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2025-02-22 11:40:09,561 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f4b9c0fa1f0>, <Task finished name='Task-4504142' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2025-02-22 11:59:54,286 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.247
+2025-02-22 12:19:54,289 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 13:19:36,730 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 13:19:36,734 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 8.52ms
+2025-02-22 13:19:36,735 [websockets.py:open()] - Websocket Opened: ID: 139962718899264, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 13:19:36,789 [websockets.py:_handle_identify()] - Websocket 139962718899264 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 13:19:39,397 [websockets.py:on_close()] - Websocket Closed: ID: 139962718899264 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.67
+2025-02-22 13:23:18,760 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962771290432
+2025-02-22 13:23:23,032 [websockets.py:on_close()] - Websocket Closed: ID: 139962771290432 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.71
+2025-02-22 13:23:40,658 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 6.45ms
+2025-02-22 13:23:40,659 [websockets.py:open()] - Websocket Opened: ID: 139962718708448, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 13:23:40,780 [websockets.py:_handle_identify()] - Websocket 139962718708448 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 13:24:12,846 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 13:24:40,848 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718708448
+2025-02-22 13:24:45,664 [websockets.py:on_close()] - Websocket Closed: ID: 139962718708448 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.74
+2025-02-22 13:25:02,897 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718711520
+2025-02-22 13:25:06,943 [websockets.py:on_close()] - Websocket Closed: ID: 139962718711520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-22 13:25:52,958 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 13:25:55,790 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.67ms
+2025-02-22 13:25:55,791 [websockets.py:open()] - Websocket Opened: ID: 139962718710800, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 13:25:56,032 [websockets.py:_handle_identify()] - Websocket 139962718710800 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 13:25:57,002 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-22 13:25:57,004 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.87ms
+2025-02-22 13:25:57,005 [websockets.py:open()] - Websocket Opened: ID: 139962770650928, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-22 13:31:07,201 [websockets.py:on_close()] - Websocket Closed: ID: 139962718710800 Close Code: None, Close Reason: None, Pong Time Elapsed: 11.38
+2025-02-22 14:05:04,735 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 14:05:47,745 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962770650928
+2025-02-22 14:05:52,010 [websockets.py:on_close()] - Websocket Closed: ID: 139962770650928 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-22 14:06:29,172 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.83ms
+2025-02-22 14:06:29,173 [websockets.py:open()] - Websocket Opened: ID: 139962771288560, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-22 14:06:34,827 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 14:24:16,585 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.27ms
+2025-02-22 14:24:16,586 [websockets.py:open()] - Websocket Opened: ID: 139962770652704, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 14:24:16,628 [websockets.py:_handle_identify()] - Websocket 139962770652704 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 14:33:43,524 [websockets.py:on_close()] - Websocket Closed: ID: 139962770652704 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.82
+2025-02-22 15:09:54,312 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-02-22 15:18:48,071 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 15:19:40,098 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962771288560
+2025-02-22 15:19:44,178 [websockets.py:on_close()] - Websocket Closed: ID: 139962771288560 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-22 15:20:58,210 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-02-22 15:20:58,213 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-02-22 15:21:08,204 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-02-22 15:21:08,206 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-02-22 15:21:15,020 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-02-22 15:21:15,028 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 11.01ms
+2025-02-22 15:21:15,029 [websockets.py:open()] - Websocket Opened: ID: 139962718708976, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-22 15:24:54,313 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 15:48:00,112 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 15:48:00,116 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 7.37ms
+2025-02-22 15:48:00,117 [websockets.py:open()] - Websocket Opened: ID: 139962761832000, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 15:48:00,150 [websockets.py:_handle_identify()] - Websocket 139962761832000 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 15:49:30,152 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------7ca56ae73b1d4f72
+2025-02-22 15:49:31,709 [application.py:post()] - Processing Uploaded File: Body1_PETG_55m58s.gcode
+2025-02-22 15:49:32,182 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-22 15:49:32,184 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PETG_55m58s.gcode, sliced by OrcaSlicer
+
+2025-02-22 15:49:35,065 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-c6epwbem.json) successfully finished
+2025-02-22 15:49:35,071 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PETG_55m58s.gcode
+2025-02-22 15:49:35,077 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 4928.34ms
+2025-02-22 15:49:35,122 [power.py:_handle_job_queued()] - Power Device Power: Job 'Body1_PETG_55m58s.gcode' queued, powering on
+2025-02-22 15:49:35,691 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-02-22 15:49:35,713 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-02-22 15:49:35,749 [server.py:_process_event()] - 
+Error processing callback in event job_queue:job_queue_changed
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/power.py", line 132, in _handle_job_queued
+    await dev.process_request("on")
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1245, in do_service_action
+    await mgr.call_start_unit(service_name, "replace")  # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
+
+2025-02-22 15:49:36,780 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-22 15:49:40,177 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-22 15:49:40,179 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-22 15:49:40,428 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-22 15:49:40,705 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-22 15:49:41,179 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-22 15:49:41,953 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PETG_55m58s.gcode
+2025-02-22 15:49:42,184 [job_state.py:_status_update()] - Job Started: Body1_PETG_55m58s.gcode
+2025-02-22 16:24:54,326 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-02-22 16:25:46,422 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.247
+2025-02-22 16:25:46,425 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.69ms
+2025-02-22 16:25:46,425 [websockets.py:open()] - Websocket Opened: ID: 139962718622624, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 16:25:46,564 [websockets.py:_handle_identify()] - Websocket 139962718622624 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 16:26:26,810 [websockets.py:on_close()] - Websocket Closed: ID: 139962718622624 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.34
+2025-02-22 16:42:15,207 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.41ms
+2025-02-22 16:42:15,208 [websockets.py:open()] - Websocket Opened: ID: 139962718877728, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-22 16:42:15,282 [websockets.py:_handle_identify()] - Websocket 139962718877728 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-22 16:42:38,829 [websockets.py:on_close()] - Websocket Closed: ID: 139962718877728 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.48
+2025-02-22 16:42:44,661 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 4.32ms
+2025-02-22 16:42:44,661 [websockets.py:open()] - Websocket Opened: ID: 139962771288464, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 16:42:44,731 [websockets.py:_handle_identify()] - Websocket 139962771288464 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 16:43:17,301 [websockets.py:on_close()] - Websocket Closed: ID: 139962771288464 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.54
+2025-02-22 16:43:19,591 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.17ms
+2025-02-22 16:43:19,591 [websockets.py:open()] - Websocket Opened: ID: 139962246668448, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-22 16:43:19,667 [websockets.py:_handle_identify()] - Websocket 139962246668448 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 16:44:57,856 [websockets.py:on_close()] - Websocket Closed: ID: 139962246668448 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.21
+2025-02-22 16:49:54,332 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 17:12:39,530 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-22 17:12:39,533 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 5.34ms
+2025-02-22 17:12:39,533 [websockets.py:open()] - Websocket Opened: ID: 139962246669024, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 17:12:39,582 [websockets.py:_handle_identify()] - Websocket 139962246669024 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 17:12:40,316 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962761832000
+2025-02-22 17:12:45,120 [websockets.py:on_close()] - Websocket Closed: ID: 139962761832000 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.86
+2025-02-22 17:15:05,184 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.127
+2025-02-22 17:15:05,187 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 8.38ms
+2025-02-22 17:15:05,188 [websockets.py:open()] - Websocket Opened: ID: 139962718623584, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 17:15:05,473 [websockets.py:_handle_identify()] - Websocket 139962718623584 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 17:15:39,588 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962246669024
+2025-02-22 17:15:44,539 [websockets.py:on_close()] - Websocket Closed: ID: 139962246669024 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.84
+2025-02-22 17:16:39,689 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.74ms
+2025-02-22 17:16:39,690 [websockets.py:open()] - Websocket Opened: ID: 139962246670080, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-22 17:16:39,780 [websockets.py:_handle_identify()] - Websocket 139962246670080 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-22 17:17:15,231 [websockets.py:write_to_socket()] - Websocket closed while writing: 139962718623584
+2025-02-22 17:17:20,190 [websockets.py:on_close()] - Websocket Closed: ID: 139962718623584 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.90
+2025-02-22 17:29:06,882 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-02-22 17:29:06,911 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-02-22 17:29:06,918 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-22 17:29:06,942 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-22 17:44:54,338 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.247
+2025-02-22 18:19:54,342 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 18:19:54,343 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.127
