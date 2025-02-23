@@ -581,3 +581,6 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-22 17:44:54,338 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.247
+2025-02-22 18:19:54,342 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-22 18:19:54,343 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.127
