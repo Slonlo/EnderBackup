@@ -300,3 +300,16 @@ Content-Type: multipart/form-data; boundary=------------------------e44b822869ba
 2025-02-23 12:31:03,777 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PETG_9m24s.gcode
 2025-02-23 12:31:03,810 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 643.17ms
 2025-02-23 12:31:03,857 [job_state.py:_status_update()] - Job Started: Body1_PETG_9m24s.gcode
+2025-02-23 12:47:42,470 [websockets.py:on_close()] - Websocket Closed: ID: 139962770648800 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.48
+2025-02-23 12:47:43,941 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 4.27ms
+2025-02-23 12:47:43,942 [websockets.py:open()] - Websocket Opened: ID: 139962718794464, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-23 12:47:43,948 [websockets.py:_handle_identify()] - Websocket 139962718794464 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-23 12:52:18,974 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 5.13ms
+2025-02-23 12:52:18,975 [websockets.py:open()] - Websocket Opened: ID: 139962246632064, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-23 12:52:18,986 [websockets.py:_handle_identify()] - Websocket 139962246632064 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-23 12:52:23,090 [websockets.py:on_close()] - Websocket Closed: ID: 139962718794464 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.13
+2025-02-23 12:53:35,445 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYXufBx4CczjKAjfv
+2025-02-23 12:53:35,466 [application.py:post()] - Processing Uploaded File: printer.cfg
+2025-02-23 12:53:35,481 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.4) [_TRUSTED_USER_] 39.02ms
+2025-02-23 12:53:36,534 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
