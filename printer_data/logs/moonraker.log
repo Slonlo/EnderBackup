@@ -704,3 +704,5 @@ Content-Type: multipart/form-data; boundary=------------------------5871b0dbc5e2
 2025-02-23 16:54:27,484 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 5678.95ms
 2025-02-23 16:54:27,530 [power.py:_handle_job_queued()] - Power Device Power: Job 'Body3_PLA_51m53s.gcode' queued, powering on
 2025-02-23 17:01:01,345 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2025-02-23 17:01:15,486 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body3_PLA_51m53s.gcode
+2025-02-23 17:01:15,604 [job_state.py:_status_update()] - Job Started: Body3_PLA_51m53s.gcode
