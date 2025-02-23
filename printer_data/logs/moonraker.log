@@ -650,3 +650,7 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
 2025-02-23 14:51:13,603 [application.py:prepare()] - Upload Request Received from 192.168.1.4
 Content-Type: multipart/form-data; boundary=------------------------384ca47c9f1a582c
 2025-02-23 14:51:14,025 [application.py:post()] - Processing Uploaded File: Body1_PLA_1h20m.gcode
+2025-02-23 14:51:14,508 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-23 14:51:14,511 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PLA_1h20m.gcode, sliced by OrcaSlicer
+
