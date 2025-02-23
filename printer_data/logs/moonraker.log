@@ -729,3 +729,26 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-23 18:14:19,022 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:14:19,037 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:14:19,046 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:14:49,069 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:14:49,080 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:14:49,087 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:15:19,023 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:15:19,067 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:15:19,080 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:15:49,026 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:15:49,078 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:15:49,085 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 18:16:13,309 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-23 18:16:13,335 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------5da925bbc698a380
+2025-02-23 18:16:13,445 [application.py:post()] - Processing Uploaded File: Body3_PLA_19m9s.gcode
+2025-02-23 18:16:13,868 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+INFO:metadata:Performing Object Processing on file: Body3_PLA_19m9s.gcode, sliced by OrcaSlicer
+
+2025-02-23 18:16:15,412 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-if178pt6.json) successfully finished
+2025-02-23 18:16:15,416 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body3_PLA_19m9s.gcode
+2025-02-23 18:16:15,424 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 2091.95ms
+2025-02-23 18:16:15,468 [power.py:_handle_job_queued()] - Power Device Power: Job 'Body3_PLA_51m53s.gcode' queued, powering on
