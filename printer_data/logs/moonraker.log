@@ -783,3 +783,8 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-23 18:16:20,936 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-02-23 18:16:21,694 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body3_PLA_51m53s.gcode
 2025-02-23 18:16:21,931 [job_state.py:_status_update()] - Job Started: Body3_PLA_51m53s.gcode
+2025-02-23 18:27:15,100 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.112
+2025-02-23 18:27:15,102 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 5.49ms
+2025-02-23 18:27:15,103 [websockets.py:open()] - Websocket Opened: ID: 139962719252976, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-23 18:27:15,114 [websockets.py:_handle_identify()] - Websocket 139962719252976 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-23 18:27:29,155 [websockets.py:on_close()] - Websocket Closed: ID: 139962719252976 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.01
