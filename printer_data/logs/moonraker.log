@@ -334,3 +334,17 @@ Content-Type: multipart/form-data; boundary=------------------------629c07b2b73a
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGLNl5cAtOB8cxBQU
 2025-02-23 13:07:55,569 [application.py:post()] - Processing Uploaded File: printer.cfg
 2025-02-23 13:07:55,585 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.4) [_TRUSTED_USER_] 38.00ms
+2025-02-23 13:26:40,534 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 5.00ms
+2025-02-23 13:26:40,535 [websockets.py:open()] - Websocket Opened: ID: 139962237844688, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-23 13:26:40,544 [websockets.py:_handle_identify()] - Websocket 139962237844688 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-23 13:27:19,163 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------ba8d0bdae7395fa2
+2025-02-23 13:27:19,211 [application.py:post()] - Processing Uploaded File: Body1_PETG_14m4s.gcode
+2025-02-23 13:27:19,613 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-23 13:27:19,614 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PETG_14m4s.gcode, sliced by OrcaSlicer
+
+2025-02-23 13:27:20,183 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-jeybte1k.json) successfully finished
+2025-02-23 13:27:20,186 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PETG_14m4s.gcode
+2025-02-23 13:27:20,219 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 1058.78ms
+2025-02-23 13:27:20,301 [job_state.py:_status_update()] - Job Started: Body1_PETG_14m4s.gcode
