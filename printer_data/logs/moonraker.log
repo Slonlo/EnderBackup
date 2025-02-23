@@ -330,3 +330,7 @@ Content-Type: multipart/form-data; boundary=------------------------629c07b2b73a
 2025-02-23 12:54:02,331 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PETG_13m52s.gcode
 2025-02-23 12:54:02,362 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 685.62ms
 2025-02-23 12:54:02,536 [job_state.py:_status_update()] - Job Started: Body1_PETG_13m52s.gcode
+2025-02-23 13:07:55,550 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGLNl5cAtOB8cxBQU
+2025-02-23 13:07:55,569 [application.py:post()] - Processing Uploaded File: printer.cfg
+2025-02-23 13:07:55,585 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.4) [_TRUSTED_USER_] 38.00ms
