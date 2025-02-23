@@ -700,3 +700,6 @@ Content-Type: multipart/form-data; boundary=------------------------5871b0dbc5e2
 
 2025-02-23 16:54:22,584 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body3_PLA_51m53s.gcode, sliced by OrcaSlicer
 
+2025-02-23 16:54:27,476 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-o5g9h8vd.json) successfully finished
+2025-02-23 16:54:27,484 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 5678.95ms
+2025-02-23 16:54:27,530 [power.py:_handle_job_queued()] - Power Device Power: Job 'Body3_PLA_51m53s.gcode' queued, powering on
