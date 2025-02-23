@@ -752,3 +752,34 @@ INFO:metadata:Performing Object Processing on file: Body3_PLA_19m9s.gcode, slice
 2025-02-23 18:16:15,416 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body3_PLA_19m9s.gcode
 2025-02-23 18:16:15,424 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 2091.95ms
 2025-02-23 18:16:15,468 [power.py:_handle_job_queued()] - Power Device Power: Job 'Body3_PLA_51m53s.gcode' queued, powering on
+2025-02-23 18:16:15,625 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-02-23 18:16:15,649 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-02-23 18:16:15,678 [server.py:_process_event()] - 
+Error processing callback in event job_queue:job_queue_changed
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/power.py", line 132, in _handle_job_queued
+    await dev.process_request("on")
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1245, in do_service_action
+    await mgr.call_start_unit(service_name, "replace")  # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
+
+2025-02-23 18:16:16,665 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-23 18:16:19,922 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-23 18:16:19,927 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-23 18:16:20,174 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-23 18:16:20,467 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-23 18:16:20,936 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-23 18:16:21,694 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body3_PLA_51m53s.gcode
+2025-02-23 18:16:21,931 [job_state.py:_status_update()] - Job Started: Body3_PLA_51m53s.gcode
