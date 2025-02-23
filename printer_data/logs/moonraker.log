@@ -658,3 +658,4 @@ Content-Type: multipart/form-data; boundary=------------------------384ca47c9f1a
 2025-02-23 14:51:21,529 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_1h20m.gcode
 2025-02-23 14:51:21,559 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 7957.61ms
 2025-02-23 14:51:21,777 [job_state.py:_status_update()] - Job Started: Body1_PLA_1h20m.gcode
+2025-02-23 15:39:54,552 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.247
