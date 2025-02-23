@@ -319,3 +319,14 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYXufBx4CczjKAj
 2025-02-23 12:53:40,953 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-02-23 12:53:41,226 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-23 12:53:41,714 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-23 12:54:01,678 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------629c07b2b73a4e95
+2025-02-23 12:54:01,703 [application.py:post()] - Processing Uploaded File: Body1_PETG_13m52s.gcode
+2025-02-23 12:54:02,100 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-23 12:54:02,102 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PETG_13m52s.gcode, sliced by OrcaSlicer
+
+2025-02-23 12:54:02,325 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-nku7k1iq.json) successfully finished
+2025-02-23 12:54:02,331 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PETG_13m52s.gcode
+2025-02-23 12:54:02,362 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 685.62ms
+2025-02-23 12:54:02,536 [job_state.py:_status_update()] - Job Started: Body1_PETG_13m52s.gcode
