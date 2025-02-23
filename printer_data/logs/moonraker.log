@@ -364,3 +364,14 @@ Content-Type: multipart/form-data; boundary=------------------------fa16f59ef6d0
 2025-02-23 13:47:26,329 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_1h20m.gcode
 2025-02-23 13:47:26,361 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 8167.04ms
 2025-02-23 13:47:26,523 [job_state.py:_status_update()] - Job Started: Body1_PLA_1h20m.gcode
+2025-02-23 13:53:58,710 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.247
+2025-02-23 13:53:58,713 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 6.28ms
+2025-02-23 13:53:58,714 [websockets.py:open()] - Websocket Opened: ID: 139962771302432, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-23 13:53:58,754 [websockets.py:_handle_identify()] - Websocket 139962771302432 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-23 13:55:02,540 [websockets.py:on_close()] - Websocket Closed: ID: 139962771302432 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.81
+2025-02-23 13:55:05,881 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.85ms
+2025-02-23 13:55:05,881 [websockets.py:open()] - Websocket Opened: ID: 139962718701456, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-23 13:55:05,915 [websockets.py:_handle_identify()] - Websocket 139962718701456 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-23 13:55:40,677 [websockets.py:on_close()] - Websocket Closed: ID: 139962718701456 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.04
+2025-02-23 13:56:40,713 [klippy_apis.py:pause_print()] - Requesting job pause...
+2025-02-23 13:56:41,907 [klippy_apis.py:cancel_print()] - Requesting job cancel...
