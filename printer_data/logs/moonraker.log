@@ -280,3 +280,8 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-02-23 12:25:31,723 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
 2025-02-23 12:25:31,750 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
 2025-02-23 12:25:32,669 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-23 12:25:38,329 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-23 12:25:38,332 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-23 12:25:38,580 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-23 12:25:38,859 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-23 12:25:39,332 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
