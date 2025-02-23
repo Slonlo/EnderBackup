@@ -688,3 +688,7 @@ Content-Type: multipart/form-data; boundary=------------------------8bbd99613748
 
 2025-02-23 16:53:12,631 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body3_PLA_1h15m.gcode, sliced by OrcaSlicer
 
+2025-02-23 16:53:19,601 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-mtcvitl_.json) successfully finished
+2025-02-23 16:53:19,604 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body3_PLA_1h15m.gcode
+2025-02-23 16:53:19,641 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 8020.70ms
+2025-02-23 16:53:19,876 [job_state.py:_status_update()] - Job Started: Body3_PLA_1h15m.gcode
