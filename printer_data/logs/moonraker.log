@@ -353,3 +353,10 @@ Content-Type: multipart/form-data; boundary=------------------------ba8d0bdae739
 2025-02-23 13:33:04,793 [websockets.py:open()] - Websocket Opened: ID: 139962771302960, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
 2025-02-23 13:33:04,838 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 2.93ms
 2025-02-23 13:33:04,839 [websockets.py:open()] - Websocket Opened: ID: 139962771301760, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
+2025-02-23 13:47:18,196 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------fa16f59ef6d0ec11
+2025-02-23 13:47:18,729 [application.py:post()] - Processing Uploaded File: Body1_PLA_1h20m.gcode
+2025-02-23 13:47:19,195 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-23 13:47:19,197 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PLA_1h20m.gcode, sliced by OrcaSlicer
+
