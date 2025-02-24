@@ -812,3 +812,6 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-02-23 19:34:30,022 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-23 19:34:30,028 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-02-23 19:34:30,033 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
