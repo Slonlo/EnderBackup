@@ -350,3 +350,6 @@ Diverged: False
 Pinned Commit: None
 2025-02-24 00:09:55,589 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
 2025-02-24 00:09:55,589 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2025-02-24 00:10:02,024 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-02-24 00:10:02,031 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-02-24 00:10:02,039 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
