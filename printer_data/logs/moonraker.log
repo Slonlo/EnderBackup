@@ -789,3 +789,26 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-23 18:27:15,114 [websockets.py:_handle_identify()] - Websocket 139962719252976 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
 2025-02-23 18:27:29,155 [websockets.py:on_close()] - Websocket Closed: ID: 139962719252976 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.01
 2025-02-23 19:19:54,752 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-23 19:29:54,754 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.112
+2025-02-23 19:34:11,901 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-02-23 19:34:11,926 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-02-23 19:34:11,937 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-02-23 19:34:11,958 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
