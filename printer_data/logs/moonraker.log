@@ -4518,3 +4518,7 @@ Properties:
 2025-02-25 08:38:06,829 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
 2025-02-25 08:38:06,832 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.58ms
 2025-02-25 08:38:06,833 [websockets.py:open()] - Websocket Opened: ID: 140362357790128, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-25 08:38:44,500 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.4
+2025-02-25 08:38:44,505 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 7.35ms
+2025-02-25 08:38:44,505 [websockets.py:open()] - Websocket Opened: ID: 140362357791904, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-02-25 08:38:44,510 [websockets.py:_handle_identify()] - Websocket 140362357791904 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
