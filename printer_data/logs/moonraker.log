@@ -3935,3 +3935,7 @@ Pinned Commit: None
 2025-02-25 08:36:07,056 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
 2025-02-25 08:36:07,058 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.64ms
 2025-02-25 08:36:07,059 [websockets.py:open()] - Websocket Opened: ID: 140674611173168, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-02-25 08:36:44,337 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-02-25 08:36:44,339 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.65ms
+2025-02-25 08:36:44,339 [websockets.py:open()] - Websocket Opened: ID: 140674611275424, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
+2025-02-25 08:36:44,355 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: -32601, Message: Method not found
