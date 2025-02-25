@@ -4556,3 +4556,7 @@ Content-Type: multipart/form-data; boundary=------------------------2e6d22d1f782
 2025-02-25 09:07:11,919 [klippy_apis.py:start_print()] - Requesting Job Start, filename = (Unsaved)_PETG_21m28s.gcode
 2025-02-25 09:07:11,956 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 3082.07ms
 2025-02-25 09:07:12,136 [job_state.py:_status_update()] - Job Started: (Unsaved)_PETG_21m28s.gcode
+2025-02-25 09:12:58,839 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.247
+2025-02-25 09:12:58,842 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.85ms
+2025-02-25 09:12:58,843 [websockets.py:open()] - Websocket Opened: ID: 140362357512416, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-25 09:12:58,898 [websockets.py:_handle_identify()] - Websocket 140362357512416 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
