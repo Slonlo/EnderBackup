@@ -6649,3 +6649,38 @@ Pinned Commit: None
 2025-02-25 13:43:37,620 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.61ms
 2025-02-25 13:43:37,621 [websockets.py:open()] - Websocket Opened: ID: 140064253757040, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
 2025-02-25 13:44:00,484 [websockets.py:on_close()] - Websocket Closed: ID: 140064254157200 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.19
+2025-02-25 14:27:26,076 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2025-02-25 14:27:26,078 [power.py:_power_off_on_shutdown()] - Powering off device 'Power' due to klippy shutdown
+2025-02-25 14:27:26,085 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1740511616.810716, Usage: 2.48%, Memory: 52464 kB
+System Time: 1740511617.813466, Usage: 2.23%, Memory: 52464 kB
+System Time: 1740511618.816056, Usage: 3.79%, Memory: 52464 kB
+System Time: 1740511619.815097, Usage: 2.23%, Memory: 52464 kB
+System Time: 1740511620.818824, Usage: 2.08%, Memory: 52464 kB
+System Time: 1740511621.819639, Usage: 2.4%, Memory: 52464 kB
+System Time: 1740511622.819908, Usage: 2.27%, Memory: 52464 kB
+System Time: 1740511623.820799, Usage: 2.19%, Memory: 52464 kB
+System Time: 1740511624.823223, Usage: 2.21%, Memory: 52464 kB
+System Time: 1740511625.822120, Usage: 2.81%, Memory: 52464 kB
+System Time: 1740511626.824716, Usage: 2.41%, Memory: 52464 kB
+System Time: 1740511627.826223, Usage: 2.64%, Memory: 52464 kB
+System Time: 1740511628.827252, Usage: 4.05%, Memory: 52464 kB
+System Time: 1740511629.828551, Usage: 3.48%, Memory: 52464 kB
+System Time: 1740511630.826260, Usage: 3.71%, Memory: 52464 kB
+System Time: 1740511631.828723, Usage: 2.04%, Memory: 52464 kB
+System Time: 1740511632.831294, Usage: 2.3%, Memory: 52464 kB
+System Time: 1740511633.826533, Usage: 2.31%, Memory: 52464 kB
+System Time: 1740511634.832273, Usage: 1.75%, Memory: 52464 kB
+System Time: 1740511635.835225, Usage: 2.53%, Memory: 52464 kB
+System Time: 1740511636.832858, Usage: 2.66%, Memory: 52464 kB
+System Time: 1740511637.833234, Usage: 2.39%, Memory: 52464 kB
+System Time: 1740511638.833779, Usage: 3.44%, Memory: 52464 kB
+System Time: 1740511639.839140, Usage: 2.0%, Memory: 52464 kB
+System Time: 1740511640.834742, Usage: 2.44%, Memory: 52464 kB
+System Time: 1740511641.834564, Usage: 1.93%, Memory: 52464 kB
+System Time: 1740511642.836134, Usage: 1.84%, Memory: 52464 kB
+System Time: 1740511643.840231, Usage: 1.86%, Memory: 52464 kB
+System Time: 1740511644.837673, Usage: 2.25%, Memory: 52464 kB
+System Time: 1740511645.843626, Usage: 2.38%, Memory: 52464 kB
+CPU Temperature: 0.0
