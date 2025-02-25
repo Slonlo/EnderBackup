@@ -4560,3 +4560,4 @@ Content-Type: multipart/form-data; boundary=------------------------2e6d22d1f782
 2025-02-25 09:12:58,842 [application.py:log_request()] - 101 GET /websocket (192.168.1.247) [_TRUSTED_USER_] 5.85ms
 2025-02-25 09:12:58,843 [websockets.py:open()] - Websocket Opened: ID: 140362357512416, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-02-25 09:12:58,898 [websockets.py:_handle_identify()] - Websocket 140362357512416 Client Identified - Name: Mobileraker-android, Version: 2.8.4-588, Type: mobile
+2025-02-25 09:13:12,813 [websockets.py:on_close()] - Websocket Closed: ID: 140362357512416 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.96
