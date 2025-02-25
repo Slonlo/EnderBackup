@@ -4522,3 +4522,5 @@ Properties:
 2025-02-25 08:38:44,505 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 7.35ms
 2025-02-25 08:38:44,505 [websockets.py:open()] - Websocket Opened: ID: 140362357791904, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
 2025-02-25 08:38:44,510 [websockets.py:_handle_identify()] - Websocket 140362357791904 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-25 08:40:29,464 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.28ms
+2025-02-25 08:40:29,465 [websockets.py:open()] - Websocket Opened: ID: 140362357935552, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
