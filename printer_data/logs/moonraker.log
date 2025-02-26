@@ -311,3 +311,5 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-26 06:40:09,574 [websockets.py:_handle_identify()] - Websocket 140064254157056 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-02-26 06:40:38,199 [websockets.py:write_to_socket()] - Websocket closed while writing: 140064253965408
 2025-02-26 06:40:42,448 [websockets.py:on_close()] - Websocket Closed: ID: 140064253965408 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.91
+2025-02-26 06:41:50,231 [websockets.py:write_to_socket()] - Websocket closed while writing: 140064254157056
+2025-02-26 06:41:54,571 [websockets.py:on_close()] - Websocket Closed: ID: 140064254157056 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
