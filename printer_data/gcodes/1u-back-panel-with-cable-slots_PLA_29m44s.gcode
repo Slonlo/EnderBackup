@@ -92,6 +92,11 @@
 ; first layer extrusion width = 0.50mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 1 known objects
+EXCLUDE_OBJECT_DEFINE NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0 CENTER=110.213,112.099 POLYGON=[[4.71,5.533],[4.71,214.464],[215.273,214.464],[215.273,5.533]]
 M73 P0 R29
 ;TYPE:Custom
 G28 ; home all axis
@@ -131,6 +136,7 @@ M73 P1 R29
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 M73 P1 R29
 G1 Z.7 F9000
 G1 X77.405 Y63.853
@@ -4496,6 +4502,7 @@ G1 X61.02 Y90.728 F9000
 G1 F2400
 G1 X59.375 Y89.084 E.1244
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 M106 S255
 ;LAYER_CHANGE
 ;Z:0.6
@@ -4513,6 +4520,7 @@ G1 X60.082 Y89.791 E-.3
 M104 S220 ; set nozzle temperature
 M140 S65 ; set bed temperature
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z1 F9000
 G1 X77.462 Y64.089 Z1
 G1 Z.6
@@ -8075,6 +8083,7 @@ G1 X182.634 Y210.941 E.00452
 G1 X182.702 Y210.941 E.00452
 G1 X182.716 Y210.917 E.00186
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:0.9
 ;HEIGHT:0.3
@@ -8093,6 +8102,7 @@ G1 X182.702 Y210.824 E-.03929
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z1.3 F9000
 G1 X77.458 Y64.072 Z1.3
 G1 Z.9
@@ -12090,6 +12100,7 @@ G1 X184.18 Y211.135 E.05125
 G1 X183.079 Y210.964 E.05936
 G1 X182.509 Y210.773 E.032
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.3
@@ -12105,6 +12116,7 @@ G1 X183.473 Y211.025 E-.11972
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z1.6 F9000
 G1 X77.405 Y63.853 Z1.6
 G1 Z1.2
@@ -14589,6 +14601,7 @@ G1 X213.333 Y188.403 E.02281
 G1 X213.099 Y188.742 E.02193
 G1 X212.67 Y189.237 E.03488
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:1.5
 ;HEIGHT:0.3
@@ -14604,6 +14617,7 @@ G1 X213.295 Y188.458 E-.10347
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z1.9 F9000
 G1 X77.405 Y63.853 Z1.9
 G1 Z1.5
@@ -17069,6 +17083,7 @@ G1 X213.425 Y183.342 E.04052
 G1 X213.617 Y183.706 E.02189
 G1 X213.826 Y184.235 E.03031
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.3
@@ -17085,6 +17100,7 @@ G1 X213.413 Y183.326 E-.00589
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z2.2 F9000
 G1 X77.405 Y63.853 Z2.2
 G1 Z1.8
@@ -19502,6 +19518,7 @@ G1 X213.333 Y188.403 E.0228
 G1 X213.099 Y188.742 E.02193
 G1 X212.973 Y188.888 E.01025
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:2.1
 ;HEIGHT:0.3
@@ -19518,6 +19535,7 @@ G1 X213.53 Y188.06 E-.11869
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z2.5 F9000
 G1 X77.432 Y63.988 Z2.5
 G1 Z2.1
@@ -21961,6 +21979,7 @@ G1 X213.546 Y188.031 E.0227
 G1 X213.333 Y188.403 E.0228
 G1 X213.127 Y188.702 E.01934
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.3
@@ -21977,6 +21996,7 @@ G1 X213.633 Y187.842 E-.06257
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z2.8 F9000
 G1 X77.428 Y63.972 Z2.8
 G1 Z2.4
@@ -24429,6 +24449,7 @@ G1 X213.724 Y187.644 E.02186
 G1 X213.546 Y188.031 E.0227
 G1 X213.269 Y188.497 E.02887
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:2.7
 ;HEIGHT:0.3
@@ -24445,6 +24466,7 @@ G1 X213.735 Y187.615 E-.00948
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z3.1 F9000
 G1 X77.405 Y63.853 Z3.1
 G1 Z2.7
@@ -26963,6 +26985,7 @@ G1 X211.788 Y183.919 E.09374
 G1 X211.701 Y184.359 E.02385
 G1 X214.005 Y186.662 E.17346
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.3
@@ -26977,6 +27000,7 @@ G1 X213.298 Y185.955 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z3.4 F9000
 G1 X77.419 Y63.939 Z3.4
 G1 Z3
@@ -30279,6 +30303,7 @@ G1 X213.444 Y187.133 E.03311
 G1 X213.32 Y187.479 E.01957
 G1 X213.228 Y187.679 E.01172
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:3.3
 ;HEIGHT:0.3
@@ -30295,6 +30320,7 @@ G1 X213.54 Y186.732 E-.12367
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z3.7 F9000
 G1 X77.405 Y63.853 Z3.7
 G1 Z3.3
@@ -33878,6 +33904,7 @@ G1 X30.126 Y7.777 E.03264
 G1 X29.814 Y8.042 E.01996
 G1 X6.853 Y31.004 E1.58317
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.3
@@ -33892,6 +33919,7 @@ G1 X7.56 Y30.296 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z4 F9000
 G1 X77.405 Y63.853 Z4
@@ -37482,6 +37510,7 @@ G1 X211.692 Y182.021 E.00956
 G1 X211.984 Y181.729 E.01584
 G1 X211.355 Y181.114 E.03376
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 ;LAYER_CHANGE
 ;Z:3.9
 ;HEIGHT:0.3
@@ -37497,6 +37526,7 @@ G1 X211.899 Y181.814 E-.03599
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_START NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 Z4.3 F9000
 G1 X77.405 Y63.853 Z4.3
 G1 Z3.9
@@ -41315,6 +41345,7 @@ G1 X149.72 Y178.039 E.02095
 G1 X149.82 Y178.291 E.01449
 G1 X151.728 Y180.198 E.14434
 ; stop printing object 1u-back-panel-with-cable-slots.stl id:7811887588677804288 copy 0
+EXCLUDE_OBJECT_END NAME=1u_back_panel_with_cable_slots_stl_id_7811887588677804288_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F10967.693
