@@ -298,3 +298,7 @@ Traceback (most recent call last):
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 
+2025-02-26 06:39:02,127 [websockets.py:write_to_socket()] - Websocket closed while writing: 140064253983760
+2025-02-26 06:39:06,491 [websockets.py:on_close()] - Websocket Closed: ID: 140064253983760 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-02-26 06:39:07,128 [websockets.py:write_to_socket()] - Websocket closed while writing: 140064253707984
+2025-02-26 06:39:11,986 [websockets.py:on_close()] - Websocket Closed: ID: 140064253707984 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
