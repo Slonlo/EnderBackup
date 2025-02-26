@@ -342,3 +342,6 @@ Properties:
 2025-02-26 06:44:36,591 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-02-26 06:44:37,351 [klippy_apis.py:start_print()] - Requesting Job Start, filename = 1u-back-panel-with-cable-slots_PLA_29m44s.gcode
 2025-02-26 06:44:37,594 [job_state.py:_status_update()] - Job Started: 1u-back-panel-with-cable-slots_PLA_29m44s.gcode
+2025-02-26 06:54:59,130 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-02-26 06:54:59,133 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 7.57ms
+2025-02-26 06:54:59,135 [websockets.py:open()] - Websocket Opened: ID: 140064253756464, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
