@@ -349,3 +349,8 @@ Properties:
 2025-02-26 06:58:03,777 [klippy_apis.py:cancel_print()] - Requesting job cancel...
 2025-02-26 06:58:44,681 [klippy_apis.py:start_print()] - Requesting Job Start, filename = 1u-back-panel-with-cable-slots_PLA_29m44s.gcode
 2025-02-26 06:58:44,920 [job_state.py:_status_update()] - Job Started: 1u-back-panel-with-cable-slots_PLA_29m44s.gcode
+2025-02-26 07:09:36,740 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 6.11ms
+2025-02-26 07:09:36,741 [websockets.py:open()] - Websocket Opened: ID: 140064252943136, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-26 07:09:36,771 [websockets.py:_handle_identify()] - Websocket 140064252943136 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-26 07:10:10,399 [websockets.py:write_to_socket()] - Websocket closed while writing: 140064254158976
+2025-02-26 07:10:15,158 [websockets.py:on_close()] - Websocket Closed: ID: 140064254158976 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
