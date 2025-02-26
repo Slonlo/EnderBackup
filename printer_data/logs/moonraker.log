@@ -6684,3 +6684,17 @@ System Time: 1740511643.840231, Usage: 1.86%, Memory: 52464 kB
 System Time: 1740511644.837673, Usage: 2.25%, Memory: 52464 kB
 System Time: 1740511645.843626, Usage: 2.38%, Memory: 52464 kB
 CPU Temperature: 0.0
+2025-02-25 14:48:13,776 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-02-25 14:48:13,778 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-25 14:48:13,778 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-02-25 16:03:44,252 [websockets.py:on_close()] - Websocket Closed: ID: 140064253757040 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.62
+2025-02-25 16:04:07,066 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-02-25 16:04:07,071 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 9.96ms
+2025-02-25 16:04:07,071 [websockets.py:open()] - Websocket Opened: ID: 140064253709280, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
+2025-02-25 17:08:13,802 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-02-25 17:32:47,638 [websockets.py:write_to_socket()] - Websocket closed while writing: 140064253709280
+2025-02-25 17:32:52,076 [websockets.py:on_close()] - Websocket Closed: ID: 140064253709280 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-02-25 17:41:46,981 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-02-25 17:41:46,984 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 7.32ms
+2025-02-25 17:41:46,984 [websockets.py:open()] - Websocket Opened: ID: 140064253707984, Proxied: False, User Agent: HomeAssistant/2025.2.2 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
+2025-02-25 18:43:13,820 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
