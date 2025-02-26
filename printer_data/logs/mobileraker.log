@@ -9272,3 +9272,6 @@ ConnectionRefusedError: [Errno 111] Connect call failed ('192.168.1.130', 7125)
 2025-02-26 06:44:46,950 mobileraker.cam INFO - Trying to take a snapshot from URI: http://192.168.1.130/webcam/?action=snapshot
 2025-02-26 06:44:47,225 mobileraker.cam INFO - Took webcam snapshot! Rotating it using rotation 0°
 2025-02-26 06:44:47,230 mobileraker.fcm INFO - Submitting 1 device-requets to mobileraker server
+2025-02-26 06:44:57,248 mobileraker.fcm ERROR - Error while communicating with the mobileraker server: HTTPSConnectionPool(host='mobileraker.eliteschw31n.de', port=443): Max retries exceeded with url: /companion/v2/update (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f34afcd98b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-02-26 06:44:57,249 mobileraker.Ender3V2 ERROR - Could not push notifications to mobileraker backend, <class 'requests.exceptions.ConnectionError'>: HTTPSConnectionPool(host='mobileraker.eliteschw31n.de', port=443): Max retries exceeded with url: /companion/v2/update (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f34afcd98b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-02-26 06:44:57,249 mobileraker.Ender3V2 INFO - ---- Completed Evaluations Task! ----
