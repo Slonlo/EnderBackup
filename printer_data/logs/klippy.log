@@ -11208,3 +11208,12 @@ Stats 166823.1: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000018 mcu_task_s
 Stats 166824.1: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000018 mcu_task_stddev=0.000016 bytes_write=1066813 bytes_read=505643 bytes_retransmit=9 bytes_invalid=0 send_seq=23989 receive_seq=23989 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002123  heater_bed: target=0 temp=39.3 pwm=0.000 sysload=1.06 cputime=79.373 memavail=2753620 print_time=3365.508 buffer_time=0.000 print_stall=0 extruder: target=0 temp=36.9 pwm=0.000
 Stats 166825.1: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000018 mcu_task_stddev=0.000016 bytes_write=1067207 bytes_read=506095 bytes_retransmit=9 bytes_invalid=0 send_seq=24020 receive_seq=24020 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002120  heater_bed: target=0 temp=39.4 pwm=0.000 sysload=1.06 cputime=79.430 memavail=2752448 print_time=3366.508 buffer_time=0.000 print_stall=0 extruder: target=0 temp=37.0 pwm=0.000
 Stats 166826.1: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000018 mcu_task_stddev=0.000016 bytes_write=1068053 bytes_read=506528 bytes_retransmit=9 bytes_invalid=0 send_seq=24052 receive_seq=24052 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002123  heater_bed: target=0 temp=39.4 pwm=0.000 sysload=1.06 cputime=79.495 memavail=2754112 print_time=3369.029 buffer_time=1.738 print_stall=0 extruder: target=0 temp=36.9 pwm=0.000
+Starting Klippy...
+Args: ['/home/chase/klipper/klippy/klippy.py', '/home/chase/printer_data/config/printer.cfg', '-I', '/home/chase/printer_data/comms/klippy.serial', '-l', '/home/chase/printer_data/logs/klippy.log', '-a', '/home/chase/printer_data/comms/klippy.sock']
+Git version: 'v0.12.0-439-g1fc6d214f-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+Python: '3.8.10 (default, Feb  4 2025, 15:02:54) \n[GCC 9.4.0]'
