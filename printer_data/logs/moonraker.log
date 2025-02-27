@@ -3851,3 +3851,14 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
 2025-02-27 11:07:13,623 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-02-27 11:07:14,347 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-02-27 11:10:54,277 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2025-02-27 11:14:31,169 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------13a9de01f16b82a7
+2025-02-27 11:14:31,219 [application.py:post()] - Processing Uploaded File: Body1_PLA_11m5s.gcode
+2025-02-27 11:14:31,616 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-27 11:14:31,618 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PLA_11m5s.gcode, sliced by OrcaSlicer
+
+2025-02-27 11:14:31,815 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-oyam3o_v.json) successfully finished
+2025-02-27 11:14:31,819 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_11m5s.gcode
+2025-02-27 11:14:31,862 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 695.81ms
+2025-02-27 11:14:32,063 [job_state.py:_status_update()] - Job Started: Body1_PLA_11m5s.gcode
