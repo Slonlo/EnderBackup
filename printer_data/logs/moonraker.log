@@ -3743,3 +3743,7 @@ Content-Type: multipart/form-data; boundary=------------------------69c2d9f642df
 
 2025-02-27 09:38:37,323 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: pizerohingedcase_camera_gpio_v2_mod_PETG_54m14s.gcode, sliced by OrcaSlicer
 
+2025-02-27 09:38:41,015 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-h88x5mk7.json) successfully finished
+2025-02-27 09:38:41,019 [klippy_apis.py:start_print()] - Requesting Job Start, filename = pizerohingedcase_camera_gpio_v2_mod_PETG_54m14s.gcode
+2025-02-27 09:38:41,061 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 4406.05ms
+2025-02-27 09:38:41,249 [job_state.py:_status_update()] - Job Started: pizerohingedcase_camera_gpio_v2_mod_PETG_54m14s.gcode

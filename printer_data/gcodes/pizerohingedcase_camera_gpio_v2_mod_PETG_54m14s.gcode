@@ -294,6 +294,11 @@
 ; first layer extrusion width = 0.40mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 1 known objects
+EXCLUDE_OBJECT_DEFINE NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0 CENTER=107.368,104.155 POLYGON=[[71.2,74.1],[71.2,145.9],[148.8,145.9],[148.8,74.1]]
 M73 P0 R54
 ;TYPE:Custom
 G28 ; home all axis
@@ -331,6 +336,7 @@ G92 E0
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 M73 P0 R53
 M73 P0 R53
@@ -5271,6 +5277,7 @@ G1 X73.516 Y105.82 F9000
 G1 F2400
 G1 X75.08 Y107.384 E.06261
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:0.4
 ;HEIGHT:0.2
@@ -5282,6 +5289,7 @@ G92 E0
 M104 S255 ; set nozzle temperature
 M140 S80 ; set bed temperature
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z.8 F9000
 G1 X142.975 Y111.31 Z.8
@@ -8955,6 +8963,7 @@ G1 X138.355 Y76.901 E.00184
 G1 X138.382 Y76.948 E.00184
 G1 X138.443 Y76.936 E.00212
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.2
@@ -8964,6 +8973,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z1 F9000
 G1 X142.971 Y111.156 Z1
@@ -12649,6 +12659,7 @@ G1 X135.633 Y75.564 E.00124
 G1 X130.034 Y75.564 E.15793
 G1 X132.623 Y78.153 E.10328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:0.8
 ;HEIGHT:0.2
@@ -12658,6 +12669,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z1.2 F9000
 G1 X142.965 Y111.073 Z1.2
@@ -16088,6 +16100,7 @@ G1 X79.445 Y83.081 E.02524
 G1 X104.379 Y108.015 E.99463
 G1 X102.951 Y108.015 E.04029
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:1
 ;HEIGHT:0.2
@@ -16097,6 +16110,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z1.4 F9000
 G1 X142.958 Y111.034 Z1.4
@@ -19081,6 +19095,7 @@ G1 X123.842 Y96.901 E.00633
 G1 X123.889 Y96.735 E.00536
 G1 X123.889 Y87.319 E.29244
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.2
@@ -19090,6 +19105,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z1.6 F9000
 G1 X142.949 Y111.021 Z1.6
@@ -22524,6 +22540,7 @@ G1 X78.073 Y83.919 E.01108
 G1 X80.237 Y82.671 E.06711
 G1 X80.517 Y82.426 E.00998
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:1.4
 ;HEIGHT:0.2
@@ -22533,6 +22550,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z1.8 F9000
 G1 X142.94 Y111.02 Z1.8
@@ -25956,6 +25974,7 @@ G1 X72.895 Y77.53 E.02004
 G1 X72.688 Y77.949 E.02217
 G1 X72.688 Y106.299 E1.34561
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:1.6
 ;HEIGHT:0.2
@@ -25965,6 +25984,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F5100
 G1 Z2 F9000
@@ -29600,6 +29620,7 @@ G1 X75.403 Y82.981 E.12871
 G1 X75.081 Y82.796 E.01051
 G1 X72.028 Y85.849 E.12227
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.2
@@ -29609,6 +29630,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z2.2 F9000
 G1 X142.95 Y110.3 Z2.2
@@ -31219,6 +31241,7 @@ G1 X75.403 Y100.819 E.12804
 G1 X75.081 Y101.004 E.01051
 G1 X72.028 Y97.951 E.12227
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:2
 ;HEIGHT:0.2
@@ -31228,6 +31251,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z2.4 F9000
 G1 X142.942 Y110.3 Z2.4
@@ -32750,6 +32774,7 @@ G1 X72.355 Y78.656 E.00357
 G1 X72.57 Y78.035 E.01853
 G1 X75.398 Y75.207 E.11289
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S74
 ;LAYER_CHANGE
 ;Z:2.2
@@ -32760,6 +32785,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z2.6 F9000
 G1 X142.936 Y110.3 Z2.6
@@ -34653,6 +34679,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.2
@@ -34662,6 +34689,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z2.8 F9000
 G1 X142.929 Y110.3 Z2.8
@@ -36550,6 +36578,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:2.6
 ;HEIGHT:0.2
@@ -36559,6 +36588,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z3 F9000
 G1 X142.924 Y110.3 Z3
@@ -38453,6 +38483,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:2.8
 ;HEIGHT:0.2
@@ -38462,6 +38493,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z3.2 F9000
 G1 X142.92 Y110.3 Z3.2
@@ -40360,6 +40392,7 @@ G1 X74.902 Y105.041 F9000
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.2
@@ -40369,6 +40402,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z3.4 F9000
 G1 X142.917 Y110.3 Z3.4
@@ -42249,6 +42283,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:3.2
 ;HEIGHT:0.2
@@ -42258,6 +42293,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z3.6 F9000
 G1 X142.915 Y110.3 Z3.6
@@ -44145,6 +44181,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:3.4
 ;HEIGHT:0.2
@@ -44154,6 +44191,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z3.8 F9000
 G1 X142.914 Y110.3 Z3.8
@@ -46035,6 +46073,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.61028
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.2
@@ -46044,6 +46083,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z4 F9000
 G1 X142.915 Y110.3 Z4
@@ -47925,6 +47965,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.0167
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:3.8
 ;HEIGHT:0.2
@@ -47934,6 +47975,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z4.2 F9000
 G1 X142.918 Y110.3 Z4.2
@@ -49809,6 +49851,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:4
 ;HEIGHT:0.2
@@ -49818,6 +49861,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z4.4 F9000
 G1 X142.922 Y110.3 Z4.4
@@ -51692,6 +51736,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.61028
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.2
@@ -51701,6 +51746,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z4.6 F9000
 G1 X142.929 Y110.3 Z4.6
@@ -53568,6 +53614,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01651
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:4.4
 ;HEIGHT:0.2
@@ -53577,6 +53624,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z4.8 F9000
 G1 X142.937 Y110.3 Z4.8
@@ -55458,6 +55506,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:4.6
 ;HEIGHT:0.2
@@ -55467,6 +55516,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z5 F9000
 G1 X142.948 Y110.3 Z5
@@ -57355,6 +57405,7 @@ G1 X77.839 Y106.474 E.00814
 ;WIDTH:0.61028
 G1 X77.682 Y106.476 E.00708
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:4.8
 ;HEIGHT:0.2
@@ -57364,6 +57415,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z5.2 F9000
 G1 X142.961 Y110.3 Z5.2
@@ -59233,6 +59285,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:5
 ;HEIGHT:0.2
@@ -59242,6 +59295,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z5.4 F9000
 G1 X142.976 Y110.3 Z5.4
@@ -61106,6 +61160,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:5.2
 ;HEIGHT:0.2
@@ -61115,6 +61170,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z5.6 F9000
 G1 X142.993 Y110.3 Z5.6
@@ -63031,6 +63087,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:5.4
 ;HEIGHT:0.2
@@ -63040,6 +63097,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z5.8 F9000
 G1 X143.012 Y110.3 Z5.8
@@ -64966,6 +65024,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:5.6
 ;HEIGHT:0.2
@@ -64975,6 +65034,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z6 F9000
 G1 X143.029 Y110.301 Z6
@@ -66899,6 +66959,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:5.8
 ;HEIGHT:0.2
@@ -66908,6 +66969,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z6.2 F9000
 G1 X143.052 Y110.302 Z6.2
@@ -68838,6 +68900,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:6
@@ -68848,6 +68911,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z6.4 F9000
 G1 X78 Y145.1 Z6.4
@@ -70776,6 +70840,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:6.2
 ;HEIGHT:0.2
@@ -70785,6 +70850,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z6.6 F9000
 G1 X78 Y145.1 Z6.6
@@ -72719,6 +72785,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:6.4
 ;HEIGHT:0.2
@@ -72728,6 +72795,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z6.8 F9000
 G1 X78 Y145.1 Z6.8
@@ -74659,6 +74727,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.2
@@ -74668,6 +74737,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z7 F9000
 G1 X78 Y145.1 Z7
@@ -76612,6 +76682,7 @@ G1 X77.75 Y106.489 E.00457
 ;WIDTH:0.610278
 G1 X77.681 Y106.481 E.00309
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:6.8
 ;HEIGHT:0.2
@@ -76621,6 +76692,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z7.2 F9000
 G1 X78 Y145.1 Z7.2
@@ -78540,6 +78612,7 @@ G1 E1 F3900
 G1 F8400
 G1 X74.762 Y104.789 E.01328
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S79
 ;LAYER_CHANGE
 ;Z:7
@@ -78550,6 +78623,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z7.4 F9000
 G1 X74.857 Y78.045 Z7.4
@@ -80539,6 +80613,7 @@ G1 X77.033 Y108.457 E1.86175
 G1 X75.889 Y108.316 E.0325
 G1 X75.845 Y108.298 E.00133
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:7.2
 ;HEIGHT:0.2
@@ -80548,6 +80623,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z7.6 F9000
 G1 X74.857 Y78.045 Z7.6
@@ -82506,6 +82582,7 @@ G1 X77.033 Y108.457 E1.86175
 G1 X75.889 Y108.316 E.0325
 G1 X75.845 Y108.298 E.00133
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:7.4
 ;HEIGHT:0.2
@@ -82515,6 +82592,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z7.8 F9000
 G1 X74.857 Y78.045 Z7.8
@@ -84476,6 +84554,7 @@ G1 X77.033 Y108.457 E1.86175
 G1 X75.889 Y108.316 E.0325
 G1 X75.845 Y108.298 E.00133
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:7.6
 ;HEIGHT:0.2
@@ -84485,6 +84564,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z8 F9000
 G1 X74.857 Y78.045 Z8
@@ -86484,6 +86564,7 @@ G1 X77.033 Y108.457 E1.86175
 G1 X75.889 Y108.316 E.0325
 G1 X75.845 Y108.298 E.00133
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:7.8
 ;HEIGHT:0.2
@@ -86493,6 +86574,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z8.2 F9000
 G1 X74.857 Y78.045 Z8.2
@@ -88478,6 +88560,7 @@ G1 X77.033 Y108.457 E1.86175
 G1 X75.889 Y108.316 E.0325
 G1 X75.845 Y108.298 E.00133
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S81
 ;LAYER_CHANGE
 ;Z:8
@@ -88488,6 +88571,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z8.4 F9000
 G1 X74.857 Y78.045 Z8.4
@@ -90457,6 +90541,7 @@ G1 X77.033 Y108.457 E1.86175
 G1 X75.889 Y108.316 E.0325
 G1 X75.845 Y108.298 E.00133
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S71
 ;LAYER_CHANGE
 ;Z:8.2
@@ -90467,6 +90552,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z8.6 F9000
 G1 X75.154 Y78.876 Z8.6
@@ -92341,6 +92427,7 @@ G1 X73.83 Y107.169 E.03353
 G1 X73.092 Y106.237 E.03353
 G1 X73.009 Y106.045 E.00589
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S84
 ;LAYER_CHANGE
 ;Z:8.4
@@ -92351,6 +92438,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z8.8 F9000
 G1 X75.157 Y78.87 Z8.8
@@ -93934,6 +94022,7 @@ G1 X73.83 Y107.169 E.03353
 G1 X73.092 Y106.237 E.03353
 G1 X73.011 Y106.048 E.0058
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:8.6
 ;HEIGHT:0.200001
@@ -93943,6 +94032,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z9 F9000
 G1 X75.158 Y78.876 Z9
@@ -95521,6 +95611,7 @@ G1 X73.83 Y107.169 E.03353
 G1 X73.092 Y106.237 E.03353
 G1 X73.012 Y106.051 E.00572
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:8.8
 ;HEIGHT:0.2
@@ -95530,6 +95621,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z9.2 F9000
 G1 X75.161 Y78.871 Z9.2
@@ -97105,6 +97197,7 @@ G1 X73.83 Y107.169 E.03353
 G1 X73.092 Y106.237 E.03353
 G1 X73.013 Y106.053 E.00565
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S86
 ;LAYER_CHANGE
 ;Z:9
@@ -97115,6 +97208,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z9.4 F9000
 G1 X75.135 Y78.896 Z9.4
@@ -98720,6 +98814,7 @@ G1 X73.83 Y107.169 E.03353
 G1 X73.092 Y106.237 E.03353
 G1 X73.014 Y106.055 E.00557
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:9.2
 ;HEIGHT:0.2
@@ -98729,6 +98824,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z9.6 F9000
 G1 X75.135 Y78.895 Z9.6
@@ -100353,6 +100449,7 @@ G1 X142.982 Y109.343 E.02059
 G1 X138.057 Y109.343 E.13891
 G1 X138.057 Y108.497 E.02386
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S84
 ;LAYER_CHANGE
 ;Z:9.4
@@ -100363,6 +100460,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z9.8 F9000
 G1 X75.136 Y78.894 Z9.8
@@ -101990,6 +102088,7 @@ G1 X142.982 Y109.343 E.02059
 G1 X138.057 Y109.343 E.13891
 G1 X138.057 Y108.497 E.02386
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:9.6
 ;HEIGHT:0.200001
@@ -101999,6 +102098,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z10 F9000
 G1 X75.136 Y78.894 Z10
@@ -103627,6 +103727,7 @@ G1 X142.982 Y109.343 E.02059
 G1 X138.057 Y109.343 E.13891
 G1 X138.057 Y108.497 E.02386
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:9.8
 ;HEIGHT:0.2
@@ -103636,6 +103737,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z10.2 F9000
 G1 X75.136 Y78.893 Z10.2
@@ -105263,6 +105365,7 @@ G1 X142.982 Y109.343 E.02059
 G1 X138.057 Y109.343 E.13891
 G1 X138.057 Y108.497 E.02386
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S86
 ;LAYER_CHANGE
 ;Z:10
@@ -105273,6 +105376,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z10.4 F9000
 G1 X75.137 Y78.893 Z10.4
@@ -106893,6 +106997,7 @@ G1 X142.982 Y109.343 E.02059
 G1 X138.057 Y109.343 E.13891
 G1 X138.057 Y108.497 E.02386
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:10.2
@@ -106903,6 +107008,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z10.6 F9000
 G1 X75.137 Y78.892 Z10.6
@@ -108840,6 +108946,7 @@ G1 E1 F3900
 G1 F8400
 G1 X81.113 Y109.247 E.09755
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S66
 ;LAYER_CHANGE
 ;Z:10.4
@@ -108850,6 +108957,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z10.8 F9000
 G1 X75.137 Y78.892 Z10.8
@@ -110790,6 +110898,7 @@ G1 X78.793 Y109.571 E.01455
 G1 X78.808 Y109.71 E.00527
 G1 X81.128 Y109.71 E.08766
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:10.6
 ;HEIGHT:0.200001
@@ -110799,6 +110908,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z11 F9000
 G1 X75.138 Y78.892 Z11
@@ -112702,6 +112812,7 @@ G1 X79.178 Y109.601 F9000
 G1 F8400
 G1 X80.759 Y109.601 E.06279
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S71
 ;LAYER_CHANGE
 ;Z:10.8
@@ -112712,6 +112823,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z11.2 F9000
 G1 X75.138 Y78.891 Z11.2
@@ -114678,6 +114790,7 @@ G1 X79.12 Y109.767 E.0069
 G1 X79.121 Y109.877 E.00303
 G1 X80.842 Y109.877 E.04775
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:11
@@ -114688,6 +114801,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z11.4 F9000
 G1 X75.138 Y78.891 Z11.4
@@ -116777,6 +116891,7 @@ G1 X79.162 Y109.819 E.00885
 G1 X79.163 Y109.992 E.00583
 G1 X80.957 Y109.992 E.06066
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S71
 ;LAYER_CHANGE
 ;Z:11.2
@@ -116787,6 +116902,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z11.6 F9000
 G1 X75.139 Y78.89 Z11.6
@@ -118810,6 +118926,7 @@ G1 X79.193 Y110.08 E.00866
 G1 X81.059 Y110.08 E.07178
 G1 X81.097 Y110.019 E.00276
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S81
 ;LAYER_CHANGE
 ;Z:11.4
@@ -118820,6 +118937,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z11.8 F9000
 G1 X75.139 Y78.89 Z11.8
@@ -120772,6 +120890,7 @@ G1 X81.501 Y110.338 E.00756
 G1 X81.757 Y110.098 E.00991
 G1 X81.93 Y110.019 E.00536
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:11.6
 ;HEIGHT:0.200001
@@ -120781,6 +120900,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z12 F9000
 G1 X75.139 Y78.889 Z12
@@ -122713,6 +122833,7 @@ G1 X81.525 Y110.401 E.00806
 G1 X81.791 Y110.168 E.00997
 G1 X82.15 Y110.017 E.01098
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S84
 ;LAYER_CHANGE
 ;Z:11.8
@@ -122723,6 +122844,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z12.2 F9000
 G1 X75.139 Y78.889 Z12.2
@@ -124632,6 +124754,7 @@ G1 X81.821 Y110.212 E.00987
 G1 X82.267 Y110.039 E.01348
 G1 X82.454 Y110.007 E.00534
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:12
@@ -124642,6 +124765,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z12.4 F9000
 G1 X75.138 Y78.889 Z12.4
@@ -126257,6 +126381,7 @@ G1 X81.832 Y110.24 E.00983
 G1 X82.272 Y110.073 E.01328
 G1 X82.654 Y110.009 E.01092
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S125
 ;LAYER_CHANGE
 ;Z:12.2
@@ -126267,6 +126392,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z12.6 F9000
 G1 X141.586 Y108.927 Z12.6
@@ -126508,6 +126634,7 @@ G1 X81.832 Y110.234 E.00988
 G1 X82.276 Y110.066 E.01339
 G1 X82.648 Y110.006 E.01065
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:12.4
 ;HEIGHT:0.2
@@ -126517,6 +126644,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z12.8 F9000
 G1 X141.586 Y108.954 Z12.8
@@ -126756,6 +126884,7 @@ G1 X81.826 Y110.219 E.0098
 G1 X82.266 Y110.049 E.01331
 G1 X82.499 Y110.009 E.00666
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:12.6
 ;HEIGHT:0.200001
@@ -126765,6 +126894,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z13 F9000
 G1 X141.586 Y108.98 Z13
@@ -126993,6 +127123,7 @@ G1 X79.192 Y110.242 E.01854
 G1 X81.131 Y110.242 E.07421
 G1 X81.311 Y110.03 E.01062
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:12.8
 ;HEIGHT:0.2
@@ -127002,6 +127133,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z13.2 F9000
 G1 X141.586 Y109.058 Z13.2
@@ -127248,6 +127380,7 @@ G1 X79.153 Y110.203 E.01306
 G1 X81.135 Y110.203 E.06366
 G1 X81.27 Y110.03 E.00706
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:13
 ;HEIGHT:0.2
@@ -127257,6 +127390,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z13.4 F9000
 G1 X141.586 Y109.141 Z13.4
@@ -127515,6 +127649,7 @@ G1 X79.112 Y110.162 E.00828
 G1 X81.115 Y110.162 E.05123
 G1 X81.197 Y110.035 E.00385
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:13.2
 ;HEIGHT:0.2
@@ -127524,6 +127659,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z13.6 F9000
 G1 X141.586 Y109.259 Z13.6
@@ -127807,6 +127943,7 @@ G1 X79.155 Y110 F9000
 G1 F1684
 G1 X80.973 Y110 E.05901
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:13.4
 ;HEIGHT:0.2
@@ -127816,6 +127953,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 X81.586 Y109.412 Z13.4 F9000
 ;TYPE:Inner wall
 ;WIDTH:0.399999
@@ -128050,6 +128188,7 @@ G1 X141.203 Y110.205 E.07821
 G1 X141.203 Y109.795 E.01322
 G1 X138.823 Y109.795 E.07692
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:13.6
 ;HEIGHT:0.200001
@@ -128059,6 +128198,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z14 F9000
 G1 X81.586 Y109.612 Z14
@@ -128232,6 +128372,7 @@ G1 X138.802 Y110 F9000
 G1 F1174
 G1 X141.158 Y110 E.07803
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 ;LAYER_CHANGE
 ;Z:13.8
 ;HEIGHT:0.2
@@ -128241,6 +128382,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z14.2 F9000
 G1 X81.611 Y109.847 Z14.2
@@ -128349,6 +128491,7 @@ G1 X138.057 Y110.485 E.10961
 G1 X138.057 Y109.515 E.02734
 G1 X141.903 Y109.515 E.10848
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 M106 S127
 ;LAYER_CHANGE
 ;Z:14
@@ -128359,6 +128502,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_START NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 G1 Z14.4 F9000
 G1 X82.3 Y109.605 Z14.4
@@ -128431,6 +128575,7 @@ G1 X141.905 Y110 F9000
 G1 F600
 G1 X138.095 Y110 E.13005
 ; stop printing object pizerohingedcase_camera_gpio_v2_mod.stl id:2902775891712 copy 0
+EXCLUDE_OBJECT_END NAME=pizerohingedcase_camera_gpio_v2_mod_stl_id_2902775891712_copy_0
 G1 E-1 F5100
 M106 S0
 ;TYPE:Custom
