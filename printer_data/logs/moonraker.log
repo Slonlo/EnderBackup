@@ -4060,3 +4060,10 @@ Traceback (most recent call last):
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 
 2025-02-27 12:22:30,821 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-02-27 12:22:34,230 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-02-27 12:22:34,233 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-02-27 12:22:34,481 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-02-27 12:22:34,753 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-02-27 12:22:35,747 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-02-27 12:22:36,004 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body2_PLA_7m4s.gcode
+2025-02-27 12:22:36,252 [job_state.py:_status_update()] - Job Started: Body2_PLA_7m4s.gcode
