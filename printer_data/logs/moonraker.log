@@ -4079,3 +4079,4 @@ Content-Type: multipart/form-data; boundary=------------------------c994d7727eb8
 2025-02-27 12:38:35,962 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 3069.31ms
 2025-02-27 12:38:36,180 [job_state.py:_status_update()] - Job Started: DividerSunny_PLA_1h8m.gcode
 2025-02-27 12:48:14,251 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.112
+2025-02-27 13:05:46,321 [klippy_apis.py:pause_print()] - Requesting job pause...
