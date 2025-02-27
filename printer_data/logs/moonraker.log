@@ -3727,3 +3727,5 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-27 09:27:43,712 [job_state.py:_status_update()] - Job Started: pizero_case_8_1_zero_case_withpicamera_bottom_PETG_23m19s.gcode
 2025-02-27 09:28:34,719 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-02-27 09:29:34,721 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 60.00 seconds
+2025-02-27 09:30:34,723 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 120.00 seconds
+2025-02-27 09:31:34,726 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 180.01 seconds
