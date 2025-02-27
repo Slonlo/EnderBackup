@@ -4091,3 +4091,10 @@ Content-Type: multipart/form-data; boundary=------------------------c994d7727eb8
 2025-02-27 13:24:14,854 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-02-27 13:26:20,241 [klippy_apis.py:resume_print()] - Requesting job resume...
 2025-02-27 13:43:14,259 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.4
+2025-02-27 14:00:04,235 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.112
+2025-02-27 14:00:04,239 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 7.93ms
+2025-02-27 14:00:04,240 [websockets.py:open()] - Websocket Opened: ID: 140064255757808, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-27 14:00:04,292 [websockets.py:_handle_identify()] - Websocket 140064255757808 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-27 14:00:10,872 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 6.70ms
+2025-02-27 14:00:10,872 [websockets.py:open()] - Websocket Opened: ID: 140064255758144, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-02-27 14:00:10,901 [websockets.py:_handle_identify()] - Websocket 140064255758144 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
