@@ -4679,3 +4679,7 @@ Content-Type: multipart/form-data; boundary=------------------------4e2ec62c3ef5
 
 2025-02-27 15:54:25,421 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: keystone-blank-10i_PETG_52m32s.gcode, sliced by OrcaSlicer
 
+2025-02-27 15:54:27,789 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-1bq7_9iq.json) successfully finished
+2025-02-27 15:54:27,792 [klippy_apis.py:start_print()] - Requesting Job Start, filename = keystone-blank-10i_PETG_52m32s.gcode
+2025-02-27 15:54:27,832 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 3019.21ms
+2025-02-27 15:54:27,862 [job_state.py:_status_update()] - Job Started: keystone-blank-10i_PETG_52m32s.gcode
