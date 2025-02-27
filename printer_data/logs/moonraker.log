@@ -4084,3 +4084,5 @@ Content-Type: multipart/form-data; boundary=------------------------c994d7727eb8
 2025-02-27 13:08:16,902 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 253.000 215.000 152.900 [4288.554]
 2025-02-27 13:08:41,405 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -22.000 215.000 152.900 [4288.554]
 2025-02-27 13:09:33,960 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -22.000 215.000 152.900 [4288.554]
+2025-02-27 13:10:29,420 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -72.000 215.000 152.900 [4288.554]
+2025-02-27 13:11:36,811 [klippy_apis.py:resume_print()] - Requesting job resume...
