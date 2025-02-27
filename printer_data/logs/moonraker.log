@@ -4067,3 +4067,10 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-27 12:22:35,747 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-02-27 12:22:36,004 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body2_PLA_7m4s.gcode
 2025-02-27 12:22:36,252 [job_state.py:_status_update()] - Job Started: Body2_PLA_7m4s.gcode
+2025-02-27 12:38:32,896 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------c994d7727eb88022
+2025-02-27 12:38:33,063 [application.py:post()] - Processing Uploaded File: DividerSunny_PLA_1h8m.gcode
+2025-02-27 12:38:33,530 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-27 12:38:33,537 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: DividerSunny_PLA_1h8m.gcode, sliced by OrcaSlicer
+
