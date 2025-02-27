@@ -518,6 +518,27 @@
 ; first layer extrusion width = 0.50mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 17 known objects
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_185555511_copy_0 CENTER=54.047,73.645 POLYGON=[[41.257,65.5],[41.257,81.5],[66.75,81.5],[66.75,65.5]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_230248534_copy_0 CENTER=54.047,92.145 POLYGON=[[41.257,84.0],[41.257,100.0],[66.75,100.0],[66.75,84.0]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_162408792_copy_0 CENTER=54.047,110.645 POLYGON=[[41.257,102.5],[41.257,118.5],[66.75,118.5],[66.75,102.5]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_88772541_copy_0 CENTER=54.047,129.145 POLYGON=[[41.257,121.0],[41.257,137.0],[66.75,137.0],[66.75,121.0]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_146170120_copy_0 CENTER=54.047,147.645 POLYGON=[[41.257,139.5],[41.257,155.5],[66.75,155.5],[66.75,139.5]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_218105220_copy_0 CENTER=54.047,166.145 POLYGON=[[41.257,158.0],[41.257,174.0],[66.75,174.0],[66.75,158.0]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_82744051_copy_0 CENTER=82.047,166.145 POLYGON=[[69.257,158.0],[69.257,174.0],[94.75,174.0],[94.75,158.0]]
+EXCLUDE_OBJECT_DEFINE NAME=DividerSunny_stl_id_2241_copy_0 CENTER=123.389,142.016 POLYGON=[[69.25,126.5],[69.25,174.0],[178.75,174.0],[178.75,126.5]]
+EXCLUDE_OBJECT_DEFINE NAME=DividerSunny_stl_id_0_copy_0 CENTER=121.389,107.195 POLYGON=[[69.25,76.5],[69.25,149.0],[178.75,149.0],[178.75,76.5]]
+EXCLUDE_OBJECT_DEFINE NAME=DividerSunny_stl_id_2602477494016_copy_0 CENTER=137.389,160.766 POLYGON=[[125.25,151.5],[125.25,174.0],[150.75,174.0],[150.75,151.5]]
+EXCLUDE_OBJECT_DEFINE NAME=DividerSunny_stl_id_2602477507072_copy_0 CENTER=165.389,160.766 POLYGON=[[153.25,151.5],[153.25,174.0],[178.75,174.0],[178.75,151.5]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_2602477507072_copy_0 CENTER=166.552,86.470 POLYGON=[[153.687,78.25],[153.687,94.25],[179.18,94.25],[179.18,78.25]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_2602486840832_copy_0 CENTER=138.047,54.145 POLYGON=[[125.257,46.0],[125.257,62.0],[150.75,62.0],[150.75,46.0]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_126706202_copy_0 CENTER=110.047,54.145 POLYGON=[[97.257,46.0],[97.257,62.0],[122.75,62.0],[122.75,46.0]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_105_copy_0 CENTER=82.047,54.145 POLYGON=[[69.257,46.0],[69.257,62.0],[94.75,62.0],[94.75,46.0]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_172836876_copy_0 CENTER=82.047,72.645 POLYGON=[[69.257,64.5],[69.257,80.5],[94.75,80.5],[94.75,64.5]]
+EXCLUDE_OBJECT_DEFINE NAME=Body2_stl_id_155394232_copy_0 CENTER=82.047,91.145 POLYGON=[[69.257,83.0],[69.257,99.0],[94.75,99.0],[94.75,83.0]]
 M73 P0 R67
 ;TYPE:Custom
 G28 ; home all axis
@@ -556,6 +577,7 @@ G1 E-1 F5100
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z.7 F9000
 G1 X42.185 Y67.867
 G1 Z.7
@@ -852,7 +874,9 @@ G1 X42.338 Y79.271 F9000
 G1 F2400
 G1 X43.471 Y80.404 E.08624
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -1151,7 +1175,9 @@ G1 X42.338 Y97.771 F9000
 G1 F2400
 G1 X43.471 Y98.904 E.08624
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -1450,7 +1476,9 @@ G1 X42.338 Y116.271 F9000
 G1 F2400
 G1 X43.471 Y117.404 E.08624
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -1749,7 +1777,9 @@ G1 X42.338 Y134.771 F9000
 G1 F2400
 G1 X43.471 Y135.904 E.08624
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -2050,7 +2080,9 @@ G1 X42.338 Y153.271 F9000
 G1 F2400
 G1 X43.471 Y154.404 E.08624
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -2347,7 +2379,9 @@ G1 X42.338 Y171.771 F9000
 G1 F2400
 G1 X43.471 Y172.904 E.08624
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -2648,7 +2682,9 @@ G1 X70.338 Y171.771 F9000
 G1 F2400
 G1 X71.471 Y172.904 E.08624
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -2961,7 +2997,9 @@ G1 X99.144 Y172.998 F9000
 G1 F2400
 G1 X98.252 Y172.106 E.068
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -3276,7 +3314,9 @@ G1 X99.144 Y147.998 F9000
 G1 F2400
 G1 X98.252 Y147.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -3589,7 +3629,9 @@ G1 X99.144 Y122.998 F9000
 G1 F2400
 G1 X98.252 Y122.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -3904,7 +3946,9 @@ G1 X99.144 Y97.998 F9000
 G1 F2400
 G1 X98.252 Y97.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -4219,7 +4263,9 @@ G1 X127.144 Y97.998 F9000
 G1 F2400
 G1 X126.252 Y97.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -4532,7 +4578,9 @@ G1 X127.144 Y122.998 F9000
 G1 F2400
 G1 X126.252 Y122.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -4847,7 +4895,9 @@ G1 X127.144 Y147.998 F9000
 G1 F2400
 G1 X126.252 Y147.106 E.068
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -5162,7 +5212,9 @@ G1 X127.144 Y172.998 F9000
 G1 F2400
 G1 X126.252 Y172.106 E.068
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -5473,7 +5525,9 @@ G1 X155.144 Y172.998 F9000
 G1 F2400
 G1 X154.252 Y172.106 E.068
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -5788,7 +5842,9 @@ G1 X155.144 Y147.998 F9000
 G1 F2400
 G1 X154.252 Y147.106 E.068
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -6103,7 +6159,9 @@ G1 X155.144 Y122.998 F9000
 G1 F2400
 G1 X154.252 Y122.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -6393,7 +6451,9 @@ G1 X154.768 Y92.021 F9000
 G1 F2400
 G1 X155.9 Y93.153 E.08619
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -6694,7 +6754,9 @@ G1 X126.338 Y59.771 F9000
 G1 F2400
 G1 X127.471 Y60.904 E.08624
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -6991,7 +7053,9 @@ G1 X98.338 Y59.771 F9000
 G1 F2400
 G1 X99.471 Y60.904 E.08624
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -7290,7 +7354,9 @@ G1 X70.338 Y59.771 F9000
 G1 F2400
 G1 X71.471 Y60.904 E.08624
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -7591,7 +7657,9 @@ G1 X70.338 Y78.271 F9000
 G1 F2400
 G1 X71.471 Y79.404 E.08624
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -7890,7 +7958,9 @@ M73 P20 R54
 G1 F2400
 G1 X71.471 Y97.904 E.08624
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -8203,7 +8273,9 @@ G1 X71.144 Y122.998 F9000
 G1 F2400
 G1 X70.252 Y122.106 E.068
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -8518,6 +8590,7 @@ G1 X71.144 Y147.998 F9000
 G1 F2400
 G1 X70.252 Y147.106 E.068
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 M106 S255
 ;LAYER_CHANGE
 ;Z:0.6
@@ -8535,6 +8608,7 @@ G1 X70.959 Y147.813 E-.3
 M104 S220 ; set nozzle temperature
 M140 S65 ; set bed temperature
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z1 F9000
 G1 X64.377 Y66.415 Z1
 G1 Z.6
@@ -8772,7 +8846,9 @@ G1 X42.65 Y67.526 E.01848
 G1 X42.888 Y67.194 E.02201
 G1 X43.464 Y66.619 E.04376
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -9014,7 +9090,9 @@ G1 X42.65 Y86.026 E.01848
 G1 X42.888 Y85.694 E.02201
 G1 X43.464 Y85.119 E.04376
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -9256,7 +9334,9 @@ G1 X42.65 Y104.526 E.01848
 G1 X42.888 Y104.194 E.02201
 G1 X43.464 Y103.619 E.04376
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -9498,7 +9578,9 @@ G1 X42.65 Y123.026 E.01848
 G1 X42.888 Y122.694 E.02201
 G1 X43.464 Y122.119 E.04376
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -9742,7 +9824,9 @@ G1 X42.65 Y141.526 E.01848
 G1 X42.888 Y141.194 E.02201
 G1 X43.464 Y140.619 E.04376
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -9986,7 +10070,9 @@ G1 X42.65 Y160.026 E.01848
 G1 X42.888 Y159.694 E.02201
 G1 X43.464 Y159.119 E.04376
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -10228,7 +10314,9 @@ G1 X70.65 Y160.026 E.01848
 G1 X70.888 Y159.694 E.02201
 G1 X71.464 Y159.119 E.04376
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -10473,7 +10561,9 @@ G1 X100.8 Y153.727 E.02743
 G1 X100.178 Y154.24 E.0433
 G1 X99.029 Y155.39 E.08739
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -10717,7 +10807,9 @@ G1 X100.8 Y128.727 E.02743
 G1 X100.178 Y129.24 E.0433
 G1 X99.029 Y130.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -10963,7 +11055,9 @@ G1 X100.8 Y103.727 E.02743
 G1 X100.178 Y104.24 E.0433
 G1 X99.029 Y105.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -11207,7 +11301,9 @@ G1 X100.8 Y78.727 E.02743
 G1 X100.178 Y79.24 E.0433
 G1 X99.029 Y80.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -11453,7 +11549,9 @@ G1 X128.8 Y78.727 E.02743
 G1 X128.178 Y79.24 E.0433
 G1 X127.029 Y80.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -11699,7 +11797,9 @@ G1 X128.8 Y103.727 E.02743
 G1 X128.178 Y104.24 E.0433
 G1 X127.029 Y105.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -11943,7 +12043,9 @@ G1 X128.8 Y128.727 E.02743
 G1 X128.178 Y129.24 E.0433
 G1 X127.029 Y130.39 E.08739
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -12187,7 +12289,9 @@ G1 X128.8 Y153.727 E.02743
 G1 X128.178 Y154.24 E.0433
 G1 X127.029 Y155.39 E.08739
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -12431,7 +12535,9 @@ G1 X156.8 Y153.727 E.02743
 G1 X156.178 Y154.24 E.0433
 G1 X155.029 Y155.39 E.08739
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -12679,7 +12785,9 @@ G1 X156.8 Y128.727 E.02743
 G1 X156.178 Y129.24 E.0433
 G1 X155.029 Y130.39 E.08739
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -12923,7 +13031,9 @@ G1 X156.8 Y103.727 E.02743
 G1 X156.178 Y104.24 E.0433
 G1 X155.029 Y105.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -13164,7 +13274,9 @@ G1 X155.187 Y80.093 E.0195
 G1 X155.281 Y79.978 E.00797
 G1 X155.896 Y79.363 E.04677
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.911
@@ -13406,7 +13518,9 @@ G1 X126.65 Y48.026 E.01848
 G1 X126.888 Y47.694 E.02201
 G1 X127.464 Y47.119 E.04376
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -13650,7 +13764,9 @@ G1 X98.65 Y48.026 E.01848
 G1 X98.888 Y47.694 E.02201
 G1 X99.464 Y47.119 E.04376
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -13892,7 +14008,9 @@ G1 X70.65 Y48.026 E.01848
 G1 X70.888 Y47.694 E.02201
 G1 X71.464 Y47.119 E.04376
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -14134,7 +14252,9 @@ G1 X70.65 Y66.526 E.01848
 G1 X70.888 Y66.194 E.02201
 G1 X71.464 Y65.619 E.04376
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -14378,7 +14498,9 @@ G1 X70.65 Y85.026 E.01848
 G1 X70.888 Y84.694 E.02201
 G1 X71.464 Y84.119 E.04376
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15912.599
@@ -14623,7 +14745,9 @@ G1 X72.8 Y103.727 E.02743
 G1 X72.178 Y104.24 E.0433
 G1 X71.029 Y105.39 E.08739
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15919.838
@@ -14869,6 +14993,7 @@ G1 X72.8 Y128.727 E.02743
 G1 X72.178 Y129.24 E.0433
 G1 X71.029 Y130.39 E.08739
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:0.9
 ;HEIGHT:0.3
@@ -14883,6 +15008,7 @@ G1 X71.736 Y129.682 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z1.3 F9000
 G1 X65.802 Y67.738 Z1.3
 G1 Z.9
@@ -15118,7 +15244,9 @@ G1 X42.742 Y79.638 E.0113
 G1 X42.851 Y79.772 E.00929
 G1 X43.475 Y80.396 E.04743
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -15360,7 +15488,9 @@ G1 X42.742 Y98.138 E.0113
 G1 X42.851 Y98.272 E.00929
 G1 X43.475 Y98.896 E.04743
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -15602,7 +15732,9 @@ G1 X42.742 Y116.638 E.0113
 G1 X42.851 Y116.772 E.00929
 G1 X43.475 Y117.396 E.04743
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -15848,7 +15980,9 @@ G1 X42.742 Y135.138 E.0113
 G1 X42.851 Y135.272 E.00929
 G1 X43.475 Y135.896 E.04743
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -16090,7 +16224,9 @@ G1 X42.742 Y153.638 E.0113
 G1 X42.851 Y153.772 E.00929
 G1 X43.475 Y154.396 E.04743
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -16332,7 +16468,9 @@ G1 X42.742 Y172.138 E.0113
 G1 X42.851 Y172.272 E.00929
 G1 X43.475 Y172.896 E.04743
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -16574,7 +16712,9 @@ G1 X70.742 Y172.138 E.0113
 G1 X70.851 Y172.272 E.00929
 G1 X71.475 Y172.896 E.04743
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -16823,7 +16963,9 @@ G1 X98.498 Y172.699 E.00275
 G1 X98.525 Y172.745 E.00275
 G1 X98.584 Y172.734 E.00314
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -17072,7 +17214,9 @@ G1 X98.498 Y147.699 E.00275
 G1 X98.525 Y147.745 E.00275
 G1 X98.584 Y147.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -17323,7 +17467,9 @@ G1 X98.498 Y122.699 E.00275
 G1 X98.525 Y122.745 E.00275
 G1 X98.584 Y122.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -17572,7 +17718,9 @@ G1 X98.498 Y97.699 E.00275
 G1 X98.525 Y97.745 E.00275
 G1 X98.584 Y97.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -17823,7 +17971,9 @@ G1 X126.498 Y97.699 E.00275
 G1 X126.525 Y97.745 E.00275
 G1 X126.584 Y97.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -18072,7 +18222,9 @@ G1 X126.498 Y122.699 E.00275
 G1 X126.525 Y122.745 E.00275
 G1 X126.584 Y122.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -18321,7 +18473,9 @@ G1 X126.498 Y147.699 E.00275
 G1 X126.525 Y147.745 E.00275
 G1 X126.584 Y147.734 E.00314
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -18572,7 +18726,9 @@ G1 X126.498 Y172.699 E.00275
 G1 X126.525 Y172.745 E.00275
 G1 X126.584 Y172.734 E.00314
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -18823,7 +18979,9 @@ G1 X154.498 Y172.699 E.00275
 G1 X154.525 Y172.745 E.00275
 G1 X154.584 Y172.734 E.00314
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -19072,7 +19230,9 @@ G1 X154.498 Y147.699 E.00275
 G1 X154.525 Y147.745 E.00275
 G1 X154.584 Y147.734 E.00314
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -19321,7 +19481,9 @@ G1 X154.498 Y122.699 E.00275
 G1 X154.525 Y122.745 E.00275
 G1 X154.584 Y122.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -19568,7 +19730,9 @@ G1 X155.172 Y92.388 E.0113
 G1 X155.281 Y92.522 E.0093
 G1 X155.905 Y93.146 E.0474
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15914.66
@@ -19810,7 +19974,9 @@ G1 X126.742 Y60.138 E.0113
 G1 X126.851 Y60.272 E.00929
 G1 X127.475 Y60.896 E.04743
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -20054,7 +20220,9 @@ G1 X98.742 Y60.138 E.0113
 G1 X98.851 Y60.272 E.00929
 G1 X99.475 Y60.896 E.04743
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -20296,7 +20464,9 @@ G1 X70.742 Y60.138 E.0113
 G1 X70.851 Y60.272 E.00929
 G1 X71.475 Y60.896 E.04743
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -20538,7 +20708,9 @@ G1 X70.742 Y78.638 E.0113
 G1 X70.851 Y78.772 E.00929
 G1 X71.475 Y79.396 E.04743
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -20782,7 +20954,9 @@ G1 X70.742 Y97.138 E.0113
 G1 X70.851 Y97.272 E.00929
 G1 X71.475 Y97.896 E.04743
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15911.873
@@ -21029,7 +21203,9 @@ G1 X70.498 Y122.699 E.00275
 G1 X70.525 Y122.745 E.00275
 G1 X70.584 Y122.734 E.00314
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.9322 F5100
 ;WIPE_START
 G1 F16511.924
@@ -21278,6 +21454,7 @@ G1 X70.498 Y147.699 E.00275
 G1 X70.525 Y147.745 E.00275
 G1 X70.584 Y147.734 E.00314
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.3
@@ -21295,6 +21472,7 @@ G1 X70.578 Y147.653 E-.01637
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z1.6 F9000
 G1 X65.364 Y80.033 Z1.6
 G1 Z1.2
@@ -21593,7 +21771,9 @@ G1 X42.757 Y67.343 E.01962
 G1 X42.842 Y67.239 E.00731
 G1 X43.484 Y66.597 E.0491
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -21902,7 +22082,9 @@ G1 X42.757 Y85.843 E.01962
 G1 X42.842 Y85.739 E.00731
 G1 X43.484 Y85.097 E.0491
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -22207,7 +22389,9 @@ G1 X42.757 Y104.343 E.01962
 G1 X42.842 Y104.239 E.00731
 G1 X43.484 Y103.597 E.0491
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -22512,7 +22696,9 @@ G1 X42.757 Y122.843 E.01962
 G1 X42.842 Y122.739 E.00731
 G1 X43.484 Y122.097 E.0491
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -22817,7 +23003,9 @@ G1 X42.757 Y141.343 E.01962
 G1 X42.842 Y141.239 E.00731
 G1 X43.484 Y140.597 E.0491
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -23124,7 +23312,9 @@ G1 X42.757 Y159.843 E.01962
 G1 X42.842 Y159.739 E.00731
 G1 X43.484 Y159.097 E.0491
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -23431,7 +23621,9 @@ G1 X70.757 Y159.843 E.01962
 G1 X70.842 Y159.739 E.00731
 G1 X71.484 Y159.097 E.0491
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -23606,7 +23798,9 @@ G1 X121.326 Y172.743 E.00643
 ;WIDTH:0.404381
 G1 X111.055 Y172.743 E.42684
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -23780,7 +23974,9 @@ G1 X121.326 Y147.743 E.00643
 ;WIDTH:0.404381
 G1 X111.055 Y147.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -23954,7 +24150,9 @@ G1 X121.326 Y122.743 E.00643
 ;WIDTH:0.404381
 G1 X111.055 Y122.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -24128,7 +24326,9 @@ G1 X121.326 Y97.743 E.00643
 ;WIDTH:0.404381
 G1 X111.055 Y97.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -24304,7 +24504,9 @@ G1 X149.326 Y97.743 E.00643
 ;WIDTH:0.404381
 G1 X139.055 Y97.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -24478,7 +24680,9 @@ G1 X149.326 Y122.743 E.00643
 ;WIDTH:0.404381
 G1 X139.055 Y122.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -24652,7 +24856,9 @@ G1 X149.326 Y147.743 E.00643
 ;WIDTH:0.404381
 G1 X139.055 Y147.743 E.42684
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -24826,7 +25032,9 @@ G1 X149.326 Y172.743 E.00643
 ;WIDTH:0.404381
 G1 X139.055 Y172.743 E.42684
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -25000,7 +25208,9 @@ G1 X177.326 Y172.743 E.00643
 ;WIDTH:0.404381
 G1 X167.055 Y172.743 E.42684
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -25174,7 +25384,9 @@ G1 X177.326 Y147.743 E.00643
 ;WIDTH:0.404381
 G1 X167.055 Y147.743 E.42684
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -25348,7 +25560,9 @@ G1 X177.326 Y122.743 E.00643
 ;WIDTH:0.404381
 G1 X167.055 Y122.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -25656,7 +25870,9 @@ G1 X167.318 Y79.653 E.004
 G1 X167.382 Y79.653 E.004
 G1 X167.393 Y79.632 E.0015
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.8958 F5100
 ;WIPE_START
 G1 F13687.005
@@ -25964,7 +26180,9 @@ G1 X126.757 Y47.843 E.01962
 G1 X126.842 Y47.739 E.00731
 G1 X127.484 Y47.097 E.0491
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -26269,7 +26487,9 @@ G1 X98.757 Y47.843 E.01962
 G1 X98.842 Y47.739 E.00731
 G1 X99.484 Y47.097 E.0491
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -26574,7 +26794,9 @@ G1 X70.757 Y47.843 E.01962
 G1 X70.842 Y47.739 E.00731
 G1 X71.484 Y47.097 E.0491
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -26881,7 +27103,9 @@ G1 X70.757 Y66.343 E.01962
 G1 X70.842 Y66.239 E.00731
 G1 X71.484 Y65.597 E.0491
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -27186,7 +27410,9 @@ G1 X70.757 Y84.843 E.01962
 G1 X70.842 Y84.739 E.00731
 G1 X71.484 Y84.097 E.0491
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15812.668
@@ -27363,7 +27589,9 @@ G1 X93.326 Y122.743 E.00643
 ;WIDTH:0.404381
 G1 X83.055 Y122.743 E.42684
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -27537,6 +27765,7 @@ G1 X93.326 Y147.743 E.00643
 ;WIDTH:0.404381
 G1 X83.055 Y147.743 E.42684
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:1.5
 ;HEIGHT:0.3
@@ -27551,6 +27780,7 @@ G1 X84.055 Y147.743 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z1.9 F9000
 G1 X65.531 Y67.171 Z1.9
 G1 Z1.5
@@ -27788,7 +28018,9 @@ G1 X42.742 Y79.638 E.0113
 G1 X42.864 Y79.788 E.01038
 G1 X43.471 Y80.395 E.04621
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -28034,7 +28266,9 @@ G1 X42.742 Y98.138 E.0113
 G1 X42.864 Y98.288 E.01038
 G1 X43.471 Y98.895 E.04621
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -28278,7 +28512,9 @@ G1 X42.742 Y116.638 E.0113
 G1 X42.864 Y116.788 E.01038
 G1 X43.471 Y117.395 E.04621
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -28522,7 +28758,9 @@ G1 X42.742 Y135.138 E.0113
 G1 X42.864 Y135.288 E.01038
 G1 X43.471 Y135.895 E.04621
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -28766,7 +29004,9 @@ G1 X42.742 Y153.638 E.0113
 G1 X42.864 Y153.788 E.01038
 G1 X43.471 Y154.395 E.04621
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -29012,7 +29252,9 @@ G1 X42.742 Y172.138 E.0113
 G1 X42.864 Y172.288 E.01038
 G1 X43.471 Y172.895 E.04621
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -29258,7 +29500,9 @@ G1 X70.742 Y172.138 E.0113
 G1 X70.864 Y172.288 E.01038
 G1 X71.471 Y172.895 E.04621
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -29522,7 +29766,9 @@ G1 X120.666 Y152.865 E.00686
 G1 X120.359 Y152.763 E.01635
 G1 X119.436 Y152.516 E.0483
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -29791,7 +30037,9 @@ G1 X120.666 Y127.865 E.00686
 G1 X120.359 Y127.763 E.01635
 G1 X119.436 Y127.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -30060,7 +30308,9 @@ G1 X120.666 Y102.865 E.00686
 G1 X120.359 Y102.763 E.01635
 G1 X119.436 Y102.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -30329,7 +30579,9 @@ G1 X120.666 Y77.865 E.00686
 G1 X120.359 Y77.763 E.01635
 G1 X119.436 Y77.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -30596,7 +30848,9 @@ G1 X148.666 Y77.865 E.00686
 G1 X148.359 Y77.763 E.01635
 G1 X147.436 Y77.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -30867,7 +31121,9 @@ G1 X148.666 Y102.865 E.00686
 G1 X148.359 Y102.763 E.01635
 G1 X147.436 Y102.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -31134,7 +31390,9 @@ G1 X148.666 Y127.865 E.00686
 G1 X148.359 Y127.763 E.01635
 G1 X147.436 Y127.516 E.0483
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -31401,7 +31659,9 @@ G1 X148.666 Y152.865 E.00686
 G1 X148.359 Y152.763 E.01635
 G1 X147.436 Y152.516 E.0483
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -31672,7 +31932,9 @@ G1 X176.666 Y152.865 E.00686
 G1 X176.359 Y152.763 E.01635
 G1 X175.436 Y152.516 E.0483
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -31939,7 +32201,9 @@ G1 X176.666 Y127.865 E.00686
 G1 X176.359 Y127.763 E.01635
 G1 X175.436 Y127.516 E.0483
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -32208,7 +32472,9 @@ G1 X176.666 Y102.865 E.00686
 G1 X176.359 Y102.763 E.01635
 G1 X175.436 Y102.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -32468,7 +32734,9 @@ G1 X155.172 Y92.388 E.0113
 G1 X155.294 Y92.538 E.01036
 G1 X155.902 Y93.145 E.04623
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.79
@@ -32714,7 +32982,9 @@ G1 X126.742 Y60.138 E.0113
 G1 X126.864 Y60.288 E.01038
 G1 X127.471 Y60.895 E.04621
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -32960,7 +33230,9 @@ G1 X98.742 Y60.138 E.0113
 G1 X98.864 Y60.288 E.01038
 G1 X99.471 Y60.895 E.04621
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -33204,7 +33476,9 @@ G1 X70.742 Y60.138 E.0113
 G1 X70.864 Y60.288 E.01038
 G1 X71.471 Y60.895 E.04621
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -33448,7 +33722,9 @@ G1 X70.742 Y78.638 E.0113
 G1 X70.864 Y78.788 E.01038
 G1 X71.471 Y79.395 E.04621
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -33692,7 +33968,9 @@ G1 X70.742 Y97.138 E.0113
 G1 X70.864 Y97.288 E.01038
 G1 X71.471 Y97.895 E.04621
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15910.537
@@ -33958,7 +34236,9 @@ G1 X92.666 Y102.865 E.00686
 G1 X92.359 Y102.763 E.01635
 G1 X91.436 Y102.516 E.0483
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -34227,6 +34507,7 @@ G1 X92.666 Y127.865 E.00686
 G1 X92.359 Y127.763 E.01635
 G1 X91.436 Y127.516 E.0483
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.3
@@ -34242,6 +34523,7 @@ G1 X92.401 Y127.777 E-.0134
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z2.2 F9000
 G1 X54.873 Y80.629 Z2.2
@@ -34281,7 +34563,9 @@ G1 X54 Y79.756 F9000
 G1 F15964.46
 G1 X54 Y67.284 E.66845
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34324,7 +34608,9 @@ G1 X54 Y98.256 F9000
 G1 F15964.46
 G1 X54 Y85.784 E.66845
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34367,7 +34653,9 @@ G1 X54 Y116.756 F9000
 G1 F15964.46
 G1 X54 Y104.284 E.66845
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34410,7 +34698,9 @@ G1 X54 Y135.256 F9000
 G1 F15964.46
 G1 X54 Y122.784 E.66845
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34453,7 +34743,9 @@ G1 X54 Y153.756 F9000
 G1 F15964.46
 G1 X54 Y141.284 E.66845
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34496,7 +34788,9 @@ G1 X54 Y172.256 F9000
 G1 F15964.46
 G1 X54 Y159.784 E.66845
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34541,7 +34835,9 @@ G1 X82 Y172.256 F9000
 G1 F15964.46
 G1 X82 Y159.784 E.66845
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -34870,7 +35166,9 @@ G1 X100.521 Y153.938 E.04735
 G1 X100.199 Y154.219 E.02299
 G1 X99.029 Y155.389 E.08898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -35199,7 +35497,9 @@ G1 X100.521 Y128.938 E.04735
 G1 X100.199 Y129.219 E.02299
 G1 X99.029 Y130.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -35530,7 +35830,9 @@ G1 X100.521 Y103.938 E.04735
 G1 X100.199 Y104.219 E.02299
 G1 X99.029 Y105.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -35861,7 +36163,9 @@ G1 X100.521 Y78.938 E.04735
 G1 X100.199 Y79.219 E.02299
 G1 X99.029 Y80.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -36190,7 +36494,9 @@ G1 X128.521 Y78.938 E.04735
 G1 X128.199 Y79.219 E.02299
 G1 X127.029 Y80.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -36519,7 +36825,9 @@ G1 X128.521 Y103.938 E.04735
 G1 X128.199 Y104.219 E.02299
 G1 X127.029 Y105.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -36850,7 +37158,9 @@ G1 X128.521 Y128.938 E.04735
 G1 X128.199 Y129.219 E.02299
 G1 X127.029 Y130.389 E.08898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -37181,7 +37491,9 @@ G1 X128.521 Y153.938 E.04735
 G1 X128.199 Y154.219 E.02299
 G1 X127.029 Y155.389 E.08898
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -37510,7 +37822,9 @@ G1 X156.521 Y153.938 E.04735
 G1 X156.199 Y154.219 E.02299
 G1 X155.029 Y155.389 E.08898
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -37841,7 +38155,9 @@ G1 X156.521 Y128.938 E.04735
 G1 X156.199 Y129.219 E.02299
 G1 X155.029 Y130.389 E.08898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -38170,7 +38486,9 @@ G1 X156.521 Y103.938 E.04735
 G1 X156.199 Y104.219 E.02299
 G1 X155.029 Y105.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -38213,7 +38531,9 @@ G1 X166.43 Y92.506 F9000
 G1 F15964.46
 G1 X166.43 Y80.034 E.66845
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -38256,7 +38576,9 @@ G1 X138 Y60.256 F9000
 G1 F15964.46
 G1 X138 Y47.784 E.66845
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -38299,7 +38621,9 @@ G1 X110 Y60.256 F9000
 G1 F15964.46
 G1 X110 Y47.784 E.66845
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -38342,7 +38666,9 @@ G1 X82 Y60.256 F9000
 G1 F15964.46
 G1 X82 Y47.784 E.66845
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -38385,7 +38711,9 @@ G1 X82 Y78.756 F9000
 G1 F15964.46
 G1 X82 Y66.284 E.66845
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -38428,7 +38756,9 @@ G1 X82 Y97.256 F9000
 G1 F15964.46
 G1 X82 Y84.784 E.66845
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15964.46
@@ -38759,7 +39089,9 @@ G1 X72.521 Y103.938 E.04735
 G1 X72.199 Y104.219 E.02299
 G1 X71.029 Y105.389 E.08898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15908.15
@@ -39090,6 +39422,7 @@ G1 X72.521 Y128.938 E.04735
 G1 X72.199 Y129.219 E.02299
 G1 X71.029 Y130.389 E.08898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:2.1
 ;HEIGHT:0.3
@@ -39104,6 +39437,7 @@ G1 X71.736 Y129.682 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z2.5 F9000
 G1 X54.292 Y80.554 Z2.5
 G1 Z2.1
@@ -39131,7 +39465,9 @@ G1 X53.197 Y65.936 E.80555
 G1 X54.803 Y65.936 E.08547
 G1 X54.803 Y81.024 E.80342
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39163,7 +39499,9 @@ G1 X53.197 Y84.436 E.80555
 G1 X54.803 Y84.436 E.08547
 G1 X54.803 Y99.524 E.80342
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39195,7 +39533,9 @@ G1 X53.197 Y102.936 E.80555
 G1 X54.803 Y102.936 E.08547
 G1 X54.803 Y118.024 E.80342
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39227,7 +39567,9 @@ G1 X53.197 Y121.436 E.80555
 G1 X54.803 Y121.436 E.08547
 G1 X54.803 Y136.524 E.80342
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39259,7 +39601,9 @@ G1 X53.197 Y139.936 E.80555
 G1 X54.803 Y139.936 E.08547
 G1 X54.803 Y155.024 E.80342
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39291,7 +39635,9 @@ G1 X53.197 Y158.436 E.80555
 G1 X54.803 Y158.436 E.08547
 G1 X54.803 Y173.524 E.80342
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39323,7 +39669,9 @@ G1 X81.197 Y158.436 E.80555
 G1 X82.803 Y158.436 E.08547
 G1 X82.803 Y173.524 E.80342
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -39653,7 +40001,9 @@ G1 X112.316 Y172.793 E.08733
 G1 X111.699 Y172.793 E.03295
 G1 X110.963 Y172.058 E.05553
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -39989,7 +40339,9 @@ M73 P54 R30
 G1 X111.699 Y147.793 E.03295
 G1 X110.963 Y147.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -40321,7 +40673,9 @@ G1 X112.316 Y122.793 E.08733
 G1 X111.699 Y122.793 E.03295
 G1 X110.963 Y122.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -40653,7 +41007,9 @@ G1 X112.316 Y97.793 E.08733
 G1 X111.699 Y97.793 E.03295
 G1 X110.963 Y97.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -40987,7 +41343,9 @@ G1 X140.316 Y97.793 E.08733
 G1 X139.699 Y97.793 E.03295
 G1 X138.963 Y97.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -41319,7 +41677,9 @@ G1 X140.316 Y122.793 E.08733
 G1 X139.699 Y122.793 E.03295
 G1 X138.963 Y122.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -41653,7 +42013,9 @@ G1 X140.316 Y147.793 E.08733
 G1 X139.699 Y147.793 E.03295
 G1 X138.963 Y147.058 E.05553
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -41987,7 +42349,9 @@ G1 X140.316 Y172.793 E.08733
 G1 X139.699 Y172.793 E.03295
 G1 X138.963 Y172.058 E.05553
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -42319,7 +42683,9 @@ G1 X168.316 Y172.793 E.08733
 G1 X167.699 Y172.793 E.03295
 G1 X166.963 Y172.058 E.05553
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -42651,7 +43017,9 @@ G1 X168.316 Y147.793 E.08733
 G1 X167.699 Y147.793 E.03295
 G1 X166.963 Y147.058 E.05553
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -42985,7 +43353,9 @@ G1 X168.316 Y122.793 E.08733
 G1 X167.699 Y122.793 E.03295
 G1 X166.963 Y122.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -43020,7 +43390,9 @@ G1 X167.233 Y93.814 E.80555
 G1 X165.628 Y93.814 E.08547
 G1 X165.628 Y78.726 E.80342
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43052,7 +43424,9 @@ G1 X137.197 Y46.436 E.80555
 G1 X138.803 Y46.436 E.08547
 G1 X138.803 Y61.524 E.80342
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43084,7 +43458,9 @@ G1 X109.197 Y46.436 E.80555
 G1 X110.803 Y46.436 E.08547
 G1 X110.803 Y61.524 E.80342
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43116,7 +43492,9 @@ G1 X81.197 Y46.436 E.80555
 G1 X82.803 Y46.436 E.08547
 G1 X82.803 Y61.524 E.80342
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43148,7 +43526,9 @@ G1 X81.197 Y64.936 E.80555
 G1 X82.803 Y64.936 E.08547
 G1 X82.803 Y80.024 E.80342
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43180,7 +43560,9 @@ G1 X81.197 Y83.436 E.80555
 G1 X82.803 Y83.436 E.08547
 G1 X82.803 Y98.524 E.80342
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43510,7 +43892,9 @@ G1 X84.316 Y122.793 E.08733
 G1 X83.699 Y122.793 E.03295
 G1 X82.963 Y122.058 E.05553
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16033.165
@@ -43842,6 +44226,7 @@ G1 X84.316 Y147.793 E.08733
 G1 X83.699 Y147.793 E.03295
 G1 X82.963 Y147.058 E.05553
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.3
@@ -43856,6 +44241,7 @@ G1 X83.67 Y147.765 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z2.8 F9000
 G1 X54 Y80.56 Z2.8
 G1 Z2.4
@@ -43888,7 +44274,9 @@ G1 X53.496 Y65.936 E.80555
 G1 X54.504 Y65.936 E.05371
 G1 X54.504 Y81.024 E.80342
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43927,7 +44315,9 @@ G1 X53.496 Y84.436 E.80555
 G1 X54.504 Y84.436 E.05371
 G1 X54.504 Y99.524 E.80342
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -43964,7 +44354,9 @@ G1 X53.496 Y102.936 E.80555
 G1 X54.504 Y102.936 E.05371
 G1 X54.504 Y118.024 E.80342
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44001,7 +44393,9 @@ G1 X53.496 Y121.436 E.80555
 G1 X54.504 Y121.436 E.05371
 G1 X54.504 Y136.524 E.80342
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44038,7 +44432,9 @@ G1 X53.496 Y139.936 E.80555
 G1 X54.504 Y139.936 E.05371
 G1 X54.504 Y155.024 E.80342
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44075,7 +44471,9 @@ G1 X53.496 Y158.436 E.80555
 G1 X54.504 Y158.436 E.05371
 G1 X54.504 Y173.524 E.80342
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44112,7 +44510,9 @@ G1 X81.496 Y158.436 E.80555
 G1 X82.504 Y158.436 E.05371
 G1 X82.504 Y173.524 E.80342
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44175,7 +44575,9 @@ G1 X111.244 Y152.811 E1.07701
 G1 X110.801 Y152.811 E.02402
 G1 X110.801 Y172.649 E1.07485
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44240,7 +44642,9 @@ G1 X111.244 Y127.811 E1.07701
 G1 X110.801 Y127.811 E.02402
 G1 X110.801 Y147.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44305,7 +44709,9 @@ G1 X111.244 Y102.811 E1.07701
 G1 X110.801 Y102.811 E.02402
 G1 X110.801 Y122.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44370,7 +44776,9 @@ G1 X111.244 Y77.811 E1.07701
 G1 X110.801 Y77.811 E.02402
 G1 X110.801 Y97.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44435,7 +44843,9 @@ G1 X139.244 Y77.811 E1.07701
 G1 X138.801 Y77.811 E.02402
 G1 X138.801 Y97.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44500,7 +44910,9 @@ G1 X139.244 Y102.811 E1.07701
 G1 X138.801 Y102.811 E.02402
 G1 X138.801 Y122.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44567,7 +44979,9 @@ G1 X139.244 Y127.811 E1.07701
 G1 X138.801 Y127.811 E.02402
 G1 X138.801 Y147.649 E1.07485
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44632,7 +45046,9 @@ G1 X139.244 Y152.811 E1.07701
 G1 X138.801 Y152.811 E.02402
 G1 X138.801 Y172.649 E1.07485
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44697,7 +45113,9 @@ G1 X167.244 Y152.811 E1.07701
 G1 X166.801 Y152.811 E.02402
 G1 X166.801 Y172.649 E1.07485
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44762,7 +45180,9 @@ G1 X167.244 Y127.811 E1.07701
 G1 X166.801 Y127.811 E.02402
 G1 X166.801 Y147.649 E1.07485
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44827,7 +45247,9 @@ G1 X167.244 Y102.811 E1.07701
 G1 X166.801 Y102.811 E.02402
 G1 X166.801 Y122.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -44857,7 +45279,9 @@ G1 X166.935 Y93.814 E.80555
 G1 X165.926 Y93.814 E.05371
 G1 X165.926 Y78.726 E.80342
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44894,7 +45318,9 @@ G1 X137.496 Y46.436 E.80555
 G1 X138.504 Y46.436 E.05371
 G1 X138.504 Y61.524 E.80342
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44933,7 +45359,9 @@ G1 X109.496 Y46.436 E.80555
 G1 X110.504 Y46.436 E.05371
 G1 X110.504 Y61.524 E.80342
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -44970,7 +45398,9 @@ G1 X81.496 Y46.436 E.80555
 G1 X82.504 Y46.436 E.05371
 G1 X82.504 Y61.524 E.80342
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -45007,7 +45437,9 @@ G1 X81.496 Y64.936 E.80555
 G1 X82.504 Y64.936 E.05371
 G1 X82.504 Y80.024 E.80342
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -45044,7 +45476,9 @@ G1 X81.496 Y83.436 E.80555
 G1 X82.504 Y83.436 E.05371
 G1 X82.504 Y98.524 E.80342
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -45107,7 +45541,9 @@ G1 X83.244 Y102.811 E1.07701
 G1 X82.801 Y102.811 E.02402
 G1 X82.801 Y122.649 E1.07485
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F15792.301
@@ -45172,6 +45608,7 @@ G1 X83.244 Y127.811 E1.07701
 G1 X82.801 Y127.811 E.02402
 G1 X82.801 Y147.649 E1.07485
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:2.7
 ;HEIGHT:0.3
@@ -45186,6 +45623,7 @@ G1 X82.801 Y146.649 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z3.1 F9000
 G1 X54.74 Y81.5 Z3.1
 G1 Z2.7
@@ -45206,7 +45644,9 @@ G1 X53.739 Y65.979 E.96034
 G1 X54.261 Y65.979 E.03335
 G1 X54.261 Y80.981 E.95778
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45233,7 +45673,9 @@ G1 X53.739 Y84.479 E.96034
 G1 X54.261 Y84.479 E.03335
 G1 X54.261 Y99.481 E.95778
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45260,7 +45702,9 @@ G1 X53.739 Y102.979 E.96034
 G1 X54.261 Y102.979 E.03335
 G1 X54.261 Y117.981 E.95778
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45287,7 +45731,9 @@ G1 X53.739 Y121.479 E.96034
 G1 X54.261 Y121.479 E.03335
 G1 X54.261 Y136.481 E.95778
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45314,7 +45760,9 @@ G1 X53.739 Y139.979 E.96034
 G1 X54.261 Y139.979 E.03335
 G1 X54.261 Y154.981 E.95778
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45341,7 +45789,9 @@ G1 X53.739 Y158.479 E.96034
 G1 X54.261 Y158.479 E.03335
 G1 X54.261 Y173.481 E.95778
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45368,7 +45818,9 @@ G1 X81.739 Y158.479 E.96034
 G1 X82.261 Y158.479 E.03335
 G1 X82.261 Y173.481 E.95778
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45414,7 +45866,9 @@ G1 X110.249 Y153.273 E1.15181
 G1 X109.751 Y153.273 E.03021
 G1 X109.751 Y172.187 E1.14938
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45460,7 +45914,9 @@ G1 X110.249 Y128.273 E1.15181
 G1 X109.751 Y128.273 E.03021
 G1 X109.751 Y147.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45506,7 +45962,9 @@ G1 X110.249 Y103.273 E1.15181
 G1 X109.751 Y103.273 E.03021
 G1 X109.751 Y122.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45552,7 +46010,9 @@ G1 X110.249 Y78.273 E1.15181
 G1 X109.751 Y78.273 E.03021
 G1 X109.751 Y97.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45598,7 +46058,9 @@ G1 X138.249 Y78.273 E1.15181
 G1 X137.751 Y78.273 E.03021
 G1 X137.751 Y97.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45644,7 +46106,9 @@ G1 X138.249 Y103.273 E1.15181
 G1 X137.751 Y103.273 E.03021
 G1 X137.751 Y122.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45690,7 +46154,9 @@ G1 X138.249 Y128.273 E1.15181
 G1 X137.751 Y128.273 E.03021
 G1 X137.751 Y147.187 E1.14938
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45736,7 +46202,9 @@ G1 X138.249 Y153.273 E1.15181
 G1 X137.751 Y153.273 E.03021
 G1 X137.751 Y172.187 E1.14938
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45782,7 +46250,9 @@ G1 X166.249 Y153.273 E1.15181
 G1 X165.751 Y153.273 E.03021
 G1 X165.751 Y172.187 E1.14938
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45828,7 +46298,9 @@ G1 X166.249 Y128.273 E1.15181
 G1 X165.751 Y128.273 E.03021
 G1 X165.751 Y147.187 E1.14938
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45876,7 +46348,9 @@ G1 X166.249 Y103.273 E1.15181
 G1 X165.751 Y103.273 E.03021
 G1 X165.751 Y122.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -45902,7 +46376,9 @@ G1 X166.691 Y93.771 E.96034
 G1 X166.169 Y93.771 E.03335
 G1 X166.169 Y78.769 E.95778
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45931,7 +46407,9 @@ G1 X137.739 Y46.479 E.96034
 G1 X138.261 Y46.479 E.03335
 G1 X138.261 Y61.481 E.95778
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45958,7 +46436,9 @@ G1 X109.739 Y46.479 E.96034
 G1 X110.261 Y46.479 E.03335
 G1 X110.261 Y61.481 E.95778
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -45985,7 +46465,9 @@ G1 X81.739 Y46.479 E.96034
 G1 X82.261 Y46.479 E.03335
 G1 X82.261 Y61.481 E.95778
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -46012,7 +46494,9 @@ G1 X81.739 Y64.979 E.96034
 G1 X82.261 Y64.979 E.03335
 G1 X82.261 Y79.981 E.95778
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -46039,7 +46523,9 @@ G1 X81.739 Y83.479 E.96034
 G1 X82.261 Y83.479 E.03335
 G1 X82.261 Y98.481 E.95778
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13401.823
@@ -46085,7 +46571,9 @@ G1 X82.249 Y103.273 E1.15181
 G1 X81.751 Y103.273 E.03021
 G1 X81.751 Y122.187 E1.14938
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F14079.465
@@ -46131,6 +46619,7 @@ G1 X82.249 Y128.273 E1.15181
 G1 X81.751 Y128.273 E.03021
 G1 X81.751 Y147.187 E1.14938
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.3
@@ -46145,6 +46634,7 @@ G1 X81.751 Y146.187 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z3.4 F9000
 G1 X54.609 Y81.5 Z3.4
 G1 Z3
@@ -46165,7 +46655,9 @@ G1 X53.805 Y65.913 E.7248
 G1 X54.195 Y65.913 E.01867
 G1 X54.195 Y81.047 E.72288
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46192,7 +46684,9 @@ G1 X53.805 Y84.413 E.7248
 G1 X54.195 Y84.413 E.01867
 G1 X54.195 Y99.547 E.72288
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46219,7 +46713,9 @@ G1 X53.805 Y102.913 E.7248
 G1 X54.195 Y102.913 E.01867
 G1 X54.195 Y118.047 E.72288
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46246,7 +46742,9 @@ G1 X53.805 Y121.413 E.7248
 G1 X54.195 Y121.413 E.01867
 G1 X54.195 Y136.547 E.72288
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46273,7 +46771,9 @@ G1 X53.805 Y139.913 E.7248
 G1 X54.195 Y139.913 E.01867
 G1 X54.195 Y155.047 E.72288
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46300,7 +46800,9 @@ G1 X53.805 Y158.413 E.7248
 G1 X54.195 Y158.413 E.01867
 G1 X54.195 Y173.547 E.72288
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46327,7 +46829,9 @@ G1 X81.805 Y158.413 E.7248
 G1 X82.195 Y158.413 E.01867
 G1 X82.195 Y173.547 E.72288
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46367,7 +46871,9 @@ G1 X110.285 Y152.874 E1.37718
 G1 X109.715 Y152.874 E.03977
 G1 X109.715 Y172.586 E1.37439
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46407,7 +46913,9 @@ G1 X110.285 Y127.874 E1.37718
 G1 X109.715 Y127.874 E.03977
 G1 X109.715 Y147.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46447,7 +46955,9 @@ G1 X110.285 Y102.874 E1.37718
 G1 X109.715 Y102.874 E.03977
 G1 X109.715 Y122.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46487,7 +46997,9 @@ G1 X110.285 Y77.874 E1.37718
 G1 X109.715 Y77.874 E.03977
 G1 X109.715 Y97.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46527,7 +47039,9 @@ G1 X138.285 Y77.874 E1.37718
 G1 X137.715 Y77.874 E.03977
 G1 X137.715 Y97.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46567,7 +47081,9 @@ G1 X138.285 Y102.874 E1.37718
 G1 X137.715 Y102.874 E.03977
 G1 X137.715 Y122.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46607,7 +47123,9 @@ G1 X138.285 Y127.874 E1.37718
 G1 X137.715 Y127.874 E.03977
 G1 X137.715 Y147.586 E1.37439
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46647,7 +47165,9 @@ G1 X138.285 Y152.874 E1.37718
 G1 X137.715 Y152.874 E.03977
 G1 X137.715 Y172.586 E1.37439
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46687,7 +47207,9 @@ G1 X166.285 Y152.874 E1.37718
 G1 X165.715 Y152.874 E.03977
 G1 X165.715 Y172.586 E1.37439
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46727,7 +47249,9 @@ G1 X166.285 Y127.874 E1.37718
 G1 X165.715 Y127.874 E.03977
 G1 X165.715 Y147.586 E1.37439
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46767,7 +47291,9 @@ G1 X166.285 Y102.874 E1.37718
 G1 X165.715 Y102.874 E.03977
 G1 X165.715 Y122.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -46795,7 +47321,9 @@ G1 X166.626 Y93.837 E.7248
 G1 X166.235 Y93.837 E.01867
 G1 X166.235 Y78.703 E.72288
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46822,7 +47350,9 @@ G1 X137.805 Y46.413 E.7248
 G1 X138.195 Y46.413 E.01867
 G1 X138.195 Y61.547 E.72288
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46849,7 +47379,9 @@ G1 X109.805 Y46.413 E.7248
 G1 X110.195 Y46.413 E.01867
 G1 X110.195 Y61.547 E.72288
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46876,7 +47408,9 @@ G1 X81.805 Y46.413 E.7248
 G1 X82.195 Y46.413 E.01867
 G1 X82.195 Y61.547 E.72288
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46903,7 +47437,9 @@ G1 X81.805 Y64.913 E.7248
 G1 X82.195 Y64.913 E.01867
 G1 X82.195 Y80.047 E.72288
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46930,7 +47466,9 @@ G1 X81.805 Y83.413 E.7248
 G1 X82.195 Y83.413 E.01867
 G1 X82.195 Y98.547 E.72288
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -46970,7 +47508,9 @@ G1 X82.285 Y102.874 E1.37718
 G1 X81.715 Y102.874 E.03977
 G1 X81.715 Y122.586 E1.37439
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12271.251
@@ -47010,6 +47550,7 @@ G1 X82.285 Y127.874 E1.37718
 G1 X81.715 Y127.874 E.03977
 G1 X81.715 Y147.586 E1.37439
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:3.3
 ;HEIGHT:0.3
@@ -47024,6 +47565,7 @@ G1 X81.715 Y146.586 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z3.7 F9000
 G1 X54.532 Y81.5 Z3.7
 G1 Z3.3
@@ -47044,7 +47586,9 @@ G1 X53.843 Y65.875 E.58501
 G1 X54.157 Y65.875 E.01204
 G1 X54.157 Y81.085 E.58348
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47071,7 +47615,9 @@ G1 X53.843 Y84.375 E.58501
 G1 X54.157 Y84.375 E.01204
 G1 X54.157 Y99.585 E.58348
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47098,7 +47644,9 @@ G1 X53.843 Y102.875 E.58501
 G1 X54.157 Y102.875 E.01204
 G1 X54.157 Y118.085 E.58348
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47125,7 +47673,9 @@ G1 X53.843 Y121.375 E.58501
 G1 X54.157 Y121.375 E.01204
 G1 X54.157 Y136.585 E.58348
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47152,7 +47702,9 @@ G1 X53.843 Y139.875 E.58501
 G1 X54.157 Y139.875 E.01204
 G1 X54.157 Y155.085 E.58348
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47179,7 +47731,9 @@ G1 X53.843 Y158.375 E.58501
 G1 X54.157 Y158.375 E.01204
 G1 X54.157 Y173.585 E.58348
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47206,7 +47760,9 @@ G1 X81.843 Y158.375 E.58501
 G1 X82.157 Y158.375 E.01204
 G1 X82.157 Y173.585 E.58348
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47246,7 +47802,9 @@ G1 X110.151 Y152.74 E.73749
 G1 X109.849 Y152.74 E.0111
 G1 X109.849 Y172.72 E.73602
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47286,7 +47844,9 @@ G1 X110.151 Y127.74 E.73749
 G1 X109.849 Y127.74 E.0111
 G1 X109.849 Y147.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47326,7 +47886,9 @@ G1 X110.151 Y102.74 E.73749
 G1 X109.849 Y102.74 E.0111
 G1 X109.849 Y122.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47368,7 +47930,9 @@ G1 X110.151 Y77.74 E.73749
 G1 X109.849 Y77.74 E.0111
 G1 X109.849 Y97.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47408,7 +47972,9 @@ G1 X138.151 Y77.74 E.73749
 G1 X137.849 Y77.74 E.0111
 G1 X137.849 Y97.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47448,7 +48014,9 @@ G1 X138.151 Y102.74 E.73749
 G1 X137.849 Y102.74 E.0111
 G1 X137.849 Y122.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47488,7 +48056,9 @@ G1 X138.151 Y127.74 E.73749
 G1 X137.849 Y127.74 E.0111
 G1 X137.849 Y147.72 E.73602
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47528,7 +48098,9 @@ G1 X138.151 Y152.74 E.73749
 G1 X137.849 Y152.74 E.0111
 G1 X137.849 Y172.72 E.73602
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47568,7 +48140,9 @@ G1 X166.151 Y152.74 E.73749
 G1 X165.849 Y152.74 E.0111
 G1 X165.849 Y172.72 E.73602
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47608,7 +48182,9 @@ G1 X166.151 Y127.74 E.73749
 G1 X165.849 Y127.74 E.0111
 G1 X165.849 Y147.72 E.73602
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47648,7 +48224,9 @@ G1 X166.151 Y102.74 E.73749
 G1 X165.849 Y102.74 E.0111
 G1 X165.849 Y122.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47674,7 +48252,9 @@ G1 X166.587 Y93.875 E.58501
 G1 X166.273 Y93.875 E.01204
 G1 X166.273 Y78.665 E.58348
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47701,7 +48281,9 @@ G1 X137.843 Y46.375 E.58501
 G1 X138.157 Y46.375 E.01204
 G1 X138.157 Y61.585 E.58348
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47728,7 +48310,9 @@ G1 X109.843 Y46.375 E.58501
 G1 X110.157 Y46.375 E.01204
 G1 X110.157 Y61.585 E.58348
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47757,7 +48341,9 @@ M73 P62 R25
 M73 P62 R25
 G1 X82.157 Y61.585 E.58348
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47784,7 +48370,9 @@ G1 X81.843 Y64.875 E.58501
 G1 X82.157 Y64.875 E.01204
 G1 X82.157 Y80.085 E.58348
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47811,7 +48399,9 @@ G1 X81.843 Y83.375 E.58501
 G1 X82.157 Y83.375 E.01204
 G1 X82.157 Y98.585 E.58348
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47851,7 +48441,9 @@ G1 X82.151 Y102.74 E.73749
 G1 X81.849 Y102.74 E.0111
 G1 X81.849 Y122.72 E.73602
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16800
@@ -47891,6 +48483,7 @@ G1 X82.151 Y127.74 E.73749
 G1 X81.849 Y127.74 E.0111
 G1 X81.849 Y147.72 E.73602
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.3
@@ -47905,6 +48498,7 @@ G1 X81.849 Y146.72 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z4 F9000
 G1 X54.502 Y81.5 Z4
 G1 Z3.6
@@ -47930,7 +48524,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X54 Y80.998 E1.04207
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -47961,7 +48557,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X54 Y99.498 E1.04207
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -47992,7 +48590,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X54 Y117.998 E1.04207
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48023,7 +48623,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X54 Y136.498 E1.04207
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48054,7 +48656,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X54 Y154.998 E1.04207
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48085,7 +48689,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X54 Y173.498 E1.04207
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48116,7 +48722,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X82 Y173.498 E1.04207
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48148,7 +48756,9 @@ G1 X109.252 Y173.564 E.07965
 G1 X109.252 Y151.936 E1.15165
 G1 X110.708 Y151.936 E.07752
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48180,7 +48790,9 @@ G1 X109.252 Y148.564 E.07965
 G1 X109.252 Y126.936 E1.15165
 G1 X110.708 Y126.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48212,7 +48824,9 @@ G1 X109.252 Y123.564 E.07965
 G1 X109.252 Y101.936 E1.15165
 G1 X110.708 Y101.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48244,7 +48858,9 @@ G1 X109.252 Y98.564 E.07965
 G1 X109.252 Y76.936 E1.15165
 G1 X110.708 Y76.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48276,7 +48892,9 @@ G1 X137.252 Y98.564 E.07965
 G1 X137.252 Y76.936 E1.15165
 G1 X138.708 Y76.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48308,7 +48926,9 @@ G1 X137.252 Y123.564 E.07965
 G1 X137.252 Y101.936 E1.15165
 G1 X138.708 Y101.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48340,7 +48960,9 @@ G1 X137.252 Y148.564 E.07965
 G1 X137.252 Y126.936 E1.15165
 G1 X138.708 Y126.936 E.07752
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48372,7 +48994,9 @@ G1 X137.252 Y173.564 E.07965
 G1 X137.252 Y151.936 E1.15165
 G1 X138.708 Y151.936 E.07752
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48404,7 +49028,9 @@ G1 X165.252 Y173.564 E.07965
 G1 X165.252 Y151.936 E1.15165
 G1 X166.708 Y151.936 E.07752
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48436,7 +49062,9 @@ G1 X165.252 Y148.564 E.07965
 G1 X165.252 Y126.936 E1.15165
 G1 X166.708 Y126.936 E.07752
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48468,7 +49096,9 @@ G1 X165.252 Y123.564 E.07965
 G1 X165.252 Y101.936 E1.15165
 G1 X166.708 Y101.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48490,7 +49120,9 @@ G1 X166.43 Y78.752 F9000
 G1 F12312.715
 G1 X166.43 Y93.748 E1.04207
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48521,7 +49153,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X138 Y61.498 E1.04207
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48552,7 +49186,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X110 Y61.498 E1.04207
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48583,7 +49219,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X82 Y61.498 E1.04207
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48614,7 +49252,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X82 Y79.998 E1.04207
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48645,7 +49285,9 @@ G1 E1 F3900
 G1 F12312.715
 G1 X82 Y98.498 E1.04207
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12312.715
@@ -48677,7 +49319,9 @@ G1 X81.252 Y123.564 E.07965
 G1 X81.252 Y101.936 E1.15165
 G1 X82.708 Y101.936 E.07752
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -48709,6 +49353,7 @@ G1 X81.252 Y148.564 E.07965
 G1 X81.252 Y126.936 E1.15165
 G1 X82.708 Y126.936 E.07752
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:3.9
 ;HEIGHT:0.3
@@ -48723,6 +49368,7 @@ G1 X82.71 Y127.936 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z4.3 F9000
 G1 X54.5 Y81.5 Z4.3
 G1 Z3.9
@@ -48747,7 +49393,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48778,7 +49426,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48811,7 +49461,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48842,7 +49494,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48875,7 +49529,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48906,7 +49562,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48937,7 +49595,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -48969,7 +49629,9 @@ G1 X109.413 Y173.564 E.06255
 G1 X109.413 Y151.936 E1.15165
 G1 X110.547 Y151.936 E.06042
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49001,7 +49663,9 @@ G1 X109.413 Y148.564 E.06255
 G1 X109.413 Y126.936 E1.15165
 G1 X110.547 Y126.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49033,7 +49697,9 @@ G1 X109.413 Y123.564 E.06255
 G1 X109.413 Y101.936 E1.15165
 G1 X110.547 Y101.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49065,7 +49731,9 @@ G1 X109.413 Y98.564 E.06255
 G1 X109.413 Y76.936 E1.15165
 G1 X110.547 Y76.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49097,7 +49765,9 @@ G1 X137.413 Y98.564 E.06255
 G1 X137.413 Y76.936 E1.15165
 G1 X138.547 Y76.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49129,7 +49799,9 @@ G1 X137.413 Y123.564 E.06255
 G1 X137.413 Y101.936 E1.15165
 G1 X138.547 Y101.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49161,7 +49833,9 @@ G1 X137.413 Y148.564 E.06255
 G1 X137.413 Y126.936 E1.15165
 G1 X138.547 Y126.936 E.06042
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49193,7 +49867,9 @@ G1 X137.413 Y173.564 E.06255
 G1 X137.413 Y151.936 E1.15165
 G1 X138.547 Y151.936 E.06042
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49225,7 +49901,9 @@ G1 X165.413 Y173.564 E.06255
 G1 X165.413 Y151.936 E1.15165
 G1 X166.547 Y151.936 E.06042
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49257,7 +49935,9 @@ G1 X165.413 Y148.564 E.06255
 G1 X165.413 Y126.936 E1.15165
 G1 X166.547 Y126.936 E.06042
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49289,7 +49969,9 @@ G1 X165.413 Y123.564 E.06255
 G1 X165.413 Y101.936 E1.15165
 G1 X166.547 Y101.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49311,7 +49993,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49342,7 +50026,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49373,7 +50059,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49404,7 +50092,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49435,7 +50125,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49466,7 +50158,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49498,7 +50192,9 @@ G1 X81.413 Y123.564 E.06255
 G1 X81.413 Y101.936 E1.15165
 G1 X82.547 Y101.936 E.06042
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49530,6 +50226,7 @@ G1 X81.413 Y148.564 E.06255
 G1 X81.413 Y126.936 E1.15165
 G1 X82.547 Y126.936 E.06042
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.3
@@ -49544,6 +50241,7 @@ G1 X82.549 Y127.936 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z4.6 F9000
 G1 X54.5 Y81.5 Z4.6
 G1 Z4.2
@@ -49568,7 +50266,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49599,7 +50299,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49630,7 +50332,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49661,7 +50365,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49692,7 +50398,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49723,7 +50431,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49754,7 +50464,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -49783,7 +50495,9 @@ G1 X109.529 Y173.564 E.05013
 G1 X109.529 Y151.936 E1.15165
 G1 X110.431 Y151.936 E.04801
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49812,7 +50526,9 @@ G1 X109.529 Y148.564 E.05013
 G1 X109.529 Y126.936 E1.15165
 G1 X110.431 Y126.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49841,7 +50557,9 @@ G1 X109.529 Y123.564 E.05013
 G1 X109.529 Y101.936 E1.15165
 G1 X110.431 Y101.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49872,7 +50590,9 @@ G1 X109.529 Y98.564 E.05013
 G1 X109.529 Y76.936 E1.15165
 G1 X110.431 Y76.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49901,7 +50621,9 @@ G1 X137.529 Y98.564 E.05013
 G1 X137.529 Y76.936 E1.15165
 G1 X138.431 Y76.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49930,7 +50652,9 @@ G1 X137.529 Y123.564 E.05013
 G1 X137.529 Y101.936 E1.15165
 G1 X138.431 Y101.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49959,7 +50683,9 @@ G1 X137.529 Y148.564 E.05013
 G1 X137.529 Y126.936 E1.15165
 G1 X138.431 Y126.936 E.04801
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -49988,7 +50714,9 @@ G1 X137.529 Y173.564 E.05013
 G1 X137.529 Y151.936 E1.15165
 G1 X138.431 Y151.936 E.04801
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50017,7 +50745,9 @@ G1 X165.529 Y173.564 E.05013
 G1 X165.529 Y151.936 E1.15165
 G1 X166.431 Y151.936 E.04801
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50046,7 +50776,9 @@ G1 X165.529 Y148.564 E.05013
 G1 X165.529 Y126.936 E1.15165
 G1 X166.431 Y126.936 E.04801
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50075,7 +50807,9 @@ G1 X165.529 Y123.564 E.05013
 G1 X165.529 Y101.936 E1.15165
 G1 X166.431 Y101.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50097,7 +50831,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50128,7 +50864,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50159,7 +50897,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50190,7 +50930,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50221,7 +50963,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50252,7 +50996,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50281,7 +51027,9 @@ G1 X81.529 Y123.564 E.05013
 G1 X81.529 Y101.936 E1.15165
 G1 X82.431 Y101.936 E.04801
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50310,6 +51058,7 @@ G1 X81.529 Y148.564 E.05013
 G1 X81.529 Y126.936 E1.15165
 G1 X82.431 Y126.936 E.04801
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:4.5
 ;HEIGHT:0.3
@@ -50324,6 +51073,7 @@ G1 X82.433 Y127.936 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z4.9 F9000
 G1 X54.5 Y81.5 Z4.9
 G1 Z4.5
@@ -50348,7 +51098,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50379,7 +51131,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50412,7 +51166,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50443,7 +51199,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50474,7 +51232,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50505,7 +51265,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50536,7 +51298,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50573,7 +51337,9 @@ G1 X109.614 Y173.564 E.04111
 G1 X109.614 Y151.936 E1.15165
 G1 X110.346 Y151.936 E.03898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50610,7 +51376,9 @@ G1 X109.614 Y148.564 E.04111
 G1 X109.614 Y126.936 E1.15165
 G1 X110.346 Y126.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50647,7 +51415,9 @@ G1 X109.614 Y123.564 E.04111
 G1 X109.614 Y101.936 E1.15165
 G1 X110.346 Y101.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50684,7 +51454,9 @@ G1 X109.614 Y98.564 E.04111
 G1 X109.614 Y76.936 E1.15165
 G1 X110.346 Y76.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50721,7 +51493,9 @@ G1 X137.614 Y98.564 E.04111
 G1 X137.614 Y76.936 E1.15165
 G1 X138.346 Y76.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50758,7 +51532,9 @@ G1 X137.614 Y123.564 E.04111
 G1 X137.614 Y101.936 E1.15165
 G1 X138.346 Y101.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50795,7 +51571,9 @@ G1 X137.614 Y148.564 E.04111
 G1 X137.614 Y126.936 E1.15165
 G1 X138.346 Y126.936 E.03898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50832,7 +51610,9 @@ G1 X137.614 Y173.564 E.04111
 G1 X137.614 Y151.936 E1.15165
 G1 X138.346 Y151.936 E.03898
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50869,7 +51649,9 @@ G1 X165.614 Y173.564 E.04111
 G1 X165.614 Y151.936 E1.15165
 G1 X166.346 Y151.936 E.03898
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50908,7 +51690,9 @@ G1 X165.614 Y148.564 E.04111
 G1 X165.614 Y126.936 E1.15165
 G1 X166.346 Y126.936 E.03898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50945,7 +51729,9 @@ G1 X165.614 Y123.564 E.04111
 G1 X165.614 Y101.936 E1.15165
 G1 X166.346 Y101.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -50967,7 +51753,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -50998,7 +51786,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51029,7 +51819,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51060,7 +51852,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51091,7 +51885,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51122,7 +51918,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51159,7 +51957,9 @@ G1 X81.614 Y123.564 E.04111
 G1 X81.614 Y101.936 E1.15165
 G1 X82.346 Y101.936 E.03898
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F16069.088
@@ -51196,6 +51996,7 @@ G1 X81.614 Y148.564 E.04111
 G1 X81.614 Y126.936 E1.15165
 G1 X82.346 Y126.936 E.03898
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:4.8
 ;HEIGHT:0.3
@@ -51210,6 +52011,7 @@ G1 X82.348 Y127.936 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z5.2 F9000
 G1 X54.5 Y81.5 Z5.2
 G1 Z4.8
@@ -51234,7 +52036,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51265,7 +52069,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51296,7 +52102,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51327,7 +52135,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51358,7 +52168,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51389,7 +52201,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51420,7 +52234,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51446,7 +52262,9 @@ G1 X109.723 Y173.505 E.03758
 G1 X109.723 Y151.995 E1.45776
 G1 X110.237 Y151.995 E.03487
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51472,7 +52290,9 @@ G1 X109.723 Y148.505 E.03758
 G1 X109.723 Y126.995 E1.45776
 G1 X110.237 Y126.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51498,7 +52318,9 @@ G1 X109.723 Y123.505 E.03758
 G1 X109.723 Y101.995 E1.45776
 G1 X110.237 Y101.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51524,7 +52346,9 @@ G1 X109.723 Y98.505 E.03758
 G1 X109.723 Y76.995 E1.45776
 G1 X110.237 Y76.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51550,7 +52374,9 @@ G1 X137.723 Y98.505 E.03758
 G1 X137.723 Y76.995 E1.45776
 G1 X138.237 Y76.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51576,7 +52402,9 @@ G1 X137.723 Y123.505 E.03758
 G1 X137.723 Y101.995 E1.45776
 G1 X138.237 Y101.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51602,7 +52430,9 @@ G1 X137.723 Y148.505 E.03758
 G1 X137.723 Y126.995 E1.45776
 G1 X138.237 Y126.995 E.03487
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51628,7 +52458,9 @@ G1 X137.723 Y173.505 E.03758
 G1 X137.723 Y151.995 E1.45776
 G1 X138.237 Y151.995 E.03487
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51654,7 +52486,9 @@ G1 X165.723 Y173.505 E.03758
 G1 X165.723 Y151.995 E1.45776
 G1 X166.237 Y151.995 E.03487
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51680,7 +52514,9 @@ G1 X165.723 Y148.505 E.03758
 G1 X165.723 Y126.995 E1.45776
 G1 X166.237 Y126.995 E.03487
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51706,7 +52542,9 @@ G1 X165.723 Y123.505 E.03758
 G1 X165.723 Y101.995 E1.45776
 G1 X166.237 Y101.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51729,7 +52567,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51760,7 +52600,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51791,7 +52633,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51822,7 +52666,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51853,7 +52699,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51884,7 +52732,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -51910,7 +52760,9 @@ G1 X81.723 Y123.505 E.03758
 G1 X81.723 Y101.995 E1.45776
 G1 X82.237 Y101.995 E.03487
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12625.033
@@ -51936,6 +52788,7 @@ G1 X81.723 Y148.505 E.03758
 G1 X81.723 Y126.995 E1.45776
 G1 X82.237 Y126.995 E.03487
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:5.1
 ;HEIGHT:0.3
@@ -51950,6 +52803,7 @@ G1 X82.239 Y127.995 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z5.5 F9000
 G1 X54.5 Y81.5 Z5.5
 G1 Z5.1
@@ -51975,7 +52829,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52008,7 +52864,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52039,7 +52897,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52070,7 +52930,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52101,7 +52963,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52132,7 +52996,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52163,7 +53029,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52189,7 +53057,9 @@ G1 X109.733 Y173.515 E.03485
 G1 X109.733 Y151.985 E1.40526
 G1 X110.227 Y151.985 E.03224
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52215,7 +53085,9 @@ G1 X109.733 Y148.515 E.03485
 G1 X109.733 Y126.985 E1.40526
 G1 X110.227 Y126.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52241,7 +53113,9 @@ G1 X109.733 Y123.515 E.03485
 G1 X109.733 Y101.985 E1.40526
 G1 X110.227 Y101.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52267,7 +53141,9 @@ G1 X109.733 Y98.515 E.03485
 G1 X109.733 Y76.985 E1.40526
 G1 X110.227 Y76.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52293,7 +53169,9 @@ G1 X137.733 Y98.515 E.03485
 G1 X137.733 Y76.985 E1.40526
 G1 X138.227 Y76.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52319,7 +53197,9 @@ G1 X137.733 Y123.515 E.03485
 G1 X137.733 Y101.985 E1.40526
 G1 X138.227 Y101.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52345,7 +53225,9 @@ G1 X137.733 Y148.515 E.03485
 G1 X137.733 Y126.985 E1.40526
 G1 X138.227 Y126.985 E.03224
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52371,7 +53253,9 @@ G1 X137.733 Y173.515 E.03485
 G1 X137.733 Y151.985 E1.40526
 G1 X138.227 Y151.985 E.03224
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52397,7 +53281,9 @@ G1 X165.733 Y173.515 E.03485
 G1 X165.733 Y151.985 E1.40526
 G1 X166.227 Y151.985 E.03224
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52423,7 +53309,9 @@ G1 X165.733 Y148.515 E.03485
 G1 X165.733 Y126.985 E1.40526
 G1 X166.227 Y126.985 E.03224
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52449,7 +53337,9 @@ G1 X165.733 Y123.515 E.03485
 G1 X165.733 Y101.985 E1.40526
 G1 X166.227 Y101.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52472,7 +53362,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52503,7 +53395,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52534,7 +53428,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52565,7 +53461,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52596,7 +53494,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52627,7 +53527,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52653,7 +53555,9 @@ G1 X81.733 Y123.515 E.03485
 G1 X81.733 Y101.985 E1.40526
 G1 X82.227 Y101.985 E.03224
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13109.18
@@ -52679,6 +53583,7 @@ G1 X81.733 Y148.515 E.03485
 G1 X81.733 Y126.985 E1.40526
 G1 X82.227 Y126.985 E.03224
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:5.4
 ;HEIGHT:0.3
@@ -52693,6 +53598,7 @@ G1 X82.229 Y127.985 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z5.8 F9000
 G1 X54.5 Y81.5 Z5.8
 G1 Z5.4
@@ -52718,7 +53624,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52749,7 +53657,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52780,7 +53690,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52811,7 +53723,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52842,7 +53756,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52873,7 +53789,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52904,7 +53822,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -52930,7 +53850,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -52956,7 +53878,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -52982,7 +53906,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53008,7 +53934,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53034,7 +53962,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53060,7 +53990,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53088,7 +54020,9 @@ M73 P67 R22
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53114,7 +54048,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53140,7 +54076,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53166,7 +54104,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53192,7 +54132,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53215,7 +54157,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53246,7 +54190,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53277,7 +54223,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53308,7 +54256,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53339,7 +54289,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53370,7 +54322,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53396,7 +54350,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53422,6 +54378,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:5.7
 ;HEIGHT:0.3
@@ -53436,6 +54393,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z6.1 F9000
 G1 X54.5 Y81.5 Z6.1
 G1 Z5.7
@@ -53461,7 +54419,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53492,7 +54452,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53523,7 +54485,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53554,7 +54518,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53585,7 +54551,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53616,7 +54584,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53649,7 +54619,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53675,7 +54647,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53701,7 +54675,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53727,7 +54703,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53753,7 +54731,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53779,7 +54759,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53805,7 +54787,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53831,7 +54815,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53857,7 +54843,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53883,7 +54871,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53909,7 +54899,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53935,7 +54927,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -53958,7 +54952,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -53989,7 +54985,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54020,7 +55018,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54051,7 +55051,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54082,7 +55084,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54113,7 +55117,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54139,7 +55145,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54165,6 +55173,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:6
 ;HEIGHT:0.3
@@ -54179,6 +55188,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z6.4 F9000
 G1 X54.5 Y81.5 Z6.4
 G1 Z6
@@ -54206,7 +55216,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54237,7 +55249,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54268,7 +55282,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54299,7 +55315,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54330,7 +55348,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54361,7 +55381,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54392,7 +55414,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54418,7 +55442,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54444,7 +55470,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54470,7 +55498,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54496,7 +55526,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54522,7 +55554,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54548,7 +55582,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54574,7 +55610,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54600,7 +55638,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54626,7 +55666,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54652,7 +55694,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54678,7 +55722,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54701,7 +55747,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54732,7 +55780,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54763,7 +55813,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54794,7 +55846,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54825,7 +55879,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54856,7 +55912,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54882,7 +55940,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -54908,6 +55968,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:6.3
 ;HEIGHT:0.3
@@ -54922,6 +55983,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z6.7 F9000
 G1 X54.5 Y81.5 Z6.7
 G1 Z6.3
@@ -54947,7 +56009,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -54978,7 +56042,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55009,7 +56075,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55040,7 +56108,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55071,7 +56141,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55102,7 +56174,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55133,7 +56207,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55159,7 +56235,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55185,7 +56263,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55211,7 +56291,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55238,7 +56320,9 @@ G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 M73 P68 R20
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 M73 P68 R20
 G1 E-.7 F5100
 ;WIPE_START
@@ -55265,7 +56349,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55293,7 +56379,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55319,7 +56407,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55345,7 +56435,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55371,7 +56463,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55397,7 +56491,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55423,7 +56519,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55446,7 +56544,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55477,7 +56577,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55508,7 +56610,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55539,7 +56643,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55570,7 +56676,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55601,7 +56709,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55627,7 +56737,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55653,6 +56765,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.3
@@ -55667,6 +56780,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z7 F9000
 G1 X54.5 Y81.5 Z7
 G1 Z6.6
@@ -55692,7 +56806,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55723,7 +56839,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55754,7 +56872,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55785,7 +56905,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55816,7 +56938,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55847,7 +56971,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55878,7 +57004,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -55904,7 +57032,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55930,7 +57060,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55956,7 +57088,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -55982,7 +57116,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56008,7 +57144,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56034,7 +57172,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56060,7 +57200,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56086,7 +57228,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56112,7 +57256,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56138,7 +57284,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56164,7 +57312,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56187,7 +57337,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56218,7 +57370,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56249,7 +57403,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56280,7 +57436,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56311,7 +57469,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56342,7 +57502,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56368,7 +57530,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56396,6 +57560,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:6.9
 ;HEIGHT:0.3
@@ -56410,6 +57575,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z7.3 F9000
 G1 X54.5 Y81.5 Z7.3
 G1 Z6.9
@@ -56435,7 +57601,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56466,7 +57634,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56497,7 +57667,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56528,7 +57700,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56559,7 +57733,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56590,7 +57766,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56621,7 +57799,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56647,7 +57827,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56673,7 +57855,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56699,7 +57883,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56725,7 +57911,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56751,7 +57939,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56777,7 +57967,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56803,7 +57995,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56829,7 +58023,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56857,7 +58053,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56883,7 +58081,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56909,7 +58109,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -56932,7 +58134,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56963,7 +58167,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -56994,7 +58200,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57025,7 +58233,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57056,7 +58266,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57087,7 +58299,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57113,7 +58327,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57139,6 +58355,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:7.2
 ;HEIGHT:0.3
@@ -57153,6 +58370,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z7.6 F9000
 G1 X54.5 Y81.5 Z7.6
 G1 Z7.2
@@ -57178,7 +58396,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57209,7 +58429,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57240,7 +58462,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57271,7 +58495,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57302,7 +58528,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57333,7 +58561,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57364,7 +58594,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57390,7 +58622,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57416,7 +58650,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57442,7 +58678,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57468,7 +58706,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57496,7 +58736,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57522,7 +58764,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57548,7 +58792,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57574,7 +58820,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57600,7 +58848,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57626,7 +58876,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57652,7 +58904,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57675,7 +58929,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57706,7 +58962,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57737,7 +58995,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57768,7 +59028,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57799,7 +59061,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57830,7 +59094,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57856,7 +59122,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -57882,6 +59150,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:7.5
 ;HEIGHT:0.3
@@ -57896,6 +59165,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z7.9 F9000
 G1 X54.5 Y81.5 Z7.9
 G1 Z7.5
@@ -57921,7 +59191,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57952,7 +59224,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -57983,7 +59257,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58014,7 +59290,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58045,7 +59323,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58076,7 +59356,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58107,7 +59389,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58133,7 +59417,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58159,7 +59445,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58185,7 +59473,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58211,7 +59501,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58237,7 +59529,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58263,7 +59557,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58289,7 +59585,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58315,7 +59613,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58341,7 +59641,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58367,7 +59669,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58393,7 +59697,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58416,7 +59722,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58447,7 +59755,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58480,7 +59790,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58511,7 +59823,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58542,7 +59856,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58575,7 +59891,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58601,7 +59919,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58627,6 +59947,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:7.8
 ;HEIGHT:0.3
@@ -58641,6 +59962,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z8.2 F9000
 G1 X54.5 Y81.5 Z8.2
 G1 Z7.8
@@ -58666,7 +59988,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58697,7 +60021,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58728,7 +60054,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58759,7 +60087,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58790,7 +60120,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58821,7 +60153,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58852,7 +60186,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -58878,7 +60214,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58904,7 +60242,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58930,7 +60270,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58956,7 +60298,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -58982,7 +60326,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59008,7 +60354,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59034,7 +60382,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59060,7 +60410,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59086,7 +60438,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59112,7 +60466,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59138,7 +60494,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59161,7 +60519,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59192,7 +60552,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59223,7 +60585,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59254,7 +60618,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59285,7 +60651,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59316,7 +60684,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59342,7 +60712,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59368,6 +60740,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:8.1
 ;HEIGHT:0.3
@@ -59382,6 +60755,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z8.5 F9000
 G1 X54.5 Y81.5 Z8.5
 G1 Z8.1
@@ -59407,7 +60781,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59438,7 +60814,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59469,7 +60847,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59500,7 +60880,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59531,7 +60913,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59562,7 +60946,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59593,7 +60979,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59619,7 +61007,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59645,7 +61035,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59672,7 +61064,9 @@ G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 M73 P73 R18
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 M73 P73 R18
 G1 E-.7 F5100
 ;WIPE_START
@@ -59699,7 +61093,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59725,7 +61121,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59751,7 +61149,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59777,7 +61177,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59803,7 +61205,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59829,7 +61233,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59855,7 +61261,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59881,7 +61289,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -59904,7 +61314,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59935,7 +61347,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59966,7 +61380,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -59997,7 +61413,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60028,7 +61446,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60059,7 +61479,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60085,7 +61507,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60113,6 +61537,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:8.4
 ;HEIGHT:0.299999
@@ -60127,6 +61552,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z8.8 F9000
 G1 X54.5 Y81.5 Z8.8
 G1 Z8.4
@@ -60152,7 +61578,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60183,7 +61611,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60214,7 +61644,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60245,7 +61677,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60276,7 +61710,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60307,7 +61743,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60338,7 +61776,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60364,7 +61804,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60390,7 +61832,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60416,7 +61860,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60442,7 +61888,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60468,7 +61916,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60494,7 +61944,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60520,7 +61972,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60546,7 +62000,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60572,7 +62028,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60598,7 +62056,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60624,7 +62084,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60647,7 +62109,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60678,7 +62142,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60709,7 +62175,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60740,7 +62208,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60773,7 +62243,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60804,7 +62276,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60830,7 +62304,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -60856,6 +62332,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:8.7
 ;HEIGHT:0.3
@@ -60870,6 +62347,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z9.1 F9000
 G1 X54.5 Y81.5 Z9.1
 G1 Z8.7
@@ -60895,7 +62373,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60926,7 +62406,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60957,7 +62439,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -60988,7 +62472,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61019,7 +62505,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61050,7 +62538,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61081,7 +62571,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61107,7 +62599,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61133,7 +62627,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61159,7 +62655,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61185,7 +62683,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61211,7 +62711,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61237,7 +62739,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61263,7 +62767,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61289,7 +62795,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61315,7 +62823,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61341,7 +62851,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61367,7 +62879,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61390,7 +62904,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61421,7 +62937,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61452,7 +62970,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61483,7 +63003,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61514,7 +63036,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61545,7 +63069,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61571,7 +63097,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61597,6 +63125,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:9
 ;HEIGHT:0.3
@@ -61611,6 +63140,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z9.4 F9000
 G1 X54.5 Y81.5 Z9.4
 G1 Z9
@@ -61636,7 +63166,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61667,7 +63199,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61698,7 +63232,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61731,7 +63267,9 @@ M73 P74 R16
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61762,7 +63300,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61793,7 +63333,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61824,7 +63366,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -61850,7 +63394,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61878,7 +63424,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61904,7 +63452,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61930,7 +63480,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61956,7 +63508,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -61982,7 +63536,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62008,7 +63564,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62034,7 +63592,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62060,7 +63620,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62086,7 +63648,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62112,7 +63676,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62135,7 +63701,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62166,7 +63734,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62197,7 +63767,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62228,7 +63800,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62259,7 +63833,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62290,7 +63866,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62316,7 +63894,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62342,6 +63922,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:9.3
 ;HEIGHT:0.3
@@ -62356,6 +63937,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z9.7 F9000
 G1 X54.5 Y81.5 Z9.7
 G1 Z9.3
@@ -62381,7 +63963,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62412,7 +63996,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62443,7 +64029,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62474,7 +64062,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62505,7 +64095,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62536,7 +64128,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62567,7 +64161,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62593,7 +64189,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62619,7 +64217,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62645,7 +64245,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62671,7 +64273,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62697,7 +64301,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62723,7 +64329,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62749,7 +64357,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62775,7 +64385,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62801,7 +64413,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62827,7 +64441,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62853,7 +64469,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -62876,7 +64494,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62907,7 +64527,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62938,7 +64560,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -62971,7 +64595,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63002,7 +64628,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63033,7 +64661,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63059,7 +64689,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63085,6 +64717,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:9.6
 ;HEIGHT:0.3
@@ -63099,6 +64732,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z10 F9000
 G1 X54.5 Y81.5 Z10
 G1 Z9.6
@@ -63124,7 +64758,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63155,7 +64791,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63186,7 +64824,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63217,7 +64857,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63248,7 +64890,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63279,7 +64923,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63310,7 +64956,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63336,7 +64984,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63364,7 +65014,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63390,7 +65042,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63416,7 +65070,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63442,7 +65098,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63468,7 +65126,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63494,7 +65154,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63520,7 +65182,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63546,7 +65210,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63572,7 +65238,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63598,7 +65266,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63621,7 +65291,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63652,7 +65324,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63683,7 +65357,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63714,7 +65390,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63745,7 +65423,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63776,7 +65456,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63802,7 +65484,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -63828,6 +65512,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:9.9
 ;HEIGHT:0.299999
@@ -63842,6 +65527,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z10.3 F9000
 G1 X54.5 Y81.5 Z10.3
 G1 Z9.9
@@ -63867,7 +65553,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63898,7 +65586,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63929,7 +65619,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63960,7 +65652,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -63991,7 +65685,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64022,7 +65718,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64053,7 +65751,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64081,7 +65781,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64107,7 +65809,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64133,7 +65837,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64159,7 +65865,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64185,7 +65893,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64211,7 +65921,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64237,7 +65949,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64263,7 +65977,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64289,7 +66005,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64315,7 +66033,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64341,7 +66061,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64364,7 +66086,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64395,7 +66119,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64426,7 +66152,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64457,7 +66185,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64488,7 +66218,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64519,7 +66251,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64545,7 +66279,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64571,6 +66307,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:10.2
 ;HEIGHT:0.3
@@ -64585,6 +66322,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z10.6 F9000
 G1 X54.5 Y81.5 Z10.6
 G1 Z10.2
@@ -64610,7 +66348,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64641,7 +66381,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64672,7 +66414,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64703,7 +66447,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64734,7 +66480,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64765,7 +66513,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64796,7 +66546,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -64822,7 +66574,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64848,7 +66602,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64874,7 +66630,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64900,7 +66658,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64926,7 +66686,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64952,7 +66714,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -64980,7 +66744,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65006,7 +66772,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65032,7 +66800,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65058,7 +66828,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65084,7 +66856,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65107,7 +66881,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65140,7 +66916,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65171,7 +66949,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65202,7 +66982,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65233,7 +67015,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65264,7 +67048,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65290,7 +67076,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65316,6 +67104,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:10.5
 ;HEIGHT:0.3
@@ -65330,6 +67119,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z10.9 F9000
 G1 X54.5 Y81.5 Z10.9
 G1 Z10.5
@@ -65355,7 +67145,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65386,7 +67178,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65417,7 +67211,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65448,7 +67244,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65479,7 +67277,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65510,7 +67310,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65541,7 +67343,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65567,7 +67371,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65593,7 +67399,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65619,7 +67427,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65645,7 +67455,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65671,7 +67483,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65697,7 +67511,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65723,7 +67539,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65749,7 +67567,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65775,7 +67595,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65801,7 +67623,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65827,7 +67651,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -65850,7 +67676,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65881,7 +67709,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65912,7 +67742,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65943,7 +67775,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -65974,7 +67808,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66005,7 +67841,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66031,7 +67869,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66057,6 +67897,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.3
@@ -66071,6 +67912,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z11.2 F9000
 G1 X54.5 Y81.5 Z11.2
 G1 Z10.8
@@ -66096,7 +67938,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66127,7 +67971,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66158,7 +68004,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66189,7 +68037,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66220,7 +68070,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66251,7 +68103,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66284,7 +68138,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66310,7 +68166,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66336,7 +68194,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66362,7 +68222,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66388,7 +68250,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66414,7 +68278,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66440,7 +68306,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66466,7 +68334,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66492,7 +68362,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66518,7 +68390,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66544,7 +68418,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66571,7 +68447,9 @@ G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 M73 P79 R13
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 M73 P79 R13
 G1 E-.7 F5100
 ;WIPE_START
@@ -66595,7 +68473,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66626,7 +68506,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66657,7 +68539,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66688,7 +68572,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66719,7 +68605,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66750,7 +68638,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66776,7 +68666,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -66802,6 +68694,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:11.1
 ;HEIGHT:0.3
@@ -66816,6 +68709,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z11.5 F9000
 G1 X54.5 Y81.5 Z11.5
 G1 Z11.1
@@ -66841,7 +68735,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66872,7 +68768,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66903,7 +68801,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66934,7 +68834,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66965,7 +68867,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -66996,7 +68900,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67027,7 +68933,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67053,7 +68961,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67079,7 +68989,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67105,7 +69017,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67131,7 +69045,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67157,7 +69073,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67183,7 +69101,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67209,7 +69129,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67235,7 +69157,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67261,7 +69185,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67287,7 +69213,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67313,7 +69241,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67338,7 +69268,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67369,7 +69301,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67400,7 +69334,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67431,7 +69367,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67462,7 +69400,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67493,7 +69433,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67519,7 +69461,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67545,6 +69489,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.299999
@@ -67559,6 +69504,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z11.8 F9000
 G1 X54.5 Y81.5 Z11.8
 G1 Z11.4
@@ -67584,7 +69530,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67615,7 +69563,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67646,7 +69596,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67677,7 +69629,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67708,7 +69662,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67739,7 +69695,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67770,7 +69728,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -67796,7 +69756,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67822,7 +69784,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67848,7 +69812,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67874,7 +69840,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67900,7 +69868,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67926,7 +69896,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67952,7 +69924,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -67978,7 +69952,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68004,7 +69980,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68030,7 +70008,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68056,7 +70036,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68079,7 +70061,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68110,7 +70094,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68141,7 +70127,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68172,7 +70160,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68205,7 +70195,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68236,7 +70228,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68262,7 +70256,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68288,6 +70284,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:11.7
 ;HEIGHT:0.3
@@ -68302,6 +70299,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z12.1 F9000
 G1 X54.5 Y81.5 Z12.1
 G1 Z11.7
@@ -68327,7 +70325,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68358,7 +70358,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68389,7 +70391,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68420,7 +70424,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68453,7 +70459,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68484,7 +70492,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68515,7 +70525,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68541,7 +70553,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68567,7 +70581,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68593,7 +70609,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68619,7 +70637,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68645,7 +70665,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68671,7 +70693,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68697,7 +70721,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68723,7 +70749,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68749,7 +70777,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68775,7 +70805,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68801,7 +70833,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -68824,7 +70858,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68855,7 +70891,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68886,7 +70924,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68917,7 +70957,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68948,7 +70990,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -68979,7 +71023,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69005,7 +71051,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69031,6 +71079,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:12
 ;HEIGHT:0.3
@@ -69045,6 +71094,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z12.4 F9000
 G1 X54.5 Y81.5 Z12.4
 G1 Z12
@@ -69070,7 +71120,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69101,7 +71153,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69132,7 +71186,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69163,7 +71219,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69194,7 +71252,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69225,7 +71285,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69256,7 +71318,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69282,7 +71346,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69308,7 +71374,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69334,7 +71402,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69360,7 +71430,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69386,7 +71458,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69412,7 +71486,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69438,7 +71514,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69464,7 +71542,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69490,7 +71570,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69516,7 +71598,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69544,7 +71628,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69567,7 +71653,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69598,7 +71686,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69629,7 +71719,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69660,7 +71752,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69691,7 +71785,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69722,7 +71818,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69748,7 +71846,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -69774,6 +71874,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:12.3
 ;HEIGHT:0.3
@@ -69788,6 +71889,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z12.7 F9000
 G1 X54.5 Y81.5 Z12.7
 G1 Z12.3
@@ -69813,7 +71915,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69846,7 +71950,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69877,7 +71983,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69908,7 +72016,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69939,7 +72049,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -69970,7 +72082,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70001,7 +72115,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70027,7 +72143,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70053,7 +72171,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70079,7 +72199,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70105,7 +72227,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70131,7 +72255,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70157,7 +72283,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70183,7 +72311,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70209,7 +72339,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70235,7 +72367,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70261,7 +72395,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70287,7 +72423,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70310,7 +72448,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70341,7 +72481,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70372,7 +72514,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70403,7 +72547,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70434,7 +72580,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70465,7 +72613,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70491,7 +72641,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70517,6 +72669,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:12.6
 ;HEIGHT:0.3
@@ -70531,6 +72684,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z13 F9000
 G1 X54.5 Y81.5 Z13
 G1 Z12.6
@@ -70556,7 +72710,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70587,7 +72743,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70618,7 +72776,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70651,7 +72811,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70682,7 +72844,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70713,7 +72877,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70744,7 +72910,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -70770,7 +72938,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70796,7 +72966,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70822,7 +72994,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70848,7 +73022,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70874,7 +73050,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70900,7 +73078,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70926,7 +73106,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70952,7 +73134,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -70978,7 +73162,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71004,7 +73190,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71030,7 +73218,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71053,7 +73243,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71084,7 +73276,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71115,7 +73309,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71146,7 +73342,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71177,7 +73375,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71208,7 +73408,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71234,7 +73436,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71260,6 +73464,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:12.9
 ;HEIGHT:0.299999
@@ -71274,6 +73479,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z13.3 F9000
 G1 X54.5 Y81.5 Z13.3
 G1 Z12.9
@@ -71299,7 +73505,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71330,7 +73538,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71361,7 +73571,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71392,7 +73604,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71423,7 +73637,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71454,7 +73670,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71487,7 +73705,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71513,7 +73733,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71539,7 +73761,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71565,7 +73789,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71591,7 +73817,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71617,7 +73845,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71643,7 +73873,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71669,7 +73901,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71695,7 +73929,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71723,7 +73959,9 @@ M73 P84 R10
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71749,7 +73987,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71775,7 +74015,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -71798,7 +74040,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71829,7 +74073,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71860,7 +74106,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71891,7 +74139,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71922,7 +74172,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71953,7 +74205,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -71979,7 +74233,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72005,6 +74261,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:13.2
 ;HEIGHT:0.3
@@ -72019,6 +74276,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z13.6 F9000
 G1 X54.5 Y81.5 Z13.6
 G1 Z13.2
@@ -72044,7 +74302,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72075,7 +74335,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72106,7 +74368,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72137,7 +74401,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72168,7 +74434,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72199,7 +74467,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72230,7 +74500,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72256,7 +74528,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72282,7 +74556,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72308,7 +74584,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72334,7 +74612,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72360,7 +74640,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72386,7 +74668,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72412,7 +74696,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72438,7 +74724,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72464,7 +74752,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72490,7 +74780,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72516,7 +74808,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72539,7 +74833,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72570,7 +74866,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72601,7 +74899,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72632,7 +74932,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72663,7 +74965,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72694,7 +74998,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72720,7 +75026,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -72746,6 +75054,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:13.5
 ;HEIGHT:0.3
@@ -72760,6 +75069,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z13.9 F9000
 G1 X54.5 Y81.5 Z13.9
 G1 Z13.5
@@ -72785,7 +75095,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72816,7 +75128,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72849,7 +75163,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72880,7 +75196,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72911,7 +75229,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72942,7 +75262,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72973,7 +75295,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -72999,7 +75323,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73025,7 +75351,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73051,7 +75379,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73079,7 +75409,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73105,7 +75437,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73131,7 +75465,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73157,7 +75493,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73183,7 +75521,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73209,7 +75549,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73235,7 +75577,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73261,7 +75605,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73284,7 +75630,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73315,7 +75663,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73346,7 +75696,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73377,7 +75729,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73408,7 +75762,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73439,7 +75795,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73465,7 +75823,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73491,6 +75851,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:13.8
 ;HEIGHT:0.3
@@ -73505,6 +75866,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z14.2 F9000
 G1 X54.5 Y81.5 Z14.2
 G1 Z13.8
@@ -73530,7 +75892,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73561,7 +75925,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73592,7 +75958,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73623,7 +75991,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73654,7 +76024,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73685,7 +76057,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73716,7 +76090,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -73742,7 +76118,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73768,7 +76146,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73794,7 +76174,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73820,7 +76202,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73846,7 +76230,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73872,7 +76258,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73898,7 +76286,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73926,7 +76316,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73952,7 +76344,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -73978,7 +76372,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74004,7 +76400,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74027,7 +76425,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74058,7 +76458,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74089,7 +76491,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74120,7 +76524,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74151,7 +76557,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74182,7 +76590,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74208,7 +76618,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74234,6 +76646,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:14.1
 ;HEIGHT:0.3
@@ -74248,6 +76661,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z14.5 F9000
 G1 X54.5 Y81.5 Z14.5
 G1 Z14.1
@@ -74273,7 +76687,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74304,7 +76720,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74335,7 +76753,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74366,7 +76786,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74397,7 +76819,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74428,7 +76852,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74459,7 +76885,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74485,7 +76913,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74511,7 +76941,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74537,7 +76969,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74563,7 +76997,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74589,7 +77025,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74615,7 +77053,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74641,7 +77081,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74667,7 +77109,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74695,7 +77139,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74721,7 +77167,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74747,7 +77195,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74770,7 +77220,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74801,7 +77253,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74832,7 +77286,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74863,7 +77319,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74894,7 +77352,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74925,7 +77385,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -74951,7 +77413,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -74977,6 +77441,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:14.4
 ;HEIGHT:0.299999
@@ -74991,6 +77456,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z14.8 F9000
 G1 X54.5 Y81.5 Z14.8
 G1 Z14.4
@@ -75018,7 +77484,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75049,7 +77517,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75080,7 +77550,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75111,7 +77583,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75142,7 +77616,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75173,7 +77649,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75204,7 +77682,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75230,7 +77710,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75256,7 +77738,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75282,7 +77766,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75308,7 +77794,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75334,7 +77822,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75360,7 +77850,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75386,7 +77878,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75412,7 +77906,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75438,7 +77934,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75464,7 +77962,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75490,7 +77990,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75513,7 +78015,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75544,7 +78048,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75575,7 +78081,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75606,7 +78114,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75637,7 +78147,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75668,7 +78180,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75694,7 +78208,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75720,6 +78236,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:14.7
 ;HEIGHT:0.3
@@ -75734,6 +78251,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z15.1 F9000
 G1 X54.5 Y81.5 Z15.1
 G1 Z14.7
@@ -75759,7 +78277,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75790,7 +78310,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75821,7 +78343,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75852,7 +78376,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75883,7 +78409,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75914,7 +78442,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75945,7 +78475,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -75971,7 +78503,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -75997,7 +78531,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76023,7 +78559,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76049,7 +78587,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76075,7 +78615,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76101,7 +78643,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76129,7 +78673,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76155,7 +78701,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76181,7 +78729,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76207,7 +78757,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76233,7 +78785,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76256,7 +78810,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76287,7 +78843,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76320,7 +78878,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76351,7 +78911,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76382,7 +78944,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76413,7 +78977,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76439,7 +79005,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76465,6 +79033,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:15
 ;HEIGHT:0.3
@@ -76479,6 +79048,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z15.4 F9000
 G1 X54.5 Y81.5 Z15.4
 G1 Z15
@@ -76504,7 +79074,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76535,7 +79107,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76566,7 +79140,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76597,7 +79173,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76628,7 +79206,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76659,7 +79239,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76690,7 +79272,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -76716,7 +79300,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76742,7 +79328,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76768,7 +79356,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76794,7 +79384,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76820,7 +79412,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76846,7 +79440,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76872,7 +79468,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76898,7 +79496,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76924,7 +79524,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76950,7 +79552,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76976,7 +79580,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -76999,7 +79605,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77030,7 +79638,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77061,7 +79671,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77092,7 +79704,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77123,7 +79737,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77154,7 +79770,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77180,7 +79798,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77208,6 +79828,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:15.3
 ;HEIGHT:0.3
@@ -77222,6 +79843,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z15.7 F9000
 G1 X54.5 Y81.5 Z15.7
 G1 Z15.3
@@ -77247,7 +79869,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77278,7 +79902,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77309,7 +79935,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77340,7 +79968,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77371,7 +80001,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77402,7 +80034,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77433,7 +80067,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77459,7 +80095,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77485,7 +80123,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77511,7 +80151,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77537,7 +80179,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77563,7 +80207,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77589,7 +80235,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77615,7 +80263,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77641,7 +80291,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77667,7 +80319,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77693,7 +80347,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77719,7 +80375,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77742,7 +80400,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77773,7 +80433,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77804,7 +80466,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77835,7 +80499,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77866,7 +80532,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77897,7 +80565,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -77923,7 +80593,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -77951,6 +80623,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:15.6
 ;HEIGHT:0.3
@@ -77965,6 +80638,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z16 F9000
 G1 X54.5 Y81.5 Z16
 G1 Z15.6
@@ -77990,7 +80664,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78021,7 +80697,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78052,7 +80730,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78083,7 +80763,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78114,7 +80796,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78145,7 +80829,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78176,7 +80862,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78202,7 +80890,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78228,7 +80918,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78254,7 +80946,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78280,7 +80974,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78308,7 +81004,9 @@ M73 P90 R6
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78334,7 +81032,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78360,7 +81060,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78386,7 +81088,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78412,7 +81116,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78438,7 +81144,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78464,7 +81172,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78487,7 +81197,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78518,7 +81230,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78549,7 +81263,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78580,7 +81296,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78611,7 +81329,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78642,7 +81362,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78668,7 +81390,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78694,6 +81418,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:15.9
 ;HEIGHT:0.299999
@@ -78708,6 +81433,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z16.3 F9000
 G1 X54.5 Y81.5 Z16.3
 G1 Z15.9
@@ -78733,7 +81459,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78764,7 +81492,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78795,7 +81525,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78826,7 +81558,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78857,7 +81591,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78888,7 +81624,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78919,7 +81657,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -78945,7 +81685,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78971,7 +81713,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -78997,7 +81741,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79023,7 +81769,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79049,7 +81797,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79075,7 +81825,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79101,7 +81853,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79127,7 +81881,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79153,7 +81909,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79179,7 +81937,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79205,7 +81965,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79228,7 +81990,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79259,7 +82023,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79290,7 +82056,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79321,7 +82089,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79352,7 +82122,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79383,7 +82155,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79411,7 +82185,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79437,6 +82213,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:16.2
 ;HEIGHT:0.300001
@@ -79451,6 +82228,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z16.6 F9000
 G1 X54.5 Y81.5 Z16.6
 G1 Z16.2
@@ -79476,7 +82254,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79507,7 +82287,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79538,7 +82320,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79571,7 +82355,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79602,7 +82388,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79633,7 +82421,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79664,7 +82454,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -79690,7 +82482,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79716,7 +82510,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79742,7 +82538,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79768,7 +82566,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79794,7 +82594,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79820,7 +82622,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79846,7 +82650,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79872,7 +82678,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79898,7 +82706,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79924,7 +82734,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79950,7 +82762,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -79973,7 +82787,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80004,7 +82820,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80035,7 +82853,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80066,7 +82886,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80097,7 +82919,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80128,7 +82952,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80154,7 +82980,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80180,6 +83008,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:16.5
 ;HEIGHT:0.299999
@@ -80194,6 +83023,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z16.9 F9000
 G1 X54.5 Y81.5 Z16.9
 G1 Z16.5
@@ -80219,7 +83049,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80250,7 +83082,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80281,7 +83115,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80312,7 +83148,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80343,7 +83181,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80374,7 +83214,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80405,7 +83247,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80431,7 +83275,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80457,7 +83303,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80483,7 +83331,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80511,7 +83361,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80537,7 +83389,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80563,7 +83417,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80589,7 +83445,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80615,7 +83473,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80641,7 +83501,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80667,7 +83529,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80693,7 +83557,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80716,7 +83582,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80747,7 +83615,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80778,7 +83648,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80809,7 +83681,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80840,7 +83714,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80871,7 +83747,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80897,7 +83775,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -80923,6 +83803,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:16.8
 ;HEIGHT:0.299999
@@ -80937,6 +83818,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z17.2 F9000
 G1 X54.5 Y81.5 Z17.2
 G1 Z16.8
@@ -80962,7 +83844,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -80993,7 +83877,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81024,7 +83910,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81055,7 +83943,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81086,7 +83976,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81117,7 +84009,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81148,7 +84042,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81174,7 +84070,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81202,7 +84100,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81228,7 +84128,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81254,7 +84156,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81280,7 +84184,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81306,7 +84212,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81332,7 +84240,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81358,7 +84268,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81384,7 +84296,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81410,7 +84324,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81436,7 +84352,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81459,7 +84377,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81490,7 +84410,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81521,7 +84443,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81552,7 +84476,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81583,7 +84509,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 M73 P93 R4
 ;WIPE_START
@@ -81616,7 +84544,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81642,7 +84572,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81668,6 +84600,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:17.1
 ;HEIGHT:0.300001
@@ -81682,6 +84615,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z17.5 F9000
 G1 X54.5 Y81.5 Z17.5
 G1 Z17.1
@@ -81707,7 +84641,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y81 E1.03477
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81738,7 +84674,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.5 E1.03477
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81769,7 +84707,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y118 E1.03477
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81800,7 +84740,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.5 E1.03477
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81831,7 +84773,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y155 E1.03477
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81862,7 +84806,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.5 E1.03477
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81893,7 +84839,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.5 E1.03477
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -81919,7 +84867,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81945,7 +84895,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81971,7 +84923,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -81997,7 +84951,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82023,7 +84979,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82049,7 +85007,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82075,7 +85035,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82101,7 +85063,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82127,7 +85091,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82153,7 +85119,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82179,7 +85147,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82202,7 +85172,9 @@ G1 X166.43 Y78.75 F9000
 G1 F12402.946
 G1 X166.43 Y93.75 E1.03477
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82233,7 +85205,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.5 E1.03477
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82264,7 +85238,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.5 E1.03477
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82295,7 +85271,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.5 E1.03477
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82326,7 +85304,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y80 E1.03477
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82357,7 +85337,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.5 E1.03477
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82383,7 +85365,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82409,6 +85393,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:17.4
 ;HEIGHT:0.299999
@@ -82423,6 +85408,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z17.8 F9000
 G1 X54.5 Y81.478 Z17.8
 G1 Z17.4
@@ -82440,7 +85426,9 @@ G1 X54 Y80.978 F9000
 G1 F12402.946
 G1 X54 Y66.022 E1.03174
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82463,7 +85451,9 @@ G1 X54 Y99.478 F9000
 G1 F12402.946
 G1 X54 Y84.522 E1.03174
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82486,7 +85476,9 @@ G1 X54 Y117.978 F9000
 G1 F12402.946
 G1 X54 Y103.022 E1.03174
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82509,7 +85501,9 @@ G1 X54 Y136.478 F9000
 G1 F12402.946
 G1 X54 Y121.522 E1.03174
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82532,7 +85526,9 @@ G1 X54 Y154.978 F9000
 G1 F12402.946
 G1 X54 Y140.022 E1.03174
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82555,7 +85551,9 @@ G1 X54 Y173.478 F9000
 G1 F12402.946
 G1 X54 Y158.522 E1.03174
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82578,7 +85576,9 @@ G1 X82 Y173.478 F9000
 G1 F12402.946
 G1 X82 Y158.522 E1.03174
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82604,7 +85604,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82630,7 +85632,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82656,7 +85660,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82684,7 +85690,9 @@ M73 P94 R4
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82710,7 +85718,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82736,7 +85746,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82762,7 +85774,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82790,7 +85804,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82816,7 +85832,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82842,7 +85860,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82868,7 +85888,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -82899,7 +85921,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X166.43 Y78.772 E1.03174
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82922,7 +85946,9 @@ G1 X138 Y61.478 F9000
 G1 F12402.946
 G1 X138 Y46.522 E1.03174
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82945,7 +85971,9 @@ G1 X110 Y61.478 F9000
 G1 F12402.946
 G1 X110 Y46.522 E1.03174
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82968,7 +85996,9 @@ G1 X82 Y61.478 F9000
 G1 F12402.946
 G1 X82 Y46.522 E1.03174
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -82991,7 +86021,9 @@ G1 X82 Y79.978 F9000
 G1 F12402.946
 G1 X82 Y65.022 E1.03174
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83014,7 +86046,9 @@ G1 X82 Y98.478 F9000
 G1 F12402.946
 G1 X82 Y83.522 E1.03174
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83040,7 +86074,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83066,6 +86102,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:17.7
 ;HEIGHT:0.300001
@@ -83080,6 +86117,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z18.1 F9000
 G1 X54.5 Y81.395 Z18.1
 G1 Z17.7
@@ -83105,7 +86143,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y80.895 E1.0203
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83136,7 +86176,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y99.395 E1.0203
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83167,7 +86209,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y117.895 E1.0203
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83198,7 +86242,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y136.395 E1.0203
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83229,7 +86275,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y154.895 E1.0203
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83260,7 +86308,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X54 Y173.395 E1.0203
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83291,7 +86341,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y173.395 E1.0203
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83317,7 +86369,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83343,7 +86397,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83369,7 +86425,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83395,7 +86453,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83421,7 +86481,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83447,7 +86509,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83473,7 +86537,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83499,7 +86565,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83525,7 +86593,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83551,7 +86621,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83577,7 +86649,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83600,7 +86674,9 @@ G1 X166.43 Y78.855 F9000
 G1 F12402.946
 G1 X166.43 Y93.645 E1.0203
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83631,7 +86707,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X138 Y61.395 E1.0203
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83662,7 +86740,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X110 Y61.395 E1.0203
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83693,7 +86773,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y61.395 E1.0203
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83724,7 +86806,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y79.895 E1.0203
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83755,7 +86839,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X82 Y98.395 E1.0203
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83783,7 +86869,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -83809,6 +86897,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:18
 ;HEIGHT:0.299999
@@ -83823,6 +86912,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z18.4 F9000
 G1 X54.5 Y81.234 Z18.4
 G1 Z18
@@ -83840,7 +86930,9 @@ G1 X54 Y80.734 F9000
 G1 F12402.946
 G1 X54 Y66.266 E.99807
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83863,7 +86955,9 @@ G1 X54 Y99.234 F9000
 G1 F12402.946
 G1 X54 Y84.766 E.99807
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83886,7 +86980,9 @@ G1 X54 Y117.734 F9000
 G1 F12402.946
 G1 X54 Y103.266 E.99807
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83909,7 +87005,9 @@ G1 X54 Y136.234 F9000
 G1 F12402.946
 G1 X54 Y121.766 E.99807
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83932,7 +87030,9 @@ G1 X54 Y154.734 F9000
 G1 F12402.946
 G1 X54 Y140.266 E.99807
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83955,7 +87055,9 @@ G1 X54 Y173.234 F9000
 G1 F12402.946
 G1 X54 Y158.766 E.99807
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -83978,7 +87080,9 @@ G1 X82 Y173.234 F9000
 G1 F12402.946
 G1 X82 Y158.766 E.99807
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84004,7 +87108,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84030,7 +87136,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84056,7 +87164,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84082,7 +87192,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84108,7 +87220,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84134,7 +87248,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84160,7 +87276,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84186,7 +87304,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84212,7 +87332,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84238,7 +87360,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84264,7 +87388,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84295,7 +87421,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X166.43 Y79.016 E.99807
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84318,7 +87446,9 @@ G1 X138 Y61.234 F9000
 G1 F12402.946
 G1 X138 Y46.766 E.99807
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84341,7 +87471,9 @@ G1 X110 Y61.234 F9000
 G1 F12402.946
 G1 X110 Y46.766 E.99807
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84364,7 +87496,9 @@ G1 X82 Y61.234 F9000
 G1 F12402.946
 G1 X82 Y46.766 E.99807
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84389,7 +87523,9 @@ G1 X82 Y79.734 F9000
 G1 F12402.946
 G1 X82 Y65.266 E.99807
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84412,7 +87548,9 @@ G1 X82 Y98.234 F9000
 G1 F12402.946
 G1 X82 Y83.766 E.99807
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84438,7 +87576,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84464,6 +87604,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:18.3
 ;HEIGHT:0.299999
@@ -84478,6 +87619,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z18.7 F9000
 G1 X54.5 Y80.961 Z18.7
 G1 Z18.3
@@ -84495,7 +87637,9 @@ G1 X54 Y80.461 F9000
 G1 F12402.946
 G1 X54 Y66.539 E.96035
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84518,7 +87662,9 @@ G1 X54 Y98.961 F9000
 G1 F12402.946
 G1 X54 Y85.039 E.96035
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84541,7 +87687,9 @@ G1 X54 Y117.461 F9000
 G1 F12402.946
 G1 X54 Y103.539 E.96035
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84564,7 +87712,9 @@ G1 X54 Y135.961 F9000
 G1 F12402.946
 G1 X54 Y122.039 E.96035
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84587,7 +87737,9 @@ G1 X54 Y154.461 F9000
 G1 F12402.946
 G1 X54 Y140.539 E.96035
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84610,7 +87762,9 @@ G1 X54 Y172.961 F9000
 G1 F12402.946
 G1 X54 Y159.039 E.96035
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84633,7 +87787,9 @@ G1 X82 Y172.961 F9000
 G1 F12402.946
 G1 X82 Y159.039 E.96035
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84659,7 +87815,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84685,7 +87843,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84711,7 +87871,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84737,7 +87899,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84763,7 +87927,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84789,7 +87955,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84815,7 +87983,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84843,7 +88013,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84869,7 +88041,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84895,7 +88069,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84921,7 +88097,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -84952,7 +88130,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X166.43 Y79.289 E.96035
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84975,7 +88155,9 @@ G1 X138 Y60.961 F9000
 G1 F12402.946
 G1 X138 Y47.039 E.96035
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -84998,7 +88180,9 @@ G1 X110 Y60.961 F9000
 G1 F12402.946
 G1 X110 Y47.039 E.96035
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85021,7 +88205,9 @@ G1 X82 Y60.961 F9000
 G1 F12402.946
 G1 X82 Y47.039 E.96035
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85044,7 +88230,9 @@ G1 X82 Y79.461 F9000
 G1 F12402.946
 G1 X82 Y65.539 E.96035
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85067,7 +88255,9 @@ G1 X82 Y97.961 F9000
 G1 F12402.946
 G1 X82 Y84.039 E.96035
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85093,7 +88283,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85119,6 +88311,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:18.6
 ;HEIGHT:0.300001
@@ -85133,6 +88326,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_185555511_copy_0
 G1 Z19 F9000
 G1 X54.5 Y80.38 Z19
 G1 Z18.6
@@ -85150,7 +88344,9 @@ G1 X54 Y79.88 F9000
 G1 F12402.946
 G1 X54 Y67.12 E.8802
 ; stop printing object Body2.stl id:185555511 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_185555511_copy_0
 ; printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_230248534_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85173,7 +88369,9 @@ G1 X54 Y98.38 F9000
 G1 F12402.946
 G1 X54 Y85.62 E.8802
 ; stop printing object Body2.stl id:230248534 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_230248534_copy_0
 ; printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_162408792_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85196,7 +88394,9 @@ G1 X54 Y116.88 F9000
 G1 F12402.946
 G1 X54 Y104.12 E.8802
 ; stop printing object Body2.stl id:162408792 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_162408792_copy_0
 ; printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_88772541_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85219,7 +88419,9 @@ G1 X54 Y135.38 F9000
 G1 F12402.946
 G1 X54 Y122.62 E.8802
 ; stop printing object Body2.stl id:88772541 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_88772541_copy_0
 ; printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_146170120_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85242,7 +88444,9 @@ G1 X54 Y153.88 F9000
 G1 F12402.946
 G1 X54 Y141.12 E.8802
 ; stop printing object Body2.stl id:146170120 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_146170120_copy_0
 ; printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_218105220_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85265,7 +88469,9 @@ G1 X54 Y172.38 F9000
 G1 F12402.946
 G1 X54 Y159.62 E.8802
 ; stop printing object Body2.stl id:218105220 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_218105220_copy_0
 ; printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_82744051_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85288,7 +88494,9 @@ G1 X82 Y172.38 F9000
 G1 F12402.946
 G1 X82 Y159.62 E.8802
 ; stop printing object Body2.stl id:82744051 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_82744051_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85314,7 +88522,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85340,7 +88550,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85366,7 +88578,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85392,7 +88606,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85418,7 +88634,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85444,7 +88662,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85470,7 +88690,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85496,7 +88718,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85522,7 +88746,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85548,7 +88774,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85574,7 +88802,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85605,7 +88835,9 @@ G1 E1 F3900
 G1 F12402.946
 G1 X166.43 Y79.87 E.8802
 ; stop printing object Body2.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602477507072_copy_0
 ; printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_2602486840832_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85628,7 +88860,9 @@ G1 X138 Y60.38 F9000
 G1 F12402.946
 G1 X138 Y47.62 E.8802
 ; stop printing object Body2.stl id:2602486840832 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_2602486840832_copy_0
 ; printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_126706202_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85651,7 +88885,9 @@ G1 X110 Y60.38 F9000
 G1 F12402.946
 G1 X110 Y47.62 E.8802
 ; stop printing object Body2.stl id:126706202 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_126706202_copy_0
 ; printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_105_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85674,7 +88910,9 @@ G1 X82 Y60.38 F9000
 G1 F12402.946
 G1 X82 Y47.62 E.8802
 ; stop printing object Body2.stl id:105 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_105_copy_0
 ; printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_172836876_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85697,7 +88935,9 @@ G1 X82 Y78.88 F9000
 G1 F12402.946
 G1 X82 Y66.12 E.8802
 ; stop printing object Body2.stl id:172836876 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_172836876_copy_0
 ; printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_START NAME=Body2_stl_id_155394232_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85720,7 +88960,9 @@ G1 X82 Y97.38 F9000
 G1 F12402.946
 G1 X82 Y84.62 E.8802
 ; stop printing object Body2.stl id:155394232 copy 0
+EXCLUDE_OBJECT_END NAME=Body2_stl_id_155394232_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F12402.946
@@ -85746,7 +88988,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85772,6 +89016,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:18.9
 ;HEIGHT:0.299999
@@ -85786,6 +89031,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z19.3 F9000
 G1 X110.75 Y151.5 Z19.3
 G1 Z18.9
@@ -85806,7 +89052,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85832,7 +89080,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85858,7 +89108,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85884,7 +89136,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85910,7 +89164,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85938,7 +89194,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85964,7 +89222,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -85992,7 +89252,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86018,7 +89280,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86044,7 +89308,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86070,7 +89336,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86096,7 +89364,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86122,6 +89392,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:19.2
 ;HEIGHT:0.300001
@@ -86136,6 +89407,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z19.6 F9000
 G1 X110.75 Y151.5 Z19.6
 G1 Z19.2
@@ -86156,7 +89428,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86182,7 +89456,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86208,7 +89484,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86234,7 +89512,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86260,7 +89540,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86286,7 +89568,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86312,7 +89596,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86338,7 +89624,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86364,7 +89652,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86390,7 +89680,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86416,7 +89708,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86442,7 +89736,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86468,6 +89764,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:19.5
 ;HEIGHT:0.299999
@@ -86482,6 +89779,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z19.9 F9000
 G1 X110.75 Y151.5 Z19.9
 G1 Z19.5
@@ -86502,7 +89800,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86528,7 +89828,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86554,7 +89856,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86580,7 +89884,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86606,7 +89912,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86632,7 +89940,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86658,7 +89968,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86684,7 +89996,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86710,7 +90024,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86736,7 +90052,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86762,7 +90080,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86788,7 +90108,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86814,6 +90136,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:19.8
 ;HEIGHT:0.299999
@@ -86828,6 +90151,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z20.2 F9000
 G1 X110.75 Y151.5 Z20.2
 G1 Z19.8
@@ -86848,7 +90172,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86874,7 +90200,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86900,7 +90228,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86928,7 +90258,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86954,7 +90286,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -86980,7 +90314,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87006,7 +90342,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87032,7 +90370,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87058,7 +90398,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87084,7 +90426,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87110,7 +90454,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87136,7 +90482,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87162,6 +90510,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:20.1
 ;HEIGHT:0.300001
@@ -87176,6 +90525,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z20.5 F9000
 G1 X110.75 Y151.5 Z20.5
 G1 Z20.1
@@ -87196,7 +90546,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87222,7 +90574,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87248,7 +90602,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87274,7 +90630,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87300,7 +90658,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87326,7 +90686,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87352,7 +90714,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87378,7 +90742,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87404,7 +90770,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87430,7 +90798,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87458,7 +90828,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87484,7 +90856,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87510,6 +90884,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:20.4
 ;HEIGHT:0.299999
@@ -87524,6 +90899,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z20.8 F9000
 G1 X110.75 Y151.5 Z20.8
 G1 Z20.4
@@ -87544,7 +90920,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87570,7 +90948,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87596,7 +90976,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87622,7 +91004,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87648,7 +91032,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87674,7 +91060,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87700,7 +91088,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87726,7 +91116,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87752,7 +91144,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87778,7 +91172,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87804,7 +91200,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87830,7 +91228,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87856,6 +91256,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:20.7
 ;HEIGHT:0.300001
@@ -87870,6 +91271,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z21.1 F9000
 G1 X110.75 Y151.5 Z21.1
 G1 Z20.7
@@ -87890,7 +91292,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87918,7 +91322,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87944,7 +91350,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87970,7 +91378,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -87996,7 +91406,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88022,7 +91434,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88048,7 +91462,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88074,7 +91490,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88100,7 +91518,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88126,7 +91546,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88152,7 +91574,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88178,7 +91602,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88204,6 +91630,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ;LAYER_CHANGE
 ;Z:21
 ;HEIGHT:0.299999
@@ -88218,6 +91645,7 @@ G1 X82.228 Y127.984 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 Z21.4 F9000
 G1 X110.75 Y151.5 Z21.4
 G1 Z21
@@ -88238,7 +91666,9 @@ G1 X109.734 Y173.516 E.03462
 G1 X109.734 Y151.984 E1.40067
 G1 X110.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88264,7 +91694,9 @@ G1 X109.734 Y148.516 E.03462
 G1 X109.734 Y126.984 E1.40067
 G1 X110.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88290,7 +91722,9 @@ G1 X109.734 Y123.516 E.03462
 G1 X109.734 Y101.984 E1.40067
 G1 X110.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88316,7 +91750,9 @@ G1 X109.734 Y98.516 E.03462
 G1 X109.734 Y76.984 E1.40067
 G1 X110.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88342,7 +91778,9 @@ G1 X137.734 Y98.516 E.03462
 G1 X137.734 Y76.984 E1.40067
 G1 X138.226 Y76.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88368,7 +91806,9 @@ G1 X137.734 Y123.516 E.03462
 G1 X137.734 Y101.984 E1.40067
 G1 X138.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88394,7 +91834,9 @@ G1 X137.734 Y148.516 E.03462
 G1 X137.734 Y126.984 E1.40067
 G1 X138.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477494016_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88420,7 +91862,9 @@ G1 X137.734 Y173.516 E.03462
 G1 X137.734 Y151.984 E1.40067
 G1 X138.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477494016 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477494016_copy_0
 ; printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2602477507072_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88446,7 +91890,9 @@ G1 X165.734 Y173.516 E.03462
 G1 X165.734 Y151.984 E1.40067
 G1 X166.226 Y151.984 E.03202
 ; stop printing object DividerSunny.stl id:2602477507072 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2602477507072_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88472,7 +91918,9 @@ G1 X165.734 Y148.516 E.03462
 G1 X165.734 Y126.984 E1.40067
 G1 X166.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88498,7 +91946,9 @@ G1 X165.734 Y123.516 E.03462
 G1 X165.734 Y101.984 E1.40067
 G1 X166.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88524,7 +91974,9 @@ G1 X81.734 Y123.516 E.03462
 G1 X81.734 Y101.984 E1.40067
 G1 X82.226 Y101.984 E.03202
 ; stop printing object DividerSunny.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_0_copy_0
 ; printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_START NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174
@@ -88550,6 +92002,7 @@ G1 X81.734 Y148.516 E.03462
 G1 X81.734 Y126.984 E1.40067
 G1 X82.226 Y126.984 E.03202
 ; stop printing object DividerSunny.stl id:2241 copy 0
+EXCLUDE_OBJECT_END NAME=DividerSunny_stl_id_2241_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F13153.174

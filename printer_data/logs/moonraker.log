@@ -4074,3 +4074,7 @@ Content-Type: multipart/form-data; boundary=------------------------c994d7727eb8
 
 2025-02-27 12:38:33,537 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: DividerSunny_PLA_1h8m.gcode, sliced by OrcaSlicer
 
+2025-02-27 12:38:35,914 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-fua_en_x.json) successfully finished
+2025-02-27 12:38:35,926 [klippy_apis.py:start_print()] - Requesting Job Start, filename = DividerSunny_PLA_1h8m.gcode
+2025-02-27 12:38:35,962 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 3069.31ms
+2025-02-27 12:38:36,180 [job_state.py:_status_update()] - Job Started: DividerSunny_PLA_1h8m.gcode
