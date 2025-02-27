@@ -3876,3 +3876,7 @@ Content-Type: multipart/form-data; boundary=------------------------564fa858e46c
 2025-02-27 11:33:37,249 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_11m5s.gcode
 2025-02-27 11:33:37,282 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.4) [_TRUSTED_USER_] 709.70ms
 2025-02-27 11:33:37,335 [job_state.py:_status_update()] - Job Started: Body1_PLA_11m5s.gcode
+2025-02-27 11:46:13,112 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.112
+2025-02-27 11:46:13,114 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 5.36ms
+2025-02-27 11:46:13,114 [websockets.py:open()] - Websocket Opened: ID: 140064255585248, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-02-27 11:46:13,133 [websockets.py:_handle_identify()] - Websocket 140064255585248 Client Identified - Name: Mobileraker-android, Version: 2.8.6-615, Type: mobile
