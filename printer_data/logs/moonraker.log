@@ -3732,3 +3732,14 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-02-27 09:34:54,271 [klippy_apis.py:resume_print()] - Requesting job resume...
 2025-02-27 09:35:00,624 [klippy_apis.py:resume_print()] - Requesting job resume...
 2025-02-27 09:35:07,591 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2025-02-27 09:36:08,555 [websockets.py:on_close()] - Websocket Closed: ID: 140064254419344 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.65
+2025-02-27 09:36:11,683 [application.py:log_request()] - 101 GET /websocket (192.168.1.4) [_TRUSTED_USER_] 6.12ms
+2025-02-27 09:36:11,684 [websockets.py:open()] - Websocket Opened: ID: 140064254422224, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-02-27 09:36:11,699 [websockets.py:_handle_identify()] - Websocket 140064254422224 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-02-27 09:38:36,658 [application.py:prepare()] - Upload Request Received from 192.168.1.4
+Content-Type: multipart/form-data; boundary=------------------------69c2d9f642df606c
+2025-02-27 09:38:36,864 [application.py:post()] - Processing Uploaded File: pizerohingedcase_camera_gpio_v2_mod_PETG_54m14s.gcode
+2025-02-27 09:38:37,319 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-02-27 09:38:37,323 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: pizerohingedcase_camera_gpio_v2_mod_PETG_54m14s.gcode, sliced by OrcaSlicer
+
