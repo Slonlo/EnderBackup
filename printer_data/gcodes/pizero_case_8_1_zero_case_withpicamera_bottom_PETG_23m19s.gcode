@@ -284,6 +284,11 @@
 ; first layer extrusion width = 0.50mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 1 known objects
+EXCLUDE_OBJECT_DEFINE NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0 CENTER=119.564,110.214 POLYGON=[[67.304,93.851],[67.304,126.149],[152.674,126.149],[152.674,93.851]]
 M73 P0 R23
 ;TYPE:Custom
 G28 ; home all axis
@@ -321,6 +326,7 @@ G92 E0
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 M73 P1 R22
 M73 P1 R22
@@ -2014,6 +2020,7 @@ G1 X84.38 Y124.099 F9000
 G1 F2400
 G1 X83.931 Y123.65 E.03287
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.3
@@ -2025,6 +2032,7 @@ G92 E0
 M104 S255 ; set nozzle temperature
 M140 S80 ; set bed temperature
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z1 F9000
 G1 X143.938 Y124.53 Z1
@@ -3861,6 +3869,7 @@ G1 F14117.646
 G1 X143.071 Y95.853 E.00297
 G1 X143.136 Y95.888 E.00297
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:0.9
 ;HEIGHT:0.3
@@ -3870,6 +3879,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z1.3 F9000
 G1 X150.404 Y96.771 Z1.3
@@ -5928,6 +5938,7 @@ G1 X150.972 Y99.961 E.04207
 G1 X150.66 Y100.677 E.03036
 G1 X150.592 Y100.791 E.00516
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S51
 ;LAYER_CHANGE
 ;Z:1.2
@@ -5938,6 +5949,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z1.6 F9000
 G1 X69.36 Y123.308 Z1.6
@@ -9716,6 +9728,7 @@ G1 X86.266 Y96.408 E.02885
 G1 X86.817 Y96.291 E.02912
 G1 X90.577 Y96.288 E.19405
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:1.5
@@ -9726,6 +9739,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z1.9 F9000
 G1 X68.883 Y122.711 Z1.9
@@ -13380,6 +13394,7 @@ G1 X150.891 Y118.893 E.00256
 G1 X150.916 Y118.938 E.00256
 G1 X150.974 Y118.928 E.0029
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:1.8
@@ -13390,6 +13405,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z2.2 F9000
 G1 X68.286 Y101.15 Z2.2
@@ -16612,6 +16628,7 @@ G1 X77.974 Y112.635 E.03174
 G1 X77.76 Y112.183 E.02793
 G1 X77.376 Y112.567 E.0303
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S79
 ;LAYER_CHANGE
 ;Z:2.1
@@ -16622,6 +16639,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z2.5 F9000
 G1 X68.396 Y121.484 Z2.5
@@ -20675,6 +20693,7 @@ G1 X78.039 Y114.749 E.01363
 G1 X77.926 Y114.472 E.01545
 G1 X77.926 Y114.423 E.0025
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S81
 ;LAYER_CHANGE
 ;Z:2.4
@@ -20685,6 +20704,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z2.8 F9000
 G1 X113.53 Y100.128 Z2.8
@@ -24428,6 +24448,7 @@ G1 X77.964 Y114.6 E.01346
 G1 X77.926 Y114.383 E.01138
 G1 X77.926 Y114.377 E.00033
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S89
 ;LAYER_CHANGE
 ;Z:2.7
@@ -24438,6 +24459,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z3.1 F9000
 G1 X124.565 Y119.847 Z3.1
@@ -27596,6 +27618,7 @@ G1 X78.221 Y114.929 E.01934
 G1 X78.034 Y114.743 E.01359
 G1 X77.968 Y114.576 E.00925
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:3
@@ -27606,6 +27629,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z3.4 F9000
 G1 X125.094 Y119.885 Z3.4
@@ -30510,6 +30534,7 @@ G1 X71.074 Y123.064 E.00508
 G1 X71.135 Y123.223 E.0088
 G1 X71.257 Y123.418 E.0119
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S91
 ;LAYER_CHANGE
 ;Z:3.3
@@ -30520,6 +30545,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z3.7 F9000
 G1 X118.175 Y119.849 Z3.7
@@ -33469,6 +33495,7 @@ G1 X85.541 Y124.942 E.33981
 G1 X85.778 Y124.058 E.04728
 G1 X87.521 Y124.058 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:3.6
@@ -33479,6 +33506,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z4 F9000
 G1 X71.335 Y122.536 Z4
@@ -36465,6 +36493,7 @@ G1 X144.942 Y95.107 E.02292
 G1 X144.108 Y95.107 E.03298
 G1 X144.206 Y95.556 E.01819
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:3.9
 ;HEIGHT:0.3
@@ -36474,6 +36503,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z4.3 F9000
 G1 X68.316 Y100.013 Z4.3
@@ -39513,6 +39543,7 @@ G1 X144.197 Y95.164 E.06011
 G1 X144.263 Y95.448 E.01549
 G1 X144.27 Y95.818 E.01965
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.3
@@ -39522,6 +39553,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z4.6 F9000
 G1 X143.792 Y121.944 Z4.6
@@ -42962,6 +42994,7 @@ G1 X84.882 Y124.942 E.25935
 G1 X85.119 Y124.058 E.04728
 G1 X86.862 Y124.058 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S104
 ;LAYER_CHANGE
 ;Z:4.5
@@ -42972,6 +43005,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z4.9 F9000
 G1 X143.802 Y122.073 Z4.9
@@ -45599,6 +45633,7 @@ G1 X75.879 Y124.06 E.17536
 G1 X75.643 Y124.942 E.04715
 G1 X73.9 Y124.942 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S112
 ;LAYER_CHANGE
 ;Z:4.8
@@ -45609,6 +45644,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z5.2 F9000
 G1 X90.601 Y96.27 Z5.2
@@ -48197,6 +48233,7 @@ G1 X75.66 Y124.06 E.20219
 G1 X75.423 Y124.942 E.04715
 G1 X73.681 Y124.942 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S104
 ;LAYER_CHANGE
 ;Z:5.1
@@ -48207,6 +48244,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z5.5 F9000
 G1 X90.601 Y96.27 Z5.5
@@ -50714,6 +50752,7 @@ G1 X71.265 Y124.564 E.03319
 G1 X71.851 Y124.771 E.03207
 G1 X72.319 Y124.869 E.02467
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S107
 ;LAYER_CHANGE
 ;Z:5.4
@@ -50724,6 +50763,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z5.8 F9000
 G1 X90.601 Y96.27 Z5.8
@@ -53174,6 +53214,7 @@ G1 X71.851 Y124.771 E.03207
 G1 X72.456 Y124.898 E.03194
 G1 X72.626 Y124.91 E.0088
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S104
 ;LAYER_CHANGE
 ;Z:5.7
@@ -53184,6 +53225,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z6.1 F9000
 G1 X151.247 Y114.362 Z6.1
@@ -55641,6 +55683,7 @@ G1 X89.314 Y95.935 E.34985
 G1 X88.443 Y95.064 E.06359
 G1 X86.7 Y95.065 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S107
 ;LAYER_CHANGE
 ;Z:6
@@ -55651,6 +55694,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z6.4 F9000
 G1 X90.601 Y96.27 Z6.4
@@ -58129,6 +58173,7 @@ G1 X144.941 Y95.069 E.03853
 G1 X145.03 Y95.631 E.02937
 G1 X145.03 Y95.768 E.0071
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6.3
 ;HEIGHT:0.3
@@ -58138,6 +58183,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z6.7 F9000
 G1 X151.229 Y114.244 Z6.7
@@ -60561,6 +60607,7 @@ G1 X145.18 Y96.166 E.1714
 G1 X145.468 Y95.069 E.05853
 G1 X147.21 Y95.07 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.3
@@ -60570,6 +60617,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z7 F9000
 G1 X113.067 Y100.156 Z7
@@ -62907,6 +62955,7 @@ G1 F11018.792
 G1 X74.105 Y124.942 E.04718
 G1 X75.848 Y124.942 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S104
 ;LAYER_CHANGE
 ;Z:6.9
@@ -62917,6 +62966,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z7.3 F9000
 G1 X112.878 Y100.122 Z7.3
@@ -65450,6 +65500,7 @@ G1 X70.434 Y124.058 E.00099
 G1 X74.122 Y124.059 E.1904
 G1 X73.886 Y124.942 E.04718
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S102
 ;LAYER_CHANGE
 ;Z:7.2
@@ -65460,6 +65511,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z7.6 F9000
 G1 X144.845 Y122.65 Z7.6
@@ -68198,6 +68250,7 @@ G1 X73.666 Y124.942 E.01233
 G1 X73.903 Y124.059 E.04719
 G1 X72.16 Y124.059 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:7.5
 ;HEIGHT:0.3
@@ -68207,6 +68260,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z7.9 F9000
 G1 X111.477 Y100.178 Z7.9
@@ -70597,6 +70651,7 @@ G1 X82.278 Y124.062 E.0219
 G1 X83.158 Y124.942 E.06423
 G1 X84.9 Y124.942 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S107
 ;LAYER_CHANGE
 ;Z:7.8
@@ -70607,6 +70662,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z8.2 F9000
 G1 X90.601 Y96.27 Z8.2
@@ -72620,6 +72676,7 @@ G1 E1 F3900
 G1 F11018.792
 G1 X149.738 Y96.042 E.08086
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S102
 ;LAYER_CHANGE
 ;Z:8.1
@@ -72630,6 +72687,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z8.5 F9000
 G1 X150.688 Y112.785 Z8.5
@@ -75106,6 +75164,7 @@ G1 E1 F3900
 G1 F11018.792
 G1 X149.935 Y96.209 E.08044
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S109
 ;LAYER_CHANGE
 ;Z:8.4
@@ -75116,6 +75175,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z8.8 F9000
 G1 X119.372 Y120.823 Z8.8
@@ -77268,6 +77328,7 @@ G1 X147.817 Y96.192 E.00934
 G1 X147.176 Y95.988 E.03473
 G1 X147.101 Y95.979 E.00387
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S112
 ;LAYER_CHANGE
 ;Z:8.7
@@ -77278,6 +77339,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z9.1 F9000
 G1 X90.601 Y96.27 Z9.1
@@ -78739,6 +78801,7 @@ G1 X71.476 Y95.357 E.03645
 G1 X71.319 Y95.943 E.03134
 G1 X73.061 Y95.943 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S114
 ;LAYER_CHANGE
 ;Z:9
@@ -78749,6 +78812,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z9.4 F9000
 G1 X90.601 Y123.73 Z9.4
@@ -80163,6 +80227,7 @@ G1 X89.141 Y95.935 E.04669
 G1 X90.266 Y95.935 E.05808
 G1 X90.267 Y95.317 E.03186
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:9.3
 ;HEIGHT:0.3
@@ -80172,6 +80237,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z9.7 F9000
 G1 X90.601 Y123.73 Z9.7
@@ -81488,6 +81554,7 @@ G1 X82.925 Y124.063 E.05951
 G1 X79.642 Y124.942 E.17543
 G1 X77.9 Y124.942 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S109
 ;LAYER_CHANGE
 ;Z:9.6
@@ -81498,6 +81565,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z10 F9000
 G1 X151.502 Y113.975 Z10
@@ -82975,6 +83043,7 @@ G1 X86.484 Y95.516 E.03522
 G1 X86.181 Y95.776 E.02627
 G1 X90.066 Y95.774 E.25583
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S114
 ;LAYER_CHANGE
 ;Z:9.9
@@ -82985,6 +83054,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z10.3 F9000
 G1 X148.373 Y119.707 Z10.3
@@ -84400,6 +84470,7 @@ G1 X85.022 Y95.221 E.33424
 G1 X84.635 Y95.776 E.04452
 G1 X90.064 Y95.773 E.35704
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S112
 ;LAYER_CHANGE
 ;Z:10.2
@@ -84410,6 +84481,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z10.6 F9000
 G1 X148.871 Y122.116 Z10.6
@@ -85615,6 +85687,7 @@ G1 X70.427 Y124.076 E.01822
 G1 X70.433 Y124.058 E.00099
 G1 X70.888 Y124.058 E.02348
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S125
 ;LAYER_CHANGE
 ;Z:10.5
@@ -85625,6 +85698,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z10.9 F9000
 G1 X151.502 Y113.979 Z10.9
@@ -86233,6 +86307,7 @@ G1 X80.918 Y95.06 E.08573
 G1 X81.802 Y95.944 E.06454
 G1 X83.544 Y95.944 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.3
@@ -86242,6 +86317,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 X84.269 Y96.28 Z10.8 F9000
 ;TYPE:Inner wall
 ;WIDTH:0.5
@@ -86859,6 +86935,7 @@ G1 X81.218 Y95.06 E.11254
 G1 X82.102 Y95.944 E.06456
 G1 X83.844 Y95.944 E.08994
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11.1
 ;HEIGHT:0.3
@@ -86868,6 +86945,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 X84.269 Y96.28 Z11.1 F9000
 ;TYPE:Inner wall
 ;WIDTH:0.5
@@ -87480,6 +87558,7 @@ G1 X72.815 Y95.784 E.03812
 G1 X83.954 Y95.782 E.73016
 G1 X84.284 Y95.255 E.04076
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.299999
@@ -87489,6 +87568,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 X84.292 Y96.228 Z11.4 F9000
 ;TYPE:Inner wall
 ;WIDTH:0.5
@@ -88102,6 +88182,7 @@ G1 X72.814 Y95.745 E.03656
 G1 X83.989 Y95.743 E.69837
 G1 X84.308 Y95.242 E.0371
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 M106 S122
 ;LAYER_CHANGE
 ;Z:11.7
@@ -88112,6 +88193,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 G1 Z12.1 F9000
 G1 X85.417 Y125.278 Z12.1
@@ -88760,6 +88842,7 @@ G1 X72.176 Y95.602 E.02738
 G1 X71.538 Y95.602 E.03416
 G1 X71.192 Y95.257 E.02615
 ; stop printing object pizero_case_8_1_zero_case_withpicamera_bottom.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=pizero_case_8_1_zero_case_withpicamera_bottom_stl_id_0_copy_0
 G1 E-1 F5100
 M106 S0
 ;TYPE:Custom
