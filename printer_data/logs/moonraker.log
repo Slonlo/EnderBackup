@@ -8419,3 +8419,1524 @@ Traceback (most recent call last):
     raise self.server.error(
 moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
 2025-03-01 20:13:49,585 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.87ms
+2025-03-01 20:15:10,077 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:15:10,082 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.76ms
+2025-03-01 20:16:30,586 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:16:30,588 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.65ms
+2025-03-01 20:17:50,984 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:17:50,985 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.98ms
+2025-03-01 20:19:11,094 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:19:11,095 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.22ms
+2025-03-01 20:20:31,247 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:20:31,249 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.00ms
+2025-03-01 20:21:51,323 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:21:51,324 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.37ms
+2025-03-01 20:23:11,776 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:23:11,777 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.87ms
+2025-03-01 20:24:31,915 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:24:31,916 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 2.34ms
+2025-03-01 20:25:52,264 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:25:52,265 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.35ms
+2025-03-01 20:27:12,688 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:27:12,691 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.23ms
+2025-03-01 20:28:32,782 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:28:32,784 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.07ms
+2025-03-01 20:29:52,894 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:29:52,896 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.43ms
+2025-03-01 20:31:13,417 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:31:13,419 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.20ms
+2025-03-01 20:32:33,539 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:32:33,540 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.97ms
+2025-03-01 20:33:53,642 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:33:53,644 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.64ms
+2025-03-01 20:35:13,963 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:35:13,965 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.76ms
+2025-03-01 20:36:34,342 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:36:34,344 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.48ms
+2025-03-01 20:37:54,621 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:37:54,622 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.49ms
+2025-03-01 20:39:14,739 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:39:14,741 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.87ms
+2025-03-01 20:40:35,074 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:40:35,080 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.94ms
+2025-03-01 20:41:55,218 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:41:55,220 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.95ms
+2025-03-01 20:43:15,569 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:43:15,571 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.27ms
+2025-03-01 20:44:36,004 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:44:36,007 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.93ms
+2025-03-01 20:45:56,511 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:45:56,512 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.99ms
+2025-03-01 20:47:16,670 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:47:16,672 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.23ms
+2025-03-01 20:48:37,061 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:48:37,062 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.30ms
+2025-03-01 20:49:57,212 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:49:57,215 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.20ms
+2025-03-01 20:51:17,644 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:51:17,648 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.51ms
+2025-03-01 20:52:37,851 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:52:37,854 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.35ms
+2025-03-01 20:53:58,233 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:53:58,239 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.86ms
+2025-03-01 20:55:18,726 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:55:18,727 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.97ms
+2025-03-01 20:56:38,921 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:56:38,925 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.01ms
+2025-03-01 20:57:59,206 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:57:59,208 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.64ms
+2025-03-01 20:59:19,612 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 20:59:19,613 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.45ms
+2025-03-01 21:00:39,753 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:00:39,755 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.25ms
+2025-03-01 21:01:59,864 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:01:59,867 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.70ms
+2025-03-01 21:03:19,946 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:03:19,949 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.36ms
+2025-03-01 21:04:40,363 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:04:40,366 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.86ms
+2025-03-01 21:06:00,617 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:06:00,618 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.61ms
+2025-03-01 21:07:20,847 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:07:20,852 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.97ms
+2025-03-01 21:08:41,042 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:08:41,046 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.27ms
+2025-03-01 21:10:01,376 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:10:01,377 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.74ms
+2025-03-01 21:11:21,718 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:11:21,719 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.96ms
+2025-03-01 21:12:41,948 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:12:41,952 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.46ms
+2025-03-01 21:14:02,151 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:14:02,153 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.91ms
+2025-03-01 21:15:22,651 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:15:22,652 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.87ms
+2025-03-01 21:16:42,837 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:16:42,840 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.98ms
+2025-03-01 21:18:03,093 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:18:03,095 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.88ms
+2025-03-01 21:19:23,238 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:19:23,240 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.32ms
+2025-03-01 21:20:43,658 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:20:43,660 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.87ms
+2025-03-01 21:22:04,133 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:22:04,134 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.85ms
+2025-03-01 21:23:24,641 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:23:24,643 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.05ms
+2025-03-01 21:24:45,131 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:24:45,132 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.99ms
+2025-03-01 21:26:05,582 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:26:05,584 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.97ms
+2025-03-01 21:27:25,920 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:27:25,923 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.83ms
+2025-03-01 21:28:46,116 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:28:46,117 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.57ms
+2025-03-01 21:30:06,273 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:30:06,274 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.85ms
+2025-03-01 21:31:26,411 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:31:26,416 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.71ms
+2025-03-01 21:32:46,594 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:32:46,599 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 10.32ms
+2025-03-01 21:34:06,693 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:34:06,697 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.60ms
+2025-03-01 21:35:26,887 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:35:26,891 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.69ms
+2025-03-01 21:36:47,050 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:36:47,052 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.14ms
+2025-03-01 21:38:07,423 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:38:07,425 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.76ms
+2025-03-01 21:39:27,686 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:39:27,690 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.87ms
+2025-03-01 21:40:48,023 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:40:48,025 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.28ms
+2025-03-01 21:42:08,423 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:42:08,425 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.14ms
+2025-03-01 21:43:28,838 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:43:28,840 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.01ms
+2025-03-01 21:44:49,315 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:44:49,319 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.67ms
+2025-03-01 21:46:09,640 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:46:09,642 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.04ms
+2025-03-01 21:47:30,122 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:47:30,124 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.90ms
+2025-03-01 21:48:50,466 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:48:50,468 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.71ms
+2025-03-01 21:50:10,649 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:50:10,651 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.90ms
+2025-03-01 21:51:31,019 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:51:31,020 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.37ms
+2025-03-01 21:52:51,316 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:52:51,317 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.09ms
+2025-03-01 21:54:11,534 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:54:11,536 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.64ms
+2025-03-01 21:55:31,898 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:55:31,900 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.07ms
+2025-03-01 21:56:52,163 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:56:52,165 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.43ms
+2025-03-01 21:58:12,530 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:58:12,532 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.11ms
+2025-03-01 21:59:32,950 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 21:59:32,952 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.72ms
+2025-03-01 22:00:53,093 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:00:53,095 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.92ms
+2025-03-01 22:02:13,227 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:02:13,229 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.46ms
+2025-03-01 22:03:33,626 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:03:33,628 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.00ms
+2025-03-01 22:04:53,924 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:04:53,927 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.39ms
+2025-03-01 22:06:14,327 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:06:14,329 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.43ms
+2025-03-01 22:07:34,565 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:07:34,566 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 2.97ms
+2025-03-01 22:08:54,976 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:08:54,978 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.02ms
+2025-03-01 22:10:15,104 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:10:15,106 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.44ms
+2025-03-01 22:11:35,425 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:11:35,431 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.36ms
+2025-03-01 22:12:55,530 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:12:55,532 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.00ms
+2025-03-01 22:14:15,645 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:14:15,646 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.55ms
+2025-03-01 22:15:35,918 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:15:35,921 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.83ms
+2025-03-01 22:16:56,138 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:16:56,140 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.06ms
+2025-03-01 22:18:16,255 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:18:16,256 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.55ms
+2025-03-01 22:19:36,709 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:19:36,710 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.15ms
+2025-03-01 22:20:57,075 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:20:57,076 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.96ms
+2025-03-01 22:22:17,283 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:22:17,286 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.09ms
+2025-03-01 22:23:37,646 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:23:37,648 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.89ms
+2025-03-01 22:24:57,740 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:24:57,743 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.64ms
+2025-03-01 22:26:18,233 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:26:18,235 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.19ms
+2025-03-01 22:27:38,697 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:27:38,699 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.86ms
+2025-03-01 22:28:58,838 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:28:58,840 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.55ms
+2025-03-01 22:30:19,247 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:30:19,249 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.26ms
+2025-03-01 22:31:39,570 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:31:39,571 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.60ms
+2025-03-01 22:32:59,743 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:32:59,745 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.51ms
+2025-03-01 22:34:20,019 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:34:20,020 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.74ms
+2025-03-01 22:35:40,274 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:35:40,279 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 9.12ms
+2025-03-01 22:37:00,745 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:37:00,748 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.58ms
+2025-03-01 22:38:20,963 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:38:20,964 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.80ms
+2025-03-01 22:39:41,304 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:39:41,305 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.94ms
+2025-03-01 22:41:01,546 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:41:01,550 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.23ms
+2025-03-01 22:42:22,010 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:42:22,013 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.42ms
+2025-03-01 22:43:42,532 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:43:42,533 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.68ms
+2025-03-01 22:45:02,638 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:45:02,640 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.21ms
+2025-03-01 22:46:22,878 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:46:22,880 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.04ms
+2025-03-01 22:47:43,287 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:47:43,289 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.38ms
+2025-03-01 22:49:03,460 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:49:03,463 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.73ms
+2025-03-01 22:50:23,684 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:50:23,688 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.06ms
+2025-03-01 22:51:44,000 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:51:44,002 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.84ms
+2025-03-01 22:53:04,498 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:53:04,499 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.58ms
+2025-03-01 22:54:24,621 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:54:24,624 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.51ms
+2025-03-01 22:55:44,758 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:55:44,762 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.48ms
+2025-03-01 22:57:05,201 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:57:05,203 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.91ms
+2025-03-01 22:58:25,544 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:58:25,545 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.90ms
+2025-03-01 22:59:45,667 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 22:59:45,669 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.91ms
+2025-03-01 23:01:06,062 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:01:06,063 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.35ms
+2025-03-01 23:02:26,476 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:02:26,477 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.70ms
+2025-03-01 23:03:46,866 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:03:46,870 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.43ms
+2025-03-01 23:05:06,975 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:05:06,977 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.63ms
+2025-03-01 23:06:27,136 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:06:27,137 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.22ms
+2025-03-01 23:07:47,434 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:07:47,437 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.67ms
+2025-03-01 23:09:07,648 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:09:07,649 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.35ms
+2025-03-01 23:10:27,926 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:10:27,928 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.98ms
+2025-03-01 23:11:48,256 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:11:48,257 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.29ms
+2025-03-01 23:13:08,515 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:13:08,517 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.35ms
+2025-03-01 23:14:28,658 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:14:28,660 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.60ms
+2025-03-01 23:15:48,793 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:15:48,795 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.12ms
+2025-03-01 23:17:08,929 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:17:08,933 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.24ms
+2025-03-01 23:18:29,112 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:18:29,113 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.58ms
+2025-03-01 23:19:49,311 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:19:49,313 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.19ms
+2025-03-01 23:21:09,812 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:21:09,814 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.61ms
+2025-03-01 23:22:29,962 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:22:29,964 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.18ms
+2025-03-01 23:23:50,290 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:23:50,293 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 7.56ms
+2025-03-01 23:25:10,517 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:25:10,519 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.47ms
+2025-03-01 23:26:30,973 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:26:30,975 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.54ms
+2025-03-01 23:27:51,332 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:27:51,335 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.54ms
+2025-03-01 23:29:11,468 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:29:11,470 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.80ms
+2025-03-01 23:30:31,870 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:30:31,872 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.23ms
+2025-03-01 23:31:52,305 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:31:52,306 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.24ms
+2025-03-01 23:33:12,691 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:33:12,694 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.89ms
+2025-03-01 23:34:33,211 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:34:33,216 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 8.56ms
+2025-03-01 23:35:53,559 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:35:53,561 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.91ms
+2025-03-01 23:37:13,646 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:37:13,648 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.60ms
+2025-03-01 23:38:33,807 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:38:33,809 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.63ms
+2025-03-01 23:39:54,195 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:39:54,197 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.00ms
+2025-03-01 23:41:14,678 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:41:14,682 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.57ms
+2025-03-01 23:42:34,801 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:42:34,802 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.75ms
+2025-03-01 23:43:55,076 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:43:55,078 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.92ms
+2025-03-01 23:45:15,326 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:45:15,328 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.91ms
+2025-03-01 23:46:35,592 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:46:35,595 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.76ms
+2025-03-01 23:47:56,084 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:47:56,086 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.92ms
+2025-03-01 23:49:16,283 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:49:16,285 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.63ms
+2025-03-01 23:50:36,692 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:50:36,695 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.25ms
+2025-03-01 23:51:57,206 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:51:57,208 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.15ms
+2025-03-01 23:53:17,429 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:53:17,432 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.17ms
+2025-03-01 23:54:37,751 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:54:37,752 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.60ms
+2025-03-01 23:55:57,930 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:55:57,932 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.93ms
+2025-03-01 23:57:18,146 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:57:18,148 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.00ms
+2025-03-01 23:58:38,403 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:58:38,404 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.34ms
+2025-03-01 23:59:58,893 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-01 23:59:58,895 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.53ms
