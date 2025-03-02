@@ -4462,3 +4462,6 @@ moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections 
 2025-03-02 10:50:07,705 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 6.98ms
 2025-03-02 10:50:07,706 [websockets.py:open()] - Websocket Opened: ID: 140064255590512, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
 2025-03-02 10:50:07,712 [websockets.py:_handle_identify()] - Websocket 140064255590512 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-02 10:50:26,801 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.49ms
+2025-03-02 10:50:26,802 [websockets.py:open()] - Websocket Opened: ID: 140064255672912, Proxied: False, User Agent: HomeAssistant/2025.2.5 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
+2025-03-02 10:50:26,806 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
