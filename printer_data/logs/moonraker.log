@@ -5082,3 +5082,21 @@ Content-Type: multipart/form-data; boundary=------------------------b16e0c5f0ca2
 2025-03-04 09:51:55,643 [websockets.py:open()] - Websocket Opened: ID: 139800116253264, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
 2025-03-04 09:51:55,699 [websockets.py:_handle_identify()] - Websocket 139800116253264 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-03-04 09:51:56,897 [websockets.py:on_close()] - Websocket Closed: ID: 139800116253264 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.26
+2025-03-04 10:14:18,411 [websockets.py:on_close()] - Websocket Closed: ID: 139800117188016 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.00
+2025-03-04 10:14:18,617 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 11.78ms
+2025-03-04 10:14:18,617 [websockets.py:open()] - Websocket Opened: ID: 139800117187008, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-03-04 10:14:18,645 [websockets.py:on_close()] - Websocket Closed: ID: 139800117187008 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.04
+2025-03-04 10:14:18,770 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 4.39ms
+2025-03-04 10:14:18,771 [websockets.py:open()] - Websocket Opened: ID: 139800117187680, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-03-04 10:14:18,817 [websockets.py:_handle_identify()] - Websocket 139800117187680 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-04 10:15:21,811 [application.py:prepare()] - Upload Request Received from 192.168.1.127
+Content-Type: multipart/form-data; boundary=------------------------0c2a78faf138c618
+2025-03-04 10:15:22,108 [application.py:post()] - Processing Uploaded File: tower_with_seam_PLA_8m58s.gcode
+2025-03-04 10:15:22,545 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-03-04 10:15:22,547 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: tower_with_seam_PLA_8m58s.gcode, sliced by OrcaSlicer
+
+2025-03-04 10:15:22,813 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-qc0ff7vr.json) successfully finished
+2025-03-04 10:15:22,818 [klippy_apis.py:start_print()] - Requesting Job Start, filename = tower_with_seam_PLA_8m58s.gcode
+2025-03-04 10:15:22,858 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.127) [_TRUSTED_USER_] 1048.52ms
+2025-03-04 10:15:23,019 [job_state.py:_status_update()] - Job Started: tower_with_seam_PLA_8m58s.gcode
