@@ -5061,3 +5061,8 @@ Content-Type: multipart/form-data; boundary=------------------------854aa0dcdee5
 2025-03-04 09:49:14,083 [websockets.py:_handle_identify()] - Websocket 139800117163824 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-03-04 09:51:03,694 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-03-04 09:51:04,976 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-04 09:51:07,989 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-04 09:51:07,991 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-04 09:51:08,240 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-03-04 09:51:08,513 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-03-04 09:51:10,759 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
