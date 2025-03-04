@@ -4987,3 +4987,20 @@ Properties:
 2025-03-04 09:12:24,465 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-03-04 09:13:39,095 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.61ms
 2025-03-04 09:13:39,096 [websockets.py:open()] - Websocket Opened: ID: 139800117504608, Proxied: False, User Agent: HomeAssistant/2025.2.5 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
+2025-03-04 09:16:52,048 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-04 09:17:19,037 [websockets.py:write_to_socket()] - Websocket closed while writing: 139800118536512
+2025-03-04 09:17:20,018 [websockets.py:write_to_socket()] - Websocket closed while writing: 139800118648016
+2025-03-04 09:17:20,038 [websockets.py:write_to_socket()] - Websocket closed while writing: 139800117504608
+2025-03-04 09:17:23,825 [websockets.py:on_close()] - Websocket Closed: ID: 139800118536512 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-04 09:17:24,099 [websockets.py:on_close()] - Websocket Closed: ID: 139800117504608 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-04 09:17:24,960 [websockets.py:on_close()] - Websocket Closed: ID: 139800118648016 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-03-04 09:17:35,346 [websockets.py:write_to_socket()] - Websocket closed while writing: 139800118648304
+2025-03-04 09:17:40,161 [websockets.py:on_close()] - Websocket Closed: ID: 139800118648304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-04 09:18:12,111 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-04 09:18:16,379 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 4.37ms
+2025-03-04 09:18:16,380 [websockets.py:open()] - Websocket Opened: ID: 139800118644944, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-03-04 09:18:16,386 [websockets.py:_handle_identify()] - Websocket 139800118644944 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-04 09:18:16,555 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.58ms
+2025-03-04 09:18:16,556 [websockets.py:open()] - Websocket Opened: ID: 139800118362176, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-03-04 09:18:17,187 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.43ms
+2025-03-04 09:18:17,188 [websockets.py:open()] - Websocket Opened: ID: 139800117501712, Proxied: False, User Agent: HomeAssistant/2025.2.5 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
