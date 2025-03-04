@@ -5078,3 +5078,6 @@ Content-Type: multipart/form-data; boundary=------------------------b16e0c5f0ca2
 2025-03-04 09:51:44,877 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Case Mod Cover_PLA_13m34s.gcode
 2025-03-04 09:51:44,918 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.127) [_TRUSTED_USER_] 1592.34ms
 2025-03-04 09:51:45,141 [job_state.py:_status_update()] - Job Started: Case Mod Cover_PLA_13m34s.gcode
+2025-03-04 09:51:55,642 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.44ms
+2025-03-04 09:51:55,643 [websockets.py:open()] - Websocket Opened: ID: 139800116253264, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-03-04 09:51:55,699 [websockets.py:_handle_identify()] - Websocket 139800116253264 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
