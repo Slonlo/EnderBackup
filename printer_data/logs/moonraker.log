@@ -5100,3 +5100,11 @@ Content-Type: multipart/form-data; boundary=------------------------0c2a78faf138
 2025-03-04 10:15:22,818 [klippy_apis.py:start_print()] - Requesting Job Start, filename = tower_with_seam_PLA_8m58s.gcode
 2025-03-04 10:15:22,858 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.127) [_TRUSTED_USER_] 1048.52ms
 2025-03-04 10:15:23,019 [job_state.py:_status_update()] - Job Started: tower_with_seam_PLA_8m58s.gcode
+2025-03-04 10:18:05,294 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 6.56ms
+2025-03-04 10:18:05,295 [websockets.py:open()] - Websocket Opened: ID: 139800116279088, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-03-04 10:18:05,405 [websockets.py:_handle_identify()] - Websocket 139800116279088 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-04 10:18:06,486 [websockets.py:on_close()] - Websocket Closed: ID: 139800116279088 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.20
+2025-03-04 10:18:06,489 [websockets.py:write_to_socket()] - Websocket closed while writing: 139800116279088
+2025-03-04 10:19:48,913 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 5.21ms
+2025-03-04 10:19:48,914 [websockets.py:open()] - Websocket Opened: ID: 139800116750560, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-03-04 10:19:49,037 [websockets.py:_handle_identify()] - Websocket 139800116750560 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
