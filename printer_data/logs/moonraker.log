@@ -4985,3 +4985,5 @@ Properties:
 2025-03-04 09:12:23,704 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-03-04 09:12:23,979 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-03-04 09:12:24,465 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-03-04 09:13:39,095 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.61ms
+2025-03-04 09:13:39,096 [websockets.py:open()] - Websocket Opened: ID: 139800117504608, Proxied: False, User Agent: HomeAssistant/2025.2.5 aiohttp/3.11.12 Python/3.13, Host Name: 192.168.1.130
