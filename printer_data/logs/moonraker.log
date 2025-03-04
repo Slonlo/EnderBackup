@@ -5059,3 +5059,5 @@ Content-Type: multipart/form-data; boundary=------------------------854aa0dcdee5
 2025-03-04 09:49:13,879 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 6.49ms
 2025-03-04 09:49:13,879 [websockets.py:open()] - Websocket Opened: ID: 139800117163824, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
 2025-03-04 09:49:14,083 [websockets.py:_handle_identify()] - Websocket 139800117163824 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-04 09:51:03,694 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-03-04 09:51:04,976 [klippy_connection.py:_do_connect()] - Klippy Connection Established
