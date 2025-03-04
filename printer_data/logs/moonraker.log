@@ -5046,3 +5046,8 @@ Content-Type: multipart/form-data; boundary=------------------------854aa0dcdee5
 2025-03-04 09:46:18,815 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
 2025-03-04 09:46:18,823 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
 2025-03-04 09:46:19,258 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-04 09:46:22,281 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-04 09:46:22,284 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-04 09:46:22,532 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-03-04 09:46:22,799 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-03-04 09:46:24,045 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
