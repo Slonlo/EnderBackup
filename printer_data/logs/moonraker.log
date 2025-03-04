@@ -5007,3 +5007,4 @@ Properties:
 2025-03-04 09:20:09,339 [application.py:log_request()] - 101 GET /websocket (192.168.1.127) [_TRUSTED_USER_] 6.02ms
 2025-03-04 09:20:09,340 [websockets.py:open()] - Websocket Opened: ID: 139800117501760, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
 2025-03-04 09:20:09,356 [websockets.py:_handle_identify()] - Websocket 139800117501760 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-04 09:22:26,638 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
