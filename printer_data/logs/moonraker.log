@@ -265,3 +265,181 @@ Traceback (most recent call last):
     raise self.server.error(
 moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
 2025-03-05 00:00:53,346 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.10ms
+2025-03-05 00:02:13,536 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:02:13,538 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 4.68ms
+2025-03-05 00:03:33,682 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:03:33,683 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.32ms
+2025-03-05 00:04:54,214 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:04:54,216 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.34ms
+2025-03-05 00:06:14,326 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:06:14,329 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.75ms
+2025-03-05 00:07:34,720 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:07:34,724 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 5.84ms
+2025-03-05 00:08:55,030 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:08:55,032 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 3.98ms
+2025-03-05 00:10:15,404 [web.py:log_exception()] - Uncaught exception GET /websocket (192.168.1.175)
+HTTPServerRequest(protocol='http', host='192.168.1.130:7125', method='GET', uri='/websocket', version='HTTP/1.1', remote_ip='192.168.1.175')
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/web.py", line 1769, in _execute
+    result = await result  # type: ignore
+  File "/home/chase/moonraker/moonraker/components/websockets.py", line 325, in prepare
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Maximum Number of Websocket Connections Reached
+2025-03-05 00:10:15,406 [application.py:log_request()] - 500 GET /websocket (192.168.1.175) [No User] 6.39ms
+2025-03-05 00:11:22,253 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
+    await self._update_package_cache(force=True)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
+    await self.provider.refresh_packages(notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
+    await self.run_transaction("refresh_cache", False, notify=notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
+    return await transaction.run(method, *args, notify=notify)
+moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-03-05 00:11:22,296 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-03-05 00:11:22,335 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-03-05 00:11:22,389 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-03-05 00:11:22,995 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
+2025-03-05 00:11:23,027 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-03-05 00:11:23,056 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
+2025-03-05 00:11:23,096 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-05 00:11:23,126 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
+2025-03-05 00:11:23,162 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-03-05 00:11:23,196 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..18f3da59b0d48d79ab7899c5ce0b0cd4df12d7e0 --count) successfully finished
+2025-03-05 00:11:23,228 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-03-05 00:11:23,330 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-03-05 00:11:23,333 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/chase/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
+Upstream Commit SHA: 18f3da59b0d48d79ab7899c5ce0b0cd4df12d7e0
+Current Version: v0.9.3-58-ga0164e15
+Upstream Version: v0.9.3-66-g18f3da59
+Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
+Rollback Branch: master
+Rollback Version: v0.9.3-48-g354cc11b
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 8
+Diverged: False
+Pinned Commit: None
+2025-03-05 00:11:23,334 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-03-05 00:11:23,334 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2025-03-05 00:11:23,376 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar status --porcelain -b) successfully finished
+2025-03-05 00:11:23,402 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
+2025-03-05 00:11:23,465 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
+2025-03-05 00:11:23,889 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) successfully finished
+2025-03-05 00:11:23,925 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-05 00:11:23,953 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse HEAD) successfully finished
+2025-03-05 00:11:23,984 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-05 00:11:24,012 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse origin/main) successfully finished
+2025-03-05 00:11:24,046 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-05 00:11:24,077 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-list HEAD..eacc498a52f79292063b6f9b0e0c191c34c5dc09 --count) successfully finished
+2025-03-05 00:11:24,080 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
+Owner: mainsail-crew
+Repository Name: sonar
+Path: /home/chase/sonar
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/sonar.git
+Recovery URL: https://github.com/mainsail-crew/sonar.git
+Current Commit SHA: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Upstream Commit SHA: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Current Version: v0.1.3-1-geacc498a
+Upstream Version: v0.1.3-1-geacc498a
+Rollback Commit: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Rollback Branch: main
+Rollback Version: v0.1.3-1-geacc498a-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-05 00:11:24,080 [base_deploy.py:log_info()] - Git Repo sonar: Channel: dev
+2025-03-05 00:11:24,080 [base_deploy.py:log_info()] - Git Repo sonar: Validity check for git repo passed
+2025-03-05 00:11:24,113 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging status --porcelain -b) successfully finished
+2025-03-05 00:11:24,143 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging branch --list --no-color) successfully finished
+2025-03-05 00:11:24,199 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging remote get-url origin) successfully finished
+2025-03-05 00:11:24,595 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) successfully finished
+2025-03-05 00:11:24,625 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-05 00:11:24,657 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse HEAD) successfully finished
+2025-03-05 00:11:24,701 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-05 00:11:24,732 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse origin/main) successfully finished
+2025-03-05 00:11:24,770 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-05 00:11:24,809 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-list HEAD..b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0 --count) successfully finished
+2025-03-05 00:11:24,814 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+Owner: kyleisah
+Repository Name: Klipper-Adaptive-Meshing-Purging
+Path: /home/chase/Klipper-Adaptive-Meshing-Purging
+Remote: origin
+Branch: main
+Remote URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Recovery URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Current Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Upstream Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Current Version: v1.1.2-13-gb0dad8ec
+Upstream Version: v1.1.2-13-gb0dad8ec
+Rollback Commit: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Rollback Branch: main
+Rollback Version: v1.1.2-13-gb0dad8ec
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-05 00:11:24,815 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
+2025-03-05 00:11:24,816 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Validity check for git repo passed
+2025-03-05 00:11:24,877 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
+2025-03-05 00:11:24,908 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
+2025-03-05 00:11:24,971 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
