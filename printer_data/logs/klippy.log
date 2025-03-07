@@ -1716,3 +1716,38 @@ Stats 551.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stdd
 probe at 159.837,119.868 is z=1.377500
 Stats 552.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000022 bytes_write=25198 bytes_read=68102 bytes_retransmit=9 bytes_invalid=0 send_seq=1557 receive_seq=1556 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002014 sd_pos=15005 heater_bed: target=80 temp=79.8 pwm=0.471 sysload=1.64 cputime=12.777 memavail=2847028 print_time=489.339 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.139
 probe at 168.671,119.868 is z=1.367500
+Stats 553.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000022 bytes_write=26002 bytes_read=68498 bytes_retransmit=9 bytes_invalid=0 send_seq=1587 receive_seq=1587 retransmit_seq=17 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002012 sd_pos=15005 heater_bed: target=80 temp=79.8 pwm=0.602 sysload=1.64 cputime=12.818 memavail=2840208 print_time=490.311 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.139
+probe at 168.671,131.624 is z=1.387500
+probe at 159.837,131.624 is z=1.437500
+Stats 554.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000022 bytes_write=27006 bytes_read=68957 bytes_retransmit=9 bytes_invalid=0 send_seq=1625 receive_seq=1622 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=82 upcoming_bytes=151 freq=72002010 sd_pos=15005 heater_bed: target=80 temp=79.8 pwm=0.696 sysload=1.64 cputime=12.872 memavail=2842640 print_time=491.825 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.139
+probe at 150.991,131.624 is z=1.490000
+Stats 555.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000021 bytes_write=28011 bytes_read=69359 bytes_retransmit=9 bytes_invalid=0 send_seq=1657 receive_seq=1657 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=15 upcoming_bytes=0 freq=72002012 sd_pos=15005 heater_bed: target=80 temp=79.9 pwm=0.718 sysload=1.64 cputime=12.912 memavail=2840400 print_time=492.779 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.139
+probe at 142.157,131.624 is z=1.495000
+Stats 556.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000021 bytes_write=28768 bytes_read=69721 bytes_retransmit=9 bytes_invalid=0 send_seq=1684 receive_seq=1684 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=26 upcoming_bytes=0 freq=72002012 sd_pos=15005 heater_bed: target=80 temp=79.9 pwm=0.545 sysload=1.59 cputime=12.952 memavail=2841204 print_time=493.732 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.125
+probe at 133.311,131.624 is z=1.490000
+Mesh Bed Leveling Complete
+save_config: set [bed_mesh default] version = 1
+save_config: set [bed_mesh default] points = 
+  -0.050000, -0.070000, -0.052500, -0.082500, -0.090000
+  -0.007500, -0.020000, -0.015000, -0.047500, -0.055000
+  0.037500, 0.035000, 0.032500, -0.002500, -0.012500
+  0.110000, 0.115000, 0.110000, 0.057500, 0.007500
+save_config: set [bed_mesh default] x_count = 5
+save_config: set [bed_mesh default] y_count = 4
+save_config: set [bed_mesh default] mesh_x_pps = 2
+save_config: set [bed_mesh default] mesh_y_pps = 2
+save_config: set [bed_mesh default] algo = lagrange
+save_config: set [bed_mesh default] tension = 0.2
+save_config: set [bed_mesh default] min_x = 92.313
+save_config: set [bed_mesh default] max_x = 127.673
+save_config: set [bed_mesh default] min_y = 92.349
+save_config: set [bed_mesh default] max_y = 127.62900000000002
+Bed Mesh state has been saved to profile [default]
+for the current session.  The SAVE_CONFIG command will
+update the printer config file and restart the printer.
+Stats 557.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000021 bytes_write=29293 bytes_read=70062 bytes_retransmit=9 bytes_invalid=0 send_seq=1707 receive_seq=1707 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=16 upcoming_bytes=8 freq=72002012 sd_pos=15005 heater_bed: target=80 temp=80.0 pwm=0.550 sysload=1.59 cputime=13.017 memavail=2834760 print_time=494.532 buffer_time=0.405 print_stall=0 extruder: target=150 temp=150.0 pwm=0.125
+Stats 558.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000021 bytes_write=29443 bytes_read=70185 bytes_retransmit=9 bytes_invalid=0 send_seq=1712 receive_seq=1712 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002011 sd_pos=15005 heater_bed: target=80 temp=80.0 pwm=0.592 sysload=1.59 cputime=13.041 memavail=2832452 print_time=494.532 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.125
+bed_mesh fade complete: Current Z: 50.0000 fade_target: 0.0000 
+Heater extruder approaching new target of 260.000
+Stats 559.2: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000021 bytes_write=30080 bytes_read=70455 bytes_retransmit=9 bytes_invalid=0 send_seq=1729 receive_seq=1729 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002009 sd_pos=15140 heater_bed: target=80 temp=80.0 pwm=0.666 sysload=1.59 cputime=13.076 memavail=2840676 print_time=510.335 buffer_time=14.206 print_stall=0 extruder: target=260 temp=150.0 pwm=1.000
+Stats 560.2: gcodein=0  mcu: mcu_awake=0.006 mcu_task_avg=0.000027 mcu_task_stddev=0.000022 bytes_write=30118 bytes_read=70597 bytes_retransmit=9 bytes_invalid=0 send_seq=1732 receive_seq=1732 retransmit_seq=17 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002006 sd_pos=15140 heater_bed: target=80 temp=80.0 pwm=0.598 sysload=1.59 cputime=13.095 memavail=2839432 print_time=510.335 buffer_time=13.206 print_stall=0 extruder: target=260 temp=150.0 pwm=1.000
