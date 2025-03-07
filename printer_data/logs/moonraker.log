@@ -722,3 +722,5 @@ Content-Type: multipart/form-data; boundary=------------------------15f3c1338d8b
 2025-03-07 08:50:29,386 [websockets.py:on_close()] - Websocket Closed: ID: 139903460911808 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.62
 2025-03-07 09:00:19,926 [klippy_apis.py:start_print()] - Requesting Job Start, filename = dji4-lens-cover_lensegap_PETG_4m26s.gcode
 2025-03-07 09:00:20,097 [job_state.py:_status_update()] - Job Started: dji4-lens-cover_lensegap_PETG_4m26s.gcode
+2025-03-07 09:07:27,187 [websockets.py:on_close()] - Websocket Closed: ID: 139903460024272 Close Code: None, Close Reason: None, Pong Time Elapsed: 14.12
+2025-03-07 09:07:27,190 [websockets.py:on_close()] - Websocket Closed: ID: 139903460154672 Close Code: None, Close Reason: None, Pong Time Elapsed: 14.99
