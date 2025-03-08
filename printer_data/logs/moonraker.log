@@ -3539,3 +3539,4 @@ INFO:metadata:Performing Object Processing on file: travel-ring-holder_PLA_1h49m
 2025-03-08 11:52:03,090 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 278.000 215.000 21.600 [34323.065]
 2025-03-08 11:52:03,270 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 278.000 215.000 21.600 [34323.065]
 2025-03-08 11:52:13,537 [klippy_apis.py:resume_print()] - Requesting job resume...
+2025-03-08 11:57:27,207 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.128
