@@ -3377,3 +3377,10 @@ ConnectionResetError: [Errno 104] Connection reset by peer
 2025-03-08 08:19:42,641 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-03-08 08:19:42,928 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-03-08 08:19:44,409 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-03-08 08:27:04,565 [application.py:prepare()] - Upload Request Received from 192.168.1.128
+Content-Type: multipart/form-data; boundary=------------------------2c830df89f5c845e
+2025-03-08 08:27:06,550 [application.py:post()] - Processing Uploaded File: threaded lid_PLA_1h30m.gcode
+2025-03-08 08:27:07,036 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-03-08 08:27:07,037 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: threaded lid_PLA_1h30m.gcode, sliced by OrcaSlicer
+
