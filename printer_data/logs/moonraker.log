@@ -3507,3 +3507,4 @@ moonraker.utils.exceptions.ServerError: Klippy Host not connected
 2025-03-08 08:55:07,011 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 4.48ms
 2025-03-08 08:55:07,012 [websockets.py:open()] - Websocket Opened: ID: 139903460023984, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-03-08 08:55:07,107 [websockets.py:_handle_identify()] - Websocket 139903460023984 Client Identified - Name: Mobileraker-android, Version: 2.8.6-615, Type: mobile
+2025-03-08 08:55:20,866 [websockets.py:on_close()] - Websocket Closed: ID: 139903460023984 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.76
