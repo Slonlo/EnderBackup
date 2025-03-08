@@ -3524,3 +3524,12 @@ INFO:metadata:Performing Object Processing on file: travel-ring-holder_PLA_1h49m
 2025-03-08 10:40:55,812 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-03-08 10:41:48,866 [klippy_apis.py:resume_print()] - Requesting job resume...
 2025-03-08 10:46:13,257 [klippy_apis.py:resume_print()] - Requesting job resume...
+2025-03-08 11:28:12,748 [websockets.py:write_to_socket()] - Websocket closed while writing: 139903460023024
+2025-03-08 11:28:12,845 [websockets.py:on_close()] - Websocket Closed: ID: 139903460023024 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.02
+2025-03-08 11:28:12,867 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-03-08 11:28:12,869 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.05ms
+2025-03-08 11:28:12,870 [websockets.py:open()] - Websocket Opened: ID: 139903460022544, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-03-08 11:29:29,293 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.112
+2025-03-08 11:29:29,297 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 8.41ms
+2025-03-08 11:29:29,298 [websockets.py:open()] - Websocket Opened: ID: 139903340358288, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-03-08 11:29:29,416 [websockets.py:_handle_identify()] - Websocket 139903340358288 Client Identified - Name: Mobileraker-android, Version: 2.8.6-615, Type: mobile
