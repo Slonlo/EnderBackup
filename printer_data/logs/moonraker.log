@@ -3502,3 +3502,5 @@ moonraker.utils.exceptions.ServerError: Klippy Host not connected
 2025-03-08 08:53:18,937 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-03-08 08:53:19,224 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-03-08 08:53:20,454 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-03-08 08:54:49,039 [klippy_apis.py:start_print()] - Requesting Job Start, filename = threaded lid_PLA_1h30m.gcode
+2025-03-08 08:54:49,279 [job_state.py:_status_update()] - Job Started: threaded lid_PLA_1h30m.gcode
