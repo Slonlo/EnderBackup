@@ -3556,3 +3556,6 @@ INFO:metadata:Performing Object Processing on file: travel-ring-holder_PLA_1h49m
 2025-03-08 12:34:16,382 [websockets.py:open()] - Websocket Opened: ID: 139903461585584, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-03-08 12:34:16,485 [websockets.py:_handle_identify()] - Websocket 139903461585584 Client Identified - Name: Mobileraker-android, Version: 2.8.6-615, Type: mobile
 2025-03-08 12:34:52,300 [websockets.py:on_close()] - Websocket Closed: ID: 139903461585584 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.70
+2025-03-08 12:42:53,420 [application.py:log_request()] - 101 GET /websocket (192.168.1.112) [_TRUSTED_USER_] 4.50ms
+2025-03-08 12:42:53,422 [websockets.py:open()] - Websocket Opened: ID: 139903340694448, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-03-08 12:42:53,558 [websockets.py:_handle_identify()] - Websocket 139903340694448 Client Identified - Name: Mobileraker-android, Version: 2.8.6-615, Type: mobile
