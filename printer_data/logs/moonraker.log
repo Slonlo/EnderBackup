@@ -3384,3 +3384,7 @@ Content-Type: multipart/form-data; boundary=------------------------2c830df89f5c
 
 2025-03-08 08:27:07,037 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: threaded lid_PLA_1h30m.gcode, sliced by OrcaSlicer
 
+2025-03-08 08:27:15,373 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-hi676bpk.json) successfully finished
+2025-03-08 08:27:15,379 [klippy_apis.py:start_print()] - Requesting Job Start, filename = threaded lid_PLA_1h30m.gcode
+2025-03-08 08:27:15,424 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.128) [_TRUSTED_USER_] 10861.03ms
+2025-03-08 08:27:15,462 [job_state.py:_status_update()] - Job Started: threaded lid_PLA_1h30m.gcode
