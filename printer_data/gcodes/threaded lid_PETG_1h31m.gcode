@@ -310,6 +310,12 @@
 ; first layer extrusion width = 0.50mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 2 known objects
+EXCLUDE_OBJECT_DEFINE NAME=threaded_lid_STL_id_3202188075264_copy_0 CENTER=151.995,115.538 POLYGON=[[110.871,74.442],[110.871,156.468],[192.917,156.468],[192.917,74.442]]
+EXCLUDE_OBJECT_DEFINE NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0 CENTER=68.677,105.099 POLYGON=[[27.083,63.532],[27.083,145.582],[109.119,145.582],[109.119,63.532]]
 M73 P0 R91
 ;TYPE:Custom
 G28 ; home all axis
@@ -349,6 +355,7 @@ G92 E0
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z.7 F9000
 G1 X190.267 Y118
@@ -1198,7 +1205,9 @@ G1 E1 F3900
 G1 F2400
 G1 X127.499 Y144.985 E.37977
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z.7 F9000
 G1 X31.1 Y94.029 Z.7
@@ -2038,6 +2047,7 @@ G1 E1 F3900
 G1 F2400
 G1 X43.821 Y134.198 E.40149
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.3
@@ -2049,6 +2059,7 @@ G92 E0
 M104 S255 ; set nozzle temperature
 M140 S80 ; set bed temperature
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z1 F9000
 G1 X190.879 Y117.556 Z1
@@ -2880,7 +2891,9 @@ G1 X127.376 Y85.496 E.10039
 G1 X125.29 Y87.335 E.14409
 G1 X121.808 Y90.817 E.2551
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z1 F9000
 G1 X107.134 Y105.278 Z1
@@ -3708,6 +3721,7 @@ G1 X43.101 Y75.011 E.13221
 G1 X40.998 Y76.928 E.14746
 G1 X38.145 Y79.781 E.209
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:0.9
 ;HEIGHT:0.3
@@ -3717,6 +3731,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z1.3 F9000
 G1 X191.206 Y117.955 Z1.3
@@ -4376,7 +4391,9 @@ G1 X122.122 Y140.733 E.13663
 G1 X124.02 Y142.811 E.14554
 G1 X126.876 Y145.668 E.20886
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z1.3 F9000
 G1 X107.496 Y105.285 Z1.3
@@ -5036,6 +5053,7 @@ G1 X37.817 Y129.235 E.09364
 G1 X39.718 Y131.4 E.14896
 G1 X43.21 Y134.892 E.25533
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.3
@@ -5045,6 +5063,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z1.6 F9000
 G1 X191.468 Y117.909 Z1.6
@@ -5607,7 +5626,9 @@ G1 X132.201 Y82.24 E3.86056
 G1 X131.989 Y82.357 E.0125
 G1 X130.733 Y83.177 E.07744
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z1.6 F9000
 G1 X107.753 Y105.29 Z1.6
@@ -6161,6 +6182,7 @@ G1 X79.463 Y141.848 E.10413
 G1 X76.678 Y142.585 E.10413
 G1 X73.885 Y143.107 E.10269
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:1.5
 ;HEIGHT:0.3
@@ -6170,6 +6192,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z1.9 F9000
 G1 X191.665 Y117.855 Z1.9
@@ -6643,7 +6666,9 @@ G1 X113.015 Y117.953 E.02073
 G1 X186.826 Y98.175 E3.94421
 G1 X186.01 Y96.636 E.08994
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z1.9 F9000
 G1 X107.944 Y105.293 Z1.9
@@ -7113,6 +7138,7 @@ G1 X29.726 Y97.898 E3.64873
 G1 X29.929 Y96.689 E.06329
 G1 X30.052 Y96.188 E.02665
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.3
@@ -7122,6 +7148,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z2.2 F9000
 G1 X191.811 Y117.794 Z2.2
@@ -7595,7 +7622,9 @@ G1 X112.783 Y118.235 E.03462
 G1 X187.182 Y98.299 E3.9757
 G1 X186.366 Y96.76 E.08994
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z2.2 F9000
 G1 X108.084 Y105.3 Z2.2
@@ -8055,6 +8084,7 @@ G1 X98.426 Y79.71 E.08024
 G1 X29.415 Y98.201 E3.68777
 G1 X29.715 Y96.485 E.08992
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:2.1
 ;HEIGHT:0.3
@@ -8064,6 +8094,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z2.5 F9000
 G1 X191.902 Y117.726 Z2.5
@@ -8638,7 +8669,9 @@ G1 X132.234 Y81.373 E3.9191
 G1 X131.589 Y81.73 E.03806
 G1 X130.744 Y82.274 E.05187
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z2.5 F9000
 G1 X108.168 Y105.315 Z2.5
@@ -9008,6 +9041,7 @@ G1 X64.97 Y144.166 E4.03214
 G1 X65.166 Y144.187 E.01018
 G1 X66.711 Y144.245 E.07976
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.3
@@ -9017,6 +9051,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z2.8 F9000
 G1 X191.954 Y117.663 Z2.8
@@ -9775,7 +9810,9 @@ G1 X169.02 Y80.13 E.01209
 G1 X168.094 Y79.692 E.04832
 G1 X152.378 Y75.481 E.76716
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F5100
 G1 Z2.8 F9000
@@ -10183,6 +10220,7 @@ G1 X48.568 Y69.914 E.0147
 G1 X33.856 Y124.818 E2.93388
 G1 X34.797 Y126.285 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:2.7
 ;HEIGHT:0.3
@@ -10192,6 +10230,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z3.1 F9000
 G1 X191.991 Y117.593 Z3.1
@@ -10996,7 +11035,9 @@ G1 X124.893 Y144.705 E.04673
 G1 X123.532 Y143.386 E.09826
 G1 X121.049 Y140.903 E.18197
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z3.1 F9000
 G1 X108.245 Y105.344 Z3.1
@@ -11509,6 +11550,7 @@ G1 X107.009 Y96.108 E.02078
 G1 X30.181 Y116.694 E4.10549
 G1 X30.769 Y118.334 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.3
@@ -11518,6 +11560,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z3.4 F9000
 G1 X191.991 Y117.512 Z3.4
@@ -12320,7 +12363,9 @@ G1 X126.7 Y84.61 E.0236
 G1 X124.484 Y86.563 E.15313
 G1 X120.952 Y90.08 E.2584
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z3.4 F9000
 G1 X108.245 Y105.357 Z3.4
@@ -12815,6 +12860,7 @@ G1 X35.691 Y81.468 F9000
 G1 F11018.792
 G1 X91.189 Y136.966 E4.05111
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:3.3
@@ -12825,6 +12871,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z3.7 F9000
 G1 X144.978 Y154.888 Z3.7
@@ -14243,7 +14290,9 @@ G1 X140.733 Y153.442 E.03439
 G1 X138.579 Y152.795 E.11609
 G1 X136.083 Y151.842 E.13788
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z3.7 F9000
 G1 X108.244 Y105.371 Z3.7
@@ -14729,6 +14778,7 @@ G1 X107.91 Y105.326 E.06326
 G1 X34.015 Y125.126 E3.94871
 G1 X34.946 Y126.599 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:3.6
@@ -14739,6 +14789,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z4 F9000
 G1 X116.479 Y134.191 Z4
@@ -16259,7 +16310,9 @@ G1 X188.625 Y128.862 E.07663
 G1 X188.057 Y130.318 E.08066
 G1 X187.044 Y132.578 E.12784
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z4 F9000
 G1 X108.243 Y105.385 Z4
@@ -16756,6 +16809,7 @@ G1 X41.805 Y74.661 E4.10099
 G1 X42.349 Y74.188 E.0372
 G1 X43.153 Y73.557 E.05274
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S53
 ;LAYER_CHANGE
 ;Z:3.9
@@ -16766,6 +16820,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z4.3 F9000
 G1 X191.845 Y110.827 Z4.3
@@ -18296,7 +18351,9 @@ G1 X140.847 Y152.948 E.08276
 G1 X138.822 Y152.288 E.10998
 G1 X136.928 Y151.556 E.10479
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z4.3 F9000
 G1 X108.243 Y105.401 Z4.3
@@ -18798,6 +18855,7 @@ G1 X106.636 Y114.55 E.03318
 G1 X58.106 Y66.019 E3.54256
 G1 X59.802 Y65.619 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S51
 ;LAYER_CHANGE
 ;Z:4.2
@@ -18808,6 +18866,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z4.6 F9000
 G1 X180.463 Y143.746 Z4.6
@@ -20447,7 +20506,9 @@ G1 X138.331 Y152.206 E.10955
 G1 X137.631 Y151.93 E.03888
 G1 X137.281 Y151.772 E.01981
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z4.6 F9000
 G1 X108.242 Y105.42 Z4.6
@@ -21036,6 +21097,7 @@ G1 X30.839 Y90.557 E3.34101
 G1 X30.512 Y91.423 E.0478
 G1 X30.265 Y92.201 E.04214
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S0
 ;LAYER_CHANGE
 ;Z:4.5
@@ -21046,6 +21108,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z4.9 F9000
 G1 X147.457 Y155.392 Z4.9
@@ -22634,7 +22697,9 @@ G1 X140.072 Y153.378 E.14687
 G1 X137.449 Y152.417 E.14415
 G1 X137.444 Y152.415 E.0003
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z4.9 F9000
 G1 X108.24 Y105.445 Z4.9
@@ -24126,6 +24191,7 @@ G1 X92.449 Y136.045 E.09422
 G1 X92.776 Y135.807 E.02089
 G1 X93.795 Y134.94 E.06905
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:4.8
 ;HEIGHT:0.3
@@ -24135,6 +24201,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z5.2 F9000
 G1 X118.212 Y137.388 Z5.2
@@ -25772,7 +25839,9 @@ G1 X138.481 Y153.345 E.02847
 G1 F11873.517
 G1 X137.634 Y153.021 E.04343
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z5.2 F9000
 G1 X108.239 Y105.47 Z5.2
@@ -27225,6 +27294,7 @@ G1 X46.315 Y95.172 E.03822
 G1 X45.774 Y94.721 E.03635
 G1 X45.517 Y94.574 E.01534
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:5.1
 ;HEIGHT:0.3
@@ -27234,6 +27304,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z5.5 F9000
 G1 X179.446 Y144.538 Z5.5
@@ -28841,7 +28912,9 @@ G1 X137.927 Y153.134 E.05358
 G1 F11811.169
 G1 X137.924 Y153.133 E.00016
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z5.5 F9000
 G1 X108.238 Y105.495 Z5.5
@@ -30307,6 +30380,7 @@ G1 X82.318 Y138.317 E.00399
 G1 X84.722 Y140.721 E.17549
 G1 X83.122 Y141.41 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:5.4
 ;HEIGHT:0.3
@@ -30316,6 +30390,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z5.8 F9000
 G1 X145.887 Y155.056 Z5.8
@@ -31937,7 +32012,9 @@ G1 X185.057 Y94.723 E.06848
 G1 X186.432 Y97.104 E.14188
 G1 X187.604 Y99.514 E.13835
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z5.8 F9000
 G1 X39.155 Y99.208 Z5.8
@@ -34001,6 +34078,7 @@ G1 X100.697 Y81.737 E.15504
 G1 X99.979 Y80.699 E.06515
 G1 X99.676 Y80.326 E.02479
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:5.7
 ;HEIGHT:0.3
@@ -34010,6 +34088,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z6.1 F9000
 G1 X117.749 Y136.408 Z6.1
@@ -35609,7 +35688,9 @@ G1 X185.42 Y135.557 E.11303
 G1 X185.037 Y136.197 E.03852
 G1 X183.801 Y138.043 E.11465
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z6.1 F9000
 G1 X39.494 Y99.116 Z6.1
@@ -37431,6 +37512,7 @@ G1 X81.693 Y139.244 E.16001
 G1 X83.196 Y138.595 E.08451
 G1 X85.135 Y140.534 E.14155
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:6
 ;HEIGHT:0.3
@@ -37440,6 +37522,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z6.4 F9000
 G1 X191.592 Y109.079 Z6.4
@@ -39079,7 +39162,9 @@ G1 X186.955 Y133.6 E.15203
 G1 X185.419 Y136.213 E.15646
 G1 X183.861 Y138.47 E.14154
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z6.4 F9000
 G1 X39.672 Y99.067 Z6.4
@@ -40834,6 +40919,7 @@ G1 X67.24 Y141.564 E.14814
 G1 X70.159 Y141.517 E.14825
 G1 X73.054 Y141.239 E.14772
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:6.3
 ;HEIGHT:0.3
@@ -40843,6 +40929,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z6.7 F9000
 G1 X180.763 Y143.414 Z6.7
@@ -42466,7 +42553,9 @@ G1 X146.342 Y154.32 E.10085
 G1 X145.371 Y154.163 E.05078
 G1 X142.423 Y153.502 E.15594
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z6.7 F9000
 G1 X39.754 Y99.045 Z6.7
@@ -44299,6 +44388,7 @@ G1 X74.457 Y141.576 E.07174
 G1 X76.372 Y143.492 E.13985
 G1 X78.071 Y143.104 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.3
@@ -44308,6 +44398,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z7 F9000
 G1 X150.428 Y155.633 Z7
@@ -45950,7 +46041,9 @@ G1 X112.937 Y112.148 E.0973
 G1 X113.178 Y109.974 E.11288
 G1 X113.294 Y109.243 E.03821
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z7 F9000
 G1 X39.79 Y99.035 Z7
@@ -47812,6 +47905,7 @@ G1 X73.142 Y141.573 E.09322
 G1 X74.512 Y141.332 E.07179
 G1 X76.623 Y143.443 E.15408
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:6.9
 ;HEIGHT:0.3
@@ -47821,6 +47915,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z7.3 F9000
 G1 X119.362 Y139.064 Z7.3
@@ -49444,7 +49539,9 @@ G1 X136.911 Y79.33 E.10151
 G1 X137.787 Y78.982 E.04863
 G1 X139.534 Y78.352 E.09586
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z7.3 F9000
 G1 X39.82 Y99.026 Z7.3
@@ -51330,6 +51427,7 @@ G1 X102.422 Y119.657 E.07485
 G1 X104.154 Y121.388 E.1264
 G1 X104.876 Y119.803 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:7.2
 ;HEIGHT:0.3
@@ -51339,6 +51437,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z7.6 F9000
 G1 X179.831 Y144.165 Z7.6
@@ -52927,7 +53026,9 @@ G1 X134.595 Y80.095 E.03618
 G1 X137.176 Y78.993 E.14483
 G1 X139.967 Y78.03 E.15242
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z7.6 F9000
 G1 X39.851 Y99.018 Z7.6
@@ -54817,6 +54918,7 @@ G1 X102.569 Y119.504 E.05417
 G1 X104.247 Y121.182 E.12249
 G1 X104.968 Y119.596 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:7.5
 ;HEIGHT:0.3
@@ -54826,6 +54928,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z7.9 F9000
 G1 X136.241 Y78.424 Z7.9
@@ -56491,7 +56594,9 @@ G1 X185.385 Y95.26 E.0987
 G1 X186.386 Y97.02 E.10453
 G1 X186.808 Y97.839 E.04758
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z7.9 F9000
 G1 X39.881 Y99.009 Z7.9
@@ -58413,6 +58518,7 @@ G1 X102.692 Y119.327 E.0316
 G1 X104.341 Y120.976 E.12034
 G1 X103.614 Y122.559 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:7.8
 ;HEIGHT:0.3
@@ -58422,6 +58528,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z8.2 F9000
 G1 X118.937 Y138.217 Z8.2
@@ -60035,7 +60142,9 @@ G1 X185.71 Y135.049 E.07112
 G1 X185.176 Y135.968 E.05486
 G1 X184.689 Y136.732 E.04679
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z8.2 F9000
 G1 X39.911 Y99 Z8.2
@@ -62040,6 +62149,7 @@ G1 X102.81 Y119.145 E.0087
 G1 X104.435 Y120.77 E.11857
 G1 X103.711 Y122.355 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:8.1
 ;HEIGHT:0.3
@@ -62049,6 +62159,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z8.5 F9000
 G1 X191.54 Y108.846 Z8.5
@@ -63653,7 +63764,9 @@ G1 X187.981 Y131.479 E.10117
 G1 X186.637 Y134.121 E.15302
 G1 X185.215 Y136.476 E.14197
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z8.5 F9000
 G1 X39.942 Y98.994 Z8.5
@@ -65671,6 +65784,7 @@ G1 X102.896 Y118.931 E.01702
 G1 X104.529 Y120.563 E.11915
 G1 X103.805 Y122.149 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:8.4
 ;HEIGHT:0.299999
@@ -65680,6 +65794,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z8.8 F9000
 G1 X181.867 Y142.213 Z8.8
@@ -67278,7 +67393,9 @@ G1 X146.725 Y154.354 E.05065
 G1 X144.785 Y154.021 E.10158
 G1 X142.17 Y153.41 E.13863
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z8.8 F9000
 G1 X39.972 Y98.986 Z8.8
@@ -69300,6 +69417,7 @@ G1 X43.487 Y135.855 E.03118
 G1 X44.374 Y136.496 E.0565
 G1 X44.973 Y134.26 E.11953
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:8.7
 ;HEIGHT:0.3
@@ -69309,6 +69427,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z9.1 F9000
 G1 X151.627 Y155.638 Z9.1
@@ -70871,7 +70990,9 @@ G1 X112.803 Y114.613 E.14314
 G1 X112.818 Y114.036 E.02979
 G1 X112.991 Y111.578 E.12718
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z9.1 F9000
 G1 X40.002 Y98.974 Z9.1
@@ -72870,6 +72991,7 @@ G1 X60.857 Y141.487 E.12504
 G1 X60.298 Y143.573 E.11143
 G1 X62.009 Y143.902 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:9
 ;HEIGHT:0.3
@@ -72879,6 +73001,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z9.4 F9000
 G1 X119.517 Y139.256 Z9.4
@@ -74396,7 +74519,9 @@ G1 X135.672 Y79.871 E.12065
 G1 X137.012 Y79.285 E.0755
 G1 X138.381 Y78.756 E.07572
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z9.4 F9000
 G1 X39.922 Y97.739 Z9.4
@@ -76371,6 +76496,7 @@ G1 X60.649 Y141.443 E.11408
 G1 X60.087 Y143.542 E.11216
 G1 X61.798 Y143.868 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:9.3
 ;HEIGHT:0.3
@@ -76380,6 +76506,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z9.7 F9000
 G1 X181.907 Y141.955 Z9.7
@@ -77962,7 +78089,9 @@ G1 X137.388 Y78.941 E.12493
 G1 X137.868 Y78.761 E.02648
 G1 X140.55 Y77.888 E.14559
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z9.7 F9000
 G1 X40.063 Y98.957 Z9.7
@@ -79936,6 +80065,7 @@ G1 F11018.792
 G1 X98.961 Y126.117 E.11275
 G1 X97.931 Y127.522 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:9.6
 ;HEIGHT:0.3
@@ -79945,6 +80075,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z10 F9000
 G1 X133.415 Y79.734 Z10
@@ -81457,7 +81588,9 @@ G1 X185.707 Y95.806 E.12796
 G1 X186.441 Y97.119 E.07765
 G1 X187.089 Y98.407 E.07441
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z10 F9000
 G1 X40.094 Y98.953 Z10
@@ -83443,6 +83576,7 @@ G1 X99.081 Y125.937 E.11343
 G1 X98.793 Y126.366 E.02667
 G1 X98.059 Y127.348 E.06327
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:9.9
 ;HEIGHT:0.299999
@@ -83452,6 +83586,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z10.3 F9000
 G1 X120.923 Y140.805 Z10.3
@@ -84941,7 +85076,9 @@ G1 X187.316 Y132.006 E.1473
 G1 X187.018 Y132.633 E.03588
 G1 X185.904 Y134.734 E.12276
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z10.3 F9000
 G1 X40.125 Y98.945 Z10.3
@@ -86941,6 +87078,7 @@ G1 X99.201 Y125.757 E.11406
 G1 X98.792 Y126.367 E.03789
 G1 X98.188 Y127.174 E.05205
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:10.2
 ;HEIGHT:0.3
@@ -86950,6 +87088,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z10.6 F9000
 G1 X191.11 Y106.589 Z10.6
@@ -88324,7 +88463,9 @@ G1 X147.137 Y154.241 E.07372
 G1 X146.265 Y154.145 E.04526
 G1 X144.837 Y153.864 E.07511
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z10.6 F9000
 G1 X40.155 Y98.936 Z10.6
@@ -90322,6 +90463,7 @@ G1 X99.321 Y125.577 E.11455
 G1 X98.792 Y126.368 E.04912
 G1 X98.317 Y127.001 E.04082
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:10.5
 ;HEIGHT:0.3
@@ -90331,6 +90473,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z10.9 F9000
 G1 X183.301 Y140.521 Z10.9
@@ -91661,7 +91804,9 @@ G1 X147.098 Y154.382 E.14873
 G1 X146.522 Y154.298 E.03004
 G1 X144.254 Y153.88 E.11907
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z10.9 F9000
 G1 X40.185 Y98.928 Z10.9
@@ -93677,6 +93822,7 @@ G1 X93.795 Y132.073 E.0194
 G1 X95.328 Y133.605 E.11187
 G1 X94.011 Y134.746 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.3
@@ -93686,6 +93832,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z11.2 F9000
 G1 X151.792 Y155.614 Z11.2
@@ -95006,7 +95153,9 @@ G1 X112.819 Y116.759 E.07052
 G1 X112.816 Y114.131 E.13569
 G1 X113.057 Y110.956 E.16432
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z11.2 F9000
 G1 X40.215 Y98.914 Z11.2
@@ -97010,6 +97159,7 @@ G1 F11018.792
 G1 X101.133 Y126.789 E.08994
 G1 X99.56 Y125.216 E.11479
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:11.1
 ;HEIGHT:0.3
@@ -97019,6 +97169,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z11.5 F9000
 G1 X120.68 Y140.723 Z11.5
@@ -98304,7 +98455,9 @@ G1 X126.791 Y85.463 E.04387
 G1 X128.522 Y84.099 E.11377
 G1 X130.038 Y83.021 E.096
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z11.5 F9000
 G1 X40.246 Y98.912 Z11.5
@@ -100304,6 +100457,7 @@ G1 X59.199 Y141.118 E.11267
 G1 X58.492 Y140.962 E.03737
 G1 X57.519 Y140.661 E.05257
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.299999
@@ -100313,6 +100467,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z11.8 F9000
 G1 X184.376 Y138.86 Z11.8
@@ -101574,7 +101729,9 @@ G1 X178.972 Y87.231 E.12481
 G1 X179.481 Y87.731 E.03683
 G1 X180.637 Y88.992 E.0883
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z11.8 F9000
 G1 X40.277 Y98.903 Z11.8
@@ -103580,6 +103737,7 @@ G1 X61.748 Y141.664 E.23956
 G1 X62.512 Y141.791 E.03996
 G1 X63.473 Y141.905 E.04998
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:11.7
 ;HEIGHT:0.3
@@ -103589,6 +103747,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z12.1 F9000
 G1 X153.441 Y155.449 Z12.1
@@ -104871,7 +105030,9 @@ G1 X176.108 Y84.662 E.11128
 G1 X176.711 Y85.159 E.04032
 G1 X179.057 Y87.313 E.16439
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z12.1 F9000
 G1 X40.307 Y98.895 Z12.1
@@ -106870,6 +107031,7 @@ G1 X66.915 Y144.344 E.11496
 G1 X65.992 Y144.319 E.04766
 G1 X65.175 Y144.254 E.04227
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S51
 ;LAYER_CHANGE
 ;Z:12
@@ -106880,6 +107042,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z12.4 F9000
 G1 X122.114 Y142.228 Z12.4
@@ -108082,7 +108245,9 @@ G1 X182.701 Y139.526 E.21125
 G1 X182.035 Y140.302 E.05278
 G1 X180.408 Y142.179 E.12822
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z12.4 F9000
 G1 X40.338 Y98.887 Z12.4
@@ -110091,6 +110256,7 @@ G1 X65.992 Y144.319 E.0364
 G1 X65.458 Y144.286 E.0276
 G1 X64.959 Y144.23 E.02594
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:12.3
 ;HEIGHT:0.3
@@ -110100,6 +110266,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z12.7 F9000
 G1 X190.75 Y105.246 Z12.7
@@ -111325,7 +111492,9 @@ G1 X182.85 Y139.682 E.13004
 G1 X182.167 Y140.523 E.05593
 G1 X180.492 Y142.419 E.13059
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z12.7 F9000
 G1 X40.368 Y98.879 Z12.7
@@ -113357,6 +113526,7 @@ G1 X66.479 Y144.332 E.11435
 G1 X65.467 Y144.286 E.05227
 G1 X64.742 Y144.205 E.03766
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:12.6
@@ -113367,6 +113537,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_lid_STL_id_3202188075264_copy_0
 G1 E-1 F5100
 G1 Z13 F9000
 G1 X185.314 Y137.806 Z13
@@ -114438,7 +114609,9 @@ G1 X184.811 Y137.895 E.01026
 G1 X182.975 Y140.304 E.15632
 G1 X181.173 Y142.346 E.14057
 ; stop printing object threaded lid.STL id:3202188075264 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_lid_STL_id_3202188075264_copy_0
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z13 F9000
 G1 X40.421 Y98.86 Z13
@@ -116444,6 +116617,7 @@ G1 X66.261 Y144.326 E.11437
 G1 X65.476 Y144.287 E.04055
 G1 X64.525 Y144.181 E.04938
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:12.9
@@ -116454,6 +116628,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z13.3 F9000
 G1 X40.451 Y98.852 Z13.3
@@ -118469,6 +118644,7 @@ G1 X66.043 Y144.321 E.11451
 G1 X65.481 Y144.287 E.02906
 G1 X64.308 Y144.157 E.06088
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:13.2
@@ -118479,6 +118655,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z13.6 F9000
 G1 X40.481 Y98.844 Z13.6
@@ -120502,6 +120679,7 @@ G1 X69.616 Y142.156 E.14802
 G1 X70.241 Y142.146 E.03226
 G1 X71.354 Y142.056 E.05767
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:13.5
@@ -120512,6 +120690,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z13.9 F9000
 G1 X40.512 Y98.837 Z13.9
@@ -122533,6 +122712,7 @@ G1 X69.911 Y142.151 E.14622
 G1 X70.849 Y142.108 E.04851
 G1 X71.648 Y142.025 E.04142
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S91
 ;LAYER_CHANGE
 ;Z:13.8
@@ -122543,6 +122723,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z14.2 F9000
 G1 X40.542 Y98.83 Z14.2
@@ -124578,6 +124759,7 @@ G1 X28.332 Y106.17 E.03357
 G1 X28.391 Y107.26 E.05637
 G1 X30.52 Y106.69 E.11376
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:14.1
@@ -124588,6 +124770,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z14.5 F9000
 G1 X40.573 Y98.823 Z14.5
@@ -126605,6 +126788,7 @@ G1 X84.846 Y70.868 E.07077
 G1 X85.419 Y68.728 E.11435
 G1 X86.978 Y69.506 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:14.4
 ;HEIGHT:0.299999
@@ -126614,6 +126798,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z14.8 F9000
 G1 X40.604 Y98.817 Z14.8
@@ -128611,6 +128796,7 @@ G1 X30.544 Y107.123 E.11379
 G1 X30.633 Y108.27 E.05938
 G1 X30.702 Y108.858 E.03056
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:14.7
 ;HEIGHT:0.3
@@ -128620,6 +128806,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z15.1 F9000
 G1 X40.634 Y98.811 Z15.1
@@ -130616,6 +130803,7 @@ G1 X30.561 Y107.338 E.11406
 G1 X30.633 Y108.27 E.04824
 G1 X30.727 Y109.072 E.0417
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:15
 ;HEIGHT:0.3
@@ -130625,6 +130813,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z15.4 F9000
 G1 X40.665 Y98.805 Z15.4
@@ -132616,6 +132805,7 @@ G1 X30.578 Y107.553 E.11354
 G1 X30.633 Y108.269 E.0371
 G1 X30.752 Y109.286 E.05284
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:15.3
 ;HEIGHT:0.3
@@ -132625,6 +132815,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z15.7 F9000
 G1 X40.696 Y98.799 Z15.7
@@ -134616,6 +134807,7 @@ G1 X90.107 Y135.108 E.06039
 G1 X89.639 Y135.437 E.02955
 G1 X91.166 Y136.964 E.11146
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:15.6
@@ -134626,6 +134818,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z16 F9000
 G1 X40.727 Y98.792 Z16
@@ -136609,6 +136802,7 @@ G1 X58.502 Y140.964 E.12757
 G1 X61.314 Y143.776 E.20526
 G1 X59.606 Y143.433 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:15.9
 ;HEIGHT:0.299999
@@ -136618,6 +136812,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z16.3 F9000
 G1 X40.757 Y98.785 Z16.3
@@ -138620,6 +138815,7 @@ G1 X58.886 Y141.048 E.02081
 G1 X61.685 Y143.847 E.20434
 G1 X59.975 Y143.51 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:16.2
@@ -138630,6 +138826,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z16.6 F9000
 G1 X40.787 Y98.777 Z16.6
@@ -140671,6 +140868,7 @@ G1 X59.269 Y141.131 E.04105
 G1 X62.043 Y143.905 E.20253
 G1 X60.331 Y143.584 E.08992
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:16.5
 ;HEIGHT:0.299999
@@ -140680,6 +140878,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z16.9 F9000
 G1 X40.817 Y98.769 Z16.9
@@ -142728,6 +142927,7 @@ M73 P64 R32
 G1 X28.547 Y100.175 E.1199
 G1 X28.4 Y101.911 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:16.8
 ;HEIGHT:0.299999
@@ -142737,6 +142937,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z17.2 F9000
 G1 X40.847 Y98.759 Z17.2
@@ -144778,6 +144979,7 @@ G1 X30.756 Y99.803 E.00482
 G1 X28.526 Y100.4 E.11916
 G1 X28.382 Y102.137 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:17.1
 ;HEIGHT:0.300001
@@ -144787,6 +144989,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z17.5 F9000
 G1 X40.876 Y98.747 Z17.5
@@ -146811,6 +147014,7 @@ G1 X30.724 Y100.031 E.03032
 G1 X28.505 Y100.626 E.11854
 G1 X28.365 Y102.363 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:17.4
@@ -146821,6 +147025,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z17.8 F9000
 G1 X40.905 Y98.734 Z17.8
@@ -148826,6 +149031,7 @@ G1 X28.497 Y100.848 E.11762
 G1 X28.618 Y99.408 E.07458
 G1 X28.667 Y99.114 E.01536
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:17.7
 ;HEIGHT:0.300001
@@ -148835,6 +149041,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z18.1 F9000
 G1 X40.934 Y98.719 Z18.1
@@ -150833,6 +151040,7 @@ G1 X30.673 Y100.484 E.02376
 G1 X28.478 Y101.072 E.11731
 G1 X28.63 Y99.337 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:18
@@ -150843,6 +151051,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z18.4 F9000
 G1 X40.962 Y98.702 Z18.4
@@ -152799,6 +153008,7 @@ G1 X97.35 Y80.872 E.13568
 G1 X98.585 Y82.507 E.10576
 G1 X100.817 Y81.909 E.11929
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:18.3
 ;HEIGHT:0.299999
@@ -152808,6 +153018,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z18.7 F9000
 G1 X40.989 Y98.683 Z18.7
@@ -154785,6 +154996,7 @@ G1 X74.252 Y141.693 E.02579
 G1 X76.092 Y143.533 E.13432
 G1 X77.797 Y143.172 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:18.6
 ;HEIGHT:0.300001
@@ -154794,6 +155006,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z19 F9000
 G1 X41.015 Y98.662 Z19
@@ -156744,6 +156957,7 @@ G1 X74.511 Y141.651 E.03842
 G1 X76.34 Y143.481 E.13354
 G1 X78.043 Y143.112 E.08993
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:18.9
 ;HEIGHT:0.299999
@@ -156753,6 +156967,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z19.3 F9000
 G1 X41.041 Y98.638 Z19.3
@@ -158704,6 +158919,7 @@ G1 X102.65 Y119.521 E.02586
 G1 X102.426 Y119.982 E.02642
 G1 X104.047 Y121.603 E.11839
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:19.2
 ;HEIGHT:0.300001
@@ -158713,6 +158929,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z19.6 F9000
 G1 X41.067 Y98.613 Z19.6
@@ -160677,6 +160894,7 @@ G1 X102.524 Y119.78 E.04068
 G1 X104.143 Y121.399 E.11821
 G1 X104.87 Y119.816 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:19.5
 ;HEIGHT:0.299999
@@ -160686,6 +160904,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z19.9 F9000
 G1 X41.098 Y98.68 Z19.9
@@ -162603,6 +162822,7 @@ G1 X102.621 Y119.577 E.02909
 G1 X104.239 Y121.195 E.11805
 G1 X104.963 Y119.61 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:19.8
 ;HEIGHT:0.299999
@@ -162612,6 +162832,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z20.2 F9000
 G1 X41.129 Y98.672 Z20.2
@@ -164521,6 +164742,7 @@ G1 X102.714 Y119.37 E.03582
 G1 X104.334 Y120.99 E.11823
 G1 X103.593 Y122.567 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:20.1
 ;HEIGHT:0.300001
@@ -164530,6 +164752,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z20.5 F9000
 G1 X41.158 Y98.654 Z20.5
@@ -166433,6 +166656,7 @@ G1 X102.804 Y119.16 E.01049
 G1 X104.422 Y120.778 E.11807
 G1 X103.688 Y122.358 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:20.4
 ;HEIGHT:0.299999
@@ -166442,6 +166666,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z20.8 F9000
 G1 X41.186 Y98.626 Z20.8
@@ -168382,6 +168607,7 @@ G1 X102.891 Y118.947 E.01518
 G1 X104.517 Y120.573 E.11869
 G1 X103.783 Y122.153 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:20.7
 ;HEIGHT:0.300001
@@ -168391,6 +168617,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z21.1 F9000
 G1 X41.214 Y98.597 Z21.1
@@ -170364,6 +170591,7 @@ G1 X43.41 Y135.794 E.0272
 G1 X44.39 Y136.496 E.06219
 G1 X44.99 Y134.257 E.11965
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:21
 ;HEIGHT:0.299999
@@ -170373,6 +170601,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z21.4 F9000
 G1 X41.242 Y98.57 Z21.4
@@ -172304,6 +172533,7 @@ G1 X60.874 Y141.481 E.12709
 G1 X60.314 Y143.572 E.11176
 G1 X62.024 Y143.903 E.08992
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:21.3
@@ -172314,6 +172544,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z21.7 F9000
 G1 X41.27 Y98.543 Z21.7
@@ -174241,6 +174472,7 @@ G1 X60.666 Y141.437 E.11612
 G1 X60.106 Y143.528 E.11171
 G1 X61.814 Y143.872 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:21.6
@@ -174251,6 +174483,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z22 F9000
 G1 X41.299 Y98.517 Z22
@@ -176176,6 +176409,7 @@ G1 X98.953 Y126.13 E.11198
 G1 X98.361 Y126.952 E.05226
 G1 X97.907 Y127.523 E.03767
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:21.9
 ;HEIGHT:0.299999
@@ -176185,6 +176419,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z22.3 F9000
 G1 X41.327 Y98.493 Z22.3
@@ -178095,6 +178330,7 @@ G1 X99.074 Y125.951 E.11255
 G1 X98.798 Y126.359 E.02541
 G1 X98.041 Y127.353 E.06452
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:22.2
 ;HEIGHT:0.300001
@@ -178104,6 +178340,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z22.6 F9000
 G1 X41.356 Y98.471 Z22.6
@@ -180016,6 +180253,7 @@ G1 X99.195 Y125.773 E.11312
 G1 X98.798 Y126.359 E.03656
 G1 X98.175 Y127.184 E.05337
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:22.5
 ;HEIGHT:0.299999
@@ -180025,6 +180263,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z22.9 F9000
 G1 X41.385 Y98.451 Z22.9
@@ -181914,6 +182153,7 @@ G1 X99.317 Y125.594 E.1137
 G1 X98.798 Y126.359 E.04771
 G1 X98.309 Y127.015 E.04222
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:22.8
 ;HEIGHT:0.299999
@@ -181923,6 +182163,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z23.2 F9000
 G1 X41.415 Y98.434 Z23.2
@@ -183817,6 +184058,7 @@ G1 F11018.792
 G1 X95.306 Y133.605 E.11121
 G1 X93.992 Y134.748 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:23.1
 ;HEIGHT:0.300001
@@ -183826,6 +184068,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z23.5 F9000
 G1 X41.444 Y98.42 Z23.5
@@ -185684,6 +185927,7 @@ G1 X101.465 Y126.265 E.05719
 G1 X101.121 Y126.798 E.03275
 G1 X99.547 Y125.225 E.11485
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:23.4
@@ -185694,6 +185938,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z23.8 F9000
 G1 X41.474 Y98.409 Z23.8
@@ -187527,6 +187772,7 @@ G1 X59.213 Y141.122 E.11192
 G1 X58.468 Y140.956 E.03939
 G1 X57.532 Y140.669 E.05055
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S99
 ;LAYER_CHANGE
 ;Z:23.7
@@ -187537,6 +187783,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z24.1 F9000
 G1 X41.505 Y98.401 Z24.1
@@ -189352,6 +189599,7 @@ G1 X61.73 Y141.653 E.23896
 G1 X62.511 Y141.791 E.04093
 G1 X63.453 Y141.909 E.049
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:24
 ;HEIGHT:0.299999
@@ -189361,6 +189609,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z24.4 F9000
 G1 X41.535 Y98.394 Z24.4
@@ -191166,6 +191415,7 @@ G1 X66.933 Y144.333 E.11564
 G1 X66.022 Y144.32 E.04706
 G1 X65.195 Y144.234 E.04287
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:24.3
 ;HEIGHT:0.299999
@@ -191175,6 +191425,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z24.7 F9000
 G1 X41.566 Y98.39 Z24.7
@@ -192952,6 +193203,7 @@ G1 X66.716 Y144.323 E.11501
 G1 X66.02 Y144.32 E.03592
 G1 X64.979 Y144.211 E.05402
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:24.6
 ;HEIGHT:0.300001
@@ -192961,6 +193213,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z25 F9000
 G1 X41.598 Y98.389 Z25
@@ -194719,6 +194972,7 @@ G1 X66.498 Y144.319 E.11466
 G1 X66.006 Y144.318 E.02539
 G1 X64.762 Y144.188 E.06455
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:24.9
 ;HEIGHT:0.299999
@@ -194728,6 +194982,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z25.3 F9000
 G1 X41.629 Y98.389 Z25.3
@@ -196439,6 +196694,7 @@ G1 X66.278 Y144.32 E.11454
 G1 X66.006 Y144.318 E.01404
 G1 X64.543 Y144.166 E.0759
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:25.2
 ;HEIGHT:0.300001
@@ -196448,6 +196704,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z25.6 F9000
 G1 X41.661 Y98.391 Z25.6
@@ -198127,6 +198384,7 @@ G1 X69.283 Y142.145 E.14984
 G1 X70.58 Y142.125 E.06698
 G1 X71.023 Y142.083 E.02296
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:25.5
 ;HEIGHT:0.299999
@@ -198136,6 +198394,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z25.9 F9000
 G1 X41.693 Y98.395 Z25.9
@@ -199789,6 +200048,7 @@ G1 X69.578 Y142.14 E.14815
 G1 X70.586 Y142.125 E.05204
 G1 X71.317 Y142.055 E.03791
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:25.8
 ;HEIGHT:0.299999
@@ -199798,6 +200058,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z26.2 F9000
 G1 X41.725 Y98.4 Z26.2
@@ -201435,6 +201696,7 @@ G1 X69.873 Y142.135 E.14645
 G1 X70.592 Y142.125 E.03709
 G1 X71.611 Y142.027 E.05285
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S94
 ;LAYER_CHANGE
 ;Z:26.1
@@ -201445,6 +201707,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z26.5 F9000
 G1 X41.757 Y98.406 Z26.5
@@ -203089,6 +203352,7 @@ G1 F11018.792
 G1 X85.619 Y68.859 E.113
 G1 X87.177 Y69.64 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:26.4
@@ -203099,6 +203363,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z26.8 F9000
 G1 X41.789 Y98.413 Z26.8
@@ -204701,6 +204966,7 @@ G1 X84.86 Y70.874 E.07659
 G1 X85.426 Y68.762 E.11286
 G1 X86.983 Y69.543 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:26.7
 ;HEIGHT:0.300001
@@ -204710,6 +204976,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z27.1 F9000
 G1 X41.822 Y98.422 Z27.1
@@ -206300,6 +206567,7 @@ G1 X41.563 Y131.214 E.00854
 G1 X39.177 Y131.853 E.12751
 G1 X37.992 Y130.576 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:27
 ;HEIGHT:0.299999
@@ -206309,6 +206577,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z27.4 F9000
 G1 X41.854 Y98.431 Z27.4
@@ -207870,6 +208139,7 @@ G1 X30.589 Y107.701 E.01971
 G1 X30.694 Y108.796 E.05678
 G1 X30.734 Y109.053 E.01345
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:27.3
 ;HEIGHT:0.299999
@@ -207879,6 +208149,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z27.7 F9000
 G1 X41.89 Y98.466 Z27.7
@@ -209430,6 +209701,7 @@ G1 X30.582 Y107.536 E.11306
 G1 X30.693 Y108.784 E.06464
 G1 X30.768 Y109.268 E.02529
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:27.6
 ;HEIGHT:0.300001
@@ -209439,6 +209711,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z28 F9000
 G1 X41.92 Y98.458 Z28
@@ -210969,6 +211242,7 @@ G1 X90.066 Y135.138 E.06201
 G1 X89.61 Y135.429 E.02792
 G1 X91.144 Y136.964 E.11198
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S102
 ;LAYER_CHANGE
 ;Z:27.9
@@ -210979,6 +211253,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z28.3 F9000
 G1 X41.951 Y98.449 Z28.3
@@ -212454,6 +212729,7 @@ G1 X58.467 Y140.95 E.1249
 G1 X61.271 Y143.754 E.20466
 G1 X59.566 Y143.396 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S99
 ;LAYER_CHANGE
 ;Z:28.2
@@ -212464,6 +212740,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z28.6 F9000
 G1 X41.981 Y98.441 Z28.6
@@ -213921,6 +214198,7 @@ G1 X58.854 Y141.037 E.02034
 G1 X61.651 Y143.834 E.20416
 G1 X59.946 Y143.475 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:28.5
@@ -213931,6 +214209,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z28.9 F9000
 G1 X42.011 Y98.433 Z28.9
@@ -215407,6 +215686,7 @@ G1 X83.835 Y141.076 E.1187
 G1 X82.382 Y141.709 E.08184
 G1 X83.084 Y139.087 E.14011
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:28.8
 ;HEIGHT:0.299999
@@ -215416,6 +215696,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z29.2 F9000
 G1 X42.042 Y98.425 Z29.2
@@ -216891,6 +217172,7 @@ G1 X30.793 Y99.558 E.02258
 G1 X28.561 Y100.156 E.11931
 G1 X28.424 Y101.893 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S99
 ;LAYER_CHANGE
 ;Z:29.1
@@ -216901,6 +217183,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z29.5 F9000
 G1 X42.072 Y98.416 Z29.5
@@ -218349,6 +218632,7 @@ G1 X30.759 Y99.787 E.00301
 G1 X28.543 Y100.38 E.11839
 G1 X28.407 Y102.118 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:29.4
 ;HEIGHT:0.299999
@@ -218358,6 +218642,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z29.8 F9000
 G1 X42.113 Y98.367 Z29.8
@@ -219806,6 +220091,7 @@ G1 X30.727 Y100.015 E.02849
 G1 X28.524 Y100.605 E.1177
 G1 X28.386 Y102.342 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:29.7
 ;HEIGHT:0.300001
@@ -219815,6 +220101,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z30.1 F9000
 G1 X42.133 Y98.4 Z30.1
@@ -221228,6 +221515,7 @@ G1 X28.507 Y100.829 E.11786
 G1 X28.62 Y99.399 E.07405
 G1 X28.676 Y99.097 E.01589
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:30
 ;HEIGHT:0.299999
@@ -221237,6 +221525,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z30.4 F9000
 G1 X42.164 Y98.392 Z30.4
@@ -222660,6 +222949,7 @@ G1 X30.698 Y100.462 E.02501
 G1 X28.489 Y101.054 E.11802
 G1 X28.635 Y99.318 E.08992
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:30.3
 ;HEIGHT:0.299999
@@ -222669,6 +222959,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z30.7 F9000
 G1 X42.194 Y98.383 Z30.7
@@ -224035,6 +224326,7 @@ G1 X97.354 Y80.915 E.1362
 G1 X98.561 Y82.498 E.10276
 G1 X100.785 Y81.902 E.11885
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:30.6
 ;HEIGHT:0.300001
@@ -224044,6 +224336,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z31 F9000
 G1 X42.224 Y98.375 Z31
@@ -225398,6 +225691,7 @@ G1 X74.216 Y141.678 E.12867
 G1 X76.055 Y143.517 E.13427
 G1 X77.761 Y143.163 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:30.9
 ;HEIGHT:0.299999
@@ -225407,6 +225701,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z31.3 F9000
 G1 X42.255 Y98.367 Z31.3
@@ -226744,6 +227039,7 @@ G1 X74.481 Y141.643 E.1543
 G1 X76.304 Y143.466 E.13308
 G1 X78.01 Y143.111 E.08994
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:31.2
@@ -226754,6 +227050,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z31.6 F9000
 G1 X42.285 Y98.359 Z31.6
@@ -228811,6 +229108,7 @@ G1 F8133.055
 G1 X106.742 Y107.609 E.03098
 G1 X106.436 Y110.045 E.1717
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:31.5
 ;HEIGHT:0.299999
@@ -228820,6 +229118,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z31.9 F9000
 G1 X42.316 Y98.35 Z31.9
@@ -230465,6 +230764,7 @@ G1 X106.875 Y95.863 E.22684
 G1 X107.027 Y96.643 E.04181
 G1 X103.829 Y93.444 E.23799
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S79
 ;LAYER_CHANGE
 ;Z:31.8
@@ -230475,6 +230775,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z32.2 F9000
 G1 X42.346 Y98.342 Z32.2
@@ -232312,6 +232613,7 @@ G1 X36.283 Y80.62 E.02011
 G1 X38.908 Y77.482 E.21203
 G1 X42.653 Y73.737 E.27446
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S114
 ;LAYER_CHANGE
 ;Z:32.1
@@ -232322,6 +232624,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z32.5 F9000
 G1 X42.377 Y98.334 Z32.5
@@ -233968,6 +234271,7 @@ G1 X67.018 Y141.307 E.07341
 ;WIDTH:0.305576
 G1 X66.744 Y141.29 E.00785
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S104
 ;LAYER_CHANGE
 ;Z:32.4
@@ -233978,6 +234282,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z32.8 F9000
 G1 X42.439 Y98.41 Z32.8
@@ -235680,6 +235985,7 @@ G1 X66.757 Y141.311 E.09001
 ;WIDTH:0.319339
 G1 X66.738 Y141.309 E.00057
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:32.7
 ;HEIGHT:0.299999
@@ -235689,6 +235995,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z33.1 F9000
 G1 X42.468 Y98.392 Z33.1
@@ -237495,6 +237802,7 @@ G1 X67.452 Y141.377 E.1545
 G1 F12302.456
 G1 X66.737 Y141.374 E.03307
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S99
 ;LAYER_CHANGE
 ;Z:33
@@ -237505,6 +237813,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z33.4 F9000
 G1 X42.496 Y98.378 Z33.4
@@ -239355,6 +239664,7 @@ G1 X71.177 Y141.299 E.18779
 G1 X70.639 Y141.35 E.02786
 G1 X66.777 Y141.41 E.19937
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S102
 ;LAYER_CHANGE
 ;Z:33.3
@@ -239365,6 +239675,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z33.7 F9000
 G1 X42.525 Y98.361 Z33.7
@@ -241279,6 +241590,7 @@ G1 X71.155 Y141.301 E.18894
 G1 X70.619 Y141.35 E.02775
 G1 X66.778 Y141.41 E.19828
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:33.6
 ;HEIGHT:0.299999
@@ -241288,6 +241600,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z34 F9000
 G1 X42.553 Y98.342 Z34
@@ -243129,6 +243442,7 @@ G1 X71.132 Y141.303 E.19008
 G1 X70.625 Y141.35 E.0263
 G1 X66.778 Y141.41 E.19857
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:33.9
 ;HEIGHT:0.300003
@@ -243138,6 +243452,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z34.3 F9000
 G1 X42.581 Y98.323 Z34.3
@@ -244928,6 +245243,7 @@ G1 F10977.652
 G1 X67.656 Y141.397 E.14707
 G1 X66.773 Y141.4 E.04577
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:34.2
 ;HEIGHT:0.299999
@@ -244937,6 +245253,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z34.6 F9000
 G1 X42.608 Y98.302 Z34.6
@@ -246701,6 +247018,7 @@ G1 X70.626 Y141.248 E.07927
 G1 X67.579 Y141.303 E.0893
 G1 X66.77 Y141.302 E.02371
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S104
 ;LAYER_CHANGE
 ;Z:34.5
@@ -246711,6 +247029,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z34.9 F9000
 G1 X42.636 Y98.284 Z34.9
@@ -248516,6 +248835,7 @@ G1 X69.371 Y141.274 E.03835
 ;WIDTH:0.311806
 G1 X66.772 Y141.302 E.07621
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S102
 ;LAYER_CHANGE
 ;Z:34.8
@@ -248526,6 +248846,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z35.2 F9000
 G1 X42.661 Y98.186 Z35.2
@@ -250474,6 +250795,7 @@ G1 X67.954 Y141.366 E.12487
 G1 F12449.747
 G1 X66.766 Y141.366 E.05425
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S84
 ;LAYER_CHANGE
 ;Z:35.1
@@ -250484,6 +250806,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z35.5 F9000
 G1 X42.823 Y98.237 Z35.5
@@ -252407,6 +252730,7 @@ G1 X74.818 Y140.82 E.1915
 G1 X70.691 Y141.347 E.21476
 G1 X66.771 Y141.41 E.20238
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S97
 ;LAYER_CHANGE
 ;Z:35.4
@@ -252417,6 +252741,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z35.8 F9000
 G1 X43.148 Y98.067 Z35.8
@@ -254278,6 +254603,7 @@ G1 X70.697 Y141.347 E.21446
 G1 X66.726 Y141.411 E.20499
 G1 X66.721 Y141.411 E.00025
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S99
 ;LAYER_CHANGE
 ;Z:35.7
@@ -254288,6 +254614,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z36.1 F9000
 G1 X42.869 Y98.091 Z36.1
@@ -255972,6 +256299,7 @@ G1 X70.703 Y141.346 E.21231
 G1 X66.726 Y141.411 E.20529
 G1 X66.718 Y141.41 E.00042
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S117
 ;LAYER_CHANGE
 ;Z:36
@@ -255982,6 +256310,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z36.4 F9000
 G1 X49.993 Y137.071 Z36.4
@@ -257017,6 +257346,7 @@ G1 X66.726 Y141.407 E.1203
 ;WIDTH:0.524635
 G1 F10429.024
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:36.3
 ;HEIGHT:0.299999
@@ -257026,6 +257356,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z36.7 F9000
 G1 X31.461 Y111.002 Z36.7
@@ -258113,6 +258444,7 @@ G1 X68.144 Y141.297 E.0787
 ;WIDTH:0.318571
 G1 X66.727 Y141.305 E.04266
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:36.6
 ;HEIGHT:0.299999
@@ -258122,6 +258454,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z37 F9000
 G1 X39.575 Y80.66 Z37
@@ -259275,6 +259608,7 @@ G1 X70.166 Y141.255 E.0218
 G1 X68.139 Y141.297 E.06103
 G1 X66.749 Y141.301 E.04186
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:36.9
 ;HEIGHT:0.300003
@@ -259284,6 +259618,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z37.3 F9000
 G1 X69.001 Y67.367 Z37.3
@@ -260408,6 +260743,7 @@ G1 X68.648 Y141.351 E.06791
 G1 F12640.527
 G1 X66.746 Y141.361 E.0856
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:37.2
 ;HEIGHT:0.299999
@@ -260417,6 +260753,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z37.6 F9000
 G1 X79.907 Y139.977 Z37.6
@@ -261512,6 +261849,7 @@ G1 X74.784 Y140.828 E.20458
 G1 X70.733 Y141.345 E.2108
 G1 X66.699 Y141.412 E.20822
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 ;LAYER_CHANGE
 ;Z:37.5
 ;HEIGHT:0.299999
@@ -261521,6 +261859,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z37.9 F9000
 G1 X104.441 Y112.534 Z37.9
@@ -262584,6 +262923,7 @@ G1 X70.739 Y141.344 E.2105
 G1 X66.727 Y141.411 E.20712
 G1 X66.698 Y141.409 E.00149
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S122
 ;LAYER_CHANGE
 ;Z:37.8
@@ -262594,6 +262934,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z38.2 F9000
 G1 X82.104 Y139.052 Z38.2
@@ -263526,6 +263867,7 @@ G1 X70.78 Y141.339 E.20835
 G1 X66.727 Y141.411 E.20927
 G1 X66.693 Y141.408 E.00174
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 M106 S125
 ;LAYER_CHANGE
 ;Z:38.1
@@ -263536,6 +263878,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_START NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 G1 Z38.5 F9000
 G1 X105.439 Y104.858 Z38.5
@@ -264460,6 +264803,7 @@ G1 X69.741 Y141.367 E.05552
 G1 F10350.337
 G1 X66.695 Y141.416 E.16743
 ; stop printing object threaded-travel-ring-box.stl id:3202306296320 copy 0
+EXCLUDE_OBJECT_END NAME=threaded_travel_ring_box_stl_id_3202306296320_copy_0
 G1 E-1 F5100
 M106 S0
 ;TYPE:Custom

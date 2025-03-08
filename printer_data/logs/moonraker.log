@@ -3252,3 +3252,38 @@ Content-Type: multipart/form-data; boundary=------------------------cb487191371e
 
 2025-03-08 08:17:48,713 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: threaded lid_PETG_1h31m.gcode, sliced by OrcaSlicer
 
+2025-03-08 08:17:56,739 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-130rugbm.json) successfully finished
+2025-03-08 08:17:56,742 [klippy_apis.py:start_print()] - Requesting Job Start, filename = threaded lid_PETG_1h31m.gcode
+2025-03-08 08:17:56,749 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.128) [_TRUSTED_USER_] 11542.71ms
+2025-03-08 08:17:56,797 [power.py:_handle_job_queued()] - Power Device Power: Job 'threaded lid_PETG_1h31m.gcode' queued, powering on
+2025-03-08 08:17:57,270 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-03-08 08:17:57,291 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-03-08 08:17:57,323 [server.py:_process_event()] - 
+Error processing callback in event job_queue:job_queue_changed
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/power.py", line 132, in _handle_job_queued
+    await dev.process_request("on")
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1245, in do_service_action
+    await mgr.call_start_unit(service_name, "replace")  # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
+
+2025-03-08 08:17:58,246 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-08 08:18:01,736 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-08 08:18:01,739 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-08 08:18:01,987 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-03-08 08:18:02,264 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-03-08 08:18:02,740 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-03-08 08:18:03,517 [klippy_apis.py:start_print()] - Requesting Job Start, filename = threaded lid_PETG_1h31m.gcode
+2025-03-08 08:18:03,760 [job_state.py:_status_update()] - Job Started: threaded lid_PETG_1h31m.gcode
