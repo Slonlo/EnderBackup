@@ -3497,3 +3497,8 @@ moonraker.utils.exceptions.ServerError: Klippy Host not connected
 2025-03-08 08:53:14,608 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.list, Code: 503, Message: Klippy Host not connected
 2025-03-08 08:53:14,639 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 503, Message: Klippy Host not connected
 2025-03-08 08:53:15,737 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-08 08:53:18,691 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-08 08:53:18,696 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-08 08:53:18,937 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-03-08 08:53:19,224 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-03-08 08:53:20,454 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
