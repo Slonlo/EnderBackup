@@ -3460,3 +3460,40 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
 2025-03-08 08:53:07,231 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
 2025-03-08 08:53:07,261 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
 2025-03-08 08:53:07,291 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
+2025-03-08 08:53:08,134 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-08 08:53:13,613 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-08 08:53:13,617 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-08 08:53:13,865 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-03-08 08:53:14,152 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-03-08 08:53:14,471 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-03-08 08:53:14,478 [data_store.py:_init_sensors()] - Error subscribing to sensors: Klippy Disconnected
+2025-03-08 08:53:14,485 [server.py:_process_event()] - 
+Error processing callback in event server:klippy_ready
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/octoprint_compat.py", line 144, in _init
+    result = await self.klippy_apis.subscribe_objects(sub)
+  File "/home/chase/moonraker/moonraker/components/klippy_apis.py", line 255, in subscribe_objects
+    result = await self._send_klippy_request(SUBSCRIPTION_ENDPOINT, params, default)
+  File "/home/chase/moonraker/moonraker/components/klippy_apis.py", line 111, in _send_klippy_request
+    result = await self.klippy.request(req)
+  File "/home/chase/moonraker/moonraker/components/klippy_connection.py", line 610, in request
+    return await self._request_subscripton(web_request)
+  File "/home/chase/moonraker/moonraker/components/klippy_connection.py", line 646, in _request_subscripton
+    result = await self._request_standard(web_request, 20.0)
+  File "/home/chase/moonraker/moonraker/components/klippy_connection.py", line 714, in _request_standard
+    return await base_request.wait(timeout)
+  File "/home/chase/moonraker/moonraker/components/klippy_connection.py", line 825, in wait
+    return await asyncio.wait_for(asyncio.shield(self._fut), to)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+moonraker.utils.exceptions.ServerError: Klippy Host not connected
+
+2025-03-08 08:53:14,486 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,597 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,599 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.list, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,599 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,601 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.list, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,605 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,608 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.list, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:14,639 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:15,737 [klippy_connection.py:_do_connect()] - Klippy Connection Established
