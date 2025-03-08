@@ -3457,3 +3457,6 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
 2025-03-08 08:52:54,713 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
 2025-03-08 08:52:54,826 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
 2025-03-08 08:52:54,874 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-03-08 08:53:07,231 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-03-08 08:53:07,261 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-03-08 08:53:07,291 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
