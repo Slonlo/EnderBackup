@@ -3534,3 +3534,4 @@ INFO:metadata:Performing Object Processing on file: travel-ring-holder_PLA_1h49m
 2025-03-08 11:29:29,298 [websockets.py:open()] - Websocket Opened: ID: 139903340358288, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-03-08 11:29:29,416 [websockets.py:_handle_identify()] - Websocket 139903340358288 Client Identified - Name: Mobileraker-android, Version: 2.8.6-615, Type: mobile
 2025-03-08 11:34:09,856 [websockets.py:on_close()] - Websocket Closed: ID: 139903340358288 Close Code: None, Close Reason: None, Pong Time Elapsed: 10.46
+2025-03-08 11:51:09,343 [klippy_apis.py:pause_print()] - Requesting job pause...
