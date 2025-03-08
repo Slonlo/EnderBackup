@@ -3540,3 +3540,10 @@ INFO:metadata:Performing Object Processing on file: travel-ring-holder_PLA_1h49m
 2025-03-08 11:52:03,270 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 278.000 215.000 21.600 [34323.065]
 2025-03-08 11:52:13,537 [klippy_apis.py:resume_print()] - Requesting job resume...
 2025-03-08 11:57:27,207 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.128
+2025-03-08 12:11:14,472 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.244
+2025-03-08 12:11:14,474 [application.py:log_request()] - 101 GET /websocket (192.168.1.244) [_TRUSTED_USER_] 5.03ms
+2025-03-08 12:11:14,475 [websockets.py:open()] - Websocket Opened: ID: 139903460154672, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-03-08 12:11:14,656 [websockets.py:_handle_identify()] - Websocket 139903460154672 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-08 12:12:09,408 [websockets.py:on_close()] - Websocket Closed: ID: 139903460154672 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.60
+2025-03-08 12:13:43,207 [websockets.py:write_to_socket()] - Websocket closed while writing: 139903460155344
+2025-03-08 12:13:48,066 [websockets.py:on_close()] - Websocket Closed: ID: 139903460155344 Close Code: None, Close Reason: None, Pong Time Elapsed: 36.93
