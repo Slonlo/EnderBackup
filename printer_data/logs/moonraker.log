@@ -3287,3 +3287,4 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-03-08 08:18:02,740 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-03-08 08:18:03,517 [klippy_apis.py:start_print()] - Requesting Job Start, filename = threaded lid_PETG_1h31m.gcode
 2025-03-08 08:18:03,760 [job_state.py:_status_update()] - Job Started: threaded lid_PETG_1h31m.gcode
+2025-03-08 08:18:34,597 [klippy_apis.py:pause_print()] - Requesting job pause...
