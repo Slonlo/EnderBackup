@@ -3346,3 +3346,32 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-03-08 08:19:35,475 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-03-08 08:19:35,496 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-03-08 08:19:35,536 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
+2025-03-08 08:19:36,566 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-08 08:19:37,087 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-03-08 08:19:37,112 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-03-08 08:19:37,116 [klippy_connection.py:close()] - Error closing Klippy Unix Socket
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/klippy_connection.py", line 805, in close
+    await self.writer.wait_closed()
+  File "/usr/lib/python3.8/asyncio/streams.py", line 359, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "/home/chase/moonraker/moonraker/components/klippy_connection.py", line 191, in _read_stream
+    data = await reader.readuntil(b'\x03')
+  File "/usr/lib/python3.8/asyncio/streams.py", line 632, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.8/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-03-08 08:19:37,116 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-03-08 08:19:37,125 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Disconnected
+2025-03-08 08:19:37,132 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.off, Code: -31000, Message: Unit klipper-mcu.service not loaded.
+2025-03-08 08:19:38,139 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-03-08 08:19:38,167 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-03-08 08:19:38,193 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
+2025-03-08 08:19:39,140 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-08 08:19:42,390 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-08 08:19:42,392 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-08 08:19:42,641 [job_state.py:_handle_started()] - Job state initialized: standby
