@@ -3570,3 +3570,6 @@ INFO:metadata:Performing Object Processing on file: travel-ring-holder_PLA_1h49m
 2025-03-08 12:54:26,837 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.off, Code: -31000, Message: Unit klipper-mcu.service not loaded.
 2025-03-08 12:54:31,924 [websockets.py:on_close()] - Websocket Closed: ID: 139903340691952 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.75
 2025-03-08 12:54:34,107 [websockets.py:on_close()] - Websocket Closed: ID: 139903459698432 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.64
+2025-03-08 12:54:49,660 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-03-08 12:54:49,666 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-03-08 12:54:49,678 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
