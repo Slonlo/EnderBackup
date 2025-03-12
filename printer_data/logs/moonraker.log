@@ -1094,3 +1094,36 @@ Pinned Commit: None
 2025-03-12 01:42:30,997 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
 2025-03-12 01:42:31,023 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
 2025-03-12 01:42:31,072 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
+2025-03-12 01:42:31,437 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) successfully finished
+2025-03-12 01:42:31,462 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-12 01:42:31,493 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse HEAD) successfully finished
+2025-03-12 01:42:31,521 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-12 01:42:31,544 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse origin/main) successfully finished
+2025-03-12 01:42:31,567 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-12 01:42:31,616 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-list HEAD..1ccd26ad624ce5e50b8554b7ac9ebbae3d922712 --count) successfully finished
+2025-03-12 01:42:31,618 [git_deploy.py:log_repo_info()] - Git Repo klipper-backup Detected:
+Owner: Staubgeborener
+Repository Name: klipper-backup
+Path: /home/chase/klipper-backup
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Staubgeborener/klipper-backup.git
+Recovery URL: https://github.com/Staubgeborener/klipper-backup.git
+Current Commit SHA: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Upstream Commit SHA: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Current Version: v1.3.2-0-g1ccd26ad
+Upstream Version: v1.3.2-0-g1ccd26ad
+Rollback Commit: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Rollback Branch: main
+Rollback Version: v1.3.2-0-g1ccd26ad-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-12 01:42:31,618 [base_deploy.py:log_info()] - Git Repo klipper-backup: Channel: dev
+2025-03-12 01:42:31,618 [base_deploy.py:log_info()] - Git Repo klipper-backup: Validity check for git repo passed
+2025-03-12 01:42:37,684 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-03-12 01:42:37,692 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-03-12 01:42:37,698 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
