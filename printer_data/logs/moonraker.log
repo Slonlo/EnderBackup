@@ -711,3 +711,72 @@ Pinned Commit: None
 2025-03-22 11:37:44,016 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
 2025-03-22 11:37:44,993 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) successfully finished
 2025-03-22 11:37:45,022 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-22 11:37:45,052 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse HEAD) successfully finished
+2025-03-22 11:37:45,084 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:45,110 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse origin/main) successfully finished
+2025-03-22 11:37:45,147 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:45,181 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-list HEAD..faabdb0e2a7c9a17d3f9f253e042ae6d3c44e912 --count) successfully finished
+2025-03-22 11:37:45,219 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup log 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-03-22 11:37:45,258 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-03-22 11:37:45,260 [git_deploy.py:log_repo_info()] - Git Repo klipper-backup Detected:
+Owner: Staubgeborener
+Repository Name: klipper-backup
+Path: /home/chase/klipper-backup
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Staubgeborener/klipper-backup.git
+Recovery URL: https://github.com/Staubgeborener/klipper-backup.git
+Current Commit SHA: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Upstream Commit SHA: faabdb0e2a7c9a17d3f9f253e042ae6d3c44e912
+Current Version: v1.3.2-0-g1ccd26ad
+Upstream Version: v1.3.3-3-gfaabdb0e
+Rollback Commit: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Rollback Branch: main
+Rollback Version: v1.3.2-0-g1ccd26ad-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 4
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:45,261 [base_deploy.py:log_info()] - Git Repo klipper-backup: Channel: dev
+2025-03-22 11:37:45,261 [base_deploy.py:log_info()] - Git Repo klipper-backup: Validity check for git repo passed
+2025-03-22 11:37:45,294 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion status --porcelain -b) successfully finished
+2025-03-22 11:37:45,320 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion branch --list --no-color) successfully finished
+2025-03-22 11:37:45,366 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion remote get-url origin) successfully finished
+2025-03-22 11:37:45,853 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:45,878 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-22 11:37:45,903 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-parse HEAD) successfully finished
+2025-03-22 11:37:45,938 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:45,969 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-parse origin/main) successfully finished
+2025-03-22 11:37:46,004 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:46,032 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-list HEAD..1d1e2ebe101af12f83ea770301549e15055b36ea --count) successfully finished
+2025-03-22 11:37:46,034 [git_deploy.py:log_repo_info()] - Git Repo mobileraker Detected:
+Owner: Clon1998
+Repository Name: mobileraker_companion
+Path: /home/chase/mobileraker_companion
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Clon1998/mobileraker_companion.git
+Recovery URL: https://github.com/Clon1998/mobileraker_companion.git
+Current Commit SHA: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Upstream Commit SHA: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Current Version: v0.4.0-91-g1d1e2ebe
+Upstream Version: v0.4.0-91-g1d1e2ebe
+Rollback Commit: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Rollback Branch: main
+Rollback Version: v0.4.0-91-g1d1e2ebe
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:46,034 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
+2025-03-22 11:37:46,035 [base_deploy.py:log_info()] - Git Repo mobileraker: Validity check for git repo passed
+2025-03-22 11:37:47,695 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-03-22 11:37:47,699 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.16ms
+2025-03-22 11:37:47,700 [websockets.py:open()] - Websocket Opened: ID: 140257441530832, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-03-22 11:37:50,756 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 2.61ms
+2025-03-22 11:37:50,757 [websockets.py:open()] - Websocket Opened: ID: 140257441530592, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-03-22 11:37:50,775 [websockets.py:_handle_identify()] - Websocket 140257441530592 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
