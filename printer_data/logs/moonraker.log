@@ -816,3 +816,9 @@ Content-Type: multipart/form-data; boundary=------------------------a1aff6be7dbe
 2025-03-22 13:02:19,735 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 2151.45ms
 2025-03-22 13:02:19,881 [job_state.py:_status_update()] - Job Started: 2025-02-26_hdd_caddy_PLA_45m23s.gcode
 2025-03-22 13:02:21,422 [klippy_apis.py:pause_print()] - Requesting job pause...
+2025-03-22 13:02:30,046 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-03-22 13:02:30,076 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-03-22 13:02:30,080 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-03-22 13:02:30,092 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.pause, Code: 503, Message: Klippy Disconnected
+2025-03-22 13:02:30,101 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.off, Code: -31000, Message: Unit klipper-mcu.service not loaded.
+2025-03-22 13:02:34,861 [websockets.py:on_close()] - Websocket Closed: ID: 140257441530592 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.10
