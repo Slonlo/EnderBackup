@@ -815,3 +815,4 @@ Content-Type: multipart/form-data; boundary=------------------------a1aff6be7dbe
 2025-03-22 13:02:19,699 [klippy_apis.py:start_print()] - Requesting Job Start, filename = 2025-02-26_hdd_caddy_PLA_45m23s.gcode
 2025-03-22 13:02:19,735 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 2151.45ms
 2025-03-22 13:02:19,881 [job_state.py:_status_update()] - Job Started: 2025-02-26_hdd_caddy_PLA_45m23s.gcode
+2025-03-22 13:02:21,422 [klippy_apis.py:pause_print()] - Requesting job pause...
