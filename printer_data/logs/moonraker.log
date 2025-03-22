@@ -1,0 +1,713 @@
+-------------------- Log Start | Sat Mar 22 15:37:21 2025 --------------------
+platform: Linux-5.15.0-134-generic-x86_64-with-glibc2.29
+data_path: /home/chase/printer_data
+is_default_data_path: False
+config_file: /home/chase/printer_data/config/moonraker.conf
+backup_config: None
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: b8aeafbbdbb14078bbacb03f480f8081
+unix_socket_path: /home/chase/printer_data/comms/moonraker.sock
+software_version: v0.9.3-58-ga0164e1
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker
+modified_files: []
+unofficial_components: []
+log_file: /home/chase/printer_data/logs/moonraker.log
+python_version: 3.8.10 (default, Mar 17 2025, 19:35:05)  [GCC 9.4.0]
+launch_args: /home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/moonraker.py -d /home/chase/printer_data
+msgspec_enabled: True
+uvloop_enabled: True
+
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[file_manager]
+enable_object_processing = True
+queue_gcode_uploads = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+[power Power]
+type = tplink_smartplug
+address = 192.168.1.31
+off_when_shutdown = True
+on_when_job_queued = True
+restart_klipper_when_powered = True
+locked_while_printing = False
+bound_services = 
+	klipper
+	klipper-mcu
+
+[wled printerled]
+type = http
+address = 192.168.1.154
+initial_red = 0.0
+initial_green = 0.0
+initial_blue = 0.0
+chain_count = 20
+
+[job_queue]
+load_on_startup = True
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/chase/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/chase/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager mobileraker]
+type = git_repo
+path = /home/chase/mobileraker_companion
+origin = https://github.com/Clon1998/mobileraker_companion.git
+primary_branch = main
+managed_services = mobileraker
+env = /home/chase/mobileraker-env/bin/python
+requirements = scripts/mobileraker-requirements.txt
+install_script = scripts/install.sh
+
+#################################################################
+All Configuration Files:
+/home/chase/printer_data/config/moonraker.conf
+/home/chase/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+2025-03-22 11:37:21,231 [confighelper.py:read_file()] - Configuration File '/home/chase/printer_data/config/moonraker.conf' parsed, total size: 4492 B
+2025-03-22 11:37:21,232 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[file_manager]
+enable_object_processing = True
+queue_gcode_uploads = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+[power Power]
+type = tplink_smartplug
+address = 192.168.1.31
+off_when_shutdown = True
+on_when_job_queued = True
+restart_klipper_when_powered = True
+locked_while_printing = False
+bound_services = 
+	klipper
+	klipper-mcu
+
+[wled printerled]
+type = http
+address = 192.168.1.154
+initial_red = 0.0
+initial_green = 0.0
+initial_blue = 0.0
+chain_count = 20
+
+[job_queue]
+load_on_startup = True
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/chase/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/chase/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager mobileraker]
+type = git_repo
+path = /home/chase/mobileraker_companion
+origin = https://github.com/Clon1998/mobileraker_companion.git
+primary_branch = main
+managed_services = mobileraker
+env = /home/chase/mobileraker-env/bin/python
+requirements = scripts/mobileraker-requirements.txt
+install_script = scripts/install.sh
+
+#################################################################
+All Configuration Files:
+/home/chase/printer_data/config/moonraker.conf
+/home/chase/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+2025-03-22 11:37:21,548 [server.py:load_component()] - Component (secrets) loaded
+2025-03-22 11:37:21,565 [server.py:load_component()] - Component (template) loaded
+2025-03-22 11:37:21,581 [server.py:load_component()] - Component (klippy_connection) loaded
+2025-03-22 11:37:22,580 [server.py:load_component()] - Component (application) loaded
+2025-03-22 11:37:22,644 [server.py:load_component()] - Component (websockets) loaded
+2025-03-22 11:37:22,686 [server.py:add_log_rollover_item()] - Loading Sqlite database provider. Sqlite Version: 3.31.1
+2025-03-22 11:37:22,696 [server.py:add_log_rollover_item()] - Unsafe Shutdown Count: 5
+2025-03-22 11:37:22,715 [server.py:load_component()] - Component (database) loaded
+2025-03-22 11:37:22,911 [server.py:load_component()] - Component (dbus_manager) loaded
+2025-03-22 11:37:22,954 [file_manager.py:__init__()] - Using File System Observer: inotify
+2025-03-22 11:37:23,023 [server.py:load_component()] - Component (file_manager) loaded
+2025-03-22 11:37:23,081 [database.py:register_table()] - Found registered table authorized_users
+2025-03-22 11:37:23,085 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+https://my\.mainsail\.xyz
+http://my\.mainsail\.xyz
+http://.*\.local
+http://.*\.lan
+2025-03-22 11:37:23,094 [server.py:load_component()] - Component (authorization) loaded
+2025-03-22 11:37:23,101 [server.py:load_component()] - Component (klippy_apis) loaded
+2025-03-22 11:37:23,580 [server.py:add_log_rollover_item()] - 
+System Info:
+
+***python***
+  version: (3, 8, 10, 'final', 0)
+  version_string: 3.8.10 (default, Mar 17 2025, 19:35:05)  [GCC 9.4.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 64bit
+  processor: x86_64
+  cpu_desc: Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+  serial_number: 
+  hardware_desc: 
+  model: 
+  total_memory: 3933588
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Ubuntu 20.04.6 LTS
+  id: ubuntu
+  version: 20.04
+  version_parts: {'major': '20', 'minor': '04', 'build_number': ''}
+  like: debian
+  codename: focal
+  release_info: {}
+  kernel_version: 5.15.0-134-generic
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+  mobileraker
+2025-03-22 11:37:23,587 [server.py:load_component()] - Component (shell_command) loaded
+2025-03-22 11:37:23,588 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2025-03-22 11:37:23,611 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
+2025-03-22 11:37:23,611 [server.py:load_component()] - Component (machine) loaded
+2025-03-22 11:37:23,617 [server.py:load_component()] - Component (data_store) loaded
+2025-03-22 11:37:23,624 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2025-03-22 11:37:23,625 [server.py:load_component()] - Component (proc_stats) loaded
+2025-03-22 11:37:23,628 [server.py:load_component()] - Component (job_state) loaded
+2025-03-22 11:37:23,636 [server.py:load_component()] - Component (job_queue) loaded
+2025-03-22 11:37:23,640 [database.py:register_table()] - Found registered table job_history
+2025-03-22 11:37:23,641 [database.py:register_table()] - Found registered table job_totals
+2025-03-22 11:37:23,646 [server.py:load_component()] - Component (history) loaded
+2025-03-22 11:37:23,665 [server.py:load_component()] - Component (http_client) loaded
+2025-03-22 11:37:23,683 [server.py:load_component()] - Component (announcements) loaded
+2025-03-22 11:37:23,691 [server.py:load_component()] - Component (webcam) loaded
+2025-03-22 11:37:23,697 [server.py:load_component()] - Component (extensions) loaded
+2025-03-22 11:37:23,715 [wled.py:__init__()] - WLED component loading strips: ['wled printerled']
+2025-03-22 11:37:23,716 [wled.py:__init__()] - WLED strip: printerled
+2025-03-22 11:37:23,722 [server.py:load_component()] - Component (wled) loaded
+2025-03-22 11:37:23,732 [power.py:__init__()] - Power component loading devices: ['power Power']
+2025-03-22 11:37:23,738 [server.py:load_component()] - Component (power) loaded
+2025-03-22 11:37:23,850 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/chase/moonraker-env
+2025-03-22 11:37:23,858 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/chase/klippy-env
+2025-03-22 11:37:23,895 [server.py:add_warning()] - [update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/update_manager.py", line 134, in __init__
+    self.updaters[name] = deployer(cfg)
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 35, in __init__
+    self._configure_path(config)
+  File "/home/chase/moonraker/moonraker/components/update_manager/app_deploy.py", line 76, in _configure_path
+    self._verify_path(config, 'path', self.path, check_file=False)
+  File "/home/chase/moonraker/moonraker/components/update_manager/app_deploy.py", line 201, in _verify_path
+    raise config.error(f"{base_msg} does not exist")
+moonraker.confighelper.ConfigError: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist
+2025-03-22 11:37:23,902 [base_deploy.py:log_info()] - Git Repo mobileraker: Option 'env' is deprecated, use 'virtualenv' instead.
+2025-03-22 11:37:23,904 [base_deploy.py:log_info()] - Git Repo mobileraker: Detected virtualenv: /home/chase/mobileraker-env
+2025-03-22 11:37:23,923 [server.py:load_component()] - Component (update_manager) loaded
+2025-03-22 11:37:23,935 [server.py:load_component()] - Component (octoprint_compat) loaded
+2025-03-22 11:37:23,935 [server.py:add_warning()] - Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-03-22 11:37:23,935 [server.py:add_warning()] - Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-03-22 11:37:23,935 [server.py:add_warning()] - Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-03-22 11:37:23,936 [server.py:add_warning()] - Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-03-22 11:37:23,936 [server.py:add_warning()] - Unparsed config option 'managed_services: 
+octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-03-22 11:37:23,936 [server.py:_initialize_component()] - Performing Component Post Init: [database]
+2025-03-22 11:37:23,973 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2025-03-22 11:37:23,991 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
+2025-03-22 11:37:24,000 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2025-03-22 11:37:24,003 [machine.py:validation_init()] - Installation version in database up to date
+2025-03-22 11:37:24,380 [machine.py:check_virt_status()] - No Virtualization Detected
+2025-03-22 11:37:24,405 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-22 11:37:24,409 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-03-22 11:37:24,482 [server.py:add_log_rollover_item()] - 
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice', 'network-online.target']
+**After=['network-online.target', 'sysinit.target', 'system.slice', 'basic.target', 'systemd-journald.socket', '-.mount']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/chase/printer_data/systemd/moonraker.env
+**ExecStart=/home/chase/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/chase/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=chase
+2025-03-22 11:37:24,482 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
+2025-03-22 11:37:24,482 [server.py:_initialize_component()] - Performing Component Post Init: [history]
+2025-03-22 11:37:24,496 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
+2025-03-22 11:37:24,507 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
+2025-03-22 11:37:24,507 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-03-22 11:37:24,537 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
+2025-03-22 11:37:24,538 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'system.slice', 'sysinit.target']
+**After=['sysinit.target', 'basic.target', 'system.slice', 'network-online.target', '-.mount', 'systemd-journald.socket']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+2025-03-22 11:37:24,538 [server.py:_initialize_component()] - Performing Component Post Init: [wled]
+2025-03-22 11:37:24,541 [server.py:_initialize_component()] - Performing Component Post Init: [power]
+2025-03-22 11:37:24,542 [server.py:add_warning()] - Component 'power' failed to load with error: Bound Service klipper-mcu is not available
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/server.py", line 260, in _initialize_component
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 110, in component_init
+    if not dev.initialize():
+  File "/home/chase/moonraker/moonraker/components/power.py", line 380, in initialize
+    self._setup_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 370, in _setup_bound_services
+    raise self.server.error(
+moonraker.utils.exceptions.ServerError: Bound Service klipper-mcu is not available
+2025-03-22 11:37:24,542 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
+2025-03-22 11:37:24,587 [server.py:add_warning()] - PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.
+2025-03-22 11:37:24,587 [server.py:add_warning()] - Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates
+2025-03-22 11:37:24,794 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
+2025-03-22 11:37:24,811 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/chase/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Upstream Commit SHA: 9623b5fe431eaa5d775590d0b71b509eccd64d39
+Current Version: v4.1.10-1-gdd390b60
+Upstream Version: v4.1.12-1-g9623b5fe
+Rollback Commit: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Rollback Branch: master
+Rollback Version: v4.1.10-1-gdd390b60
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 10
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:25,117 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/chase/printer_data/comms/moonraker.sock'
+2025-03-22 11:37:25,119 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: klipperender
+2025-03-22 11:37:25,120 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2025-03-22 11:37:25,387 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-22 11:37:25,517 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['network-online.target', 'system.slice', '-.mount', 'systemd-journald.socket', 'basic.target', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+2025-03-22 11:37:25,775 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-03-22 11:37:25,848 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-03-22 11:37:25,866 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 30.37ms
+2025-03-22 11:37:25,867 [websockets.py:open()] - Websocket Opened: ID: 140257441344288, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-03-22 11:37:31,397 [base_deploy.py:log_info()] - PackageKit: Detected 2 package updates:
+dns-root-data
+snapd
+2025-03-22 11:37:31,465 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-03-22 11:37:31,585 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-03-22 11:37:31,760 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-03-22 11:37:34,037 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:34,176 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-03-22 11:37:34,303 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
+2025-03-22 11:37:34,455 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:34,634 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-03-22 11:37:34,644 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 66.01ms
+2025-03-22 11:37:34,644 [websockets.py:open()] - Websocket Opened: ID: 140257441440912, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-03-22 11:37:34,654 [websockets.py:_handle_identify()] - Websocket 140257441440912 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-22 11:37:34,779 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
+2025-03-22 11:37:36,605 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:37,789 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..ebaa6645b2bcaa593d99e863530c52a84c69b470 --count) successfully finished
+2025-03-22 11:37:37,879 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-03-22 11:37:38,223 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-03-22 11:37:38,228 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/chase/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
+Upstream Commit SHA: ebaa6645b2bcaa593d99e863530c52a84c69b470
+Current Version: v0.9.3-58-ga0164e15
+Upstream Version: v0.9.3-68-gebaa6645
+Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
+Rollback Branch: master
+Rollback Version: v0.9.3-48-g354cc11b
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 10
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:38,229 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-03-22 11:37:38,229 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2025-03-22 11:37:38,630 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2025-03-22 11:37:38,743 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2025-03-22 11:37:38,996 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
+2025-03-22 11:37:40,438 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:40,487 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-03-22 11:37:40,516 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse HEAD) successfully finished
+2025-03-22 11:37:40,752 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:40,780 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse origin/master) successfully finished
+2025-03-22 11:37:40,984 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:41,030 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-list HEAD..fb91aad583712acee22c873c0a26bf30c4293b9a --count) successfully finished
+2025-03-22 11:37:41,067 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper log 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-03-22 11:37:41,280 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-03-22 11:37:41,282 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/chase/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Upstream Commit SHA: fb91aad583712acee22c873c0a26bf30c4293b9a
+Current Version: v0.12.0-439-g1fc6d214
+Upstream Version: v0.12.0-463-gfb91aad5
+Rollback Commit: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Rollback Branch: master
+Rollback Version: v0.12.0-439-g1fc6d214
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 24
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py']
+2025-03-22 11:37:41,282 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2025-03-22 11:37:41,282 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2025-03-22 11:37:41,473 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.13.2
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.13.2/mainsail.zip
+Download Size: 2655517
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2025-03-22 11:37:41,535 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2025-03-22 11:37:41,574 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2025-03-22 11:37:41,641 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
+2025-03-22 11:37:42,077 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:42,110 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-03-22 11:37:42,136 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse HEAD) successfully finished
+2025-03-22 11:37:42,168 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:42,194 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse origin/master) successfully finished
+2025-03-22 11:37:42,223 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:42,251 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-list HEAD..ff3869a621db17ce3ef660adbbd3fa321995ac42 --count) successfully finished
+2025-03-22 11:37:42,253 [git_deploy.py:log_repo_info()] - Git Repo mainsail-config Detected:
+Owner: mainsail-crew
+Repository Name: mainsail-config
+Path: /home/chase/mainsail-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/mainsail-config.git
+Recovery URL: https://github.com/mainsail-crew/mainsail-config.git
+Current Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Upstream Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Current Version: v1.2.1-1-gff3869a6
+Upstream Version: v1.2.1-1-gff3869a6
+Rollback Commit: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Rollback Branch: master
+Rollback Version: v1.2.1-1-gff3869a6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:42,253 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2025-03-22 11:37:42,253 [base_deploy.py:log_info()] - Git Repo mainsail-config: Validity check for git repo passed
+2025-03-22 11:37:42,254 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 1 Day, 15 Hours, 8 Minutes, 21 Seconds
+2025-03-22 11:37:42,303 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar status --porcelain -b) successfully finished
+2025-03-22 11:37:42,330 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
+2025-03-22 11:37:42,397 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
+2025-03-22 11:37:42,846 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:42,870 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-22 11:37:42,895 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse HEAD) successfully finished
+2025-03-22 11:37:42,923 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:42,954 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse origin/main) successfully finished
+2025-03-22 11:37:42,981 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:43,010 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-list HEAD..eacc498a52f79292063b6f9b0e0c191c34c5dc09 --count) successfully finished
+2025-03-22 11:37:43,012 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
+Owner: mainsail-crew
+Repository Name: sonar
+Path: /home/chase/sonar
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/sonar.git
+Recovery URL: https://github.com/mainsail-crew/sonar.git
+Current Commit SHA: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Upstream Commit SHA: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Current Version: v0.1.3-1-geacc498a
+Upstream Version: v0.1.3-1-geacc498a
+Rollback Commit: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Rollback Branch: main
+Rollback Version: v0.1.3-1-geacc498a-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:43,013 [base_deploy.py:log_info()] - Git Repo sonar: Channel: dev
+2025-03-22 11:37:43,013 [base_deploy.py:log_info()] - Git Repo sonar: Validity check for git repo passed
+2025-03-22 11:37:43,076 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging status --porcelain -b) successfully finished
+2025-03-22 11:37:43,103 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging branch --list --no-color) successfully finished
+2025-03-22 11:37:43,152 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging remote get-url origin) successfully finished
+2025-03-22 11:37:43,654 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:43,685 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-03-22 11:37:43,709 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse HEAD) successfully finished
+2025-03-22 11:37:43,769 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-03-22 11:37:43,799 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse origin/main) successfully finished
+2025-03-22 11:37:43,833 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-03-22 11:37:43,858 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-list HEAD..b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0 --count) successfully finished
+2025-03-22 11:37:43,860 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+Owner: kyleisah
+Repository Name: Klipper-Adaptive-Meshing-Purging
+Path: /home/chase/Klipper-Adaptive-Meshing-Purging
+Remote: origin
+Branch: main
+Remote URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Recovery URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Current Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Upstream Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Current Version: v1.1.2-13-gb0dad8ec
+Upstream Version: v1.1.2-13-gb0dad8ec
+Rollback Commit: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Rollback Branch: main
+Rollback Version: v1.1.2-13-gb0dad8ec
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-03-22 11:37:43,860 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
+2025-03-22 11:37:43,861 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Validity check for git repo passed
+2025-03-22 11:37:43,913 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
+2025-03-22 11:37:43,941 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
+2025-03-22 11:37:44,016 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
+2025-03-22 11:37:44,993 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) successfully finished
+2025-03-22 11:37:45,022 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup merge-base --is-ancestor HEAD origin/main) successfully finished
