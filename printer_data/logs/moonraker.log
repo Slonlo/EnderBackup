@@ -822,3 +822,6 @@ Content-Type: multipart/form-data; boundary=------------------------a1aff6be7dbe
 2025-03-22 13:02:30,092 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.pause, Code: 503, Message: Klippy Disconnected
 2025-03-22 13:02:30,101 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.off, Code: -31000, Message: Unit klipper-mcu.service not loaded.
 2025-03-22 13:02:34,861 [websockets.py:on_close()] - Websocket Closed: ID: 140257441530592 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.10
+2025-03-22 13:02:47,655 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-03-22 13:02:47,661 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-03-22 13:02:47,667 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
