@@ -780,3 +780,12 @@ Pinned Commit: None
 2025-03-22 11:37:50,756 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 2.61ms
 2025-03-22 11:37:50,757 [websockets.py:open()] - Websocket Opened: ID: 140257441530592, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-03-22 11:37:50,775 [websockets.py:_handle_identify()] - Websocket 140257441530592 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-22 11:38:51,264 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-22 11:38:51,267 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-22 11:38:51,270 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
