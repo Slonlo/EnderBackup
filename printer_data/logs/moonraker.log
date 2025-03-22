@@ -798,3 +798,9 @@ Error configuring printer
 2025-03-22 12:42:22,112 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
 2025-03-22 12:55:01,173 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-03-22 12:55:02,436 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-22 12:55:05,419 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-03-22 12:55:05,423 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-03-22 12:55:05,671 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-03-22 12:55:05,944 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-03-22 12:55:06,429 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-03-22 12:55:06,625 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
