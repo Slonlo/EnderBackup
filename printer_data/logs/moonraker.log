@@ -789,3 +789,12 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2025-03-22 12:07:07,044 [websockets.py:on_close()] - Websocket Closed: ID: 140257441440912 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.39
+2025-03-22 12:15:13,635 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-03-22 12:15:13,667 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-03-22 12:15:13,690 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
+2025-03-22 12:42:22,111 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-03-22 12:42:22,112 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-03-22 12:42:22,112 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-03-22 12:55:01,173 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-03-22 12:55:02,436 [klippy_connection.py:_do_connect()] - Klippy Connection Established
