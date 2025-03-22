@@ -804,3 +804,14 @@ Error configuring printer
 2025-03-22 12:55:05,944 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-03-22 12:55:06,429 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-03-22 12:55:06,625 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-03-22 13:02:17,587 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------a1aff6be7dbe217a
+2025-03-22 13:02:17,671 [application.py:post()] - Processing Uploaded File: 2025-02-26_hdd_caddy_PLA_45m23s.gcode
+2025-03-22 13:02:18,224 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-03-22 13:02:18,226 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: 2025-02-26_hdd_caddy_PLA_45m23s.gcode, sliced by OrcaSlicer
+
+2025-03-22 13:02:19,696 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-c3ga234m.json) successfully finished
+2025-03-22 13:02:19,699 [klippy_apis.py:start_print()] - Requesting Job Start, filename = 2025-02-26_hdd_caddy_PLA_45m23s.gcode
+2025-03-22 13:02:19,735 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 2151.45ms
+2025-03-22 13:02:19,881 [job_state.py:_status_update()] - Job Started: 2025-02-26_hdd_caddy_PLA_45m23s.gcode
