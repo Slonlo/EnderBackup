@@ -4808,3 +4808,8 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-03-23 12:35:57,144 [websockets.py:open()] - Websocket Opened: ID: 140257432285488, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
 2025-03-23 12:35:57,150 [websockets.py:_handle_identify()] - Websocket 140257432285488 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-03-23 12:36:07,056 [websockets.py:on_close()] - Websocket Closed: ID: 140257432285488 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.92
+2025-03-23 12:37:56,550 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.86ms
+2025-03-23 12:37:56,551 [websockets.py:open()] - Websocket Opened: ID: 140257431785776, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-03-23 12:37:56,568 [websockets.py:_handle_identify()] - Websocket 140257431785776 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-23 12:38:01,056 [klippy_apis.py:pause_print()] - Requesting job pause...
+2025-03-23 12:38:33,756 [websockets.py:on_close()] - Websocket Closed: ID: 140257431785776 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.11
