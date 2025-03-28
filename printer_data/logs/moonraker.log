@@ -248,3 +248,19 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-03-27 03:00:24,047 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-27 03:00:55,051 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648920864032
+2025-03-27 03:00:59,749 [websockets.py:on_close()] - Websocket Closed: ID: 139648920864032 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-03-27 03:01:10,059 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648920863120
+2025-03-27 03:01:14,919 [websockets.py:on_close()] - Websocket Closed: ID: 139648920863120 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-27 03:02:34,194 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-03-27 03:02:34,197 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-03-27 03:02:44,202 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-27 03:02:44,205 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-03-27 03:02:51,705 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-03-27 03:02:51,707 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.54ms
+2025-03-27 03:02:51,708 [websockets.py:open()] - Websocket Opened: ID: 139648920863744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-03-27 03:02:53,766 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-03-27 03:02:53,769 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.92ms
+2025-03-27 03:02:53,770 [websockets.py:open()] - Websocket Opened: ID: 139648920864272, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-03-27 04:05:05,086 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-03-27 04:05:05,087 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
