@@ -566,3 +566,20 @@ Traceback (most recent call last):
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 
+2025-03-30 16:00:39,421 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-03-30 16:00:40,694 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-03-30 16:00:40,780 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['-.mount', 'sysinit.target', 'systemd-journald.socket', 'system.slice', 'network-online.target', 'basic.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
