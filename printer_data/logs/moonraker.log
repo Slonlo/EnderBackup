@@ -511,3 +511,31 @@ Diverged: False
 Pinned Commit: None
 2025-03-30 00:45:12,269 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
 2025-03-30 00:45:12,269 [base_deploy.py:log_info()] - Git Repo mobileraker: Validity check for git repo passed
+2025-03-30 03:00:22,874 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-30 03:00:51,872 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648920863744
+2025-03-30 03:00:56,712 [websockets.py:on_close()] - Websocket Closed: ID: 139648920863744 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-30 03:01:03,890 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648920864272
+2025-03-30 03:01:08,775 [websockets.py:on_close()] - Websocket Closed: ID: 139648920864272 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-30 03:02:33,017 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-03-30 03:02:33,019 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-03-30 03:02:43,020 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-30 03:02:43,022 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-03-30 03:02:49,933 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-03-30 03:02:49,934 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.84ms
+2025-03-30 03:02:49,935 [websockets.py:open()] - Websocket Opened: ID: 139648920865232, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-03-30 03:02:52,704 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-03-30 03:02:52,706 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.15ms
+2025-03-30 03:02:52,706 [websockets.py:open()] - Websocket Opened: ID: 139648919813760, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-03-30 04:05:06,065 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-03-30 04:05:06,066 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-03-30 15:59:11,763 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-03-30 15:59:11,766 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 6.05ms
+2025-03-30 15:59:11,767 [websockets.py:open()] - Websocket Opened: ID: 139648919560880, Proxied: True, User Agent: BBL-Slicer/v01.09.05.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-03-30 15:59:11,774 [websockets.py:_handle_identify()] - Websocket 139648919560880 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-03-30 16:00:21,717 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------23dccc57df86b31b
+2025-03-30 16:00:21,935 [application.py:post()] - Processing Uploaded File: generic-1090-pcb-mount_PLA_30m48s.gcode
+2025-03-30 16:00:22,487 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-03-30 16:00:22,490 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: generic-1090-pcb-mount_PLA_30m48s.gcode, sliced by OrcaSlicer
+
