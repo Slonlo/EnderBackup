@@ -1,4 +1,4 @@
--------------------- Log Start | Sun Mar 30 04:45:05 2025 --------------------
+-------------------- Log Start | Thu Mar 27 07:00:24 2025 --------------------
 platform: Linux-5.15.0-134-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -247,55 +247,20 @@ Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-03-30 00:45:05,533 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
-    await self._update_package_cache(force=True)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
-    await self.provider.refresh_packages(notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
-    await self.run_transaction("refresh_cache", False, notify=notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
-    return await transaction.run(method, *args, notify=notify)
-moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
-2025-03-30 00:45:05,582 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
-2025-03-30 00:45:05,610 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
-2025-03-30 00:45:05,666 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
-2025-03-30 00:45:06,250 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
-2025-03-30 00:45:06,275 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
-2025-03-30 00:45:06,300 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
-2025-03-30 00:45:06,336 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
-2025-03-30 00:45:06,361 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
-2025-03-30 00:45:06,391 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
-2025-03-30 00:45:06,419 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..b90c96524cd4aa5579ebc9899fd7812c1e756d86 --count) successfully finished
-2025-03-30 00:45:06,447 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2025-03-30 00:45:06,541 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2025-03-30 00:45:06,543 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
-Owner: Arksine
-Repository Name: moonraker
-Path: /home/chase/moonraker
-Remote: origin
-Branch: master
-Remote URL: https://github.com/Arksine/moonraker
-Recovery URL: https://github.com/Arksine/moonraker
-Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
-Upstream Commit SHA: b90c96524cd4aa5579ebc9899fd7812c1e756d86
-Current Version: v0.9.3-58-ga0164e15
-Upstream Version: v0.9.3-70-gb90c9652
-Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
-Rollback Branch: master
-Rollback Version: v0.9.3-48-g354cc11b
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 12
-Diverged: False
-Pinned Commit: None
-2025-03-30 00:45:06,544 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
-2025-03-30 00:45:06,544 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
-2025-03-30 00:45:06,621 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
-2025-03-30 00:45:06,648 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
-2025-03-30 00:45:06,697 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
-2025-03-30 00:45:07,745 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) successfully finished
-2025-03-30 00:45:07,769 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
-2025-03-30 00:45:07,800 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse HEAD) successfully finished
+2025-03-27 03:00:24,047 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-27 03:00:55,051 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648920864032
+2025-03-27 03:00:59,749 [websockets.py:on_close()] - Websocket Closed: ID: 139648920864032 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-03-27 03:01:10,059 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648920863120
+2025-03-27 03:01:14,919 [websockets.py:on_close()] - Websocket Closed: ID: 139648920863120 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-03-27 03:02:34,194 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-03-27 03:02:34,197 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-03-27 03:02:44,202 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-03-27 03:02:44,205 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-03-27 03:02:51,705 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-03-27 03:02:51,707 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.54ms
+2025-03-27 03:02:51,708 [websockets.py:open()] - Websocket Opened: ID: 139648920863744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-03-27 03:02:53,766 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-03-27 03:02:53,769 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.92ms
+2025-03-27 03:02:53,770 [websockets.py:open()] - Websocket Opened: ID: 139648920864272, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-03-27 04:05:05,086 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-03-27 04:05:05,087 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
