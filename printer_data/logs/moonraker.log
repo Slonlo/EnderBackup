@@ -5640,3 +5640,52 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-04-01 15:01:10,407 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-04-01 15:01:41,009 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.61ms
 2025-04-01 15:01:41,010 [websockets.py:open()] - Websocket Opened: ID: 139648955646064, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-04-01 15:11:33,638 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-04-01 15:11:57,627 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648918676240
+2025-04-01 15:11:59,631 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648918678112
+2025-04-01 15:11:59,631 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648919560736
+2025-04-01 15:12:00,634 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648919562800
+2025-04-01 15:12:00,635 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648918548336
+2025-04-01 15:12:01,635 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648918545888
+2025-04-01 15:12:01,637 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648955646064
+2025-04-01 15:12:01,875 [websockets.py:on_close()] - Websocket Closed: ID: 139648918676240 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-04-01 15:12:03,470 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648918544832
+2025-04-01 15:12:03,766 [websockets.py:on_close()] - Websocket Closed: ID: 139648918678112 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:12:04,415 [websockets.py:on_close()] - Websocket Closed: ID: 139648919560736 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-04-01 15:12:04,914 [websockets.py:on_close()] - Websocket Closed: ID: 139648919562800 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:12:05,318 [websockets.py:on_close()] - Websocket Closed: ID: 139648918548336 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:12:05,726 [websockets.py:on_close()] - Websocket Closed: ID: 139648918545888 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:12:06,014 [websockets.py:on_close()] - Websocket Closed: ID: 139648955646064 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:12:08,419 [websockets.py:on_close()] - Websocket Closed: ID: 139648918544832 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:12:13,273 [websockets.py:write_to_socket()] - Websocket closed while writing: 139648918547184
+2025-04-01 15:12:18,031 [websockets.py:on_close()] - Websocket Closed: ID: 139648918547184 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-01 15:13:36,353 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 3.63ms
+2025-04-01 15:13:36,354 [websockets.py:open()] - Websocket Opened: ID: 139648919834384, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-04-01 15:13:36,357 [websockets.py:_handle_identify()] - Websocket 139648919834384 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-01 15:13:43,767 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-04-01 15:13:59,714 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.63ms
+2025-04-01 15:13:59,715 [websockets.py:open()] - Websocket Opened: ID: 139648919560304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-04-01 15:14:09,701 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.31ms
+2025-04-01 15:14:09,701 [websockets.py:open()] - Websocket Opened: ID: 139648918723888, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-04-01 15:21:19,049 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-04-01 15:21:19,075 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-04-01 15:21:19,090 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-01 15:21:19,112 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
