@@ -6873,3 +6873,27 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
 2025-04-01 18:30:17,101 [websockets.py:open()] - Websocket Opened: ID: 139648955731824, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-04-01 18:30:17,111 [websockets.py:_handle_identify()] - Websocket 139648955731824 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
 2025-04-01 18:30:19,999 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-04-01 18:30:41,900 [websockets.py:on_close()] - Websocket Closed: ID: 139648955731824 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.77
+2025-04-01 18:31:51,040 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-04-01 18:31:51,043 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-04-01 18:31:51,045 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2025-04-01 19:10:06,834 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-04-01 19:15:47,643 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.62ms
+2025-04-01 19:15:47,644 [websockets.py:open()] - Websocket Opened: ID: 139648955728416, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-01 19:15:47,731 [websockets.py:_handle_identify()] - Websocket 139648955728416 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-01 19:16:51,532 [websockets.py:on_close()] - Websocket Closed: ID: 139648955728416 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.67
+2025-04-01 19:32:01,480 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 3.89ms
+2025-04-01 19:32:01,481 [websockets.py:open()] - Websocket Opened: ID: 139648955728032, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-01 19:32:01,492 [websockets.py:_handle_identify()] - Websocket 139648955728032 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-01 19:32:51,430 [websockets.py:on_close()] - Websocket Closed: ID: 139648955728032 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.94
+2025-04-01 19:43:47,363 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.29ms
+2025-04-01 19:43:47,364 [websockets.py:open()] - Websocket Opened: ID: 139648955730672, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-01 19:43:47,380 [websockets.py:_handle_identify()] - Websocket 139648955730672 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-01 19:43:53,681 [websockets.py:on_close()] - Websocket Closed: ID: 139648955730672 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.32
+2025-04-01 20:45:06,860 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
