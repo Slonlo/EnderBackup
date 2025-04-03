@@ -1396,3 +1396,4 @@ Rollback Repo: fluidd-core/fluidd
 2025-04-03 14:17:36,833 [websockets.py:open()] - Websocket Opened: ID: 140371622641616, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
 2025-04-03 14:17:36,881 [websockets.py:_handle_identify()] - Websocket 140371622641616 Client Identified - Name: fluidd, Version: 1.33.0-da47c53, Type: web
 2025-04-03 14:17:36,882 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-04-03 14:17:58,306 [websockets.py:on_close()] - Websocket Closed: ID: 140371622641616 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.43
