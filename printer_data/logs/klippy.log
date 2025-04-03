@@ -919,3 +919,5 @@ CPU: 4 core Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
 Python: '3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]'
 =============== Log rollover at Thu Apr  3 14:17:04 2025 ===============
 webhooks client 140037650848880: Disconnected
+webhooks client 140037675113872: New connection
+webhooks client 140037675113872: Client info {'program': 'Moonraker', 'version': 'v0.9.3-58-ga0164e1'}
