@@ -1385,3 +1385,14 @@ Rollback Repo: fluidd-core/fluidd
 2025-04-03 14:17:33,205 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.66ms
 2025-04-03 14:17:33,206 [websockets.py:open()] - Websocket Opened: ID: 140371622796352, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
 2025-04-03 14:17:35,766 [websockets.py:on_close()] - Websocket Closed: ID: 140371622638064 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.51
+2025-04-03 14:17:36,432 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 2.50ms
+2025-04-03 14:17:36,433 [websockets.py:open()] - Websocket Opened: ID: 140371622640224, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-03 14:17:36,436 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 2.38ms
+2025-04-03 14:17:36,437 [websockets.py:open()] - Websocket Opened: ID: 140371622640656, Proxied: False, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-03 14:17:36,477 [websockets.py:on_close()] - Websocket Closed: ID: 140371622640224 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.05
+2025-04-03 14:17:36,484 [websockets.py:on_close()] - Websocket Closed: ID: 140371622640656 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.05
+2025-04-03 14:17:36,516 [application.py:log_request()] - 404 GET /server/database/item?namespace=fluidd (10.6.0.2) [_TRUSTED_USER_] 19.10ms
+2025-04-03 14:17:36,832 [application.py:log_request()] - 101 GET /websocket?token=I5GLC3RQFOIL5YRYEDNMGCAOCKZQRYNC (10.6.0.2) [_TRUSTED_USER_] 5.13ms
+2025-04-03 14:17:36,833 [websockets.py:open()] - Websocket Opened: ID: 140371622641616, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-03 14:17:36,881 [websockets.py:_handle_identify()] - Websocket 140371622641616 Client Identified - Name: fluidd, Version: 1.33.0-da47c53, Type: web
+2025-04-03 14:17:36,882 [file_manager.py:get_file_list()] - Updating File List <config>...
