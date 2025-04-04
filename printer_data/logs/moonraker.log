@@ -1397,3 +1397,15 @@ Rollback Repo: fluidd-core/fluidd
 2025-04-03 14:17:36,881 [websockets.py:_handle_identify()] - Websocket 140371622641616 Client Identified - Name: fluidd, Version: 1.33.0-da47c53, Type: web
 2025-04-03 14:17:36,882 [file_manager.py:get_file_list()] - Updating File List <config>...
 2025-04-03 14:17:58,306 [websockets.py:on_close()] - Websocket Closed: ID: 140371622641616 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.43
+2025-04-03 15:11:48,518 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 7.27ms
+2025-04-03 15:11:48,519 [websockets.py:open()] - Websocket Opened: ID: 140371622751296, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-03 15:11:48,562 [websockets.py:_handle_identify()] - Websocket 140371622751296 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-03 15:12:09,120 [websockets.py:on_close()] - Websocket Closed: ID: 140371622751296 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.51
+2025-04-03 15:17:22,340 [application.py:log_request()] - 101 GET /websocket?token=LOFIFFCLWOOC5CPW3HE7WBMBO23HI4HD (10.6.0.2) [_TRUSTED_USER_] 3.89ms
+2025-04-03 15:17:22,342 [websockets.py:open()] - Websocket Opened: ID: 140371622750288, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-03 15:17:22,397 [websockets.py:_handle_identify()] - Websocket 140371622750288 Client Identified - Name: fluidd, Version: 1.33.0-da47c53, Type: web
+2025-04-03 15:17:22,397 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-04-03 15:17:52,168 [websockets.py:on_close()] - Websocket Closed: ID: 140371622750288 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.78
+2025-04-03 15:22:08,234 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-04-03 15:22:08,235 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-04-03 16:22:08,250 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 10.6.0.2
