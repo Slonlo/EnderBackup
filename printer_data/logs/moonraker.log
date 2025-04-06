@@ -1,4 +1,4 @@
--------------------- Log Start | Sat Apr  5 17:57:16 2025 --------------------
+-------------------- Log Start | Sun Apr  6 05:17:09 2025 --------------------
 platform: Linux-5.15.0-134-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -261,13 +261,52 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 Git Repo fluidd-config: No warnings detected
-2025-04-05 13:57:16,497 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.111
-2025-04-05 13:57:16,500 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 6.76ms
-2025-04-05 13:57:16,500 [websockets.py:open()] - Websocket Opened: ID: 140371622641088, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
-2025-04-05 13:57:16,509 [websockets.py:_handle_identify()] - Websocket 140371622641088 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
-2025-04-05 14:02:44,298 [websockets.py:on_close()] - Websocket Closed: ID: 140371622641088 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.78
-2025-04-05 14:05:50,282 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.25ms
-2025-04-05 14:05:50,283 [websockets.py:open()] - Websocket Opened: ID: 140371623590736, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
-2025-04-05 14:05:50,292 [websockets.py:_handle_identify()] - Websocket 140371623590736 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
-2025-04-05 14:18:46,230 [websockets.py:on_close()] - Websocket Closed: ID: 140371623590736 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.93
-2025-04-05 15:07:09,093 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
+2025-04-06 01:17:09,322 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
+    await self._update_package_cache(force=True)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
+    await self.provider.refresh_packages(notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
+    await self.run_transaction("refresh_cache", False, notify=notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
+    return await transaction.run(method, *args, notify=notify)
+moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-04-06 01:17:09,381 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-04-06 01:17:09,407 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-04-06 01:17:09,468 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-04-06 01:17:10,208 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
+2025-04-06 01:17:10,243 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-04-06 01:17:10,268 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
+2025-04-06 01:17:10,326 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-04-06 01:17:10,355 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
+2025-04-06 01:17:10,392 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-04-06 01:17:10,429 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..7cdcca3cb4b7caf27d511d1c4e32fa3297391709 --count) successfully finished
+2025-04-06 01:17:10,460 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-04-06 01:17:10,557 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-04-06 01:17:10,560 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/chase/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
+Upstream Commit SHA: 7cdcca3cb4b7caf27d511d1c4e32fa3297391709
+Current Version: v0.9.3-58-ga0164e15
+Upstream Version: v0.9.3-72-g7cdcca3c
+Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
+Rollback Branch: master
+Rollback Version: v0.9.3-48-g354cc11b
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 14
+Diverged: False
+Pinned Commit: None
+2025-04-06 01:17:10,561 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-04-06 01:17:10,562 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2025-04-06 01:17:10,742 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2025-04-06 01:17:10,768 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2025-04-06 01:17:10,825 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
