@@ -265,3 +265,9 @@ Git Repo fluidd-config: No warnings detected
 2025-04-05 13:57:16,500 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 6.76ms
 2025-04-05 13:57:16,500 [websockets.py:open()] - Websocket Opened: ID: 140371622641088, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-04-05 13:57:16,509 [websockets.py:_handle_identify()] - Websocket 140371622641088 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-05 14:02:44,298 [websockets.py:on_close()] - Websocket Closed: ID: 140371622641088 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.78
+2025-04-05 14:05:50,282 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.25ms
+2025-04-05 14:05:50,283 [websockets.py:open()] - Websocket Opened: ID: 140371623590736, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-05 14:05:50,292 [websockets.py:_handle_identify()] - Websocket 140371623590736 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-05 14:18:46,230 [websockets.py:on_close()] - Websocket Closed: ID: 140371623590736 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.93
+2025-04-05 15:07:09,093 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
