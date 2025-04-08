@@ -340,3 +340,27 @@ Pinned Commit: None
 2025-04-08 18:43:36,298 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 4.44ms
 2025-04-08 18:43:36,299 [websockets.py:open()] - Websocket Opened: ID: 140371622833264, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-04-08 18:43:36,353 [websockets.py:_handle_identify()] - Websocket 140371622833264 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-08 18:43:50,269 [websockets.py:on_close()] - Websocket Closed: ID: 140371622833264 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.90
+2025-04-08 18:51:55,694 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 7.59ms
+2025-04-08 18:51:55,695 [websockets.py:open()] - Websocket Opened: ID: 140371623046928, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:51:55,749 [websockets.py:_handle_identify()] - Websocket 140371623046928 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:51:58,450 [websockets.py:on_close()] - Websocket Closed: ID: 140371623046928 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.76
+2025-04-08 18:51:58,739 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 4.17ms
+2025-04-08 18:51:58,740 [websockets.py:open()] - Websocket Opened: ID: 140371623044240, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:51:58,790 [websockets.py:_handle_identify()] - Websocket 140371623044240 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:53:07,098 [websockets.py:on_close()] - Websocket Closed: ID: 140371623044240 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.24
+2025-04-08 18:53:16,183 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 5.31ms
+2025-04-08 18:53:16,184 [websockets.py:open()] - Websocket Opened: ID: 140371623916304, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:53:16,237 [websockets.py:_handle_identify()] - Websocket 140371623916304 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:53:52,203 [websockets.py:on_close()] - Websocket Closed: ID: 140371623916304 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.93
+2025-04-08 18:54:01,235 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 5.92ms
+2025-04-08 18:54:01,235 [websockets.py:open()] - Websocket Opened: ID: 140371613269056, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:54:01,290 [websockets.py:_handle_identify()] - Websocket 140371613269056 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:54:40,469 [websockets.py:on_close()] - Websocket Closed: ID: 140371613269056 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.11
+2025-04-08 18:54:43,038 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 6.04ms
+2025-04-08 18:54:43,039 [websockets.py:open()] - Websocket Opened: ID: 140371622833504, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:54:43,104 [websockets.py:_handle_identify()] - Websocket 140371622833504 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:55:00,669 [application.py:prepare()] - Upload Request Received from 10.6.0.2
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysDGKPyyAEEBykkEi
+2025-04-08 18:55:00,693 [application.py:post()] - Processing Uploaded File: moonraker.conf
+2025-04-08 18:55:00,725 [application.py:log_request()] - 201 POST /server/files/upload (10.6.0.2) [_TRUSTED_USER_] 61.67ms
