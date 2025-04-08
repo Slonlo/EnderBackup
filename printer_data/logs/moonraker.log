@@ -315,3 +315,7 @@ Pinned Commit: None
 2025-04-08 18:18:48,109 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-04-08 18:18:48,576 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-04-08 18:19:03,096 [websockets.py:on_close()] - Websocket Closed: ID: 140371623044720 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.94
+2025-04-08 18:39:19,360 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 10.6.0.2
+2025-04-08 18:39:19,364 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 8.55ms
+2025-04-08 18:39:19,365 [websockets.py:open()] - Websocket Opened: ID: 140371623043232, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-08 18:39:19,411 [websockets.py:_handle_identify()] - Websocket 140371623043232 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
