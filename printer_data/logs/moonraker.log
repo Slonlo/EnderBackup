@@ -308,3 +308,9 @@ Pinned Commit: None
 2025-04-08 18:18:37,992 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-04-08 18:18:39,253 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2025-04-08 18:18:43,363 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-08 18:18:44,623 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-04-08 18:18:47,564 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-04-08 18:18:47,568 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-04-08 18:18:47,816 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-04-08 18:18:48,109 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-04-08 18:18:48,576 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
