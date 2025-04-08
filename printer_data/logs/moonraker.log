@@ -319,3 +319,24 @@ Pinned Commit: None
 2025-04-08 18:39:19,364 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 8.55ms
 2025-04-08 18:39:19,365 [websockets.py:open()] - Websocket Opened: ID: 140371623043232, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-04-08 18:39:19,411 [websockets.py:_handle_identify()] - Websocket 140371623043232 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-08 18:39:29,703 [websockets.py:on_close()] - Websocket Closed: ID: 140371623043232 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.29
+2025-04-08 18:39:39,590 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 4.22ms
+2025-04-08 18:39:39,591 [websockets.py:open()] - Websocket Opened: ID: 140371613244816, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-08 18:39:39,636 [websockets.py:_handle_identify()] - Websocket 140371613244816 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-08 18:41:06,602 [websockets.py:on_close()] - Websocket Closed: ID: 140371613244816 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.96
+2025-04-08 18:41:31,064 [application.py:log_request()] - 101 GET /websocket?token=L7QLDZKXJZZKQRMGY3Y653COSQUUAWR5 (10.6.0.2) [_TRUSTED_USER_] 4.17ms
+2025-04-08 18:41:31,065 [websockets.py:open()] - Websocket Opened: ID: 140371613244672, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:41:31,118 [websockets.py:_handle_identify()] - Websocket 140371613244672 Client Identified - Name: fluidd, Version: 1.33.0-da47c53, Type: web
+2025-04-08 18:41:31,118 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-04-08 18:41:43,902 [websockets.py:on_close()] - Websocket Closed: ID: 140371613244672 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.79
+2025-04-08 18:41:44,594 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 4.36ms
+2025-04-08 18:41:44,595 [websockets.py:open()] - Websocket Opened: ID: 140371613332624, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-04-08 18:41:44,673 [websockets.py:_handle_identify()] - Websocket 140371613332624 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:43:14,746 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 5.64ms
+2025-04-08 18:43:14,747 [websockets.py:open()] - Websocket Opened: ID: 140371623046928, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-08 18:43:14,794 [websockets.py:_handle_identify()] - Websocket 140371623046928 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-04-08 18:43:17,663 [websockets.py:on_close()] - Websocket Closed: ID: 140371613332624 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.98
+2025-04-08 18:43:36,194 [websockets.py:on_close()] - Websocket Closed: ID: 140371623046928 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.40
+2025-04-08 18:43:36,298 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 4.44ms
+2025-04-08 18:43:36,299 [websockets.py:open()] - Websocket Opened: ID: 140371622833264, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-04-08 18:43:36,353 [websockets.py:_handle_identify()] - Websocket 140371622833264 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
