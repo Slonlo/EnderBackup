@@ -302,3 +302,6 @@ Pinned Commit: None
 2025-04-08 18:18:14,178 [websockets.py:_handle_identify()] - Websocket 140371623044720 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-04-08 18:18:19,447 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-04-08 18:18:20,709 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-04-08 18:18:35,502 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-04-08 18:18:35,529 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-04-08 18:18:35,547 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
