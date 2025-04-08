@@ -375,3 +375,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysDGKPyyAEEBykk
 2025-04-08 18:55:23,767 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 6.12ms
 2025-04-08 18:55:23,768 [websockets.py:open()] - Websocket Opened: ID: 140371623017584, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
 2025-04-08 18:55:23,812 [websockets.py:_handle_identify()] - Websocket 140371623017584 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-08 18:55:26,562 [websockets.py:on_close()] - Websocket Closed: ID: 140371623017584 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.80
