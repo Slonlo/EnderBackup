@@ -1,4 +1,4 @@
--------------------- Log Start | Thu Apr 10 07:00:30 2025 --------------------
+-------------------- Log Start | Wed Apr  9 11:32:06 2025 --------------------
 platform: Linux-5.15.0-134-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -261,4 +261,38 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 Git Repo fluidd-config: No warnings detected
-2025-04-10 03:00:30,023 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-04-09 07:32:06,798 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2025-04-09 07:32:06,803 [power.py:_power_off_on_shutdown()] - Powering off device 'Power' due to klippy shutdown
+2025-04-09 07:32:06,813 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1744198297.562267, Usage: 5.16%, Memory: 55252 kB
+System Time: 1744198298.565578, Usage: 2.53%, Memory: 55252 kB
+System Time: 1744198299.566940, Usage: 2.48%, Memory: 55252 kB
+System Time: 1744198300.566584, Usage: 2.83%, Memory: 55252 kB
+System Time: 1744198301.567436, Usage: 2.35%, Memory: 55252 kB
+System Time: 1744198302.570544, Usage: 2.23%, Memory: 55252 kB
+System Time: 1744198303.568132, Usage: 2.33%, Memory: 55252 kB
+System Time: 1744198304.573663, Usage: 2.38%, Memory: 55252 kB
+System Time: 1744198305.571381, Usage: 2.56%, Memory: 55252 kB
+System Time: 1744198306.575081, Usage: 4.15%, Memory: 55252 kB
+System Time: 1744198307.573630, Usage: 2.64%, Memory: 55252 kB
+System Time: 1744198308.574053, Usage: 2.39%, Memory: 55252 kB
+System Time: 1744198309.573672, Usage: 2.41%, Memory: 55252 kB
+System Time: 1744198310.574081, Usage: 2.69%, Memory: 55252 kB
+System Time: 1744198311.576578, Usage: 2.33%, Memory: 55252 kB
+System Time: 1744198312.574803, Usage: 2.59%, Memory: 55252 kB
+System Time: 1744198313.575451, Usage: 2.37%, Memory: 55252 kB
+System Time: 1744198314.575455, Usage: 2.6%, Memory: 55252 kB
+System Time: 1744198315.577888, Usage: 2.16%, Memory: 55252 kB
+System Time: 1744198316.578272, Usage: 4.1%, Memory: 55252 kB
+System Time: 1744198317.578781, Usage: 2.33%, Memory: 55252 kB
+System Time: 1744198318.581966, Usage: 2.33%, Memory: 55252 kB
+System Time: 1744198319.582258, Usage: 2.58%, Memory: 55252 kB
+System Time: 1744198320.581437, Usage: 2.91%, Memory: 55252 kB
+System Time: 1744198321.580083, Usage: 2.32%, Memory: 55252 kB
+System Time: 1744198322.581789, Usage: 2.08%, Memory: 55252 kB
+System Time: 1744198323.578773, Usage: 1.88%, Memory: 55252 kB
+System Time: 1744198324.585057, Usage: 1.79%, Memory: 55252 kB
+System Time: 1744198325.586068, Usage: 2.09%, Memory: 55252 kB
+System Time: 1744198326.581916, Usage: 3.18%, Memory: 55252 kB
+CPU Temperature: 0.0
