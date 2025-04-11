@@ -1,4 +1,4 @@
--------------------- Log Start | Fri Apr 11 04:17:09 2025 --------------------
+-------------------- Log Start | Thu Apr 10 07:00:30 2025 --------------------
 platform: Linux-5.15.0-134-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -261,50 +261,20 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 Git Repo fluidd-config: No warnings detected
-2025-04-11 00:17:09,264 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
-2025-04-11 00:17:09,298 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
-2025-04-11 00:17:09,359 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
-2025-04-11 00:17:09,713 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) successfully finished
-2025-04-11 00:17:09,741 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config merge-base --is-ancestor HEAD origin/master) successfully finished
-2025-04-11 00:17:09,769 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse HEAD) successfully finished
-2025-04-11 00:17:09,799 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe --always --tags --long --dirty --abbrev=8) successfully finished
-2025-04-11 00:17:09,828 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse origin/master) successfully finished
-2025-04-11 00:17:09,856 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe origin/master --always --tags --long --abbrev=8) successfully finished
-2025-04-11 00:17:09,884 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-list HEAD..807175d72e3a00cdc6b5e249444a4630e1e03a55 --count) successfully finished
-2025-04-11 00:17:09,886 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
-Owner: fluidd-core
-Repository Name: fluidd-config
-Path: /home/chase/fluidd-config
-Remote: origin
-Branch: master
-Remote URL: https://github.com/fluidd-core/fluidd-config.git
-Recovery URL: https://github.com/fluidd-core/fluidd-config.git
-Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
-Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
-Current Version: v1.2.1-0-g807175d7
-Upstream Version: v1.2.1-0-g807175d7
-Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
-Rollback Branch: master
-Rollback Version: v1.2.1-0-g807175d7
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 0
-Diverged: False
-Pinned Commit: None
-2025-04-11 00:17:09,887 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
-2025-04-11 00:17:09,887 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
-2025-04-11 00:17:10,108 [base_deploy.py:log_info()] - Web Client fluidd: Detected
-Repo: fluidd-core/fluidd
-Channel: stable
-Path: /home/chase/fluidd
-Local Version: v1.33.0
-Remote Version: v1.34.1
-Valid: True
-Fallback Detected: False
-Pre-release: False
-Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.1/fluidd.zip
-Download Size: 4318649
-Content Type: application/zip
-Rollback Version: v1.33.0
-Rollback Repo: fluidd-core/fluidd
+2025-04-10 03:00:30,023 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-04-10 03:01:00,043 [websockets.py:write_to_socket()] - Websocket closed while writing: 140371623919568
+2025-04-10 03:01:04,941 [websockets.py:on_close()] - Websocket Closed: ID: 140371623919568 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-04-10 03:01:14,411 [websockets.py:write_to_socket()] - Websocket closed while writing: 140371623816304
+2025-04-10 03:01:19,230 [websockets.py:on_close()] - Websocket Closed: ID: 140371623816304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-04-10 03:02:40,164 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-04-10 03:02:40,168 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-04-10 03:02:50,172 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-04-10 03:02:50,176 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-04-10 03:02:59,018 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-04-10 03:02:59,020 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.50ms
+2025-04-10 03:02:59,021 [websockets.py:open()] - Websocket Opened: ID: 140371666587760, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-04-10 03:02:59,634 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-04-10 03:02:59,637 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.62ms
+2025-04-10 03:02:59,639 [websockets.py:open()] - Websocket Opened: ID: 140371666588144, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-04-10 04:07:10,756 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-04-10 04:07:10,757 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
