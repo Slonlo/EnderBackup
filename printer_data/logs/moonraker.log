@@ -2257,3 +2257,9 @@ Properties:
 2025-04-15 07:26:23,048 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 7.59ms
 2025-04-15 07:26:23,049 [websockets.py:open()] - Websocket Opened: ID: 139691276882176, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-04-15 07:26:23,052 [websockets.py:_handle_identify()] - Websocket 139691276882176 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-15 07:26:29,570 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-15 07:26:30,827 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-04-15 07:26:32,184 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-04-15 07:26:32,187 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.67ms
+2025-04-15 07:26:32,187 [websockets.py:open()] - Websocket Opened: ID: 139691276883952, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-04-15 07:26:35,275 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
