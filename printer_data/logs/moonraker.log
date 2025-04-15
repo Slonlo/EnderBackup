@@ -341,3 +341,62 @@ Properties:
 2025-04-15 07:21:36,838 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-04-15 07:22:36,842 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 60.00 seconds
 2025-04-15 07:23:36,846 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 120.01 seconds
+2025-04-15 07:24:03,862 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2025-04-15 07:24:03,864 [power.py:_power_off_on_shutdown()] - Powering off device 'Power' due to klippy shutdown
+2025-04-15 07:24:03,878 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1744716214.804662, Usage: 2.27%, Memory: 55240 kB
+System Time: 1744716215.806520, Usage: 4.06%, Memory: 55240 kB
+System Time: 1744716216.809634, Usage: 2.68%, Memory: 55240 kB
+System Time: 1744716217.806372, Usage: 3.35%, Memory: 55240 kB
+System Time: 1744716218.806912, Usage: 2.27%, Memory: 55240 kB
+System Time: 1744716219.809472, Usage: 2.55%, Memory: 55240 kB
+System Time: 1744716220.810717, Usage: 2.97%, Memory: 55240 kB
+System Time: 1744716221.813156, Usage: 2.73%, Memory: 55240 kB
+System Time: 1744716222.813877, Usage: 2.98%, Memory: 55240 kB
+System Time: 1744716223.815098, Usage: 2.57%, Memory: 55240 kB
+System Time: 1744716224.814409, Usage: 2.69%, Memory: 55240 kB
+System Time: 1744716225.816914, Usage: 4.37%, Memory: 55240 kB
+System Time: 1744716226.812701, Usage: 2.99%, Memory: 55240 kB
+System Time: 1744716227.812639, Usage: 1.69%, Memory: 55240 kB
+System Time: 1744716228.814177, Usage: 2.08%, Memory: 55240 kB
+System Time: 1744716229.816484, Usage: 1.84%, Memory: 55240 kB
+System Time: 1744716230.819989, Usage: 1.87%, Memory: 55240 kB
+System Time: 1744716231.820110, Usage: 2.85%, Memory: 55240 kB
+System Time: 1744716232.822841, Usage: 2.17%, Memory: 55240 kB
+System Time: 1744716233.818675, Usage: 2.63%, Memory: 55240 kB
+System Time: 1744716234.818516, Usage: 2.04%, Memory: 55240 kB
+System Time: 1744716235.819718, Usage: 3.1%, Memory: 55240 kB
+System Time: 1744716236.819157, Usage: 2.95%, Memory: 55240 kB
+System Time: 1744716237.820591, Usage: 2.17%, Memory: 55240 kB
+System Time: 1744716238.823629, Usage: 2.67%, Memory: 55240 kB
+System Time: 1744716239.826200, Usage: 3.8%, Memory: 55240 kB
+System Time: 1744716240.826841, Usage: 4.71%, Memory: 55240 kB
+System Time: 1744716241.823606, Usage: 1.99%, Memory: 55240 kB
+System Time: 1744716242.828732, Usage: 2.05%, Memory: 55240 kB
+System Time: 1744716243.824178, Usage: 3.08%, Memory: 55240 kB
+CPU Temperature: 0.0
+2025-04-15 07:24:04,001 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-04-15 07:24:04,026 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-04-15 07:24:04,033 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-15 07:24:04,035 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.pause, Code: 503, Message: Klippy Disconnected
+2025-04-15 07:24:04,036 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 503, Message: Klippy Disconnected
+2025-04-15 07:24:04,055 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.

@@ -2305,3 +2305,242 @@ Stats 1967938.6: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_
 Stats 1967939.6: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000010 bytes_write=10858 bytes_read=29539 bytes_retransmit=9 bytes_invalid=0 send_seq=832 receive_seq=832 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=11 upcoming_bytes=0 freq=72002145 sd_pos=22800 heater_bed: target=70 temp=61.9 pwm=0.943 sysload=1.23 cputime=14092.197 memavail=2493852 print_time=378.263 buffer_time=0.000 print_stall=0 extruder: target=150 temp=149.9 pwm=0.159
 Stats 1967940.6: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000010 bytes_write=10911 bytes_read=29671 bytes_retransmit=9 bytes_invalid=0 send_seq=836 receive_seq=836 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002143 sd_pos=22800 heater_bed: target=70 temp=62.0 pwm=1.000 sysload=1.23 cputime=14092.218 memavail=2485560 print_time=379.264 buffer_time=0.000 print_stall=0 extruder: target=150 temp=149.8 pwm=0.180
 Stats 1967941.6: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000010 bytes_write=10949 bytes_read=29784 bytes_retransmit=9 bytes_invalid=0 send_seq=839 receive_seq=839 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002145 sd_pos=22800 heater_bed: target=70 temp=62.2 pwm=1.000 sysload=1.21 cputime=14092.239 memavail=2501488 print_time=380.264 buffer_time=0.000 print_stall=0 extruder: target=150 temp=149.9 pwm=0.180
+Stats 1967942.6: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000010 bytes_write=10987 bytes_read=29912 bytes_retransmit=9 bytes_invalid=0 send_seq=842 receive_seq=842 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002141 sd_pos=22800 heater_bed: target=70 temp=62.4 pwm=0.991 sysload=1.21 cputime=14092.259 memavail=2503892 print_time=381.265 buffer_time=0.000 print_stall=0 extruder: target=150 temp=149.8 pwm=0.180
+Transition to shutdown state: Shutdown due to webhooks request
+Dumping gcode input 0 blocks
+Dumping 20 requests for client 140037650104720
+Received 1967789.027378: b'{"id":140371622029920,"method":"info","params":{}}'
+Received 1967789.037263: b'{"id":140371622029872,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967796.337290: b'{"id":140371622030544,"method":"pause_resume/pause","params":{}}'
+Received 1967818.844314: b'{"id":140371666528816,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967818.894533: b'{"id":140371622029584,"method":"info","params":{}}'
+Received 1967818.902030: b'{"id":140371622028144,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967848.845660: b'{"id":140371667325568,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967849.069180: b'{"id":140371622031216,"method":"info","params":{}}'
+Received 1967849.078721: b'{"id":140371622030592,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967878.844407: b'{"id":140371623916304,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967878.868612: b'{"id":140371622028912,"method":"info","params":{}}'
+Received 1967878.876229: b'{"id":140371622027424,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967896.431876: b'{"id":140371622029440,"method":"gcode/script","params":{"script":"SET_HEATER_TEMPERATURE HEATER=extruder TARGET=220"}}'
+Received 1967908.845403: b'{"id":140371622792448,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967909.025445: b'{"id":140371622028720,"method":"info","params":{}}'
+Received 1967909.037716: b'{"id":140371622028048,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967938.845909: b'{"id":140371622029008,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967939.178381: b'{"id":140371622031264,"method":"info","params":{}}'
+Received 1967939.282405: b'{"id":140371622029008,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
+Received 1967943.280829: b'{"id":140371623917024,"method":"emergency_stop","params":{}}'
+Virtual sdcard (21776): 'IIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCC\n; GEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC\n; CCGEkOT4PxRgt2ReNNc1AAAAAElFTkSuQmCC\n; thumbnail end\n; THUMBNAIL_BLOCK_END\n\n; external perimeters extrusion width = 0.40mm\n; perimeters extrusion width = 0.40mm\n; infill extrusion width = 0.40mm\n; solid infill extrusion width = 0.40mm\n; top infill extrusion width = 0.40mm\n; support material extrusion width = 0.40mm\n; first layer extrusion width = 0.40mm\n\n; EXECUTABLE_BLOCK_START\n\n\n; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0\n; 1 known objects\nEXCLUDE_OBJECT_DEFINE NAME=bracket_stl_id_9223374437551506370_copy_0 CENTER=109.640,113.163 POLYGON=[[61.832,100.165],[61.832,123.407],[158.167,123.407],[158.167,100.165]]\nM73 P0 R27\n;TYPE:Custom\nG28 ; home all axis\nG90 ; use absolute coordinates\nM83 ; extruder relative mode\nled_heating\n;M140 S70 ; set final bed temp\nM104 S150 ; set temporary nozzle temp to prevent oozing during homing\nG4 S10 ; allow partial nozzle warmup\n'
+Upcoming (22800): 'M190 S70 ; wait for bed temp to stabilize\nBED_MESH_CALIBRATE\n\nG1 Z50 F240\nG1 X2 Y10 F3000\nM104 S225 ; set final nozzle temp\n;M19'
+gcode state: absolute_coord=True absolute_extrude=False base_position=[0.0, 0.0, 0.0, 0.0] last_position=[117.5, 117.5, 10.0, 0.0] homing_position=[0.0, 0.0, 0.0, 0.0] speed_factor=0.016666666666666666 extrude_factor=1.0 speed=25.0
+Reactor garbage collection: (1967941.556910106, 0.0, 0.0)
+Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+MCU 'mcu' shutdown: Command request
+clocksync state: mcu_freq=72000000 last_clock=27488908131 clock_est=(1967914.101 25437453292 72002139.298) min_half_rtt=0.001161 min_rtt_time=1967843.129 time_avg=1967914.100(819.953) clock_avg=25437453292.458(59038373038.985) pred_variance=12910705.413
+Dumping serial stats: bytes_write=10999 bytes_read=30012 bytes_retransmit=9 bytes_invalid=0 send_seq=844 receive_seq=844 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0
+Dumping send queue 100 messages
+Sent 0 1967879.564604 1967879.564364 6: seq: 18, get_clock
+Sent 1 1967880.549094 1967880.548854 6: seq: 19, get_clock
+Sent 2 1967880.813830 1967880.813230 15: seq: 1a, queue_digital_out oid=16 clock=1583739520 on_ticks=1206613
+Sent 3 1967881.363421 1967881.362781 16: seq: 1b, queue_digital_out oid=11 clock=1623339520 on_ticks=7200000
+Sent 4 1967881.534533 1967881.534293 6: seq: 1c, get_clock
+Sent 5 1967882.518947 1967882.518707 6: seq: 1d, get_clock
+Sent 6 1967883.504161 1967883.503921 6: seq: 1e, get_clock
+Sent 7 1967884.489135 1967884.488895 6: seq: 1f, get_clock
+Sent 8 1967885.013571 1967885.012971 15: seq: 10, queue_digital_out oid=16 clock=1886139519 on_ticks=1141237
+Sent 9 1967885.473700 1967885.473460 6: seq: 11, get_clock
+Sent 10 1967885.563193 1967885.562553 16: seq: 12, queue_digital_out oid=11 clock=1925739520 on_ticks=7200000
+Sent 11 1967886.458342 1967886.458102 6: seq: 13, get_clock
+Sent 12 1967887.442887 1967887.442647 6: seq: 14, get_clock
+Sent 13 1967888.427622 1967888.427382 6: seq: 15, get_clock
+Sent 14 1967889.213698 1967889.213098 15: seq: 16, queue_digital_out oid=16 clock=2188539520 on_ticks=975618
+Sent 15 1967889.412069 1967889.411829 6: seq: 17, get_clock
+Sent 16 1967889.763084 1967889.762444 16: seq: 18, queue_digital_out oid=11 clock=2228139519 on_ticks=7200000
+Sent 17 1967890.397011 1967890.396771 6: seq: 19, get_clock
+Sent 18 1967891.382411 1967891.382171 6: seq: 1a, get_clock
+Sent 19 1967892.367221 1967892.366981 6: seq: 1b, get_clock
+Sent 20 1967893.351984 1967893.351744 6: seq: 1c, get_clock
+Sent 21 1967893.413212 1967893.412612 15: seq: 1d, queue_digital_out oid=16 clock=2490939520 on_ticks=1034455
+Sent 22 1967893.963034 1967893.962394 16: seq: 1e, queue_digital_out oid=11 clock=2530539520 on_ticks=7200000
+Sent 23 1967894.336922 1967894.336682 6: seq: 1f, get_clock
+Sent 24 1967895.321217 1967895.320977 6: seq: 10, get_clock
+Sent 25 1967896.306028 1967896.305788 6: seq: 11, get_clock
+Sent 26 1967897.290357 1967897.290117 6: seq: 12, get_clock
+Sent 27 1967897.613133 1967897.612533 15: seq: 13, queue_digital_out oid=16 clock=2793339520 on_ticks=1328011
+Sent 28 1967898.163455 1967898.162815 16: seq: 14, queue_digital_out oid=11 clock=2832939520 on_ticks=7200000
+Sent 29 1967898.274846 1967898.274606 6: seq: 15, get_clock
+Sent 30 1967899.259667 1967899.259427 6: seq: 16, get_clock
+Sent 31 1967900.244892 1967900.244652 6: seq: 17, get_clock
+Sent 32 1967901.229821 1967901.229581 6: seq: 18, get_clock
+Sent 33 1967901.812509 1967901.811909 15: seq: 19, queue_digital_out oid=16 clock=3095739520 on_ticks=1170516
+Sent 34 1967902.215164 1967902.214924 6: seq: 1a, get_clock
+Sent 35 1967902.362404 1967902.361764 16: seq: 1b, queue_digital_out oid=11 clock=3135339520 on_ticks=7200000
+Sent 36 1967903.200498 1967903.200258 6: seq: 1c, get_clock
+Sent 37 1967904.185198 1967904.184958 6: seq: 1d, get_clock
+Sent 38 1967905.169876 1967905.169636 6: seq: 1e, get_clock
+Sent 39 1967906.013069 1967906.012469 15: seq: 1f, queue_digital_out oid=16 clock=3398139519 on_ticks=1028372
+Sent 40 1967906.154268 1967906.154028 6: seq: 10, get_clock
+Sent 41 1967906.562737 1967906.562097 16: seq: 11, queue_digital_out oid=11 clock=3437739520 on_ticks=7200000
+Sent 42 1967907.139736 1967907.139496 6: seq: 12, get_clock
+Sent 43 1967908.123670 1967908.123430 6: seq: 13, get_clock
+Sent 44 1967909.108544 1967909.108304 6: seq: 14, get_clock
+Sent 45 1967910.092377 1967910.092137 6: seq: 15, get_clock
+Sent 46 1967910.212516 1967910.211916 15: seq: 16, queue_digital_out oid=16 clock=3700539520 on_ticks=1015562
+Sent 47 1967910.762847 1967910.762207 16: seq: 17, queue_digital_out oid=11 clock=3740139519 on_ticks=7200000
+Sent 48 1967911.077706 1967911.077466 6: seq: 18, get_clock
+Sent 49 1967912.062608 1967912.062368 6: seq: 19, get_clock
+Sent 50 1967913.047034 1967913.046794 6: seq: 1a, get_clock
+Sent 51 1967914.031711 1967914.031471 6: seq: 1b, get_clock
+Sent 52 1967914.412389 1967914.411789 15: seq: 1c, queue_digital_out oid=16 clock=4002939520 on_ticks=1130623
+Sent 53 1967914.963144 1967914.962504 16: seq: 1d, queue_digital_out oid=11 clock=4042539520 on_ticks=7200000
+Sent 54 1967915.016934 1967915.016694 6: seq: 1e, get_clock
+Sent 55 1967916.001939 1967916.001699 6: seq: 1f, get_clock
+Sent 56 1967916.986469 1967916.986229 6: seq: 10, get_clock
+Sent 57 1967917.970962 1967917.970722 6: seq: 11, get_clock
+Sent 58 1967918.612804 1967918.612204 15: seq: 12, queue_digital_out oid=16 clock=10372224 on_ticks=1153484
+Sent 59 1967918.955428 1967918.955188 6: seq: 13, get_clock
+Sent 60 1967919.162949 1967919.162309 16: seq: 14, queue_digital_out oid=11 clock=49972224 on_ticks=7200000
+Sent 61 1967919.940346 1967919.940106 6: seq: 15, get_clock
+Sent 62 1967920.924526 1967920.924286 6: seq: 16, get_clock
+Sent 63 1967921.910718 1967921.910478 6: seq: 17, get_clock
+Sent 64 1967922.811974 1967922.811374 15: seq: 18, queue_digital_out oid=16 clock=312772224 on_ticks=1177338
+Sent 65 1967922.895600 1967922.895360 6: seq: 19, get_clock
+Sent 66 1967923.362955 1967923.362315 16: seq: 1a, queue_digital_out oid=11 clock=352372224 on_ticks=7200000
+Sent 67 1967923.880879 1967923.880639 6: seq: 1b, get_clock
+Sent 68 1967924.865441 1967924.865201 6: seq: 1c, get_clock
+Sent 69 1967925.850254 1967925.850014 6: seq: 1d, get_clock
+Sent 70 1967926.834513 1967926.834273 6: seq: 1e, get_clock
+Sent 71 1967927.012622 1967927.012022 15: seq: 1f, queue_digital_out oid=16 clock=615172223 on_ticks=1043213
+Sent 72 1967927.561811 1967927.561171 16: seq: 10, queue_digital_out oid=11 clock=654772224 on_ticks=7200000
+Sent 73 1967927.819632 1967927.819392 6: seq: 11, get_clock
+Sent 74 1967928.804026 1967928.803786 6: seq: 12, get_clock
+Sent 75 1967929.788320 1967929.788080 6: seq: 13, get_clock
+Sent 76 1967930.773027 1967930.772787 6: seq: 14, get_clock
+Sent 77 1967931.212416 1967931.211816 15: seq: 15, queue_digital_out oid=16 clock=917572224 on_ticks=914442
+Sent 78 1967931.758451 1967931.757771 17: seq: 16, get_clock, queue_digital_out oid=11 clock=957172223 on_ticks=7200000
+Sent 79 1967932.743210 1967932.742970 6: seq: 17, get_clock
+Sent 80 1967933.728409 1967933.728169 6: seq: 18, get_clock
+Sent 81 1967934.713470 1967934.713230 6: seq: 19, get_clock
+Sent 82 1967935.411396 1967935.410796 15: seq: 1a, queue_digital_out oid=16 clock=1219972224 on_ticks=1148365
+Sent 83 1967935.698657 1967935.698417 6: seq: 1b, get_clock
+Sent 84 1967935.961586 1967935.960946 16: seq: 1c, queue_digital_out oid=11 clock=1259572224 on_ticks=7200000
+Sent 85 1967936.682960 1967936.682720 6: seq: 1d, get_clock
+Sent 86 1967937.667453 1967937.667213 6: seq: 1e, get_clock
+Sent 87 1967938.652567 1967938.652327 6: seq: 1f, get_clock
+Sent 88 1967939.561734 1967939.561094 16: seq: 10, queue_digital_out oid=11 clock=1518772224 on_ticks=6787595
+Sent 89 1967939.611969 1967939.611369 15: seq: 11, queue_digital_out oid=16 clock=1522372224 on_ticks=1295738
+Sent 90 1967939.637277 1967939.637037 6: seq: 12, get_clock
+Sent 91 1967940.162509 1967940.161869 16: seq: 13, queue_digital_out oid=11 clock=1561972224 on_ticks=7200000
+Sent 92 1967940.623235 1967940.622995 6: seq: 14, get_clock
+Sent 93 1967941.061585 1967941.060945 16: seq: 15, queue_digital_out oid=11 clock=1626772224 on_ticks=6251331
+Sent 94 1967941.362322 1967941.361682 16: seq: 16, queue_digital_out oid=11 clock=1648372224 on_ticks=7200000
+Sent 95 1967941.607260 1967941.607020 6: seq: 17, get_clock
+Sent 96 1967941.961819 1967941.961179 16: seq: 18, queue_digital_out oid=11 clock=1691572224 on_ticks=6174680
+Sent 97 1967942.261278 1967942.260638 16: seq: 19, queue_digital_out oid=11 clock=1713172223 on_ticks=7131747
+Sent 98 1967942.591635 1967942.591395 6: seq: 1a, get_clock
+Sent 99 1967943.285905 1967943.285665 6: seq: 1b, emergency_stop
+Dumping receive queue 100 messages
+Receive: 0 1967930.776030 1967930.773027 11: seq: 15, clock clock=868143951
+Receive: 1 1967930.811030 1967930.773027 15: seq: 15, analog_in_state oid=10 next_clock=891796224 value=27393
+Receive: 2 1967930.861114 1967930.773027 14: seq: 15, analog_in_state oid=15 next_clock=895396224 value=8468
+Receive: 3 1967931.111515 1967930.773027 15: seq: 15, analog_in_state oid=10 next_clock=913396224 value=27383
+Receive: 4 1967931.161184 1967930.773027 14: seq: 15, analog_in_state oid=15 next_clock=916996224 value=8465
+Receive: 5 1967931.411313 1967931.212416 15: seq: 16, analog_in_state oid=10 next_clock=934996224 value=27373
+Receive: 6 1967931.461449 1967931.212416 14: seq: 16, analog_in_state oid=15 next_clock=938596224 value=8467
+Receive: 7 1967931.712089 1967931.212416 15: seq: 16, analog_in_state oid=10 next_clock=956596224 value=27363
+Receive: 8 1967931.761588 1967931.758451 11: seq: 17, clock clock=939095444
+Receive: 9 1967931.761502 1967931.758451 14: seq: 17, analog_in_state oid=15 next_clock=960196224 value=8466
+Receive: 10 1967932.011421 1967931.758451 15: seq: 17, analog_in_state oid=10 next_clock=978196224 value=27350
+Receive: 11 1967932.061038 1967931.758451 14: seq: 17, analog_in_state oid=15 next_clock=981796224 value=8465
+Receive: 12 1967932.311749 1967931.758451 15: seq: 17, analog_in_state oid=10 next_clock=999796224 value=27343
+Receive: 13 1967932.360949 1967931.758451 14: seq: 17, analog_in_state oid=15 next_clock=1003396224 value=8467
+Receive: 14 1967932.611541 1967931.758451 15: seq: 17, analog_in_state oid=10 next_clock=1021396224 value=27335
+Receive: 15 1967932.660918 1967931.758451 14: seq: 17, analog_in_state oid=15 next_clock=1024996224 value=8465
+Receive: 16 1967932.746031 1967932.743210 11: seq: 18, clock clock=1009998729
+Receive: 17 1967932.911107 1967932.743210 15: seq: 18, analog_in_state oid=10 next_clock=1042996224 value=27323
+Receive: 18 1967932.961618 1967932.743210 14: seq: 18, analog_in_state oid=15 next_clock=1046596224 value=8466
+Receive: 19 1967933.204118 1967932.743210 13: seq: 18, stats count=91 sum=97078 sumsq=585328
+Receive: 20 1967933.211205 1967932.743210 15: seq: 18, analog_in_state oid=10 next_clock=1064596224 value=27316
+Receive: 21 1967933.261335 1967932.743210 14: seq: 18, analog_in_state oid=15 next_clock=1068196224 value=8467
+Receive: 22 1967933.511134 1967932.743210 15: seq: 18, analog_in_state oid=10 next_clock=1086196224 value=27305
+Receive: 23 1967933.561073 1967932.743210 14: seq: 18, analog_in_state oid=15 next_clock=1089796224 value=8467
+Receive: 24 1967933.731339 1967933.728409 11: seq: 19, clock clock=1080935901
+Receive: 25 1967933.811082 1967933.728409 15: seq: 19, analog_in_state oid=10 next_clock=1107796224 value=27293
+Receive: 26 1967933.861842 1967933.728409 14: seq: 19, analog_in_state oid=15 next_clock=1111396224 value=8469
+Receive: 27 1967934.110958 1967933.728409 15: seq: 19, analog_in_state oid=10 next_clock=1129396224 value=27284
+Receive: 28 1967934.161792 1967933.728409 14: seq: 19, analog_in_state oid=15 next_clock=1132996224 value=8470
+Receive: 29 1967934.411328 1967933.728409 15: seq: 19, analog_in_state oid=10 next_clock=1150996224 value=27276
+Receive: 30 1967934.461816 1967933.728409 14: seq: 19, analog_in_state oid=15 next_clock=1154596224 value=8471
+Receive: 31 1967934.711205 1967933.728409 15: seq: 19, analog_in_state oid=10 next_clock=1172596224 value=27267
+Receive: 32 1967934.715937 1967934.713470 11: seq: 1a, clock clock=1151859249
+Receive: 33 1967934.760913 1967934.713470 14: seq: 1a, analog_in_state oid=15 next_clock=1176196224 value=8472
+Receive: 34 1967935.010883 1967934.713470 15: seq: 1a, analog_in_state oid=10 next_clock=1194196224 value=27259
+Receive: 35 1967935.061161 1967934.713470 14: seq: 1a, analog_in_state oid=15 next_clock=1197796224 value=8473
+Receive: 36 1967935.311108 1967934.713470 15: seq: 1a, analog_in_state oid=10 next_clock=1215796224 value=27249
+Receive: 37 1967935.360835 1967934.713470 14: seq: 1a, analog_in_state oid=15 next_clock=1219396224 value=8475
+Receive: 38 1967935.611212 1967935.411396 15: seq: 1b, analog_in_state oid=10 next_clock=1237396224 value=27234
+Receive: 39 1967935.661199 1967935.411396 14: seq: 1b, analog_in_state oid=15 next_clock=1240996224 value=8478
+Receive: 40 1967935.701060 1967935.698657 11: seq: 1c, clock clock=1222796709
+Receive: 41 1967935.910831 1967935.698657 15: seq: 1c, analog_in_state oid=10 next_clock=1258996224 value=27228
+Receive: 42 1967935.960892 1967935.698657 14: seq: 1c, analog_in_state oid=15 next_clock=1262596224 value=8480
+Receive: 43 1967936.210761 1967935.961586 15: seq: 1d, analog_in_state oid=10 next_clock=1280596224 value=27219
+Receive: 44 1967936.260910 1967935.961586 14: seq: 1d, analog_in_state oid=15 next_clock=1284196224 value=8482
+Receive: 45 1967936.510815 1967935.961586 15: seq: 1d, analog_in_state oid=10 next_clock=1302196224 value=27210
+Receive: 46 1967936.560875 1967935.961586 14: seq: 1d, analog_in_state oid=15 next_clock=1305796224 value=8482
+Receive: 47 1967936.685498 1967936.682960 11: seq: 1e, clock clock=1293667947
+Receive: 48 1967936.810877 1967936.682960 15: seq: 1e, analog_in_state oid=10 next_clock=1323796224 value=27197
+Receive: 49 1967936.860896 1967936.682960 14: seq: 1e, analog_in_state oid=15 next_clock=1327396224 value=8484
+Receive: 50 1967937.110870 1967936.682960 15: seq: 1e, analog_in_state oid=10 next_clock=1345396224 value=27190
+Receive: 51 1967937.160788 1967936.682960 14: seq: 1e, analog_in_state oid=15 next_clock=1348996224 value=8488
+Receive: 52 1967937.410710 1967936.682960 15: seq: 1e, analog_in_state oid=10 next_clock=1366996224 value=27179
+Receive: 53 1967937.460750 1967936.682960 14: seq: 1e, analog_in_state oid=15 next_clock=1370596224 value=8488
+Receive: 54 1967937.669919 1967937.667453 11: seq: 1f, clock clock=1364553855
+Receive: 55 1967937.710694 1967937.667453 15: seq: 1f, analog_in_state oid=10 next_clock=1388596224 value=27171
+Receive: 56 1967937.760781 1967937.667453 14: seq: 1f, analog_in_state oid=15 next_clock=1392196224 value=8493
+Receive: 57 1967938.010884 1967937.667453 15: seq: 1f, analog_in_state oid=10 next_clock=1410196224 value=27156
+Receive: 58 1967938.060839 1967937.667453 14: seq: 1f, analog_in_state oid=15 next_clock=1413796224 value=8492
+Receive: 59 1967938.304670 1967937.667453 13: seq: 1f, stats count=93 sum=99015 sumsq=588828
+Receive: 60 1967938.310992 1967937.667453 15: seq: 1f, analog_in_state oid=10 next_clock=1431796224 value=27152
+Receive: 61 1967938.361186 1967937.667453 14: seq: 1f, analog_in_state oid=15 next_clock=1435396224 value=8496
+Receive: 62 1967938.611637 1967937.667453 15: seq: 1f, analog_in_state oid=10 next_clock=1453396224 value=27138
+Receive: 63 1967938.655805 1967938.652567 11: seq: 10, clock clock=1435485555
+Receive: 64 1967938.662348 1967938.652567 14: seq: 10, analog_in_state oid=15 next_clock=1456996224 value=8497
+Receive: 65 1967938.911347 1967938.652567 15: seq: 10, analog_in_state oid=10 next_clock=1474996224 value=27136
+Receive: 66 1967938.962100 1967938.652567 14: seq: 10, analog_in_state oid=15 next_clock=1478596224 value=8496
+Receive: 67 1967939.211177 1967938.652567 15: seq: 10, analog_in_state oid=10 next_clock=1496596224 value=27124
+Receive: 68 1967939.261989 1967938.652567 14: seq: 10, analog_in_state oid=15 next_clock=1500196224 value=8497
+Receive: 69 1967939.510813 1967938.652567 15: seq: 10, analog_in_state oid=10 next_clock=1518196224 value=27109
+Receive: 70 1967939.560872 1967938.652567 14: seq: 10, analog_in_state oid=15 next_clock=1521796224 value=8500
+Receive: 71 1967939.639769 1967939.637277 11: seq: 13, clock clock=1506385287
+Receive: 72 1967939.811456 1967939.637277 15: seq: 13, analog_in_state oid=10 next_clock=1539796224 value=27098
+Receive: 73 1967939.861981 1967939.637277 14: seq: 13, analog_in_state oid=15 next_clock=1543396224 value=8500
+Receive: 74 1967940.111195 1967939.637277 15: seq: 13, analog_in_state oid=10 next_clock=1561396224 value=27091
+Receive: 75 1967940.161348 1967939.637277 14: seq: 13, analog_in_state oid=15 next_clock=1564996224 value=8501
+Receive: 76 1967940.411404 1967940.162509 15: seq: 14, analog_in_state oid=10 next_clock=1582996224 value=27081
+Receive: 77 1967940.461137 1967940.162509 14: seq: 14, analog_in_state oid=15 next_clock=1586596224 value=8505
+Receive: 78 1967940.626144 1967940.623235 11: seq: 15, clock clock=1577378619
+Receive: 79 1967940.711121 1967940.623235 15: seq: 15, analog_in_state oid=10 next_clock=1604596224 value=27073
+Receive: 80 1967940.761008 1967940.623235 14: seq: 15, analog_in_state oid=15 next_clock=1608196224 value=8506
+Receive: 81 1967941.011184 1967940.623235 15: seq: 15, analog_in_state oid=10 next_clock=1626196224 value=27057
+Receive: 82 1967941.061259 1967940.623235 14: seq: 15, analog_in_state oid=15 next_clock=1629796224 value=8503
+Receive: 83 1967941.310764 1967941.061585 15: seq: 16, analog_in_state oid=10 next_clock=1647796224 value=27054
+Receive: 84 1967941.361152 1967941.061585 14: seq: 16, analog_in_state oid=15 next_clock=1651396224 value=8504
+Receive: 85 1967941.611000 1967941.607260 11: seq: 18, clock clock=1648226799
+Receive: 86 1967941.610857 1967941.607260 15: seq: 18, analog_in_state oid=10 next_clock=1669396224 value=27046
+Receive: 87 1967941.661021 1967941.607260 14: seq: 18, analog_in_state oid=15 next_clock=1672996224 value=8504
+Receive: 88 1967941.910888 1967941.607260 15: seq: 18, analog_in_state oid=10 next_clock=1690996224 value=27029
+Receive: 89 1967941.961198 1967941.607260 14: seq: 18, analog_in_state oid=15 next_clock=1694596224 value=8504
+Receive: 90 1967942.210703 1967941.961819 15: seq: 19, analog_in_state oid=10 next_clock=1712596224 value=27024
+Receive: 91 1967942.260620 1967941.961819 14: seq: 19, analog_in_state oid=15 next_clock=1716196224 value=8507
+Receive: 92 1967942.510645 1967942.261278 15: seq: 1a, analog_in_state oid=10 next_clock=1734196224 value=27018
+Receive: 93 1967942.560678 1967942.261278 14: seq: 1a, analog_in_state oid=15 next_clock=1737796224 value=8504
+Receive: 94 1967942.594093 1967942.591635 11: seq: 1b, clock clock=1719104355
+Receive: 95 1967942.810619 1967942.591635 15: seq: 1b, analog_in_state oid=10 next_clock=1755796224 value=27008
+Receive: 96 1967942.860665 1967942.591635 14: seq: 1b, analog_in_state oid=15 next_clock=1759396224 value=8504
+Receive: 97 1967943.110614 1967942.591635 15: seq: 1b, analog_in_state oid=10 next_clock=1777396224 value=27004
+Receive: 98 1967943.160815 1967942.591635 14: seq: 1b, analog_in_state oid=15 next_clock=1780996224 value=8503
+Receive: 99 1967943.288754 1967943.285905 12: seq: 1c, shutdown clock=1769094309 static_string_id=Command request
