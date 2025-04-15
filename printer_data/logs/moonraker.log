@@ -1012,3 +1012,5 @@ Rollback Repo: fluidd-core/fluidd
 2025-04-15 07:24:31,535 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2025-04-15 07:24:31,919 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: -32601, Message: Method not found
 2025-04-15 07:24:32,596 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-04-15 07:24:35,213 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-15 07:24:36,472 [klippy_connection.py:_do_connect()] - Klippy Connection Established
