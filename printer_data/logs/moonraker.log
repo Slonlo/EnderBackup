@@ -2279,3 +2279,30 @@ Properties:
 2025-04-15 07:45:49,511 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 6.29ms
 2025-04-15 07:45:49,512 [websockets.py:open()] - Websocket Opened: ID: 139691276426208, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-04-15 07:45:49,516 [websockets.py:_handle_identify()] - Websocket 139691276426208 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-15 08:03:50,585 [websockets.py:on_close()] - Websocket Closed: ID: 139691276426208 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.01
+2025-04-15 08:07:17,106 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 7.48ms
+2025-04-15 08:07:17,107 [websockets.py:open()] - Websocket Opened: ID: 139691275631968, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-04-15 08:07:17,113 [websockets.py:_handle_identify()] - Websocket 139691275631968 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-15 08:08:55,679 [websockets.py:on_close()] - Websocket Closed: ID: 139691275631968 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.55
+2025-04-15 08:16:15,938 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-04-15 08:16:15,961 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-04-15 08:16:15,969 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-15 08:16:15,987 [eventloop.py:_wrapper()] - Error Running Callback
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/eventloop.py", line 89, in _wrapper
+    await ret
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1247, in do_service_action
+    await mgr.call_stop_unit(service_name, "replace")   # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
