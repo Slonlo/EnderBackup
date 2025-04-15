@@ -314,3 +314,22 @@ Content-Type: multipart/form-data; boundary=------------------------6b36d217f755
 2025-04-15 07:21:00,515 [klippy_apis.py:start_print()] - Requesting Job Start, filename = bracket_PLA_27m20s.gcode
 2025-04-15 07:21:00,548 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 2305.33ms
 2025-04-15 07:21:00,596 [power.py:_handle_job_queued()] - Power Device Power: Job 'bracket_PLA_27m20s.gcode' queued, powering on
+2025-04-15 07:21:04,585 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-04-15 07:21:05,849 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-04-15 07:21:05,931 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', 'system.slice', '-.mount']
+**After=['systemd-journald.socket', 'network-online.target', 'basic.target', '-.mount', 'sysinit.target', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+2025-04-15 07:21:08,953 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-04-15 07:21:08,956 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
