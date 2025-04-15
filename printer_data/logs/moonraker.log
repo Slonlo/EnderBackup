@@ -340,3 +340,4 @@ Properties:
 2025-04-15 07:21:10,965 [job_state.py:_status_update()] - Job Started: bracket_PLA_27m20s.gcode
 2025-04-15 07:21:36,838 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-04-15 07:22:36,842 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 60.00 seconds
+2025-04-15 07:23:36,846 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 120.01 seconds
