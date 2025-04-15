@@ -2274,3 +2274,5 @@ Properties:
 2025-04-15 07:26:55,380 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-04-15 07:26:55,648 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-04-15 07:26:56,140 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-04-15 07:28:32,589 [klippy_apis.py:start_print()] - Requesting Job Start, filename = bracket_PLA_27m20s.gcode
+2025-04-15 07:28:32,766 [job_state.py:_status_update()] - Job Started: bracket_PLA_27m20s.gcode
