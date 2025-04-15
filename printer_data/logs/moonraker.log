@@ -400,3 +400,5 @@ Traceback (most recent call last):
   File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
     raise DBusError._from_message(msg)
 dbus_fast.errors.DBusError: Unit klipper-mcu.service not loaded.
+2025-04-15 07:24:18,939 [server.py:_handle_term_signal()] - Exiting with signal SIGTERM
+2025-04-15 07:24:19,046 [websockets.py:on_close()] - Websocket Closed: ID: 140371666553104 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 2.88
