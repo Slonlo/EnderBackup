@@ -296,3 +296,21 @@ Diverged: False
 Pinned Commit: None
 2025-04-15 01:17:10,205 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
 2025-04-15 01:17:10,205 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2025-04-15 07:17:35,594 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-04-15 07:17:35,596 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 5.36ms
+2025-04-15 07:17:35,597 [websockets.py:open()] - Websocket Opened: ID: 140371666554352, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-04-15 07:17:35,603 [websockets.py:_handle_identify()] - Websocket 140371666554352 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-04-15 07:17:39,889 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-04-15 07:17:39,918 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-04-15 07:17:39,935 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
+2025-04-15 07:20:58,246 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------6b36d217f755d7b4
+2025-04-15 07:20:58,349 [application.py:post()] - Processing Uploaded File: bracket_PLA_27m20s.gcode
+2025-04-15 07:20:58,926 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-04-15 07:20:58,928 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: bracket_PLA_27m20s.gcode, sliced by OrcaSlicer
+
+2025-04-15 07:21:00,513 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-8clx1dws.json) successfully finished
+2025-04-15 07:21:00,515 [klippy_apis.py:start_print()] - Requesting Job Start, filename = bracket_PLA_27m20s.gcode
+2025-04-15 07:21:00,548 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 2305.33ms
+2025-04-15 07:21:00,596 [power.py:_handle_job_queued()] - Power Device Power: Job 'bracket_PLA_27m20s.gcode' queued, powering on
