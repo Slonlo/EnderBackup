@@ -279,3 +279,33 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-04-18 00:26:18,973 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
 2025-04-18 00:26:19,539 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
 2025-04-18 00:26:19,762 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-04-18 00:26:20,100 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2025-04-18 00:26:20,663 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2025-04-18 00:26:21,165 [git_deploy.py:refresh_repo_state()] - Git Repo fluidd-config: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2025-04-18 00:26:21,166 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2025-04-18 00:26:21,166 [base_deploy.py:log_info()] - Git Repo fluidd-config: Repo validation check failed, updates disabled
+2025-04-18 00:26:21,791 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-04-18 00:26:22,193 [base_deploy.py:log_info()] - Web Client fluidd: Github Request Error - [Errno -3] Temporary failure in name resolution
+2025-04-18 00:26:22,193 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.34.1
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.1/fluidd.zip
+Download Size: 4318649
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
+2025-04-18 00:26:23,812 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
