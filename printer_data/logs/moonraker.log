@@ -292,3 +292,33 @@ moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authent
 2025-04-20 01:26:19,859 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
 2025-04-20 01:26:21,887 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
 2025-04-20 01:26:23,920 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-04-20 01:56:19,876 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-04-20 01:56:21,915 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-04-20 01:56:23,950 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-04-20 02:26:18,316 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-04-20 02:26:18,350 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-04-20 02:26:18,406 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-04-20 02:26:18,482 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:19,058 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:19,640 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:19,906 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-04-20 02:26:20,220 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:20,793 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:21,297 [git_deploy.py:refresh_repo_state()] - Git Repo moonraker: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2025-04-20 02:26:21,298 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-04-20 02:26:21,298 [base_deploy.py:log_info()] - Git Repo moonraker: Repo validation check failed, updates disabled
+2025-04-20 02:26:21,387 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2025-04-20 02:26:21,411 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2025-04-20 02:26:21,469 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
+2025-04-20 02:26:21,529 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:21,976 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-04-20 02:26:22,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:22,663 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
