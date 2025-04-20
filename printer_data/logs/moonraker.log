@@ -275,3 +275,18 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-04-20 00:26:19,850 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
 2025-04-20 00:26:21,873 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
 2025-04-20 00:26:23,894 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-04-20 00:56:19,872 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-04-20 00:56:21,940 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-04-20 00:56:23,975 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-04-20 01:26:18,458 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
+    await self._update_package_cache(force=True)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
+    await self.provider.refresh_packages(notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
+    await self.run_transaction("refresh_cache", False, notify=notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
+    return await transaction.run(method, *args, notify=notify)
+moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-04-20 01:26:19,859 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
