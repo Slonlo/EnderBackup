@@ -322,3 +322,55 @@ moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --prog
 2025-04-20 02:26:21,976 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
 2025-04-20 02:26:22,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
 2025-04-20 02:26:22,663 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:23,225 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:23,788 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:24,008 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-04-20 02:26:24,291 [git_deploy.py:refresh_repo_state()] - Git Repo klipper: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2025-04-20 02:26:24,292 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2025-04-20 02:26:24,293 [base_deploy.py:log_info()] - Git Repo klipper: Repo validation check failed, updates disabled
+2025-04-20 02:26:25,319 [base_deploy.py:log_info()] - Web Client mainsail: Github Request Error - [Errno -3] Temporary failure in name resolution
+2025-04-20 02:26:25,320 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.13.2
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.13.2/mainsail.zip
+Download Size: 2655517
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2025-04-20 02:26:25,376 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2025-04-20 02:26:25,400 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2025-04-20 02:26:25,448 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
+2025-04-20 02:26:25,513 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:26,080 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:26,644 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:27,211 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:27,774 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:28,276 [git_deploy.py:refresh_repo_state()] - Git Repo mainsail-config: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2025-04-20 02:26:28,277 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2025-04-20 02:26:28,278 [base_deploy.py:log_info()] - Git Repo mainsail-config: Repo validation check failed, updates disabled
+2025-04-20 02:26:28,336 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar status --porcelain -b) successfully finished
+2025-04-20 02:26:28,364 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
+2025-04-20 02:26:28,412 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
+2025-04-20 02:26:28,481 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) exited with return code 128
