@@ -374,3 +374,41 @@ moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --prog
 2025-04-20 02:26:28,364 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
 2025-04-20 02:26:28,412 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
 2025-04-20 02:26:28,481 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:29,043 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:29,606 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:30,169 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:30,732 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:31,234 [git_deploy.py:refresh_repo_state()] - Git Repo sonar: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2025-04-20 02:26:31,235 [base_deploy.py:log_info()] - Git Repo sonar: Channel: dev
+2025-04-20 02:26:31,235 [base_deploy.py:log_info()] - Git Repo sonar: Repo validation check failed, updates disabled
+2025-04-20 02:26:31,306 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging status --porcelain -b) successfully finished
+2025-04-20 02:26:31,335 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging branch --list --no-color) successfully finished
+2025-04-20 02:26:31,385 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging remote get-url origin) successfully finished
+2025-04-20 02:26:31,445 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:32,006 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:32,573 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:33,138 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:33,699 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) exited with return code 128
+2025-04-20 02:26:34,202 [git_deploy.py:refresh_repo_state()] - Git Repo Klipper-Adaptive-Meshing-Purging: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2025-04-20 02:26:34,202 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
+2025-04-20 02:26:34,203 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Repo validation check failed, updates disabled
+2025-04-20 02:26:34,276 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
+2025-04-20 02:26:34,302 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
+2025-04-20 02:26:34,352 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
+2025-04-20 02:26:34,417 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) exited with return code 128
