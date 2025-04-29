@@ -23,3 +23,1521 @@ Traceback (most recent call last):
   File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
     sock.connect(address)
 OSError: [Errno 101] Network is unreachable
+2025-04-29 00:25:25,142 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:26:25,208 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:27:25,275 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:28:25,341 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:29:25,407 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:30:25,473 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:31:25,536 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:32:25,600 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:33:25,664 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:34:25,730 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:35:25,795 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:36:25,861 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:37:25,921 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:38:25,984 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:39:26,051 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:40:26,112 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:41:26,177 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:42:26,240 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:43:26,305 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:44:26,344 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:45:26,409 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:46:26,432 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:47:26,497 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:48:26,537 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:49:26,545 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:50:26,608 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:51:26,645 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:52:26,711 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:53:26,773 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:54:26,832 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:55:26,898 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:56:26,964 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:57:27,031 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:58:27,096 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 00:59:27,160 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:00:27,225 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:01:27,288 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:02:27,329 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:03:27,344 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:04:27,409 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:05:27,473 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:06:27,539 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:07:27,605 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:08:27,628 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:09:27,693 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:10:27,756 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:11:27,777 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:12:27,844 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:13:27,909 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:14:27,975 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:15:28,040 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:16:28,049 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:17:28,081 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:18:28,124 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:19:28,188 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:20:28,252 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:21:28,316 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:22:28,380 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:23:28,444 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:24:28,503 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:25:28,565 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:26:28,629 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:27:28,695 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:28:28,757 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:29:28,820 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2025-04-29 01:30:28,882 websockets.client INFO - ! connect failed again; retrying in 60 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
