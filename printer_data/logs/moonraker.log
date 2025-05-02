@@ -998,3 +998,4 @@ Content-Type: multipart/form-data; boundary=------------------------160b6ec137a6
 2025-05-02 09:03:24,666 [job_state.py:_status_update()] - Job Started: wheel_PLA_1h34m.gcode
 2025-05-02 09:04:18,110 [klippy_apis.py:pause_print()] - Requesting job pause...
 2025-05-02 09:05:18,111 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 60.00 seconds
+2025-05-02 09:06:18,113 [klippy_connection.py:wait()] - Request 'pause_resume/pause' pending: 120.00 seconds
