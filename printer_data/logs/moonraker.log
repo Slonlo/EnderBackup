@@ -970,3 +970,14 @@ Properties:
 2025-05-02 08:55:48,426 [websockets.py:open()] - Websocket Opened: ID: 140053531114320, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-05-02 08:55:48,445 [websockets.py:_handle_identify()] - Websocket 140053531114320 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-05-02 08:55:53,357 [websockets.py:on_close()] - Websocket Closed: ID: 140053531071584 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.83
+2025-05-02 08:56:00,747 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-05-02 08:56:00,773 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-05-02 08:56:00,793 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.on, Code: -31000, Message: Unit klipper-mcu.service not found.
+2025-05-02 08:56:02,676 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-05-02 08:56:02,679 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.62ms
+2025-05-02 08:56:02,680 [websockets.py:open()] - Websocket Opened: ID: 140053531204192, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-02 08:56:06,236 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-05-02 08:56:06,238 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-05-02 08:56:06,487 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-05-02 08:56:06,762 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-05-02 08:56:07,247 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
