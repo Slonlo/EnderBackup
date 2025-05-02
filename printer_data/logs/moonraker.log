@@ -309,3 +309,346 @@ Content Type: application/zip
 Rollback Version: v1.33.0
 Rollback Repo: fluidd-core/fluidd
 2025-05-02 01:31:01,386 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 02:00:57,300 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 02:00:59,337 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 02:01:01,377 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 02:30:57,310 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 02:30:59,350 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 02:31:01,388 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 03:00:57,311 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 03:00:59,345 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 03:01:01,382 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 03:30:57,306 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 03:30:59,342 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 03:31:01,377 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 04:00:57,309 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 04:00:59,346 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 04:01:01,382 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 04:30:57,305 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 04:30:59,337 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 04:31:01,368 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 05:00:57,308 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 05:00:59,352 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 05:01:01,392 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 05:30:57,313 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 05:30:59,351 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 05:31:01,387 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 06:00:57,313 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 06:00:59,346 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 06:01:01,378 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 06:30:57,316 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 06:30:59,350 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 06:31:01,378 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 07:00:57,314 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 07:00:59,354 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 07:01:01,393 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 07:30:57,309 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 07:30:59,344 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 07:31:01,380 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 08:00:57,310 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 08:00:59,343 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 08:01:01,373 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-05-02 08:30:57,313 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2025-05-02 08:30:59,342 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2025-05-02 08:31:01,374 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+-------------------- Log Start | Fri May  2 12:55:36 2025 --------------------
+platform: Linux-5.15.0-138-generic-x86_64-with-glibc2.29
+data_path: /home/chase/printer_data
+is_default_data_path: False
+config_file: /home/chase/printer_data/config/moonraker.conf
+backup_config: None
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: b8aeafbbdbb14078bbacb03f480f8081
+unix_socket_path: /home/chase/printer_data/comms/moonraker.sock
+software_version: v0.9.3-58-ga0164e1
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker
+modified_files: []
+unofficial_components: []
+log_file: /home/chase/printer_data/logs/moonraker.log
+python_version: 3.8.10 (default, Mar 18 2025, 20:04:55)  [GCC 9.4.0]
+launch_args: /home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/moonraker.py -d /home/chase/printer_data
+msgspec_enabled: True
+uvloop_enabled: True
+2025-05-02 08:55:36,623 [confighelper.py:read_file()] - Configuration File '/home/chase/printer_data/config/moonraker.conf' parsed, total size: 4805 B
+2025-05-02 08:55:36,638 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[file_manager]
+enable_object_processing = True
+queue_gcode_uploads = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+	https://ender.slonlo.com
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	192.168.1.121
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+[power Power]
+type = tplink_smartplug
+address = 192.168.1.31
+off_when_shutdown = True
+on_when_job_queued = True
+restart_klipper_when_powered = True
+locked_while_printing = False
+bound_services = 
+	klipper
+	klipper-mcu
+
+[wled printerled]
+type = http
+address = 192.168.1.154
+initial_red = 0.0
+initial_green = 0.0
+initial_blue = 0.0
+chain_count = 20
+
+[job_queue]
+load_on_startup = True
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/chase/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/chase/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager mobileraker]
+type = git_repo
+path = /home/chase/mobileraker_companion
+origin = https://github.com/Clon1998/mobileraker_companion.git
+primary_branch = main
+managed_services = mobileraker
+env = /home/chase/mobileraker-env/bin/python
+requirements = scripts/mobileraker-requirements.txt
+install_script = scripts/install.sh
+
+[update_manager fluidd-config]
+type = git_repo
+primary_branch = master
+path = ~/fluidd-config
+origin = https://github.com/fluidd-core/fluidd-config.git
+managed_services = klipper
+
+[update_manager fluidd]
+type = web
+channel = stable
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
+#################################################################
+All Configuration Files:
+/home/chase/printer_data/config/moonraker.conf
+/home/chase/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+2025-05-02 08:55:37,051 [server.py:load_component()] - Component (secrets) loaded
+2025-05-02 08:55:37,082 [server.py:load_component()] - Component (template) loaded
+2025-05-02 08:55:37,116 [server.py:load_component()] - Component (klippy_connection) loaded
+2025-05-02 08:55:38,714 [server.py:load_component()] - Component (application) loaded
+2025-05-02 08:55:38,798 [server.py:load_component()] - Component (websockets) loaded
+2025-05-02 08:55:38,841 [server.py:add_log_rollover_item()] - Loading Sqlite database provider. Sqlite Version: 3.31.1
+2025-05-02 08:55:38,846 [server.py:add_log_rollover_item()] - Unsafe Shutdown Count: 7
+2025-05-02 08:55:38,858 [server.py:load_component()] - Component (database) loaded
+2025-05-02 08:55:39,157 [server.py:load_component()] - Component (dbus_manager) loaded
+2025-05-02 08:55:39,208 [file_manager.py:__init__()] - Using File System Observer: inotify
+2025-05-02 08:55:39,404 [server.py:load_component()] - Component (file_manager) loaded
+2025-05-02 08:55:39,673 [database.py:register_table()] - Found registered table authorized_users
+2025-05-02 08:55:39,720 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+192.168.1.121
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+https://my\.mainsail\.xyz
+http://my\.mainsail\.xyz
+http://.*\.local
+http://.*\.lan
+https://ender\.slonlo\.com
+2025-05-02 08:55:39,774 [server.py:load_component()] - Component (authorization) loaded
+2025-05-02 08:55:39,847 [server.py:load_component()] - Component (klippy_apis) loaded
+2025-05-02 08:55:41,608 [server.py:add_log_rollover_item()] - 
+System Info:
+
+***python***
+  version: (3, 8, 10, 'final', 0)
+  version_string: 3.8.10 (default, Mar 18 2025, 20:04:55)  [GCC 9.4.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 64bit
+  processor: x86_64
+  cpu_desc: Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+  serial_number: 
+  hardware_desc: 
+  model: 
+  total_memory: 3933588
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Ubuntu 20.04.6 LTS
+  id: ubuntu
+  version: 20.04
+  version_parts: {'major': '20', 'minor': '04', 'build_number': ''}
+  like: debian
+  codename: focal
+  release_info: {}
+  kernel_version: 5.15.0-138-generic
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+  mobileraker
+2025-05-02 08:55:41,635 [server.py:load_component()] - Component (shell_command) loaded
+2025-05-02 08:55:41,635 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2025-05-02 08:55:41,689 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
+2025-05-02 08:55:41,689 [server.py:load_component()] - Component (machine) loaded
+2025-05-02 08:55:41,695 [server.py:load_component()] - Component (data_store) loaded
+2025-05-02 08:55:41,708 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2025-05-02 08:55:41,718 [server.py:load_component()] - Component (proc_stats) loaded
+2025-05-02 08:55:41,725 [server.py:load_component()] - Component (job_state) loaded
+2025-05-02 08:55:41,754 [server.py:load_component()] - Component (job_queue) loaded
+2025-05-02 08:55:41,763 [database.py:register_table()] - Found registered table job_history
+2025-05-02 08:55:41,764 [database.py:register_table()] - Found registered table job_totals
+2025-05-02 08:55:41,783 [server.py:load_component()] - Component (history) loaded
+2025-05-02 08:55:41,814 [server.py:load_component()] - Component (http_client) loaded
+2025-05-02 08:55:41,862 [server.py:load_component()] - Component (announcements) loaded
+2025-05-02 08:55:41,885 [server.py:load_component()] - Component (webcam) loaded
+2025-05-02 08:55:41,892 [server.py:load_component()] - Component (extensions) loaded
+2025-05-02 08:55:42,002 [wled.py:__init__()] - WLED component loading strips: ['wled printerled']
+2025-05-02 08:55:42,002 [wled.py:__init__()] - WLED strip: printerled
+2025-05-02 08:55:42,021 [server.py:load_component()] - Component (wled) loaded
+2025-05-02 08:55:42,053 [server.py:load_component()] - Component (octoprint_compat) loaded
+2025-05-02 08:55:42,076 [power.py:__init__()] - Power component loading devices: ['power Power']
+2025-05-02 08:55:42,103 [server.py:load_component()] - Component (power) loaded
+2025-05-02 08:55:42,342 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/chase/moonraker-env
+2025-05-02 08:55:42,356 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/chase/klippy-env
+2025-05-02 08:55:42,422 [server.py:add_warning()] - [update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/update_manager.py", line 134, in __init__
+    self.updaters[name] = deployer(cfg)
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 35, in __init__
+    self._configure_path(config)
+  File "/home/chase/moonraker/moonraker/components/update_manager/app_deploy.py", line 76, in _configure_path
+    self._verify_path(config, 'path', self.path, check_file=False)
+  File "/home/chase/moonraker/moonraker/components/update_manager/app_deploy.py", line 201, in _verify_path
+    raise config.error(f"{base_msg} does not exist")
+moonraker.confighelper.ConfigError: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist
+2025-05-02 08:55:42,450 [base_deploy.py:log_info()] - Git Repo mobileraker: Option 'env' is deprecated, use 'virtualenv' instead.
+2025-05-02 08:55:42,453 [base_deploy.py:log_info()] - Git Repo mobileraker: Detected virtualenv: /home/chase/mobileraker-env
+2025-05-02 08:55:42,487 [server.py:load_component()] - Component (update_manager) loaded
+2025-05-02 08:55:42,488 [server.py:add_warning()] - Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-05-02 08:55:42,488 [server.py:add_warning()] - Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-05-02 08:55:42,488 [server.py:add_warning()] - Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-05-02 08:55:42,489 [server.py:add_warning()] - Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-05-02 08:55:42,502 [server.py:add_warning()] - Unparsed config option 'managed_services: 
+octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.
+2025-05-02 08:55:42,503 [server.py:_initialize_component()] - Performing Component Post Init: [database]
+2025-05-02 08:55:42,527 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2025-05-02 08:55:42,549 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
+2025-05-02 08:55:42,552 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2025-05-02 08:55:42,554 [machine.py:validation_init()] - Installation version in database up to date
