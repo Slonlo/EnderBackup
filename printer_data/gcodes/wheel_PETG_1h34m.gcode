@@ -277,6 +277,12 @@
 ; first layer extrusion width = 0.40mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 2 known objects
+EXCLUDE_OBJECT_DEFINE NAME=wheel_stl_id_15_copy_0 CENTER=103.569,103.519 POLYGON=[[72.637,72.637],[72.637,147.363],[147.363,147.363],[147.363,72.637]]
+EXCLUDE_OBJECT_DEFINE NAME=wheel_stl_id_3105820_copy_0 CENTER=129.278,129.228 POLYGON=[[111.2,111.2],[111.2,147.363],[147.363,147.363],[147.363,111.2]]
 M73 P0 R93
 ;TYPE:Custom
 G28 ; home all axis
@@ -314,6 +320,7 @@ G92 E0
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z.6 F9000
 G1 X94.535 Y74.412
@@ -1596,7 +1603,9 @@ G1 X80.704 Y104.006 F9000
 G1 F2400
 G1 X77.431 Y100.733 E.13096
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z.6 F9000
 G1 X133.099 Y74.412 Z.6
@@ -2878,7 +2887,9 @@ G1 X119.267 Y104.006 F9000
 G1 F2400
 G1 X115.994 Y100.733 E.13096
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z.6 F9000
 G1 X133.099 Y112.975 Z.6
@@ -4160,7 +4171,9 @@ G1 X119.267 Y142.569 F9000
 G1 F2400
 G1 X115.994 Y139.296 E.13096
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z.6 F9000
 G1 X94.535 Y112.975 Z.6
@@ -5442,6 +5455,7 @@ G1 X80.704 Y142.569 F9000
 G1 F2400
 G1 X77.431 Y139.296 E.13096
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:0.4
 ;HEIGHT:0.2
@@ -5453,6 +5467,7 @@ G92 E0
 M104 S260 ; set nozzle temperature
 M140 S80 ; set bed temperature
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z.8 F9000
 G1 X94.565 Y74.298 Z.8
@@ -6607,7 +6622,9 @@ G1 X78.154 Y79.88 E.02319
 G1 X78.677 Y79.304 E.02217
 G1 X80.638 Y77.342 E.079
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z.8 F9000
 G1 X133.128 Y74.298 Z.8
@@ -7764,7 +7781,9 @@ G1 X116.718 Y79.88 E.02319
 G1 X117.24 Y79.304 E.02217
 G1 X119.202 Y77.342 E.079
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z.8 F9000
 G1 X133.128 Y112.862 Z.8
@@ -8919,7 +8938,9 @@ G1 X116.718 Y118.444 E.02319
 G1 X117.24 Y117.867 E.02217
 G1 X119.202 Y115.906 E.079
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z.8 F9000
 G1 X94.565 Y112.862 Z.8
@@ -10074,6 +10095,7 @@ G1 X78.154 Y118.444 E.02319
 G1 X78.677 Y117.867 E.02217
 G1 X80.638 Y115.906 E.079
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.2
@@ -10083,6 +10105,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1 F9000
 G1 X94.594 Y74.185 Z1
@@ -11249,7 +11272,9 @@ G1 X102.782 Y79.232 E.04393
 G1 X103.347 Y79.825 E.02198
 G1 X104.208 Y80.793 E.0348
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1 F9000
 G1 X133.157 Y74.185 Z1
@@ -12414,7 +12439,9 @@ G1 X141.346 Y79.232 E.04393
 G1 X141.91 Y79.825 E.02198
 G1 X142.772 Y80.793 E.0348
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z1 F9000
 G1 X133.157 Y112.748 Z1
@@ -13579,7 +13606,9 @@ G1 X141.346 Y117.796 E.04393
 G1 X141.91 Y118.388 E.02198
 G1 X142.772 Y119.356 E.0348
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1 F9000
 G1 X94.594 Y112.748 Z1
@@ -14746,6 +14775,7 @@ G1 X102.782 Y117.796 E.04393
 G1 X103.347 Y118.388 E.02198
 G1 X104.208 Y119.356 E.0348
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:0.8
@@ -14756,6 +14786,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.2 F9000
 G1 X94.623 Y74.071 Z1.2
@@ -15682,7 +15713,9 @@ G1 X106.376 Y84.56 E.37893
 G1 X106.696 Y85.44 E.02641
 G1 X106.839 Y85.911 E.01387
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.2 F9000
 G1 X133.187 Y74.071 Z1.2
@@ -16609,7 +16642,9 @@ G1 X144.939 Y84.56 E.37893
 G1 X145.26 Y85.44 E.02641
 G1 X145.402 Y85.911 E.01387
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z1.2 F9000
 G1 X133.187 Y112.635 Z1.2
@@ -17536,7 +17571,9 @@ G1 X144.939 Y123.124 E.37893
 G1 X145.26 Y124.003 E.02641
 G1 X145.402 Y124.474 E.01387
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.2 F9000
 G1 X94.623 Y112.635 Z1.2
@@ -18463,6 +18500,7 @@ G1 X106.376 Y123.124 E.37893
 G1 X106.696 Y124.003 E.02641
 G1 X106.839 Y124.474 E.01387
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1
 ;HEIGHT:0.2
@@ -18472,6 +18510,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.4 F9000
 G1 X94.644 Y73.956 Z1.4
@@ -19400,7 +19439,9 @@ G1 X106.579 Y84.763 E.39511
 G1 X106.808 Y85.403 E.01918
 G1 X107.025 Y86.119 E.02111
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.4 F9000
 G1 X133.208 Y73.956 Z1.4
@@ -20328,7 +20369,9 @@ G1 X145.142 Y84.763 E.39511
 G1 X145.371 Y85.403 E.01918
 G1 X145.588 Y86.119 E.02111
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z1.4 F9000
 G1 X133.208 Y112.519 Z1.4
@@ -21257,7 +21300,9 @@ G1 X145.142 Y123.326 E.39511
 G1 X145.371 Y123.967 E.01918
 G1 X145.588 Y124.683 E.02111
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.4 F9000
 G1 X94.644 Y112.519 Z1.4
@@ -22185,6 +22230,7 @@ G1 X106.579 Y123.326 E.39511
 G1 X106.808 Y123.967 E.01918
 G1 X107.025 Y124.683 E.02111
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.2
@@ -22194,6 +22240,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.6 F9000
 G1 X94.663 Y73.84 Z1.6
@@ -23125,7 +23172,9 @@ G1 X106.772 Y84.957 E.41058
 G1 X106.919 Y85.367 E.01227
 G1 X107.2 Y86.319 E.02802
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.6 F9000
 G1 X133.226 Y73.84 Z1.6
@@ -24057,7 +24106,9 @@ G1 X145.336 Y84.957 E.41058
 G1 X145.482 Y85.367 E.01227
 G1 X145.763 Y86.319 E.02802
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z1.6 F9000
 G1 X133.226 Y112.404 Z1.6
@@ -24989,7 +25040,9 @@ G1 X145.336 Y123.52 E.41058
 G1 X145.482 Y123.93 E.01227
 G1 X145.763 Y124.882 E.02802
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.6 F9000
 G1 X94.663 Y112.404 Z1.6
@@ -25922,6 +25975,7 @@ G1 X106.772 Y123.52 E.41058
 G1 X106.919 Y123.93 E.01227
 G1 X107.2 Y124.882 E.02802
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.4
 ;HEIGHT:0.2
@@ -25931,6 +25985,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.8 F9000
 G1 X94.66 Y73.825 Z1.8
@@ -26860,7 +26915,9 @@ G1 X106.796 Y84.981 E.4125
 G1 X106.933 Y85.362 E.01141
 G1 X107.221 Y86.344 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.8 F9000
 G1 X133.223 Y73.825 Z1.8
@@ -27791,7 +27848,9 @@ G1 X145.36 Y84.981 E.4125
 G1 X145.496 Y85.362 E.01141
 G1 X145.784 Y86.344 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z1.8 F9000
 G1 X133.223 Y112.388 Z1.8
@@ -28721,7 +28780,9 @@ G1 X145.36 Y123.544 E.4125
 G1 X145.496 Y123.925 E.01141
 G1 X145.784 Y124.907 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z1.8 F9000
 G1 X94.66 Y112.388 Z1.8
@@ -29651,6 +29712,7 @@ G1 X106.796 Y123.544 E.4125
 G1 X106.933 Y123.925 E.01141
 G1 X107.221 Y124.907 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:1.6
@@ -29661,6 +29723,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2 F9000
 G1 X94.654 Y73.824 Z2
@@ -30620,7 +30683,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2 F9000
 G1 X133.217 Y73.824 Z2
@@ -31580,7 +31645,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z2 F9000
 G1 X133.217 Y112.387 Z2
@@ -32541,7 +32608,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2 F9000
 G1 X94.654 Y112.387 Z2
@@ -33501,6 +33570,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.2
@@ -33510,6 +33580,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.2 F9000
 G1 X94.648 Y73.822 Z2.2
@@ -34466,7 +34537,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01142
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.2 F9000
 G1 X133.211 Y73.822 Z2.2
@@ -35422,7 +35495,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01142
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z2.2 F9000
 G1 X133.211 Y112.386 Z2.2
@@ -36378,7 +36453,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01142
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.2 F9000
 G1 X94.648 Y112.386 Z2.2
@@ -37334,6 +37411,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01142
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2
 ;HEIGHT:0.2
@@ -37343,6 +37421,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.4 F9000
 G1 X94.641 Y73.821 Z2.4
@@ -38298,7 +38377,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.4 F9000
 G1 X133.205 Y73.821 Z2.4
@@ -39255,7 +39336,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z2.4 F9000
 G1 X133.205 Y112.384 Z2.4
@@ -40211,7 +40294,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.4 F9000
 G1 X94.641 Y112.384 Z2.4
@@ -41168,6 +41253,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.2
 ;HEIGHT:0.2
@@ -41177,6 +41263,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.6 F9000
 G1 X94.635 Y73.82 Z2.6
@@ -42270,7 +42357,9 @@ G1 X97.225 Y74.936 E.01315
 G1 X96.864 Y74.786 E.01103
 G1 X95.884 Y74.446 E.02926
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.6 F9000
 G1 X133.198 Y73.82 Z2.6
@@ -43364,7 +43453,9 @@ G1 X135.789 Y74.936 E.01315
 G1 X135.427 Y74.786 E.01103
 G1 X134.448 Y74.446 E.02926
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z2.6 F9000
 G1 X133.198 Y112.383 Z2.6
@@ -44458,7 +44549,9 @@ G1 X135.789 Y113.499 E.01315
 G1 X135.427 Y113.35 E.01103
 G1 X134.448 Y113.009 E.02926
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.6 F9000
 G1 X94.635 Y112.383 Z2.6
@@ -45553,6 +45646,7 @@ G1 X97.225 Y113.499 E.01315
 G1 X96.864 Y113.35 E.01103
 G1 X95.884 Y113.009 E.02926
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:2.4
@@ -45563,6 +45657,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.8 F9000
 G1 X94.605 Y73.81 Z2.8
@@ -46453,7 +46548,9 @@ G1 X83.369 Y75.31 E.05023
 G1 X83.041 Y75.465 E.01024
 G1 X82.107 Y75.977 E.03004
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.8 F9000
 G1 X133.168 Y73.81 Z2.8
@@ -47345,7 +47442,9 @@ G1 X121.932 Y75.31 E.05023
 G1 X121.604 Y75.465 E.01024
 G1 X120.67 Y75.977 E.03004
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z2.8 F9000
 G1 X133.168 Y112.373 Z2.8
@@ -48236,7 +48335,9 @@ G1 X121.932 Y113.874 E.05023
 G1 X121.604 Y114.029 E.01024
 G1 X120.67 Y114.541 E.03004
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z2.8 F9000
 G1 X94.605 Y112.373 Z2.8
@@ -49127,6 +49228,7 @@ G1 X83.369 Y113.874 E.05023
 G1 X83.041 Y114.029 E.01024
 G1 X82.107 Y114.541 E.03004
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.6
 ;HEIGHT:0.2
@@ -49136,6 +49238,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3 F9000
 G1 X94.598 Y73.808 Z3
@@ -50035,7 +50138,9 @@ G1 X97.923 Y75.242 E.00096
 G1 X98.396 Y75.465 E.01477
 G1 X99.192 Y75.895 E.02551
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3 F9000
 G1 X133.161 Y73.808 Z3
@@ -50934,7 +51039,9 @@ G1 X136.486 Y75.242 E.00096
 G1 X136.959 Y75.465 E.01477
 G1 X137.756 Y75.895 E.02551
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z3 F9000
 G1 X133.161 Y112.371 Z3
@@ -51834,7 +51941,9 @@ G1 X136.486 Y113.805 E.00096
 G1 X136.959 Y114.029 E.01477
 G1 X137.756 Y114.458 E.02551
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3 F9000
 G1 X94.598 Y112.371 Z3
@@ -52733,6 +52842,7 @@ G1 X97.923 Y113.805 E.00096
 G1 X98.396 Y114.029 E.01477
 G1 X99.192 Y114.458 E.02551
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:2.8
@@ -52743,6 +52853,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.2 F9000
 G1 X94.591 Y73.806 Z3.2
@@ -53626,7 +53737,9 @@ G1 X83.916 Y75.058 E.00827
 G1 X83.041 Y75.465 E.02722
 G1 X82.632 Y75.684 E.01307
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.2 F9000
 G1 X133.154 Y73.806 Z3.2
@@ -54509,7 +54622,9 @@ G1 X122.479 Y75.058 E.00827
 G1 X121.604 Y75.465 E.02722
 G1 X121.196 Y75.684 E.01307
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z3.2 F9000
 G1 X133.154 Y112.37 Z3.2
@@ -55392,7 +55507,9 @@ G1 X122.479 Y113.622 E.00827
 G1 X121.604 Y114.029 E.02722
 G1 X121.196 Y114.247 E.01307
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.2 F9000
 G1 X94.591 Y112.37 Z3.2
@@ -56276,6 +56393,7 @@ G1 X83.916 Y113.622 E.00827
 G1 X83.041 Y114.029 E.02722
 G1 X82.632 Y114.247 E.01307
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:3
@@ -56286,6 +56404,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.4 F9000
 G1 X94.584 Y73.805 Z3.4
@@ -57162,7 +57281,9 @@ G1 X80.512 Y86.088 E.00343
 G1 X80.696 Y85.673 E.01278
 G1 X81.176 Y84.825 E.0275
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.4 F9000
 G1 X133.147 Y73.805 Z3.4
@@ -58039,7 +58160,9 @@ G1 X119.075 Y86.088 E.00343
 G1 X119.259 Y85.673 E.01278
 G1 X119.74 Y84.825 E.0275
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z3.4 F9000
 G1 X133.147 Y112.368 Z3.4
@@ -58917,7 +59040,9 @@ G1 X119.075 Y124.651 E.00343
 G1 X119.259 Y124.237 E.01278
 G1 X119.74 Y123.388 E.0275
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.4 F9000
 G1 X94.584 Y112.368 Z3.4
@@ -59794,6 +59919,7 @@ G1 X80.512 Y124.651 E.00343
 G1 X80.696 Y124.237 E.01278
 G1 X81.176 Y123.388 E.0275
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:3.2
@@ -59804,6 +59930,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.6 F9000
 G1 X94.577 Y73.803 Z3.6
@@ -60540,7 +60667,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.6 F9000
 G1 X133.14 Y73.803 Z3.6
@@ -61277,7 +61406,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z3.6 F9000
 G1 X133.14 Y112.366 Z3.6
@@ -62015,7 +62146,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.6 F9000
 G1 X94.577 Y112.366 Z3.6
@@ -62752,6 +62885,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.4
 ;HEIGHT:0.2
@@ -62761,6 +62895,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.8 F9000
 G1 X94.57 Y73.801 Z3.8
@@ -63501,7 +63636,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.8 F9000
 G1 X133.133 Y73.801 Z3.8
@@ -64241,7 +64378,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z3.8 F9000
 G1 X133.133 Y112.364 Z3.8
@@ -64981,7 +65120,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z3.8 F9000
 G1 X94.57 Y112.364 Z3.8
@@ -65721,6 +65862,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.2
@@ -65730,6 +65872,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4 F9000
 G1 X94.563 Y73.799 Z4
@@ -66472,7 +66615,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4 F9000
 G1 X133.126 Y73.799 Z4
@@ -67214,7 +67359,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z4 F9000
 G1 X133.126 Y112.363 Z4
@@ -67957,7 +68104,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4 F9000
 G1 X94.563 Y112.363 Z4
@@ -68699,6 +68848,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.8
 ;HEIGHT:0.2
@@ -68708,6 +68858,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.2 F9000
 G1 X94.556 Y73.798 Z4.2
@@ -69446,7 +69597,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.2 F9000
 G1 X133.119 Y73.798 Z4.2
@@ -70185,7 +70338,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z4.2 F9000
 G1 X133.119 Y112.361 Z4.2
@@ -70924,7 +71079,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.2 F9000
 G1 X94.556 Y112.361 Z4.2
@@ -71664,6 +71821,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4
 ;HEIGHT:0.2
@@ -71673,6 +71831,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.4 F9000
 G1 X94.55 Y73.796 Z4.4
@@ -72409,7 +72568,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.4 F9000
 G1 X133.113 Y73.796 Z4.4
@@ -73145,7 +73306,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z4.4 F9000
 G1 X133.113 Y112.359 Z4.4
@@ -73881,7 +74044,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.4 F9000
 G1 X94.55 Y112.359 Z4.4
@@ -74617,6 +74782,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.2
@@ -74626,6 +74792,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.6 F9000
 G1 X94.543 Y73.795 Z4.6
@@ -75361,7 +75528,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.6 F9000
 G1 X133.107 Y73.795 Z4.6
@@ -76097,7 +76266,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z4.6 F9000
 G1 X133.107 Y112.358 Z4.6
@@ -76834,7 +77005,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.6 F9000
 G1 X94.543 Y112.358 Z4.6
@@ -77571,6 +77744,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.4
 ;HEIGHT:0.2
@@ -77580,6 +77754,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.8 F9000
 G1 X94.537 Y73.793 Z4.8
@@ -78314,7 +78489,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.8 F9000
 G1 X133.1 Y73.793 Z4.8
@@ -79049,7 +79226,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z4.8 F9000
 G1 X133.1 Y112.356 Z4.8
@@ -79784,7 +79963,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z4.8 F9000
 G1 X94.537 Y112.356 Z4.8
@@ -80519,6 +80700,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.6
 ;HEIGHT:0.2
@@ -80528,6 +80710,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5 F9000
 G1 X94.531 Y73.791 Z5
@@ -81417,7 +81600,9 @@ G1 X84.166 Y74.955 E.0124
 G1 X84.573 Y74.786 E.01242
 G1 X85.505 Y74.46 E.02786
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5 F9000
 G1 X133.094 Y73.791 Z5
@@ -82307,7 +82492,9 @@ G1 X122.729 Y74.955 E.0124
 G1 X123.136 Y74.786 E.01242
 G1 X124.069 Y74.46 E.02786
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z5 F9000
 G1 X133.094 Y112.355 Z5
@@ -83196,7 +83383,9 @@ G1 X122.729 Y113.518 E.0124
 G1 X123.136 Y113.35 E.01242
 G1 X124.069 Y113.024 E.02786
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5 F9000
 G1 X94.531 Y112.355 Z5
@@ -84085,6 +84274,7 @@ G1 X84.166 Y113.518 E.0124
 G1 X84.573 Y113.35 E.01242
 G1 X85.505 Y113.024 E.02786
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:4.8
@@ -84095,6 +84285,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.2 F9000
 G1 X94.525 Y73.79 Z5.2
@@ -85001,7 +85192,9 @@ G1 X98.043 Y75.299 E.05045
 G1 X98.396 Y75.465 E.01101
 G1 X99.307 Y75.963 E.02927
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.2 F9000
 G1 X133.089 Y73.79 Z5.2
@@ -85909,7 +86102,9 @@ G1 X136.606 Y75.299 E.05045
 G1 X136.959 Y75.465 E.01101
 G1 X137.87 Y75.963 E.02927
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z5.2 F9000
 M73 P21 R73
@@ -86817,7 +87012,9 @@ G1 X136.606 Y113.862 E.05045
 G1 X136.959 Y114.029 E.01101
 G1 X137.87 Y114.527 E.02927
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.2 F9000
 G1 X94.525 Y112.353 Z5.2
@@ -87724,6 +87921,7 @@ G1 X98.043 Y113.862 E.05045
 G1 X98.396 Y114.029 E.01101
 G1 X99.307 Y114.527 E.02927
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S56
 ;LAYER_CHANGE
 ;Z:5
@@ -87734,6 +87932,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.4 F9000
 G1 X94.52 Y73.789 Z5.4
@@ -88644,7 +88843,9 @@ G1 X83.496 Y75.25 E.00062
 G1 X83.041 Y75.465 E.0142
 G1 X82.227 Y75.905 E.02608
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.4 F9000
 G1 X133.083 Y73.789 Z5.4
@@ -89555,7 +89756,9 @@ G1 X122.059 Y75.25 E.00062
 G1 X121.604 Y75.465 E.0142
 G1 X120.791 Y75.905 E.02608
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z5.4 F9000
 G1 X133.083 Y112.352 Z5.4
@@ -90468,7 +90671,9 @@ G1 X122.059 Y113.813 E.00062
 G1 X121.604 Y114.029 E.0142
 G1 X120.791 Y114.468 E.02608
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.4 F9000
 G1 X94.52 Y112.352 Z5.4
@@ -91379,6 +91584,7 @@ G1 X83.496 Y113.813 E.00062
 G1 X83.041 Y114.029 E.0142
 G1 X82.227 Y114.468 E.02608
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:5.2
@@ -91389,6 +91595,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.6 F9000
 G1 X94.52 Y73.789 Z5.6
@@ -92282,7 +92489,9 @@ G1 X97.475 Y75.04 E.00902
 G1 X98.396 Y75.465 E.02861
 G1 X98.761 Y75.661 E.01167
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.6 F9000
 G1 X133.083 Y73.789 Z5.6
@@ -93176,7 +93385,9 @@ G1 X136.039 Y75.04 E.00902
 G1 X136.959 Y75.465 E.02861
 G1 X137.324 Y75.661 E.01167
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z5.6 F9000
 G1 X133.083 Y112.352 Z5.6
@@ -94070,7 +94281,9 @@ G1 X136.039 Y113.603 E.00902
 G1 X136.959 Y114.029 E.02861
 G1 X137.324 Y114.224 E.01167
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.6 F9000
 G1 X94.52 Y112.352 Z5.6
@@ -94966,6 +95179,7 @@ G1 X97.475 Y113.603 E.00902
 G1 X98.396 Y114.029 E.02861
 G1 X98.761 Y114.224 E.01167
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:5.4
@@ -94976,6 +95190,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.8 F9000
 G1 X94.52 Y73.789 Z5.8
@@ -95856,7 +96071,9 @@ G1 X96.694 Y74.726 E.01336
 G1 X96.075 Y74.504 E.01856
 G1 X95.338 Y74.28 E.02173
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.8 F9000
 G1 X133.083 Y73.789 Z5.8
@@ -96737,7 +96954,9 @@ G1 X135.258 Y74.726 E.01336
 G1 X134.638 Y74.504 E.01856
 G1 X133.901 Y74.28 E.02173
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z5.8 F9000
 G1 X133.083 Y112.352 Z5.8
@@ -97618,7 +97837,9 @@ G1 X135.258 Y113.289 E.01336
 G1 X134.638 Y113.067 E.01856
 G1 X133.901 Y112.844 E.02173
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z5.8 F9000
 G1 X94.52 Y112.352 Z5.8
@@ -98499,6 +98720,7 @@ G1 X96.694 Y113.289 E.01336
 G1 X96.075 Y113.067 E.01856
 G1 X95.338 Y112.844 E.02173
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.6
 ;HEIGHT:0.2
@@ -98508,6 +98730,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6 F9000
 G1 X94.52 Y73.789 Z6
@@ -99244,7 +99467,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6 F9000
 G1 X133.083 Y73.789 Z6
@@ -99982,7 +100207,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z6 F9000
 G1 X133.083 Y112.352 Z6
@@ -100720,7 +100947,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6 F9000
 G1 X94.52 Y112.352 Z6
@@ -101457,6 +101686,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.8
 ;HEIGHT:0.2
@@ -101466,6 +101696,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.2 F9000
 G1 X94.52 Y73.789 Z6.2
@@ -102200,7 +102431,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.2 F9000
 G1 X133.083 Y73.789 Z6.2
@@ -102935,7 +103168,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z6.2 F9000
 G1 X133.083 Y112.352 Z6.2
@@ -103670,7 +103905,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.2 F9000
 G1 X94.52 Y112.352 Z6.2
@@ -104406,6 +104643,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6
 ;HEIGHT:0.2
@@ -104415,6 +104653,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.4 F9000
 G1 X94.52 Y73.789 Z6.4
@@ -105147,7 +105386,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.4 F9000
 G1 X133.083 Y73.789 Z6.4
@@ -105881,7 +106122,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z6.4 F9000
 G1 X133.083 Y112.352 Z6.4
@@ -106614,7 +106857,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.4 F9000
 G1 X94.52 Y112.352 Z6.4
@@ -107347,6 +107592,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.2
 ;HEIGHT:0.2
@@ -107356,6 +107602,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.6 F9000
 G1 X94.52 Y73.789 Z6.6
@@ -108089,7 +108336,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.6 F9000
 G1 X133.083 Y73.789 Z6.6
@@ -108824,7 +109073,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z6.6 F9000
 G1 X133.083 Y112.352 Z6.6
@@ -109558,7 +109809,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.6 F9000
 G1 X94.52 Y112.352 Z6.6
@@ -110293,6 +110546,7 @@ G1 X74.504 Y134.638 E.01141
 M73 P26 R68
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.4
 ;HEIGHT:0.2
@@ -110302,6 +110556,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.8 F9000
 G1 X94.52 Y73.789 Z6.8
@@ -111035,7 +111290,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.8 F9000
 G1 X133.083 Y73.789 Z6.8
@@ -111769,7 +112026,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z6.8 F9000
 G1 X133.083 Y112.352 Z6.8
@@ -112503,7 +112762,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z6.8 F9000
 G1 X94.52 Y112.352 Z6.8
@@ -113237,6 +113498,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.2
@@ -113246,6 +113508,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7 F9000
 G1 X94.52 Y73.789 Z7
@@ -113980,7 +114243,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7 F9000
 G1 X133.083 Y73.789 Z7
@@ -114714,7 +114979,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z7 F9000
 G1 X133.083 Y112.352 Z7
@@ -115449,7 +115716,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7 F9000
 G1 X94.52 Y112.352 Z7
@@ -116183,6 +116452,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.8
 ;HEIGHT:0.2
@@ -116192,6 +116462,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.2 F9000
 G1 X94.516 Y73.788 Z7.2
@@ -116929,7 +117200,9 @@ G1 X74.64 Y96.456 E.41249
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.2 F9000
 G1 X133.079 Y73.788 Z7.2
@@ -117667,7 +117940,9 @@ G1 X113.204 Y96.456 E.41249
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z7.2 F9000
 G1 X133.079 Y112.351 Z7.2
@@ -118406,7 +118681,9 @@ G1 X113.204 Y135.019 E.41249
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.2 F9000
 G1 X94.516 Y112.351 Z7.2
@@ -119144,6 +119421,7 @@ G1 X74.64 Y135.019 E.41249
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:7
@@ -119154,6 +119432,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.4 F9000
 G1 X94.511 Y73.787 Z7.4
@@ -120049,7 +120328,9 @@ G1 X97.316 Y74.974 E.01165
 G1 X97.638 Y75.107 E.00984
 G1 X98.609 Y75.579 E.03045
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.4 F9000
 G1 X133.074 Y73.787 Z7.4
@@ -120946,7 +121227,9 @@ G1 X135.88 Y74.974 E.01165
 G1 X136.202 Y75.107 E.00984
 G1 X137.172 Y75.579 E.03045
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z7.4 F9000
 G1 X133.074 Y112.35 Z7.4
@@ -121842,7 +122125,9 @@ G1 X135.88 Y113.537 E.01165
 G1 X136.202 Y113.67 E.00984
 G1 X137.172 Y114.143 E.03045
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.4 F9000
 G1 X94.511 Y112.35 Z7.4
@@ -122739,6 +123024,7 @@ G1 X97.316 Y113.537 E.01165
 G1 X97.638 Y113.67 E.00984
 G1 X98.609 Y114.143 E.03045
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:7.2
@@ -122749,6 +123035,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.6 F9000
 G1 X94.506 Y73.786 Z7.6
@@ -123654,7 +123941,9 @@ G1 X83.419 Y75.287 E.05072
 G1 X83.041 Y75.465 E.0118
 G1 X82.154 Y75.949 E.02849
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.6 F9000
 G1 X133.069 Y73.786 Z7.6
@@ -124560,7 +124849,9 @@ G1 X121.982 Y75.287 E.05072
 G1 X121.604 Y75.465 E.0118
 G1 X120.717 Y75.949 E.02849
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z7.6 F9000
 G1 X133.069 Y112.349 Z7.6
@@ -125467,7 +125758,9 @@ G1 X121.982 Y113.85 E.05072
 G1 X121.604 Y114.029 E.0118
 G1 X120.717 Y114.512 E.02849
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.6 F9000
 G1 X94.506 Y112.349 Z7.6
@@ -126373,6 +126666,7 @@ G1 X83.419 Y113.85 E.05072
 G1 X83.041 Y114.029 E.0118
 G1 X82.154 Y114.512 E.02849
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.4
 ;HEIGHT:0.2
@@ -126382,6 +126676,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.8 F9000
 G1 X94.5 Y73.785 Z7.8
@@ -127287,7 +127582,9 @@ G1 X97.959 Y75.259 E.05151
 G1 X98.396 Y75.466 E.01364
 G1 X99.227 Y75.915 E.02664
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.8 F9000
 G1 X133.063 Y73.785 Z7.8
@@ -128192,7 +128489,9 @@ G1 X136.522 Y75.259 E.05151
 G1 X136.959 Y75.466 E.01364
 G1 X137.79 Y75.915 E.02664
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z7.8 F9000
 G1 X133.063 Y112.348 Z7.8
@@ -129097,7 +129396,9 @@ G1 X136.522 Y113.822 E.05151
 G1 X136.959 Y114.029 E.01364
 G1 X137.79 Y114.479 E.02664
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z7.8 F9000
 G1 X94.5 Y112.348 Z7.8
@@ -130003,6 +130304,7 @@ G1 X97.959 Y113.822 E.05151
 G1 X98.396 Y114.029 E.01364
 G1 X99.227 Y114.479 E.02664
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:7.6
@@ -130013,6 +130315,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8 F9000
 G1 X94.494 Y73.784 Z8
@@ -130904,7 +131207,9 @@ G1 X84.007 Y75.021 E.00977
 G1 X83.041 Y75.465 E.02999
 G1 X82.719 Y75.637 E.01029
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8 F9000
 G1 X133.057 Y73.784 Z8
@@ -131797,7 +132102,9 @@ G1 X122.57 Y75.021 E.00977
 G1 X121.604 Y75.465 E.02999
 G1 X121.282 Y75.637 E.01029
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z8 F9000
 G1 X133.057 Y112.347 Z8
@@ -132689,7 +132996,9 @@ G1 X122.57 Y113.584 E.00977
 G1 X121.604 Y114.029 E.02999
 G1 X121.282 Y114.201 E.01029
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8 F9000
 G1 X94.494 Y112.347 Z8
@@ -133581,6 +133890,7 @@ G1 X84.007 Y113.584 E.00977
 G1 X83.041 Y114.029 E.02999
 G1 X82.719 Y114.201 E.01029
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:7.8
@@ -133591,6 +133901,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.2 F9000
 G1 X94.488 Y73.782 Z8.2
@@ -134478,7 +134789,9 @@ G1 X84.783 Y74.711 E.01496
 G1 X85.362 Y74.504 E.01735
 G1 X86.14 Y74.268 E.02294
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.2 F9000
 G1 X133.051 Y73.782 Z8.2
@@ -135365,7 +135678,9 @@ G1 X123.346 Y74.711 E.01496
 G1 X123.925 Y74.504 E.01735
 G1 X124.703 Y74.268 E.02294
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z8.2 F9000
 G1 X133.051 Y112.346 Z8.2
@@ -136253,7 +136568,9 @@ G1 X123.346 Y113.274 E.01496
 G1 X123.925 Y113.067 E.01735
 G1 X124.703 Y112.831 E.02294
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.2 F9000
 G1 X94.488 Y112.346 Z8.2
@@ -137140,6 +137457,7 @@ G1 X84.783 Y113.274 E.01496
 G1 X85.362 Y113.067 E.01735
 G1 X86.14 Y112.831 E.02294
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:8
@@ -137150,6 +137468,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.4 F9000
 G1 X94.481 Y73.781 Z8.4
@@ -137871,7 +138190,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01142
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.4 F9000
 G1 X133.044 Y73.781 Z8.4
@@ -138593,7 +138914,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01142
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z8.4 F9000
 G1 X133.044 Y112.344 Z8.4
@@ -139315,7 +139638,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01142
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.4 F9000
 G1 X94.481 Y112.344 Z8.4
@@ -140038,6 +140363,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01142
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.2
 ;HEIGHT:0.2
@@ -140047,6 +140373,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.6 F9000
 G1 X94.473 Y73.779 Z8.6
@@ -140769,7 +141096,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01141
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.6 F9000
 G1 X133.037 Y73.779 Z8.6
@@ -141491,7 +141820,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01141
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z8.6 F9000
 G1 X133.037 Y112.343 Z8.6
@@ -142213,7 +142544,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01141
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.6 F9000
 G1 X94.473 Y112.343 Z8.6
@@ -142935,6 +143268,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01141
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.4
 ;HEIGHT:0.2
@@ -142944,6 +143278,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.8 F9000
 G1 X94.465 Y73.778 Z8.8
@@ -143665,7 +144000,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01141
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.8 F9000
 G1 X133.029 Y73.778 Z8.8
@@ -144388,7 +144725,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01141
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z8.8 F9000
 G1 X133.029 Y112.341 Z8.8
@@ -145110,7 +145449,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01141
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z8.8 F9000
 G1 X94.465 Y112.341 Z8.8
@@ -145833,6 +146174,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01141
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.6
 ;HEIGHT:0.200001
@@ -145842,6 +146184,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9 F9000
 G1 X94.457 Y73.776 Z9
@@ -146564,7 +146907,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01141
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9 F9000
 G1 X133.02 Y73.776 Z9
@@ -147287,7 +147632,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01141
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z9 F9000
 G1 X133.02 Y112.339 Z9
@@ -148010,7 +148357,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01141
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9 F9000
 G1 X94.457 Y112.339 Z9
@@ -148733,6 +149082,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01141
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.8
 ;HEIGHT:0.2
@@ -148742,6 +149092,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.2 F9000
 G1 X94.447 Y73.774 Z9.2
@@ -149464,7 +149815,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01141
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.2 F9000
 G1 X133.011 Y73.774 Z9.2
@@ -150187,7 +150540,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01141
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z9.2 F9000
 G1 X133.011 Y112.338 Z9.2
@@ -150909,7 +151264,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01141
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.2 F9000
 G1 X94.447 Y112.338 Z9.2
@@ -151631,6 +151988,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01141
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9
 ;HEIGHT:0.2
@@ -151640,6 +151998,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.4 F9000
 G1 X94.437 Y73.772 Z9.4
@@ -152361,7 +152720,9 @@ G1 X96.456 Y106.796 E.41249
 G1 X96.075 Y106.933 E.01141
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.4 F9000
 G1 X133.001 Y73.772 Z9.4
@@ -153083,7 +153444,9 @@ G1 X135.019 Y106.796 E.41249
 G1 X134.638 Y106.933 E.01141
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z9.4 F9000
 G1 X133.001 Y112.336 Z9.4
@@ -153805,7 +154168,9 @@ G1 X135.019 Y145.36 E.41249
 G1 X134.638 Y145.496 E.01141
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.4 F9000
 G1 X94.437 Y112.336 Z9.4
@@ -154529,6 +154894,7 @@ G1 X96.456 Y145.36 E.41249
 G1 X96.075 Y145.496 E.01141
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:9.2
@@ -154539,6 +154905,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.6 F9000
 G1 X94.427 Y73.77 Z9.6
@@ -155428,7 +155795,9 @@ G1 X84.833 Y74.693 E.01708
 G1 X85.362 Y74.504 E.01585
 G1 X86.192 Y74.254 E.02444
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.6 F9000
 G1 X132.99 Y73.77 Z9.6
@@ -156318,7 +156687,9 @@ G1 X123.396 Y74.693 E.01708
 G1 X123.925 Y74.504 E.01585
 G1 X124.755 Y74.254 E.02444
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z9.6 F9000
 G1 X132.99 Y112.333 Z9.6
@@ -157208,7 +157579,9 @@ G1 X123.396 Y113.257 E.01708
 G1 X123.925 Y113.067 E.01585
 G1 X124.755 Y112.817 E.02444
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.6 F9000
 G1 X94.427 Y112.333 Z9.6
@@ -158098,6 +158471,7 @@ G1 X84.833 Y113.257 E.01708
 G1 X85.362 Y113.067 E.01585
 G1 X86.192 Y112.817 E.02444
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:9.4
@@ -158108,6 +158482,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.8 F9000
 G1 X94.415 Y73.768 Z9.8
@@ -158999,7 +159374,9 @@ G1 X84.075 Y74.993 E.0109
 G1 X83.798 Y75.107 E.00844
 G1 X82.784 Y75.603 E.03184
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.8 F9000
 G1 X132.978 Y73.768 Z9.8
@@ -159893,7 +160270,9 @@ G1 X122.638 Y74.993 E.0109
 G1 X122.362 Y75.107 E.00844
 G1 X121.347 Y75.603 E.03184
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z9.8 F9000
 G1 X132.978 Y112.331 Z9.8
@@ -160785,7 +161164,9 @@ G1 X122.638 Y113.556 E.0109
 G1 X122.362 Y113.67 E.00844
 G1 X121.347 Y114.166 E.03184
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z9.8 F9000
 G1 X94.415 Y112.331 Z9.8
@@ -161677,6 +162058,7 @@ G1 X84.075 Y113.556 E.0109
 G1 X83.798 Y113.67 E.00844
 G1 X82.784 Y114.166 E.03184
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S58
 ;LAYER_CHANGE
 ;Z:9.6
@@ -161687,6 +162069,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10 F9000
 G1 X94.402 Y73.765 Z10
@@ -162588,7 +162971,9 @@ G1 X97.992 Y75.274 E.05104
 G1 X98.396 Y75.466 E.01262
 G1 X99.258 Y75.934 E.02767
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10 F9000
 G1 X132.966 Y73.765 Z10
@@ -163490,7 +163875,9 @@ G1 X136.555 Y75.274 E.05104
 G1 X136.959 Y75.466 E.01262
 G1 X137.821 Y75.934 E.02767
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z10 F9000
 G1 X132.966 Y112.329 Z10
@@ -164394,7 +164781,9 @@ G1 X136.555 Y113.838 E.05104
 G1 X136.959 Y114.029 E.01262
 G1 X137.821 Y114.497 E.02767
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10 F9000
 G1 X94.402 Y112.329 Z10
@@ -165296,6 +165685,7 @@ G1 X97.992 Y113.838 E.05104
 G1 X98.396 Y114.029 E.01262
 G1 X99.258 Y114.497 E.02767
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.8
 ;HEIGHT:0.2
@@ -165305,6 +165695,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.2 F9000
 G1 X94.389 Y73.763 Z10.2
@@ -166207,7 +166598,9 @@ G1 X83.458 Y75.268 E.05122
 G1 X83.041 Y75.465 E.01302
 G1 X82.191 Y75.927 E.02726
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.2 F9000
 G1 X132.952 Y73.763 Z10.2
@@ -167110,7 +167503,9 @@ G1 X122.021 Y75.268 E.05122
 G1 X121.604 Y75.465 E.01302
 G1 X120.755 Y75.927 E.02726
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z10.2 F9000
 G1 X132.952 Y112.326 Z10.2
@@ -168014,7 +168409,9 @@ G1 X122.021 Y113.831 E.05122
 G1 X121.604 Y114.029 E.01302
 G1 X120.755 Y114.49 E.02726
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.2 F9000
 G1 X94.389 Y112.326 Z10.2
@@ -168918,6 +169315,7 @@ G1 X83.458 Y113.831 E.05122
 G1 X83.041 Y114.029 E.01302
 G1 X82.191 Y114.49 E.02726
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:10
@@ -168928,6 +169326,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.4 F9000
 G1 X94.375 Y73.76 Z10.4
@@ -169815,7 +170214,9 @@ G1 X97.384 Y75.002 E.01052
 G1 X98.396 Y75.466 E.03139
 G1 X98.674 Y75.614 E.00889
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.4 F9000
 G1 X132.938 Y73.76 Z10.4
@@ -170703,7 +171104,9 @@ G1 X135.948 Y75.002 E.01052
 G1 X136.959 Y75.466 E.03139
 G1 X137.237 Y75.614 E.00889
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z10.4 F9000
 G1 X132.938 Y112.323 Z10.4
@@ -171591,7 +171994,9 @@ G1 X135.948 Y113.565 E.01052
 G1 X136.959 Y114.029 E.03139
 G1 X137.237 Y114.177 E.00889
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.4 F9000
 G1 X94.375 Y112.323 Z10.4
@@ -172480,6 +172885,7 @@ G1 X97.384 Y113.565 E.01052
 G1 X98.396 Y114.029 E.03139
 G1 X98.674 Y114.177 E.00889
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:10.2
@@ -172490,6 +172896,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.6 F9000
 G1 X94.359 Y73.757 Z10.6
@@ -173382,7 +173789,9 @@ G1 X96.619 Y74.699 E.01641
 G1 X96.075 Y74.504 E.0163
 G1 X95.261 Y74.258 E.02398
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.6 F9000
 G1 X132.923 Y73.757 Z10.6
@@ -174274,7 +174683,9 @@ G1 X135.183 Y74.699 E.01641
 G1 X134.638 Y74.504 E.0163
 G1 X133.824 Y74.258 E.02398
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z10.6 F9000
 G1 X132.923 Y112.32 Z10.6
@@ -175166,7 +175577,9 @@ G1 X135.183 Y113.262 E.01641
 G1 X134.638 Y113.067 E.0163
 G1 X133.824 Y112.821 E.02398
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.6 F9000
 G1 X94.359 Y112.32 Z10.6
@@ -176058,6 +176471,7 @@ G1 X96.619 Y113.262 E.01641
 G1 X96.075 Y113.067 E.0163
 G1 X95.261 Y112.821 E.02398
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S0
 ;LAYER_CHANGE
 ;Z:10.4
@@ -176068,6 +176482,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z10.8 F9000
 G1 X94.325 Y73.756 Z10.8
@@ -176704,7 +177119,9 @@ G1 X88.151 Y81.444 E.02434
 G1 X88.393 Y81.39 E.00664
 G1 X93.618 Y81.39 E.14002
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1
 G1 Z10.8 F9000
@@ -177343,7 +177760,9 @@ G1 X126.714 Y81.444 E.02434
 G1 X126.956 Y81.39 E.00664
 G1 X132.181 Y81.39 E.14002
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1
 G1 Z10.8 F9000
@@ -177982,7 +178401,9 @@ G1 X126.714 Y120.007 E.02434
 G1 X126.956 Y119.953 E.00664
 G1 X132.181 Y119.953 E.14002
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1
 G1 Z10.8 F9000
@@ -178621,6 +179042,7 @@ G1 X88.151 Y120.007 E.02434
 G1 X88.393 Y119.953 E.00664
 G1 X93.618 Y119.953 E.14002
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.6
 ;HEIGHT:0.200001
@@ -178630,6 +179052,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z11 F9000
@@ -179270,7 +179693,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11 F9000
 G1 X132.872 Y73.752 Z11
@@ -179910,7 +180335,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z11 F9000
 G1 X132.872 Y112.315 Z11
@@ -180549,7 +180976,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11 F9000
 G1 X94.309 Y112.315 Z11
@@ -181189,6 +181618,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.2
@@ -181198,6 +181628,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.2 F9000
 G1 X94.292 Y73.748 Z11.2
@@ -181829,7 +182260,9 @@ G1 X84.235 Y85.126 E.024
 G1 X84.486 Y84.848 E.01069
 G1 X85.854 Y83.481 E.05525
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.2 F9000
 G1 X132.855 Y73.748 Z11.2
@@ -182462,7 +182895,9 @@ G1 X122.798 Y85.126 E.024
 G1 X123.049 Y84.848 E.01069
 G1 X124.417 Y83.481 E.05525
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z11.2 F9000
 G1 X132.855 Y112.311 Z11.2
@@ -183094,7 +183529,9 @@ G1 X122.798 Y123.689 E.024
 G1 X123.049 Y123.412 E.01069
 G1 X124.417 Y122.044 E.05525
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.2 F9000
 G1 X94.292 Y112.311 Z11.2
@@ -183727,6 +184164,7 @@ G1 X84.235 Y123.689 E.024
 G1 X84.486 Y123.412 E.01069
 G1 X85.854 Y122.044 E.05525
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S74
 ;LAYER_CHANGE
 ;Z:11
@@ -183737,6 +184175,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.4 F9000
 G1 X94.274 Y73.744 Z11.4
@@ -184210,7 +184649,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.4 F9000
 G1 X132.838 Y73.744 Z11.4
@@ -184684,7 +185125,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z11.4 F9000
 G1 X132.838 Y112.308 Z11.4
@@ -185158,7 +185601,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.4 F9000
 G1 X94.274 Y112.308 Z11.4
@@ -185633,6 +186078,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.2
 ;HEIGHT:0.2
@@ -185642,6 +186088,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.6 F9000
 G1 X94.257 Y73.74 Z11.6
@@ -186115,7 +186562,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.6 F9000
 G1 X132.82 Y73.74 Z11.6
@@ -186589,7 +187038,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z11.6 F9000
 G1 X132.82 Y112.304 Z11.6
@@ -187063,7 +187514,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.6 F9000
 G1 X94.257 Y112.304 Z11.6
@@ -187537,6 +187990,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.2
@@ -187546,6 +188000,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.8 F9000
 G1 X94.239 Y73.736 Z11.8
@@ -188020,7 +188475,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.8 F9000
 G1 X132.803 Y73.736 Z11.8
@@ -188494,7 +188951,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z11.8 F9000
 G1 X132.803 Y112.3 Z11.8
@@ -188968,7 +189427,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z11.8 F9000
 G1 X94.239 Y112.3 Z11.8
@@ -189443,6 +189904,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:11.6
@@ -189453,6 +189915,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12 F9000
 G1 X94.222 Y73.732 Z12
@@ -190192,7 +190655,9 @@ G1 X84.801 Y106.732 E.0157
 G1 X85.362 Y106.933 E.01681
 G1 X86.158 Y107.174 E.02348
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12 F9000
 G1 X132.785 Y73.732 Z12
@@ -190932,7 +191397,9 @@ G1 X123.364 Y106.732 E.0157
 G1 X123.925 Y106.933 E.01681
 G1 X124.722 Y107.174 E.02348
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z12 F9000
 G1 X132.785 Y112.296 Z12
@@ -191672,7 +192139,9 @@ G1 X123.364 Y145.295 E.0157
 G1 X123.925 Y145.496 E.01681
 G1 X124.722 Y145.738 E.02348
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12 F9000
 G1 X94.222 Y112.296 Z12
@@ -192413,6 +192882,7 @@ G1 X84.801 Y145.295 E.0157
 G1 X85.362 Y145.496 E.01681
 G1 X86.158 Y145.738 E.02348
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:11.8
@@ -192423,6 +192893,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.2 F9000
 G1 X94.204 Y73.728 Z12.2
@@ -193170,7 +193641,9 @@ G1 X74.566 Y96.248 E.02099
 G1 X74.786 Y96.864 E.01846
 G1 X75.083 Y97.579 E.02183
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.2 F9000
 G1 X132.767 Y73.728 Z12.2
@@ -193919,7 +194392,9 @@ G1 X113.129 Y96.248 E.02099
 G1 X113.35 Y96.864 E.01846
 G1 X113.646 Y97.579 E.02183
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z12.2 F9000
 G1 X132.767 Y112.292 Z12.2
@@ -194667,7 +195142,9 @@ G1 X113.129 Y134.811 E.02099
 G1 X113.35 Y135.427 E.01846
 G1 X113.646 Y136.142 E.02183
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.2 F9000
 G1 X94.204 Y112.292 Z12.2
@@ -195415,6 +195892,7 @@ G1 X74.566 Y134.811 E.02099
 G1 X74.786 Y135.427 E.01846
 G1 X75.083 Y136.142 E.02183
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:12
@@ -195425,6 +195903,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.4 F9000
 G1 X94.187 Y73.725 Z12.4
@@ -196177,7 +196656,9 @@ G1 X74.537 Y96.167 E.02056
 G1 X74.786 Y96.864 E.02087
 G1 X75.05 Y97.5 E.01942
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.4 F9000
 G1 X132.75 Y73.725 Z12.4
@@ -196929,7 +197410,9 @@ G1 X113.1 Y96.167 E.02056
 G1 X113.35 Y96.864 E.02087
 G1 X113.613 Y97.5 E.01942
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z12.4 F9000
 G1 X132.75 Y112.288 Z12.4
@@ -197682,7 +198165,9 @@ G1 X113.1 Y134.731 E.02056
 G1 X113.35 Y135.427 E.02087
 G1 X113.613 Y136.063 E.01942
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.4 F9000
 G1 X94.187 Y112.288 Z12.4
@@ -198434,6 +198919,7 @@ G1 X74.537 Y134.731 E.02056
 G1 X74.786 Y135.427 E.02087
 G1 X75.05 Y136.063 E.01942
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.2
 ;HEIGHT:0.2
@@ -198443,6 +198929,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.6 F9000
 G1 X94.169 Y73.721 Z12.6
@@ -199196,7 +199683,9 @@ G1 X106.897 Y96.175 E.02048
 G1 X106.65 Y96.864 E.02064
 G1 X106.384 Y97.508 E.01965
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.6 F9000
 G1 X132.733 Y73.721 Z12.6
@@ -199951,7 +200440,9 @@ G1 X145.46 Y96.175 E.02048
 G1 X145.214 Y96.864 E.02064
 G1 X144.947 Y97.508 E.01965
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z12.6 F9000
 G1 X132.733 Y112.284 Z12.6
@@ -200706,7 +201197,9 @@ G1 X145.46 Y134.739 E.02048
 G1 X145.214 Y135.427 E.02064
 G1 X144.947 Y136.071 E.01965
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.6 F9000
 G1 X94.169 Y112.284 Z12.6
@@ -201460,6 +201953,7 @@ G1 X106.897 Y134.739 E.02048
 G1 X106.65 Y135.427 E.02064
 G1 X106.384 Y136.071 E.01965
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:12.4
@@ -201470,6 +201964,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.8 F9000
 G1 X94.153 Y73.717 Z12.8
@@ -202218,7 +202713,9 @@ G1 X106.867 Y96.259 E.02119
 G1 X106.65 Y96.864 E.01814
 G1 X106.35 Y97.589 E.02215
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.8 F9000
 G1 X132.716 Y73.717 Z12.8
@@ -202967,7 +203464,9 @@ G1 X145.43 Y96.259 E.02119
 G1 X145.214 Y96.864 E.01814
 G1 X144.913 Y97.589 E.02215
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z12.8 F9000
 G1 X132.716 Y112.28 Z12.8
@@ -203717,7 +204216,9 @@ G1 X145.43 Y134.822 E.02119
 G1 X145.214 Y135.427 E.01814
 G1 X144.913 Y136.153 E.02215
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z12.8 F9000
 G1 X94.153 Y112.28 Z12.8
@@ -204467,6 +204968,7 @@ G1 X106.867 Y134.822 E.02119
 G1 X106.65 Y135.427 E.01814
 G1 X106.35 Y136.153 E.02215
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:12.6
@@ -204477,6 +204979,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13 F9000
 G1 X94.136 Y73.713 Z13
@@ -205212,7 +205715,9 @@ G1 X96.589 Y106.749 E.01772
 G1 X96.075 Y106.933 E.01541
 G1 X95.23 Y107.187 E.02487
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13 F9000
 G1 X132.7 Y73.713 Z13
@@ -205948,7 +206453,9 @@ G1 X135.152 Y106.749 E.01772
 G1 X134.638 Y106.933 E.01541
 G1 X133.793 Y107.187 E.02487
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z13 F9000
 G1 X132.7 Y112.276 Z13
@@ -206684,7 +207191,9 @@ G1 X135.152 Y145.312 E.01772
 G1 X134.638 Y145.496 E.01541
 G1 X133.793 Y145.75 E.02487
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13 F9000
 G1 X94.136 Y112.276 Z13
@@ -207420,6 +207929,7 @@ G1 X96.589 Y145.312 E.01772
 G1 X96.075 Y145.496 E.01541
 G1 X95.23 Y145.75 E.02487
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S74
 ;LAYER_CHANGE
 ;Z:12.8
@@ -207430,6 +207940,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.2 F9000
 G1 X94.121 Y73.71 Z13.2
@@ -207901,7 +208412,9 @@ G1 X106.933 Y96.075 E.0114
 M73 P50 R45
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.2 F9000
 G1 X132.684 Y73.71 Z13.2
@@ -208373,7 +208886,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z13.2 F9000
 G1 X132.684 Y112.273 Z13.2
@@ -208844,7 +209359,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.2 F9000
 G1 X94.121 Y112.273 Z13.2
@@ -209315,6 +209832,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13
 ;HEIGHT:0.2
@@ -209324,6 +209842,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.4 F9000
 G1 X94.108 Y73.707 Z13.4
@@ -209791,7 +210310,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.01141
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.4 F9000
 G1 X132.671 Y73.707 Z13.4
@@ -210259,7 +210780,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.01141
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z13.4 F9000
 G1 X132.671 Y112.27 Z13.4
@@ -210727,7 +211250,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.01141
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.4 F9000
 G1 X94.108 Y112.27 Z13.4
@@ -211195,6 +211720,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.01141
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.2
 ;HEIGHT:0.2
@@ -211204,6 +211730,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.6 F9000
 G1 X94.103 Y73.706 Z13.6
@@ -211674,7 +212201,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.6 F9000
 G1 X132.666 Y73.706 Z13.6
@@ -212146,7 +212675,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z13.6 F9000
 G1 X132.666 Y112.269 Z13.6
@@ -212618,7 +213149,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.6 F9000
 G1 X94.103 Y112.269 Z13.6
@@ -213089,6 +213622,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.4
 ;HEIGHT:0.2
@@ -213098,6 +213632,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.8 F9000
 G1 X94.108 Y73.707 Z13.8
@@ -213567,7 +214102,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.8 F9000
 G1 X132.671 Y73.707 Z13.8
@@ -214037,7 +214574,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z13.8 F9000
 G1 X132.671 Y112.27 Z13.8
@@ -214507,7 +215046,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z13.8 F9000
 G1 X94.108 Y112.27 Z13.8
@@ -214977,6 +215518,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.6
 ;HEIGHT:0.200001
@@ -214986,6 +215528,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14 F9000
 G1 X94.103 Y73.706 Z14
@@ -215458,7 +216001,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14 F9000
 G1 X132.666 Y73.706 Z14
@@ -215931,7 +216476,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z14 F9000
 G1 X132.666 Y112.269 Z14
@@ -216406,7 +216953,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14 F9000
 G1 X94.103 Y112.269 Z14
@@ -216879,6 +217428,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.8
 ;HEIGHT:0.2
@@ -216888,6 +217438,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.2 F9000
 G1 X94.091 Y73.704 Z14.2
@@ -217358,7 +217909,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.2 F9000
 G1 X132.655 Y73.704 Z14.2
@@ -217829,7 +218382,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z14.2 F9000
 G1 X132.655 Y112.267 Z14.2
@@ -218300,7 +218855,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.2 F9000
 G1 X94.091 Y112.267 Z14.2
@@ -218771,6 +219328,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:14
@@ -218781,6 +219339,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.4 F9000
 G1 X94.082 Y73.702 Z14.4
@@ -219520,7 +220079,9 @@ G1 X96.673 Y106.719 E.01418
 G1 X96.075 Y106.933 E.01794
 G1 X95.316 Y107.163 E.02235
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.4 F9000
 G1 X132.646 Y73.702 Z14.4
@@ -220260,7 +220821,9 @@ G1 X135.237 Y106.719 E.01418
 G1 X134.638 Y106.933 E.01794
 G1 X133.88 Y107.163 E.02235
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z14.4 F9000
 G1 X132.646 Y112.265 Z14.4
@@ -221002,7 +221565,9 @@ G1 X135.237 Y145.282 E.01418
 G1 X134.638 Y145.496 E.01794
 G1 X133.88 Y145.726 E.02235
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.4 F9000
 G1 X94.082 Y112.265 Z14.4
@@ -221742,6 +222307,7 @@ G1 X96.673 Y145.282 E.01418
 G1 X96.075 Y145.496 E.01794
 G1 X95.316 Y145.726 E.02235
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:14.2
@@ -221752,6 +222318,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.6 F9000
 G1 X94.074 Y73.701 Z14.6
@@ -222498,7 +223065,9 @@ G1 X106.873 Y96.241 E.02088
 G1 X106.65 Y96.864 E.01867
 G1 X106.357 Y97.572 E.02162
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.6 F9000
 G1 X132.637 Y73.701 Z14.6
@@ -223245,7 +223814,9 @@ G1 X145.437 Y96.241 E.02088
 G1 X145.214 Y96.864 E.01867
 G1 X144.92 Y97.572 E.02162
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z14.6 F9000
 G1 X132.637 Y112.264 Z14.6
@@ -223992,7 +224563,9 @@ G1 X145.437 Y134.804 E.02088
 G1 X145.214 Y135.427 E.01867
 G1 X144.92 Y136.135 E.02162
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.6 F9000
 G1 X94.074 Y112.264 Z14.6
@@ -224740,6 +225313,7 @@ G1 X106.873 Y134.804 E.02088
 G1 X106.65 Y135.427 E.01867
 G1 X106.357 Y136.135 E.02162
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:14.4
@@ -224750,6 +225324,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.8 F9000
 G1 X94.068 Y73.7 Z14.8
@@ -225502,7 +226077,9 @@ G1 X106.902 Y96.162 E.02064
 G1 X106.65 Y96.864 E.02103
 G1 X106.389 Y97.495 E.01926
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.8 F9000
 G1 X132.631 Y73.7 Z14.8
@@ -226254,7 +226831,9 @@ G1 X145.465 Y96.162 E.02064
 G1 X145.214 Y96.864 E.02103
 G1 X144.952 Y97.495 E.01926
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z14.8 F9000
 G1 X132.631 Y112.263 Z14.8
@@ -227006,7 +227585,9 @@ G1 X145.465 Y134.725 E.02064
 G1 X145.214 Y135.427 E.02103
 G1 X144.952 Y136.058 E.01926
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z14.8 F9000
 G1 X94.068 Y112.263 Z14.8
@@ -227759,6 +228340,7 @@ G1 X106.902 Y134.725 E.02064
 G1 X106.65 Y135.427 E.02103
 G1 X106.389 Y136.058 E.01926
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:14.6
 ;HEIGHT:0.200001
@@ -227768,6 +228350,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15 F9000
 G1 X94.063 Y73.699 Z15
@@ -228519,7 +229102,9 @@ G1 X74.542 Y96.181 E.02044
 G1 X74.786 Y96.864 E.02047
 G1 X75.055 Y97.513 E.01982
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15 F9000
 G1 X132.626 Y73.699 Z15
@@ -229270,7 +229855,9 @@ G1 X113.105 Y96.181 E.02044
 G1 X113.35 Y96.864 E.02047
 G1 X113.619 Y97.513 E.01982
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z15 F9000
 G1 X132.626 Y112.262 Z15
@@ -230021,7 +230608,9 @@ G1 X113.105 Y134.744 E.02044
 G1 X113.35 Y135.427 E.02047
 G1 X113.619 Y136.076 E.01982
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15 F9000
 G1 X94.063 Y112.262 Z15
@@ -230772,6 +231361,7 @@ G1 X74.542 Y134.744 E.02044
 G1 X74.786 Y135.427 E.02047
 G1 X75.055 Y136.076 E.01982
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:14.8
@@ -230782,6 +231372,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.2 F9000
 G1 X94.059 Y73.698 Z15.2
@@ -231531,7 +232122,9 @@ G1 X74.572 Y96.266 E.02133
 G1 X74.786 Y96.864 E.01791
 G1 X75.09 Y97.597 E.02238
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.2 F9000
 G1 X132.623 Y73.698 Z15.2
@@ -232281,7 +232874,9 @@ G1 X113.136 Y96.266 E.02133
 G1 X113.35 Y96.864 E.01791
 G1 X113.653 Y97.597 E.02238
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z15.2 F9000
 G1 X132.623 Y112.262 Z15.2
@@ -233030,7 +233625,9 @@ G1 X113.136 Y134.829 E.02133
 G1 X113.35 Y135.427 E.01791
 G1 X113.653 Y136.16 E.02238
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.2 F9000
 G1 X94.059 Y112.262 Z15.2
@@ -233779,6 +234376,7 @@ G1 X74.572 Y134.829 E.02133
 G1 X74.786 Y135.427 E.01791
 G1 X75.09 Y136.16 E.02238
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S74
 ;LAYER_CHANGE
 ;Z:15
@@ -233789,6 +234387,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.4 F9000
 G1 X94.057 Y73.698 Z15.4
@@ -234259,7 +234858,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.4 F9000
 G1 X132.621 Y73.698 Z15.4
@@ -234730,7 +235331,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z15.4 F9000
 G1 X132.621 Y112.261 Z15.4
@@ -235202,7 +235805,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.4 F9000
 G1 X94.057 Y112.261 Z15.4
@@ -235673,6 +236278,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.2
 ;HEIGHT:0.2
@@ -235682,6 +236288,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.6 F9000
 G1 X94.057 Y73.698 Z15.6
@@ -236155,7 +236762,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.6 F9000
 G1 X132.62 Y73.698 Z15.6
@@ -236630,7 +237239,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z15.6 F9000
 G1 X132.62 Y112.261 Z15.6
@@ -237104,7 +237715,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.6 F9000
 G1 X94.057 Y112.261 Z15.6
@@ -237578,6 +238191,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.4
 ;HEIGHT:0.2
@@ -237587,6 +238201,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.8 F9000
 G1 X94.058 Y73.698 Z15.8
@@ -238057,7 +238672,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.8 F9000
 G1 X132.621 Y73.698 Z15.8
@@ -238528,7 +239145,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z15.8 F9000
 G1 X132.621 Y112.261 Z15.8
@@ -239000,7 +239619,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z15.8 F9000
 G1 X94.058 Y112.261 Z15.8
@@ -239471,6 +240092,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.6
 ;HEIGHT:0.200001
@@ -239480,6 +240102,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16 F9000
 G1 X94.06 Y73.698 Z16
@@ -239953,7 +240576,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16 F9000
 G1 X132.623 Y73.698 Z16
@@ -240427,7 +241052,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z16 F9000
 G1 X132.623 Y112.262 Z16
@@ -240902,7 +241529,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16 F9000
 G1 X94.06 Y112.262 Z16
@@ -241376,6 +242005,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.8
 ;HEIGHT:0.2
@@ -241385,6 +242015,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.2 F9000
 G1 X94.063 Y73.699 Z16.2
@@ -241855,7 +242486,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.2 F9000
 G1 X132.626 Y73.699 Z16.2
@@ -242326,7 +242959,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z16.2 F9000
 G1 X132.626 Y112.262 Z16.2
@@ -242798,7 +243433,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.2 F9000
 G1 X94.063 Y112.262 Z16.2
@@ -243269,6 +243906,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16
 ;HEIGHT:0.2
@@ -243278,6 +243916,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.4 F9000
 G1 X94.068 Y73.7 Z16.4
@@ -243751,7 +244390,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.4 F9000
 G1 X132.631 Y73.7 Z16.4
@@ -244225,7 +244866,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z16.4 F9000
 G1 X132.631 Y112.263 Z16.4
@@ -244699,7 +245342,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.4 F9000
 G1 X94.068 Y112.263 Z16.4
@@ -245174,6 +245819,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16.2
 ;HEIGHT:0.200001
@@ -245183,6 +245829,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.6 F9000
 G1 X94.073 Y73.701 Z16.6
@@ -245653,7 +246300,9 @@ G1 X74.64 Y96.456 E.4125
 G1 X74.504 Y96.075 E.01141
 G1 X74.216 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.6 F9000
 G1 X132.636 Y73.701 Z16.6
@@ -246124,7 +246773,9 @@ G1 X113.204 Y96.456 E.4125
 G1 X113.067 Y96.075 E.01141
 G1 X112.779 Y95.093 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z16.6 F9000
 G1 X132.636 Y112.264 Z16.6
@@ -246595,7 +247246,9 @@ G1 X113.204 Y135.019 E.4125
 G1 X113.067 Y134.638 E.01141
 G1 X112.779 Y133.656 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.6 F9000
 G1 X94.073 Y112.264 Z16.6
@@ -247067,6 +247720,7 @@ G1 X74.64 Y135.019 E.4125
 G1 X74.504 Y134.638 E.01141
 G1 X74.216 Y133.656 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:16.4
@@ -247077,6 +247731,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.8 F9000
 G1 X94.079 Y73.702 Z16.8
@@ -247818,7 +248473,9 @@ G1 X84.719 Y106.703 E.01248
 G1 X85.362 Y106.933 E.01925
 G1 X86.076 Y107.149 E.02104
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.8 F9000
 G1 X132.642 Y73.702 Z16.8
@@ -248560,7 +249217,9 @@ G1 X123.283 Y106.703 E.01248
 G1 X123.925 Y106.933 E.01925
 G1 X124.639 Y107.149 E.02104
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z16.8 F9000
 G1 X132.642 Y112.265 Z16.8
@@ -249303,7 +249962,9 @@ G1 X123.283 Y145.266 E.01248
 G1 X123.925 Y145.496 E.01925
 G1 X124.639 Y145.713 E.02104
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z16.8 F9000
 G1 X94.079 Y112.265 Z16.8
@@ -250045,6 +250706,7 @@ G1 X84.719 Y145.266 E.01248
 G1 X85.362 Y145.496 E.01925
 G1 X86.076 Y145.713 E.02104
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:16.6
@@ -250055,6 +250717,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17 F9000
 G1 X94.085 Y73.703 Z17
@@ -250801,7 +251464,9 @@ G1 X74.561 Y96.234 E.02077
 G1 X74.786 Y96.864 E.01887
 G1 X75.077 Y97.565 E.02142
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17 F9000
 G1 X132.648 Y73.703 Z17
@@ -251549,7 +252214,9 @@ G1 X113.124 Y96.234 E.02077
 G1 X113.35 Y96.864 E.01887
 G1 X113.64 Y97.565 E.02142
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z17 F9000
 G1 X132.648 Y112.266 Z17
@@ -252296,7 +252963,9 @@ G1 X113.124 Y134.797 E.02077
 G1 X113.35 Y135.427 E.01887
 G1 X113.64 Y136.129 E.02142
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17 F9000
 G1 X94.085 Y112.266 Z17
@@ -253043,6 +253712,7 @@ G1 X74.561 Y134.797 E.02077
 G1 X74.786 Y135.427 E.01887
 G1 X75.077 Y136.129 E.02142
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S61
 ;LAYER_CHANGE
 ;Z:16.8
@@ -253053,6 +253723,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.2 F9000
 G1 X94.093 Y73.704 Z17.2
@@ -253807,7 +254478,9 @@ G1 X74.533 Y96.157 E.02073
 G1 X74.786 Y96.864 E.02118
 G1 X75.046 Y97.49 E.01911
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.2 F9000
 G1 X132.656 Y73.704 Z17.2
@@ -254562,7 +255235,9 @@ G1 X113.097 Y96.157 E.02073
 G1 X113.35 Y96.864 E.02118
 G1 X113.609 Y97.49 E.01911
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z17.2 F9000
 G1 X132.656 Y112.267 Z17.2
@@ -255316,7 +255991,9 @@ G1 X113.097 Y134.72 E.02073
 G1 X113.35 Y135.427 E.02118
 G1 X113.609 Y136.053 E.01911
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.2 F9000
 G1 X94.093 Y112.267 Z17.2
@@ -256070,6 +256747,7 @@ G1 X74.533 Y134.72 E.02073
 G1 X74.786 Y135.427 E.02118
 G1 X75.046 Y136.053 E.01911
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S66
 ;LAYER_CHANGE
 ;Z:17
@@ -256080,6 +256758,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.4 F9000
 G1 X94.1 Y73.705 Z17.4
@@ -256830,7 +257509,9 @@ G1 X106.893 Y96.186 E.02042
 G1 X106.65 Y96.864 E.02031
 G1 X106.379 Y97.519 E.01998
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.4 F9000
 G1 X132.664 Y73.705 Z17.4
@@ -257580,7 +258261,9 @@ G1 X145.456 Y96.186 E.02042
 G1 X145.214 Y96.864 E.02031
 G1 X144.942 Y97.519 E.01998
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z17.4 F9000
 G1 X132.664 Y112.269 Z17.4
@@ -258331,7 +259014,9 @@ G1 X145.456 Y134.75 E.02042
 G1 X145.214 Y135.427 E.02031
 G1 X144.942 Y136.082 E.01998
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.4 F9000
 G1 X94.1 Y112.269 Z17.4
@@ -259081,6 +259766,7 @@ G1 X106.893 Y134.75 E.02042
 G1 X106.65 Y135.427 E.02031
 G1 X106.379 Y136.082 E.01998
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S68
 ;LAYER_CHANGE
 ;Z:17.2
@@ -259091,6 +259777,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.6 F9000
 G1 X94.103 Y73.706 Z17.6
@@ -259835,7 +260522,9 @@ G1 X106.862 Y96.274 E.02148
 G1 X106.65 Y96.864 E.01769
 G1 X106.344 Y97.604 E.0226
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.6 F9000
 G1 X132.666 Y73.706 Z17.6
@@ -260581,7 +261270,9 @@ G1 X145.425 Y96.274 E.02148
 G1 X145.214 Y96.864 E.01769
 G1 X144.907 Y97.604 E.0226
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z17.6 F9000
 G1 X132.666 Y112.269 Z17.6
@@ -261326,7 +262017,9 @@ G1 X145.425 Y134.837 E.02148
 G1 X145.214 Y135.427 E.01769
 G1 X144.907 Y136.168 E.0226
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.6 F9000
 G1 X94.103 Y112.269 Z17.6
@@ -262072,6 +262765,7 @@ G1 X106.862 Y134.837 E.02148
 G1 X106.65 Y135.427 E.01769
 G1 X106.344 Y136.168 E.0226
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S74
 ;LAYER_CHANGE
 ;Z:17.4
@@ -262082,6 +262776,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.8 F9000
 G1 X94.103 Y73.706 Z17.8
@@ -262553,7 +263248,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.8 F9000
 G1 X132.666 Y73.706 Z17.8
@@ -263025,7 +263722,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z17.8 F9000
 G1 X132.666 Y112.269 Z17.8
@@ -263497,7 +264196,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z17.8 F9000
 G1 X94.103 Y112.269 Z17.8
@@ -263969,6 +264670,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S76
 ;LAYER_CHANGE
 ;Z:17.6
@@ -263979,6 +264681,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18 F9000
 G1 X94.103 Y73.706 Z18
@@ -264449,7 +265152,9 @@ G1 X96.456 Y106.796 E.4125
 G1 X96.075 Y106.933 E.01141
 G1 X95.093 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18 F9000
 G1 X132.666 Y73.706 Z18
@@ -264921,7 +265626,9 @@ G1 X135.019 Y106.796 E.4125
 G1 X134.638 Y106.933 E.01141
 G1 X133.656 Y107.221 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z18 F9000
 G1 X132.666 Y112.269 Z18
@@ -265393,7 +266100,9 @@ G1 X135.019 Y145.36 E.4125
 G1 X134.638 Y145.496 E.01141
 G1 X133.656 Y145.784 E.02887
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18 F9000
 G1 X94.103 Y112.269 Z18
@@ -265864,6 +266573,7 @@ G1 X96.456 Y145.36 E.4125
 G1 X96.075 Y145.496 E.01141
 G1 X95.093 Y145.784 E.02887
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S74
 ;LAYER_CHANGE
 ;Z:17.8
@@ -265874,6 +266584,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.2 F9000
 G1 X94.103 Y73.706 Z18.2
@@ -266344,7 +267055,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.2 F9000
 G1 X132.666 Y73.706 Z18.2
@@ -266815,7 +267528,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z18.2 F9000
 G1 X132.666 Y112.269 Z18.2
@@ -267286,7 +268001,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.2 F9000
 G1 X94.103 Y112.269 Z18.2
@@ -267757,6 +268474,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18
 ;HEIGHT:0.200001
@@ -267766,6 +268484,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.4 F9000
 G1 X94.109 Y73.707 Z18.4
@@ -268236,7 +268955,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.4 F9000
 G1 X132.672 Y73.707 Z18.4
@@ -268707,7 +269428,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z18.4 F9000
 G1 X132.672 Y112.27 Z18.4
@@ -269179,7 +269902,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.4 F9000
 G1 X94.109 Y112.27 Z18.4
@@ -269651,6 +270376,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18.2
 ;HEIGHT:0.200001
@@ -269660,6 +270386,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.6 F9000
 G1 X94.118 Y73.709 Z18.6
@@ -270130,7 +270857,9 @@ G1 X106.796 Y96.456 E.4125
 G1 X106.933 Y96.075 E.0114
 G1 X107.221 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.6 F9000
 G1 X132.681 Y73.709 Z18.6
@@ -270601,7 +271330,9 @@ G1 X145.36 Y96.456 E.4125
 G1 X145.496 Y96.075 E.0114
 G1 X145.784 Y95.093 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z18.6 F9000
 G1 X132.681 Y112.272 Z18.6
@@ -271072,7 +271803,9 @@ G1 X145.36 Y135.019 E.4125
 G1 X145.496 Y134.638 E.0114
 G1 X145.784 Y133.656 E.02888
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.6 F9000
 G1 X94.118 Y112.272 Z18.6
@@ -271543,6 +272276,7 @@ G1 X106.796 Y135.019 E.4125
 G1 X106.933 Y134.638 E.0114
 G1 X107.221 Y133.656 E.02888
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S63
 ;LAYER_CHANGE
 ;Z:18.4
@@ -271553,6 +272287,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.8 F9000
 G1 X94.127 Y73.711 Z18.8
@@ -272157,7 +272892,9 @@ G1 X106.176 Y97.076 E.36299
 G1 X106.317 Y96.736 E.0104
 G1 X106.663 Y95.734 E.02988
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.8 F9000
 G1 X132.69 Y73.711 Z18.8
@@ -272762,7 +273499,9 @@ G1 X144.739 Y97.076 E.36299
 G1 X144.88 Y96.736 E.0104
 G1 X145.226 Y95.734 E.02988
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z18.8 F9000
 G1 X132.69 Y112.274 Z18.8
@@ -273368,7 +274107,9 @@ G1 X144.739 Y135.639 E.36299
 G1 X144.88 Y135.299 E.0104
 G1 X145.226 Y134.298 E.02988
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z18.8 F9000
 G1 X94.127 Y112.274 Z18.8
@@ -273974,6 +274715,7 @@ G1 X106.176 Y135.639 E.36299
 G1 X106.317 Y135.299 E.0104
 G1 X106.663 Y134.298 E.02988
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S0
 ;LAYER_CHANGE
 ;Z:18.6
@@ -273984,6 +274726,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19 F9000
 G1 X94.136 Y73.713 Z19
@@ -274597,7 +275340,9 @@ G1 X73.934 Y93.631 E.03942
 G1 X73.783 Y92.515 E.05306
 G1 X73.783 Y87.551 E.23408
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z19 F9000
@@ -275216,7 +275961,9 @@ G1 X112.498 Y93.631 E.03942
 G1 X112.347 Y92.515 E.05306
 G1 X112.347 Y87.551 E.23408
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z19 F9000
@@ -275833,7 +276580,9 @@ G1 X112.498 Y132.194 E.03942
 G1 X112.347 Y131.079 E.05306
 G1 X112.347 Y126.114 E.23408
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z19 F9000
@@ -276452,6 +277201,7 @@ G1 X73.934 Y132.194 E.03942
 G1 X73.783 Y131.079 E.05306
 G1 X73.783 Y126.114 E.23408
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18.8
 ;HEIGHT:0.199999
@@ -276461,6 +277211,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z19.2 F9000
@@ -277169,7 +277920,9 @@ G1 X102.451 Y103.041 E.02245
 G1 X103.617 Y101.845 E.04487
 G1 X104.561 Y100.784 E.03814
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.2 F9000
 G1 X132.707 Y73.715 Z19.2
@@ -277876,7 +278629,9 @@ G1 X141.014 Y103.041 E.02245
 G1 X142.181 Y101.845 E.04487
 G1 X143.124 Y100.784 E.03814
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z19.2 F9000
 G1 X132.707 Y112.278 Z19.2
@@ -278582,7 +279337,9 @@ G1 X141.014 Y141.605 E.02245
 G1 X142.181 Y140.409 E.04487
 G1 X143.124 Y139.347 E.03814
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.2 F9000
 G1 X94.144 Y112.278 Z19.2
@@ -279290,6 +280047,7 @@ G1 X102.451 Y141.605 E.02245
 G1 X103.617 Y140.409 E.04487
 G1 X104.561 Y139.347 E.03814
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19
 ;HEIGHT:0.200001
@@ -279299,6 +280057,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.4 F9000
 G1 X94.103 Y73.706 Z19.4
@@ -280002,7 +280761,9 @@ G1 X90.205 Y86.606 E.01259
 G1 X89.81 Y86.675 E.01131
 G1 X89.445 Y86.776 E.01069
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.4 F9000
 G1 X132.666 Y73.706 Z19.4
@@ -280708,7 +281469,9 @@ G1 X128.769 Y86.606 E.01259
 G1 X128.374 Y86.675 E.01131
 G1 X128.008 Y86.776 E.01069
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z19.4 F9000
 G1 X132.666 Y112.269 Z19.4
@@ -281412,7 +282175,9 @@ G1 X128.769 Y125.169 E.01259
 G1 X128.374 Y125.238 E.01131
 G1 X128.008 Y125.339 E.01069
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.4 F9000
 G1 X94.103 Y112.269 Z19.4
@@ -282117,6 +282882,7 @@ G1 X90.205 Y125.169 E.01259
 G1 X89.81 Y125.238 E.01131
 G1 X89.445 Y125.339 E.01069
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.2
 ;HEIGHT:0.200001
@@ -282126,6 +282892,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.6 F9000
 G1 X94.16 Y73.719 Z19.6
@@ -282851,7 +283618,9 @@ G1 X79.565 Y77.788 E.02379
 G1 X78.96 Y78.336 E.02316
 G1 X76.978 Y80.318 E.07958
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.6 F9000
 G1 X132.723 Y73.719 Z19.6
@@ -283577,7 +284346,9 @@ G1 X118.128 Y77.788 E.02379
 G1 X117.524 Y78.336 E.02316
 G1 X115.541 Y80.318 E.07958
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z19.6 F9000
 G1 X132.723 Y112.282 Z19.6
@@ -284303,7 +285074,9 @@ G1 X118.128 Y116.351 E.02379
 G1 X117.524 Y116.899 E.02316
 G1 X115.541 Y118.881 E.07958
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.6 F9000
 G1 X94.16 Y112.282 Z19.6
@@ -285029,6 +285802,7 @@ G1 X79.565 Y116.351 E.02379
 G1 X78.96 Y116.899 E.02316
 G1 X76.978 Y118.881 E.07958
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 M106 S125
 ;LAYER_CHANGE
 ;Z:19.4
@@ -285039,6 +285813,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.8 F9000
 G1 X95.326 Y90.282 Z19.8
@@ -285276,7 +286051,9 @@ G1 X91.189 Y86.904 E.01384
 G1 X91.924 Y87.069 E.02124
 G1 X92.093 Y87.144 E.0052
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.8 F9000
 G1 X133.889 Y90.282 Z19.8
@@ -285514,7 +286291,9 @@ G1 X129.752 Y86.904 E.01384
 G1 X130.487 Y87.069 E.02124
 G1 X130.656 Y87.144 E.0052
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z19.8 F9000
 G1 X133.889 Y128.846 Z19.8
@@ -285752,7 +286531,9 @@ G1 X129.752 Y125.468 E.01384
 G1 X130.487 Y125.633 E.02124
 G1 X130.656 Y125.708 E.0052
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z19.8 F9000
 G1 X95.326 Y128.846 Z19.8
@@ -285991,6 +286772,7 @@ G1 X91.189 Y125.468 E.01384
 G1 X91.924 Y125.633 E.02124
 G1 X92.093 Y125.708 E.0052
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.6
 ;HEIGHT:0.200001
@@ -286000,6 +286782,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20 F9000
 G1 X95.184 Y90.283 Z20
@@ -286237,7 +287020,9 @@ G1 X91.608 Y94.696 E.029
 G1 X92.367 Y94.442 E.02897
 G1 X93.027 Y94.066 E.02751
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20 F9000
 G1 X133.747 Y90.283 Z20
@@ -286475,7 +287260,9 @@ G1 X130.171 Y94.696 E.029
 G1 X130.93 Y94.442 E.02897
 G1 X131.59 Y94.066 E.02751
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z20 F9000
 G1 X133.747 Y128.846 Z20
@@ -286713,7 +287500,9 @@ G1 X130.171 Y133.259 E.029
 G1 X130.93 Y133.005 E.02897
 G1 X131.59 Y132.63 E.02751
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20 F9000
 G1 X95.184 Y128.846 Z20
@@ -286951,6 +287740,7 @@ G1 X91.608 Y133.259 E.029
 G1 X92.367 Y133.005 E.02897
 G1 X93.027 Y132.63 E.02751
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.8
 ;HEIGHT:0.199999
@@ -286960,6 +287750,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.2 F9000
 G1 X95.032 Y90.316 Z20.2
@@ -287172,7 +287963,9 @@ G1 X91.766 Y94.523 E.02625
 G1 X92.49 Y94.243 E.02625
 G1 X93.111 Y93.849 E.0249
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.2 F9000
 G1 X133.595 Y90.316 Z20.2
@@ -287385,7 +288178,9 @@ G1 X130.329 Y94.523 E.02625
 G1 X131.053 Y94.243 E.02625
 G1 X131.674 Y93.849 E.0249
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z20.2 F9000
 G1 X133.595 Y128.879 Z20.2
@@ -287598,7 +288393,9 @@ G1 X130.329 Y133.086 E.02625
 G1 X131.053 Y132.806 E.02625
 G1 X131.674 Y132.412 E.0249
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.2 F9000
 G1 X95.032 Y128.879 Z20.2
@@ -287811,6 +288608,7 @@ G1 X91.766 Y133.086 E.02625
 G1 X92.49 Y132.806 E.02625
 G1 X93.111 Y132.412 E.0249
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20
 ;HEIGHT:0.200001
@@ -287820,6 +288618,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.4 F9000
 G1 X94.896 Y90.38 Z20.4
@@ -287994,7 +288793,9 @@ G1 X91.744 Y94.448 E.02044
 G1 X92.454 Y94.173 E.02044
 G1 X93.063 Y93.787 E.01937
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.4 F9000
 G1 X133.46 Y90.38 Z20.4
@@ -288168,7 +288969,9 @@ G1 X130.307 Y94.448 E.02044
 G1 X131.017 Y94.173 E.02044
 G1 X131.626 Y93.787 E.01937
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z20.4 F9000
 G1 X133.46 Y128.943 Z20.4
@@ -288342,7 +289145,9 @@ G1 X130.307 Y133.011 E.02044
 G1 X131.017 Y132.737 E.02044
 G1 X131.626 Y132.351 E.01937
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.4 F9000
 G1 X94.896 Y128.943 Z20.4
@@ -288516,6 +289321,7 @@ G1 X91.744 Y133.011 E.02044
 G1 X92.454 Y132.737 E.02044
 G1 X93.063 Y132.351 E.01937
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.2
 ;HEIGHT:0.200001
@@ -288525,6 +289331,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.6 F9000
 G1 X94.751 Y90.408 Z20.6
@@ -288699,7 +289506,9 @@ G1 X87.335 Y89.218 E.01949
 G1 X87.692 Y88.587 E.01949
 G1 X88.17 Y88.034 E.01962
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.6 F9000
 G1 X133.315 Y90.408 Z20.6
@@ -288874,7 +289683,9 @@ G1 X125.898 Y89.218 E.01949
 G1 X126.256 Y88.587 E.01949
 G1 X126.733 Y88.034 E.01962
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z20.6 F9000
 G1 X133.315 Y128.972 Z20.6
@@ -289049,7 +289860,9 @@ G1 X125.898 Y127.782 E.01949
 G1 X126.256 Y127.15 E.01949
 G1 X126.733 Y126.598 E.01962
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.6 F9000
 G1 X94.751 Y128.972 Z20.6
@@ -289224,6 +290037,7 @@ G1 X87.335 Y127.782 E.01949
 G1 X87.692 Y127.15 E.01949
 G1 X88.17 Y126.598 E.01962
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.4
 ;HEIGHT:0.199999
@@ -289233,6 +290047,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z20.8 F9000
 G1 X94.609 Y90.346 Z20.8
@@ -289393,7 +290208,9 @@ G1 X87.768 Y88.64 E.0066
 G1 X87.419 Y89.255 E.03334
 G1 X87.419 Y92.593 E.15735
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z20.8 F9000
@@ -289557,7 +290374,9 @@ G1 X126.331 Y88.64 E.0066
 G1 X125.983 Y89.255 E.03334
 G1 X125.983 Y92.593 E.15735
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z20.8 F9000
@@ -289721,7 +290540,9 @@ G1 X126.331 Y127.204 E.0066
 G1 X125.983 Y127.819 E.03334
 G1 X125.983 Y131.156 E.15735
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z20.8 F9000
@@ -289886,6 +290707,7 @@ G1 X87.768 Y127.204 E.0066
 G1 X87.419 Y127.819 E.03334
 G1 X87.419 Y131.156 E.15735
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.6
 ;HEIGHT:0.200001
@@ -289895,6 +290717,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-1 F3000
 G1 Z21 F9000
@@ -290070,7 +290893,9 @@ G1 X87.634 Y92.671 E.02082
 G1 X88.05 Y93.205 E.01968
 G1 X88.886 Y94.041 E.0344
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21 F9000
 G1 X133.173 Y90.35 Z21
@@ -290244,7 +291069,9 @@ G1 X126.197 Y92.671 E.02082
 G1 X126.614 Y93.205 E.01968
 G1 X127.45 Y94.041 E.0344
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z21 F9000
 G1 X133.173 Y128.913 Z21
@@ -290418,7 +291245,9 @@ G1 X126.197 Y131.235 E.02082
 G1 X126.614 Y131.768 E.01968
 G1 X127.45 Y132.604 E.0344
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21 F9000
 G1 X94.61 Y128.913 Z21
@@ -290592,6 +291421,7 @@ G1 X87.634 Y131.235 E.02082
 G1 X88.05 Y131.768 E.01968
 G1 X88.886 Y132.604 E.0344
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.8
 ;HEIGHT:0.199999
@@ -290601,6 +291431,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.2 F9000
 G1 X94.61 Y90.354 Z21.2
@@ -290773,7 +291604,9 @@ G1 X92.836 Y93.435 E.01472
 G1 X93.091 Y93.21 E.01601
 G1 X93.525 Y92.743 E.03001
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.2 F9000
 G1 X133.173 Y90.354 Z21.2
@@ -290946,7 +291779,9 @@ G1 X131.399 Y93.435 E.01472
 G1 X131.654 Y93.21 E.01601
 G1 X132.088 Y92.743 E.03001
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z21.2 F9000
 G1 X133.173 Y128.917 Z21.2
@@ -291120,7 +291955,9 @@ G1 X131.399 Y131.999 E.01472
 G1 X131.654 Y131.774 E.01601
 G1 X132.088 Y131.307 E.03001
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.2 F9000
 G1 X94.61 Y128.917 Z21.2
@@ -291293,6 +292130,7 @@ G1 X92.836 Y131.999 E.01472
 G1 X93.091 Y131.774 E.01601
 G1 X93.525 Y131.307 E.03001
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21
 ;HEIGHT:0.200001
@@ -291302,6 +292140,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.4 F9000
 G1 X94.61 Y90.358 Z21.4
@@ -291520,7 +292359,9 @@ G1 X88.27 Y88.125 E.02045
 G1 X88.063 Y88.36 E.00883
 G1 X93.827 Y89.071 E.16382
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.4 F9000
 G1 X133.174 Y90.358 Z21.4
@@ -291738,7 +292579,9 @@ G1 X126.833 Y88.125 E.02045
 G1 X126.626 Y88.36 E.00883
 G1 X132.391 Y89.071 E.16382
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z21.4 F9000
 G1 X133.174 Y128.921 Z21.4
@@ -291956,7 +292799,9 @@ G1 X126.833 Y126.688 E.02045
 G1 X126.626 Y126.923 E.00883
 G1 X132.391 Y127.634 E.16382
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.4 F9000
 G1 X94.61 Y128.921 Z21.4
@@ -292174,6 +293019,7 @@ G1 X88.27 Y126.688 E.02045
 G1 X88.063 Y126.923 E.00883
 G1 X93.827 Y127.634 E.16382
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.2
 ;HEIGHT:0.200001
@@ -292183,6 +293029,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.6 F9000
 G1 X94.04 Y92.809 Z21.6
@@ -292372,7 +293219,9 @@ G1 X90.843 Y87.943 E.01459
 ;WIDTH:0.468238
 G1 X91.292 Y87.983 E.01515
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.6 F9000
 G1 X132.603 Y92.809 Z21.6
@@ -292563,7 +293412,9 @@ G1 X129.406 Y87.943 E.01459
 ;WIDTH:0.468238
 G1 X129.855 Y87.983 E.01515
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z21.6 F9000
 G1 X132.603 Y131.373 Z21.6
@@ -292754,7 +293605,9 @@ G1 X129.406 Y126.506 E.01459
 ;WIDTH:0.468238
 G1 X129.855 Y126.546 E.01515
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.6 F9000
 G1 X94.04 Y131.373 Z21.6
@@ -292945,6 +293798,7 @@ G1 X90.843 Y126.506 E.01459
 ;WIDTH:0.468238
 G1 X91.292 Y126.546 E.01515
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.4
 ;HEIGHT:0.199999
@@ -292954,6 +293808,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.8 F9000
 G1 X94.028 Y92.805 Z21.8
@@ -293144,7 +293999,9 @@ G1 X90.787 Y87.919 F9000
 G1 F6318
 G1 X91.292 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.8 F9000
 G1 X132.591 Y92.805 Z21.8
@@ -293334,7 +294191,9 @@ G1 X129.35 Y87.919 F9000
 G1 F6318
 G1 X129.856 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z21.8 F9000
 G1 X132.591 Y131.368 Z21.8
@@ -293524,7 +294383,9 @@ G1 X129.35 Y126.482 F9000
 G1 F6318
 G1 X129.856 Y126.545 E.01837
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z21.8 F9000
 G1 X94.028 Y131.368 Z21.8
@@ -293714,6 +294575,7 @@ G1 X90.787 Y126.482 F9000
 G1 F6318
 G1 X91.292 Y126.545 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.6
 ;HEIGHT:0.200001
@@ -293723,6 +294585,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22 F9000
 G1 X94.036 Y92.806 Z22
@@ -293915,7 +294778,9 @@ G1 X90.785 Y87.919 F9000
 G1 F6223
 G1 X91.292 Y87.981 E.01845
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22 F9000
 G1 X132.599 Y92.806 Z22
@@ -294109,7 +294974,9 @@ G1 X129.348 Y87.919 F9000
 G1 F6223
 G1 X129.855 Y87.981 E.01845
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z22 F9000
 G1 X132.599 Y131.369 Z22
@@ -294302,7 +295169,9 @@ G1 X129.348 Y126.482 F9000
 G1 F6223
 G1 X129.855 Y126.545 E.01845
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22 F9000
 G1 X94.036 Y131.369 Z22
@@ -294495,6 +295364,7 @@ G1 X90.785 Y126.482 F9000
 G1 F6223
 G1 X91.292 Y126.545 E.01845
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.8
 ;HEIGHT:0.199999
@@ -294504,6 +295374,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.2 F9000
 G1 X94.035 Y92.806 Z22.2
@@ -294694,7 +295565,9 @@ G1 X90.787 Y87.919 F9000
 G1 F6359
 G1 X91.292 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.2 F9000
 G1 X132.598 Y92.806 Z22.2
@@ -294885,7 +295758,9 @@ G1 X129.35 Y87.919 F9000
 G1 F6359
 G1 X129.856 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z22.2 F9000
 G1 X132.598 Y131.369 Z22.2
@@ -295076,7 +295951,9 @@ G1 X129.35 Y126.482 F9000
 G1 F6359
 G1 X129.856 Y126.545 E.01837
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.2 F9000
 G1 X94.035 Y131.369 Z22.2
@@ -295267,6 +296144,7 @@ G1 X90.787 Y126.482 F9000
 G1 F6359
 G1 X91.292 Y126.545 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22
 ;HEIGHT:0.200001
@@ -295276,6 +296154,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.4 F9000
 G1 X94.047 Y92.807 Z22.4
@@ -295467,7 +296346,9 @@ G1 X88.132 Y88.256 E.01482
 G1 X88.054 Y88.352 E.00349
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.4 F9000
 G1 X132.61 Y92.807 Z22.4
@@ -295658,7 +296539,9 @@ G1 X126.696 Y88.256 E.01482
 G1 X126.617 Y88.352 E.00349
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z22.4 F9000
 G1 X132.61 Y131.37 Z22.4
@@ -295849,7 +296732,9 @@ G1 X126.696 Y126.82 E.01482
 G1 X126.617 Y126.915 E.00349
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.4 F9000
 G1 X94.047 Y131.37 Z22.4
@@ -296040,6 +296925,7 @@ G1 X88.132 Y126.82 E.01482
 G1 X88.054 Y126.915 E.00349
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.2
 ;HEIGHT:0.200001
@@ -296049,6 +296935,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.6 F9000
 G1 X94.047 Y92.807 Z22.6
@@ -296241,7 +297128,9 @@ G1 X90.787 Y87.919 F9000
 G1 F6356
 G1 X91.292 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.6 F9000
 G1 X132.611 Y92.807 Z22.6
@@ -296435,7 +297324,9 @@ G1 X129.35 Y87.919 F9000
 G1 F6356
 G1 X129.855 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z22.6 F9000
 G1 X132.611 Y131.37 Z22.6
@@ -296630,7 +297521,9 @@ G1 X129.35 Y126.482 F9000
 G1 F6356
 G1 X129.855 Y126.545 E.01837
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.6 F9000
 G1 X94.047 Y131.37 Z22.6
@@ -296824,6 +297717,7 @@ G1 X90.787 Y126.482 F9000
 G1 F6356
 G1 X91.292 Y126.545 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.4
 ;HEIGHT:0.199999
@@ -296833,6 +297727,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.8 F9000
 G1 X94.047 Y92.807 Z22.8
@@ -297024,7 +297919,9 @@ G1 X88.123 Y88.268 E.02057
 G1 X88.054 Y88.352 E.00307
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.8 F9000
 G1 X132.61 Y92.807 Z22.8
@@ -297215,7 +298112,9 @@ G1 X126.686 Y88.268 E.02057
 G1 X126.617 Y88.352 E.00307
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z22.8 F9000
 G1 X132.61 Y131.37 Z22.8
@@ -297407,7 +298306,9 @@ G1 X126.686 Y126.831 E.02057
 G1 X126.617 Y126.915 E.00307
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z22.8 F9000
 G1 X94.047 Y131.37 Z22.8
@@ -297598,6 +298499,7 @@ G1 X88.123 Y126.831 E.02057
 G1 X88.054 Y126.915 E.00307
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.6
 ;HEIGHT:0.200001
@@ -297607,6 +298509,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23 F9000
 G1 X94.047 Y92.807 Z23
@@ -297797,7 +298700,9 @@ G1 X88.132 Y88.256 E.01482
 G1 X88.054 Y88.352 E.00349
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23 F9000
 G1 X132.61 Y92.807 Z23
@@ -297988,7 +298893,9 @@ G1 X126.696 Y88.256 E.01482
 G1 X126.617 Y88.352 E.00349
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z23 F9000
 G1 X132.61 Y131.37 Z23
@@ -298179,7 +299086,9 @@ G1 X126.696 Y126.82 E.01482
 G1 X126.617 Y126.915 E.00349
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23 F9000
 G1 X94.047 Y131.37 Z23
@@ -298370,6 +299279,7 @@ G1 X88.132 Y126.82 E.01482
 G1 X88.054 Y126.915 E.00349
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.8
 ;HEIGHT:0.199999
@@ -298379,6 +299289,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.2 F9000
 G1 X94.04 Y92.806 Z23.2
@@ -298571,7 +299482,9 @@ G1 X90.787 Y87.919 F9000
 G1 F6320
 G1 X91.292 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.2 F9000
 G1 X132.604 Y92.806 Z23.2
@@ -298765,7 +299678,9 @@ G1 X129.35 Y87.919 F9000
 G1 F6320
 G1 X129.855 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z23.2 F9000
 G1 X132.604 Y131.37 Z23.2
@@ -298959,7 +299874,9 @@ G1 X129.35 Y126.482 F9000
 G1 F6320
 G1 X129.855 Y126.545 E.01837
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.2 F9000
 G1 X94.04 Y131.37 Z23.2
@@ -299153,6 +300070,7 @@ G1 X90.787 Y126.482 F9000
 G1 F6320
 G1 X91.292 Y126.545 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23
 ;HEIGHT:0.200001
@@ -299162,6 +300080,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.4 F9000
 G1 X94.028 Y92.805 Z23.4
@@ -299356,7 +300275,9 @@ G1 X90.787 Y87.919 F9000
 G1 F6311
 G1 X91.292 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.4 F9000
 G1 X132.591 Y92.805 Z23.4
@@ -299551,7 +300472,9 @@ G1 X129.35 Y87.919 F9000
 G1 F6311
 G1 X129.855 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z23.4 F9000
 G1 X132.591 Y131.368 Z23.4
@@ -299746,7 +300669,9 @@ G1 X129.35 Y126.482 F9000
 G1 F6311
 G1 X129.855 Y126.545 E.01837
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.4 F9000
 G1 X94.028 Y131.368 Z23.4
@@ -299941,6 +300866,7 @@ G1 X90.787 Y126.482 F9000
 G1 F6311
 G1 X91.292 Y126.545 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.2
 ;HEIGHT:0.200001
@@ -299950,6 +300876,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.6 F9000
 G1 X94.028 Y92.805 Z23.6
@@ -300147,7 +301074,9 @@ G1 X90.831 Y87.942 E.01485
 ;WIDTH:0.466286
 G1 X91.292 Y87.983 E.01546
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.6 F9000
 G1 X132.591 Y92.805 Z23.6
@@ -300344,7 +301273,9 @@ G1 X129.395 Y87.942 E.01485
 ;WIDTH:0.466286
 G1 X129.855 Y87.983 E.01546
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z23.6 F9000
 G1 X132.591 Y131.368 Z23.6
@@ -300541,7 +301472,9 @@ G1 X129.395 Y126.505 E.01485
 ;WIDTH:0.466286
 G1 X129.855 Y126.546 E.01546
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.6 F9000
 G1 X94.028 Y131.368 Z23.6
@@ -300739,6 +301672,7 @@ G1 X90.831 Y126.505 E.01485
 ;WIDTH:0.466286
 G1 X91.292 Y126.546 E.01546
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.4
 ;HEIGHT:0.199999
@@ -300748,6 +301682,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.8 F9000
 G1 X94.023 Y92.804 Z23.8
@@ -300943,7 +301878,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.8 F9000
 G1 X132.586 Y92.804 Z23.8
@@ -301138,7 +302075,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z23.8 F9000
 G1 X132.586 Y131.367 Z23.8
@@ -301333,7 +302272,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z23.8 F9000
 G1 X94.023 Y131.367 Z23.8
@@ -301528,6 +302469,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.6
 ;HEIGHT:0.200001
@@ -301537,6 +302479,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24 F9000
 G1 X94.023 Y92.804 Z24
@@ -301728,7 +302671,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24 F9000
 G1 X132.586 Y92.804 Z24
@@ -301920,7 +302865,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z24 F9000
 G1 X132.586 Y131.367 Z24
@@ -302112,7 +303059,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24 F9000
 G1 X94.023 Y131.367 Z24
@@ -302304,6 +303253,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.8
 ;HEIGHT:0.199999
@@ -302313,6 +303263,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.2 F9000
 G1 X94.023 Y92.804 Z24.2
@@ -302504,7 +303455,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.2 F9000
 G1 X132.586 Y92.804 Z24.2
@@ -302696,7 +303649,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z24.2 F9000
 G1 X132.586 Y131.367 Z24.2
@@ -302888,7 +303843,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.2 F9000
 G1 X94.023 Y131.367 Z24.2
@@ -303080,6 +304037,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24
 ;HEIGHT:0.200001
@@ -303089,6 +304047,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.4 F9000
 G1 X94.023 Y92.804 Z24.4
@@ -303280,7 +304239,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.4 F9000
 G1 X132.586 Y92.804 Z24.4
@@ -303472,7 +304433,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z24.4 F9000
 G1 X132.586 Y131.367 Z24.4
@@ -303665,7 +304628,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.4 F9000
 G1 X94.023 Y131.367 Z24.4
@@ -303857,6 +304822,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.2
 ;HEIGHT:0.200001
@@ -303866,6 +304832,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.6 F9000
 G1 X94.023 Y92.804 Z24.6
@@ -304058,7 +305025,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.6 F9000
 G1 X132.586 Y92.804 Z24.6
@@ -304250,7 +305219,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z24.6 F9000
 G1 X132.586 Y131.367 Z24.6
@@ -304442,7 +305413,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.6 F9000
 G1 X94.023 Y131.367 Z24.6
@@ -304634,6 +305607,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.4
 ;HEIGHT:0.199999
@@ -304643,6 +305617,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.8 F9000
 G1 X94.023 Y92.804 Z24.8
@@ -304834,7 +305809,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.8 F9000
 G1 X132.586 Y92.804 Z24.8
@@ -305026,7 +306003,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z24.8 F9000
 G1 X132.586 Y131.367 Z24.8
@@ -305218,7 +306197,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z24.8 F9000
 G1 X94.023 Y131.367 Z24.8
@@ -305410,6 +306391,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.6
 ;HEIGHT:0.200001
@@ -305419,6 +306401,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25 F9000
 G1 X94.023 Y92.804 Z25
@@ -305610,7 +306593,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25 F9000
 G1 X132.586 Y92.804 Z25
@@ -305802,7 +306787,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z25 F9000
 G1 X132.586 Y131.367 Z25
@@ -305994,7 +306981,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25 F9000
 G1 X94.023 Y131.367 Z25
@@ -306186,6 +307175,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.8
 ;HEIGHT:0.199999
@@ -306195,6 +307185,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.2 F9000
 G1 X94.023 Y92.804 Z25.2
@@ -306386,7 +307377,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.2 F9000
 G1 X132.586 Y92.804 Z25.2
@@ -306578,7 +307571,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z25.2 F9000
 G1 X132.586 Y131.367 Z25.2
@@ -306770,7 +307765,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.2 F9000
 G1 X94.023 Y131.367 Z25.2
@@ -306962,6 +307959,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25
 ;HEIGHT:0.200001
@@ -306971,6 +307969,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.4 F9000
 G1 X94.023 Y92.804 Z25.4
@@ -307163,7 +308162,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.4 F9000
 G1 X132.586 Y92.804 Z25.4
@@ -307356,7 +308357,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z25.4 F9000
 G1 X132.586 Y131.367 Z25.4
@@ -307548,7 +308551,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.4 F9000
 G1 X94.023 Y131.367 Z25.4
@@ -307740,6 +308745,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.2
 ;HEIGHT:0.200001
@@ -307749,6 +308755,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.6 F9000
 G1 X94.023 Y92.804 Z25.6
@@ -307940,7 +308947,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.6 F9000
 G1 X132.586 Y92.804 Z25.6
@@ -308132,7 +309141,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z25.6 F9000
 G1 X132.586 Y131.367 Z25.6
@@ -308324,7 +309335,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.6 F9000
 G1 X94.023 Y131.367 Z25.6
@@ -308516,6 +309529,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.4
 ;HEIGHT:0.199999
@@ -308525,6 +309539,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.8 F9000
 G1 X94.023 Y92.804 Z25.8
@@ -308716,7 +309731,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.8 F9000
 G1 X132.586 Y92.804 Z25.8
@@ -308908,7 +309925,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z25.8 F9000
 G1 X132.586 Y131.367 Z25.8
@@ -309100,7 +310119,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z25.8 F9000
 G1 X94.023 Y131.367 Z25.8
@@ -309292,6 +310313,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.6
 ;HEIGHT:0.200001
@@ -309301,6 +310323,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26 F9000
 G1 X94.023 Y92.804 Z26
@@ -309492,7 +310515,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26 F9000
 G1 X132.586 Y92.804 Z26
@@ -309684,7 +310709,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z26 F9000
 G1 X132.586 Y131.367 Z26
@@ -309876,7 +310903,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26 F9000
 G1 X94.023 Y131.367 Z26
@@ -310068,6 +311097,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.8
 ;HEIGHT:0.199999
@@ -310077,6 +311107,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.2 F9000
 G1 X94.023 Y92.804 Z26.2
@@ -310268,7 +311299,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.2 F9000
 G1 X132.586 Y92.804 Z26.2
@@ -310460,7 +311493,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z26.2 F9000
 G1 X132.586 Y131.367 Z26.2
@@ -310654,7 +311689,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.2 F9000
 G1 X94.023 Y131.367 Z26.2
@@ -310846,6 +311883,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26
 ;HEIGHT:0.200001
@@ -310855,6 +311893,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.4 F9000
 G1 X94.023 Y92.804 Z26.4
@@ -311046,7 +312085,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.4 F9000
 G1 X132.586 Y92.804 Z26.4
@@ -311238,7 +312279,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z26.4 F9000
 G1 X132.586 Y131.367 Z26.4
@@ -311430,7 +312473,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.4 F9000
 G1 X94.023 Y131.367 Z26.4
@@ -311622,6 +312667,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.2
 ;HEIGHT:0.200001
@@ -311631,6 +312677,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.6 F9000
 G1 X94.023 Y92.804 Z26.6
@@ -311822,7 +312869,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.6 F9000
 G1 X132.586 Y92.804 Z26.6
@@ -312014,7 +313063,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z26.6 F9000
 G1 X132.586 Y131.367 Z26.6
@@ -312206,7 +313257,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.6 F9000
 G1 X94.023 Y131.367 Z26.6
@@ -312398,6 +313451,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.4
 ;HEIGHT:0.199999
@@ -312407,6 +313461,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.8 F9000
 G1 X94.023 Y92.804 Z26.8
@@ -312598,7 +313653,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.8 F9000
 G1 X132.586 Y92.804 Z26.8
@@ -312790,7 +313847,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z26.8 F9000
 G1 X132.586 Y131.367 Z26.8
@@ -312982,7 +314041,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z26.8 F9000
 G1 X94.023 Y131.367 Z26.8
@@ -313174,6 +314235,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.6
 ;HEIGHT:0.200001
@@ -313183,6 +314245,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27 F9000
 G1 X94.023 Y92.804 Z27
@@ -313374,7 +314437,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27 F9000
 G1 X132.586 Y92.804 Z27
@@ -313566,7 +314631,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z27 F9000
 G1 X132.586 Y131.367 Z27
@@ -313758,7 +314825,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27 F9000
 G1 X94.023 Y131.367 Z27
@@ -313951,6 +315020,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.8
 ;HEIGHT:0.199999
@@ -313960,6 +315030,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.2 F9000
 G1 X94.023 Y92.804 Z27.2
@@ -314152,7 +315223,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.2 F9000
 G1 X132.586 Y92.804 Z27.2
@@ -314344,7 +315417,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z27.2 F9000
 G1 X132.586 Y131.367 Z27.2
@@ -314536,7 +315611,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.2 F9000
 G1 X94.023 Y131.367 Z27.2
@@ -314728,6 +315805,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27
 ;HEIGHT:0.200001
@@ -314737,6 +315815,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.4 F9000
 G1 X94.023 Y92.804 Z27.4
@@ -314928,7 +316007,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.4 F9000
 G1 X132.586 Y92.804 Z27.4
@@ -315120,7 +316201,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z27.4 F9000
 G1 X132.586 Y131.367 Z27.4
@@ -315312,7 +316395,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.4 F9000
 G1 X94.023 Y131.367 Z27.4
@@ -315504,6 +316589,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.2
 ;HEIGHT:0.200001
@@ -315513,6 +316599,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.6 F9000
 G1 X94.023 Y92.804 Z27.6
@@ -315704,7 +316791,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.6 F9000
 G1 X132.586 Y92.804 Z27.6
@@ -315896,7 +316985,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z27.6 F9000
 G1 X132.586 Y131.367 Z27.6
@@ -316088,7 +317179,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.6 F9000
 G1 X94.023 Y131.367 Z27.6
@@ -316280,6 +317373,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.4
 ;HEIGHT:0.199999
@@ -316289,6 +317383,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.8 F9000
 G1 X94.023 Y92.804 Z27.8
@@ -316480,7 +317575,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.8 F9000
 G1 X132.586 Y92.804 Z27.8
@@ -316672,7 +317769,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z27.8 F9000
 G1 X132.586 Y131.367 Z27.8
@@ -316864,7 +317963,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z27.8 F9000
 G1 X94.023 Y131.367 Z27.8
@@ -317056,6 +318157,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.6
 ;HEIGHT:0.200001
@@ -317065,6 +318167,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28 F9000
 G1 X94.023 Y92.804 Z28
@@ -317257,7 +318360,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28 F9000
 G1 X132.586 Y92.804 Z28
@@ -317449,7 +318554,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z28 F9000
 G1 X132.586 Y131.367 Z28
@@ -317642,7 +318749,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28 F9000
 G1 X94.023 Y131.367 Z28
@@ -317834,6 +318943,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.8
 ;HEIGHT:0.199999
@@ -317843,6 +318953,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.2 F9000
 G1 X94.023 Y92.804 Z28.2
@@ -318034,7 +319145,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.2 F9000
 G1 X132.586 Y92.804 Z28.2
@@ -318226,7 +319339,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z28.2 F9000
 G1 X132.586 Y131.367 Z28.2
@@ -318418,7 +319533,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.2 F9000
 G1 X94.023 Y131.367 Z28.2
@@ -318610,6 +319727,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28
 ;HEIGHT:0.200001
@@ -318619,6 +319737,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.4 F9000
 G1 X94.023 Y92.804 Z28.4
@@ -318810,7 +319929,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.4 F9000
 G1 X132.586 Y92.804 Z28.4
@@ -319002,7 +320123,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z28.4 F9000
 G1 X132.586 Y131.367 Z28.4
@@ -319194,7 +320317,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.4 F9000
 G1 X94.023 Y131.367 Z28.4
@@ -319386,6 +320511,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.2
 ;HEIGHT:0.200001
@@ -319395,6 +320521,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.6 F9000
 G1 X94.023 Y92.804 Z28.6
@@ -319586,7 +320713,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.6 F9000
 G1 X132.586 Y92.804 Z28.6
@@ -319778,7 +320907,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z28.6 F9000
 G1 X132.586 Y131.367 Z28.6
@@ -319970,7 +321101,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.6 F9000
 G1 X94.023 Y131.367 Z28.6
@@ -320162,6 +321295,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.4
 ;HEIGHT:0.199999
@@ -320171,6 +321305,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.8 F9000
 G1 X94.023 Y92.804 Z28.8
@@ -320362,7 +321497,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.8 F9000
 G1 X132.586 Y92.804 Z28.8
@@ -320555,7 +321692,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z28.8 F9000
 G1 X132.586 Y131.367 Z28.8
@@ -320747,7 +321886,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z28.8 F9000
 G1 X94.023 Y131.367 Z28.8
@@ -320939,6 +322080,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.6
 ;HEIGHT:0.200001
@@ -320948,6 +322090,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29 F9000
 G1 X94.023 Y92.804 Z29
@@ -321146,7 +322289,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29 F9000
 G1 X132.586 Y92.804 Z29
@@ -321344,7 +322489,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z29 F9000
 G1 X132.586 Y131.367 Z29
@@ -321542,7 +322689,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29 F9000
 G1 X94.023 Y131.367 Z29
@@ -321740,6 +322889,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.8
 ;HEIGHT:0.199999
@@ -321749,6 +322899,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.2 F9000
 G1 X94.023 Y92.804 Z29.2
@@ -321946,7 +323097,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.2 F9000
 G1 X132.586 Y92.804 Z29.2
@@ -322144,7 +323297,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z29.2 F9000
 G1 X132.586 Y131.367 Z29.2
@@ -322342,7 +323497,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.2 F9000
 G1 X94.023 Y131.367 Z29.2
@@ -322540,6 +323697,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29
 ;HEIGHT:0.200001
@@ -322549,6 +323707,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.4 F9000
 G1 X94.023 Y92.804 Z29.4
@@ -322746,7 +323905,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.4 F9000
 G1 X132.586 Y92.804 Z29.4
@@ -322944,7 +324105,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z29.4 F9000
 G1 X132.586 Y131.367 Z29.4
@@ -323142,7 +324305,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.4 F9000
 G1 X94.023 Y131.367 Z29.4
@@ -323340,6 +324505,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.2
 ;HEIGHT:0.200001
@@ -323349,6 +324515,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.6 F9000
 G1 X94.023 Y92.804 Z29.6
@@ -323545,7 +324712,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.6 F9000
 G1 X132.586 Y92.804 Z29.6
@@ -323742,7 +324911,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z29.6 F9000
 G1 X132.586 Y131.367 Z29.6
@@ -323940,7 +325111,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.6 F9000
 G1 X94.023 Y131.367 Z29.6
@@ -324137,6 +325310,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.4
 ;HEIGHT:0.199999
@@ -324146,6 +325320,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.8 F9000
 G1 X94.023 Y92.804 Z29.8
@@ -324342,7 +325517,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.8 F9000
 G1 X132.586 Y92.804 Z29.8
@@ -324539,7 +325716,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z29.8 F9000
 G1 X132.586 Y131.367 Z29.8
@@ -324737,7 +325916,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z29.8 F9000
 G1 X94.023 Y131.367 Z29.8
@@ -324934,6 +326115,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.6
 ;HEIGHT:0.200001
@@ -324943,6 +326125,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30 F9000
 G1 X94.023 Y92.804 Z30
@@ -325142,7 +326325,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30 F9000
 G1 X132.586 Y92.804 Z30
@@ -325342,7 +326527,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z30 F9000
 G1 X132.586 Y131.367 Z30
@@ -325542,7 +326729,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30 F9000
 G1 X94.023 Y131.367 Z30
@@ -325742,6 +326931,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.8
 ;HEIGHT:0.199999
@@ -325751,6 +326941,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.2 F9000
 G1 X94.023 Y92.804 Z30.2
@@ -325947,7 +327138,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.2 F9000
 G1 X132.586 Y92.804 Z30.2
@@ -326144,7 +327337,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z30.2 F9000
 G1 X132.586 Y131.367 Z30.2
@@ -326341,7 +327536,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.2 F9000
 G1 X94.023 Y131.367 Z30.2
@@ -326538,6 +327735,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:30
 ;HEIGHT:0.200001
@@ -326547,6 +327745,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.4 F9000
 G1 X94.023 Y92.804 Z30.4
@@ -326742,7 +327941,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.4 F9000
 G1 X132.586 Y92.804 Z30.4
@@ -326938,7 +328139,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z30.4 F9000
 G1 X132.586 Y131.367 Z30.4
@@ -327134,7 +328337,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.4 F9000
 G1 X94.023 Y131.367 Z30.4
@@ -327331,6 +328536,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:30.2
 ;HEIGHT:0.200001
@@ -327340,6 +328546,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.6 F9000
 G1 X94.023 Y92.804 Z30.6
@@ -327532,7 +328739,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.6 F9000
 G1 X132.586 Y92.804 Z30.6
@@ -327725,7 +328934,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z30.6 F9000
 G1 X132.586 Y131.367 Z30.6
@@ -327918,7 +329129,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.6 F9000
 G1 X94.023 Y131.367 Z30.6
@@ -328111,6 +329324,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:30.4
 ;HEIGHT:0.199999
@@ -328120,6 +329334,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.8 F9000
 G1 X94.023 Y92.804 Z30.8
@@ -328316,7 +329531,9 @@ G1 X91.251 Y87.992 E.01588
 ;WIDTH:0.46608
 G1 X91.7 Y88.066 E.01521
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.8 F9000
 G1 X132.586 Y92.804 Z30.8
@@ -328513,7 +329730,9 @@ G1 X129.814 Y87.992 E.01588
 ;WIDTH:0.46608
 G1 X130.263 Y88.066 E.01521
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z30.8 F9000
 G1 X132.586 Y131.367 Z30.8
@@ -328710,7 +329929,9 @@ G1 X129.814 Y126.556 E.01588
 ;WIDTH:0.46608
 G1 X130.263 Y126.629 E.01521
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z30.8 F9000
 G1 X94.023 Y131.367 Z30.8
@@ -328907,6 +330128,7 @@ G1 X91.251 Y126.556 E.01588
 ;WIDTH:0.46608
 G1 X91.7 Y126.629 E.01521
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:30.6
 ;HEIGHT:0.200001
@@ -328916,6 +330138,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31 F9000
 G1 X94.023 Y92.804 Z31
@@ -329112,7 +330335,9 @@ G1 X91.252 Y87.993 E.01583
 ;WIDTH:0.466289
 G1 X91.7 Y88.066 E.01516
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31 F9000
 G1 X132.586 Y92.804 Z31
@@ -329309,7 +330534,9 @@ G1 X129.816 Y87.993 E.01583
 ;WIDTH:0.466289
 G1 X130.263 Y88.066 E.01516
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z31 F9000
 G1 X132.586 Y131.367 Z31
@@ -329506,7 +330733,9 @@ G1 X129.816 Y126.556 E.01583
 ;WIDTH:0.466289
 G1 X130.263 Y126.629 E.01516
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31 F9000
 G1 X94.023 Y131.367 Z31
@@ -329703,6 +330932,7 @@ G1 X91.252 Y126.556 E.01583
 ;WIDTH:0.466289
 G1 X91.7 Y126.629 E.01516
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:30.8
 ;HEIGHT:0.199999
@@ -329712,6 +330942,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.2 F9000
 G1 X94.023 Y92.804 Z31.2
@@ -329905,7 +331136,9 @@ G1 X91.254 Y87.993 E.01578
 ;WIDTH:0.466498
 G1 X91.7 Y88.066 E.0151
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.2 F9000
 G1 X132.586 Y92.804 Z31.2
@@ -330099,7 +331332,9 @@ G1 X129.817 Y87.993 E.01578
 ;WIDTH:0.466498
 G1 X130.263 Y88.066 E.0151
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z31.2 F9000
 G1 X132.586 Y131.367 Z31.2
@@ -330293,7 +331528,9 @@ G1 X129.817 Y126.556 E.01578
 ;WIDTH:0.466498
 G1 X130.263 Y126.629 E.0151
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.2 F9000
 G1 X94.023 Y131.367 Z31.2
@@ -330487,6 +331724,7 @@ G1 X91.254 Y126.556 E.01578
 ;WIDTH:0.466498
 G1 X91.7 Y126.629 E.0151
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:31
 ;HEIGHT:0.200001
@@ -330496,6 +331734,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.4 F9000
 G1 X94.023 Y92.804 Z31.4
@@ -330693,7 +331932,9 @@ G1 X90.79 Y87.933 E.01326
 G1 X91.196 Y87.964 E.0145
 G1 X91.7 Y88.065 E.01829
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.4 F9000
 G1 X132.586 Y92.804 Z31.4
@@ -330890,7 +332131,9 @@ G1 X129.353 Y87.933 E.01326
 G1 X129.759 Y87.964 E.0145
 G1 X130.263 Y88.065 E.01829
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z31.4 F9000
 G1 X132.586 Y131.367 Z31.4
@@ -331087,7 +332330,9 @@ G1 X129.353 Y126.496 E.01326
 G1 X129.759 Y126.528 E.0145
 G1 X130.263 Y126.628 E.01829
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.4 F9000
 G1 X94.023 Y131.367 Z31.4
@@ -331284,6 +332529,7 @@ G1 X90.79 Y126.496 E.01326
 G1 X91.196 Y126.528 E.0145
 G1 X91.7 Y126.628 E.01829
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:31.2
 ;HEIGHT:0.200001
@@ -331293,6 +332539,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.6 F9000
 G1 X94.079 Y92.811 Z31.6
@@ -331486,7 +332733,9 @@ G1 X89.24 Y87.81 E.0133
 G1 X88.798 Y88.084 E.01465
 G1 X93.159 Y88.622 E.12394
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.6 F9000
 G1 X132.642 Y92.811 Z31.6
@@ -331679,7 +332928,9 @@ G1 X127.803 Y87.81 E.0133
 G1 X127.361 Y88.084 E.01465
 G1 X131.722 Y88.622 E.12394
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z31.6 F9000
 G1 X132.642 Y131.374 Z31.6
@@ -331873,7 +333124,9 @@ G1 X127.803 Y126.374 E.0133
 G1 X127.361 Y126.647 E.01465
 G1 X131.722 Y127.185 E.12394
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.6 F9000
 G1 X94.079 Y131.374 Z31.6
@@ -332066,6 +333319,7 @@ G1 X89.24 Y126.374 E.0133
 G1 X88.798 Y126.647 E.01465
 G1 X93.159 Y127.185 E.12394
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:31.4
 ;HEIGHT:0.199999
@@ -332075,6 +333329,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.8 F9000
 G1 X94.138 Y92.818 Z31.8
@@ -332267,7 +333522,9 @@ G1 X89.214 Y87.763 E.01352
 G1 X88.725 Y88.075 E.01636
 G1 X93.238 Y88.632 E.12827
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.8 F9000
 G1 X132.701 Y92.818 Z31.8
@@ -332460,7 +333717,9 @@ G1 X127.777 Y87.763 E.01352
 G1 X127.288 Y88.075 E.01636
 G1 X131.801 Y88.632 E.12827
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z31.8 F9000
 G1 X132.701 Y131.382 Z31.8
@@ -332653,7 +333912,9 @@ G1 X127.777 Y126.326 E.01352
 G1 X127.288 Y126.638 E.01636
 G1 X131.801 Y127.195 E.12827
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z31.8 F9000
 G1 X94.138 Y131.382 Z31.8
@@ -332846,6 +334107,7 @@ G1 X89.214 Y126.326 E.01352
 G1 X88.725 Y126.638 E.01636
 G1 X93.238 Y127.195 E.12827
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:31.6
 ;HEIGHT:0.200001
@@ -332855,6 +334117,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32 F9000
 G1 X94.197 Y92.826 Z32
@@ -333049,7 +334312,9 @@ G1 X88.464 Y87.752 E.01497
 G1 X87.861 Y88.328 E.02351
 G1 X94.012 Y89.087 E.17481
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32 F9000
 G1 X132.761 Y92.826 Z32
@@ -333244,7 +334509,9 @@ G1 X127.027 Y87.752 E.01497
 G1 X126.424 Y88.328 E.02351
 G1 X132.575 Y89.087 E.17481
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z32 F9000
 G1 X132.761 Y131.389 Z32
@@ -333439,7 +334706,9 @@ G1 X127.027 Y126.315 E.01497
 G1 X126.424 Y126.891 E.02351
 G1 X132.575 Y127.65 E.17481
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32 F9000
 G1 X94.197 Y131.389 Z32
@@ -333634,6 +334903,7 @@ G1 X88.464 Y126.315 E.01497
 G1 X87.861 Y126.891 E.02351
 G1 X94.012 Y127.65 E.17481
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:31.8
 ;HEIGHT:0.199999
@@ -333643,6 +334913,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.2 F9000
 G1 X94.255 Y92.833 Z32.2
@@ -333848,7 +335119,9 @@ G1 X88.587 Y87.597 E.01516
 G1 X87.979 Y88.113 E.0225
 G1 X87.834 Y88.291 E.00645
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.2 F9000
 G1 X132.818 Y92.833 Z32.2
@@ -334053,7 +335326,9 @@ G1 X127.15 Y87.597 E.01516
 G1 X126.542 Y88.113 E.0225
 G1 X126.397 Y88.291 E.00645
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z32.2 F9000
 G1 X132.818 Y131.396 Z32.2
@@ -334258,7 +335533,9 @@ G1 X127.15 Y126.161 E.01516
 G1 X126.542 Y126.677 E.0225
 G1 X126.397 Y126.854 E.00645
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.2 F9000
 G1 X94.255 Y131.396 Z32.2
@@ -334463,6 +335740,7 @@ G1 X88.587 Y126.161 E.01516
 G1 X87.979 Y126.677 E.0225
 G1 X87.834 Y126.854 E.00645
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:32
 ;HEIGHT:0.200001
@@ -334472,6 +335750,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.4 F9000
 G1 X94.312 Y92.84 Z32.4
@@ -334682,7 +335961,9 @@ G1 X87.808 Y88.218 E.01647
 G1 X87.737 Y88.313 E.00334
 G1 X94.147 Y89.103 E.18218
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.4 F9000
 G1 X132.875 Y92.84 Z32.4
@@ -334893,7 +336174,9 @@ G1 X126.371 Y88.218 E.01647
 G1 X126.3 Y88.313 E.00334
 G1 X132.71 Y89.103 E.18218
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z32.4 F9000
 G1 X132.875 Y131.403 Z32.4
@@ -335104,7 +336387,9 @@ G1 X126.371 Y126.781 E.01647
 G1 X126.3 Y126.876 E.00334
 G1 X132.71 Y127.667 E.18218
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.4 F9000
 G1 X94.312 Y131.403 Z32.4
@@ -335316,6 +336601,7 @@ G1 X87.808 Y126.781 E.01647
 G1 X87.737 Y126.876 E.00334
 G1 X94.147 Y127.667 E.18218
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:32.2
 ;HEIGHT:0.200001
@@ -335325,6 +336611,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.6 F9000
 G1 X94.393 Y92.85 Z32.6
@@ -335558,7 +336845,9 @@ G1 X93.429 Y87.932 E.01627
 G1 X92.861 Y87.478 E.02053
 G1 X92.232 Y87.145 E.02007
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.6 F9000
 G1 X132.956 Y92.85 Z32.6
@@ -335792,7 +337081,9 @@ G1 X131.993 Y87.932 E.01627
 G1 X131.424 Y87.478 E.02053
 G1 X130.795 Y87.145 E.02007
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z32.6 F9000
 G1 X132.956 Y131.413 Z32.6
@@ -336026,7 +337317,9 @@ G1 X131.993 Y126.496 E.01627
 G1 X131.424 Y126.041 E.02053
 G1 X130.795 Y125.709 E.02007
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.6 F9000
 G1 X94.393 Y131.413 Z32.6
@@ -336260,6 +337553,7 @@ G1 X93.429 Y126.496 E.01627
 G1 X92.861 Y126.041 E.02053
 G1 X92.232 Y125.709 E.02007
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:32.4
 ;HEIGHT:0.200001
@@ -336269,6 +337563,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.8 F9000
 G1 X94.425 Y92.854 Z32.8
@@ -336501,7 +337796,9 @@ G1 X88.813 Y87.709 E.01953
 G1 X88.396 Y88.034 E.01492
 G1 X93.583 Y88.674 E.14742
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.8 F9000
 G1 X132.988 Y92.854 Z32.8
@@ -336734,7 +338031,9 @@ G1 X127.376 Y87.709 E.01953
 G1 X126.959 Y88.034 E.01492
 G1 X132.146 Y88.674 E.14742
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z32.8 F9000
 G1 X132.988 Y131.417 Z32.8
@@ -336967,7 +338266,9 @@ G1 X127.376 Y126.273 E.01953
 G1 X126.959 Y126.598 E.01492
 G1 X132.146 Y127.237 E.14742
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z32.8 F9000
 G1 X94.425 Y131.417 Z32.8
@@ -337200,6 +338501,7 @@ G1 X88.813 Y126.273 E.01953
 G1 X88.396 Y126.598 E.01492
 G1 X93.583 Y127.237 E.14742
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:32.6
 ;HEIGHT:0.199997
@@ -337209,6 +338511,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33 F9000
 G1 X94.425 Y92.854 Z33
@@ -337442,7 +338745,9 @@ G1 X88.813 Y87.709 E.01953
 G1 X88.396 Y88.034 E.01492
 G1 X93.583 Y88.674 E.14742
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33 F9000
 G1 X132.988 Y92.854 Z33
@@ -337675,7 +338980,9 @@ G1 X127.376 Y87.709 E.01953
 G1 X126.959 Y88.034 E.01492
 G1 X132.146 Y88.674 E.14742
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z33 F9000
 G1 X132.988 Y131.417 Z33
@@ -337908,7 +339215,9 @@ G1 X127.376 Y126.273 E.01953
 G1 X126.959 Y126.598 E.01492
 G1 X132.146 Y127.237 E.14742
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33 F9000
 G1 X94.425 Y131.417 Z33
@@ -338141,6 +339450,7 @@ G1 X88.813 Y126.273 E.01953
 G1 X88.396 Y126.598 E.01492
 G1 X93.583 Y127.237 E.14742
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:32.8
 ;HEIGHT:0.200001
@@ -338150,6 +339460,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.2 F9000
 G1 X94.425 Y92.854 Z33.2
@@ -338382,7 +339693,9 @@ G1 X89.727 Y87.694 E.01999
 G1 X89.492 Y87.79 E.00785
 G1 X90.613 Y87.928 E.03499
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.2 F9000
 G1 X132.988 Y92.854 Z33.2
@@ -338616,7 +339929,9 @@ G1 X128.29 Y87.694 E.01999
 G1 X128.056 Y87.79 E.00785
 G1 X129.176 Y87.928 E.03499
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z33.2 F9000
 G1 X132.988 Y131.417 Z33.2
@@ -338850,7 +340165,9 @@ G1 X128.29 Y126.257 E.01999
 G1 X128.056 Y126.353 E.00785
 G1 X129.176 Y126.491 E.03499
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.2 F9000
 G1 X94.425 Y131.417 Z33.2
@@ -339084,6 +340401,7 @@ G1 X89.727 Y126.257 E.01999
 G1 X89.492 Y126.353 E.00785
 G1 X90.613 Y126.491 E.03499
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:33
 ;HEIGHT:0.200001
@@ -339093,6 +340411,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.4 F9000
 G1 X94.425 Y92.854 Z33.4
@@ -339329,7 +340648,9 @@ G1 X92.03 Y87.032 E.02147
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.4 F9000
 G1 X132.988 Y92.854 Z33.4
@@ -339564,7 +340885,9 @@ G1 X130.594 Y87.032 E.02147
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z33.4 F9000
 G1 X132.988 Y131.417 Z33.4
@@ -339799,7 +341122,9 @@ G1 X130.594 Y125.596 E.02147
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.4 F9000
 G1 X94.425 Y131.417 Z33.4
@@ -340034,6 +341359,7 @@ G1 X92.03 Y125.596 E.02147
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:33.2
 ;HEIGHT:0.200001
@@ -340043,6 +341369,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.6 F9000
 G1 X94.425 Y92.854 Z33.6
@@ -340276,7 +341603,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.6 F9000
 G1 X132.988 Y92.854 Z33.6
@@ -340510,7 +341839,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z33.6 F9000
 G1 X132.988 Y131.417 Z33.6
@@ -340744,7 +342075,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.6 F9000
 G1 X94.425 Y131.417 Z33.6
@@ -340979,6 +342312,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:33.4
 ;HEIGHT:0.200001
@@ -340988,6 +342322,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.8 F9000
 G1 X94.425 Y92.854 Z33.8
@@ -341221,7 +342556,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.8 F9000
 G1 X132.988 Y92.854 Z33.8
@@ -341455,7 +342792,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z33.8 F9000
 G1 X132.988 Y131.417 Z33.8
@@ -341689,7 +343028,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z33.8 F9000
 G1 X94.425 Y131.417 Z33.8
@@ -341923,6 +343264,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:33.6
 ;HEIGHT:0.199997
@@ -341932,6 +343274,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34 F9000
 G1 X94.425 Y92.854 Z34
@@ -342165,7 +343508,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34 F9000
 G1 X132.988 Y92.854 Z34
@@ -342399,7 +343744,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z34 F9000
 G1 X132.988 Y131.417 Z34
@@ -342633,7 +343980,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34 F9000
 G1 X94.425 Y131.417 Z34
@@ -342867,6 +344216,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:33.8
 ;HEIGHT:0.200001
@@ -342876,6 +344226,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.2 F9000
 G1 X94.425 Y92.854 Z34.2
@@ -343110,7 +344461,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.2 F9000
 G1 X132.988 Y92.854 Z34.2
@@ -343344,7 +344697,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z34.2 F9000
 G1 X132.988 Y131.417 Z34.2
@@ -343578,7 +344933,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.2 F9000
 G1 X94.425 Y131.417 Z34.2
@@ -343812,6 +345169,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:34
 ;HEIGHT:0.200001
@@ -343821,6 +345179,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.4 F9000
 G1 X94.425 Y92.854 Z34.4
@@ -344053,7 +345412,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.888 Y88.007 E.02104
 G1 X87.677 Y88.271 E.00954
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.4 F9000
 G1 X132.988 Y92.854 Z34.4
@@ -344286,7 +345647,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02104
 G1 X126.24 Y88.271 E.00954
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z34.4 F9000
 G1 X132.988 Y131.417 Z34.4
@@ -344519,7 +345882,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02104
 G1 X126.24 Y126.834 E.00954
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.4 F9000
 G1 X94.425 Y131.417 Z34.4
@@ -344753,6 +346118,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02104
 G1 X87.677 Y126.834 E.00954
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:34.2
 ;HEIGHT:0.200001
@@ -344762,6 +346128,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.6 F9000
 G1 X94.425 Y92.854 Z34.6
@@ -344994,7 +346361,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.6 F9000
 G1 X132.988 Y92.854 Z34.6
@@ -345227,7 +346596,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z34.6 F9000
 G1 X132.988 Y131.417 Z34.6
@@ -345460,7 +346831,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.6 F9000
 G1 X94.425 Y131.417 Z34.6
@@ -345693,6 +347066,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:34.4
 ;HEIGHT:0.200001
@@ -345702,6 +347076,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.8 F9000
 G1 X94.425 Y92.854 Z34.8
@@ -345934,7 +347309,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.8 F9000
 G1 X132.988 Y92.854 Z34.8
@@ -346167,7 +347544,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z34.8 F9000
 G1 X132.988 Y131.417 Z34.8
@@ -346400,7 +347779,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z34.8 F9000
 G1 X94.425 Y131.417 Z34.8
@@ -346633,6 +348014,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:34.6
 ;HEIGHT:0.199997
@@ -346642,6 +348024,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35 F9000
 G1 X94.425 Y92.854 Z35
@@ -346874,7 +348257,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35 F9000
 G1 X132.988 Y92.854 Z35
@@ -347108,7 +348493,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z35 F9000
 G1 X132.988 Y131.417 Z35
@@ -347341,7 +348728,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35 F9000
 G1 X94.425 Y131.417 Z35
@@ -347574,6 +348963,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:34.8
 ;HEIGHT:0.200001
@@ -347583,6 +348973,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.2 F9000
 G1 X94.425 Y92.854 Z35.2
@@ -347815,7 +349206,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.888 Y88.007 E.02104
 G1 X87.677 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.2 F9000
 G1 X132.988 Y92.854 Z35.2
@@ -348048,7 +349441,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02104
 G1 X126.24 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z35.2 F9000
 G1 X132.988 Y131.417 Z35.2
@@ -348282,7 +349677,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02104
 G1 X126.24 Y126.834 E.00953
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.2 F9000
 G1 X94.425 Y131.417 Z35.2
@@ -348515,6 +349912,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02104
 G1 X87.677 Y126.834 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:35
 ;HEIGHT:0.200001
@@ -348524,6 +349922,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.4 F9000
 G1 X94.425 Y92.854 Z35.4
@@ -348756,7 +350155,9 @@ G1 X92.03 Y87.032 E.0214
 G1 X91.289 Y86.847 E.02156
 G1 X90.803 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.4 F9000
 G1 X132.988 Y92.854 Z35.4
@@ -348989,7 +350390,9 @@ G1 X130.594 Y87.032 E.0214
 G1 X129.852 Y86.847 E.02156
 G1 X129.366 Y86.81 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z35.4 F9000
 G1 X132.988 Y131.417 Z35.4
@@ -349222,7 +350625,9 @@ G1 X130.594 Y125.596 E.0214
 G1 X129.852 Y125.41 E.02156
 G1 X129.366 Y125.374 E.01374
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.4 F9000
 G1 X94.425 Y131.417 Z35.4
@@ -349455,6 +350860,7 @@ G1 X92.03 Y125.596 E.0214
 G1 X91.289 Y125.41 E.02156
 G1 X90.803 Y125.374 E.01374
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:35.2
 ;HEIGHT:0.200001
@@ -349464,6 +350870,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.6 F9000
 G1 X94.425 Y92.854 Z35.6
@@ -349696,7 +351103,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.888 Y88.007 E.02104
 G1 X87.677 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.6 F9000
 G1 X132.988 Y92.854 Z35.6
@@ -349929,7 +351338,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02104
 G1 X126.24 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z35.6 F9000
 G1 X132.988 Y131.417 Z35.6
@@ -350162,7 +351573,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02104
 G1 X126.24 Y126.834 E.00953
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.6 F9000
 G1 X94.425 Y131.417 Z35.6
@@ -350395,6 +351808,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02104
 G1 X87.677 Y126.834 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:35.4
 ;HEIGHT:0.200001
@@ -350404,6 +351818,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.8 F9000
 G1 X94.425 Y92.854 Z35.8
@@ -350634,7 +352049,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.888 Y88.007 E.02104
 G1 X87.677 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.8 F9000
 G1 X132.988 Y92.854 Z35.8
@@ -350865,7 +352282,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02104
 G1 X126.24 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z35.8 F9000
 G1 X132.988 Y131.417 Z35.8
@@ -351097,7 +352516,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02104
 G1 X126.24 Y126.834 E.00953
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z35.8 F9000
 G1 X94.425 Y131.417 Z35.8
@@ -351328,6 +352749,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02104
 G1 X87.677 Y126.834 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:35.6
 ;HEIGHT:0.199997
@@ -351337,6 +352759,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36 F9000
 G1 X94.425 Y92.854 Z36
@@ -351569,7 +352992,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.888 Y88.007 E.02105
 G1 X87.677 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36 F9000
 G1 X132.988 Y92.854 Z36
@@ -351802,7 +353227,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02105
 G1 X126.24 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z36 F9000
 G1 X132.988 Y131.417 Z36
@@ -352036,7 +353463,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02105
 G1 X126.24 Y126.834 E.00953
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36 F9000
 G1 X94.425 Y131.417 Z36
@@ -352269,6 +353698,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02105
 G1 X87.677 Y126.834 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:35.8
 ;HEIGHT:0.200001
@@ -352278,6 +353708,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.2 F9000
 G1 X94.425 Y92.854 Z36.2
@@ -352509,7 +353940,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.888 Y88.007 E.02105
 G1 X87.677 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.2 F9000
 G1 X132.988 Y92.854 Z36.2
@@ -352741,7 +354174,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02105
 G1 X126.24 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z36.2 F9000
 G1 X132.988 Y131.417 Z36.2
@@ -352973,7 +354408,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02105
 G1 X126.24 Y126.834 E.00953
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.2 F9000
 G1 X94.425 Y131.417 Z36.2
@@ -353205,6 +354642,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02105
 G1 X87.677 Y126.834 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:36
 ;HEIGHT:0.200001
@@ -353214,6 +354652,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.4 F9000
 G1 X94.425 Y92.854 Z36.4
@@ -353446,7 +354885,9 @@ G1 X88.453 Y87.519 E.01687
 G1 X87.887 Y88.007 E.02105
 G1 X87.677 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.4 F9000
 G1 X132.988 Y92.854 Z36.4
@@ -353679,7 +355120,9 @@ G1 X127.016 Y87.519 E.01687
 G1 X126.451 Y88.007 E.02105
 G1 X126.24 Y88.271 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z36.4 F9000
 G1 X132.988 Y131.417 Z36.4
@@ -353912,7 +355355,9 @@ G1 X127.016 Y126.083 E.01687
 G1 X126.451 Y126.57 E.02105
 G1 X126.24 Y126.834 E.00953
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.4 F9000
 G1 X94.425 Y131.417 Z36.4
@@ -354145,6 +355590,7 @@ G1 X88.453 Y126.083 E.01687
 G1 X87.888 Y126.57 E.02105
 G1 X87.677 Y126.834 E.00953
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:36.2
 ;HEIGHT:0.200001
@@ -354154,6 +355600,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.6 F9000
 G1 X94.425 Y92.854 Z36.6
@@ -354384,7 +355831,9 @@ G1 X87.738 Y88.171 E.01656
 G1 X87.641 Y88.301 E.00457
 G1 X94.251 Y89.116 E.18784
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.6 F9000
 G1 X132.988 Y92.854 Z36.6
@@ -354615,7 +356064,9 @@ G1 X126.302 Y88.171 E.01656
 G1 X126.205 Y88.301 E.00457
 G1 X132.814 Y89.116 E.18784
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z36.6 F9000
 G1 X132.988 Y131.417 Z36.6
@@ -354846,7 +356297,9 @@ G1 X126.302 Y126.735 E.01656
 G1 X126.205 Y126.864 E.00457
 G1 X132.814 Y127.68 E.18784
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.6 F9000
 G1 X94.425 Y131.417 Z36.6
@@ -355078,6 +356531,7 @@ G1 X87.738 Y126.735 E.01656
 G1 X87.641 Y126.864 E.00457
 G1 X94.251 Y127.68 E.18784
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:36.4
 ;HEIGHT:0.200001
@@ -355087,6 +356541,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.8 F9000
 G1 X94.381 Y92.848 Z36.8
@@ -355315,7 +356770,9 @@ G1 X88.69 Y87.415 E.02144
 G1 X88.076 Y87.881 E.02174
 G1 X87.733 Y88.279 E.01482
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.8 F9000
 G1 X132.945 Y92.848 Z36.8
@@ -355544,7 +357001,9 @@ G1 X127.253 Y87.415 E.02144
 G1 X126.639 Y87.881 E.02174
 G1 X126.296 Y88.279 E.01482
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z36.8 F9000
 G1 X132.945 Y131.412 Z36.8
@@ -355774,7 +357233,9 @@ G1 X127.253 Y125.979 E.02144
 G1 X126.639 Y126.444 E.02174
 G1 X126.296 Y126.842 E.01482
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z36.8 F9000
 G1 X94.381 Y131.412 Z36.8
@@ -356003,6 +357464,7 @@ G1 X88.69 Y125.979 E.02144
 G1 X88.076 Y126.444 E.02174
 G1 X87.733 Y126.842 E.01482
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:36.6
 ;HEIGHT:0.199997
@@ -356012,6 +357474,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37 F9000
 G1 X94.287 Y92.837 Z37
@@ -356216,7 +357679,9 @@ G1 X88.567 Y87.575 E.01543
 G1 X88.005 Y88.045 E.02066
 G1 X87.805 Y88.287 E.00885
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37 F9000
 G1 X132.85 Y92.837 Z37
@@ -356421,7 +357886,9 @@ G1 X127.13 Y87.575 E.01543
 G1 X126.568 Y88.045 E.02066
 G1 X126.368 Y88.287 E.00885
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z37 F9000
 G1 X132.85 Y131.4 Z37
@@ -356626,7 +358093,9 @@ G1 X127.13 Y126.138 E.01543
 G1 X126.568 Y126.609 E.02066
 G1 X126.368 Y126.851 E.00885
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37 F9000
 G1 X94.287 Y131.4 Z37
@@ -356831,6 +358300,7 @@ G1 X88.567 Y126.138 E.01543
 G1 X88.005 Y126.609 E.02066
 G1 X87.805 Y126.851 E.00885
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:36.8
 ;HEIGHT:0.200001
@@ -356840,6 +358310,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.2 F9000
 G1 X94.215 Y92.828 Z37.2
@@ -357061,7 +358532,9 @@ G1 X88.427 Y87.757 E.01466
 G1 X87.842 Y88.326 E.02302
 G1 X94.04 Y89.09 E.17614
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.2 F9000
 G1 X132.778 Y92.828 Z37.2
@@ -357284,7 +358757,9 @@ G1 X126.991 Y87.757 E.01466
 G1 X126.406 Y88.326 E.02302
 G1 X132.603 Y89.09 E.17614
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z37.2 F9000
 G1 X132.778 Y131.391 Z37.2
@@ -357507,7 +358982,9 @@ G1 X126.991 Y126.32 E.01466
 G1 X126.406 Y126.889 E.02302
 G1 X132.603 Y127.654 E.17614
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.2 F9000
 G1 X94.215 Y131.391 Z37.2
@@ -357730,6 +359207,7 @@ G1 X88.427 Y126.32 E.01466
 G1 X87.842 Y126.889 E.02302
 G1 X94.04 Y127.654 E.17614
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:37
 ;HEIGHT:0.200001
@@ -357739,6 +359217,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.4 F9000
 G1 X94.152 Y92.82 Z37.4
@@ -357934,7 +359413,9 @@ G1 X88.493 Y87.794 E.0148
 G1 X87.925 Y88.328 E.02198
 G1 X88.603 Y88.419 E.0193
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.4 F9000
 G1 X132.715 Y92.82 Z37.4
@@ -358129,7 +359610,9 @@ G1 X127.056 Y87.794 E.0148
 G1 X126.488 Y88.328 E.02198
 G1 X127.166 Y88.419 E.0193
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z37.4 F9000
 G1 X132.715 Y131.383 Z37.4
@@ -358324,7 +359807,9 @@ G1 X127.056 Y126.357 E.0148
 G1 X126.488 Y126.891 E.02198
 G1 X127.166 Y126.982 E.0193
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.4 F9000
 G1 X94.152 Y131.383 Z37.4
@@ -358519,6 +360004,7 @@ G1 X88.493 Y126.357 E.0148
 G1 X87.925 Y126.891 E.02198
 G1 X88.603 Y126.982 E.0193
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:37.2
 ;HEIGHT:0.200001
@@ -358528,6 +360014,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.6 F9000
 G1 X94.067 Y92.81 Z37.6
@@ -358723,7 +360210,9 @@ G1 X88.108 Y88.225 E.01546
 G1 X88.007 Y88.346 E.00445
 G1 X93.875 Y89.07 E.16677
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.6 F9000
 G1 X132.63 Y92.81 Z37.6
@@ -358918,7 +360407,9 @@ G1 X126.671 Y88.225 E.01546
 G1 X126.57 Y88.346 E.00445
 G1 X132.438 Y89.07 E.16677
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z37.6 F9000
 G1 X132.63 Y131.373 Z37.6
@@ -359114,7 +360605,9 @@ G1 X126.671 Y126.788 E.01546
 G1 X126.57 Y126.909 E.00445
 G1 X132.438 Y127.633 E.16677
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.6 F9000
 G1 X94.067 Y131.373 Z37.6
@@ -359309,6 +360802,7 @@ G1 X88.108 Y126.788 E.01546
 G1 X88.007 Y126.909 E.00445
 G1 X93.875 Y127.633 E.16677
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:37.4
 ;HEIGHT:0.200001
@@ -359318,6 +360812,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.8 F9000
 G1 X94.023 Y92.804 Z37.8
@@ -359511,7 +361006,9 @@ G1 X90.787 Y87.919 F9000
 G1 F6371
 G1 X91.292 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.8 F9000
 G1 X132.586 Y92.804 Z37.8
@@ -359706,7 +361203,9 @@ G1 X129.35 Y87.919 F9000
 G1 F6371
 G1 X129.855 Y87.981 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z37.8 F9000
 G1 X132.586 Y131.367 Z37.8
@@ -359901,7 +361400,9 @@ G1 X129.35 Y126.482 F9000
 G1 F6371
 G1 X129.855 Y126.545 E.01837
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z37.8 F9000
 G1 X94.023 Y131.367 Z37.8
@@ -360096,6 +361597,7 @@ G1 X90.787 Y126.482 F9000
 G1 F6371
 G1 X91.292 Y126.545 E.01837
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:37.6
 ;HEIGHT:0.199997
@@ -360105,6 +361607,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38 F9000
 G1 X94.023 Y92.804 Z38
@@ -360302,7 +361805,9 @@ G1 X90.831 Y87.942 E.01485
 ;WIDTH:0.466286
 G1 X91.292 Y87.983 E.01546
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38 F9000
 G1 X132.586 Y92.804 Z38
@@ -360500,7 +362005,9 @@ G1 X129.395 Y87.942 E.01485
 ;WIDTH:0.466286
 G1 X129.855 Y87.983 E.01546
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z38 F9000
 G1 X132.586 Y131.367 Z38
@@ -360698,7 +362205,9 @@ G1 X129.395 Y126.506 E.01485
 ;WIDTH:0.466286
 G1 X129.855 Y126.546 E.01546
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38 F9000
 G1 X94.023 Y131.367 Z38
@@ -360896,6 +362405,7 @@ G1 X90.831 Y126.506 E.01485
 ;WIDTH:0.466286
 G1 X91.292 Y126.546 E.01546
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:37.8
 ;HEIGHT:0.200001
@@ -360905,6 +362415,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.2 F9000
 G1 X94.023 Y92.804 Z38.2
@@ -361097,7 +362608,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.2 F9000
 G1 X132.586 Y92.804 Z38.2
@@ -361289,7 +362802,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z38.2 F9000
 G1 X132.586 Y131.367 Z38.2
@@ -361481,7 +362996,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.2 F9000
 G1 X94.023 Y131.367 Z38.2
@@ -361673,6 +363190,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:38
 ;HEIGHT:0.200001
@@ -361682,6 +363200,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.4 F9000
 G1 X94.023 Y92.804 Z38.4
@@ -361873,7 +363392,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.4 F9000
 G1 X132.586 Y92.804 Z38.4
@@ -362065,7 +363586,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z38.4 F9000
 G1 X132.586 Y131.367 Z38.4
@@ -362258,7 +363781,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.4 F9000
 G1 X94.023 Y131.367 Z38.4
@@ -362451,6 +363976,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:38.2
 ;HEIGHT:0.200001
@@ -362460,6 +363986,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.6 F9000
 G1 X94.023 Y92.804 Z38.6
@@ -362651,7 +364178,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.6 F9000
 G1 X132.586 Y92.804 Z38.6
@@ -362843,7 +364372,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z38.6 F9000
 G1 X132.586 Y131.367 Z38.6
@@ -363035,7 +364566,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.6 F9000
 G1 X94.023 Y131.367 Z38.6
@@ -363227,6 +364760,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:38.4
 ;HEIGHT:0.200001
@@ -363236,6 +364770,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.8 F9000
 G1 X94.023 Y92.804 Z38.8
@@ -363430,7 +364965,9 @@ G1 X88.136 Y88.253 E.01529
 G1 X88.054 Y88.352 E.00362
 G1 X93.825 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.8 F9000
 G1 X132.586 Y92.804 Z38.8
@@ -363625,7 +365162,9 @@ G1 X126.699 Y88.253 E.01529
 G1 X126.617 Y88.352 E.00362
 G1 X132.388 Y89.064 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z38.8 F9000
 G1 X132.586 Y131.367 Z38.8
@@ -363820,7 +365359,9 @@ G1 X126.699 Y126.816 E.01529
 G1 X126.617 Y126.915 E.00362
 G1 X132.388 Y127.627 E.16402
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z38.8 F9000
 G1 X94.023 Y131.367 Z38.8
@@ -364015,6 +365556,7 @@ G1 X88.136 Y126.816 E.01529
 G1 X88.054 Y126.915 E.00362
 G1 X93.825 Y127.627 E.16402
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:38.6
 ;HEIGHT:0.199997
@@ -364024,6 +365566,7 @@ G92 E0
 
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z39 F9000
 G1 X94.047 Y92.807 Z39
@@ -364212,7 +365755,9 @@ G1 X88.303 Y87.981 E.0238
 G1 X88.028 Y88.243 E.0114
 G1 X88.437 Y88.651 E.01733
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z39 F9000
 G1 X132.61 Y92.807 Z39
@@ -364402,7 +365947,9 @@ G1 X126.867 Y87.981 E.0238
 G1 X126.591 Y88.243 E.0114
 G1 X127 Y88.651 E.01733
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 ; printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_3105820_copy_0
 G1 E-1 F3000
 G1 Z39 F9000
 G1 X132.61 Y131.37 Z39
@@ -364592,7 +366139,9 @@ G1 X126.867 Y126.544 E.0238
 G1 X126.591 Y126.806 E.0114
 G1 X127 Y127.214 E.01733
 ; stop printing object wheel.stl id:3105820 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_3105820_copy_0
 ; printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 G1 Z39 F9000
 G1 X94.047 Y131.37 Z39
@@ -364782,6 +366331,7 @@ G1 X88.303 Y126.544 E.0238
 G1 X88.028 Y126.806 E.0114
 G1 X88.437 Y127.214 E.01733
 ; stop printing object wheel.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=wheel_stl_id_15_copy_0
 G1 E-1 F3000
 M106 S0
 ;TYPE:Custom
