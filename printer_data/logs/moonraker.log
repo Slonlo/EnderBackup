@@ -1013,3 +1013,4 @@ Content-Type: multipart/form-data; boundary=------------------------7be6c0a27c20
 2025-05-02 09:07:36,057 [job_state.py:_status_update()] - Job Started: wheel_PETG_1h34m.gcode
 2025-05-02 10:00:35,816 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
 2025-05-02 10:00:35,817 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-05-02 10:10:35,820 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
