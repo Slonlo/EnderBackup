@@ -985,3 +985,10 @@ Properties:
 2025-05-02 09:03:04,416 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 3.80ms
 2025-05-02 09:03:04,417 [websockets.py:open()] - Websocket Opened: ID: 140053531114416, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-05-02 09:03:04,423 [websockets.py:_handle_identify()] - Websocket 140053531114416 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-05-02 09:03:11,294 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------160b6ec137a6d9f5
+2025-05-02 09:03:11,872 [application.py:post()] - Processing Uploaded File: wheel_PLA_1h34m.gcode
+2025-05-02 09:03:12,442 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-05-02 09:03:12,445 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: wheel_PLA_1h34m.gcode, sliced by OrcaSlicer
+
