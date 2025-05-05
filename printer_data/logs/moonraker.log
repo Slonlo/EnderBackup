@@ -3728,3 +3728,7 @@ Properties:
 2025-05-05 09:33:00,463 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
 2025-05-05 09:33:00,470 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
 2025-05-05 09:33:00,477 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-05-05 09:33:21,922 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-05-05 09:33:21,927 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 7.46ms
+2025-05-05 09:33:21,928 [websockets.py:open()] - Websocket Opened: ID: 140053521677760, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-05-05 09:33:21,946 [websockets.py:_handle_identify()] - Websocket 140053521677760 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
