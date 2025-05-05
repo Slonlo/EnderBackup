@@ -3744,3 +3744,6 @@ Properties:
 2025-05-05 09:33:47,189 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 4.76ms
 2025-05-05 09:33:47,190 [websockets.py:open()] - Websocket Opened: ID: 140053521000768, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-05-05 09:33:47,413 [websockets.py:_handle_identify()] - Websocket 140053521000768 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-05 09:34:02,261 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 6.72ms
+2025-05-05 09:34:02,261 [websockets.py:open()] - Websocket Opened: ID: 140053520999808, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
+2025-05-05 09:34:02,293 [websockets.py:_handle_identify()] - Websocket 140053520999808 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
