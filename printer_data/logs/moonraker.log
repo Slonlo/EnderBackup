@@ -3768,3 +3768,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAoidIWg6H1LlDa
 2025-05-05 09:40:17,894 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-05-05 09:40:18,166 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-05-05 09:40:18,654 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-05-05 09:41:40,328 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
