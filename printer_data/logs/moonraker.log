@@ -3741,3 +3741,6 @@ Properties:
 2025-05-05 09:33:40,454 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-05-05 09:33:40,721 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-05-05 09:33:41,221 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-05-05 09:33:47,189 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 4.76ms
+2025-05-05 09:33:47,190 [websockets.py:open()] - Websocket Opened: ID: 140053521000768, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-05 09:33:47,413 [websockets.py:_handle_identify()] - Websocket 140053521000768 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
