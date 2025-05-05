@@ -3722,3 +3722,5 @@ Properties:
 **Description=Klipper 3D Printer Firmware SV1
 **User=chase
 2025-05-05 09:32:36,496 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-05-05 09:32:37,523 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-05-05 09:32:40,209 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
