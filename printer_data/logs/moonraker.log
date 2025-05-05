@@ -3748,3 +3748,4 @@ Properties:
 2025-05-05 09:34:02,261 [websockets.py:open()] - Websocket Opened: ID: 140053520999808, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.130
 2025-05-05 09:34:02,293 [websockets.py:_handle_identify()] - Websocket 140053520999808 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-05-05 09:34:04,424 [websockets.py:on_close()] - Websocket Closed: ID: 140053521000768 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.99
+2025-05-05 09:34:26,743 [websockets.py:on_close()] - Websocket Closed: ID: 140053520999808 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.11
