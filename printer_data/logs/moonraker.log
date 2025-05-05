@@ -3762,3 +3762,9 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAoidIWg6H1LlDa
 2025-05-05 09:40:12,384 [application.py:post()] - Processing Uploaded File: macros.cfg
 2025-05-05 09:40:12,393 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.6) [_TRUSTED_USER_] 28.04ms
 2025-05-05 09:40:13,434 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-05-05 09:40:14,695 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-05-05 09:40:17,643 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-05-05 09:40:17,645 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-05-05 09:40:17,894 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-05-05 09:40:18,166 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-05-05 09:40:18,654 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
