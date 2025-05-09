@@ -1006,3 +1006,6 @@ Download Size: 4318649
 Content Type: application/zip
 Rollback Version: v1.33.0
 Rollback Repo: fluidd-core/fluidd
+2025-05-09 01:56:01,431 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-05-09 01:56:01,440 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-09 01:56:01,445 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
