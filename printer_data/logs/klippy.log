@@ -965,3 +965,8 @@ max_y = 146.845
 Extruder max_extrude_ratio=2.078758
 mcu 'mcu': Starting serial connect
 mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+webhooks client 139629520096512: New connection
+webhooks client 139629520096512: Client info {'program': 'Moonraker', 'version': 'v0.9.3-58-ga0164e1'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
