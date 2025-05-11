@@ -5998,3 +5998,16 @@ Properties:
 2025-05-11 13:30:18,672 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
 2025-05-11 13:30:18,681 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 11.23ms
 2025-05-11 13:30:18,682 [websockets.py:open()] - Websocket Opened: ID: 139746830233808, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-05-11 13:30:32,075 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-05-11 13:30:32,078 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.69ms
+2025-05-11 13:30:32,079 [websockets.py:open()] - Websocket Opened: ID: 139746830235968, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-11 13:30:37,217 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': Timeout while connecting
+2025-05-11 13:31:44,585 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-05-11 13:31:44,589 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-05-11 13:31:44,593 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
