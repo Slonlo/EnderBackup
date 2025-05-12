@@ -6011,3 +6011,37 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2025-05-11 14:35:15,333 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-05-11 14:35:15,335 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-05-11 16:48:44,508 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.246
+2025-05-11 16:48:44,512 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.76ms
+2025-05-11 16:48:44,513 [websockets.py:open()] - Websocket Opened: ID: 139746829800112, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 16:48:44,522 [websockets.py:_handle_identify()] - Websocket 139746829800112 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 16:48:57,850 [websockets.py:on_close()] - Websocket Closed: ID: 139746829800112 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.79
+2025-05-11 17:27:58,979 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 7.41ms
+2025-05-11 17:27:58,980 [websockets.py:open()] - Websocket Opened: ID: 139746829870656, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 17:27:58,997 [websockets.py:_handle_identify()] - Websocket 139746829870656 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 17:28:42,051 [websockets.py:on_close()] - Websocket Closed: ID: 139746829870656 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.05
+2025-05-11 17:35:12,746 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 6.44ms
+2025-05-11 17:35:12,746 [websockets.py:open()] - Websocket Opened: ID: 139746829871520, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 17:35:12,770 [websockets.py:_handle_identify()] - Websocket 139746829871520 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 17:35:19,855 [websockets.py:on_close()] - Websocket Closed: ID: 139746829871520 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.11
+2025-05-11 17:45:43,303 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.26ms
+2025-05-11 17:45:43,304 [websockets.py:open()] - Websocket Opened: ID: 139746829801456, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 17:45:43,390 [websockets.py:_handle_identify()] - Websocket 139746829801456 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 17:46:20,024 [websockets.py:on_close()] - Websocket Closed: ID: 139746829801456 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.69
+2025-05-11 18:48:25,303 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 4.90ms
+2025-05-11 18:48:25,303 [websockets.py:open()] - Websocket Opened: ID: 139746829799776, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 18:48:25,346 [websockets.py:_handle_identify()] - Websocket 139746829799776 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 18:49:26,136 [websockets.py:on_close()] - Websocket Closed: ID: 139746829799776 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.66
+2025-05-11 18:50:33,495 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.29ms
+2025-05-11 18:50:33,496 [websockets.py:open()] - Websocket Opened: ID: 139746829802464, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 18:50:33,510 [websockets.py:_handle_identify()] - Websocket 139746829802464 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 18:50:40,459 [websockets.py:on_close()] - Websocket Closed: ID: 139746829802464 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.97
+2025-05-11 19:55:15,423 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.246
+2025-05-11 21:58:40,755 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.246
+2025-05-11 21:58:40,757 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.77ms
+2025-05-11 21:58:40,758 [websockets.py:open()] - Websocket Opened: ID: 139746829803280, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-11 21:58:40,795 [websockets.py:_handle_identify()] - Websocket 139746829803280 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-11 21:59:01,588 [websockets.py:on_close()] - Websocket Closed: ID: 139746829803280 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.81
+2025-05-11 23:00:15,487 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.246
