@@ -298,3 +298,9 @@ Diverged: False
 Pinned Commit: None
 2025-05-13 02:30:17,438 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
 2025-05-13 02:30:17,438 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2025-05-13 06:50:29,341 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.246
+2025-05-13 06:50:29,344 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.53ms
+2025-05-13 06:50:29,345 [websockets.py:open()] - Websocket Opened: ID: 139746830518544, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-13 06:50:29,354 [websockets.py:_handle_identify()] - Websocket 139746830518544 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-13 06:51:01,536 [websockets.py:on_close()] - Websocket Closed: ID: 139746830518544 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.17
+2025-05-13 07:55:16,025 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.246
