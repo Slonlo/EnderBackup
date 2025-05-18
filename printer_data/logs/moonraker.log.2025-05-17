@@ -1,4 +1,4 @@
--------------------- Log Start | Sun May 18 06:30:16 2025 --------------------
+-------------------- Log Start | Sat May 17 06:03:06 2025 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,14 +263,52 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-05-18 02:30:16,943 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
-    await self._update_package_cache(force=True)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
-    await self.provider.refresh_packages(notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
-    await self.run_transaction("refresh_cache", False, notify=notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
-    return await transaction.run(method, *args, notify=notify)
-moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-05-17 02:03:06,866 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-05-17 02:03:30,855 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829801600
+2025-05-17 02:03:35,100 [websockets.py:on_close()] - Websocket Closed: ID: 139746829801600 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-17 02:03:43,886 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830234480
+2025-05-17 02:03:48,676 [websockets.py:on_close()] - Websocket Closed: ID: 139746830234480 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.01
+2025-05-17 02:05:17,075 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-05-17 02:05:17,076 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-05-17 02:05:27,087 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-05-17 02:05:27,091 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-05-17 02:05:29,802 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-05-17 02:05:29,804 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.51ms
+2025-05-17 02:05:29,804 [websockets.py:open()] - Websocket Opened: ID: 139746830234672, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-05-17 02:05:36,640 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-05-17 02:05:36,643 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.98ms
+2025-05-17 02:05:36,643 [websockets.py:open()] - Websocket Opened: ID: 139746829803424, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-17 03:10:17,520 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-05-17 03:10:17,521 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-05-17 09:02:00,307 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.194
+2025-05-17 09:02:00,313 [application.py:log_request()] - 101 GET /websocket (192.168.1.194) [_TRUSTED_USER_] 11.18ms
+2025-05-17 09:02:00,314 [websockets.py:open()] - Websocket Opened: ID: 139746829801408, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-05-17 09:02:00,356 [websockets.py:_handle_identify()] - Websocket 139746829801408 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-05-17 09:02:13,030 [websockets.py:on_close()] - Websocket Closed: ID: 139746829801408 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.71
+2025-05-17 09:48:54,299 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.246
+2025-05-17 09:48:54,302 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 6.95ms
+2025-05-17 09:48:54,302 [websockets.py:open()] - Websocket Opened: ID: 139746830520080, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-17 09:48:54,311 [websockets.py:_handle_identify()] - Websocket 139746830520080 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-17 09:49:06,387 [websockets.py:on_close()] - Websocket Closed: ID: 139746830520080 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.06
+2025-05-17 10:05:17,631 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.194
+2025-05-17 10:50:17,642 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.246
+2025-05-17 11:14:34,630 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.246
+2025-05-17 11:14:34,632 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 6.58ms
+2025-05-17 11:14:34,632 [websockets.py:open()] - Websocket Opened: ID: 139746830904624, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-17 11:14:34,642 [websockets.py:_handle_identify()] - Websocket 139746830904624 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-17 11:14:51,954 [websockets.py:on_close()] - Websocket Closed: ID: 139746830904624 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.30
+2025-05-17 11:24:15,946 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 8.23ms
+2025-05-17 11:24:15,947 [websockets.py:open()] - Websocket Opened: ID: 139746830904672, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-17 11:24:15,968 [websockets.py:_handle_identify()] - Websocket 139746830904672 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-17 11:24:33,081 [websockets.py:on_close()] - Websocket Closed: ID: 139746830904672 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.10
+2025-05-17 11:42:33,584 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.62ms
+2025-05-17 11:42:33,585 [websockets.py:open()] - Websocket Opened: ID: 139746830904000, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-17 11:42:33,630 [websockets.py:_handle_identify()] - Websocket 139746830904000 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-17 11:42:47,314 [websockets.py:on_close()] - Websocket Closed: ID: 139746830904000 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.71
+2025-05-17 12:45:17,668 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.246
+2025-05-17 12:55:00,781 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.246
+2025-05-17 12:55:00,783 [application.py:log_request()] - 101 GET /websocket (192.168.1.246) [_TRUSTED_USER_] 5.29ms
+2025-05-17 12:55:00,784 [websockets.py:open()] - Websocket Opened: ID: 139746830577040, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-05-17 12:55:00,824 [websockets.py:_handle_identify()] - Websocket 139746830577040 Client Identified - Name: Mobileraker-android, Version: 2.8.7-618, Type: mobile
+2025-05-17 12:55:16,680 [websockets.py:on_close()] - Websocket Closed: ID: 139746830577040 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.88
+2025-05-17 13:55:17,688 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.246
