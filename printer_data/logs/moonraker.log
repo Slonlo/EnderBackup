@@ -322,3 +322,4 @@ Content-Type: multipart/form-data; boundary=------------------------2876c51178d1
 2025-05-20 11:14:54,168 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_6m38s.gcode
 2025-05-20 11:14:54,207 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 1211.75ms
 2025-05-20 11:14:54,251 [job_state.py:_status_update()] - Job Started: Body1_PLA_6m38s.gcode
+2025-05-20 11:15:05,216 [klippy_apis.py:pause_print()] - Requesting job pause...
