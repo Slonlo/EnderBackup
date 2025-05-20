@@ -323,3 +323,14 @@ Content-Type: multipart/form-data; boundary=------------------------2876c51178d1
 2025-05-20 11:14:54,207 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 1211.75ms
 2025-05-20 11:14:54,251 [job_state.py:_status_update()] - Job Started: Body1_PLA_6m38s.gcode
 2025-05-20 11:15:05,216 [klippy_apis.py:pause_print()] - Requesting job pause...
+2025-05-20 11:19:35,009 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------1d25a488bed62d19
+2025-05-20 11:19:35,054 [application.py:post()] - Processing Uploaded File: Body1_PLA_6m38s.gcode
+2025-05-20 11:19:35,060 [web.py:log_exception()] - 403 POST /api/files/local (192.168.1.6): File is loaded, upload not permitted
+2025-05-20 11:19:35,077 [application.py:log_request()] - 403 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 71.06ms
+2025-05-20 11:20:00,089 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------d6f73584845f997b
+2025-05-20 11:20:00,139 [application.py:post()] - Processing Uploaded File: Body1_PLA_6m38s.gcode
+2025-05-20 11:20:00,145 [web.py:log_exception()] - 403 POST /api/files/local (192.168.1.6): File is loaded, upload not permitted
+2025-05-20 11:20:00,149 [application.py:log_request()] - 403 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 62.33ms
+2025-05-20 11:20:07,104 [klippy_apis.py:cancel_print()] - Requesting job cancel...
