@@ -304,3 +304,10 @@ Pinned Commit: None
 2025-05-20 11:13:42,259 [websockets.py:_handle_identify()] - Websocket 139746829876384 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-05-20 11:14:20,796 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-05-20 11:14:22,058 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-05-20 11:14:26,686 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-05-20 11:14:27,948 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-05-20 11:14:30,904 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-05-20 11:14:30,907 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-05-20 11:14:31,156 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-05-20 11:14:31,428 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-05-20 11:14:31,914 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
