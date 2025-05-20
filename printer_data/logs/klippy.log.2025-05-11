@@ -1,3 +1,14 @@
+=============== Log rollover at Sun May 11 13:30:10 2025 ===============
+Starting Klippy...
+Args: ['/home/chase/klipper/klippy/klippy.py', '/home/chase/printer_data/config/printer.cfg', '-I', '/home/chase/printer_data/comms/klippy.serial', '-l', '/home/chase/printer_data/logs/klippy.log', '-a', '/home/chase/printer_data/comms/klippy.sock']
+Git version: 'v0.12.0-439-g1fc6d214f-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+Python: '3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]'
+Start printer at Sun May 11 13:30:12 2025 (1746984612.2 22.5)
 ===== Config file =====
 [virtual_sdcard]
 path = ~/printer_data/gcodes
@@ -682,6 +693,28 @@ gcode =
 	M104 S220
 	M109 S220
 
+[gcode_macro UNLOAD_PLA]
+description = Heats hotend to 220C and retracts PLA filament
+gcode = 
+	SAVE_GCODE_STATE NAME=UNLOAD_PLA_STATE
+	M109 S220
+	M83
+	G1 E-100 F1800
+	M104 S0
+	RESTORE_GCODE_STATE NAME=UNLOAD_PLA_STATE
+	M117 PLA Unloaded
+
+[gcode_macro UNLOAD_PETG]
+description = Heats hotend to 250C and retracts PETG filament
+gcode = 
+	SAVE_GCODE_STATE NAME=UNLOAD_PETG_STATE
+	M109 S250
+	M83
+	G1 E-100 F1800
+	M104 S0
+	RESTORE_GCODE_STATE NAME=UNLOAD_PETG_STATE
+	M117 PETG Unloaded
+
 [exclude_object]
 
 [gcode_shell_command hello_world]
@@ -929,49 +962,56 @@ max_x = 122.64500000000001
 min_y = 73.135
 max_y = 146.845
 =======================
-Loaded MCU 'mcu' 106 commands (v0.12.0-85-gd785b396a / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
-MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 CLOCK_FREQ=72000000 MCU=stm32f103xe PWM_MAX=255 RECEIVE_WINDOW=192 RESERVE_PINS_serial=PA10,PA9 SERIAL_BAUD=250000 STATS_SUMSQ_BASE=256 STEPPER_BOTH_EDGE=1
-Configured MCU 'mcu' (1024 moves)
-Args: ['/home/chase/klipper/klippy/klippy.py', '/home/chase/printer_data/config/printer.cfg', '-I', '/home/chase/printer_data/comms/klippy.serial', '-l', '/home/chase/printer_data/logs/klippy.log', '-a', '/home/chase/printer_data/comms/klippy.sock']
-Git version: 'v0.12.0-439-g1fc6d214f-dirty'
-Untracked files: klippy/extras/gcode_shell_command.py
-Branch: master
-Remote: origin
-Tracked URL: https://github.com/Klipper3d/klipper
-CPU: 4 core Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
-Python: '3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]'
-webhooks client 140037651466656: {'program': 'Moonraker', 'version': 'v0.9.3-58-ga0164e1'}
-=============== Log rollover at Wed Apr  9 07:32:02 2025 ===============
-b'Got EOF when reading from device'
-Timeout with MCU 'mcu' (eventtime=1450031.755470)
-Transition to shutdown state: Lost communication with MCU 'mcu'
-Dumping gcode input 0 blocks
-Dumping 20 requests for client 140037651466656
-Received 1449822.015483: b'{"id":140371666582016,"method":"info","params":{}}'
-Received 1449822.029726: b'{"id":140371666581200,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449851.795581: b'{"id":140371622834128,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449851.917265: b'{"id":140371666579520,"method":"info","params":{}}'
-Received 1449851.927751: b'{"id":140371666582640,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449881.794820: b'{"id":140371622834128,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449881.827865: b'{"id":140371666583456,"method":"info","params":{}}'
-Received 1449881.837317: b'{"id":140371666582784,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449911.794035: b'{"id":140371666582640,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449911.985748: b'{"id":140371666581200,"method":"info","params":{}}'
-Received 1449911.995704: b'{"id":140371666583408,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449941.794319: b'{"id":140371622834080,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449941.906365: b'{"id":140371667757904,"method":"info","params":{}}'
-Received 1449941.917214: b'{"id":140371622834128,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449971.810794: b'{"id":140371622834128,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1449972.032666: b'{"id":140371666583456,"method":"info","params":{}}'
-Received 1449972.041916: b'{"id":140371666582016,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1450001.809167: b'{"id":140371622833264,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-Received 1450001.931278: b'{"id":140371666581200,"method":"info","params":{}}'
-Received 1450001.943149: b'{"id":140371666582784,"method":"objects/query","params":{"objects":{"print_stats":["state","message","filename","total_duration","print_duration","filament_used","info"],"display_status":["message","progress"],"toolhead":["position"],"system_stats":["sysload","memavail"],"mcu":["last_stats"],"gcode_move":["speed_factor"],"heater_bed":["temperature","target","power"],"fan":["speed"],"extruder":["temperature","target","power"],"status":["update_available"],"q":["u"]}}}'
-gcode state: absolute_coord=True absolute_extrude=True base_position=[0.0, 0.0, 0.0, 0.0] last_position=[0.0, 0.0, 0.0, 0.0] homing_position=[0.0, 0.0, 0.0, 0.0] speed_factor=0.016666666666666666 extrude_factor=1.0 speed=25.0
-Reactor garbage collection: (1449943.878998275, 1448983.641225443, 1433197.540138585)
-Lost communication with MCU 'mcu'
+Extruder max_extrude_ratio=2.078758
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+webhooks client 139629520096512: New connection
+webhooks client 139629520096512: Client info {'program': 'Moonraker', 'version': 'v0.9.3-58-ga0164e1'}
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0'
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/chase/klipper/klippy/mcu.py", line 794, in _mcu_identify
+    self._serial.connect_uart(self._serialport, self._baud, rts)
+  File "/home/chase/klipper/klippy/serialhdl.py", line 183, in connect_uart
+    self._error("Unable to connect")
+  File "/home/chase/klipper/klippy/serialhdl.py", line 61, in _error
+    raise error(self.warn_prefix + (msg % params))
+serialhdl.error: mcu 'mcu': Unable to connect
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chase/klipper/klippy/klippy.py", line 131, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/home/chase/klipper/klippy/klippy.py", line 223, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/chase/klipper/klippy/klippy.py", line 223, in <listcomp>
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/chase/klipper/klippy/mcu.py", line 799, in _mcu_identify
+    raise error(str(e))
+mcu.error: mcu 'mcu': Unable to connect
+mcu 'mcu': Unable to connect
 Once the underlying issue is corrected, use the
 "FIRMWARE_RESTART" command to reset the firmware, reload the
 config, and restart the host software.
-Printer is shutdown
+Error configuring printer
 
+No build file /home/chase/klipper/klippy/../.config
+No build file /home/chase/klipper/klippy/../out/klipper.dict
+No build file /home/chase/klipper/klippy/../out/klipper.elf
