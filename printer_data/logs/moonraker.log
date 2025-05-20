@@ -311,3 +311,14 @@ Pinned Commit: None
 2025-05-20 11:14:31,156 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-05-20 11:14:31,428 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-05-20 11:14:31,914 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-05-20 11:14:52,997 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------2876c51178d1f563
+2025-05-20 11:14:53,043 [application.py:post()] - Processing Uploaded File: Body1_PLA_6m38s.gcode
+2025-05-20 11:14:53,507 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-05-20 11:14:53,510 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PLA_6m38s.gcode, sliced by OrcaSlicer
+
+2025-05-20 11:14:54,163 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-ojsp59x_.json) successfully finished
+2025-05-20 11:14:54,168 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_6m38s.gcode
+2025-05-20 11:14:54,207 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 1211.75ms
+2025-05-20 11:14:54,251 [job_state.py:_status_update()] - Job Started: Body1_PLA_6m38s.gcode
