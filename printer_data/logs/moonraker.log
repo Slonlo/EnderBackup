@@ -334,3 +334,14 @@ Content-Type: multipart/form-data; boundary=------------------------d6f73584845f
 2025-05-20 11:20:00,145 [web.py:log_exception()] - 403 POST /api/files/local (192.168.1.6): File is loaded, upload not permitted
 2025-05-20 11:20:00,149 [application.py:log_request()] - 403 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 62.33ms
 2025-05-20 11:20:07,104 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2025-05-20 11:20:11,116 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------9005144e027a3048
+2025-05-20 11:20:11,167 [application.py:post()] - Processing Uploaded File: Body1_PLA_6m38s.gcode
+2025-05-20 11:20:11,560 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-05-20 11:20:11,565 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Body1_PLA_6m38s.gcode, sliced by OrcaSlicer
+
+2025-05-20 11:20:12,161 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-t11r0x_e.json) successfully finished
+2025-05-20 11:20:12,166 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Body1_PLA_6m38s.gcode
+2025-05-20 11:20:12,208 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 1094.38ms
+2025-05-20 11:20:12,315 [job_state.py:_status_update()] - Job Started: Body1_PLA_6m38s.gcode
