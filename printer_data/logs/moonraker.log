@@ -266,3 +266,288 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-05-26 00:00:36,174 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.81ms
 2025-05-26 00:00:36,175 [websockets.py:open()] - Websocket Opened: ID: 139746830539552, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
 2025-05-26 00:00:36,180 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:01:56,431 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.85ms
+2025-05-26 00:01:56,431 [websockets.py:open()] - Websocket Opened: ID: 139746882596096, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:01:56,435 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:03:16,769 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.60ms
+2025-05-26 00:03:16,771 [websockets.py:open()] - Websocket Opened: ID: 139746881607424, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:03:16,776 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:03:56,156 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828090480
+2025-05-26 00:04:01,019 [websockets.py:on_close()] - Websocket Closed: ID: 139746828090480 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-05-26 00:04:37,152 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.94ms
+2025-05-26 00:04:37,153 [websockets.py:open()] - Websocket Opened: ID: 139746881969984, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:04:37,158 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:05:57,633 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.68ms
+2025-05-26 00:05:57,634 [websockets.py:open()] - Websocket Opened: ID: 139746881582896, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:05:57,641 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:07:17,935 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.62ms
+2025-05-26 00:07:17,935 [websockets.py:open()] - Websocket Opened: ID: 139746881607376, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:07:17,940 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:08:38,417 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.83ms
+2025-05-26 00:08:38,418 [websockets.py:open()] - Websocket Opened: ID: 139746829613328, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:08:38,422 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:09:58,699 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.92ms
+2025-05-26 00:09:58,700 [websockets.py:open()] - Websocket Opened: ID: 139746829875088, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:09:58,705 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:10:25,545 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881592768
+2025-05-26 00:10:30,352 [websockets.py:on_close()] - Websocket Closed: ID: 139746881592768 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-26 00:11:19,038 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.76ms
+2025-05-26 00:11:19,039 [websockets.py:open()] - Websocket Opened: ID: 139746881583664, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:11:19,043 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:12:39,178 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.47ms
+2025-05-26 00:12:39,179 [websockets.py:open()] - Websocket Opened: ID: 139746881968160, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:12:39,255 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:13:59,518 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.46ms
+2025-05-26 00:13:59,519 [websockets.py:open()] - Websocket Opened: ID: 139746881970080, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:13:59,524 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:15:19,834 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.18ms
+2025-05-26 00:15:19,835 [websockets.py:open()] - Websocket Opened: ID: 139746828088224, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:15:19,839 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:16:40,319 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.46ms
+2025-05-26 00:16:40,320 [websockets.py:open()] - Websocket Opened: ID: 139746829613568, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:16:40,329 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:16:45,950 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881609632
+2025-05-26 00:16:50,929 [websockets.py:on_close()] - Websocket Closed: ID: 139746881609632 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-26 00:18:00,736 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.16ms
+2025-05-26 00:18:00,737 [websockets.py:open()] - Websocket Opened: ID: 139746830530304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:18:00,741 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:18:56,096 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830529008
+2025-05-26 00:18:57,103 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830539552
+2025-05-26 00:18:57,103 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882596096
+2025-05-26 00:18:58,103 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881607376
+2025-05-26 00:19:00,639 [websockets.py:on_close()] - Websocket Closed: ID: 139746830529008 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-26 00:19:01,178 [websockets.py:on_close()] - Websocket Closed: ID: 139746830539552 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-26 00:19:01,433 [websockets.py:on_close()] - Websocket Closed: ID: 139746882596096 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-05-26 00:19:02,939 [websockets.py:on_close()] - Websocket Closed: ID: 139746881607376 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
+2025-05-26 00:19:16,123 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830235392
+2025-05-26 00:19:20,736 [websockets.py:on_close()] - Websocket Closed: ID: 139746830235392 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-26 00:19:20,988 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.49ms
+2025-05-26 00:19:20,990 [websockets.py:open()] - Websocket Opened: ID: 139746830235008, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:19:20,992 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:20:15,174 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828090240
+2025-05-26 00:20:19,665 [websockets.py:on_close()] - Websocket Closed: ID: 139746828090240 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.74
+2025-05-26 00:20:41,174 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.26ms
+2025-05-26 00:20:41,175 [websockets.py:open()] - Websocket Opened: ID: 139746830528912, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:20:41,182 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:22:01,507 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.81ms
+2025-05-26 00:22:01,508 [websockets.py:open()] - Websocket Opened: ID: 139746830545152, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:22:01,514 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:23:22,025 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.61ms
+2025-05-26 00:23:22,026 [websockets.py:open()] - Websocket Opened: ID: 139746881592816, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:23:22,031 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:24:43,504 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.90ms
+2025-05-26 00:24:43,506 [websockets.py:open()] - Websocket Opened: ID: 139746882595760, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:24:43,513 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:26:03,839 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.32ms
+2025-05-26 00:26:03,839 [websockets.py:open()] - Websocket Opened: ID: 139746830540080, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:26:03,845 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:27:19,641 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881583664
+2025-05-26 00:27:20,619 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828088224
+2025-05-26 00:27:21,618 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830530304
+2025-05-26 00:27:24,043 [websockets.py:on_close()] - Websocket Closed: ID: 139746881583664 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.57
+2025-05-26 00:27:24,119 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.70ms
+2025-05-26 00:27:24,119 [websockets.py:open()] - Websocket Opened: ID: 139746881581792, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:27:24,125 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:27:24,839 [websockets.py:on_close()] - Websocket Closed: ID: 139746828088224 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-05-26 00:27:25,742 [websockets.py:on_close()] - Websocket Closed: ID: 139746830530304 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-05-26 00:28:44,298 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.56ms
+2025-05-26 00:28:44,299 [websockets.py:open()] - Websocket Opened: ID: 139746829381392, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:28:44,306 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:30:04,685 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.89ms
+2025-05-26 00:30:04,686 [websockets.py:open()] - Websocket Opened: ID: 139746829262224, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-26 00:30:04,690 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-26 00:30:17,010 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-05-26 00:30:17,049 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-05-26 00:30:17,118 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-05-26 00:30:18,064 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
+2025-05-26 00:30:18,100 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-05-26 00:30:18,128 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
+2025-05-26 00:30:18,166 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-26 00:30:18,208 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
+2025-05-26 00:30:18,243 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-05-26 00:30:18,277 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..0310d0be9fd207c510554ff64ca418cf4bcdaf9f --count) successfully finished
+2025-05-26 00:30:18,313 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-05-26 00:30:18,407 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-05-26 00:30:18,411 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/chase/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
+Upstream Commit SHA: 0310d0be9fd207c510554ff64ca418cf4bcdaf9f
+Current Version: v0.9.3-58-ga0164e15
+Upstream Version: v0.9.3-75-g0310d0be
+Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
+Rollback Branch: master
+Rollback Version: v0.9.3-48-g354cc11b
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 17
+Diverged: False
+Pinned Commit: None
+2025-05-26 00:30:18,413 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-05-26 00:30:18,413 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2025-05-26 00:30:18,493 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2025-05-26 00:30:18,520 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2025-05-26 00:30:18,569 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
+2025-05-26 00:30:20,642 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) successfully finished
+2025-05-26 00:30:20,682 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-05-26 00:30:20,716 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse HEAD) successfully finished
+2025-05-26 00:30:20,876 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-26 00:30:20,913 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse origin/master) successfully finished
+2025-05-26 00:30:21,057 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-05-26 00:30:21,096 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-list HEAD..b1011e3fb14df7470d9b74e59042383012b199c6 --count) successfully finished
+2025-05-26 00:30:21,141 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper log 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-05-26 00:30:21,326 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-05-26 00:30:21,330 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/chase/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Upstream Commit SHA: b1011e3fb14df7470d9b74e59042383012b199c6
+Current Version: v0.12.0-439-g1fc6d214
+Upstream Version: v0.13.0-120-gb1011e3f
+Rollback Commit: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Rollback Branch: master
+Rollback Version: v0.12.0-439-g1fc6d214
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 174
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py']
+2025-05-26 00:30:21,331 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2025-05-26 00:30:21,331 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2025-05-26 00:30:21,509 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.14.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.14.0/mainsail.zip
+Download Size: 2848929
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2025-05-26 00:30:21,544 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2025-05-26 00:30:21,570 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2025-05-26 00:30:21,634 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
+2025-05-26 00:30:22,124 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) successfully finished
+2025-05-26 00:30:22,154 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-05-26 00:30:22,184 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse HEAD) successfully finished
+2025-05-26 00:30:22,217 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-26 00:30:22,248 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse origin/master) successfully finished
+2025-05-26 00:30:22,281 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-05-26 00:30:22,314 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-list HEAD..ff3869a621db17ce3ef660adbbd3fa321995ac42 --count) successfully finished
+2025-05-26 00:30:22,316 [git_deploy.py:log_repo_info()] - Git Repo mainsail-config Detected:
+Owner: mainsail-crew
+Repository Name: mainsail-config
+Path: /home/chase/mainsail-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/mainsail-config.git
+Recovery URL: https://github.com/mainsail-crew/mainsail-config.git
+Current Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Upstream Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Current Version: v1.2.1-1-gff3869a6
+Upstream Version: v1.2.1-1-gff3869a6
+Rollback Commit: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Rollback Branch: master
+Rollback Version: v1.2.1-1-gff3869a6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-05-26 00:30:22,316 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2025-05-26 00:30:22,316 [base_deploy.py:log_info()] - Git Repo mainsail-config: Validity check for git repo passed
+2025-05-26 00:30:22,351 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar status --porcelain -b) successfully finished
+2025-05-26 00:30:22,376 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
+2025-05-26 00:30:22,437 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
+2025-05-26 00:30:22,918 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) successfully finished
+2025-05-26 00:30:22,949 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-05-26 00:30:22,978 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse HEAD) successfully finished
+2025-05-26 00:30:23,008 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-26 00:30:23,034 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse origin/main) successfully finished
+2025-05-26 00:30:23,063 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-05-26 00:30:23,094 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-list HEAD..3fe23fef07dbc19a9b66bdd111bbd1d574d19955 --count) successfully finished
+2025-05-26 00:30:23,125 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar log eacc498a52f79292063b6f9b0e0c191c34c5dc09..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-05-26 00:30:23,162 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-05-26 00:30:23,164 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
+Owner: mainsail-crew
+Repository Name: sonar
+Path: /home/chase/sonar
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/sonar.git
+Recovery URL: https://github.com/mainsail-crew/sonar.git
+Current Commit SHA: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Upstream Commit SHA: 3fe23fef07dbc19a9b66bdd111bbd1d574d19955
+Current Version: v0.1.3-1-geacc498a
+Upstream Version: v0.2.0-0-g3fe23fef
+Rollback Commit: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Rollback Branch: main
+Rollback Version: v0.1.3-1-geacc498a-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 8
+Diverged: False
+Pinned Commit: None
+2025-05-26 00:30:23,164 [base_deploy.py:log_info()] - Git Repo sonar: Channel: dev
+2025-05-26 00:30:23,165 [base_deploy.py:log_info()] - Git Repo sonar: Validity check for git repo passed
+2025-05-26 00:30:23,193 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging status --porcelain -b) successfully finished
+2025-05-26 00:30:23,219 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging branch --list --no-color) successfully finished
+2025-05-26 00:30:23,268 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging remote get-url origin) successfully finished
+2025-05-26 00:30:23,664 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) successfully finished
+2025-05-26 00:30:23,693 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-05-26 00:30:23,720 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse HEAD) successfully finished
+2025-05-26 00:30:23,752 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-26 00:30:23,784 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse origin/main) successfully finished
+2025-05-26 00:30:23,820 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-05-26 00:30:23,868 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-list HEAD..b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0 --count) successfully finished
+2025-05-26 00:30:23,870 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+Owner: kyleisah
+Repository Name: Klipper-Adaptive-Meshing-Purging
+Path: /home/chase/Klipper-Adaptive-Meshing-Purging
+Remote: origin
+Branch: main
+Remote URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Recovery URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Current Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Upstream Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Current Version: v1.1.2-13-gb0dad8ec
+Upstream Version: v1.1.2-13-gb0dad8ec
+Rollback Commit: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Rollback Branch: main
+Rollback Version: v1.1.2-13-gb0dad8ec
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-05-26 00:30:23,870 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
+2025-05-26 00:30:23,870 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Validity check for git repo passed
+2025-05-26 00:30:23,911 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
+2025-05-26 00:30:23,941 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
+2025-05-26 00:30:23,988 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
+2025-05-26 00:30:24,456 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) successfully finished
+2025-05-26 00:30:24,484 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-05-26 00:30:24,512 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse HEAD) successfully finished
+2025-05-26 00:30:24,543 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-26 00:30:24,570 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse origin/main) successfully finished
