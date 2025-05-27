@@ -1300,3 +1300,5 @@ Diverged: False
 Pinned Commit: None
 2025-05-27 04:30:18,412 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
 2025-05-27 04:30:18,412 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2025-05-27 04:30:27,081 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828091008
+2025-05-27 04:30:27,082 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829261504
