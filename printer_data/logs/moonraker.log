@@ -1336,3 +1336,6 @@ Download Size: 4343427
 Content Type: application/zip
 Rollback Version: v1.33.0
 Rollback Repo: fluidd-core/fluidd
+2025-05-30 04:30:50,447 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882050944
+2025-05-30 04:30:50,449 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829377648
+2025-05-30 04:30:52,453 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829313504
