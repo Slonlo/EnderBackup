@@ -266,3 +266,1073 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-05-30 00:00:46,295 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.25ms
 2025-05-30 00:00:46,296 [websockets.py:open()] - Websocket Opened: ID: 139746881605696, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
 2025-05-30 00:00:46,300 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:02:06,481 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.44ms
+2025-05-30 00:02:06,482 [websockets.py:open()] - Websocket Opened: ID: 139746829312304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:02:06,486 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:03:05,371 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882238448
+2025-05-30 00:03:09,896 [websockets.py:on_close()] - Websocket Closed: ID: 139746882238448 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-05-30 00:03:26,828 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.35ms
+2025-05-30 00:03:26,829 [websockets.py:open()] - Websocket Opened: ID: 139746829315568, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:03:26,833 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:04:47,064 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.51ms
+2025-05-30 00:04:47,065 [websockets.py:open()] - Websocket Opened: ID: 139746882102848, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:04:47,068 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:05:05,474 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882000928
+2025-05-30 00:05:05,476 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087552
+2025-05-30 00:05:05,477 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830046832
+2025-05-30 00:05:09,530 [websockets.py:on_close()] - Websocket Closed: ID: 139746882000928 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:05:09,988 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087552 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:05:10,116 [websockets.py:on_close()] - Websocket Closed: ID: 139746830046832 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-05-30 00:05:31,527 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882239264
+2025-05-30 00:05:35,825 [websockets.py:on_close()] - Websocket Closed: ID: 139746882239264 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:06:09,574 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.92ms
+2025-05-30 00:06:09,575 [websockets.py:open()] - Websocket Opened: ID: 139746882410432, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:06:09,578 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:07:30,101 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 2.99ms
+2025-05-30 00:07:30,102 [websockets.py:open()] - Websocket Opened: ID: 139746881999248, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:07:30,187 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:08:50,482 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.75ms
+2025-05-30 00:08:50,483 [websockets.py:open()] - Websocket Opened: ID: 139746830537344, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:08:50,492 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:10:10,683 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.92ms
+2025-05-30 00:10:10,684 [websockets.py:open()] - Websocket Opened: ID: 139746829294368, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:10:10,689 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:11:30,981 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.22ms
+2025-05-30 00:11:30,982 [websockets.py:open()] - Websocket Opened: ID: 139746881582272, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:11:30,987 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:11:32,863 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830046496
+2025-05-30 00:11:37,809 [websockets.py:on_close()] - Websocket Closed: ID: 139746830046496 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:12:50,944 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882596096
+2025-05-30 00:12:50,951 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829294368
+2025-05-30 00:12:51,435 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.19ms
+2025-05-30 00:12:51,435 [websockets.py:open()] - Websocket Opened: ID: 139746881582464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:12:51,441 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:12:55,062 [websockets.py:on_close()] - Websocket Closed: ID: 139746882596096 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.35
+2025-05-30 00:12:55,686 [websockets.py:on_close()] - Websocket Closed: ID: 139746829294368 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:14:11,765 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.62ms
+2025-05-30 00:14:11,766 [websockets.py:open()] - Websocket Opened: ID: 139746830032848, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:14:11,770 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:14:34,048 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881592912
+2025-05-30 00:14:39,019 [websockets.py:on_close()] - Websocket Closed: ID: 139746881592912 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.92
+2025-05-30 00:15:32,216 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.57ms
+2025-05-30 00:15:32,217 [websockets.py:open()] - Websocket Opened: ID: 139746829611744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:15:32,222 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:16:06,146 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881967920
+2025-05-30 00:16:11,109 [websockets.py:on_close()] - Websocket Closed: ID: 139746881967920 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:16:52,355 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.93ms
+2025-05-30 00:16:52,356 [websockets.py:open()] - Websocket Opened: ID: 139746828091200, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:16:52,361 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:18:12,856 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.47ms
+2025-05-30 00:18:12,857 [websockets.py:open()] - Websocket Opened: ID: 139746830539072, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:18:12,861 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:19:33,020 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.68ms
+2025-05-30 00:19:33,022 [websockets.py:open()] - Websocket Opened: ID: 139746829508512, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:19:33,026 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:20:53,501 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.60ms
+2025-05-30 00:20:53,502 [websockets.py:open()] - Websocket Opened: ID: 139746882411344, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:20:53,507 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:21:50,478 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882410432
+2025-05-30 00:21:54,579 [websockets.py:on_close()] - Websocket Closed: ID: 139746882410432 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:22:06,491 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881591424
+2025-05-30 00:22:06,492 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881605696
+2025-05-30 00:22:10,743 [websockets.py:on_close()] - Websocket Closed: ID: 139746881591424 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:22:11,298 [websockets.py:on_close()] - Websocket Closed: ID: 139746881605696 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:22:13,907 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.80ms
+2025-05-30 00:22:13,908 [websockets.py:open()] - Websocket Opened: ID: 139746829611408, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:22:13,914 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:23:34,362 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.55ms
+2025-05-30 00:23:34,363 [websockets.py:open()] - Websocket Opened: ID: 139746830234816, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:23:34,368 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:24:40,639 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830537344
+2025-05-30 00:24:45,488 [websockets.py:on_close()] - Websocket Closed: ID: 139746830537344 Close Code: None, Close Reason: None, Pong Time Elapsed: 38.21
+2025-05-30 00:24:47,644 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882102848
+2025-05-30 00:24:52,069 [websockets.py:on_close()] - Websocket Closed: ID: 139746882102848 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:24:54,687 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.71ms
+2025-05-30 00:24:54,688 [websockets.py:open()] - Websocket Opened: ID: 139746881605888, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:24:54,782 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:26:06,723 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829314992
+2025-05-30 00:26:10,989 [websockets.py:on_close()] - Websocket Closed: ID: 139746829314992 Close Code: None, Close Reason: None, Pong Time Elapsed: 42.76
+2025-05-30 00:26:15,393 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.32ms
+2025-05-30 00:26:15,394 [websockets.py:open()] - Websocket Opened: ID: 139746829508416, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:26:15,478 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:26:26,743 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881592336
+2025-05-30 00:26:31,016 [websockets.py:on_close()] - Websocket Closed: ID: 139746881592336 Close Code: None, Close Reason: None, Pong Time Elapsed: 42.83
+2025-05-30 00:27:01,782 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881582464
+2025-05-30 00:27:06,439 [websockets.py:on_close()] - Websocket Closed: ID: 139746881582464 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.92
+2025-05-30 00:27:35,580 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.47ms
+2025-05-30 00:27:35,581 [websockets.py:open()] - Websocket Opened: ID: 139746882411104, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:27:35,586 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:27:41,823 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830032848
+2025-05-30 00:27:46,770 [websockets.py:on_close()] - Websocket Closed: ID: 139746830032848 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:28:55,862 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.96ms
+2025-05-30 00:28:55,864 [websockets.py:open()] - Websocket Opened: ID: 139746881581984, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:28:55,868 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:30:16,035 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.32ms
+2025-05-30 00:30:16,035 [websockets.py:open()] - Websocket Opened: ID: 139746881600576, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:30:16,040 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:31:36,522 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.45ms
+2025-05-30 00:31:36,523 [websockets.py:open()] - Websocket Opened: ID: 139746829314416, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:31:36,610 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:32:24,111 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882411344
+2025-05-30 00:32:28,506 [websockets.py:on_close()] - Websocket Closed: ID: 139746882411344 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:32:56,978 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.46ms
+2025-05-30 00:32:56,979 [websockets.py:open()] - Websocket Opened: ID: 139746881987776, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:32:56,985 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:34:17,302 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.90ms
+2025-05-30 00:34:17,303 [websockets.py:open()] - Websocket Opened: ID: 139746881609584, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:34:17,313 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:35:37,727 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.95ms
+2025-05-30 00:35:37,727 [websockets.py:open()] - Websocket Opened: ID: 139746882236480, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:35:37,732 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:36:57,847 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.15ms
+2025-05-30 00:36:57,848 [websockets.py:open()] - Websocket Opened: ID: 139746881584048, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:36:57,851 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:38:18,135 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.72ms
+2025-05-30 00:38:18,136 [websockets.py:open()] - Websocket Opened: ID: 139746882239072, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:38:18,141 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:39:38,534 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.56ms
+2025-05-30 00:39:38,535 [websockets.py:open()] - Websocket Opened: ID: 139746830530160, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:39:38,539 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:40:31,588 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881582272
+2025-05-30 00:40:32,587 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828091200
+2025-05-30 00:40:35,986 [websockets.py:on_close()] - Websocket Closed: ID: 139746881582272 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:40:37,359 [websockets.py:on_close()] - Websocket Closed: ID: 139746828091200 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:40:58,754 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.68ms
+2025-05-30 00:40:58,754 [websockets.py:open()] - Websocket Opened: ID: 139746829803424, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:40:58,760 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:41:58,682 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882410912
+2025-05-30 00:42:01,684 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882238976
+2025-05-30 00:42:03,293 [websockets.py:on_close()] - Websocket Closed: ID: 139746882410912 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.96
+2025-05-30 00:42:03,722 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829508512
+2025-05-30 00:42:05,687 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881605888
+2025-05-30 00:42:05,918 [websockets.py:on_close()] - Websocket Closed: ID: 139746882238976 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:42:08,024 [websockets.py:on_close()] - Websocket Closed: ID: 139746829508512 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:42:09,697 [websockets.py:on_close()] - Websocket Closed: ID: 139746881605888 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:42:19,189 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.43ms
+2025-05-30 00:42:19,190 [websockets.py:open()] - Websocket Opened: ID: 139746882409184, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:42:19,194 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:43:39,390 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.43ms
+2025-05-30 00:43:39,391 [websockets.py:open()] - Websocket Opened: ID: 139746830548176, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:43:39,396 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:44:59,757 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.78ms
+2025-05-30 00:44:59,758 [websockets.py:open()] - Websocket Opened: ID: 139746882238976, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:44:59,762 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:45:26,902 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829315568
+2025-05-30 00:45:31,833 [websockets.py:on_close()] - Websocket Closed: ID: 139746829315568 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:46:20,247 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.02ms
+2025-05-30 00:46:20,248 [websockets.py:open()] - Websocket Opened: ID: 139746829293648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:46:20,335 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:46:45,975 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829508416
+2025-05-30 00:46:45,976 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882411104
+2025-05-30 00:46:50,398 [websockets.py:on_close()] - Websocket Closed: ID: 139746829508416 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:46:50,582 [websockets.py:on_close()] - Websocket Closed: ID: 139746882411104 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:47:40,934 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.66ms
+2025-05-30 00:47:40,935 [websockets.py:open()] - Websocket Opened: ID: 139746881591952, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:47:41,035 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:48:25,084 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830234816
+2025-05-30 00:48:29,367 [websockets.py:on_close()] - Websocket Closed: ID: 139746830234816 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:49:01,326 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.59ms
+2025-05-30 00:49:01,327 [websockets.py:open()] - Websocket Opened: ID: 139746829508512, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:49:01,332 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:50:21,506 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.77ms
+2025-05-30 00:50:21,507 [websockets.py:open()] - Websocket Opened: ID: 139746829313360, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:50:21,512 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:50:58,244 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882236480
+2025-05-30 00:51:02,731 [websockets.py:on_close()] - Websocket Closed: ID: 139746882236480 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:51:41,748 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.91ms
+2025-05-30 00:51:41,750 [websockets.py:open()] - Websocket Opened: ID: 139746830087696, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:51:41,753 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:51:56,303 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881581984
+2025-05-30 00:51:58,299 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881609584
+2025-05-30 00:52:00,867 [websockets.py:on_close()] - Websocket Closed: ID: 139746881581984 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:52:02,309 [websockets.py:on_close()] - Websocket Closed: ID: 139746881609584 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:52:30,330 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881999248
+2025-05-30 00:52:35,106 [websockets.py:on_close()] - Websocket Closed: ID: 139746881999248 Close Code: None, Close Reason: None, Pong Time Elapsed: 41.76
+2025-05-30 00:52:35,340 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882103616
+2025-05-30 00:52:39,631 [websockets.py:on_close()] - Websocket Closed: ID: 139746882103616 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-05-30 00:53:01,910 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.19ms
+2025-05-30 00:53:01,911 [websockets.py:open()] - Websocket Opened: ID: 139746882537168, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:53:01,915 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:54:11,438 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881591952
+2025-05-30 00:54:15,437 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882104192
+2025-05-30 00:54:15,939 [websockets.py:on_close()] - Websocket Closed: ID: 139746881591952 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 00:54:18,436 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828090912
+2025-05-30 00:54:19,770 [websockets.py:on_close()] - Websocket Closed: ID: 139746882104192 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.78
+2025-05-30 00:54:22,203 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.09ms
+2025-05-30 00:54:22,203 [websockets.py:open()] - Websocket Opened: ID: 139746881600432, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:54:22,208 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:54:22,476 [websockets.py:on_close()] - Websocket Closed: ID: 139746828090912 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:55:42,473 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.32ms
+2025-05-30 00:55:42,474 [websockets.py:open()] - Websocket Opened: ID: 139746830530448, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:55:42,479 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:55:59,559 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882409184
+2025-05-30 00:56:04,193 [websockets.py:on_close()] - Websocket Closed: ID: 139746882409184 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 00:56:33,583 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830089856
+2025-05-30 00:56:37,599 [websockets.py:on_close()] - Websocket Closed: ID: 139746830089856 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
+2025-05-30 00:57:02,818 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.24ms
+2025-05-30 00:57:02,818 [websockets.py:open()] - Websocket Opened: ID: 139746881968304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:57:02,825 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:58:23,082 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.74ms
+2025-05-30 00:58:23,083 [websockets.py:open()] - Websocket Opened: ID: 139746828087936, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:58:23,086 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 00:59:43,381 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.25ms
+2025-05-30 00:59:43,382 [websockets.py:open()] - Websocket Opened: ID: 139746830538064, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 00:59:43,386 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:01:03,607 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.97ms
+2025-05-30 01:01:03,608 [websockets.py:open()] - Websocket Opened: ID: 139746830234000, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:01:03,616 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:02:24,109 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.81ms
+2025-05-30 01:02:24,110 [websockets.py:open()] - Websocket Opened: ID: 139746829381488, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:02:24,113 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:03:44,264 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.59ms
+2025-05-30 01:03:44,265 [websockets.py:open()] - Websocket Opened: ID: 139746829294464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:03:44,270 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:04:12,078 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882537168
+2025-05-30 01:04:16,915 [websockets.py:on_close()] - Websocket Closed: ID: 139746882537168 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 01:05:04,366 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.04ms
+2025-05-30 01:05:04,367 [websockets.py:open()] - Websocket Opened: ID: 139746881591712, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:05:04,369 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:05:13,146 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611744
+2025-05-30 01:05:13,146 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830539072
+2025-05-30 01:05:16,155 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881600576
+2025-05-30 01:05:17,220 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611744 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:05:17,859 [websockets.py:on_close()] - Websocket Closed: ID: 139746830539072 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:05:21,039 [websockets.py:on_close()] - Websocket Closed: ID: 139746881600576 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 01:06:24,904 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.14ms
+2025-05-30 01:06:24,906 [websockets.py:open()] - Websocket Opened: ID: 139746881584816, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:06:24,909 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:07:45,346 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 14.19ms
+2025-05-30 01:07:45,346 [websockets.py:open()] - Websocket Opened: ID: 139746882236480, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:07:45,350 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:09:05,691 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.49ms
+2025-05-30 01:09:05,692 [websockets.py:open()] - Websocket Opened: ID: 139746882410672, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:09:05,696 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:10:23,480 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087936
+2025-05-30 01:10:23,480 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830538064
+2025-05-30 01:10:26,095 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.17ms
+2025-05-30 01:10:26,096 [websockets.py:open()] - Websocket Opened: ID: 139746829614336, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:10:26,102 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:10:28,087 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087936 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-05-30 01:10:28,386 [websockets.py:on_close()] - Websocket Closed: ID: 139746830538064 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
+2025-05-30 01:11:46,643 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.15ms
+2025-05-30 01:11:46,644 [websockets.py:open()] - Websocket Opened: ID: 139746882103424, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:11:46,648 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:12:00,574 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829293648
+2025-05-30 01:12:01,577 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829313360
+2025-05-30 01:12:05,252 [websockets.py:on_close()] - Websocket Closed: ID: 139746829293648 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 01:12:06,512 [websockets.py:on_close()] - Websocket Closed: ID: 139746829313360 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2025-05-30 01:13:06,830 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.86ms
+2025-05-30 01:13:06,831 [websockets.py:open()] - Websocket Opened: ID: 139746830548416, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:13:06,837 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:14:27,248 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.90ms
+2025-05-30 01:14:27,249 [websockets.py:open()] - Websocket Opened: ID: 139746829292064, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:14:27,253 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:15:47,506 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.09ms
+2025-05-30 01:15:47,507 [websockets.py:open()] - Websocket Opened: ID: 139746829611744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:15:47,511 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:17:08,027 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.18ms
+2025-05-30 01:17:08,027 [websockets.py:open()] - Websocket Opened: ID: 139746881585056, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:17:08,033 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:18:01,945 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829508512
+2025-05-30 01:18:02,948 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830530448
+2025-05-30 01:18:06,331 [websockets.py:on_close()] - Websocket Closed: ID: 139746829508512 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-05-30 01:18:07,477 [websockets.py:on_close()] - Websocket Closed: ID: 139746830530448 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:18:28,465 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.36ms
+2025-05-30 01:18:28,466 [websockets.py:open()] - Websocket Opened: ID: 139746829292160, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:18:28,471 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:18:44,995 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829381488
+2025-05-30 01:18:49,115 [websockets.py:on_close()] - Websocket Closed: ID: 139746829381488 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.93
+2025-05-30 01:19:04,008 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611408
+2025-05-30 01:19:08,914 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611408 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:19:48,548 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.04ms
+2025-05-30 01:19:48,550 [websockets.py:open()] - Websocket Opened: ID: 139746829312928, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:19:48,557 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:20:17,090 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829312304
+2025-05-30 01:20:17,092 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881987776
+2025-05-30 01:20:17,097 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882103424
+2025-05-30 01:20:17,097 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830548416
+2025-05-30 01:20:18,092 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881584048
+2025-05-30 01:20:21,486 [websockets.py:on_close()] - Websocket Closed: ID: 139746829312304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:20:21,648 [websockets.py:on_close()] - Websocket Closed: ID: 139746882103424 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:20:21,835 [websockets.py:on_close()] - Websocket Closed: ID: 139746830548416 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:20:21,982 [websockets.py:on_close()] - Websocket Closed: ID: 139746881987776 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:20:22,853 [websockets.py:on_close()] - Websocket Closed: ID: 139746881584048 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:20:54,125 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828088704
+2025-05-30 01:20:58,563 [websockets.py:on_close()] - Websocket Closed: ID: 139746828088704 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:21:08,658 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.99ms
+2025-05-30 01:21:08,659 [websockets.py:open()] - Websocket Opened: ID: 139746881987776, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:21:08,664 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:21:33,167 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881968304
+2025-05-30 01:21:37,823 [websockets.py:on_close()] - Websocket Closed: ID: 139746881968304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:22:28,958 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.62ms
+2025-05-30 01:22:28,960 [websockets.py:open()] - Websocket Opened: ID: 139746829613280, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:22:28,962 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:23:49,076 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.43ms
+2025-05-30 01:23:49,077 [websockets.py:open()] - Websocket Opened: ID: 139746830530304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:23:49,082 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:24:48,345 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882239072
+2025-05-30 01:24:49,351 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830530160
+2025-05-30 01:24:49,352 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829803424
+2025-05-30 01:24:50,354 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830548176
+2025-05-30 01:24:50,354 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882238976
+2025-05-30 01:24:53,139 [websockets.py:on_close()] - Websocket Closed: ID: 139746882239072 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:24:53,539 [websockets.py:on_close()] - Websocket Closed: ID: 139746830530160 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:24:53,757 [websockets.py:on_close()] - Websocket Closed: ID: 139746829803424 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:24:54,351 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882101360
+2025-05-30 01:24:54,354 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828088176
+2025-05-30 01:24:54,394 [websockets.py:on_close()] - Websocket Closed: ID: 139746830548176 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
+2025-05-30 01:24:54,762 [websockets.py:on_close()] - Websocket Closed: ID: 139746882238976 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 01:24:58,763 [websockets.py:on_close()] - Websocket Closed: ID: 139746828088176 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 01:24:58,850 [websockets.py:on_close()] - Websocket Closed: ID: 139746882101360 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:25:09,244 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.72ms
+2025-05-30 01:25:09,245 [websockets.py:open()] - Websocket Opened: ID: 139746830235008, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:25:09,250 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:26:29,366 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.48ms
+2025-05-30 01:26:29,366 [websockets.py:open()] - Websocket Opened: ID: 139746828087792, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:26:29,371 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:27:36,552 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614336
+2025-05-30 01:27:38,371 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614336 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.08
+2025-05-30 01:27:49,601 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.65ms
+2025-05-30 01:27:49,602 [websockets.py:open()] - Websocket Opened: ID: 139746881590800, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:27:49,605 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:29:09,827 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.04ms
+2025-05-30 01:29:09,828 [websockets.py:open()] - Websocket Opened: ID: 139746882101648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:29:09,832 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:30:30,395 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.84ms
+2025-05-30 01:30:30,396 [websockets.py:open()] - Websocket Opened: ID: 139746830529344, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:30:30,400 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:31:50,679 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.77ms
+2025-05-30 01:31:50,680 [websockets.py:open()] - Websocket Opened: ID: 139746830537200, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:31:50,776 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:33:11,024 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.20ms
+2025-05-30 01:33:11,026 [websockets.py:open()] - Websocket Opened: ID: 139746828087648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:33:11,028 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:33:34,866 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829294464
+2025-05-30 01:33:39,269 [websockets.py:on_close()] - Websocket Closed: ID: 139746829294464 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:33:41,877 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830087696
+2025-05-30 01:33:46,752 [websockets.py:on_close()] - Websocket Closed: ID: 139746830087696 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.91
+2025-05-30 01:34:31,468 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.03ms
+2025-05-30 01:34:31,469 [websockets.py:open()] - Websocket Opened: ID: 139746829315808, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:34:31,474 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:34:37,928 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829292064
+2025-05-30 01:34:40,719 [websockets.py:on_close()] - Websocket Closed: ID: 139746829292064 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.31
+2025-05-30 01:35:52,033 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.02ms
+2025-05-30 01:35:52,033 [websockets.py:open()] - Websocket Opened: ID: 139746829615008, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:35:52,037 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:35:59,001 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881987776
+2025-05-30 01:35:59,002 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829613280
+2025-05-30 01:36:03,663 [websockets.py:on_close()] - Websocket Closed: ID: 139746881987776 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:36:03,961 [websockets.py:on_close()] - Websocket Closed: ID: 139746829613280 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-05-30 01:37:12,127 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.65ms
+2025-05-30 01:37:12,128 [websockets.py:open()] - Websocket Opened: ID: 139746829314128, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:37:12,132 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:38:32,436 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.95ms
+2025-05-30 01:38:32,437 [websockets.py:open()] - Websocket Opened: ID: 139746881607520, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:38:32,442 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:39:52,650 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.73ms
+2025-05-30 01:39:52,651 [websockets.py:open()] - Websocket Opened: ID: 139746830086736, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:39:52,654 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:41:12,963 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.65ms
+2025-05-30 01:41:12,964 [websockets.py:open()] - Websocket Opened: ID: 139746881591904, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:41:12,969 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:42:33,255 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.26ms
+2025-05-30 01:42:33,256 [websockets.py:open()] - Websocket Opened: ID: 139746881609344, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:42:33,260 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:43:25,434 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829875088
+2025-05-30 01:43:30,395 [websockets.py:on_close()] - Websocket Closed: ID: 139746829875088 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-05-30 01:43:53,436 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.03ms
+2025-05-30 01:43:53,437 [websockets.py:open()] - Websocket Opened: ID: 139746881968592, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:43:53,442 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:45:14,682 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.94ms
+2025-05-30 01:45:14,683 [websockets.py:open()] - Websocket Opened: ID: 139746881599520, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:45:14,686 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:45:59,616 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830530304
+2025-05-30 01:46:00,613 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882101648
+2025-05-30 01:46:01,617 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087648
+2025-05-30 01:46:04,080 [websockets.py:on_close()] - Websocket Closed: ID: 139746830530304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:46:04,833 [websockets.py:on_close()] - Websocket Closed: ID: 139746882101648 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 01:46:06,030 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087648 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.45
+2025-05-30 01:46:35,143 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.08ms
+2025-05-30 01:46:35,144 [websockets.py:open()] - Websocket Opened: ID: 139746829293024, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:46:35,149 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:47:55,570 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.84ms
+2025-05-30 01:47:55,571 [websockets.py:open()] - Websocket Opened: ID: 139746829611360, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:47:55,575 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:49:16,796 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.98ms
+2025-05-30 01:49:16,797 [websockets.py:open()] - Websocket Opened: ID: 139746829293648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:49:16,802 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:50:37,014 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.86ms
+2025-05-30 01:50:37,015 [websockets.py:open()] - Websocket Opened: ID: 139746882411872, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:50:37,019 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:51:57,284 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.89ms
+2025-05-30 01:51:57,286 [websockets.py:open()] - Websocket Opened: ID: 139746882001648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:51:57,290 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:52:51,035 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830537200
+2025-05-30 01:52:55,685 [websockets.py:on_close()] - Websocket Closed: ID: 139746830537200 Close Code: None, Close Reason: None, Pong Time Elapsed: 43.50
+2025-05-30 01:53:17,605 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.94ms
+2025-05-30 01:53:17,605 [websockets.py:open()] - Websocket Opened: ID: 139746829381296, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:53:17,642 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:54:38,099 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.83ms
+2025-05-30 01:54:38,100 [websockets.py:open()] - Websocket Opened: ID: 139746830045680, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:54:38,105 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:55:58,551 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.20ms
+2025-05-30 01:55:58,552 [websockets.py:open()] - Websocket Opened: ID: 139746882408848, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:55:58,563 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:57:19,007 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.99ms
+2025-05-30 01:57:19,008 [websockets.py:open()] - Websocket Opened: ID: 139746829508032, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:57:19,012 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:58:39,390 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.00ms
+2025-05-30 01:58:39,391 [websockets.py:open()] - Websocket Opened: ID: 139746882412400, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:58:39,415 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 01:59:15,418 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881584816
+2025-05-30 01:59:19,908 [websockets.py:on_close()] - Websocket Closed: ID: 139746881584816 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.91
+2025-05-30 01:59:59,774 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.67ms
+2025-05-30 01:59:59,775 [websockets.py:open()] - Websocket Opened: ID: 139746829377648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 01:59:59,780 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:00:59,528 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829312928
+2025-05-30 02:01:03,561 [websockets.py:on_close()] - Websocket Closed: ID: 139746829312928 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2025-05-30 02:01:10,532 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881590800
+2025-05-30 02:01:12,539 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829314128
+2025-05-30 02:01:14,605 [websockets.py:on_close()] - Websocket Closed: ID: 139746881590800 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:01:17,130 [websockets.py:on_close()] - Websocket Closed: ID: 139746829314128 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:01:20,008 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.98ms
+2025-05-30 02:01:20,009 [websockets.py:open()] - Websocket Opened: ID: 139746829261888, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:01:20,015 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:02:40,219 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.91ms
+2025-05-30 02:02:40,219 [websockets.py:open()] - Websocket Opened: ID: 139746829259248, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:02:40,227 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:02:49,638 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087792
+2025-05-30 02:02:50,645 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830529344
+2025-05-30 02:02:54,369 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087792 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:02:55,401 [websockets.py:on_close()] - Websocket Closed: ID: 139746830529344 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:03:04,656 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881591712
+2025-05-30 02:03:09,371 [websockets.py:on_close()] - Websocket Closed: ID: 139746881591712 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:04:00,654 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.88ms
+2025-05-30 02:04:00,655 [websockets.py:open()] - Websocket Opened: ID: 139746882104480, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:04:00,660 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:04:12,725 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829615008
+2025-05-30 02:04:13,726 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881968592
+2025-05-30 02:04:17,038 [websockets.py:on_close()] - Websocket Closed: ID: 139746829615008 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:04:18,440 [websockets.py:on_close()] - Websocket Closed: ID: 139746881968592 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:04:59,775 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830235008
+2025-05-30 02:05:04,248 [websockets.py:on_close()] - Websocket Closed: ID: 139746830235008 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:05:20,929 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.70ms
+2025-05-30 02:05:20,930 [websockets.py:open()] - Websocket Opened: ID: 139746830233808, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:05:20,935 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:05:22,800 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881607520
+2025-05-30 02:05:23,799 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881609344
+2025-05-30 02:05:27,439 [websockets.py:on_close()] - Websocket Closed: ID: 139746881607520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:05:28,257 [websockets.py:on_close()] - Websocket Closed: ID: 139746881609344 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:05:47,827 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882001648
+2025-05-30 02:05:47,828 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829381296
+2025-05-30 02:05:49,830 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829508032
+2025-05-30 02:05:52,289 [websockets.py:on_close()] - Websocket Closed: ID: 139746882001648 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:05:52,609 [websockets.py:on_close()] - Websocket Closed: ID: 139746829381296 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.52
+2025-05-30 02:05:54,012 [websockets.py:on_close()] - Websocket Closed: ID: 139746829508032 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:06:32,878 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830086736
+2025-05-30 02:06:33,882 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881591904
+2025-05-30 02:06:34,879 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881599520
+2025-05-30 02:06:37,654 [websockets.py:on_close()] - Websocket Closed: ID: 139746830086736 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:06:37,966 [websockets.py:on_close()] - Websocket Closed: ID: 139746881591904 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:06:39,688 [websockets.py:on_close()] - Websocket Closed: ID: 139746881599520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:06:41,069 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.53ms
+2025-05-30 02:06:41,070 [websockets.py:open()] - Websocket Opened: ID: 139746830546784, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:06:41,078 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:08:01,338 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.29ms
+2025-05-30 02:08:01,340 [websockets.py:open()] - Websocket Opened: ID: 139746881599520, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:08:01,346 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:09:21,470 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.12ms
+2025-05-30 02:09:21,472 [websockets.py:open()] - Websocket Opened: ID: 139746829506784, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:09:21,477 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:10:41,853 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.58ms
+2025-05-30 02:10:41,854 [websockets.py:open()] - Websocket Opened: ID: 139746829312880, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:10:41,858 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:11:02,141 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829315808
+2025-05-30 02:11:06,143 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611360
+2025-05-30 02:11:06,475 [websockets.py:on_close()] - Websocket Closed: ID: 139746829315808 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:11:10,573 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611360 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:11:27,169 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882411872
+2025-05-30 02:11:28,169 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830045680
+2025-05-30 02:11:29,203 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882408848
+2025-05-30 02:11:30,173 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882412400
+2025-05-30 02:11:32,019 [websockets.py:on_close()] - Websocket Closed: ID: 139746882411872 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-05-30 02:11:33,104 [websockets.py:on_close()] - Websocket Closed: ID: 139746830045680 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:11:33,554 [websockets.py:on_close()] - Websocket Closed: ID: 139746882408848 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:11:34,395 [websockets.py:on_close()] - Websocket Closed: ID: 139746882412400 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:12:02,001 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.72ms
+2025-05-30 02:12:02,002 [websockets.py:open()] - Websocket Opened: ID: 139746882412112, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:12:02,006 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:12:17,224 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829293648
+2025-05-30 02:12:20,225 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829261888
+2025-05-30 02:12:21,800 [websockets.py:on_close()] - Websocket Closed: ID: 139746829293648 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:12:25,013 [websockets.py:on_close()] - Websocket Closed: ID: 139746829261888 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:13:01,271 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882104480
+2025-05-30 02:13:05,657 [websockets.py:on_close()] - Websocket Closed: ID: 139746882104480 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:13:22,150 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.58ms
+2025-05-30 02:13:22,151 [websockets.py:open()] - Websocket Opened: ID: 139746830049232, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:13:22,155 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:13:40,309 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829259248
+2025-05-30 02:13:45,222 [websockets.py:on_close()] - Websocket Closed: ID: 139746829259248 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:14:42,632 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.17ms
+2025-05-30 02:14:42,633 [websockets.py:open()] - Websocket Opened: ID: 139746881999200, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:14:42,637 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:15:32,412 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829312880
+2025-05-30 02:15:36,856 [websockets.py:on_close()] - Websocket Closed: ID: 139746829312880 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:16:02,840 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.01ms
+2025-05-30 02:16:02,841 [websockets.py:open()] - Websocket Opened: ID: 139746829874560, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:16:02,846 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:17:23,009 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.59ms
+2025-05-30 02:17:23,010 [websockets.py:open()] - Websocket Opened: ID: 139746829611696, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:17:23,015 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:18:26,580 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882410672
+2025-05-30 02:18:30,696 [websockets.py:on_close()] - Websocket Closed: ID: 139746882410672 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:18:43,191 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.38ms
+2025-05-30 02:18:43,192 [websockets.py:open()] - Websocket Opened: ID: 139746830540080, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:18:43,197 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:19:25,636 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882236480
+2025-05-30 02:19:28,637 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881585056
+2025-05-30 02:19:30,352 [websockets.py:on_close()] - Websocket Closed: ID: 139746882236480 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:19:33,031 [websockets.py:on_close()] - Websocket Closed: ID: 139746881585056 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:20:04,735 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.63ms
+2025-05-30 02:20:04,736 [websockets.py:open()] - Websocket Opened: ID: 139746829294128, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:20:04,741 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:21:25,178 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.48ms
+2025-05-30 02:21:25,179 [websockets.py:open()] - Websocket Opened: ID: 139746881969744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:21:25,186 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:22:45,277 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.00ms
+2025-05-30 02:22:45,278 [websockets.py:open()] - Websocket Opened: ID: 139746829875712, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:22:45,284 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:24:05,472 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.07ms
+2025-05-30 02:24:05,473 [websockets.py:open()] - Websocket Opened: ID: 139746830089856, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:24:05,480 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:25:25,602 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.68ms
+2025-05-30 02:25:25,603 [websockets.py:open()] - Websocket Opened: ID: 139746829611984, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:25:25,607 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:25:52,019 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829506784
+2025-05-30 02:25:53,010 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881999200
+2025-05-30 02:25:56,475 [websockets.py:on_close()] - Websocket Closed: ID: 139746829506784 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:25:57,635 [websockets.py:on_close()] - Websocket Closed: ID: 139746881999200 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:26:45,953 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.41ms
+2025-05-30 02:26:45,954 [websockets.py:open()] - Websocket Opened: ID: 139746830192896, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:26:45,958 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:28:03,144 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611696
+2025-05-30 02:28:04,142 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830540080
+2025-05-30 02:28:05,140 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829294128
+2025-05-30 02:28:06,035 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.77ms
+2025-05-30 02:28:06,035 [websockets.py:open()] - Websocket Opened: ID: 139746828088848, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:28:06,043 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:28:08,013 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611696 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:28:08,194 [websockets.py:on_close()] - Websocket Closed: ID: 139746830540080 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:28:09,738 [websockets.py:on_close()] - Websocket Closed: ID: 139746829294128 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:29:26,199 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.00ms
+2025-05-30 02:29:26,200 [websockets.py:open()] - Websocket Opened: ID: 139746882001648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:29:26,204 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:29:48,252 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882538464
+2025-05-30 02:29:52,595 [websockets.py:on_close()] - Websocket Closed: ID: 139746882538464 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:29:56,267 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882001648
+2025-05-30 02:30:01,205 [websockets.py:on_close()] - Websocket Closed: ID: 139746882001648 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.01
+2025-05-30 02:30:06,275 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830192896
+2025-05-30 02:30:10,958 [websockets.py:on_close()] - Websocket Closed: ID: 139746830192896 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:30:46,723 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.21ms
+2025-05-30 02:30:46,724 [websockets.py:open()] - Websocket Opened: ID: 139746830539312, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:30:46,733 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:31:41,374 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881599520
+2025-05-30 02:31:46,344 [websockets.py:on_close()] - Websocket Closed: ID: 139746881599520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:32:06,819 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.01ms
+2025-05-30 02:32:06,821 [websockets.py:open()] - Websocket Opened: ID: 139746829293888, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:32:06,823 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:33:17,458 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829314416
+2025-05-30 02:33:21,527 [websockets.py:on_close()] - Websocket Closed: ID: 139746829314416 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:33:26,972 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.26ms
+2025-05-30 02:33:26,973 [websockets.py:open()] - Websocket Opened: ID: 139746830088896, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:33:26,985 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:34:47,282 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.99ms
+2025-05-30 02:34:47,283 [websockets.py:open()] - Websocket Opened: ID: 139746881986720, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:34:47,288 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:35:28,580 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829292160
+2025-05-30 02:35:33,469 [websockets.py:on_close()] - Websocket Closed: ID: 139746829292160 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:36:07,411 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.61ms
+2025-05-30 02:36:07,412 [websockets.py:open()] - Websocket Opened: ID: 139746881598128, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:36:07,417 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:36:32,651 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882412112
+2025-05-30 02:36:37,006 [websockets.py:on_close()] - Websocket Closed: ID: 139746882412112 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:37:27,509 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.70ms
+2025-05-30 02:37:27,510 [websockets.py:open()] - Websocket Opened: ID: 139746830537200, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:37:27,517 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:37:33,707 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830234000
+2025-05-30 02:37:38,612 [websockets.py:on_close()] - Websocket Closed: ID: 139746830234000 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:37:51,733 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829507456
+2025-05-30 02:37:52,455 [websockets.py:on_close()] - Websocket Closed: ID: 139746829507456 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.04
+2025-05-30 02:38:03,743 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829874560
+2025-05-30 02:38:07,846 [websockets.py:on_close()] - Websocket Closed: ID: 139746829874560 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:38:47,692 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.86ms
+2025-05-30 02:38:47,694 [websockets.py:open()] - Websocket Opened: ID: 139746882535728, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:38:47,699 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:40:06,862 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830539312
+2025-05-30 02:40:08,042 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.21ms
+2025-05-30 02:40:08,042 [websockets.py:open()] - Websocket Opened: ID: 139746829874080, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:40:08,048 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:40:11,728 [websockets.py:on_close()] - Websocket Closed: ID: 139746830539312 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:40:57,918 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881598128
+2025-05-30 02:41:02,415 [websockets.py:on_close()] - Websocket Closed: ID: 139746881598128 Close Code: None, Close Reason: None, Pong Time Elapsed: 42.12
+2025-05-30 02:41:15,930 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611984
+2025-05-30 02:41:16,933 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828088848
+2025-05-30 02:41:20,607 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611984 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:41:21,039 [websockets.py:on_close()] - Websocket Closed: ID: 139746828088848 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:41:28,315 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.41ms
+2025-05-30 02:41:28,316 [websockets.py:open()] - Websocket Opened: ID: 139746829614672, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:41:28,321 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:41:44,952 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829612800
+2025-05-30 02:41:49,220 [websockets.py:on_close()] - Websocket Closed: ID: 139746829612800 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:42:48,552 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.11ms
+2025-05-30 02:42:48,552 [websockets.py:open()] - Websocket Opened: ID: 139746830088224, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:42:48,558 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:43:57,097 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829293888
+2025-05-30 02:44:01,826 [websockets.py:on_close()] - Websocket Closed: ID: 139746829293888 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:44:08,878 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.83ms
+2025-05-30 02:44:08,879 [websockets.py:open()] - Websocket Opened: ID: 139746882411440, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:44:08,883 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:45:29,162 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.92ms
+2025-05-30 02:45:29,163 [websockets.py:open()] - Websocket Opened: ID: 139746829611456, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:45:29,168 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:46:49,519 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.95ms
+2025-05-30 02:46:49,520 [websockets.py:open()] - Websocket Opened: ID: 139746829292928, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:46:49,524 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:47:27,320 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830088896
+2025-05-30 02:47:28,325 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882535728
+2025-05-30 02:47:28,325 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829874080
+2025-05-30 02:47:31,976 [websockets.py:on_close()] - Websocket Closed: ID: 139746830088896 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:47:32,698 [websockets.py:on_close()] - Websocket Closed: ID: 139746882535728 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:47:33,045 [websockets.py:on_close()] - Websocket Closed: ID: 139746829874080 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:48:10,001 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.63ms
+2025-05-30 02:48:10,002 [websockets.py:open()] - Websocket Opened: ID: 139746830537584, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:48:10,007 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:49:04,416 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881968928
+2025-05-30 02:49:08,906 [websockets.py:on_close()] - Websocket Closed: ID: 139746881968928 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:49:30,335 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.24ms
+2025-05-30 02:49:30,336 [websockets.py:open()] - Websocket Opened: ID: 139746829876000, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:49:30,341 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:50:50,566 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.84ms
+2025-05-30 02:50:50,567 [websockets.py:open()] - Websocket Opened: ID: 139746881969600, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:50:50,572 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:52:00,579 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829876000
+2025-05-30 02:52:05,342 [websockets.py:on_close()] - Websocket Closed: ID: 139746829876000 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:52:10,754 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 2.65ms
+2025-05-30 02:52:10,755 [websockets.py:open()] - Websocket Opened: ID: 139746829875472, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:52:10,761 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:53:31,148 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.57ms
+2025-05-30 02:53:31,148 [websockets.py:open()] - Websocket Opened: ID: 139746882539088, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:53:31,156 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:54:51,367 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.12ms
+2025-05-30 02:54:51,368 [websockets.py:open()] - Websocket Opened: ID: 139746829614288, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:54:51,372 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:55:45,801 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829293024
+2025-05-30 02:55:50,149 [websockets.py:on_close()] - Websocket Closed: ID: 139746829293024 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:56:11,482 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.80ms
+2025-05-30 02:56:11,483 [websockets.py:open()] - Websocket Opened: ID: 139746828088848, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:56:11,488 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:57:31,619 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.86ms
+2025-05-30 02:57:31,619 [websockets.py:open()] - Websocket Opened: ID: 139746882057456, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:57:31,623 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:57:48,940 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830088224
+2025-05-30 02:57:53,557 [websockets.py:on_close()] - Websocket Closed: ID: 139746830088224 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:58:10,964 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881969600
+2025-05-30 02:58:15,570 [websockets.py:on_close()] - Websocket Closed: ID: 139746881969600 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 02:58:52,007 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.90ms
+2025-05-30 02:58:52,008 [websockets.py:open()] - Websocket Opened: ID: 139746829507264, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 02:58:52,051 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 02:59:01,020 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829875472
+2025-05-30 02:59:05,759 [websockets.py:on_close()] - Websocket Closed: ID: 139746829875472 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:59:39,052 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614672
+2025-05-30 02:59:39,052 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882411440
+2025-05-30 02:59:43,319 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614672 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 02:59:43,881 [websockets.py:on_close()] - Websocket Closed: ID: 139746882411440 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:00:12,518 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.39ms
+2025-05-30 03:00:12,519 [websockets.py:open()] - Websocket Opened: ID: 139746829876192, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:00:12,524 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:01:32,778 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.66ms
+2025-05-30 03:01:32,779 [websockets.py:open()] - Websocket Opened: ID: 139746882412064, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:01:32,784 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:02:53,042 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.16ms
+2025-05-30 03:02:53,043 [websockets.py:open()] - Websocket Opened: ID: 139746829876240, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:02:53,048 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:04:13,402 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.06ms
+2025-05-30 03:04:13,403 [websockets.py:open()] - Websocket Opened: ID: 139746828090000, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:04:13,407 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:04:20,347 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829292928
+2025-05-30 03:04:24,525 [websockets.py:on_close()] - Websocket Closed: ID: 139746829292928 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:05:11,400 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882539088
+2025-05-30 03:05:16,151 [websockets.py:on_close()] - Websocket Closed: ID: 139746882539088 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:05:33,775 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.19ms
+2025-05-30 03:05:33,776 [websockets.py:open()] - Websocket Opened: ID: 139746829614960, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:05:33,780 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:06:31,474 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614288
+2025-05-30 03:06:36,373 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614288 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:06:43,483 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829876192
+2025-05-30 03:06:47,522 [websockets.py:on_close()] - Websocket Closed: ID: 139746829876192 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:06:48,486 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830537200
+2025-05-30 03:06:52,532 [websockets.py:on_close()] - Websocket Closed: ID: 139746830537200 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.01
+2025-05-30 03:06:54,105 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.15ms
+2025-05-30 03:06:54,105 [websockets.py:open()] - Websocket Opened: ID: 139746881599232, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:06:54,110 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:08:14,227 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.31ms
+2025-05-30 03:08:14,228 [websockets.py:open()] - Websocket Opened: ID: 139746882538464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:08:14,233 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:08:31,580 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828088848
+2025-05-30 03:08:36,487 [websockets.py:on_close()] - Websocket Closed: ID: 139746828088848 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:09:10,626 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830537584
+2025-05-30 03:09:15,005 [websockets.py:on_close()] - Websocket Closed: ID: 139746830537584 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:09:34,515 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.51ms
+2025-05-30 03:09:34,516 [websockets.py:open()] - Websocket Opened: ID: 139746829293936, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:09:34,522 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:10:54,848 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.15ms
+2025-05-30 03:10:54,849 [websockets.py:open()] - Websocket Opened: ID: 139746829874656, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:10:54,854 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:11:22,806 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882412064
+2025-05-30 03:11:27,801 [websockets.py:on_close()] - Websocket Closed: ID: 139746882412064 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.02
+2025-05-30 03:11:33,780 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829876240
+2025-05-30 03:11:38,048 [websockets.py:on_close()] - Websocket Closed: ID: 139746829876240 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:11:39,787 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611456
+2025-05-30 03:11:44,166 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611456 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2025-05-30 03:12:01,809 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882057456
+2025-05-30 03:12:03,808 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828090000
+2025-05-30 03:12:06,623 [websockets.py:on_close()] - Websocket Closed: ID: 139746882057456 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:12:08,407 [websockets.py:on_close()] - Websocket Closed: ID: 139746828090000 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:12:15,001 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.55ms
+2025-05-30 03:12:15,002 [websockets.py:open()] - Websocket Opened: ID: 139746881989456, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:12:15,005 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:13:35,477 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.53ms
+2025-05-30 03:13:35,478 [websockets.py:open()] - Websocket Opened: ID: 139746828087648, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:13:35,483 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:14:05,937 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881969744
+2025-05-30 03:14:10,180 [websockets.py:on_close()] - Websocket Closed: ID: 139746881969744 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:14:55,790 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.97ms
+2025-05-30 03:14:55,792 [websockets.py:open()] - Websocket Opened: ID: 139746828088464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:14:55,795 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:16:16,081 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.31ms
+2025-05-30 03:16:16,083 [websockets.py:open()] - Websocket Opened: ID: 139746828087744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:16:16,088 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:17:36,507 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.43ms
+2025-05-30 03:17:36,508 [websockets.py:open()] - Websocket Opened: ID: 139746830548416, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:17:36,513 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:18:03,188 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881600432
+2025-05-30 03:18:07,206 [websockets.py:on_close()] - Websocket Closed: ID: 139746881600432 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:18:35,193 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829293936
+2025-05-30 03:18:39,519 [websockets.py:on_close()] - Websocket Closed: ID: 139746829293936 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:18:56,602 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.49ms
+2025-05-30 03:18:56,603 [websockets.py:open()] - Websocket Opened: ID: 139746830536816, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:18:56,609 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:20:04,283 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881599232
+2025-05-30 03:20:04,283 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882538464
+2025-05-30 03:20:05,273 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829874656
+2025-05-30 03:20:09,109 [websockets.py:on_close()] - Websocket Closed: ID: 139746881599232 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:20:09,231 [websockets.py:on_close()] - Websocket Closed: ID: 139746882538464 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:20:09,852 [websockets.py:on_close()] - Websocket Closed: ID: 139746829874656 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:20:17,114 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.77ms
+2025-05-30 03:20:17,115 [websockets.py:open()] - Websocket Opened: ID: 139746882000544, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:20:17,120 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:21:07,329 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830548416
+2025-05-30 03:21:11,510 [websockets.py:on_close()] - Websocket Closed: ID: 139746830548416 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:21:37,318 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.09ms
+2025-05-30 03:21:37,319 [websockets.py:open()] - Websocket Opened: ID: 139746829508032, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:21:37,327 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:22:57,575 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.07ms
+2025-05-30 03:22:57,576 [websockets.py:open()] - Websocket Opened: ID: 139746881969840, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:22:57,581 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:23:55,493 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881989456
+2025-05-30 03:24:00,004 [websockets.py:on_close()] - Websocket Closed: ID: 139746881989456 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:24:17,810 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.72ms
+2025-05-30 03:24:17,811 [websockets.py:open()] - Websocket Opened: ID: 139746830539072, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:24:17,815 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:25:38,289 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.42ms
+2025-05-30 03:25:38,290 [websockets.py:open()] - Websocket Opened: ID: 139746882537600, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:25:38,295 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:26:58,671 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.62ms
+2025-05-30 03:26:58,672 [websockets.py:open()] - Websocket Opened: ID: 139746829294368, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:26:58,682 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:28:19,010 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.58ms
+2025-05-30 03:28:19,011 [websockets.py:open()] - Websocket Opened: ID: 139746881600288, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:28:19,016 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:29:26,825 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830536816
+2025-05-30 03:29:31,606 [websockets.py:on_close()] - Websocket Closed: ID: 139746830536816 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:29:37,835 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829508032
+2025-05-30 03:29:37,836 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881969840
+2025-05-30 03:29:39,117 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.19ms
+2025-05-30 03:29:39,117 [websockets.py:open()] - Websocket Opened: ID: 139746881599856, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:29:39,121 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:29:42,323 [websockets.py:on_close()] - Websocket Closed: ID: 139746829508032 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:29:42,579 [websockets.py:on_close()] - Websocket Closed: ID: 139746881969840 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:30:59,387 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.23ms
+2025-05-30 03:30:59,388 [websockets.py:open()] - Websocket Opened: ID: 139746829506688, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:30:59,395 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:32:19,488 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.80ms
+2025-05-30 03:32:19,489 [websockets.py:open()] - Websocket Opened: ID: 139746829504816, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:32:19,494 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:32:49,022 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829294368
+2025-05-30 03:32:53,675 [websockets.py:on_close()] - Websocket Closed: ID: 139746829294368 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.83
+2025-05-30 03:33:39,868 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.08ms
+2025-05-30 03:33:39,869 [websockets.py:open()] - Websocket Opened: ID: 139746882537744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:33:39,874 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:34:06,096 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087744
+2025-05-30 03:34:11,084 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087744 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:35:00,106 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.38ms
+2025-05-30 03:35:00,107 [websockets.py:open()] - Websocket Opened: ID: 139746828087504, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:35:00,111 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:35:46,193 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829875712
+2025-05-30 03:35:50,284 [websockets.py:on_close()] - Websocket Closed: ID: 139746829875712 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:36:20,587 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.33ms
+2025-05-30 03:36:20,588 [websockets.py:open()] - Websocket Opened: ID: 139746829876096, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:36:20,593 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:37:09,282 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881600288
+2025-05-30 03:37:14,013 [websockets.py:on_close()] - Websocket Closed: ID: 139746881600288 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:37:19,290 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882537600
+2025-05-30 03:37:23,298 [websockets.py:on_close()] - Websocket Closed: ID: 139746882537600 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:37:40,871 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.66ms
+2025-05-30 03:37:40,871 [websockets.py:open()] - Websocket Opened: ID: 139746882536304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:37:40,875 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:39:01,003 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.00ms
+2025-05-30 03:39:01,004 [websockets.py:open()] - Websocket Opened: ID: 139746881989984, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:39:01,010 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:39:59,447 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881599856
+2025-05-30 03:40:02,448 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830049232
+2025-05-30 03:40:04,122 [websockets.py:on_close()] - Websocket Closed: ID: 139746881599856 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:40:07,155 [websockets.py:on_close()] - Websocket Closed: ID: 139746830049232 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:40:21,210 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.58ms
+2025-05-30 03:40:21,211 [websockets.py:open()] - Websocket Opened: ID: 139746881969168, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:40:21,219 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:40:45,491 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087648
+2025-05-30 03:40:50,481 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087648 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:41:41,391 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.22ms
+2025-05-30 03:41:41,392 [websockets.py:open()] - Websocket Opened: ID: 139746829614912, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:41:41,396 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:42:37,589 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829611744
+2025-05-30 03:42:42,510 [websockets.py:on_close()] - Websocket Closed: ID: 139746829611744 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:43:01,587 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.81ms
+2025-05-30 03:43:01,589 [websockets.py:open()] - Websocket Opened: ID: 139746829292352, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:43:01,593 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:44:21,865 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.59ms
+2025-05-30 03:44:21,866 [websockets.py:open()] - Websocket Opened: ID: 139746882051472, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:44:21,870 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:44:59,732 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829504816
+2025-05-30 03:45:04,491 [websockets.py:on_close()] - Websocket Closed: ID: 139746829504816 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:45:42,106 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 7.31ms
+2025-05-30 03:45:42,107 [websockets.py:open()] - Websocket Opened: ID: 139746829874608, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:45:42,111 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:45:51,781 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830546784
+2025-05-30 03:45:53,784 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614960
+2025-05-30 03:45:56,074 [websockets.py:on_close()] - Websocket Closed: ID: 139746830546784 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:45:58,781 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614960 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:47:02,189 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.88ms
+2025-05-30 03:47:02,190 [websockets.py:open()] - Websocket Opened: ID: 139746829612224, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:47:02,195 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:48:22,626 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.21ms
+2025-05-30 03:48:22,627 [websockets.py:open()] - Websocket Opened: ID: 139746830047024, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:48:22,632 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:49:02,972 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829612224
+2025-05-30 03:49:07,193 [websockets.py:on_close()] - Websocket Closed: ID: 139746829612224 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:49:19,994 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882537744
+2025-05-30 03:49:24,872 [websockets.py:on_close()] - Websocket Closed: ID: 139746882537744 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:49:43,102 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.27ms
+2025-05-30 03:49:43,102 [websockets.py:open()] - Websocket Opened: ID: 139746828087600, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:49:43,107 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:51:03,475 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.68ms
+2025-05-30 03:51:03,476 [websockets.py:open()] - Websocket Opened: ID: 139746882411680, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:51:03,480 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:51:30,124 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087504
+2025-05-30 03:51:35,109 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087504 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:52:23,775 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.55ms
+2025-05-30 03:52:23,776 [websockets.py:open()] - Websocket Opened: ID: 139746830548464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:52:23,782 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:53:02,220 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829874608
+2025-05-30 03:53:07,110 [websockets.py:on_close()] - Websocket Closed: ID: 139746829874608 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:53:44,016 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.25ms
+2025-05-30 03:53:44,017 [websockets.py:open()] - Websocket Opened: ID: 139746829612176, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:53:44,020 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:54:33,312 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828087600
+2025-05-30 03:54:38,105 [websockets.py:on_close()] - Websocket Closed: ID: 139746828087600 Close Code: None, Close Reason: None, Pong Time Elapsed: 40.99
+2025-05-30 03:55:04,316 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.74ms
+2025-05-30 03:55:04,317 [websockets.py:open()] - Websocket Opened: ID: 139746881601200, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:55:04,327 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:55:31,370 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881989984
+2025-05-30 03:55:31,370 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881969168
+2025-05-30 03:55:32,372 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829292352
+2025-05-30 03:55:36,009 [websockets.py:on_close()] - Websocket Closed: ID: 139746881989984 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:55:36,214 [websockets.py:on_close()] - Websocket Closed: ID: 139746881969168 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:55:36,592 [websockets.py:on_close()] - Websocket Closed: ID: 139746829292352 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:56:24,544 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.20ms
+2025-05-30 03:56:24,545 [websockets.py:open()] - Websocket Opened: ID: 139746829615008, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:56:24,551 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:56:41,444 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614912
+2025-05-30 03:56:46,397 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614912 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 03:57:42,504 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882051472
+2025-05-30 03:57:44,791 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.06ms
+2025-05-30 03:57:44,792 [websockets.py:open()] - Websocket Opened: ID: 139746881597744, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:57:44,796 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:57:46,506 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746828088464
+2025-05-30 03:57:46,870 [websockets.py:on_close()] - Websocket Closed: ID: 139746882051472 Close Code: None, Close Reason: None, Pong Time Elapsed: 43.55
+2025-05-30 03:57:50,798 [websockets.py:on_close()] - Websocket Closed: ID: 139746828088464 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 03:59:05,030 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.50ms
+2025-05-30 03:59:05,031 [websockets.py:open()] - Websocket Opened: ID: 139746882411440, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 03:59:05,035 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 03:59:34,618 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830548464
+2025-05-30 03:59:38,781 [websockets.py:on_close()] - Websocket Closed: ID: 139746830548464 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:00:25,177 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.38ms
+2025-05-30 04:00:25,178 [websockets.py:open()] - Websocket Opened: ID: 139746830539024, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:00:25,182 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:01:45,313 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.93ms
+2025-05-30 04:01:45,314 [websockets.py:open()] - Websocket Opened: ID: 139746830548464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:01:45,317 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:03:05,765 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.59ms
+2025-05-30 04:03:05,766 [websockets.py:open()] - Websocket Opened: ID: 139746829294752, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:03:05,770 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:04:05,904 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830548464
+2025-05-30 04:04:10,317 [websockets.py:on_close()] - Websocket Closed: ID: 139746830548464 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:04:26,163 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.34ms
+2025-05-30 04:04:26,164 [websockets.py:open()] - Websocket Opened: ID: 139746882539184, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:04:26,170 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:05:46,431 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.66ms
+2025-05-30 04:05:46,432 [websockets.py:open()] - Websocket Opened: ID: 139746881969072, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:05:46,441 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:07:06,793 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.56ms
+2025-05-30 04:07:06,794 [websockets.py:open()] - Websocket Opened: ID: 139746881598896, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:07:06,798 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:07:15,069 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882411440
+2025-05-30 04:07:20,035 [websockets.py:on_close()] - Websocket Closed: ID: 139746882411440 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:08:26,991 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.66ms
+2025-05-30 04:08:26,992 [websockets.py:open()] - Websocket Opened: ID: 139746882412304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:08:26,996 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:09:47,136 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.75ms
+2025-05-30 04:09:47,137 [websockets.py:open()] - Websocket Opened: ID: 139746829614672, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:09:47,142 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:09:55,226 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829615008
+2025-05-30 04:09:58,228 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830539072
+2025-05-30 04:09:59,548 [websockets.py:on_close()] - Websocket Closed: ID: 139746829615008 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:10:02,814 [websockets.py:on_close()] - Websocket Closed: ID: 139746830539072 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:11:07,227 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.32ms
+2025-05-30 04:11:07,228 [websockets.py:open()] - Websocket Opened: ID: 139746881969504, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:11:07,231 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:11:35,331 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830539024
+2025-05-30 04:11:40,182 [websockets.py:on_close()] - Websocket Closed: ID: 139746830539024 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:12:27,319 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.81ms
+2025-05-30 04:12:27,320 [websockets.py:open()] - Websocket Opened: ID: 139746830030304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:12:27,326 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:13:47,831 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.04ms
+2025-05-30 04:13:47,832 [websockets.py:open()] - Websocket Opened: ID: 139746828089136, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:13:47,858 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:13:54,466 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829612176
+2025-05-30 04:13:59,021 [websockets.py:on_close()] - Websocket Closed: ID: 139746829612176 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:14:26,531 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829294752
+2025-05-30 04:14:30,770 [websockets.py:on_close()] - Websocket Closed: ID: 139746829294752 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:15:08,163 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.96ms
+2025-05-30 04:15:08,164 [websockets.py:open()] - Websocket Opened: ID: 139746829614384, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:15:08,170 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:16:27,635 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882412304
+2025-05-30 04:16:27,636 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614672
+2025-05-30 04:16:28,283 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.00ms
+2025-05-30 04:16:28,284 [websockets.py:open()] - Websocket Opened: ID: 139746830537200, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:16:28,288 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:16:31,994 [websockets.py:on_close()] - Websocket Closed: ID: 139746882412304 Close Code: None, Close Reason: None, Pong Time Elapsed: 39.55
+2025-05-30 04:16:32,140 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614672 Close Code: None, Close Reason: None, Pong Time Elapsed: 38.69
+2025-05-30 04:16:50,646 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829876096
+2025-05-30 04:16:55,593 [websockets.py:on_close()] - Websocket Closed: ID: 139746829876096 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:17:48,715 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614384
+2025-05-30 04:17:48,797 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 8.04ms
+2025-05-30 04:17:48,798 [websockets.py:open()] - Websocket Opened: ID: 139746830087600, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:17:48,802 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:17:53,167 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614384 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:18:04,727 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881601200
+2025-05-30 04:18:09,320 [websockets.py:on_close()] - Websocket Closed: ID: 139746881601200 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:19:09,123 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.33ms
+2025-05-30 04:19:09,124 [websockets.py:open()] - Websocket Opened: ID: 139746829291968, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:19:09,127 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:20:29,574 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.65ms
+2025-05-30 04:20:29,575 [websockets.py:open()] - Websocket Opened: ID: 139746882025456, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:20:29,579 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:21:49,994 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.04ms
+2025-05-30 04:21:49,995 [websockets.py:open()] - Websocket Opened: ID: 139746829614384, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:21:49,999 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:23:08,023 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830030304
+2025-05-30 04:23:10,503 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.82ms
+2025-05-30 04:23:10,504 [websockets.py:open()] - Websocket Opened: ID: 139746829875712, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:23:10,509 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:23:12,323 [websockets.py:on_close()] - Websocket Closed: ID: 139746830030304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:24:30,811 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.94ms
+2025-05-30 04:24:30,812 [websockets.py:open()] - Websocket Opened: ID: 139746829874992, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:24:30,816 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:24:32,101 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829507264
+2025-05-30 04:24:37,011 [websockets.py:on_close()] - Websocket Closed: ID: 139746829507264 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:25:51,298 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.76ms
+2025-05-30 04:25:51,299 [websockets.py:open()] - Websocket Opened: ID: 139746830540080, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:25:51,303 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:27:11,650 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.79ms
+2025-05-30 04:27:11,651 [websockets.py:open()] - Websocket Opened: ID: 139746829313504, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:27:11,655 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:27:47,310 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881969504
+2025-05-30 04:27:52,231 [websockets.py:on_close()] - Websocket Closed: ID: 139746881969504 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:28:06,294 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830089856
+2025-05-30 04:28:07,324 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746882000544
+2025-05-30 04:28:10,476 [websockets.py:on_close()] - Websocket Closed: ID: 139746830089856 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:28:12,117 [websockets.py:on_close()] - Websocket Closed: ID: 139746882000544 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:28:32,072 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.27ms
+2025-05-30 04:28:32,073 [websockets.py:open()] - Websocket Opened: ID: 139746830046304, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:28:32,077 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:29:52,240 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.37ms
+2025-05-30 04:29:52,241 [websockets.py:open()] - Websocket Opened: ID: 139746829614336, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-05-30 04:29:52,245 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-05-30 04:29:59,408 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829506688
+2025-05-30 04:30:00,414 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829614384
+2025-05-30 04:30:01,415 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829875712
+2025-05-30 04:30:01,415 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746829874992
+2025-05-30 04:30:03,410 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746830047024
+2025-05-30 04:30:04,392 [websockets.py:on_close()] - Websocket Closed: ID: 139746829506688 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:30:05,000 [websockets.py:on_close()] - Websocket Closed: ID: 139746829614384 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:30:05,506 [websockets.py:on_close()] - Websocket Closed: ID: 139746829875712 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-05-30 04:30:05,814 [websockets.py:on_close()] - Websocket Closed: ID: 139746829874992 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:30:07,632 [websockets.py:on_close()] - Websocket Closed: ID: 139746830047024 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-05-30 04:30:17,163 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
+2025-05-30 04:30:17,204 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
+2025-05-30 04:30:17,278 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
+2025-05-30 04:30:17,694 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) successfully finished
+2025-05-30 04:30:17,727 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-05-30 04:30:17,761 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse HEAD) successfully finished
+2025-05-30 04:30:17,793 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-05-30 04:30:17,828 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse origin/master) successfully finished
+2025-05-30 04:30:17,866 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-05-30 04:30:17,896 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-list HEAD..807175d72e3a00cdc6b5e249444a4630e1e03a55 --count) successfully finished
+2025-05-30 04:30:17,898 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+Owner: fluidd-core
+Repository Name: fluidd-config
+Path: /home/chase/fluidd-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/fluidd-core/fluidd-config.git
+Recovery URL: https://github.com/fluidd-core/fluidd-config.git
+Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Current Version: v1.2.1-0-g807175d7
+Upstream Version: v1.2.1-0-g807175d7
+Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Rollback Branch: master
+Rollback Version: v1.2.1-0-g807175d7
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-05-30 04:30:17,899 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2025-05-30 04:30:17,899 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
+2025-05-30 04:30:18,117 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.34.2
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.2/fluidd.zip
+Download Size: 4343427
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
