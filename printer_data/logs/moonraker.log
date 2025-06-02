@@ -792,3 +792,7 @@ Diverged: False
 Pinned Commit: None
 2025-06-02 01:30:24,069 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
 2025-06-02 01:30:24,069 [base_deploy.py:log_info()] - Git Repo mobileraker: Validity check for git repo passed
+2025-06-02 01:31:25,854 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 3.78ms
+2025-06-02 01:31:25,855 [websockets.py:open()] - Websocket Opened: ID: 139746881590848, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-06-02 01:31:25,860 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-06-02 01:31:25,868 [websockets.py:on_close()] - Websocket Closed: ID: 139746881590848 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.02
