@@ -2090,3 +2090,4 @@ Content-Type: multipart/form-data; boundary=------------------------c1d903758970
 2025-06-08 09:40:01,429 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
 2025-06-08 09:40:01,431 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.11ms
 2025-06-08 09:40:01,432 [websockets.py:open()] - Websocket Opened: ID: 139746827872336, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-06-08 10:00:24,357 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
