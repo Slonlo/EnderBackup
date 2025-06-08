@@ -267,6 +267,11 @@
 ; first layer extrusion width = 0.40mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 1 known objects
+EXCLUDE_OBJECT_DEFINE NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0 CENTER=124.245,134.690 POLYGON=[[80.376,100.722],[80.376,178.064],[161.247,178.064],[161.247,100.722]]
 M73 P0 R68
 ;TYPE:Custom
 G28 ; home all axis
@@ -306,6 +311,7 @@ G1 E-1 F5100
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z.6 F9000
 G1 X126.211 Y163.617
 G1 Z.6
@@ -5261,6 +5267,7 @@ G1 X84.796 Y107.677 F9000
 G1 F2400
 G1 X83.803 Y106.685 E.04108
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 M106 S255
 ;LAYER_CHANGE
 ;Z:0.4
@@ -5278,6 +5285,7 @@ G1 X84.51 Y107.392 E-.3
 M104 S220 ; set nozzle temperature
 M140 S65 ; set bed temperature
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z.8 F9000
 G1 X124.668 Y167.441 Z.8
 G1 Z.4
@@ -8752,6 +8760,7 @@ G1 X89.239 Y108.207 E.002
 G1 X89.267 Y108.254 E.002
 G1 X89.33 Y108.241 E.00232
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.2
@@ -8769,6 +8778,7 @@ G1 X89.322 Y108.159 E-.0336
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z1 F9000
 G1 X124.707 Y167.426 Z1
 G1 Z.6
@@ -12609,6 +12619,7 @@ G1 X90.274 Y107.072 E.00354
 G1 X90.348 Y107.072 E.00354
 G1 X90.364 Y107.043 E.00162
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:0.8
 ;HEIGHT:0.2
@@ -12627,6 +12638,7 @@ G1 X90.348 Y106.945 E-.04476
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z1.2 F9000
 G1 X124.715 Y167.507 Z1.2
 G1 Z.8
@@ -15414,6 +15426,7 @@ G1 X94.765 Y109.292 E.00906
 G1 X94.456 Y108.983 E.01271
 G1 X93.054 Y108.712 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1
 ;HEIGHT:0.2
@@ -15428,6 +15441,7 @@ G1 X94.036 Y108.902 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z1.4 F9000
 G1 X124.811 Y167.284 Z1.4
 G1 Z1
@@ -18166,6 +18180,7 @@ G1 X94.974 Y109.501 E.00492
 G1 X94.456 Y108.983 E.0213
 G1 X93.054 Y108.712 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.2
@@ -18180,6 +18195,7 @@ G1 X94.036 Y108.902 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z1.6 F9000
 G1 X124.816 Y167.365 Z1.6
 G1 Z1.2
@@ -20971,6 +20987,7 @@ G1 X95.148 Y109.675 E.0009
 G1 X94.456 Y108.983 E.02848
 G1 X93.054 Y108.712 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.4
 ;HEIGHT:0.2
@@ -20985,6 +21002,7 @@ G1 X94.036 Y108.902 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z1.8 F9000
 G1 X124.845 Y167.416 Z1.8
 G1 Z1.4
@@ -23738,6 +23756,7 @@ G1 X95.187 Y109.714 E.09738
 G1 X94.456 Y108.983 E.03009
 G1 X93.054 Y108.712 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.6
 ;HEIGHT:0.2
@@ -23752,6 +23771,7 @@ G1 X94.036 Y108.902 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z2 F9000
 G1 X124.865 Y167.615 Z2
 G1 Z1.6
@@ -26430,6 +26450,7 @@ G1 X95.187 Y109.714 E.09738
 G1 X94.456 Y108.983 E.03009
 G1 X93.054 Y108.712 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.2
@@ -26444,6 +26465,7 @@ G1 X94.036 Y108.902 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z2.2 F9000
 G1 X124.946 Y167.776 Z2.2
 G1 Z1.8
@@ -29102,6 +29124,7 @@ G1 X95.188 Y109.714 E.09927
 G1 X94.45 Y108.976 E.03037
 G1 X93.048 Y108.701 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2
 ;HEIGHT:0.2
@@ -29116,6 +29139,7 @@ G1 X94.029 Y108.894 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z2.4 F9000
 G1 X125.133 Y167.745 Z2.4
 G1 Z2
@@ -31774,6 +31798,7 @@ G1 X95.187 Y109.714 E.09738
 G1 X94.449 Y108.976 E.03037
 G1 X93.048 Y108.701 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.2
 ;HEIGHT:0.2
@@ -31788,6 +31813,7 @@ G1 X94.029 Y108.894 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z2.6 F9000
 G1 X125.335 Y167.829 Z2.6
 G1 Z2.2
@@ -34806,6 +34832,7 @@ G1 X87.651 Y108.976 E.0195
 G1 X87.885 Y109.465 E.0158
 G1 X86.605 Y108.832 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.2
@@ -34820,6 +34847,7 @@ G1 X87.501 Y109.275 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z2.8 F9000
 G1 X125.583 Y167.871 Z2.8
 G1 Z2.4
@@ -37837,6 +37865,7 @@ G1 X95.345 Y109.745 E.102
 G1 X95.291 Y109.145 E.01753
 G1 X93.889 Y108.873 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.6
 ;HEIGHT:0.2
@@ -37851,6 +37880,7 @@ G1 X94.871 Y109.063 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z3 F9000
 G1 X125.859 Y167.872 Z3
 G1 Z2.6
@@ -40802,6 +40832,7 @@ G1 X84.542 Y107.158 E.01798
 G1 X84.471 Y106.453 E.02061
 G1 X83.042 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.8
 ;HEIGHT:0.2
@@ -40816,6 +40847,7 @@ G1 X84.042 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z3.2 F9000
 G1 X126.355 Y167.847 Z3.2
 G1 Z2.8
@@ -43715,6 +43747,7 @@ G1 X84.188 Y107.158 E.01316
 G1 X84.391 Y106.453 E.02134
 G1 X82.963 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.2
@@ -43729,6 +43762,7 @@ G1 X83.963 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z3.4 F9000
 G1 X126.76 Y167.609 Z3.4
 G1 Z3
@@ -46639,6 +46673,7 @@ G1 X83.835 Y107.158 E.00835
 G1 X84.312 Y106.453 E.02477
 G1 X82.884 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.2
 ;HEIGHT:0.2
@@ -46653,6 +46688,7 @@ G1 X83.884 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z3.6 F9000
 G1 X131.205 Y172.827 Z3.6
 G1 Z3.2
@@ -49361,6 +49397,7 @@ G1 X83.435 Y107.264 E.07897
 G1 X84.246 Y106.453 E.03336
 G1 X82.818 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.4
 ;HEIGHT:0.2
@@ -49375,6 +49412,7 @@ G1 X83.818 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z3.8 F9000
 G1 X126.739 Y166.467 Z3.8
 G1 Z3.4
@@ -52057,6 +52095,7 @@ G1 X84.246 Y106.453 E.1058
 G1 X83.435 Y107.264 E.03336
 G1 X82.155 Y106.63 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.2
@@ -52071,6 +52110,7 @@ G1 X83.052 Y107.074 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z4 F9000
 G1 X126.204 Y167.1 Z4
 G1 Z3.6
@@ -54814,6 +54854,7 @@ G1 X84.246 Y106.453 E.1058
 G1 X83.435 Y107.264 E.03336
 G1 X82.155 Y106.63 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.8
 ;HEIGHT:0.2
@@ -54828,6 +54869,7 @@ G1 X83.052 Y107.074 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z4.2 F9000
 G1 X126.444 Y166.992 Z4.2
 G1 Z3.8
@@ -57597,6 +57639,7 @@ G1 X83.435 Y107.264 E.07897
 G1 X84.246 Y106.453 E.03336
 G1 X82.818 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4
 ;HEIGHT:0.2
@@ -57611,6 +57654,7 @@ G1 X83.818 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z4.4 F9000
 G1 X126.551 Y166.801 Z4.4
 G1 Z4
@@ -60363,6 +60407,7 @@ G1 X84.246 Y106.453 E.1058
 G1 X83.435 Y107.264 E.03336
 G1 X82.155 Y106.63 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.2
@@ -60377,6 +60422,7 @@ G1 X83.052 Y107.074 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z4.6 F9000
 G1 X126.622 Y166.661 Z4.6
 G1 Z4.2
@@ -63132,6 +63178,7 @@ G1 X83.435 Y107.264 E.07897
 G1 X84.246 Y106.453 E.03336
 G1 X82.818 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.4
 ;HEIGHT:0.2
@@ -63146,6 +63193,7 @@ G1 X83.818 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z4.8 F9000
 G1 X126.448 Y166.714 Z4.8
 G1 Z4.4
@@ -66291,6 +66339,7 @@ G1 X92.337 Y108.671 E.11977
 G1 X92.263 Y109.05 E.01213
 G1 X95.964 Y109.766 E.11852
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.6
 ;HEIGHT:0.2
@@ -66305,6 +66354,7 @@ G1 X94.982 Y109.576 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z5 F9000
 G1 X126.241 Y166.663 Z5
 G1 Z4.6
@@ -69852,6 +69902,7 @@ G1 X93.953 Y109.354 E.01602
 G1 X94.444 Y109.472 E.01572
 G1 X95.964 Y109.766 E.04821
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.8
 ;HEIGHT:0.2
@@ -69866,6 +69917,7 @@ G1 X94.982 Y109.576 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z5.2 F9000
 G1 X126.367 Y165.193 Z5.2
 G1 Z4.8
@@ -73520,6 +73572,7 @@ G1 X94.945 Y109.59 E.01779
 G1 X94.605 Y109.421 E.01114
 G1 X95.016 Y109.01 E.01704
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5
 ;HEIGHT:0.2
@@ -73536,6 +73589,7 @@ G1 X94.973 Y109.562 E-.01182
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z5.4 F9000
 G1 X126.823 Y164.592 Z5.4
 G1 Z5
@@ -76786,6 +76840,7 @@ G1 X88.151 Y108.976 E.04008
 G1 X88.108 Y109.576 E.0175
 G1 X89.388 Y110.209 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.2
 ;HEIGHT:0.2
@@ -76800,6 +76855,7 @@ G1 X88.492 Y109.766 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z5.6 F9000
 G1 X126.755 Y164.545 Z5.6
 G1 Z5.2
@@ -80417,6 +80473,7 @@ G1 X87.548 Y109.384 E.00458
 G1 X87.207 Y109.13 E.01236
 G1 X86.896 Y108.976 E.01009
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.4
 ;HEIGHT:0.2
@@ -80434,6 +80491,7 @@ G1 X87.661 Y109.564 E-.02129
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z5.8 F9000
 G1 X126.675 Y164.511 Z5.8
 G1 Z5.4
@@ -85342,6 +85400,7 @@ G1 X91.573 Y108.337 E.02188
 G1 X91.314 Y108.155 E.00922
 G1 X91.237 Y108.073 E.00326
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.6
 ;HEIGHT:0.2
@@ -85358,6 +85417,7 @@ G1 X91.464 Y108.898 E-.17141
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z6 F9000
 G1 X126.676 Y164.509 Z6
 G1 Z5.6
@@ -89929,6 +89989,7 @@ G1 X88.704 Y110.502 E.00902
 G1 X84.654 Y106.453 E.16663
 G1 X83.226 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.8
 ;HEIGHT:0.2
@@ -89943,6 +90004,7 @@ G1 X84.226 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z6.2 F9000
 G1 X126.657 Y164.546 Z6.2
 G1 Z5.8
@@ -94581,6 +94643,7 @@ G1 X88.711 Y110.509 E.00819
 G1 X84.654 Y106.453 E.16692
 G1 X83.226 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6
 ;HEIGHT:0.2
@@ -94595,6 +94658,7 @@ G1 X84.226 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z6.4 F9000
 G1 X126.219 Y166.119 Z6.4
 G1 Z6
@@ -98657,6 +98721,7 @@ G1 X88.711 Y110.509 E.00819
 G1 X84.654 Y106.453 E.16692
 G1 X83.226 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.2
 ;HEIGHT:0.2
@@ -98671,6 +98736,7 @@ G1 X84.226 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z6.6 F9000
 G1 X126.241 Y166.213 Z6.6
 G1 Z6.2
@@ -102690,6 +102756,7 @@ G1 X88.711 Y110.509 E.00819
 G1 X84.654 Y106.453 E.16692
 G1 X83.226 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.4
 ;HEIGHT:0.2
@@ -102704,6 +102771,7 @@ G1 X84.226 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z6.8 F9000
 G1 X127.6 Y164.35 Z6.8
 G1 Z6.4
@@ -106676,6 +106744,7 @@ G1 X88.711 Y110.509 E.00819
 G1 X84.654 Y106.453 E.16692
 G1 X83.226 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.2
@@ -106690,6 +106759,7 @@ G1 X84.226 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z7 F9000
 G1 X126.685 Y167.031 Z7
 G1 Z6.6
@@ -110450,6 +110520,7 @@ G1 X159.212 Y148.287 E.01054
 G1 X157.157 Y146.233 E.08454
 G1 X155.806 Y145.77 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.8
 ;HEIGHT:0.2
@@ -110464,6 +110535,7 @@ G1 X156.752 Y146.094 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z7.2 F9000
 G1 X138.314 Y167.922 Z7.2
 G1 Z6.8
@@ -113987,6 +114059,7 @@ G1 X88.711 Y110.509 E.00819
 G1 X84.654 Y106.453 E.16692
 G1 X83.226 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7
 ;HEIGHT:0.2
@@ -114001,6 +114074,7 @@ G1 X84.226 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z7.4 F9000
 G1 X135.957 Y146.371 Z7.4
 G1 Z7
@@ -117669,6 +117743,7 @@ G1 X91.108 Y107.892 E.00421
 G1 X90.932 Y107.562 E.01089
 G1 X90.886 Y107.399 E.00494
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.2
 ;HEIGHT:0.2
@@ -117686,6 +117761,7 @@ G1 X91.159 Y108.292 E-.09336
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z7.6 F9000
 G1 X135.935 Y146.317 Z7.6
 G1 Z7.2
@@ -121336,6 +121412,7 @@ G1 X90.932 Y107.562 E.01089
 G1 X90.855 Y107.289 E.00825
 G1 X90.856 Y107.177 E.00327
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.4
 ;HEIGHT:0.2
@@ -121354,6 +121431,7 @@ G1 X91.266 Y108.046 E-.0058
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z7.8 F9000
 G1 X135.903 Y146.237 Z7.8
 G1 Z7.4
@@ -125432,6 +125510,7 @@ G1 X84.488 Y107.158 E.01725
 G1 X84.459 Y106.453 E.02053
 G1 X83.03 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.6
 ;HEIGHT:0.2
@@ -125446,6 +125525,7 @@ G1 X84.03 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z8 F9000
 G1 X116.685 Y124.318 Z8
 G1 Z7.6
@@ -129339,6 +129419,7 @@ G1 X84.135 Y107.158 E.01244
 G1 X84.379 Y106.453 E.02171
 G1 X82.951 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.8
 ;HEIGHT:0.2
@@ -129353,6 +129434,7 @@ G1 X83.951 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z8.2 F9000
 G1 X116.728 Y124.315 Z8.2
 G1 Z7.8
@@ -133302,6 +133384,7 @@ G1 X83.781 Y107.158 E.00762
 G1 X84.3 Y106.453 E.02546
 G1 X82.872 Y106.453 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8
 ;HEIGHT:0.2
@@ -133316,6 +133399,7 @@ G1 X83.872 Y106.453 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z8.4 F9000
 G1 X90.854 Y109.639 Z8.4
 G1 Z8
@@ -136303,6 +136387,7 @@ G1 X122.294 Y108.4 E.08585
 G1 X122.741 Y107.953 E.01838
 G1 X124.169 Y107.953 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.2
 ;HEIGHT:0.2
@@ -136317,6 +136402,7 @@ G1 X123.169 Y107.953 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z8.6 F9000
 G1 X132.821 Y149.64 Z8.6
 G1 Z8.2
@@ -139152,6 +139238,7 @@ G1 X84.246 Y106.453 E.1058
 G1 X83.435 Y107.264 E.03336
 G1 X82.155 Y106.63 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.4
 ;HEIGHT:0.2
@@ -139166,6 +139253,7 @@ G1 X83.052 Y107.074 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z8.8 F9000
 G1 X90.952 Y109.562 Z8.8
 G1 Z8.4
@@ -142833,6 +142921,7 @@ G1 X143.477 Y141.756 E.212
 G1 X143.769 Y141.649 E.00903
 G1 X144.826 Y142.011 E.03253
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.6
 ;HEIGHT:0.200001
@@ -142847,6 +142936,7 @@ G1 X143.88 Y141.688 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z9 F9000
 G1 X90.951 Y109.562 Z9
 G1 Z8.6
@@ -145477,6 +145567,7 @@ G1 X143.477 Y141.756 E.2119
 G1 X143.769 Y141.649 E.00903
 G1 X144.826 Y142.011 E.03253
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.8
 ;HEIGHT:0.2
@@ -145491,6 +145582,7 @@ G1 X143.88 Y141.688 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z9.2 F9000
 G1 X90.954 Y109.56 Z9.2
 G1 Z8.8
@@ -147778,6 +147870,7 @@ G1 X143.477 Y141.756 E.2119
 G1 X143.769 Y141.649 E.00903
 G1 X144.826 Y142.011 E.03253
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9
 ;HEIGHT:0.2
@@ -147792,6 +147885,7 @@ G1 X143.88 Y141.688 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z9.4 F9000
 G1 X90.953 Y109.56 Z9.4
 G1 Z9
@@ -150096,6 +150190,7 @@ G1 X143.477 Y141.756 E.2119
 G1 X143.769 Y141.649 E.00903
 G1 X144.826 Y142.011 E.03253
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.2
 ;HEIGHT:0.2
@@ -150110,6 +150205,7 @@ G1 X143.88 Y141.688 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z9.6 F9000
 G1 X90.953 Y109.56 Z9.6
 G1 Z9.2
@@ -152670,6 +152766,7 @@ G1 X159.384 Y169.567 E.11364
 G1 X158.174 Y170.51 E.04462
 G1 X156.946 Y171.238 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.4
 ;HEIGHT:0.2
@@ -152684,6 +152781,7 @@ G1 X157.806 Y170.728 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z9.8 F9000
 G1 X90.945 Y109.564 Z9.8
 G1 Z9.4
@@ -155274,6 +155372,7 @@ G1 X127.172 Y154.978 E.02279
 G1 X127.026 Y155.035 E.00457
 G1 X126.682 Y153.649 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.6
 ;HEIGHT:0.200001
@@ -155288,6 +155387,7 @@ G1 X126.923 Y154.62 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z10 F9000
 G1 X90.945 Y109.565 Z10
 G1 Z9.6
@@ -157936,6 +158036,7 @@ G1 X127.172 Y155.332 E.03734
 G1 X127.099 Y155.332 E.00211
 G1 X126.756 Y153.946 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.8
 ;HEIGHT:0.2
@@ -157950,6 +158051,7 @@ G1 X126.996 Y154.916 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z10.2 F9000
 G1 X90.945 Y109.565 Z10.2
 G1 Z9.8
@@ -160614,6 +160716,7 @@ G1 X136.756 Y162.242 E.01391
 G1 X136.982 Y162.106 E.00769
 G1 X137.377 Y161.798 E.01456
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10
 ;HEIGHT:0.2
@@ -160630,6 +160733,7 @@ G1 X136.542 Y162.34 E-.0706
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z10.4 F9000
 G1 X90.945 Y109.565 Z10.4
 G1 Z10
@@ -163278,6 +163382,7 @@ G1 X150.805 Y144.084 E.05652
 G1 X150.767 Y144.045 E.0016
 G1 X149.415 Y143.582 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.2
 ;HEIGHT:0.2
@@ -163292,6 +163397,7 @@ G1 X150.361 Y143.906 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z10.6 F9000
 G1 X90.946 Y109.566 Z10.6
 G1 Z10.2
@@ -165931,6 +166037,7 @@ G1 X152.623 Y145.121 E.00879
 G1 X151.581 Y144.324 E.03818
 G1 X150.23 Y143.861 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.4
 ;HEIGHT:0.2
@@ -165945,6 +166052,7 @@ G1 X151.176 Y144.185 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z10.8 F9000
 G1 X90.946 Y109.566 Z10.8
 G1 Z10.4
@@ -168334,6 +168442,7 @@ G1 X156.653 Y161.721 E.03078
 G1 X156.436 Y161.82 E.00695
 G1 X156.307 Y161.85 E.00383
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.6
 ;HEIGHT:0.200001
@@ -168350,6 +168459,7 @@ G1 X157.195 Y161.401 E-.18884
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z11 F9000
 G1 X90.946 Y109.566 Z11
 G1 Z10.6
@@ -170739,6 +170849,7 @@ G1 X156.653 Y161.721 E.03078
 G1 X156.436 Y161.82 E.00695
 G1 X156.307 Y161.85 E.00383
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.2
@@ -170755,6 +170866,7 @@ G1 X157.195 Y161.401 E-.18884
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z11.2 F9000
 G1 X90.946 Y109.566 Z11.2
 G1 Z10.8
@@ -173139,6 +173251,7 @@ G1 X156.653 Y161.721 E.03078
 G1 X156.436 Y161.82 E.00695
 G1 X156.307 Y161.85 E.00383
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11
 ;HEIGHT:0.2
@@ -173155,6 +173268,7 @@ G1 X157.195 Y161.401 E-.18884
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z11.4 F9000
 G1 X90.95 Y109.563 Z11.4
 G1 Z11
@@ -175497,6 +175611,7 @@ G1 X156.653 Y161.721 E.03078
 G1 X156.436 Y161.82 E.00695
 G1 X156.307 Y161.85 E.00383
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.2
 ;HEIGHT:0.2
@@ -175513,6 +175628,7 @@ G1 X157.195 Y161.401 E-.18884
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z11.6 F9000
 G1 X119.923 Y121.269 Z11.6
 G1 Z11.2
@@ -177869,6 +177985,7 @@ G1 X84.654 Y106.453 E.1058
 G1 X87.453 Y109.251 E.11515
 G1 X88.733 Y109.885 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.2
@@ -177883,6 +178000,7 @@ G1 X87.837 Y109.441 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z11.8 F9000
 G1 X119.923 Y121.269 Z11.8
 G1 Z11.4
@@ -180265,6 +180383,7 @@ G1 X84.654 Y106.453 E.1058
 G1 X87.453 Y109.251 E.11515
 G1 X88.733 Y109.885 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.6
 ;HEIGHT:0.200001
@@ -180279,6 +180398,7 @@ G1 X87.837 Y109.441 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z12 F9000
 G1 X119.923 Y121.269 Z12
 G1 Z11.6
@@ -182975,6 +183095,7 @@ G1 X95.237 Y109.724 E.10074
 G1 X94.716 Y109.029 E.02528
 G1 X93.314 Y108.754 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.8
 ;HEIGHT:0.2
@@ -182989,6 +183110,7 @@ G1 X94.296 Y108.946 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z12.2 F9000
 G1 X116.656 Y124.38 Z12.2
 G1 Z11.8
@@ -185718,6 +185840,7 @@ G1 X87.758 Y108.976 E.02389
 G1 X87.945 Y109.495 E.01607
 G1 X86.665 Y108.862 E.04156
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12
 ;HEIGHT:0.2
@@ -185732,6 +185855,7 @@ G1 X87.561 Y109.305 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z12.4 F9000
 G1 X116.656 Y124.38 Z12.4
 G1 Z12
@@ -188495,6 +188619,7 @@ G1 X91.745 Y109.067 E.00265
 G1 X91.837 Y109.068 E.0027
 G1 X93.149 Y109.321 E.03886
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.2
 ;HEIGHT:0.2
@@ -188509,6 +188634,7 @@ G1 X92.167 Y109.131 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z12.6 F9000
 G1 X119.903 Y121.317 Z12.6
 G1 Z12.2
@@ -191659,6 +191785,7 @@ G1 X91.512 Y109.024 E.00984
 G1 X91.917 Y109.039 E.01124
 G1 X94.71 Y109.58 E.07891
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.4
 ;HEIGHT:0.2
@@ -191673,6 +191800,7 @@ G1 X93.729 Y109.39 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z12.8 F9000
 G1 X90.95 Y109.564 Z12.8
 G1 Z12.4
@@ -194871,6 +194999,7 @@ G1 X125.868 Y148.212 E.09627
 G1 X125.428 Y148.372 E.02277
 G1 X125.428 Y149.24 E.04219
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.6
 ;HEIGHT:0.200001
@@ -194886,6 +195015,7 @@ G1 X125.552 Y148.327 E-.03977
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z13 F9000
 G1 X119.878 Y121.347 Z13
@@ -198482,6 +198612,7 @@ G1 X90.274 Y107.072 E.00354
 G1 X90.348 Y107.072 E.00354
 G1 X90.364 Y107.043 E.00162
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.8
 ;HEIGHT:0.2
@@ -198500,6 +198631,7 @@ G1 X90.348 Y106.945 E-.04476
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z13.2 F9000
 G1 X132.699 Y149.816 Z13.2
 G1 Z12.8
@@ -201629,6 +201761,7 @@ G1 X89.239 Y108.207 E.002
 G1 X89.267 Y108.254 E.002
 G1 X89.33 Y108.241 E.00232
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13
 ;HEIGHT:0.2
@@ -201646,6 +201779,7 @@ G1 X89.322 Y108.159 E-.0336
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 Z13.4 F9000
 G1 X132.735 Y150.171 Z13.4
 G1 Z13
@@ -204906,6 +205040,7 @@ G1 X84.476 Y106.846 E.04063
 G1 X83.966 Y106.846 E.01497
 G1 X84.8 Y107.68 E.03464
 ; stop printing object flexi-rex-improved-keychain_sf2.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_rex_improved_keychain_sf2_stl_id_15_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F7200
