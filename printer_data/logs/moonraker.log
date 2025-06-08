@@ -2048,3 +2048,5 @@ Content-Type: multipart/form-data; boundary=------------------------e26ebe2892ac
 2025-06-08 08:28:41,015 [klippy_apis.py:start_print()] - Requesting Job Start, filename = flexi_triceratops_PLA_55m45s.gcode
 2025-06-08 08:28:41,053 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 6006.84ms
 2025-06-08 08:28:41,200 [job_state.py:_status_update()] - Job Started: flexi_triceratops_PLA_55m45s.gcode
+2025-06-08 08:28:57,671 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.22ms
+2025-06-08 08:28:57,672 [websockets.py:open()] - Websocket Opened: ID: 139746827409488, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
