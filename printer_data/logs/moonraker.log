@@ -2308,3 +2308,5 @@ Traceback (most recent call last):
     for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
   File "uvloop/loop.pyx", line 1529, in getaddrinfo
 socket.gaierror: [Errno -3] Temporary failure in name resolution
+2025-06-08 10:40:24,364 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-06-08 10:40:24,365 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
