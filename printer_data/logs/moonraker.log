@@ -2586,3 +2586,14 @@ Content-Type: multipart/form-data; boundary=------------------------1bbf08636e2f
 2025-06-10 07:48:43,353 [klippy_apis.py:start_print()] - Requesting Job Start, filename = outer(1)_PLA_5h37m.gcode
 2025-06-10 07:48:43,393 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 33330.61ms
 2025-06-10 07:48:43,550 [job_state.py:_status_update()] - Job Started: outer(1)_PLA_5h37m.gcode
+2025-06-10 08:10:24,828 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.111
+2025-06-10 08:50:24,834 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-06-10 09:19:31,773 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 10.6.0.2
+2025-06-10 09:19:31,776 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 7.56ms
+2025-06-10 09:19:31,777 [websockets.py:open()] - Websocket Opened: ID: 139746340070928, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-06-10 09:19:31,830 [websockets.py:_handle_identify()] - Websocket 139746340070928 Client Identified - Name: Mobileraker-android, Version: 2.9.0-641, Type: mobile
+2025-06-10 09:20:34,112 [websockets.py:on_close()] - Websocket Closed: ID: 139746340070928 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.25
+2025-06-10 09:20:43,189 [application.py:log_request()] - 101 GET /websocket (10.6.0.2) [_TRUSTED_USER_] 4.95ms
+2025-06-10 09:20:43,190 [websockets.py:open()] - Websocket Opened: ID: 139746340140464, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-06-10 09:20:43,238 [websockets.py:_handle_identify()] - Websocket 139746340140464 Client Identified - Name: Mobileraker-android, Version: 2.9.0-641, Type: mobile
+2025-06-10 09:20:56,522 [websockets.py:on_close()] - Websocket Closed: ID: 139746340140464 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.72
