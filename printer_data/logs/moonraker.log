@@ -2552,3 +2552,4 @@ Content-Type: multipart/form-data; boundary=------------------------e80b57401186
 2025-06-10 06:25:49,492 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.47ms
 2025-06-10 06:25:49,493 [websockets.py:open()] - Websocket Opened: ID: 139746340071648, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
 2025-06-10 06:25:51,304 [websockets.py:on_close()] - Websocket Closed: ID: 139746340087312 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.76
+2025-06-10 06:27:14,767 [websockets.py:on_close()] - Websocket Closed: ID: 139746827579552 Close Code: None, Close Reason: None, Pong Time Elapsed: 18.79
