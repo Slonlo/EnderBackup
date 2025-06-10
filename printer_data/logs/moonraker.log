@@ -2577,3 +2577,12 @@ Content-Type: multipart/form-data; boundary=------------------------1bbf08636e2f
 
 2025-06-10 07:48:11,965 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: outer(1)_PLA_5h37m.gcode, sliced by OrcaSlicer
 
+2025-06-10 07:48:26,899 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.72ms
+2025-06-10 07:48:26,900 [websockets.py:open()] - Websocket Opened: ID: 139746340142480, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-06-10 07:48:26,914 [websockets.py:_handle_identify()] - Websocket 139746340142480 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-10 07:48:29,091 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.files.metadata, Code: -32601, Message: Metadata not available for <outer(1)_PLA_5h37m.gcode>
+2025-06-10 07:48:35,524 [websockets.py:on_close()] - Websocket Closed: ID: 139746340142480 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.63
+2025-06-10 07:48:43,347 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-lf3kn6u9.json) successfully finished
+2025-06-10 07:48:43,353 [klippy_apis.py:start_print()] - Requesting Job Start, filename = outer(1)_PLA_5h37m.gcode
+2025-06-10 07:48:43,393 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 33330.61ms
+2025-06-10 07:48:43,550 [job_state.py:_status_update()] - Job Started: outer(1)_PLA_5h37m.gcode
