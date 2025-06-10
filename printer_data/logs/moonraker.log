@@ -2941,3 +2941,4 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=chase
+2025-06-10 14:59:40,826 [websockets.py:on_close()] - Websocket Closed: ID: 139746340616176 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.93
