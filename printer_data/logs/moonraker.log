@@ -2558,3 +2558,10 @@ Content-Type: multipart/form-data; boundary=------------------------e80b57401186
 2025-06-10 06:41:45,299 [websockets.py:open()] - Websocket Opened: ID: 139746340070784, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-06-10 06:41:53,738 [websockets.py:_handle_identify()] - Websocket 139746340070784 Client Identified - Name: Mobileraker-android, Version: 2.9.0-641, Type: mobile
 2025-06-10 06:42:22,925 [websockets.py:on_close()] - Websocket Closed: ID: 139746340070784 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.61
+2025-06-10 07:08:23,538 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.51ms
+2025-06-10 07:08:23,539 [websockets.py:open()] - Websocket Opened: ID: 139746340142432, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-06-10 07:08:23,560 [websockets.py:_handle_identify()] - Websocket 139746340142432 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-10 07:08:53,133 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 4.89ms
+2025-06-10 07:08:53,134 [websockets.py:open()] - Websocket Opened: ID: 139746340141760, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-06-10 07:08:53,422 [websockets.py:_handle_identify()] - Websocket 139746340141760 Client Identified - Name: Mobileraker-android, Version: 2.9.0-641, Type: mobile
+2025-06-10 07:09:27,463 [websockets.py:on_close()] - Websocket Closed: ID: 139746340141760 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.30
