@@ -595,6 +595,11 @@
 ; first layer extrusion width = 0.40mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 1 known objects
+EXCLUDE_OBJECT_DEFINE NAME=flexi_turtle_stl_id_15_copy_0 CENTER=109.994,107.443 POLYGON=[[85.786,68.969],[85.786,151.035],[134.211,151.035],[134.211,68.969]]
 M73 P0 R70
 ;TYPE:Custom
 G28 ; home all axis
@@ -633,6 +638,7 @@ G1 E-1 F5100
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z.6 F9000
 G1 X101.528 Y105.516
 G1 Z.6
@@ -3033,6 +3039,7 @@ G1 X91.128 Y148.12 F9000
 G1 F2400
 G1 X89.773 Y146.764 E.05606
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 M106 S255
 ;LAYER_CHANGE
 ;Z:0.4
@@ -3050,6 +3057,7 @@ G1 X90.48 Y147.471 E-.3
 M104 S220 ; set nozzle temperature
 M140 S65 ; set bed temperature
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z.8 F9000
 G1 X101.681 Y105.332 Z.8
 G1 Z.4
@@ -5473,6 +5481,7 @@ G1 X95.903 Y128.956 E.01203
 G1 X96.255 Y128.338 E.02084
 G1 X96.951 Y127.621 E.02931
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.2
@@ -5488,6 +5497,7 @@ G1 X96.255 Y128.339 E-.00009
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z1 F9000
 G1 X101.823 Y105.251 Z1
 G1 Z.6
@@ -8038,6 +8048,7 @@ G1 F8400
 G1 X100.738 Y128.56 E.02588
 G1 X101.1 Y128.955 E.01522
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:0.8
 ;HEIGHT:0.2
@@ -8053,6 +8064,7 @@ G1 X100.396 Y128.246 E-.13931
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z1.2 F9000
 G1 X101.978 Y105.293 Z1.2
 G1 Z.8
@@ -10570,6 +10582,7 @@ G1 X100.019 Y127.758 E.00833
 G1 X100.438 Y128.045 E.01408
 G1 X100.962 Y128.547 E.0201
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1
 ;HEIGHT:0.2
@@ -10585,6 +10598,7 @@ G1 X100.212 Y127.89 E-.08234
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z1.4 F9000
 G1 X102.138 Y105.374 Z1.4
 G1 Z1
@@ -13108,6 +13122,7 @@ G1 X99.649 Y127.406 E.01627
 G1 X100.148 Y127.66 E.01551
 G1 X100.62 Y128.027 E.01659
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.2
@@ -13123,6 +13138,7 @@ G1 X99.79 Y127.478 E-.12031
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z1.6 F9000
 G1 X102.237 Y105.383 Z1.6
 G1 Z1.2
@@ -15614,6 +15630,7 @@ G1 X99.86 Y127.346 E.01967
 G1 X100.18 Y127.517 E.01007
 G1 X100.646 Y127.899 E.01671
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.4
 ;HEIGHT:0.2
@@ -15630,6 +15647,7 @@ G1 X99.828 Y127.334 E-.01008
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z1.8 F9000
 G1 X102.349 Y105.301 Z1.8
 G1 Z1.4
@@ -18041,6 +18059,7 @@ G1 X88.836 Y144.11 E.01828
 G1 X88.797 Y144.55 E.01284
 G1 X88.798 Y144.908 E.01042
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.6
 ;HEIGHT:0.2
@@ -18057,6 +18076,7 @@ G1 X88.874 Y143.913 E-.06014
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z2 F9000
 G1 X102.414 Y105.301 Z2
 G1 Z1.6
@@ -20475,6 +20495,7 @@ G1 X88.736 Y144.087 E.01359
 G1 X88.697 Y144.53 E.01294
 G1 X88.699 Y144.82 E.00843
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.2
@@ -20491,6 +20512,7 @@ G1 X88.78 Y143.825 E-.0797
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z2.2 F9000
 G1 X117.863 Y129.126 Z2.2
 G1 Z1.8
@@ -22917,6 +22939,7 @@ G1 X124.405 Y95.318 E.03113
 G1 X129.8 Y100.713 E.22202
 G1 X130.613 Y99.539 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2
 ;HEIGHT:0.2
@@ -22931,6 +22954,7 @@ G1 X130.044 Y100.361 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z2.4 F9000
 G1 X102.645 Y105.415 Z2.4
 G1 Z2
@@ -25347,6 +25371,7 @@ G1 X96.962 Y147.865 E.00999
 G1 X89.738 Y140.641 E.29727
 G1 X89.161 Y141.947 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.2
 ;HEIGHT:0.2
@@ -25361,6 +25386,7 @@ G1 X89.565 Y141.032 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z2.6 F9000
 G1 X102.708 Y105.33 Z2.6
 G1 Z2.2
@@ -28162,6 +28188,7 @@ G1 X90.912 Y141.34 E.0195
 G1 X89.602 Y140.713 E.04225
 G1 X90.188 Y139.411 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.2
@@ -28176,6 +28203,7 @@ G1 X89.778 Y140.323 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z2.8 F9000
 G1 X102.779 Y105.332 Z2.8
 G1 Z2.4
@@ -30963,6 +30991,7 @@ G1 X90.912 Y140.987 E.03405
 G1 X89.438 Y140.855 E.04304
 G1 X90.026 Y139.553 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.6
 ;HEIGHT:0.2
@@ -30977,6 +31006,7 @@ G1 X89.615 Y140.464 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z3 F9000
 G1 X102.812 Y105.347 Z3
 G1 Z2.6
@@ -33834,6 +33864,7 @@ G1 X95.142 Y149.315 E.00751
 G1 X94.611 Y149.512 E.01648
 G1 X94.027 Y149.662 E.01757
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:2.8
 ;HEIGHT:0.2
@@ -33849,6 +33880,7 @@ G1 X94.983 Y149.374 E-.11887
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z3.2 F9000
 G1 X102.894 Y105.387 Z3.2
 G1 Z2.8
@@ -36732,6 +36764,7 @@ G1 X94.547 Y129.736 E.02663
 G1 X94.32 Y129.801 E.00689
 G1 X93.86 Y131.154 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.2
@@ -36746,6 +36779,7 @@ G1 X94.182 Y130.207 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z3.4 F9000
 G1 X117.082 Y106.013 Z3.4
 G1 Z3
@@ -39646,6 +39680,7 @@ G1 X127.909 Y149.764 E.01692
 G1 X127.241 Y149.882 E.01971
 G1 X127.073 Y149.88 E.00491
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.2
 ;HEIGHT:0.2
@@ -39662,6 +39697,7 @@ G1 X128.054 Y149.716 E-.04609
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z3.6 F9000
 G1 X103.019 Y105.437 Z3.6
 G1 Z3.2
@@ -42168,6 +42204,7 @@ G1 X96.907 Y126.198 E.01961
 G1 X96.41 Y126.349 E.0151
 G1 X96.194 Y126.443 E.00685
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.4
 ;HEIGHT:0.2
@@ -42184,6 +42221,7 @@ G1 X97.148 Y126.151 E-.07366
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z3.8 F9000
 G1 X117.042 Y106.2 Z3.8
 G1 Z3.4
@@ -44613,6 +44651,7 @@ G1 X97.467 Y126.005 E.0054
 G1 X96.879 Y126.126 E.01745
 G1 X96.27 Y126.329 E.01869
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.2
@@ -44628,6 +44667,7 @@ G1 X97.23 Y126.054 E-.10735
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z4 F9000
 G1 X117.008 Y106.258 Z4
 G1 Z3.6
@@ -47004,6 +47044,7 @@ G1 X97.405 Y125.944 E.00946
 G1 X96.671 Y126.11 E.02191
 G1 X96.34 Y126.227 E.0102
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:3.8
 ;HEIGHT:0.2
@@ -47019,6 +47060,7 @@ G1 X97.304 Y125.966 E-.19487
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z4.2 F9000
 G1 X103.143 Y105.495 Z4.2
 G1 Z3.8
@@ -49415,6 +49457,7 @@ G1 X97.362 Y125.883 E.01306
 G1 X96.645 Y126.049 E.02139
 G1 X96.415 Y126.131 E.0071
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4
 ;HEIGHT:0.2
@@ -49431,6 +49474,7 @@ G1 X97.382 Y125.881 E-.0062
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z4.4 F9000
 G1 X116.881 Y106.192 Z4.4
 G1 Z4
@@ -51959,6 +52003,7 @@ G1 X128.316 Y149.706 E.00816
 G1 X127.526 Y149.927 E.02385
 G1 X127.202 Y149.974 E.00954
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.2
@@ -51974,6 +52019,7 @@ G1 X128.173 Y149.746 E-.20161
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z4.6 F9000
 G1 X106.046 Y131.034 Z4.6
 G1 Z4.2
@@ -54407,6 +54453,7 @@ G1 X99.172 Y91.312 E.01031
 G1 X99.083 Y90.751 E.0165
 G1 X99.045 Y90.246 E.01474
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.4
 ;HEIGHT:0.2
@@ -54422,6 +54469,7 @@ G1 X99.161 Y91.239 E-.14804
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z4.8 F9000
 G1 X106.033 Y131.152 Z4.8
 G1 Z4.4
@@ -56746,6 +56794,7 @@ G1 X99.05 Y91.324 E.01293
 G1 X98.973 Y90.868 E.01344
 G1 X98.926 Y90.348 E.01519
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.6
 ;HEIGHT:0.2
@@ -56762,6 +56811,7 @@ G1 X99.054 Y91.339 E-.00478
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z5 F9000
 G1 X113.977 Y131.247 Z5
 G1 Z4.6
@@ -59532,6 +59582,7 @@ G1 X102.855 Y73.36 E.03796
 G1 X103.346 Y72.998 E.01776
 G1 X104.053 Y72.586 E.0238
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:4.8
 ;HEIGHT:0.2
@@ -59547,6 +59598,7 @@ G1 X103.199 Y73.106 E-.05466
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z5.2 F9000
 G1 X114.018 Y131.318 Z5.2
 G1 Z4.8
@@ -62333,6 +62385,7 @@ G1 X100.568 Y75.48 E.03648
 G1 X100.058 Y76.271 E.0274
 G1 X99.832 Y76.702 E.01415
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5
 ;HEIGHT:0.2
@@ -62348,6 +62401,7 @@ G1 X100.336 Y75.839 E-.15412
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z5.4 F9000
 G1 X104.029 Y106.709 Z5.4
 G1 Z5
@@ -65063,6 +65117,7 @@ G1 X111.988 Y131.819 E.00905
 ;WIDTH:0.584783
 G1 X112.185 Y131.802 E.00875
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.2
 ;HEIGHT:0.2
@@ -65077,6 +65132,7 @@ G1 X111.988 Y131.819 E-.1203
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z5.6 F9000
 G1 X114.204 Y131.397 Z5.6
 G1 Z5.2
@@ -67797,6 +67853,7 @@ G1 X119.808 Y75.687 E.04969
 G1 X120.161 Y76.27 E.01983
 G1 X120.488 Y76.941 E.02172
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.4
 ;HEIGHT:0.2
@@ -67812,6 +67869,7 @@ G1 X120.03 Y76.053 E-.07608
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z5.8 F9000
 G1 X104.043 Y106.634 Z5.8
 G1 Z5.4
@@ -70464,6 +70522,7 @@ G1 X111.38 Y131.784 E.01328
 ;WIDTH:0.450249
 G1 X109.681 Y131.803 E.05639
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.6
 ;HEIGHT:0.2
@@ -70478,6 +70537,7 @@ G1 X110.681 Y131.791 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z6 F9000
 G1 X104.039 Y106.635 Z6
 G1 Z5.6
@@ -72709,6 +72769,7 @@ G1 X111.458 Y131.797 E.0154
 ;WIDTH:0.484328
 G1 X110.196 Y131.821 E.04538
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:5.8
 ;HEIGHT:0.2
@@ -72723,6 +72784,7 @@ G1 X111.196 Y131.802 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z6.2 F9000
 G1 X104.037 Y106.662 Z6.2
 G1 Z5.8
@@ -74998,6 +75060,7 @@ G1 X113.243 Y131.801 E.00586
 G1 X111.555 Y131.802 E.06758
 G1 X110.189 Y131.826 E.05473
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6
 ;HEIGHT:0.2
@@ -75012,6 +75075,7 @@ G1 X111.189 Y131.808 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z6.4 F9000
 G1 X114.586 Y131.344 Z6.4
 G1 Z6
@@ -77318,6 +77382,7 @@ G1 X121.148 Y77.841 E.01416
 G1 X121.264 Y78.347 E.01509
 G1 X121.307 Y78.767 E.0123
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.2
 ;HEIGHT:0.2
@@ -77334,6 +77399,7 @@ G1 X121.131 Y77.785 E-.01754
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z6.6 F9000
 G1 X104.028 Y106.803 Z6.6
 G1 Z6.2
@@ -79632,6 +79698,7 @@ G1 X132.491 Y142.706 E.0175
 G1 X132.39 Y142.34 E.01104
 G1 X132.295 Y142.093 E.00769
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.4
 ;HEIGHT:0.2
@@ -79648,6 +79715,7 @@ G1 X132.541 Y143.058 E-.10687
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z6.8 F9000
 G1 X103.896 Y106.872 Z6.8
 G1 Z6.4
@@ -81886,6 +81954,7 @@ G1 X112.261 Y132.087 E.02594
 G1 X112.793 Y131.915 E.01648
 G1 X110.327 Y131.937 E.07272
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.2
@@ -81900,6 +81969,7 @@ G1 X111.327 Y131.928 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z7 F9000
 G1 X104.168 Y128.278 Z7
 G1 Z6.6
@@ -84367,6 +84437,7 @@ G1 X121.463 Y78.333 E.01993
 G1 X121.523 Y78.786 E.0133
 G1 X121.521 Y79.073 E.00833
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:6.8
 ;HEIGHT:0.2
@@ -84383,6 +84454,7 @@ G1 X121.402 Y78.084 E-.07696
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z7.2 F9000
 G1 X106.762 Y74.075 Z7.2
 G1 Z6.8
@@ -86769,6 +86841,7 @@ G1 X114.292 Y131.785 E.02697
 G1 X114.451 Y131.647 E.00612
 G1 X114.463 Y131.356 E.00848
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7
 ;HEIGHT:0.2
@@ -86785,6 +86858,7 @@ G1 X113.847 Y132.009 E-.14946
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z7.4 F9000
 G1 X106.648 Y74.055 Z7.4
 G1 Z7
@@ -89567,6 +89641,7 @@ G1 X87.565 Y144.86 E.01485
 G1 X87.442 Y144.19 E.01981
 G1 X87.422 Y143.954 E.0069
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.2
 ;HEIGHT:0.2
@@ -89583,6 +89658,7 @@ G1 X87.588 Y144.939 E-.02465
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z7.6 F9000
 G1 X103.102 Y106.197 Z7.6
 G1 Z7.2
@@ -92401,6 +92477,7 @@ G1 X94.791 Y129.506 E.03303
 G1 X95.498 Y127.157 E.06796
 G1 X95.801 Y126.482 E.0205
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.4
 ;HEIGHT:0.2
@@ -92416,6 +92493,7 @@ G1 X95.423 Y127.406 E-.07801
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z7.8 F9000
 G1 X103.026 Y106.18 Z7.8
 G1 Z7.4
@@ -95311,6 +95389,7 @@ G1 X95.606 Y127.155 E.05726
 G1 X95.915 Y126.456 E.02168
 G1 X96.14 Y126.17 E.01031
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.6
 ;HEIGHT:0.2
@@ -95326,6 +95405,7 @@ G1 X95.658 Y127.038 E-.19083
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z8 F9000
 G1 X102.957 Y106.175 Z8
 G1 Z7.6
@@ -98295,6 +98375,7 @@ G1 X95.758 Y127.063 E.03819
 G1 X96.023 Y126.468 E.01872
 G1 X96.256 Y126.186 E.01048
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:7.8
 ;HEIGHT:0.2
@@ -98310,6 +98391,7 @@ G1 X95.765 Y127.047 E-.19045
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z8.2 F9000
 G1 X102.882 Y106.207 Z8.2
 G1 Z7.8
@@ -101502,6 +101584,7 @@ G1 X96.155 Y126.467 E.01833
 ;WIDTH:0.397078
 G1 X96.372 Y126.199 E.00995
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8
 ;HEIGHT:0.2
@@ -101516,6 +101599,7 @@ G1 X96.155 Y126.467 E-.2094
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z8.4 F9000
 G1 X102.845 Y106.441 Z8.4
 G1 Z8
@@ -104206,6 +104290,7 @@ G1 X96.396 Y126.356 E.00597
 G1 X96.519 Y126.206 E.00549
 G1 X96.911 Y125.976 E.01288
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.2
 ;HEIGHT:0.2
@@ -104221,6 +104306,7 @@ G1 X96.396 Y126.356 E-.08961
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z8.6 F9000
 G1 X102.739 Y106.488 Z8.6
 G1 Z8.2
@@ -106892,6 +106978,7 @@ G1 X96.63 Y126.265 E.00545
 G1 X96.988 Y126.038 E.01251
 G1 X97.261 Y125.943 E.00851
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.4
 ;HEIGHT:0.2
@@ -106907,6 +106994,7 @@ G1 X96.63 Y126.265 E-.17852
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z8.8 F9000
 G1 X102.607 Y106.517 Z8.8
 G1 Z8.4
@@ -109626,6 +109714,7 @@ G1 X88.371 Y140.844 E.01972
 G1 X89.414 Y139.063 E.05717
 G1 X90.563 Y137.237 E.05979
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.6
 ;HEIGHT:0.200001
@@ -109640,6 +109729,7 @@ G1 X90.03 Y138.083 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z9 F9000
 G1 X102.459 Y106.459 Z9
 G1 Z8.6
@@ -112651,6 +112741,7 @@ G1 X96.311 Y148.989 E.0092
 G1 X95.719 Y149.207 E.01837
 G1 X95.248 Y149.304 E.01399
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:8.8
 ;HEIGHT:0.2
@@ -112666,6 +112757,7 @@ G1 X96.206 Y149.027 E-.15572
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z9.2 F9000
 G1 X102.386 Y106.742 Z9.2
 G1 Z8.8
@@ -115935,6 +116027,7 @@ G1 X101.434 Y129.275 E.01107
 ;WIDTH:0.611936
 G1 X101.322 Y129.492 E.01135
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9
 ;HEIGHT:0.2
@@ -115949,6 +116042,7 @@ G1 X101.434 Y129.275 E-.14856
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z9.4 F9000
 G1 X102.153 Y106.661 Z9.4
 G1 Z9
@@ -119441,6 +119535,7 @@ G1 X93.555 Y134.148 E.01275
 ;WIDTH:0.593728
 G1 X93.772 Y133.948 E.01323
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.2
 ;HEIGHT:0.2
@@ -119455,6 +119550,7 @@ G1 X93.555 Y134.148 E-.17901
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z9.6 F9000
 G1 X101.94 Y106.742 Z9.6
 G1 Z9.2
@@ -123537,6 +123633,7 @@ G1 X94.536 Y149.119 E.02234
 G1 X95.313 Y149.063 E.02158
 G1 X95.95 Y148.889 E.01829
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.4
 ;HEIGHT:0.2
@@ -123552,6 +123649,7 @@ G1 X94.974 Y149.087 E-.10192
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z9.8 F9000
 G1 X120.589 Y142.611 Z9.8
 G1 Z9.4
@@ -127325,6 +127423,7 @@ G1 X118.99 Y106.422 E.07203
 G1 X118.597 Y107.081 E.02237
 G1 X118.53 Y107.362 E.00845
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.6
 ;HEIGHT:0.200001
@@ -127340,6 +127439,7 @@ G1 X118.961 Y106.471 E-.21308
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z10 F9000
 G1 X120.688 Y143.468 Z10
 G1 Z9.6
@@ -131106,6 +131206,7 @@ G1 X126.051 Y102.394 E.02001
 ;WIDTH:0.527667
 G1 X126.451 Y102.043 E.02106
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:9.8
 ;HEIGHT:0.2
@@ -131120,6 +131221,7 @@ G1 X126.051 Y102.394 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z10.2 F9000
 G1 X99.228 Y143.93 Z10.2
 G1 Z9.8
@@ -134691,6 +134793,7 @@ G1 X95.444 Y99.804 E.00736
 G1 X95.572 Y99.813 E.00371
 G1 X96.821 Y101.063 E.05143
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10
 ;HEIGHT:0.2
@@ -134705,6 +134808,7 @@ G1 X96.114 Y100.356 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z10.4 F9000
 G1 X99.136 Y144.275 Z10.4
 G1 Z10
@@ -138318,6 +138422,7 @@ G1 X95.402 Y101.5 E.01763
 G1 X95.922 Y101.043 E.02026
 G1 X96.274 Y100.875 E.01142
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.2
 ;HEIGHT:0.2
@@ -138333,6 +138438,7 @@ G1 X95.464 Y101.446 E-.18301
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z10.6 F9000
 G1 X96.167 Y102.322 Z10.6
 G1 Z10.2
@@ -141718,6 +141824,7 @@ G1 X89.474 Y146.283 E.01449
 G1 X89.091 Y145.867 E.01568
 G1 X88.92 Y145.616 E.00841
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.4
 ;HEIGHT:0.2
@@ -141734,6 +141841,7 @@ G1 X89.573 Y146.37 E-.03936
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z10.8 F9000
 G1 X95.234 Y101.13 Z10.8
 G1 Z10.4
@@ -144953,6 +145061,7 @@ G1 X90.482 Y146.944 E.01461
 G1 X89.666 Y146.305 E.02884
 G1 X89.173 Y145.784 E.01996
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.6
 ;HEIGHT:0.200001
@@ -144968,6 +145077,7 @@ G1 X89.888 Y146.48 E-.08474
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z11 F9000
 G1 X94.6 Y100.2 Z11
 G1 Z10.6
@@ -147706,6 +147816,7 @@ G1 X90.557 Y146.846 E.03214
 G1 X89.795 Y146.247 E.02744
 G1 X89.482 Y145.953 E.01216
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.2
@@ -147721,6 +147832,7 @@ G1 X90.244 Y146.599 E-.17114
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z11.2 F9000
 G1 X121.248 Y145.165 Z11.2
 G1 Z10.8
@@ -150285,6 +150397,7 @@ G1 X127.953 Y93.041 E.00384
 G1 X127.716 Y93.217 E.00877
 G1 X126.929 Y94.003 E.03307
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11
 ;HEIGHT:0.2
@@ -150299,6 +150412,7 @@ G1 X127.636 Y93.296 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z11.4 F9000
 G1 X126.486 Y98.75 Z11.4
 G1 Z11
@@ -152869,6 +152983,7 @@ G1 X130.116 Y146.023 E.01842
 G1 X130.426 Y145.674 E.0136
 G1 X121.819 Y145.674 E.25043
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.2
 ;HEIGHT:0.2
@@ -152883,6 +152998,7 @@ G1 X122.819 Y145.674 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z11.6 F9000
 G1 X126.972 Y98.103 Z11.6
 G1 Z11.2
@@ -155479,6 +155595,7 @@ G1 X129.631 Y146.274 E.02709
 G1 X130.132 Y145.807 E.01992
 G1 X121.939 Y145.807 E.23839
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.2
@@ -155493,6 +155610,7 @@ G1 X122.939 Y145.807 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z11.8 F9000
 G1 X127.498 Y97.458 Z11.8
 G1 Z11.4
@@ -158139,6 +158257,7 @@ G1 X129.29 Y146.367 E.02978
 G1 X129.822 Y145.926 E.0201
 G1 X122.068 Y145.924 E.22562
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.6
 ;HEIGHT:0.200001
@@ -158153,6 +158272,7 @@ G1 X123.068 Y145.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z12 F9000
 G1 X127.987 Y96.77 Z12
 G1 Z11.6
@@ -160817,6 +160937,7 @@ G1 X129.092 Y146.336 E.02966
 G1 X129.485 Y146.024 E.01461
 G1 X122.22 Y146.024 E.2114
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:11.8
 ;HEIGHT:0.2
@@ -160831,6 +160952,7 @@ G1 X123.22 Y146.024 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z12.2 F9000
 G1 X128.552 Y96.007 Z12.2
 G1 Z11.8
@@ -163343,6 +163465,7 @@ G1 X128.539 Y146.522 E.02879
 G1 X129.143 Y146.111 E.02126
 G1 X122.407 Y146.111 E.19599
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12
 ;HEIGHT:0.2
@@ -163357,6 +163480,7 @@ G1 X123.407 Y146.111 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z12.4 F9000
 G1 X90.678 Y94.878 Z12.4
 G1 Z12
@@ -165490,6 +165614,7 @@ G1 X95.132 Y136.925 E.01903
 G1 X95.651 Y137.058 E.01705
 G1 X96.166 Y137.334 E.01861
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.2
 ;HEIGHT:0.2
@@ -165504,6 +165629,7 @@ G1 X95.166 Y137.345 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z12.6 F9000
 G1 X122.181 Y145.89 Z12.6
 G1 Z12.2
@@ -167503,6 +167629,7 @@ G1 X120.931 Y92.202 E.02065
 G1 X120.559 Y92.736 E.01821
 G1 X119.724 Y93.862 E.03918
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.4
 ;HEIGHT:0.2
@@ -167517,6 +167644,7 @@ G1 X120.319 Y93.059 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z12.8 F9000
 G1 X122.374 Y145.94 Z12.8
 G1 Z12.4
@@ -169552,6 +169680,7 @@ G1 X121.02 Y91.85 E.01497
 G1 X120.619 Y92.455 E.02042
 G1 X119.665 Y93.8 E.04643
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.6
 ;HEIGHT:0.200001
@@ -169566,6 +169695,7 @@ G1 X120.244 Y92.985 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z13 F9000
 G1 X122.586 Y145.979 Z13
 G1 Z12.6
@@ -171503,6 +171633,7 @@ G1 X120.902 Y91.807 E.01675
 ;WIDTH:0.393885
 G1 X119.575 Y93.795 E.06834
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:12.8
 ;HEIGHT:0.2
@@ -171517,6 +171648,7 @@ G1 X120.13 Y92.963 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z13.2 F9000
 G1 X97.171 Y146.007 Z13.2
 G1 Z12.8
@@ -173143,6 +173275,7 @@ G1 X120.454 Y92.289 E.02066
 ;WIDTH:0.400284
 G1 X119.541 Y93.704 E.04906
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13
 ;HEIGHT:0.2
@@ -173157,6 +173290,7 @@ G1 X120.083 Y92.864 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z13.4 F9000
 G1 X96.686 Y146.103 Z13.4
 G1 Z13
@@ -174701,6 +174835,7 @@ G1 X99.394 Y91.79 E.01011
 ;WIDTH:0.404192
 G1 X100.387 Y93.45 E.05696
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.2
 ;HEIGHT:0.2
@@ -174715,6 +174850,7 @@ G1 X99.874 Y92.592 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z13.6 F9000
 G1 X123.571 Y146.057 Z13.6
 G1 Z13.2
@@ -176208,6 +176344,7 @@ G1 X100.761 Y82.309 E.01457
 G1 X100.935 Y83.163 E.02484
 G1 X101.011 Y84.041 E.02509
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.4
 ;HEIGHT:0.2
@@ -176223,6 +176360,7 @@ G1 X100.911 Y83.047 E-.03567
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z13.8 F9000
 G1 X95.54 Y146.105 Z13.8
 G1 Z13.4
@@ -177731,6 +177869,7 @@ G1 X100.762 Y81.851 E.01748
 G1 X100.883 Y82.375 E.01555
 G1 X101.028 Y83.238 E.02531
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.6
 ;HEIGHT:0.200001
@@ -177746,6 +177885,7 @@ G1 X100.855 Y82.253 E-.03753
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z14 F9000
 G1 X122.809 Y145.28 Z14
 G1 Z13.6
@@ -179174,6 +179314,7 @@ G1 X100.808 Y81.454 E.01502
 ;WIDTH:0.413033
 G1 X101.055 Y82.86 E.04307
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:13.8
 ;HEIGHT:0.2
@@ -179188,6 +179329,7 @@ G1 X100.882 Y81.875 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z14.2 F9000
 G1 X123.122 Y145.256 Z14.2
 G1 Z13.8
@@ -180636,6 +180778,7 @@ G1 X100.056 Y87.569 E.00833
 G1 X100.203 Y87.361 E.00727
 G1 X100.573 Y86.744 E.02058
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:14
 ;HEIGHT:0.2
@@ -180651,6 +180794,7 @@ G1 X100.056 Y87.569 E-.07831
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z14.4 F9000
 G1 X123.507 Y145.221 Z14.4
 G1 Z14
@@ -182404,6 +182548,7 @@ G1 X119.408 Y78.741 E.00687
 G1 X119.774 Y78.204 E.01889
 G1 X120.103 Y77.772 E.0158
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:14.2
 ;HEIGHT:0.2
@@ -182419,6 +182564,7 @@ G1 X119.516 Y78.582 E-.13713
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z14.6 F9000
 G1 X124.054 Y145.224 Z14.6
 G1 Z14.2
@@ -184304,6 +184450,7 @@ G1 X101.154 Y81.236 E.01181
 ;WIDTH:0.406646
 G1 X101.229 Y82.289 E.0313
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:14.4
 ;HEIGHT:0.2
@@ -184318,6 +184465,7 @@ G1 X101.158 Y81.292 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z14.8 F9000
 G1 X95.491 Y145.098 Z14.8
 G1 Z14.4
@@ -186116,6 +186264,7 @@ G1 X118.758 Y80.906 E.01147
 ;WIDTH:0.411504
 G1 X118.704 Y82.199 E.03887
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:14.6
 ;HEIGHT:0.200001
@@ -186130,6 +186279,7 @@ G1 X118.746 Y81.2 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z15 F9000
 G1 X125.395 Y145.001 Z15
 G1 Z14.6
@@ -187955,6 +188105,7 @@ G1 X118.641 Y81.004 E.01189
 G1 X118.616 Y81.356 E.01026
 G1 X118.623 Y82.019 E.01928
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:14.8
 ;HEIGHT:0.2
@@ -187970,6 +188121,7 @@ G1 X118.64 Y81.02 E-.10121
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z15.2 F9000
 G1 X112.426 Y102.942 Z15.2
 G1 Z14.8
@@ -189736,6 +189888,7 @@ G1 X120.54 Y76.341 E.00503
 ;WIDTH:0.567548
 G1 X120.466 Y76.588 E.01102
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15
 ;HEIGHT:0.2
@@ -189750,6 +189903,7 @@ G1 X120.54 Y76.341 E-.15653
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z15.4 F9000
 G1 X111.988 Y102.705 Z15.4
 G1 Z15
@@ -191233,6 +191387,7 @@ G1 X101.18 Y93.908 E.19977
 G1 X100.905 Y93.18 E.02267
 G1 X100.722 Y92.557 E.01889
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.2
 ;HEIGHT:0.2
@@ -191248,6 +191403,7 @@ G1 X101.029 Y93.508 E-.10528
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z15.6 F9000
 G1 X112.129 Y102.867 Z15.6
 G1 Z15.2
@@ -192732,6 +192888,7 @@ G1 X101.219 Y93.947 E.19716
 G1 X100.989 Y93.349 E.01865
 G1 X100.773 Y92.592 E.02291
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.4
 ;HEIGHT:0.2
@@ -192747,6 +192904,7 @@ G1 X101.065 Y93.547 E-.06384
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z15.8 F9000
 G1 X112.414 Y103.005 Z15.8
 G1 Z15.4
@@ -194226,6 +194384,7 @@ G1 X117.727 Y80.128 E.00928
 G1 X117.93 Y80.74 E.01937
 G1 X118.158 Y81.327 E.01895
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.6
 ;HEIGHT:0.200001
@@ -194241,6 +194400,7 @@ G1 X117.814 Y80.389 E-.11081
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z16 F9000
 G1 X112.297 Y103.018 Z16
 G1 Z15.6
@@ -195746,6 +195906,7 @@ G1 X116.255 Y98.075 E.00391
 G1 X113.958 Y95.778 E.09452
 G1 X113.958 Y97.206 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:15.8
 ;HEIGHT:0.2
@@ -195760,6 +195921,7 @@ G1 X113.958 Y96.206 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z16.2 F9000
 G1 X112.43 Y103.06 Z16.2
 G1 Z15.8
@@ -197302,6 +197464,7 @@ G1 X102.426 Y79.901 E.02381
 G1 X102.298 Y80.566 E.01977
 G1 X102.024 Y81.487 E.02809
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16
 ;HEIGHT:0.2
@@ -197317,6 +197480,7 @@ G1 X102.305 Y80.528 E-.01152
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z16.4 F9000
 G1 X112.506 Y103.071 Z16.4
 G1 Z16
@@ -198932,6 +199096,7 @@ G1 X102.15 Y81.517 E.00971
 ;WIDTH:0.417901
 G1 X102.298 Y81.218 E.01019
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16.2
 ;HEIGHT:0.200001
@@ -198946,6 +199111,7 @@ G1 X102.15 Y81.517 E-.2024
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z16.6 F9000
 G1 X112.562 Y103.061 Z16.6
 G1 Z16.2
@@ -200706,6 +200872,7 @@ G1 X102.004 Y82.016 F9000
 G1 F8400
 G1 X102.38 Y81.337 E.0215
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16.4
 ;HEIGHT:0.199999
@@ -200720,6 +200887,7 @@ G1 X102.004 Y82.016 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z16.8 F9000
 G1 X112.971 Y103.004 Z16.8
 G1 Z16.4
@@ -202700,6 +202868,7 @@ G1 X104.904 Y78.493 E.01147
 G1 X105.011 Y78.125 E.01114
 G1 X105.006 Y77.798 E.00953
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16.6
 ;HEIGHT:0.200001
@@ -202716,6 +202885,7 @@ G1 X104.743 Y78.733 E-.08691
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z17 F9000
 G1 X112.819 Y102.983 Z17
 G1 Z16.6
@@ -204757,6 +204927,7 @@ G1 X101.137 Y93.707 E.02074
 G1 X101.494 Y94.645 E.02921
 G1 X101.684 Y95.024 E.01234
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:16.8
 ;HEIGHT:0.199999
@@ -204772,6 +204943,7 @@ G1 X101.289 Y94.107 E-.1728
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z17.2 F9000
 G1 X112.854 Y102.93 Z17.2
 G1 Z16.8
@@ -206749,6 +206921,7 @@ G1 X114.949 Y77.506 E.01241
 G1 X115.063 Y77.814 E.00965
 G1 X115.305 Y78.151 E.01223
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:17
 ;HEIGHT:0.200001
@@ -206765,6 +206938,7 @@ G1 X114.954 Y77.249 E-.07698
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z17.4 F9000
 G1 X112.87 Y102.87 Z17.4
 G1 Z17
@@ -208720,6 +208894,7 @@ G1 X118.891 Y93.653 E.02073
 G1 X119.043 Y93.092 E.01691
 G1 X119.168 Y92.255 E.02464
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:17.2
 ;HEIGHT:0.200001
@@ -208735,6 +208910,7 @@ G1 X119.003 Y93.24 E-.04596
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z17.6 F9000
 G1 X113.031 Y102.781 Z17.6
 G1 Z17.2
@@ -210718,6 +210894,7 @@ G1 X115.831 Y79.117 E.0052
 G1 X115.857 Y79.245 E.00381
 G1 X115.952 Y80.36 E.03255
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:17.4
 ;HEIGHT:0.199999
@@ -210732,6 +210909,7 @@ G1 X115.867 Y79.363 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z17.8 F9000
 G1 X113.067 Y102.703 Z17.8
 G1 Z17.4
@@ -212379,6 +212557,7 @@ G1 X116.122 Y74.832 E.00816
 G1 X115.936 Y75.305 E.01512
 G1 X115.876 Y75.386 E.00302
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:17.6
 ;HEIGHT:0.200001
@@ -212396,6 +212575,7 @@ G1 X116.04 Y74.453 E-.03504
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z18 F9000
 G1 X113.381 Y102.558 Z18
 G1 Z17.6
@@ -214099,6 +214279,7 @@ G1 X108.021 Y75.542 E.19477
 G1 X107.581 Y75.981 E.03026
 G1 X107.581 Y79.744 E.183
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:17.8
 ;HEIGHT:0.199999
@@ -214113,6 +214294,7 @@ G1 X107.581 Y78.744 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z18.2 F9000
 G1 X113.11 Y102.524 Z18.2
@@ -215824,6 +216006,7 @@ G1 X100.667 Y90.245 E.02947
 G1 X106.04 Y84.873 E.22109
 G1 X106.04 Y83.444 E.04156
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18
 ;HEIGHT:0.200001
@@ -215838,6 +216021,7 @@ G1 X106.04 Y84.444 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z18.4 F9000
 G1 X113.272 Y102.395 Z18.4
 G1 Z18
@@ -217489,6 +217673,7 @@ G1 X112.777 Y75.062 E.00936
 ;WIDTH:0.447909
 G1 X113.172 Y75.283 E.01492
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18.2
 ;HEIGHT:0.200001
@@ -217503,6 +217688,7 @@ G1 X112.777 Y75.062 E-.27451
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z18.6 F9000
 G1 X113.062 Y102.331 Z18.6
 G1 Z18.2
@@ -219253,6 +219439,7 @@ G1 X107.439 Y73.755 E.12463
 G1 X107.022 Y73.853 E.0127
 G1 X110.163 Y76.994 E.13181
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18.4
 ;HEIGHT:0.199999
@@ -219267,6 +219454,7 @@ G1 X109.455 Y76.287 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z18.8 F9000
 G1 X113.051 Y102.222 Z18.8
 G1 Z18.4
@@ -220912,6 +221100,7 @@ G1 X112.336 Y74.888 E.01114
 G1 X112.204 Y74.99 E.00498
 G1 X111.529 Y75.665 E.02863
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18.6
 ;HEIGHT:0.200001
@@ -220927,6 +221116,7 @@ G1 X112.24 Y74.963 E-.01345
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z19 F9000
 G1 X113.096 Y102.101 Z19
 G1 Z18.6
@@ -222586,6 +222776,7 @@ G1 X111.374 Y74.722 E.00947
 G1 X111.382 Y74.934 E.0067
 G1 X112.022 Y75.574 E.0286
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:18.8
 ;HEIGHT:0.199999
@@ -222601,6 +222792,7 @@ G1 X111.378 Y74.839 E-.02843
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z19.2 F9000
 G1 X113.511 Y101.888 Z19.2
 G1 Z18.8
@@ -224342,6 +224534,7 @@ G1 X109.905 Y75.101 E.00973
 G1 X109.382 Y75.075 E.01656
 G1 X109.728 Y74.729 E.0155
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19
 ;HEIGHT:0.200001
@@ -224357,6 +224550,7 @@ G1 X109.891 Y75.1 E-.15292
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z19.4 F9000
 G1 X113.843 Y101.691 Z19.4
 G1 Z19
@@ -225999,6 +226193,7 @@ G1 X111.668 Y79.177 E.00147
 G1 X111.309 Y79.616 E.01652
 G1 X112.119 Y79.616 E.02357
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.2
 ;HEIGHT:0.200001
@@ -226014,6 +226209,7 @@ G1 X111.429 Y79.469 E-.05699
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z19.6 F9000
 G1 X113.73 Y101.593 Z19.6
 G1 Z19.2
@@ -227671,6 +227867,7 @@ G1 X114.465 Y77.617 E.01175
 G1 X114.877 Y77.83 E.01349
 G1 X114.99 Y77.915 E.00413
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.4
 ;HEIGHT:0.199999
@@ -227687,6 +227884,7 @@ G1 X114.086 Y77.509 E-.1183
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z19.8 F9000
 G1 X113.716 Y101.458 Z19.8
 G1 Z19.4
@@ -229399,6 +229597,7 @@ G1 X116.637 Y79.813 E.01774
 G1 X116.779 Y80.391 E.01732
 G1 X116.783 Y80.518 E.00368
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.6
 ;HEIGHT:0.200001
@@ -229415,6 +229614,7 @@ G1 X116.516 Y79.562 E-.0835
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z20 F9000
 G1 X113.069 Y101.457 Z20
 G1 Z19.6
@@ -231119,6 +231319,7 @@ G1 X116.756 Y80.143 E.00924
 G1 X116.823 Y80.635 E.01444
 G1 X116.79 Y81.249 E.01787
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:19.8
 ;HEIGHT:0.199999
@@ -231134,6 +231335,7 @@ G1 X116.771 Y80.253 E-.11575
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z20.2 F9000
 G1 X113.509 Y101.223 Z20.2
 G1 Z19.8
@@ -232624,6 +232826,7 @@ G1 X116.829 Y80.988 E.01561
 G1 X116.739 Y81.698 E.02082
 G1 X116.755 Y81.874 E.00513
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20
 ;HEIGHT:0.200001
@@ -232640,6 +232843,7 @@ G1 X116.825 Y80.88 E-.03247
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z20.4 F9000
 G1 X113.376 Y101.107 Z20.4
 G1 Z20
@@ -234158,6 +234362,7 @@ G1 X116.83 Y81.032 E.01179
 G1 X116.742 Y81.697 E.01952
 G1 X116.758 Y81.881 E.00537
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.2
 ;HEIGHT:0.200001
@@ -234174,6 +234379,7 @@ G1 X116.833 Y80.888 E-.04336
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z20.6 F9000
 G1 X113.018 Y101.033 Z20.6
 G1 Z20.2
@@ -235721,6 +235927,7 @@ G1 X116.832 Y80.946 E.0061
 G1 X116.738 Y81.691 E.02185
 G1 X116.754 Y81.866 E.00512
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.4
 ;HEIGHT:0.199999
@@ -235737,6 +235944,7 @@ G1 X116.834 Y80.873 E-.0219
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z20.8 F9000
 G1 X113.015 Y100.89 Z20.8
 G1 Z20.4
@@ -237389,6 +237597,7 @@ G1 X116.822 Y80.762 E.00928
 G1 X116.725 Y81.681 E.02689
 G1 X116.742 Y81.865 E.00539
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.6
 ;HEIGHT:0.200001
@@ -237404,6 +237613,7 @@ G1 X116.811 Y80.871 E-.24442
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z21 F9000
 G1 X112.99 Y100.737 Z21
 G1 Z20.6
@@ -239071,6 +239281,7 @@ G1 X116.779 Y81.134 E.01207
 G1 X116.706 Y81.659 E.01542
 G1 X116.722 Y81.839 E.00525
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:20.8
 ;HEIGHT:0.199999
@@ -239087,6 +239298,7 @@ G1 X116.794 Y80.845 E-.08689
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z21.2 F9000
 G1 X112.969 Y100.585 Z21.2
 G1 Z20.8
@@ -240758,6 +240970,7 @@ G1 X116.742 Y81.176 E.01479
 G1 X116.679 Y81.643 E.01371
 G1 X116.693 Y81.791 E.00432
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21
 ;HEIGHT:0.200001
@@ -240774,6 +240987,7 @@ G1 X116.761 Y80.796 E-.11402
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z21.4 F9000
 G1 X110 Y133.701 Z21.4
 G1 Z21
@@ -242426,6 +242640,7 @@ G1 X116.712 Y81.104 E.01088
 G1 X116.646 Y81.622 E.01517
 G1 X116.659 Y81.755 E.0039
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.2
 ;HEIGHT:0.200001
@@ -242442,6 +242657,7 @@ G1 X116.73 Y80.76 E-.10334
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z21.6 F9000
 G1 X111.603 Y134.297 Z21.6
 G1 Z21.2
@@ -244429,6 +244645,7 @@ G1 X116.648 Y80.352 E.01305
 G1 X116.681 Y80.827 E.01383
 G1 X116.643 Y81.2 E.0109
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.4
 ;HEIGHT:0.199999
@@ -244445,6 +244662,7 @@ G1 X116.612 Y80.207 E-.04497
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z21.8 F9000
 G1 X109.904 Y134.456 Z21.8
 G1 Z21.4
@@ -246462,6 +246680,7 @@ G1 X116.122 Y79.258 E.01538
 G1 X114.545 Y78.873 E.04725
 G1 X113.858 Y78.186 E.02827
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.6
 ;HEIGHT:0.200001
@@ -246477,6 +246696,7 @@ G1 X114.572 Y78.88 E-.00849
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z22 F9000
 G1 X115.063 Y102.237 Z22
 G1 Z21.6
@@ -248605,6 +248825,7 @@ G1 X104.382 Y95.16 E.02095
 G1 X105.198 Y95.52 E.03479
 G1 X106.063 Y95.745 E.03489
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:21.8
 ;HEIGHT:0.199999
@@ -248620,6 +248841,7 @@ G1 X105.101 Y95.477 E-.03184
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z22.2 F9000
 G1 X114.63 Y101.874 Z22.2
 G1 Z21.8
@@ -250758,6 +250980,7 @@ G1 X104.802 Y95.18 E.02627
 G1 X105.422 Y95.411 E.02756
 G1 X106.002 Y95.565 E.02506
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22
 ;HEIGHT:0.200001
@@ -250773,6 +250996,7 @@ G1 X105.048 Y95.272 E-.1197
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z22.4 F9000
 G1 X114.216 Y101.701 Z22.4
 G1 Z22
@@ -252959,6 +253183,7 @@ G1 X119.32 Y86.126 E.08913
 G1 X119.406 Y85.458 E.01886
 G1 X119.419 Y85.229 E.00642
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.2
 ;HEIGHT:0.200001
@@ -252975,6 +253200,7 @@ G1 X119.306 Y86.222 E-.0293
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z22.6 F9000
 G1 X113.696 Y101.818 Z22.6
 G1 Z22.2
@@ -254990,6 +255216,7 @@ G1 X104.943 Y94.838 E.02748
 G1 X105.542 Y95.081 E.02941
 G1 X106.014 Y95.187 E.022
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.4
 ;HEIGHT:0.199999
@@ -255005,6 +255232,7 @@ G1 X105.063 Y94.887 E-.15495
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z22.8 F9000
 G1 X113.117 Y102.142 Z22.8
 G1 Z22.4
@@ -257057,6 +257285,7 @@ G1 X105.04 Y94.669 E.02253
 G1 X105.921 Y94.989 E.04617
 G1 X106.025 Y95.01 E.00522
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.6
 ;HEIGHT:0.200001
@@ -257072,6 +257301,7 @@ G1 X105.081 Y94.684 E-.26817
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z23 F9000
 G1 X112.196 Y102.143 Z23
 G1 Z22.6
@@ -259216,6 +259446,7 @@ G1 X105.61 Y94.65 E.01697
 G1 X105.934 Y94.751 E.01628
 G1 X106.11 Y94.774 E.00849
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:22.8
 ;HEIGHT:0.199999
@@ -259231,6 +259462,7 @@ G1 X105.61 Y94.65 E-.19713
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z23.2 F9000
 G1 X111.019 Y101.075 Z23.2
 G1 Z22.8
@@ -261593,6 +261825,7 @@ G1 X106.776 Y79.347 E.02199
 G1 X107.081 Y79.567 E.01729
 G1 X107.516 Y80.079 E.03094
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23
 ;HEIGHT:0.200001
@@ -261608,6 +261841,7 @@ G1 X106.815 Y79.375 E-.09825
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z23.4 F9000
 G1 X111.063 Y104.334 Z23.4
 G1 Z23
@@ -263807,6 +264041,7 @@ G1 X115.473 Y80.891 E.00301
 ;WIDTH:0.588016
 G1 X115.504 Y80.955 E.00314
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.2
 ;HEIGHT:0.200001
@@ -263821,6 +264056,7 @@ G1 X115.473 Y80.891 E-.04286
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z23.6 F9000
 G1 X110.105 Y105.639 Z23.6
 G1 Z23.2
@@ -266155,6 +266391,7 @@ G1 X109.219 Y80.278 E.01371
 G1 X108.839 Y80.465 E.01135
 G1 X109.714 Y80.495 E.02345
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.4
 ;HEIGHT:0.199999
@@ -266170,6 +266407,7 @@ G1 X108.95 Y80.41 E-.03721
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z23.8 F9000
 G1 X111.165 Y105.367 Z23.8
 G1 Z23.4
@@ -268457,6 +268695,7 @@ G1 X118.43 Y84.279 E.011
 G1 X118.367 Y84.798 E.01522
 G1 X118.335 Y84.92 E.00367
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.6
 ;HEIGHT:0.200001
@@ -268473,6 +268712,7 @@ G1 X118.406 Y83.929 E-.10527
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z24 F9000
 G1 X107.973 Y80.378 Z24
 G1 Z23.6
@@ -270796,6 +271036,7 @@ G1 X102.608 Y129.264 E.01334
 G1 X103.126 Y129.563 E.0174
 G1 X103.25 Y129.213 E.0108
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:23.8
 ;HEIGHT:0.199999
@@ -270812,6 +271053,7 @@ G1 X102.583 Y129.246 E-.00923
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z24.2 F9000
 G1 X107.64 Y80.482 Z24.2
 G1 Z23.8
@@ -273082,6 +273324,7 @@ G1 X110.518 Y132.237 E.02029
 G1 X111.264 Y132.165 E.0292
 G1 X111.951 Y132.046 E.02712
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24
 ;HEIGHT:0.200001
@@ -273097,6 +273340,7 @@ G1 X110.962 Y132.194 E-.09101
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z24.4 F9000
 G1 X107.111 Y80.624 Z24.4
 G1 Z24
@@ -275337,6 +275581,7 @@ G1 X103.324 Y128.135 E.00818
 G1 X103.623 Y127.936 E.01045
 G1 X103.79 Y127.852 E.00544
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.2
 ;HEIGHT:0.200001
@@ -275354,6 +275599,7 @@ G1 X103.043 Y128.487 E-.05183
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z24.6 F9000
 G1 X108.243 Y80.127 Z24.6
 G1 Z24.2
@@ -277368,6 +277614,7 @@ G1 X112.031 Y131.655 E.01301
 ;WIDTH:0.573366
 G1 X112.311 Y131.57 E.01267
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.4
 ;HEIGHT:0.199999
@@ -277382,6 +277629,7 @@ G1 X112.031 Y131.655 E-.17791
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z24.8 F9000
 G1 X107.366 Y80.443 Z24.8
 G1 Z24.4
@@ -279363,6 +279611,7 @@ G1 X110.867 Y131.674 E.04132
 G1 X111.655 Y131.564 E.03781
 G1 X112.062 Y131.471 E.01984
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.6
 ;HEIGHT:0.200001
@@ -279378,6 +279627,7 @@ G1 X111.078 Y131.644 E-.17472
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z25 F9000
 G1 X107.333 Y80.347 Z25
 G1 Z24.6
@@ -281021,6 +281271,7 @@ G1 X98.953 Y115.687 E.00477
 G1 X99.014 Y115.711 E.00177
 G1 X99.066 Y115.851 E.00401
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:24.8
 ;HEIGHT:0.199999
@@ -281037,6 +281288,7 @@ G1 X98.702 Y116.761 E-.13008
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z25.2 F9000
 G1 X109.845 Y109.893 Z25.2
 G1 Z24.8
@@ -282415,6 +282667,7 @@ G1 X117.633 Y84.643 E.01574
 ;WIDTH:0.600239
 G1 X117.468 Y85.002 E.01791
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25
 ;HEIGHT:0.200001
@@ -282429,6 +282682,7 @@ G1 X117.633 Y84.643 E-.23939
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z25.4 F9000
 G1 X109.996 Y110.35 Z25.4
 G1 Z25
@@ -283743,6 +283997,7 @@ G1 X117.516 Y84.489 E.01142
 ;WIDTH:0.60602
 G1 X117.435 Y84.64 E.00789
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.2
 ;HEIGHT:0.200001
@@ -283757,6 +284012,7 @@ G1 X117.516 Y84.489 E-.10439
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z25.6 F9000
 G1 X102.781 Y127.473 Z25.6
 G1 Z25.2
@@ -285052,6 +285308,7 @@ G1 X117.446 Y84.138 E.01107
 ;WIDTH:0.609331
 G1 X117.321 Y84.44 E.01511
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.4
 ;HEIGHT:0.199999
@@ -285066,6 +285323,7 @@ G1 X117.446 Y84.138 E-.19874
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z25.8 F9000
 G1 X107.57 Y79.907 Z25.8
 G1 Z25.4
@@ -286282,6 +286540,7 @@ G1 X101.94 Y127.836 E.02443
 ;WIDTH:0.510749
 G1 X102.356 Y128.05 E.01783
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.6
 ;HEIGHT:0.200001
@@ -286297,6 +286556,7 @@ G1 X102.074 Y128.414 E-.13115
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z26 F9000
 G1 X107.512 Y79.881 Z26
 G1 Z25.6
@@ -287494,6 +287754,7 @@ G1 X102.36 Y128.144 E.01381
 ;WIDTH:0.547372
 G1 X102.44 Y128.433 E.01233
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:25.8
 ;HEIGHT:0.199999
@@ -287511,6 +287772,7 @@ G1 X101.642 Y128.272 E-.13486
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z26.2 F9000
 G1 X107.433 Y79.873 Z26.2
 G1 Z25.8
@@ -288696,6 +288958,7 @@ G1 E1 F3900
 G1 F6078
 G1 X118.383 Y127.986 E.00268
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26
 ;HEIGHT:0.200001
@@ -288710,6 +288973,7 @@ G1 X118.293 Y128.022 E-.06852
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z26.4 F9000
 G1 X109.934 Y112.498 Z26.4
 G1 Z26
@@ -290108,6 +290372,7 @@ G1 F6237
 G1 X114.292 Y85.898 E.01414
 G1 X114.758 Y85.416 E.01857
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.2
 ;HEIGHT:0.200001
@@ -290123,6 +290388,7 @@ G1 X114.078 Y86.149 E-.09892
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z26.6 F9000
 G1 X109.473 Y112.831 Z26.6
 G1 Z26.2
@@ -291544,6 +291810,7 @@ G1 X107.014 Y89.876 E.01995
 G1 X106.708 Y89.664 E.01178
 G1 X105.78 Y88.736 E.04146
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.4
 ;HEIGHT:0.199999
@@ -291558,6 +291825,7 @@ G1 X106.487 Y89.443 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z26.8 F9000
 G1 X108.866 Y112.688 Z26.8
 G1 Z26.4
@@ -293007,6 +293275,7 @@ G1 X105.204 Y82.686 E.01051
 G1 X104.941 Y82.638 E.01298
 G1 X104.941 Y85.402 E.13447
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.6
 ;HEIGHT:0.200001
@@ -293021,6 +293290,7 @@ G1 X104.941 Y84.402 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z27 F9000
 G1 X108.894 Y113.218 Z27
@@ -294423,6 +294693,7 @@ G1 F6823
 G1 X106.256 Y86.44 E.00204
 G1 X106.321 Y86.475 E.00204
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:26.8
 ;HEIGHT:0.199999
@@ -294438,6 +294709,7 @@ G1 X106.32 Y86.403 E-.04469
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z27.2 F9000
 G1 X110.908 Y113.894 Z27.2
 G1 Z26.8
@@ -296001,6 +296273,7 @@ G1 X107.386 Y85.466 E.00756
 G1 X107.159 Y85.466 E.00684
 G1 X106.541 Y86.084 E.02631
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27
 ;HEIGHT:0.200001
@@ -296016,6 +296289,7 @@ G1 X107.284 Y85.466 E-.03761
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z27.4 F9000
 G1 X111.657 Y113.307 Z27.4
 G1 Z27
@@ -297212,6 +297486,7 @@ G1 X104.278 Y83.511 E.01474
 G1 X104.062 Y83.228 E.01731
 G1 X104.062 Y81.731 E.0728
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.2
 ;HEIGHT:0.200001
@@ -297226,6 +297501,7 @@ G1 X104.062 Y82.731 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z27.6 F9000
 G1 X107.033 Y80.086 Z27.6
@@ -298231,6 +298507,7 @@ G1 X112.256 Y116.04 F9000
 G1 F5369
 G1 X113.177 Y116.101 E.02763
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.4
 ;HEIGHT:0.199999
@@ -298245,6 +298522,7 @@ G1 X112.256 Y116.04 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z27.8 F9000
 G1 X109.983 Y81.358 Z27.8
 G1 Z27.4
@@ -299369,6 +299647,7 @@ G1 X104.644 Y116.387 F9000
 G1 F5120
 G1 X105.258 Y116.292 E.01722
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.6
 ;HEIGHT:0.200001
@@ -299383,6 +299662,7 @@ G1 X104.644 Y116.387 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z28 F9000
 G1 X109.761 Y82.006 Z28
 G1 Z27.6
@@ -300548,6 +300828,7 @@ G1 X111.851 Y126.328 E.01979
 G1 X111.27 Y125.511 E.02918
 G1 X111.058 Y125.142 E.01238
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:27.8
 ;HEIGHT:0.199999
@@ -300563,6 +300844,7 @@ G1 X111.603 Y125.979 E-.17232
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z28.2 F9000
 G1 X111.598 Y82.164 Z28.2
 G1 Z27.8
@@ -301716,6 +301998,7 @@ G1 X107.767 Y116.345 F9000
 G1 F4359
 G1 X108.295 Y116.398 E.01471
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28
 ;HEIGHT:0.200001
@@ -301730,6 +302013,7 @@ G1 X107.767 Y116.345 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z28.4 F9000
 G1 X111.878 Y124.01 Z28.4
 G1 Z28
@@ -302643,6 +302927,7 @@ G1 X113.306 Y81.931 E.00773
 G1 X113.426 Y82.068 E.00583
 G1 X113.564 Y82.128 E.00484
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.2
 ;HEIGHT:0.200001
@@ -302662,6 +302947,7 @@ G1 X113.692 Y81.821 E-.05317
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z28.6 F9000
 G1 X111.289 Y124.782 Z28.6
 G1 Z28.2
@@ -303554,6 +303840,7 @@ G1 X113.424 Y81.771 E.00881
 G1 X113.483 Y81.995 E.00671
 G1 X113.659 Y82.103 E.00599
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.4
 ;HEIGHT:0.199999
@@ -303571,6 +303858,7 @@ G1 X113.718 Y81.679 E-.07716
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z28.8 F9000
 G1 X110.929 Y123.042 Z28.8
 G1 Z28.4
@@ -304407,6 +304695,7 @@ G1 X106.315 Y81.864 F9000
 G1 F3181
 G1 X106.315 Y81.863 E.00007
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.6
 ;HEIGHT:0.200001
@@ -304421,6 +304710,7 @@ G1 X106.315 Y81.864 E-.00097
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z29 F9000
 G1 X110 Y124.031 Z29
 G1 Z28.6
@@ -305016,6 +305306,7 @@ G1 X113.946 Y81.789 E.00916
 G1 X113.974 Y81.99 E.00734
 G1 X113.907 Y82.095 E.00447
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:28.8
 ;HEIGHT:0.199999
@@ -305034,6 +305325,7 @@ G1 X113.524 Y81.417 E-.04464
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z29.2 F9000
 G1 X110.209 Y124.708 Z29.2
 G1 Z28.8
@@ -305564,6 +305856,7 @@ G1 X114.956 Y123.104 F9000
 G1 F2490
 G1 X114.968 Y123.091 E.00058
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29
 ;HEIGHT:0.200001
@@ -305578,6 +305871,7 @@ G1 X114.956 Y123.104 E-.01128
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z29.4 F9000
 G1 X109.994 Y124.883 Z29.4
 G1 Z29
@@ -306024,6 +306318,7 @@ G1 X108.261 Y119.771 E.02966
 G1 X108.123 Y118.074 E.04954
 G1 X107.989 Y117.288 E.02319
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.2
 ;HEIGHT:0.200001
@@ -306039,6 +306334,7 @@ G1 X108.139 Y118.276 E-.06095
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z29.6 F9000
 G1 X109.983 Y125.071 Z29.6
 G1 Z29.2
@@ -306428,6 +306724,7 @@ G1 X113.324 Y118.391 E.02637
 G1 X112.431 Y117.853 E.03033
 G1 X112.119 Y117.753 E.00951
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.4
 ;HEIGHT:0.199999
@@ -306443,6 +306740,7 @@ G1 X113.008 Y118.2 E-.20196
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z29.8 F9000
 G1 X109.774 Y124.61 Z29.8
 G1 Z29.4
@@ -306816,6 +307114,7 @@ G1 X108.05 Y119.361 E.02131
 G1 X107.964 Y118.76 E.01765
 G1 X107.893 Y118.425 E.00997
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.6
 ;HEIGHT:0.200001
@@ -306832,6 +307131,7 @@ G1 X108.053 Y119.411 E-.01522
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z30 F9000
 G1 X110.047 Y124.976 Z30
 G1 Z29.6
@@ -307115,6 +307415,7 @@ G1 X107.982 Y120.412 E.01525
 G1 X107.977 Y119.973 E.01276
 G1 X107.849 Y119.156 E.02408
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:29.8
 ;HEIGHT:0.199999
@@ -307130,6 +307431,7 @@ G1 X107.979 Y120.146 E-.05174
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z30.2 F9000
 G1 X111.877 Y120.719 Z30.2
 G1 Z29.8
@@ -307301,6 +307603,7 @@ G1 X107.414 Y121.338 E.00825
 G1 X107.285 Y121.393 E.00443
 G1 X106.888 Y120.996 E.0178
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 ;LAYER_CHANGE
 ;Z:30
 ;HEIGHT:0.200001
@@ -307318,6 +307621,7 @@ G1 X107.587 Y121.145 E-.01152
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_START NAME=flexi_turtle_stl_id_15_copy_0
 G1 Z30.4 F9000
 G1 X111.554 Y120.834 Z30.4
 G1 Z30
@@ -307402,6 +307706,7 @@ G1 X107.636 Y120.543 E.01216
 G1 X107.747 Y120.373 E.00723
 G1 X107.946 Y120.226 E.00882
 ; stop printing object flexi_turtle.stl id:15 copy 0
+EXCLUDE_OBJECT_END NAME=flexi_turtle_stl_id_15_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
