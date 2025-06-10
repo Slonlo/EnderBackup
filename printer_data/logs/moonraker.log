@@ -2565,3 +2565,4 @@ Content-Type: multipart/form-data; boundary=------------------------e80b57401186
 2025-06-10 07:08:53,134 [websockets.py:open()] - Websocket Opened: ID: 139746340141760, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
 2025-06-10 07:08:53,422 [websockets.py:_handle_identify()] - Websocket 139746340141760 Client Identified - Name: Mobileraker-android, Version: 2.9.0-641, Type: mobile
 2025-06-10 07:09:27,463 [websockets.py:on_close()] - Websocket Closed: ID: 139746340141760 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.30
+2025-06-10 07:30:24,823 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
