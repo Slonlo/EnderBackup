@@ -2523,3 +2523,16 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-06-10 06:22:05,288 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-06-10 06:22:05,563 [klippy_connection.py:_check_ready()] - Klippy ready
 2025-06-10 06:22:06,041 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-06-10 06:24:25,968 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 5.12ms
+2025-06-10 06:24:25,969 [websockets.py:open()] - Websocket Opened: ID: 139746827579552, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-06-10 06:24:25,974 [websockets.py:_handle_identify()] - Websocket 139746827579552 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-10 06:24:58,060 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------e80b574011862c68
+2025-06-10 06:24:58,559 [application.py:post()] - Processing Uploaded File: flexi_turtle_PLA_1h11m.gcode
+2025-06-10 06:24:58,996 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-06-10 06:24:58,997 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: flexi_turtle_PLA_1h11m.gcode, sliced by OrcaSlicer
+
+2025-06-10 06:25:05,540 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 4.57ms
+2025-06-10 06:25:05,541 [websockets.py:open()] - Websocket Opened: ID: 139746340087312, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-06-10 06:25:05,547 [websockets.py:_handle_identify()] - Websocket 139746340087312 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
