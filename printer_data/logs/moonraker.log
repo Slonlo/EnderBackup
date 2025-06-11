@@ -3028,3 +3028,4 @@ Properties:
 2025-06-10 20:51:42,710 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
 2025-06-10 20:51:50,508 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 251780.35ms
 2025-06-10 20:51:50,555 [power.py:_handle_job_queued()] - Power Device Power: Job 'fidget-cube-v3_PLA_5h1m.gcode' queued, powering on
+2025-06-10 21:55:25,012 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
