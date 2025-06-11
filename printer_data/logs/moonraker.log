@@ -1039,3 +1039,8 @@ Error configuring printer
 2025-06-11 04:21:33,378 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
 2025-06-11 04:21:33,384 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-06-11 04:21:33,402 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.off, Code: -31000, Message: Unit klipper-mcu.service not loaded.
+2025-06-11 04:21:38,346 [websockets.py:on_close()] - Websocket Closed: ID: 139746340070976 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.89
+2025-06-11 04:21:38,461 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 6.92ms
+2025-06-11 04:21:38,462 [websockets.py:open()] - Websocket Opened: ID: 139746340073184, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-06-11 04:21:38,464 [websockets.py:_handle_identify()] - Websocket 139746340073184 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-11 04:21:38,482 [websockets.py:on_close()] - Websocket Closed: ID: 139746340073184 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.02
