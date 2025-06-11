@@ -3024,3 +3024,4 @@ Properties:
 2025-06-10 20:48:42,697 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-x6xmj9z8.json) successfully finished
 2025-06-10 20:48:42,703 [klippy_apis.py:start_print()] - Requesting Job Start, filename = fidget-cube-v3_PLA_5h1m.gcode
 2025-06-10 20:49:42,705 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2025-06-10 20:50:42,707 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
