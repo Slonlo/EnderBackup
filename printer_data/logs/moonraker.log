@@ -943,3 +943,8 @@ Pinned Commit: None
 2025-06-11 04:05:31,753 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2025-06-11 04:05:35,089 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
 2025-06-11 04:05:35,092 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-06-11 04:05:35,342 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-06-11 04:05:35,611 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-06-11 04:05:36,093 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-06-11 04:05:36,849 [klippy_apis.py:start_print()] - Requesting Job Start, filename = fidget-cube-v3_PLA_5h1m.gcode
+2025-06-11 04:05:37,099 [job_state.py:_status_update()] - Job Started: fidget-cube-v3_PLA_5h1m.gcode
