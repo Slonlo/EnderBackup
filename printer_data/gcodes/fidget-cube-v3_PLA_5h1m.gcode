@@ -463,6 +463,13 @@
 ; first layer extrusion width = 0.40mm
 
 ; EXECUTABLE_BLOCK_START
+
+
+; Pre-Processed for Cancel-Object support by preprocess_cancellation v0.2.0
+; 3 known objects
+EXCLUDE_OBJECT_DEFINE NAME=fidget_cube_v3_stl_id_2_copy_0 CENTER=109.986,67.845 POLYGON=[[69.814,47.987],[69.814,87.751],[150.185,87.751],[150.185,47.987]]
+EXCLUDE_OBJECT_DEFINE NAME=fidget_cube_v3_stl_id_1_copy_0 CENTER=109.986,109.977 POLYGON=[[69.814,90.119],[69.814,129.883],[150.185,129.883],[150.185,90.119]]
+EXCLUDE_OBJECT_DEFINE NAME=fidget_cube_v3_stl_id_0_copy_0 CENTER=109.986,152.109 POLYGON=[[69.814,132.251],[69.814,172.015],[150.185,172.015],[150.185,132.251]]
 M73 P0 R300
 ;TYPE:Custom
 G28 ; home all axis
@@ -501,6 +508,7 @@ G1 E-1 F5100
 ;_SET_FAN_SPEED_CHANGING_LAYER
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z.6 F9000
 G1 X127.323 Y83.088
 G1 Z.6
@@ -3026,7 +3034,9 @@ G1 X86.79 Y82.255 F9000
 G1 F2400
 G1 X87.517 Y82.981 E.0301
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -5556,7 +5566,9 @@ G1 X86.79 Y124.387 F9000
 G1 F2400
 G1 X87.517 Y125.113 E.0301
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F2400
@@ -8085,6 +8097,7 @@ G1 X86.79 Y166.519 F9000
 G1 F2400
 G1 X87.517 Y167.245 E.0301
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 M106 S255
 ;LAYER_CHANGE
 ;Z:0.4
@@ -8102,6 +8115,7 @@ G1 X86.81 Y166.538 E-.3
 M104 S220 ; set nozzle temperature
 M140 S65 ; set bed temperature
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z.8 F9000
 G1 X126.793 Y83.088 Z.8
 G1 Z.4
@@ -10469,7 +10483,9 @@ G1 X86.428 Y74.355 E.04614
 G1 X86.428 Y73.847 E.01491
 G1 X87.193 Y73.082 E.03171
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -12843,7 +12859,9 @@ G1 X86.428 Y116.487 E.04614
 G1 X86.428 Y115.979 E.01491
 G1 X87.193 Y115.214 E.03171
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -15215,6 +15233,7 @@ G1 X86.428 Y158.619 E.04614
 G1 X86.428 Y158.111 E.01491
 G1 X87.193 Y157.346 E.03171
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:0.6
 ;HEIGHT:0.2
@@ -15229,6 +15248,7 @@ G1 X86.485 Y158.053 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z1 F9000
 G1 X93.553 Y72.968 Z1
 G1 Z.6
@@ -18098,7 +18118,9 @@ G1 F8400
 G1 X137.824 Y85.272 E.00204
 G1 X137.889 Y85.307 E.00204
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.91059 F5100
 ;WIPE_START
 G1 F8400
@@ -20973,7 +20995,9 @@ G1 F8400
 G1 X137.824 Y127.404 E.00204
 G1 X137.889 Y127.439 E.00204
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.91059 F5100
 ;WIPE_START
 G1 F8400
@@ -23848,6 +23872,7 @@ G1 F8400
 G1 X137.824 Y169.536 E.00204
 G1 X137.889 Y169.571 E.00204
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:0.8
 ;HEIGHT:0.2
@@ -23863,6 +23888,7 @@ G1 X137.888 Y169.499 E-.04469
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z1.2 F9000
 G1 X137.055 Y70.656 Z1.2
 G1 Z.8
@@ -26763,7 +26789,9 @@ G1 X143.79 Y50.755 E.1058
 G1 X147.433 Y54.398 E.14991
 G1 X147.433 Y52.97 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -29669,7 +29697,9 @@ G1 X143.79 Y92.887 E.1058
 G1 X147.433 Y96.53 E.14991
 G1 X147.433 Y95.102 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -32576,6 +32606,7 @@ G1 X143.79 Y135.019 E.1058
 G1 X147.433 Y138.662 E.14991
 G1 X147.433 Y137.234 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:1
 ;HEIGHT:0.2
@@ -32590,6 +32621,7 @@ G1 X147.433 Y138.234 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z1.4 F9000
 G1 X137.181 Y65.095 Z1.4
 G1 Z1
@@ -36402,7 +36434,9 @@ G1 X87.552 Y82.302 E.01713
 G1 X88.316 Y82.726 E.02469
 G1 X88.575 Y82.737 E.00732
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -40221,7 +40255,9 @@ G1 X87.552 Y124.434 E.01713
 G1 X88.316 Y124.858 E.02469
 G1 X88.575 Y124.869 E.00732
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -44041,6 +44077,7 @@ G1 X87.552 Y166.565 E.01713
 G1 X88.316 Y166.99 E.02469
 G1 X88.575 Y167.001 E.00732
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:1.2
 ;HEIGHT:0.2
@@ -44056,6 +44093,7 @@ G1 X87.668 Y166.63 E-.22223
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z1.6 F9000
 G1 X82.954 Y65.077 Z1.6
 G1 Z1.2
@@ -48066,7 +48104,9 @@ G1 X129.312 Y73.369 F9000
 G1 F8400
 G1 X129.083 Y73.581 E.0113
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.81076 F5100
 ;WIPE_START
 G1 F8400
@@ -52082,7 +52122,9 @@ G1 X129.312 Y115.501 F9000
 G1 F8400
 G1 X129.083 Y115.713 E.0113
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.81076 F5100
 ;WIPE_START
 G1 F8400
@@ -56097,6 +56139,7 @@ G1 X129.312 Y157.633 F9000
 G1 F8400
 G1 X129.083 Y157.845 E.0113
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:1.4
 ;HEIGHT:0.2
@@ -56111,6 +56154,7 @@ G1 X129.312 Y157.633 E-.18924
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z1.8 F9000
 G1 X94.348 Y73.628 Z1.8
 G1 Z1.4
@@ -60835,7 +60879,9 @@ G1 X148.169 Y73.313 E.10582
 G1 X145.2 Y70.345 E.12217
 G1 X146.628 Y70.345 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -65566,7 +65612,9 @@ G1 X148.169 Y115.445 E.10582
 G1 X145.2 Y112.477 E.12217
 G1 X146.628 Y112.477 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -70297,6 +70345,7 @@ G1 X148.169 Y157.577 E.10582
 G1 X145.2 Y154.609 E.12217
 G1 X146.628 Y154.609 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:1.6
 ;HEIGHT:0.2
@@ -70311,6 +70360,7 @@ G1 X145.628 Y154.609 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z2 F9000
 G1 X137.028 Y70.639 Z2
 G1 Z1.6
@@ -74793,7 +74843,9 @@ G1 X88.39 Y74.041 E.01025
 ;WIDTH:0.469698
 G1 X88.169 Y74.259 E.0108
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.81152 F5100
 ;WIPE_START
 G1 F8400
@@ -79282,7 +79334,9 @@ G1 X88.39 Y116.173 E.01025
 ;WIDTH:0.469698
 G1 X88.169 Y116.391 E.0108
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.81152 F5100
 ;WIPE_START
 G1 F8400
@@ -83770,6 +83824,7 @@ G1 X88.39 Y158.305 E.01025
 ;WIDTH:0.469698
 G1 X88.169 Y158.523 E.0108
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:1.8
 ;HEIGHT:0.2
@@ -83784,6 +83839,7 @@ G1 X88.39 Y158.305 E-.18848
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z2.2 F9000
 G1 X94.573 Y73.897 Z2.2
 G1 Z1.8
@@ -88436,7 +88492,9 @@ G1 X148.532 Y73.677 E.10581
 G1 X144.831 Y69.976 E.15228
 G1 X146.26 Y69.976 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -93093,7 +93151,9 @@ G1 X148.532 Y115.809 E.10581
 G1 X144.831 Y112.108 E.15228
 G1 X146.26 Y112.108 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -97750,6 +97810,7 @@ G1 X148.532 Y157.941 E.10581
 G1 X144.831 Y154.24 E.15228
 G1 X146.26 Y154.24 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:2
 ;HEIGHT:0.2
@@ -97764,6 +97825,7 @@ G1 X145.26 Y154.24 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z2.4 F9000
 G1 X137.028 Y70.639 Z2.4
 G1 Z2
@@ -101768,7 +101830,9 @@ G1 X90.561 Y82.132 F9000
 G1 F8400
 G1 X90.794 Y81.843 E.01028
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.77481 F5100
 ;WIPE_START
 G1 F8400
@@ -105777,7 +105841,9 @@ G1 X90.561 Y124.264 F9000
 G1 F8400
 G1 X90.794 Y123.975 E.01028
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.77481 F5100
 ;WIPE_START
 G1 F8400
@@ -109786,6 +109852,7 @@ G1 X90.561 Y166.396 F9000
 G1 F8400
 G1 X90.794 Y166.107 E.01028
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:2.2
 ;HEIGHT:0.2
@@ -109800,6 +109867,7 @@ G1 X90.561 Y166.396 E-.22519
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z2.6 F9000
 G1 X94.722 Y74.127 Z2.6
 G1 Z2.2
@@ -113582,7 +113650,9 @@ G1 X149.04 Y85.556 E.00625
 G1 X148.949 Y85.718 E.00542
 G1 X148.731 Y86.001 E.01037
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -117373,7 +117443,9 @@ G1 X149.04 Y127.688 E.00625
 G1 X148.949 Y127.85 E.00542
 G1 X148.731 Y128.133 E.01037
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -121163,6 +121235,7 @@ G1 X149.04 Y169.82 E.00625
 G1 X148.949 Y169.982 E.00542
 G1 X148.731 Y170.265 E.01037
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:2.4
 ;HEIGHT:0.2
@@ -121180,6 +121253,7 @@ G1 X149.101 Y169.371 E-.0727
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z2.8 F9000
 G1 X94.773 Y74.211 Z2.8
 G1 Z2.4
@@ -124895,7 +124969,9 @@ G1 X134.037 Y84.266 E.03666
 G1 X133.016 Y84.174 E.02983
 G1 X132.161 Y85.318 E.04155
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -128615,7 +128691,9 @@ G1 X134.037 Y126.398 E.03666
 G1 X133.016 Y126.306 E.02983
 G1 X132.161 Y127.45 E.04155
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -132336,6 +132414,7 @@ G1 X134.037 Y168.53 E.03666
 G1 X133.016 Y168.438 E.02983
 G1 X132.161 Y169.582 E.04155
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:2.6
 ;HEIGHT:0.2
@@ -132350,6 +132429,7 @@ G1 X132.76 Y168.781 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z3 F9000
 G1 X137.028 Y70.639 Z3
 G1 Z2.6
@@ -136037,7 +136117,9 @@ G1 X85.458 Y76.866 E.05317
 G1 X84.826 Y77.498 E.02601
 G1 X84.826 Y78.926 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -139731,7 +139813,9 @@ G1 X84.826 Y119.63 E.02601
 M73 P16 R249
 G1 X84.826 Y121.058 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -143425,6 +143509,7 @@ G1 X85.458 Y161.13 E.05317
 G1 X84.826 Y161.762 E.02601
 G1 X84.826 Y163.19 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:2.8
 ;HEIGHT:0.2
@@ -143439,6 +143524,7 @@ G1 X84.826 Y162.19 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z3.2 F9000
 G1 X137.028 Y70.639 Z3.2
 G1 Z2.8
@@ -146970,7 +147056,9 @@ G1 X84.811 Y77.867 E.02663
 G1 X84.803 Y77.891 E.00075
 G1 X84.803 Y76.463 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -150508,7 +150596,9 @@ G1 X84.811 Y119.999 E.02663
 G1 X84.803 Y120.023 E.00075
 G1 X84.803 Y118.595 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -154045,6 +154135,7 @@ G1 X84.811 Y162.131 E.02663
 G1 X84.803 Y162.155 E.00075
 G1 X84.803 Y160.727 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:3
 ;HEIGHT:0.2
@@ -154059,6 +154150,7 @@ G1 X84.803 Y161.727 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z3.4 F9000
 G1 X137.028 Y70.639 Z3.4
 G1 Z3
@@ -157485,7 +157577,9 @@ G1 X85.164 Y77.867 E.01208
 G1 X84.795 Y78.412 E.01916
 G1 X84.795 Y76.984 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -160917,7 +161011,9 @@ G1 X85.164 Y119.999 E.01208
 G1 X84.795 Y120.544 E.01916
 G1 X84.795 Y119.116 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -164348,6 +164444,7 @@ G1 X85.164 Y162.131 E.01208
 G1 X84.795 Y162.676 E.01916
 G1 X84.795 Y161.248 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:3.2
 ;HEIGHT:0.2
@@ -164362,6 +164459,7 @@ G1 X84.795 Y162.248 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z3.6 F9000
 G1 X94.834 Y74.332 Z3.6
 G1 Z3.2
@@ -167190,7 +167288,9 @@ G1 X145.683 Y86.723 E.1058
 G1 X149.175 Y83.232 E.14366
 G1 X149.175 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -170023,7 +170123,9 @@ G1 X145.683 Y128.855 E.1058
 G1 X149.175 Y125.364 E.14366
 G1 X149.175 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -172856,6 +172958,7 @@ G1 X145.683 Y170.987 E.1058
 G1 X149.175 Y167.496 E.14366
 G1 X149.175 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:3.4
 ;HEIGHT:0.2
@@ -172870,6 +172973,7 @@ G1 X149.175 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z3.8 F9000
 G1 X94.816 Y74.308 Z3.8
 G1 Z3.4
@@ -176014,7 +176118,9 @@ G1 X145.683 Y86.723 E.1058
 G1 X149.175 Y83.232 E.14366
 G1 X149.175 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -179163,7 +179269,9 @@ G1 X145.683 Y128.855 E.1058
 G1 X149.175 Y125.364 E.14366
 G1 X149.175 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -182312,6 +182420,7 @@ G1 X145.683 Y170.987 E.1058
 G1 X149.175 Y167.496 E.14366
 G1 X149.175 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:3.6
 ;HEIGHT:0.2
@@ -182326,6 +182435,7 @@ G1 X149.175 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z4 F9000
 G1 X136.977 Y65.097 Z4
 G1 Z3.6
@@ -185720,7 +185830,9 @@ G1 X89.943 Y73.381 E.02789
 G1 X84.853 Y78.471 E.20945
 G1 X84.853 Y77.043 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -189119,7 +189231,9 @@ G1 X89.943 Y115.513 E.02789
 G1 X84.853 Y120.603 E.20945
 G1 X84.853 Y119.175 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -192519,6 +192633,7 @@ G1 X89.943 Y157.645 E.02789
 G1 X84.853 Y162.735 E.20945
 G1 X84.853 Y161.307 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:3.8
 ;HEIGHT:0.2
@@ -192533,6 +192648,7 @@ G1 X84.853 Y162.307 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z4.2 F9000
 G1 X136.934 Y65.097 Z4.2
 G1 Z3.8
@@ -195989,7 +196105,9 @@ G1 X89.986 Y73.339 E.02836
 G1 X84.901 Y78.424 E.20925
 G1 X84.901 Y76.995 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -199450,7 +199568,9 @@ G1 X89.986 Y115.471 E.02836
 G1 X84.901 Y120.556 E.20925
 G1 X84.901 Y119.127 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -202911,6 +203031,7 @@ G1 X89.986 Y157.603 E.02836
 G1 X84.901 Y162.688 E.20925
 G1 X84.901 Y161.259 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:4
 ;HEIGHT:0.2
@@ -202925,6 +203046,7 @@ G1 X84.901 Y162.259 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z4.4 F9000
 G1 X136.88 Y65.097 Z4.4
 G1 Z4
@@ -206986,7 +207108,9 @@ G1 X88.64 Y81.956 E.00533
 G1 X94.024 Y76.572 E.22154
 G1 X94.024 Y78 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -211052,7 +211176,9 @@ G1 X88.64 Y124.088 E.00533
 G1 X94.024 Y118.704 E.22154
 G1 X94.024 Y120.132 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -215119,6 +215245,7 @@ G1 X88.64 Y166.22 E.00533
 G1 X94.024 Y160.836 E.22154
 G1 X94.024 Y162.264 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:4.2
 ;HEIGHT:0.2
@@ -215133,6 +215260,7 @@ G1 X94.024 Y161.264 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z4.6 F9000
 G1 X136.811 Y65.097 Z4.6
 G1 Z4.2
@@ -219718,7 +219846,9 @@ G1 X87.953 Y81.429 E.00715
 ;WIDTH:0.40206
 G1 X88.565 Y82.037 E.02525
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -224310,7 +224440,9 @@ G1 X87.953 Y123.561 E.00715
 ;WIDTH:0.40206
 G1 X88.565 Y124.169 E.02525
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -228902,6 +229034,7 @@ G1 X87.953 Y165.693 E.00715
 ;WIDTH:0.40206
 G1 X88.565 Y166.301 E.02525
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:4.4
 ;HEIGHT:0.2
@@ -228916,6 +229049,7 @@ G1 X87.953 Y165.693 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z4.8 F9000
 G1 X136.727 Y65.097 Z4.8
 G1 Z4.4
@@ -233598,7 +233732,9 @@ G1 X92.693 Y80.621 E.00958
 G1 X92.317 Y80.684 E.01109
 G1 X92.111 Y80.758 E.00638
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -238290,7 +238426,9 @@ G1 X92.693 Y122.753 E.00958
 G1 X92.317 Y122.816 E.01109
 G1 X92.111 Y122.89 E.00638
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -242981,6 +243119,7 @@ G1 X92.693 Y164.885 E.00958
 G1 X92.317 Y164.948 E.01109
 G1 X92.111 Y165.022 E.00638
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:4.6
 ;HEIGHT:0.2
@@ -242998,6 +243137,7 @@ G1 X93.092 Y164.894 E-.02109
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z5 F9000
 G1 X136.628 Y65.097 Z5
 G1 Z4.6
@@ -248094,7 +248234,9 @@ G1 X92.736 Y74.687 E.01319
 G1 X93.153 Y74.669 E.01909
 G1 X93.535 Y74.584 E.01797
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -253198,7 +253340,9 @@ G1 X92.736 Y116.819 E.01319
 G1 X93.153 Y116.801 E.01909
 G1 X93.535 Y116.716 E.01797
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -258301,6 +258445,7 @@ G1 X92.736 Y158.951 E.01319
 G1 X93.153 Y158.933 E.01909
 G1 X93.535 Y158.848 E.01797
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:4.8
 ;HEIGHT:0.2
@@ -258317,6 +258462,7 @@ G1 X92.549 Y158.913 E-.05725
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z5.2 F9000
 G1 X136.511 Y65.097 Z5.2
 G1 Z4.8
@@ -263330,7 +263476,9 @@ G1 X92.631 Y74.389 E.01671
 G1 X93.079 Y74.39 E.01958
 G1 X93.235 Y74.357 E.00695
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -268349,7 +268497,9 @@ G1 X92.631 Y116.521 E.01671
 G1 X93.079 Y116.522 E.01958
 G1 X93.235 Y116.489 E.00695
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -273369,6 +273519,7 @@ G1 X92.631 Y158.653 E.01671
 G1 X93.079 Y158.654 E.01958
 G1 X93.235 Y158.621 E.00695
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:5
 ;HEIGHT:0.2
@@ -273385,6 +273536,7 @@ G1 X92.262 Y158.551 E-.11595
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z5.4 F9000
 G1 X136.373 Y65.097 Z5.4
 G1 Z5
@@ -278220,7 +278372,9 @@ G1 X86.214 Y74.188 E.00336
 ;WIDTH:0.582061
 G1 X86.271 Y74.133 E.00349
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.95178 F5100
 ;WIPE_START
 G1 F8400
@@ -283060,7 +283214,9 @@ G1 X86.214 Y116.32 E.00336
 ;WIDTH:0.582061
 G1 X86.271 Y116.265 E.00349
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.95178 F5100
 ;WIPE_START
 G1 F8400
@@ -287901,6 +288057,7 @@ G1 X86.214 Y158.452 E.00336
 ;WIDTH:0.582061
 G1 X86.271 Y158.397 E.00349
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:5.2
 ;HEIGHT:0.2
@@ -287915,6 +288072,7 @@ G1 X86.214 Y158.452 E-.04822
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z5.6 F9000
 G1 X136.212 Y65.097 Z5.6
 G1 Z5.2
@@ -292120,7 +292278,9 @@ G1 X92.731 Y73.644 E.01462
 G1 X93.254 Y73.632 E.01451
 G1 X93.458 Y73.658 E.0057
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -296333,7 +296493,9 @@ G1 X92.731 Y115.776 E.01462
 G1 X93.254 Y115.764 E.01451
 G1 X93.458 Y115.79 E.0057
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -300546,6 +300708,7 @@ G1 X93.254 Y157.896 E.01451
 G1 X93.458 Y157.922 E.0057
 M73 P32 R201
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:5.4
 ;HEIGHT:0.2
@@ -300562,6 +300725,7 @@ G1 X92.465 Y157.856 E-.0811
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z5.8 F9000
 G1 X136.023 Y65.097 Z5.8
 G1 Z5.4
@@ -304353,7 +304517,9 @@ G1 F8400
 G1 X86.047 Y82.66 E.00204
 G1 X86.112 Y82.694 E.00204
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.91059 F5100
 ;WIPE_START
 G1 F8400
@@ -308150,7 +308316,9 @@ G1 F8400
 G1 X86.047 Y124.792 E.00204
 G1 X86.112 Y124.826 E.00204
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.91059 F5100
 ;WIPE_START
 G1 F8400
@@ -311948,6 +312116,7 @@ G1 F8400
 G1 X86.047 Y166.924 E.00204
 G1 X86.112 Y166.958 E.00204
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:5.6
 ;HEIGHT:0.2
@@ -311963,6 +312132,7 @@ G1 X86.111 Y166.887 E-.04469
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z6 F9000
 G1 X93.29 Y72.968 Z6
 G1 Z5.6
@@ -314955,7 +315125,9 @@ G1 F8400
 G1 X127.019 Y73.32 E.00213
 G1 X127.086 Y73.355 E.00213
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.9086 F5100
 ;WIPE_START
 G1 F8400
@@ -317954,7 +318126,9 @@ G1 F8400
 G1 X127.019 Y115.452 E.00213
 G1 X127.086 Y115.487 E.00213
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.9086 F5100
 ;WIPE_START
 G1 F8400
@@ -320955,6 +321129,7 @@ G1 F8400
 G1 X127.019 Y157.584 E.00213
 G1 X127.086 Y157.619 E.00213
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:5.8
 ;HEIGHT:0.2
@@ -320970,6 +321145,7 @@ G1 X127.084 Y157.546 E-.04568
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z6.2 F9000
 G1 X92.818 Y72.968 Z6.2
 G1 Z5.8
@@ -324048,7 +324224,9 @@ G1 X128.391 Y82.813 E.03931
 G1 X127.875 Y82.813 E.01537
 G1 X127.296 Y82.235 E.02434
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F7200
@@ -327133,7 +327311,9 @@ G1 X128.391 Y124.945 E.03931
 G1 X127.875 Y124.945 E.01537
 G1 X127.296 Y124.367 E.02434
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F7200
@@ -330219,6 +330399,7 @@ G1 X128.391 Y167.077 E.03931
 G1 X127.875 Y167.077 E.01537
 G1 X127.296 Y166.499 E.02434
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6
 ;HEIGHT:0.2
@@ -330234,6 +330415,7 @@ G1 X128.057 Y167.077 E-.05466
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z6.4 F9000
 G1 X135.173 Y65.097 Z6.4
 G1 Z6
@@ -332820,7 +333002,9 @@ G1 X74.317 Y86.723 E.1058
 G1 X70.825 Y83.232 E.14368
 G1 X70.825 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -335412,7 +335596,9 @@ G1 X74.317 Y128.855 E.1058
 G1 X70.825 Y125.364 E.14368
 G1 X70.825 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -338005,6 +338191,7 @@ G1 X74.317 Y170.987 E.1058
 G1 X70.825 Y167.496 E.14368
 G1 X70.825 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6.2
 ;HEIGHT:0.2
@@ -338019,6 +338206,7 @@ G1 X70.825 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z6.6 F9000
 G1 X135.15 Y64.834 Z6.6
 G1 Z6.2
@@ -340681,7 +340869,9 @@ G1 X70.825 Y83.232 E.1058
 G1 X74.317 Y86.723 E.14368
 G1 X72.888 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -343349,7 +343539,9 @@ G1 X70.825 Y125.364 E.1058
 G1 X74.317 Y128.855 E.14368
 G1 X72.888 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -346018,6 +346210,7 @@ G1 X74.317 Y170.987 E.14368
 M73 P38 R185
 G1 X72.888 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6.4
 ;HEIGHT:0.2
@@ -346032,6 +346225,7 @@ G1 X73.888 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z6.8 F9000
 G1 X131.543 Y65.154 Z6.8
 G1 Z6.4
@@ -348697,7 +348891,9 @@ G1 X70.825 Y72.324 E.04762
 G1 X85.224 Y86.723 E.59253
 G1 X86.653 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -351370,7 +351566,9 @@ G1 X70.825 Y114.456 E.04762
 G1 X85.224 Y128.855 E.59253
 G1 X86.653 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -354041,6 +354239,7 @@ G1 X70.825 Y156.588 E.04762
 G1 X85.224 Y170.987 E.59253
 G1 X86.653 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6.6
 ;HEIGHT:0.2
@@ -354055,6 +354254,7 @@ G1 X85.653 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z7 F9000
 G1 X131.543 Y65.154 Z7
 G1 Z6.6
@@ -356776,7 +356976,9 @@ G1 X74.317 Y86.723 E.1058
 G1 X70.825 Y83.232 E.14368
 G1 X70.825 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -359502,7 +359704,9 @@ G1 X74.317 Y128.855 E.1058
 G1 X70.825 Y125.364 E.14368
 G1 X70.825 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -362228,6 +362432,7 @@ G1 X74.317 Y170.987 E.1058
 G1 X70.825 Y167.496 E.14368
 G1 X70.825 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:6.8
 ;HEIGHT:0.2
@@ -362242,6 +362447,7 @@ G1 X70.825 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z7.2 F9000
 G1 X131.543 Y65.154 Z7.2
 G1 Z6.8
@@ -364418,7 +364624,9 @@ G1 X70.825 Y83.232 E.1058
 G1 X74.317 Y86.723 E.14368
 G1 X72.888 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -366599,7 +366807,9 @@ G1 X70.825 Y125.364 E.1058
 G1 X74.317 Y128.855 E.14368
 G1 X72.888 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -368780,6 +368990,7 @@ G1 X70.825 Y167.496 E.1058
 G1 X74.317 Y170.987 E.14368
 G1 X72.888 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:7
 ;HEIGHT:0.2
@@ -368794,6 +369005,7 @@ G1 X73.888 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z7.4 F9000
 G1 X131.544 Y65.154 Z7.4
 G1 Z7
@@ -371130,7 +371342,9 @@ G1 X87.803 Y81.503 E.02169
 G1 X88.214 Y82.483 E.03093
 G1 X88.215 Y83.911 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -373473,7 +373687,9 @@ G1 X87.803 Y123.635 E.02169
 G1 X88.214 Y124.615 E.03093
 G1 X88.215 Y126.043 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -375815,6 +376031,7 @@ G1 X87.803 Y165.767 E.02169
 G1 X88.214 Y166.747 E.03093
 G1 X88.215 Y168.175 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:7.2
 ;HEIGHT:0.2
@@ -375829,6 +376046,7 @@ G1 X88.215 Y167.175 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z7.6 F9000
 G1 X131.543 Y65.154 Z7.6
 G1 Z7.2
@@ -378259,7 +378477,9 @@ G1 X70.914 Y73.294 E.05292
 G1 X70.825 Y73.205 E.00366
 G1 X70.825 Y71.776 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -380695,7 +380915,9 @@ G1 X70.914 Y115.426 E.05292
 G1 X70.825 Y115.337 E.00366
 G1 X70.825 Y113.908 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -383131,6 +383353,7 @@ G1 X70.914 Y157.558 E.05292
 G1 X70.825 Y157.469 E.00366
 G1 X70.825 Y156.04 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:7.4
 ;HEIGHT:0.2
@@ -383145,6 +383368,7 @@ G1 X70.825 Y157.04 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z7.8 F9000
 G1 X131.543 Y65.154 Z7.8
 G1 Z7.4
@@ -385321,7 +385545,9 @@ G1 X84.587 Y50.597 E.03898
 G1 X84.52 Y49.016 E.04606
 G1 X85.949 Y49.016 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -387504,7 +387730,9 @@ G1 X84.587 Y92.729 E.03898
 G1 X84.52 Y91.148 E.04606
 G1 X85.949 Y91.148 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -389686,6 +389914,7 @@ G1 X84.587 Y134.861 E.03898
 G1 X84.52 Y133.28 E.04606
 G1 X85.949 Y133.28 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:7.6
 ;HEIGHT:0.2
@@ -389700,6 +389929,7 @@ G1 X84.949 Y133.28 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z8 F9000
 G1 X86.925 Y69.061 Z8
 G1 Z7.6
@@ -391854,7 +392084,9 @@ G1 X146.674 Y85.139 E.02443
 G1 X146.125 Y86.723 E.0488
 G1 X147.553 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -394014,7 +394246,9 @@ G1 X146.674 Y127.271 E.02443
 G1 X146.125 Y128.855 E.0488
 G1 X147.553 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -396175,6 +396409,7 @@ G1 X146.674 Y169.403 E.02443
 G1 X146.125 Y170.987 E.0488
 G1 X147.553 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:7.8
 ;HEIGHT:0.2
@@ -396189,6 +396424,7 @@ G1 X146.553 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z8.2 F9000
 G1 X131.544 Y65.154 Z8.2
 G1 Z7.8
@@ -398231,7 +398467,9 @@ G1 X72.972 Y50.597 E.00988
 G1 X74.137 Y49.014 E.05719
 G1 X72.709 Y49.014 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -400280,7 +400518,9 @@ G1 X72.972 Y92.729 E.00988
 G1 X74.137 Y91.146 E.05719
 G1 X72.709 Y91.146 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -402329,6 +402569,7 @@ G1 X72.972 Y134.861 E.00988
 G1 X74.137 Y133.278 E.05719
 G1 X72.709 Y133.278 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:8
 ;HEIGHT:0.2
@@ -402343,6 +402584,7 @@ G1 X73.709 Y133.278 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z8.4 F9000
 G1 X87.075 Y66.607 Z8.4
 G1 Z8
@@ -403748,7 +403990,9 @@ G1 X147.831 Y66.396 E.106
 G1 X149.175 Y65.049 E.05536
 G1 X149.175 Y63.628 E.04136
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -405157,7 +405401,9 @@ G1 X147.831 Y108.528 E.106
 G1 X149.175 Y107.181 E.05536
 G1 X149.175 Y105.76 E.04136
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -406567,6 +406813,7 @@ G1 X147.831 Y150.66 E.106
 G1 X149.175 Y149.313 E.05536
 G1 X149.175 Y147.892 E.04136
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:8.2
 ;HEIGHT:0.2
@@ -406581,6 +406828,7 @@ G1 X149.175 Y148.892 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z8.6 F9000
 G1 X111.19 Y80.756 Z8.6
 G1 Z8.2
@@ -407992,7 +408240,9 @@ G1 X149.174 Y75.961 E.10578
 G1 X138.412 Y86.723 E.44286
 G1 X139.84 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -409409,7 +409659,9 @@ G1 X149.174 Y118.093 E.10578
 G1 X138.412 Y128.855 E.44286
 G1 X139.84 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -410826,6 +411078,7 @@ G1 X149.174 Y160.225 E.10578
 G1 X138.412 Y170.987 E.44286
 G1 X139.84 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:8.4
 ;HEIGHT:0.2
@@ -410840,6 +411093,7 @@ G1 X138.84 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z8.8 F9000
 G1 X132.985 Y69.114 Z8.8
 G1 Z8.4
@@ -412242,7 +412496,9 @@ G1 X117.704 Y85.615 E.45874
 G1 X117.706 Y86.723 E.03222
 G1 X118.027 Y86.722 E.00934
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -413652,7 +413908,9 @@ G1 X117.704 Y127.747 E.45874
 G1 X117.706 Y128.855 E.03222
 G1 X118.027 Y128.854 E.00934
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -415062,6 +415320,7 @@ G1 X117.704 Y169.879 E.45874
 G1 X117.706 Y170.987 E.03222
 G1 X118.027 Y170.986 E.00934
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:8.6
 ;HEIGHT:0.200001
@@ -415077,6 +415336,7 @@ G1 X117.705 Y170.308 E-.20369
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z9 F9000
 G1 X132.985 Y69.114 Z9
 G1 Z8.6
@@ -416486,7 +416746,9 @@ G1 X72.162 Y69.347 E.00209
 G1 X70.825 Y70.687 E.05507
 G1 X70.825 Y72.108 E.04137
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -417901,7 +418163,9 @@ G1 X72.162 Y111.479 E.00209
 G1 X70.825 Y112.819 E.05507
 G1 X70.825 Y114.24 E.04137
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -419316,6 +419580,7 @@ G1 X72.162 Y153.611 E.00209
 G1 X70.825 Y154.951 E.05507
 G1 X70.825 Y156.372 E.04137
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:8.8
 ;HEIGHT:0.2
@@ -419330,6 +419595,7 @@ G1 X70.825 Y155.372 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z9.2 F9000
 G1 X131.543 Y65.154 Z9.2
 G1 Z8.8
@@ -420725,7 +420991,9 @@ G1 X74.315 Y49.015 E.10577
 G1 X70.825 Y52.504 E.14361
 G1 X70.825 Y51.076 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -422127,7 +422395,9 @@ G1 X74.315 Y91.147 E.10577
 G1 X70.825 Y94.636 E.14361
 G1 X70.825 Y93.208 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -423530,6 +423800,7 @@ G1 X74.315 Y133.278 E.10577
 G1 X70.825 Y136.768 E.14361
 G1 X70.825 Y135.34 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:9
 ;HEIGHT:0.2
@@ -423544,6 +423815,7 @@ G1 X70.825 Y136.34 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z9.4 F9000
 G1 X87.075 Y66.607 Z9.4
 G1 Z9
@@ -424966,7 +425238,9 @@ G1 X147.831 Y66.396 E.106
 G1 X149.175 Y65.05 E.05536
 G1 X149.175 Y63.627 E.04138
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -426395,7 +426669,9 @@ G1 X147.831 Y108.528 E.106
 G1 X149.175 Y107.182 E.05536
 G1 X149.175 Y105.759 E.04138
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -427824,6 +428100,7 @@ G1 X147.831 Y150.66 E.106
 G1 X149.175 Y149.314 E.05536
 G1 X149.175 Y147.891 E.04138
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:9.2
 ;HEIGHT:0.2
@@ -427838,6 +428115,7 @@ G1 X149.175 Y148.891 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z9.6 F9000
 G1 X131.543 Y65.154 Z9.6
 G1 Z9.2
@@ -429903,7 +430181,9 @@ G1 X71.007 Y70.338 E.00147
 G1 X70.825 Y70.686 E.01143
 G1 X70.825 Y71.671 E.02866
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -431975,7 +432255,9 @@ G1 X71.007 Y112.47 E.00147
 G1 X70.825 Y112.818 E.01143
 G1 X70.825 Y113.803 E.02866
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -434047,6 +434329,7 @@ G1 X71.007 Y154.602 E.00147
 G1 X70.825 Y154.95 E.01143
 G1 X70.825 Y155.935 E.02866
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:9.4
 ;HEIGHT:0.2
@@ -434062,6 +434345,7 @@ G1 X70.832 Y154.937 E-.00451
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z9.8 F9000
 G1 X132.986 Y69.113 Z9.8
 G1 Z9.4
@@ -436194,7 +436478,9 @@ G1 X70.839 Y85.423 E.00163
 G1 X70.988 Y85.689 E.00887
 G1 X71.222 Y85.979 E.01083
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -438336,7 +438622,9 @@ G1 X70.839 Y127.555 E.00163
 G1 X70.988 Y127.821 E.00887
 G1 X71.222 Y128.111 E.01083
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -440476,6 +440764,7 @@ G1 X70.839 Y169.687 E.00163
 G1 X70.988 Y169.953 E.00887
 G1 X71.222 Y170.243 E.01083
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:9.6
 ;HEIGHT:0.200001
@@ -440493,6 +440782,7 @@ G1 X70.825 Y169.366 E-.08015
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z10 F9000
 G1 X111.19 Y54.98 Z10
 G1 Z9.6
@@ -442701,7 +442991,9 @@ G1 X147.268 Y66.052 E.03235
 G1 X146.916 Y66.403 E.01447
 G1 X145.488 Y66.403 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -444916,7 +445208,9 @@ G1 X147.268 Y108.184 E.03235
 G1 X146.916 Y108.535 E.01447
 G1 X145.488 Y108.535 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -447130,6 +447424,7 @@ G1 X147.268 Y150.316 E.03235
 G1 X146.916 Y150.667 E.01447
 G1 X145.488 Y150.667 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:9.8
 ;HEIGHT:0.2
@@ -447144,6 +447439,7 @@ G1 X146.488 Y150.667 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z10.2 F9000
 G1 X87.075 Y66.607 Z10.2
 G1 Z9.8
@@ -449339,7 +449635,9 @@ G1 X131.827 Y52.415 E.0529
 G1 X131.785 Y52.373 E.00173
 G1 X131.785 Y50.963 E.04104
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -451540,7 +451838,9 @@ G1 X131.827 Y94.547 E.0529
 G1 X131.785 Y94.505 E.00173
 G1 X131.785 Y93.095 E.04104
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -453742,6 +454042,7 @@ G1 X131.827 Y136.679 E.0529
 G1 X131.785 Y136.637 E.00173
 G1 X131.785 Y135.227 E.04104
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:10
 ;HEIGHT:0.2
@@ -453756,6 +454057,7 @@ G1 X131.785 Y136.227 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z10.4 F9000
 G1 X111.19 Y54.98 Z10.4
 G1 Z10
@@ -455890,7 +456192,9 @@ G1 X132.157 Y54.233 E.02333
 G1 X131.785 Y53.244 E.03077
 G1 X131.785 Y51.815 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -458030,7 +458334,9 @@ G1 X132.157 Y96.365 E.02333
 G1 X131.785 Y95.376 E.03077
 G1 X131.785 Y93.947 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -460170,6 +460476,7 @@ G1 X132.157 Y138.497 E.02333
 G1 X131.785 Y137.508 E.03077
 G1 X131.785 Y136.079 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:10.2
 ;HEIGHT:0.2
@@ -460184,6 +460491,7 @@ G1 X131.785 Y137.079 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z10.6 F9000
 G1 X131.544 Y65.154 Z10.6
 G1 Z10.2
@@ -462245,7 +462553,9 @@ G1 X87.489 Y52.415 E.00879
 G1 X88.213 Y53.362 E.03467
 G1 X88.213 Y51.933 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -464312,7 +464622,9 @@ G1 X87.489 Y94.547 E.00879
 G1 X88.213 Y95.494 E.03467
 G1 X88.213 Y94.065 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -466379,6 +466691,7 @@ G1 X87.489 Y136.679 E.00879
 G1 X88.213 Y137.626 E.03467
 G1 X88.213 Y136.197 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:10.4
 ;HEIGHT:0.2
@@ -466393,6 +466706,7 @@ G1 X88.213 Y137.197 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z10.8 F9000
 G1 X87.075 Y66.607 Z10.8
 G1 Z10.4
@@ -467790,7 +468104,9 @@ G1 X131.785 Y53.294 E.0852
 G1 X144.894 Y66.403 E.53944
 G1 X143.466 Y66.403 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -469193,7 +469509,9 @@ G1 X131.785 Y95.426 E.0852
 G1 X144.894 Y108.535 E.53944
 G1 X143.466 Y108.535 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -470596,6 +470914,7 @@ G1 X131.785 Y137.558 E.0852
 G1 X144.894 Y150.667 E.53944
 G1 X143.466 Y150.667 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:10.6
 ;HEIGHT:0.200001
@@ -470610,6 +470929,7 @@ G1 X144.466 Y150.667 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z11 F9000
 G1 X111.19 Y54.98 Z11
 G1 Z10.6
@@ -472001,7 +472321,9 @@ G1 X145.687 Y49.017 E.10582
 G1 X149.173 Y52.503 E.14344
 G1 X149.173 Y51.074 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -473399,7 +473721,9 @@ G1 X145.687 Y91.149 E.10582
 G1 X149.173 Y94.635 E.14344
 G1 X149.173 Y93.206 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -474798,6 +475122,7 @@ G1 X145.687 Y133.281 E.10582
 G1 X149.173 Y136.767 E.14344
 G1 X149.173 Y135.338 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:10.8
 ;HEIGHT:0.2
@@ -474812,6 +475137,7 @@ G1 X149.173 Y136.338 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z11.2 F9000
 G1 X132.987 Y69.113 Z11.2
 G1 Z10.8
@@ -476217,7 +476543,9 @@ G1 X70.825 Y75.96 E.1058
 G1 X81.588 Y86.723 E.44291
 G1 X80.16 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -477629,7 +477957,9 @@ G1 X70.825 Y118.092 E.1058
 G1 X81.588 Y128.855 E.44291
 G1 X80.16 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -479041,6 +479371,7 @@ G1 X70.825 Y160.224 E.1058
 G1 X81.588 Y170.987 E.44291
 G1 X80.16 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11
 ;HEIGHT:0.2
@@ -479055,6 +479386,7 @@ G1 X81.16 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z11.4 F9000
 G1 X131.543 Y65.154 Z11.4
 G1 Z11
@@ -480450,7 +480782,9 @@ G1 X70.825 Y75.96 E.1058
 G1 X81.588 Y86.723 E.44291
 G1 X80.16 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -481851,7 +482185,9 @@ G1 X70.825 Y118.092 E.1058
 G1 X81.588 Y128.855 E.44291
 G1 X80.16 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -483252,6 +483588,7 @@ M73 P57 R127
 G1 X81.588 Y170.987 E.44291
 G1 X80.16 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11.2
 ;HEIGHT:0.2
@@ -483266,6 +483603,7 @@ G1 X81.16 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z11.6 F9000
 G1 X131.543 Y65.154 Z11.6
 G1 Z11.2
@@ -484659,7 +484997,9 @@ G1 X75.108 Y69.335 E.08368
 G1 X88.214 Y82.442 E.53935
 G1 X88.214 Y81.013 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -486059,7 +486399,9 @@ G1 X75.108 Y111.467 E.08368
 G1 X88.214 Y124.574 E.53935
 G1 X88.214 Y123.145 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -487459,6 +487801,7 @@ G1 X75.108 Y153.599 E.08368
 G1 X88.214 Y166.705 E.53935
 G1 X88.214 Y165.277 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11.4
 ;HEIGHT:0.2
@@ -487473,6 +487816,7 @@ G1 X88.214 Y166.277 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z11.8 F9000
 G1 X131.543 Y65.154 Z11.8
 G1 Z11.4
@@ -488869,7 +489213,9 @@ G1 X77.953 Y86.723 E.1058
 G1 X70.825 Y79.596 E.2933
 G1 X70.825 Y78.167 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -490271,7 +490617,9 @@ G1 X77.953 Y128.855 E.1058
 G1 X70.825 Y121.728 E.2933
 G1 X70.825 Y120.299 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -491672,6 +492020,7 @@ G1 X77.953 Y170.987 E.1058
 G1 X70.825 Y163.86 E.2933
 G1 X70.825 Y162.431 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11.6
 ;HEIGHT:0.200001
@@ -491686,6 +492035,7 @@ G1 X70.825 Y163.431 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z12 F9000
 G1 X132.987 Y69.113 Z12
 G1 Z11.6
@@ -493732,7 +494082,9 @@ G1 X70.914 Y83.548 E.06613
 G1 X70.825 Y83.459 E.00366
 G1 X70.825 Y84.887 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -495783,7 +496135,9 @@ G1 X70.914 Y125.68 E.06613
 G1 X70.825 Y125.591 E.00366
 G1 X70.825 Y127.019 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -497834,6 +498188,7 @@ G1 X70.914 Y167.812 E.06613
 G1 X70.825 Y167.723 E.00366
 G1 X70.825 Y169.151 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:11.8
 ;HEIGHT:0.2
@@ -497848,6 +498203,7 @@ G1 X70.825 Y168.151 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z12.2 F9000
 G1 X132.987 Y69.113 Z12.2
 G1 Z11.8
@@ -499997,7 +500353,9 @@ G1 X70.914 Y72.993 E.05625
 G1 X70.825 Y72.904 E.00366
 G1 X70.825 Y74.333 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -502154,7 +502512,9 @@ G1 X70.914 Y115.125 E.05625
 G1 X70.825 Y115.036 E.00366
 G1 X70.825 Y116.465 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -504310,6 +504670,7 @@ G1 X70.914 Y157.257 E.05625
 G1 X70.825 Y157.168 E.00366
 G1 X70.825 Y158.597 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:12
 ;HEIGHT:0.2
@@ -504324,6 +504685,7 @@ G1 X70.825 Y157.597 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z12.4 F9000
 G1 X132.987 Y69.113 Z12.4
 G1 Z12
@@ -506519,7 +506881,9 @@ G1 X70.914 Y73.347 E.05292
 G1 X70.825 Y73.258 E.00366
 G1 X70.825 Y71.83 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -508720,7 +509084,9 @@ G1 X70.914 Y115.479 E.05292
 G1 X70.825 Y115.39 E.00366
 G1 X70.825 Y113.962 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -510922,6 +511288,7 @@ G1 X70.914 Y157.611 E.05292
 G1 X70.825 Y157.522 E.00366
 G1 X70.825 Y156.094 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:12.2
 ;HEIGHT:0.2
@@ -510936,6 +511303,7 @@ G1 X70.825 Y157.094 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z12.6 F9000
 G1 X131.543 Y65.154 Z12.6
 G1 Z12.2
@@ -513132,7 +513500,9 @@ G1 X87.895 Y85.899 E.00658
 G1 X87.535 Y86.276 E.01518
 G1 X87.281 Y86.482 E.00951
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -515336,7 +515706,9 @@ G1 X87.895 Y128.031 E.00658
 G1 X87.535 Y128.408 E.01518
 G1 X87.281 Y128.614 E.00951
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -517541,6 +517913,7 @@ G1 X87.895 Y170.163 E.00658
 G1 X87.535 Y170.54 E.01518
 G1 X87.281 Y170.746 E.00951
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:12.4
 ;HEIGHT:0.2
@@ -517557,6 +517930,7 @@ G1 X87.987 Y170.042 E-.04541
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z12.8 F9000
 G1 X131.543 Y65.154 Z12.8
 G1 Z12.4
@@ -519743,7 +520117,9 @@ G1 X71.007 Y70.339 E.00664
 G1 X70.825 Y70.685 E.01138
 G1 X70.825 Y71.051 E.01065
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -521937,7 +522313,9 @@ G1 X71.007 Y112.471 E.00664
 G1 X70.825 Y112.817 E.01138
 G1 X70.825 Y113.183 E.01065
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -524133,6 +524511,7 @@ G1 X71.007 Y154.603 E.00664
 G1 X70.825 Y154.949 E.01138
 G1 X70.825 Y155.315 E.01065
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:12.6
 ;HEIGHT:0.200001
@@ -524150,6 +524529,7 @@ G1 X71.155 Y154.411 E-.00442
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z13 F9000
 G1 X131.544 Y65.154 Z13
 G1 Z12.6
@@ -526259,7 +526639,9 @@ G1 X70.914 Y52.229 E.06756
 G1 X70.825 Y52.317 E.00366
 G1 X70.825 Y50.889 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -528374,7 +528756,9 @@ G1 X70.914 Y94.361 E.06756
 G1 X70.825 Y94.449 E.00366
 G1 X70.825 Y93.021 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -530489,6 +530873,7 @@ G1 X70.914 Y136.493 E.06756
 G1 X70.825 Y136.581 E.00366
 G1 X70.825 Y135.153 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:12.8
 ;HEIGHT:0.2
@@ -530503,6 +530888,7 @@ G1 X70.825 Y136.153 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z13.2 F9000
 G1 X131.543 Y65.154 Z13.2
 G1 Z12.8
@@ -532010,7 +532396,9 @@ G1 X72.629 Y66.362 F9000
 G1 F8400
 G1 X86.17 Y66.362 E.37516
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -533523,7 +533911,9 @@ G1 X72.629 Y108.494 F9000
 G1 F8400
 G1 X86.17 Y108.494 E.37516
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -535036,6 +535426,7 @@ G1 X72.629 Y150.626 F9000
 G1 F8400
 G1 X86.17 Y150.626 E.37516
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:13
 ;HEIGHT:0.2
@@ -535050,6 +535441,7 @@ G1 X85.17 Y150.626 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z13.4 F9000
 G1 X87.075 Y66.607 Z13.4
 G1 Z13
@@ -536973,7 +537365,9 @@ G1 X131.785 Y60.627 E.1058
 G1 X143.396 Y49.016 E.47777
 G1 X141.967 Y49.016 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -538903,7 +539297,9 @@ G1 X131.785 Y102.759 E.1058
 G1 X143.396 Y91.148 E.47777
 G1 X141.967 Y91.148 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -540832,6 +541228,7 @@ G1 X131.785 Y144.891 E.1058
 G1 X143.396 Y133.28 E.47777
 G1 X141.967 Y133.28 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:13.2
 ;HEIGHT:0.2
@@ -540846,6 +541243,7 @@ G1 X142.967 Y133.28 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z13.6 F9000
 G1 X111.19 Y54.98 Z13.6
 G1 Z13.2
@@ -543113,7 +543511,9 @@ G1 X133.699 Y62.884 E.00763
 G1 X133.422 Y63.021 E.00915
 G1 X132.957 Y63.487 E.0195
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -545390,7 +545790,9 @@ G1 X133.699 Y105.016 E.00763
 G1 X133.422 Y105.153 E.00915
 G1 X132.957 Y105.619 E.0195
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -547666,6 +548068,7 @@ G1 X133.699 Y147.148 E.00763
 G1 X133.422 Y147.285 E.00915
 G1 X132.957 Y147.751 E.0195
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:13.4
 ;HEIGHT:0.2
@@ -547682,6 +548085,7 @@ G1 X133.732 Y147.143 E-.01002
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z13.8 F9000
 G1 X111.19 Y54.98 Z13.8
 G1 Z13.4
@@ -549943,7 +550347,9 @@ G1 X131.785 Y53.355 E.1058
 G1 X136.125 Y49.015 E.17857
 G1 X134.696 Y49.015 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -552210,7 +552616,9 @@ G1 X131.785 Y95.487 E.1058
 G1 X136.125 Y91.147 E.17857
 G1 X134.696 Y91.147 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -554478,6 +554886,7 @@ G1 X131.785 Y137.619 E.1058
 G1 X136.125 Y133.279 E.17857
 G1 X134.696 Y133.279 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:13.6
 ;HEIGHT:0.200001
@@ -554492,6 +554901,7 @@ G1 X135.696 Y133.279 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z14 F9000
 G1 X131.544 Y65.154 Z14
 G1 Z13.6
@@ -556862,7 +557272,9 @@ G1 X86.045 Y73.852 E.36132
 G1 X86.311 Y73.812 E.00747
 G1 X86.603 Y73.708 E.00859
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -559240,7 +559652,9 @@ G1 X86.045 Y115.984 E.36132
 G1 X86.311 Y115.944 E.00747
 G1 X86.603 Y115.84 E.00859
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -561619,6 +562033,7 @@ G1 X86.045 Y158.116 E.36132
 G1 X86.311 Y158.076 E.00747
 G1 X86.603 Y157.972 E.00859
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:13.8
 ;HEIGHT:0.2
@@ -561635,6 +562050,7 @@ G1 X85.624 Y158.116 E-.12606
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z14.2 F9000
 G1 X133.091 Y63.564 Z14.2
 G1 Z13.8
@@ -563989,7 +564405,9 @@ G1 X88.212 Y75.113 E.10576
 G1 X76.601 Y86.723 E.47777
 G1 X75.173 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -566348,7 +566766,9 @@ G1 X88.212 Y117.245 E.10576
 G1 X76.601 Y128.855 E.47777
 G1 X75.173 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -568708,6 +569128,7 @@ G1 X88.212 Y159.377 E.10576
 G1 X76.601 Y170.987 E.47777
 G1 X75.173 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:14
 ;HEIGHT:0.2
@@ -568722,6 +569143,7 @@ G1 X76.173 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z14.4 F9000
 G1 X133.091 Y63.039 Z14.4
 G1 Z14
@@ -571560,7 +571982,9 @@ G1 X86.572 Y74.052 E.01042
 G1 X86.807 Y73.775 E.0126
 G1 X86.887 Y73.516 E.00943
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -574406,7 +574830,9 @@ G1 X86.572 Y116.184 E.01042
 G1 X86.807 Y115.907 E.0126
 G1 X86.887 Y115.648 E.00943
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -577252,6 +577678,7 @@ G1 X86.572 Y158.315 E.01042
 G1 X86.807 Y158.039 E.0126
 G1 X86.887 Y157.78 E.00943
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:14.2
 ;HEIGHT:0.2
@@ -577269,6 +577696,7 @@ G1 X86.243 Y158.469 E-.01987
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z14.6 F9000
 G1 X74.46 Y70.968 Z14.6
 G1 Z14.2
@@ -580431,7 +580859,9 @@ G1 F5460
 G1 X106.685 Y84.517 E.00827
 G1 X106.944 Y84.523 E.00754
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F5460
@@ -583601,7 +584031,9 @@ G1 F5460
 G1 X106.685 Y126.649 E.00827
 G1 X106.944 Y126.655 E.00754
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F5460
@@ -586771,6 +587203,7 @@ G1 F5460
 G1 X106.685 Y168.781 E.00827
 G1 X106.944 Y168.787 E.00754
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:14.4
 ;HEIGHT:0.2
@@ -586788,6 +587221,7 @@ G1 X107.228 Y169.574 E-.07212
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z14.8 F9000
 G1 X84.58 Y64.28 Z14.8
 G1 Z14.4
@@ -589986,7 +590420,9 @@ G1 X106.611 Y84.935 E.00628
 G1 X106.731 Y84.804 E.0064
 G1 X106.847 Y84.797 E.00416
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -593196,7 +593632,9 @@ G1 X106.611 Y127.067 E.00628
 G1 X106.731 Y126.936 E.0064
 G1 X106.847 Y126.929 E.00416
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -596406,6 +596844,7 @@ G1 X106.611 Y169.199 E.00628
 G1 X106.731 Y169.068 E.0064
 G1 X106.847 Y169.061 E.00416
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:14.6
 ;HEIGHT:0.200001
@@ -596425,6 +596864,7 @@ G1 X106.615 Y169.289 E-.02552
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z15 F9000
 G1 X133.091 Y62.177 Z15
 G1 Z14.6
@@ -599697,7 +600137,9 @@ G1 X70.827 Y84.1 E.0036
 G1 X70.827 Y85.366 E.03682
 G1 X70.901 Y85.511 E.00474
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -602978,7 +603420,9 @@ G1 X70.827 Y126.232 E.0036
 G1 X70.827 Y127.498 E.03682
 G1 X70.901 Y127.643 E.00474
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -606258,6 +606702,7 @@ G1 X70.827 Y168.364 E.0036
 G1 X70.827 Y169.63 E.03682
 G1 X70.901 Y169.775 E.00474
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:14.8
 ;HEIGHT:0.2
@@ -606273,6 +606718,7 @@ G1 X70.827 Y168.793 E-.25109
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z15.2 F9000
 G1 X133.091 Y61.986 Z15.2
 G1 Z14.8
@@ -609989,7 +610435,9 @@ G1 X70.914 Y83.834 E.05768
 G1 X70.825 Y83.745 E.00366
 G1 X70.825 Y85.174 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -613712,7 +614160,9 @@ G1 X70.914 Y125.966 E.05768
 G1 X70.825 Y125.877 E.00366
 G1 X70.825 Y127.306 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -617434,6 +617884,7 @@ G1 X70.914 Y168.098 E.05768
 G1 X70.825 Y168.009 E.00366
 G1 X70.825 Y169.438 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:15
 ;HEIGHT:0.2
@@ -617448,6 +617899,7 @@ G1 X70.825 Y168.438 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z15.4 F9000
 G1 X106.93 Y84.773 Z15.4
 G1 Z15
@@ -620569,7 +621021,9 @@ G1 X70.826 Y83.233 E.10573
 G1 X74.317 Y86.723 E.14362
 G1 X72.888 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -623695,7 +624149,9 @@ G1 X70.826 Y125.365 E.10573
 G1 X74.317 Y128.855 E.14362
 G1 X72.888 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -626821,6 +627277,7 @@ G1 X70.826 Y167.497 E.10573
 G1 X74.317 Y170.987 E.14362
 G1 X72.888 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:15.2
 ;HEIGHT:0.2
@@ -626835,6 +627292,7 @@ G1 X73.888 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z15.6 F9000
 G1 X133.091 Y61.685 Z15.6
 G1 Z15.2
@@ -630021,7 +630479,9 @@ G1 X70.825 Y83.232 E.1058
 G1 X74.317 Y86.723 E.14368
 G1 X72.888 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -633214,7 +633674,9 @@ G1 X70.825 Y125.364 E.1058
 G1 X74.317 Y128.855 E.14368
 G1 X72.888 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -636406,6 +636868,7 @@ G1 X70.825 Y167.496 E.1058
 G1 X74.317 Y170.987 E.14368
 G1 X72.888 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:15.4
 ;HEIGHT:0.2
@@ -636420,6 +636883,7 @@ G1 X73.888 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z15.8 F9000
 G1 X133.091 Y61.567 Z15.8
 G1 Z15.4
@@ -639814,7 +640278,9 @@ G1 X70.825 Y75.96 E.1058
 G1 X81.588 Y86.723 E.44293
 G1 X80.16 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -643215,7 +643681,9 @@ G1 X70.825 Y118.092 E.1058
 G1 X81.588 Y128.855 E.44293
 G1 X80.16 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -646615,6 +647083,7 @@ G1 X70.825 Y160.224 E.1058
 G1 X81.588 Y170.987 E.44293
 G1 X80.16 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:15.6
 ;HEIGHT:0.200001
@@ -646629,6 +647098,7 @@ G1 X81.16 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z16 F9000
 G1 X133.091 Y61.466 Z16
 G1 Z15.6
@@ -650075,7 +650545,9 @@ G1 X74.317 Y86.723 E.1058
 G1 X70.825 Y83.232 E.14368
 G1 X70.825 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -653528,7 +654000,9 @@ G1 X74.317 Y128.855 E.1058
 G1 X70.825 Y125.364 E.14368
 G1 X70.825 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -656980,6 +657454,7 @@ G1 X74.317 Y170.987 E.1058
 G1 X70.825 Y167.496 E.14368
 G1 X70.825 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:15.8
 ;HEIGHT:0.2
@@ -656994,6 +657469,7 @@ G1 X70.825 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z16.2 F9000
 G1 X133.091 Y61.382 Z16.2
 G1 Z15.8
@@ -660441,7 +660917,9 @@ G1 X74.317 Y86.723 E.1058
 G1 X70.825 Y83.232 E.14368
 G1 X70.825 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -663895,7 +664373,9 @@ G1 X74.317 Y128.855 E.1058
 G1 X70.825 Y125.364 E.14368
 G1 X70.825 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -667348,6 +667828,7 @@ G1 X74.317 Y170.987 E.1058
 G1 X70.825 Y167.496 E.14368
 G1 X70.825 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:16
 ;HEIGHT:0.2
@@ -667362,6 +667843,7 @@ G1 X70.825 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z16.4 F9000
 G1 X133.091 Y61.312 Z16.4
 G1 Z16
@@ -670753,7 +671235,9 @@ G1 X74.317 Y86.723 E.1058
 G1 X70.825 Y83.232 E.14368
 G1 X70.825 Y84.66 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -674151,7 +674635,9 @@ G1 X74.317 Y128.855 E.1058
 G1 X70.825 Y125.364 E.14368
 G1 X70.825 Y126.792 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -677548,6 +678034,7 @@ G1 X74.317 Y170.987 E.1058
 G1 X70.825 Y167.496 E.14368
 G1 X70.825 Y168.924 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:16.2
 ;HEIGHT:0.200001
@@ -677562,6 +678049,7 @@ G1 X70.825 Y167.924 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z16.6 F9000
 G1 X112.368 Y84.184 Z16.6
 G1 Z16.2
@@ -680187,7 +680675,9 @@ G1 X70.831 Y75.965 E.10573
 G1 X81.588 Y86.723 E.44269
 G1 X80.16 Y86.723 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -682819,7 +683309,9 @@ G1 X70.831 Y118.097 E.10573
 G1 X81.588 Y128.855 E.44269
 G1 X80.16 Y128.855 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -685449,6 +685941,7 @@ G1 X70.831 Y160.229 E.10573
 G1 X81.588 Y170.987 E.44269
 G1 X80.16 Y170.987 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:16.4
 ;HEIGHT:0.199999
@@ -685463,6 +685956,7 @@ G1 X81.16 Y170.987 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z16.8 F9000
 G1 X72.131 Y74.523 Z16.8
 G1 Z16.4
@@ -688804,7 +689298,9 @@ G1 X113.339 Y84.889 E.00516
 G1 X113.273 Y84.82 E.00311
 G1 X113.124 Y84.822 E.00487
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -692158,7 +692654,9 @@ G1 X113.339 Y127.021 E.00516
 G1 X113.273 Y126.952 E.00311
 G1 X113.124 Y126.954 E.00487
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -695511,6 +696009,7 @@ G1 X113.339 Y169.153 E.00516
 G1 X113.273 Y169.084 E.00311
 G1 X113.124 Y169.086 E.00487
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:16.6
 ;HEIGHT:0.200001
@@ -695531,6 +696030,7 @@ G1 X112.981 Y169.295 E-.03017
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z17 F9000
 G1 X133.091 Y61.184 Z17
 G1 Z16.6
@@ -699180,7 +699680,9 @@ G1 X87.909 Y70.595 E.02608
 G1 X88.215 Y71.604 E.03068
 G1 X88.215 Y73.032 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -702835,7 +703337,9 @@ G1 X87.909 Y112.727 E.02608
 G1 X88.215 Y113.736 E.03068
 G1 X88.215 Y115.164 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -706489,6 +706993,7 @@ G1 X87.909 Y154.859 E.02608
 G1 X88.215 Y155.868 E.03068
 G1 X88.215 Y157.296 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:16.8
 ;HEIGHT:0.199999
@@ -706503,6 +707008,7 @@ G1 X88.215 Y156.296 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z17.2 F9000
 G1 X127.584 Y66.655 Z17.2
 G1 Z16.8
@@ -709357,7 +709863,9 @@ G1 X88.106 Y72.413 E.03682
 G1 X88.215 Y72.522 E.00447
 G1 X88.215 Y73.95 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -712218,7 +712726,9 @@ G1 X88.106 Y114.545 E.03682
 G1 X88.215 Y114.654 E.00447
 G1 X88.215 Y116.082 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -715078,6 +715588,7 @@ G1 X88.106 Y156.677 E.03682
 G1 X88.215 Y156.786 E.00447
 G1 X88.215 Y158.214 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:17
 ;HEIGHT:0.200001
@@ -715092,6 +715603,7 @@ G1 X88.215 Y157.214 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z17.4 F9000
 G1 X127.622 Y66.641 Z17.4
 G1 Z17
@@ -717824,7 +718336,9 @@ G1 X88.116 Y83.321 E.03459
 G1 X88.215 Y82.008 E.03829
 G1 X88.215 Y80.58 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -720562,7 +721076,9 @@ G1 X88.116 Y125.453 E.03459
 G1 X88.215 Y124.14 E.03829
 G1 X88.215 Y122.712 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -723299,6 +723815,7 @@ G1 X88.116 Y167.585 E.03459
 G1 X88.215 Y166.272 E.03829
 G1 X88.215 Y164.844 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:17.2
 ;HEIGHT:0.200001
@@ -723313,6 +723830,7 @@ G1 X88.215 Y165.844 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z17.6 F9000
 G1 X72.131 Y74.576 Z17.6
 G1 Z17.2
@@ -725810,7 +726328,9 @@ G1 X114.545 Y70.108 E.02004
 G1 X116.209 Y69.335 E.05339
 G1 X117.638 Y69.336 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -728313,7 +728833,9 @@ G1 X114.545 Y112.24 E.02004
 G1 X116.209 Y111.467 E.05339
 G1 X117.638 Y111.468 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -730816,6 +731338,7 @@ G1 X114.545 Y154.372 E.02004
 G1 X116.209 Y153.599 E.05339
 G1 X117.638 Y153.6 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:17.4
 ;HEIGHT:0.199999
@@ -730830,6 +731353,7 @@ G1 X116.638 Y153.6 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z17.8 F9000
 G1 X72.131 Y74.576 Z17.8
 G1 Z17.4
@@ -732725,7 +733249,9 @@ G1 X136.125 Y49.015 E.10575
 G1 X131.785 Y53.355 E.17857
 G1 X131.785 Y51.926 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -734627,7 +735153,9 @@ G1 X136.125 Y91.147 E.10575
 G1 X131.785 Y95.487 E.17857
 G1 X131.785 Y94.058 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -736528,6 +737056,7 @@ G1 X136.125 Y133.279 E.10575
 G1 X131.785 Y137.619 E.17857
 G1 X131.785 Y136.19 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:17.6
 ;HEIGHT:0.200001
@@ -736542,6 +737071,7 @@ G1 X131.785 Y137.19 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z18 F9000
 G1 X133.091 Y61.16 Z18
 G1 Z17.6
@@ -738564,7 +739094,9 @@ G1 X91.187 Y85.349 F9000
 G1 F8400
 G1 X91.187 Y70.731 E.405
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -740592,7 +741124,9 @@ G1 X91.187 Y127.481 F9000
 G1 F8400
 G1 X91.187 Y112.863 E.405
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -742620,6 +743154,7 @@ G1 X91.187 Y169.613 F9000
 G1 F8400
 G1 X91.187 Y154.995 E.405
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:17.8
 ;HEIGHT:0.199999
@@ -742634,6 +743169,7 @@ G1 X91.187 Y155.995 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z18.2 F9000
 G1 X72.131 Y74.576 Z18.2
 G1 Z17.8
@@ -745071,7 +745607,9 @@ G1 F8400
 G1 X108.397 Y85.378 E.00459
 G1 X108.395 Y70.717 E.40619
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -747514,7 +748052,9 @@ G1 F8400
 G1 X108.397 Y127.51 E.00459
 G1 X108.395 Y112.849 E.40619
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -749958,6 +750498,7 @@ G1 F8400
 G1 X108.397 Y169.642 E.00459
 G1 X108.395 Y154.981 E.40619
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:18
 ;HEIGHT:0.200001
@@ -749972,6 +750513,7 @@ G1 X108.395 Y155.981 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z18.4 F9000
 G1 X92.105 Y69.349 Z18.4
 G1 Z18
@@ -752775,7 +753317,9 @@ G1 X84.505 Y86.091 E.1058
 G1 X87.583 Y83.013 E.12666
 G1 X87.583 Y84.441 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -755584,7 +756128,9 @@ G1 X84.505 Y128.223 E.1058
 G1 X87.583 Y125.145 E.12666
 G1 X87.583 Y126.573 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -758394,6 +758940,7 @@ G1 X84.505 Y170.355 E.1058
 G1 X87.583 Y167.277 E.12666
 G1 X87.583 Y168.705 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:18.2
 ;HEIGHT:0.200001
@@ -758408,6 +758955,7 @@ G1 X87.583 Y167.705 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z18.6 F9000
 G1 X72.131 Y61.16 Z18.6
 G1 Z18.2
@@ -761331,7 +761879,9 @@ G1 X147.394 Y64.109 F9000
 G1 F8400
 G1 X147.325 Y64.186 E.0039
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.93725 F5100
 ;WIPE_START
 G1 F8400
@@ -764259,7 +764809,9 @@ G1 X147.394 Y106.241 F9000
 G1 F8400
 G1 X147.325 Y106.318 E.0039
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.93725 F5100
 ;WIPE_START
 G1 F8400
@@ -767188,6 +767740,7 @@ G1 X147.394 Y148.373 F9000
 G1 F8400
 G1 X147.325 Y148.45 E.0039
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:18.4
 ;HEIGHT:0.199999
@@ -767202,6 +767755,7 @@ G1 X147.394 Y148.373 E-.06275
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z18.8 F9000
 G1 X92.039 Y69.57 Z18.8
 G1 Z18.4
@@ -770007,7 +770561,9 @@ G1 X87.224 Y76.101 E.1058
 G1 X77.593 Y85.732 E.39631
 G1 X79.021 Y85.732 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -772817,7 +773373,9 @@ G1 X87.224 Y118.233 E.1058
 G1 X77.593 Y127.864 E.39631
 G1 X79.021 Y127.864 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -775627,6 +776185,7 @@ G1 X87.224 Y160.365 E.1058
 G1 X77.593 Y169.996 E.39631
 G1 X79.021 Y169.996 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:18.6
 ;HEIGHT:0.200001
@@ -775641,6 +776200,7 @@ G1 X78.021 Y169.996 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z19 F9000
 G1 X72.137 Y74.643 Z19
 G1 Z18.6
@@ -778101,7 +778661,9 @@ G1 X107.792 Y85.429 E.0134
 G1 X107.789 Y70.59 E.68419
 G1 X107.712 Y70.325 E.0127
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -780567,7 +781129,9 @@ G1 X107.792 Y127.561 E.0134
 G1 X107.789 Y112.722 E.68419
 G1 X107.712 Y112.457 E.0127
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -783033,6 +783597,7 @@ G1 X107.792 Y169.693 E.0134
 G1 X107.789 Y154.854 E.68419
 G1 X107.712 Y154.589 E.0127
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:18.8
 ;HEIGHT:0.199999
@@ -783048,6 +783613,7 @@ G1 X107.789 Y155.578 E-.21736
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z19.2 F9000
 G1 X91.662 Y65.447 Z19.2
 G1 Z18.8
@@ -786139,7 +786705,9 @@ G1 X127.5 Y65.289 E.00476
 G1 X112.828 Y65.295 E.3845
 G1 X112.687 Y65.233 E.00403
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -789236,7 +789804,9 @@ G1 X127.5 Y107.421 E.00476
 G1 X112.828 Y107.427 E.3845
 G1 X112.687 Y107.365 E.00403
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -792332,6 +792902,7 @@ G1 X127.5 Y149.553 E.00476
 G1 X112.828 Y149.559 E.3845
 G1 X112.687 Y149.497 E.00403
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:19
 ;HEIGHT:0.200001
@@ -792347,6 +792918,7 @@ G1 X113.674 Y149.558 E-.25385
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z19.4 F9000
 G1 X72.134 Y74.733 Z19.4
 G1 Z19
@@ -795326,7 +795898,9 @@ G1 X94.547 Y83.981 E.02718
 G1 X92.868 Y84.44 E.05066
 G1 X92.868 Y83.012 E.04156
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -798310,7 +798884,9 @@ G1 X94.547 Y126.113 E.02718
 G1 X92.868 Y126.572 E.05066
 G1 X92.868 Y125.144 E.04156
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -801294,6 +801870,7 @@ G1 X94.547 Y168.245 E.02718
 G1 X92.868 Y168.704 E.05066
 G1 X92.868 Y167.276 E.04156
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:19.2
 ;HEIGHT:0.200001
@@ -801308,6 +801885,7 @@ G1 X92.868 Y168.276 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z19.6 F9000
 G1 X92.112 Y70.261 Z19.6
 G1 Z19.2
@@ -803224,7 +803802,9 @@ G1 X133.169 Y50.184 E.0177
 G1 X133.093 Y50.259 E.00522
 G1 X133.093 Y60.834 E.51433
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -805148,7 +805728,9 @@ M73 P95 R12
 G1 X133.093 Y92.391 E.00522
 G1 X133.093 Y102.966 E.51433
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 E-.7 F5100
 ;WIPE_START
@@ -807072,6 +807654,7 @@ G1 X133.169 Y134.448 E.0177
 G1 X133.093 Y134.523 E.00522
 G1 X133.093 Y145.098 E.51433
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:19.4
 ;HEIGHT:0.199999
@@ -807086,6 +807669,7 @@ G1 X133.093 Y144.098 E-.3
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 SET_VELOCITY_LIMIT ACCEL=5000 ACCEL_TO_DECEL=2500
 G1 Z19.8 F9000
 G1 X72.012 Y74.577 Z19.8
@@ -809229,7 +809813,9 @@ G1 X133.953 Y60.161 E.03304
 G1 X133.566 Y60.281 E.01185
 G1 X132.993 Y59.708 E.02368
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -811379,7 +811965,9 @@ G1 X133.953 Y102.293 E.03304
 G1 X133.566 Y102.413 E.01185
 G1 X132.993 Y101.84 E.02368
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F8400
@@ -813527,6 +814115,7 @@ G1 X133.953 Y144.425 E.03304
 G1 X133.566 Y144.545 E.01185
 G1 X132.993 Y143.972 E.02368
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:19.6
 ;HEIGHT:0.200001
@@ -813542,6 +814131,7 @@ G1 X133.747 Y144.489 E-.05694
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z20 F9000
 G1 X84.58 Y64.316 Z20
 G1 Z19.6
@@ -815321,7 +815911,9 @@ G1 X147.016 Y84.614 E.00164
 G1 X147.041 Y84.657 E.00164
 G1 X147.096 Y84.648 E.00183
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.87471 F5100
 ;WIPE_START
 G1 F8400
@@ -817110,7 +817702,9 @@ G1 X147.016 Y126.746 E.00164
 G1 X147.041 Y126.789 E.00164
 G1 X147.096 Y126.78 E.00183
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.87471 F5100
 ;WIPE_START
 G1 F8400
@@ -818899,6 +819493,7 @@ G1 X147.016 Y168.878 E.00164
 G1 X147.041 Y168.921 E.00164
 G1 X147.096 Y168.912 E.00183
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 ;LAYER_CHANGE
 ;Z:19.8
 ;HEIGHT:0.199999
@@ -818916,6 +819511,7 @@ G1 X147.091 Y168.834 E-.03045
 ;WIPE_END
 ;_SET_FAN_SPEED_CHANGING_LAYER
 ; printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_2_copy_0
 G1 Z20.2 F9000
 G1 X92.88 Y71.068 Z20.2
 G1 Z19.8
@@ -820652,7 +821248,9 @@ G1 X75.648 Y70.638 E.03832
 G1 X75.137 Y70.638 E.01504
 G1 X74.567 Y70.068 E.02373
 ; stop printing object fidget-cube-v3.stl id:2 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_2_copy_0
 ; printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_1_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F7200
@@ -822394,7 +822992,9 @@ G1 X75.648 Y112.77 E.03832
 G1 X75.137 Y112.77 E.01504
 G1 X74.567 Y112.2 E.02373
 ; stop printing object fidget-cube-v3.stl id:1 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_1_copy_0
 ; printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_START NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F7200
@@ -824136,6 +824736,7 @@ G1 X75.648 Y154.902 E.03832
 G1 X75.137 Y154.902 E.01504
 G1 X74.567 Y154.332 E.02373
 ; stop printing object fidget-cube-v3.stl id:0 copy 0
+EXCLUDE_OBJECT_END NAME=fidget_cube_v3_stl_id_0_copy_0
 G1 E-.7 F5100
 ;WIPE_START
 G1 F7200
