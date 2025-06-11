@@ -1044,3 +1044,6 @@ Error configuring printer
 2025-06-11 04:21:38,462 [websockets.py:open()] - Websocket Opened: ID: 139746340073184, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
 2025-06-11 04:21:38,464 [websockets.py:_handle_identify()] - Websocket 139746340073184 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-06-11 04:21:38,482 [websockets.py:on_close()] - Websocket Closed: ID: 139746340073184 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.02
+2025-06-11 04:21:56,413 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-06-11 04:21:56,421 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-06-11 04:21:56,428 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
