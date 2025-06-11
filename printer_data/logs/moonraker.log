@@ -1020,3 +1020,18 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2025-06-11 04:06:25,256 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-06-11 04:06:26,404 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-06-11 04:06:26,418 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-06-11 04:06:26,424 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-06-11 04:06:26,519 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-06-11 04:06:27,318 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746881609104
+2025-06-11 04:06:29,444 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-06-11 04:06:29,446 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-06-11 04:06:29,695 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-06-11 04:06:29,968 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-06-11 04:06:30,447 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-06-11 04:06:31,579 [websockets.py:on_close()] - Websocket Closed: ID: 139746881609104 Close Code: None, Close Reason: None, Pong Time Elapsed: 38.00
+2025-06-11 04:06:33,877 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-06-11 04:06:33,879 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.59ms
+2025-06-11 04:06:33,879 [websockets.py:open()] - Websocket Opened: ID: 139746829614864, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
