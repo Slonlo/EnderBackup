@@ -1035,3 +1035,7 @@ Error configuring printer
 2025-06-11 04:06:33,877 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
 2025-06-11 04:06:33,879 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.59ms
 2025-06-11 04:06:33,879 [websockets.py:open()] - Websocket Opened: ID: 139746829614864, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-06-11 04:21:33,347 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper
+2025-06-11 04:21:33,378 [power.py:process_bound_services()] - Power Device Power: Performing stop action on bound service klipper-mcu
+2025-06-11 04:21:33,384 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-06-11 04:21:33,402 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.device_power.off, Code: -31000, Message: Unit klipper-mcu.service not loaded.
