@@ -3029,3 +3029,8 @@ Properties:
 2025-06-10 20:51:50,508 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 251780.35ms
 2025-06-10 20:51:50,555 [power.py:_handle_job_queued()] - Power Device Power: Job 'fidget-cube-v3_PLA_5h1m.gcode' queued, powering on
 2025-06-10 21:55:25,012 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.6
+2025-06-10 22:15:29,549 [websockets.py:write_to_socket()] - Websocket closed while writing: 139746340071648
+2025-06-10 22:15:34,495 [websockets.py:on_close()] - Websocket Closed: ID: 139746340071648 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-06-10 22:15:36,240 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-06-10 22:15:36,245 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 7.56ms
+2025-06-10 22:15:36,246 [websockets.py:open()] - Websocket Opened: ID: 139746827396720, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
