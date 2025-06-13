@@ -5534,3 +5534,9 @@ Error configuring printer
 No build file /home/chase/klipper/klippy/../.config
 No build file /home/chase/klipper/klippy/../out/klipper.dict
 No build file /home/chase/klipper/klippy/../out/klipper.elf
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
