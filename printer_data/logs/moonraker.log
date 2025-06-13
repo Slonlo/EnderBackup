@@ -2462,3 +2462,12 @@ Rollback Repo: fluidd-core/fluidd
 2025-06-13 08:23:46,876 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
 2025-06-13 08:23:46,879 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.42ms
 2025-06-13 08:23:46,880 [websockets.py:open()] - Websocket Opened: ID: 140445631109248, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-06-13 08:24:59,591 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-06-13 08:24:59,593 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-06-13 08:24:59,597 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
