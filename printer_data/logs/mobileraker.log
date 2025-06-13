@@ -4133,3 +4133,4 @@ OSError: [Errno 101] Network is unreachable
 2025-06-13 08:03:16,033 mobileraker.cam INFO - Trying to take a snapshot from URI: http://192.168.1.130/webcam/?action=snapshot
 2025-06-13 08:03:16,306 mobileraker.cam INFO - Took webcam snapshot! Rotating it using rotation 0°
 2025-06-13 08:03:16,311 mobileraker.fcm INFO - Submitting 1 device-requets to mobileraker server
+2025-06-13 08:03:35,639 mobileraker.Ender3V2 INFO - ---- Completed Evaluations Task! ----
