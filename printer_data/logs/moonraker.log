@@ -2471,3 +2471,8 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2025-06-13 08:31:28,294 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.6
+2025-06-13 08:31:28,299 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 7.70ms
+2025-06-13 08:31:28,300 [websockets.py:open()] - Websocket Opened: ID: 140445578323664, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-06-13 08:31:28,303 [websockets.py:_handle_identify()] - Websocket 140445578323664 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-13 08:31:33,622 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

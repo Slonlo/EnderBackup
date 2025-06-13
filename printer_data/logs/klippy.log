@@ -3515,3 +3515,5 @@ Error configuring printer
 No build file /home/chase/klipper/klippy/../.config
 No build file /home/chase/klipper/klippy/../out/klipper.dict
 No build file /home/chase/klipper/klippy/../out/klipper.elf
+Unable to issue reset command on MCU 'mcu'
+webhooks client 140539132435712: Disconnected
