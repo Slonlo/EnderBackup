@@ -2477,3 +2477,12 @@ Error configuring printer
 2025-06-13 08:31:28,303 [websockets.py:_handle_identify()] - Websocket 140445578323664 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
 2025-06-13 08:31:33,622 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-06-13 08:31:34,884 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-06-13 08:33:05,906 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-06-13 08:33:05,910 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-06-13 08:33:05,913 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
