@@ -2543,3 +2543,6 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-06-13 09:20:20,450 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
 2025-06-13 09:20:20,699 [job_state.py:_handle_started()] - Job state initialized: standby
 2025-06-13 09:20:20,966 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-06-13 09:20:21,714 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-06-13 09:20:22,217 [klippy_apis.py:start_print()] - Requesting Job Start, filename = fidget-cube-v3(1)_PLA_1h40m.gcode
+2025-06-13 09:20:22,457 [job_state.py:_status_update()] - Job Started: fidget-cube-v3(1)_PLA_1h40m.gcode
