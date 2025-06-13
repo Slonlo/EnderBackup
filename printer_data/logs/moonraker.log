@@ -2488,3 +2488,22 @@ Error configuring printer
 
 2025-06-13 09:14:12,817 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2025-06-13 09:14:14,085 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-06-13 09:15:27,775 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 6.05ms
+2025-06-13 09:15:27,777 [websockets.py:open()] - Websocket Opened: ID: 140445578438448, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.130
+2025-06-13 09:15:27,785 [websockets.py:_handle_identify()] - Websocket 140445578438448 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-13 09:15:45,012 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-06-13 09:15:45,015 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-06-13 09:15:45,020 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2025-06-13 09:16:34,628 [application.py:prepare()] - Upload Request Received from 192.168.1.6
+Content-Type: multipart/form-data; boundary=------------------------35ff530b485b2c25
+2025-06-13 09:16:35,102 [application.py:post()] - Processing Uploaded File: fidget-cube-v3(1)_PLA_1h40m.gcode
+2025-06-13 09:16:35,680 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2025-06-13 09:16:35,682 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: fidget-cube-v3(1)_PLA_1h40m.gcode, sliced by OrcaSlicer
+
