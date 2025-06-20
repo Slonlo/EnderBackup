@@ -815,3 +815,6 @@ dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
 2025-06-20 07:57:51,168 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2025-06-20 07:57:51,914 [klippy_apis.py:start_print()] - Requesting Job Start, filename = FidgetRoller v9_PLA_35m2s.gcode
 2025-06-20 07:57:52,165 [job_state.py:_status_update()] - Job Started: FidgetRoller v9_PLA_35m2s.gcode
+2025-06-20 08:02:53,996 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 3.99ms
+2025-06-20 08:02:53,996 [websockets.py:open()] - Websocket Opened: ID: 140201159325968, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36, Host Name: 192.168.1.130
+2025-06-20 08:02:54,023 [websockets.py:_handle_identify()] - Websocket 140201159325968 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
