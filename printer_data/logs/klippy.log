@@ -1433,3 +1433,67 @@ Stats 261.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000016 mcu_task_stdd
 Stats 262.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12381 bytes_read=34143 bytes_retransmit=9 bytes_invalid=0 send_seq=953 receive_seq=953 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002079 sd_pos=21606 heater_bed: target=70 temp=68.4 pwm=0.672 sysload=2.36 cputime=7.057 memavail=2798256 print_time=212.893 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.156
 Stats 263.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12387 bytes_read=34275 bytes_retransmit=9 bytes_invalid=0 send_seq=954 receive_seq=954 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002079 sd_pos=21606 heater_bed: target=70 temp=68.5 pwm=0.672 sysload=2.36 cputime=7.077 memavail=2799040 print_time=213.894 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.156
 Stats 264.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12409 bytes_read=34383 bytes_retransmit=9 bytes_invalid=0 send_seq=956 receive_seq=956 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002080 sd_pos=21606 heater_bed: target=70 temp=68.6 pwm=0.588 sysload=2.36 cputime=7.096 memavail=2803972 print_time=214.894 buffer_time=0.000 print_stall=0 extruder: target=150 temp=149.9 pwm=0.156
+Stats 265.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12431 bytes_read=34491 bytes_retransmit=9 bytes_invalid=0 send_seq=958 receive_seq=958 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002078 sd_pos=21606 heater_bed: target=70 temp=68.7 pwm=0.491 sysload=2.41 cputime=7.111 memavail=2799424 print_time=215.895 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.156
+Stats 266.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12468 bytes_read=34633 bytes_retransmit=9 bytes_invalid=0 send_seq=961 receive_seq=961 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002075 sd_pos=21606 heater_bed: target=70 temp=68.7 pwm=0.635 sysload=2.41 cputime=7.128 memavail=2796748 print_time=216.896 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.147
+Stats 267.9: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12522 bytes_read=34765 bytes_retransmit=9 bytes_invalid=0 send_seq=965 receive_seq=965 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002076 sd_pos=21606 heater_bed: target=70 temp=68.8 pwm=0.686 sysload=2.41 cputime=7.148 memavail=2796496 print_time=217.897 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.147
+Stats 268.9: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12560 bytes_read=34893 bytes_retransmit=9 bytes_invalid=0 send_seq=968 receive_seq=968 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=11 upcoming_bytes=0 freq=72002075 sd_pos=21606 heater_bed: target=70 temp=68.9 pwm=0.576 sysload=2.41 cputime=7.171 memavail=2797288 print_time=218.898 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.147
+Stats 269.9: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12582 bytes_read=35015 bytes_retransmit=9 bytes_invalid=0 send_seq=970 receive_seq=970 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002075 sd_pos=21606 heater_bed: target=70 temp=69.0 pwm=0.576 sysload=2.41 cputime=7.194 memavail=2798068 print_time=219.899 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.147
+Stats 270.9: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=12635 bytes_read=35133 bytes_retransmit=9 bytes_invalid=0 send_seq=974 receive_seq=974 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002074 sd_pos=21606 heater_bed: target=70 temp=69.0 pwm=0.561 sysload=2.46 cputime=7.212 memavail=2798068 print_time=220.900 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.136
+Algorithm: lagrange.
+Default probe count: 15,15.
+Adapted probe count: 5,5.
+Default mesh bounds: (20.0, 20.0), (185.0, 185.0).
+Mesh margin is 0, margin not increased.
+Fuzz amount is 0, mesh points not fuzzed.
+Adapted mesh bounds: (88.242, 87.207), (131.758, 132.793).
+KAMP adjustments successful. Happy KAMPing!
+Generating new points...
+bed_mesh: generated points
+Index |  Tool Adjusted  |   Probe
+  0   | (129.2, 91.2)   | (88.2, 87.2)
+  1   | (140.1, 91.2)   | (99.1, 87.2)
+  2   | (151.0, 91.2)   | (110.0, 87.2)
+  3   | (161.9, 91.2)   | (120.9, 87.2)
+  4   | (172.7, 91.2)   | (131.7, 87.2)
+  5   | (172.7, 102.6)  | (131.7, 98.6)
+  6   | (161.9, 102.6)  | (120.9, 98.6)
+  7   | (151.0, 102.6)  | (110.0, 98.6)
+  8   | (140.1, 102.6)  | (99.1, 98.6)
+  9   | (129.2, 102.6)  | (88.2, 98.6)
+  10  | (129.2, 114.0)  | (88.2, 110.0)
+  11  | (140.1, 114.0)  | (99.1, 110.0)
+  12  | (151.0, 114.0)  | (110.0, 110.0)
+  13  | (161.9, 114.0)  | (120.9, 110.0)
+  14  | (172.7, 114.0)  | (131.7, 110.0)
+  15  | (172.7, 125.4)  | (131.7, 121.4)
+  16  | (161.9, 125.4)  | (120.9, 121.4)
+  17  | (151.0, 125.4)  | (110.0, 121.4)
+  18  | (140.1, 125.4)  | (99.1, 121.4)
+  19  | (129.2, 125.4)  | (88.2, 121.4)
+  20  | (129.2, 136.8)  | (88.2, 132.8)
+  21  | (140.1, 136.8)  | (99.1, 132.8)
+  22  | (151.0, 136.8)  | (110.0, 132.8)
+  23  | (161.9, 136.8)  | (120.9, 132.8)
+  24  | (172.7, 136.8)  | (131.7, 132.8)
+Updated Mesh Configuration:
+x_count: 5
+y_count: 5
+mesh_x_pps: 2
+mesh_y_pps: 2
+algo: lagrange
+tension: 0.2
+Stats 271.9: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=13265 bytes_read=35306 bytes_retransmit=9 bytes_invalid=0 send_seq=986 receive_seq=986 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=33 upcoming_bytes=8 freq=72002074 sd_pos=21648 heater_bed: target=70 temp=69.1 pwm=0.735 sysload=2.46 cputime=7.262 memavail=2797548 print_time=223.193 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.136
+Stats 272.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000020 mcu_task_stddev=0.000020 bytes_write=13354 bytes_read=35458 bytes_retransmit=9 bytes_invalid=0 send_seq=991 receive_seq=991 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002071 sd_pos=21648 heater_bed: target=70 temp=69.1 pwm=0.666 sysload=2.46 cputime=7.280 memavail=2797548 print_time=223.193 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.136
+probe at 129.237,91.210 is z=1.357500
+Stats 273.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000020 mcu_task_stddev=0.000020 bytes_write=14117 bytes_read=35810 bytes_retransmit=9 bytes_invalid=0 send_seq=1019 receive_seq=1019 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002071 sd_pos=21648 heater_bed: target=70 temp=69.2 pwm=0.558 sysload=2.46 cputime=7.320 memavail=2797612 print_time=224.162 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.136
+probe at 140.114,91.210 is z=1.312500
+Stats 274.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000020 mcu_task_stddev=0.000020 bytes_write=14893 bytes_read=36177 bytes_retransmit=9 bytes_invalid=0 send_seq=1047 receive_seq=1047 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=11 upcoming_bytes=0 freq=72002068 sd_pos=21648 heater_bed: target=70 temp=69.3 pwm=0.518 sysload=2.46 cputime=7.367 memavail=2791196 print_time=225.133 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.145
+probe at 150.978,91.210 is z=1.280000
+Stats 275.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000020 mcu_task_stddev=0.000020 bytes_write=15698 bytes_read=36553 bytes_retransmit=9 bytes_invalid=0 send_seq=1077 receive_seq=1077 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002068 sd_pos=21648 heater_bed: target=70 temp=69.3 pwm=0.507 sysload=2.34 cputime=7.417 memavail=2796708 print_time=226.105 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.145
+probe at 161.855,91.210 is z=1.287500
+Stats 276.9: gcodein=0  mcu: mcu_awake=0.002 mcu_task_avg=0.000020 mcu_task_stddev=0.000020 bytes_write=16480 bytes_read=36910 bytes_retransmit=9 bytes_invalid=0 send_seq=1106 receive_seq=1106 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002066 sd_pos=21648 heater_bed: target=70 temp=69.4 pwm=0.606 sysload=2.34 cputime=7.460 memavail=2797624 print_time=227.128 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.145
+probe at 172.720,91.210 is z=1.265000
+Stats 277.9: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000022 bytes_write=17249 bytes_read=37287 bytes_retransmit=9 bytes_invalid=0 send_seq=1133 receive_seq=1133 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=11 upcoming_bytes=0 freq=72002064 sd_pos=21648 heater_bed: target=70 temp=69.4 pwm=0.698 sysload=2.34 cputime=7.505 memavail=2792412 print_time=228.103 buffer_time=0.000 print_stall=0 extruder: target=150 temp=150.0 pwm=0.145
+probe at 172.720,102.591 is z=1.272500
+Stats 278.9: gcodein=0  mcu: mcu_awake=0.008 mcu_task_avg=0.000028 mcu_task_stddev=0.000022 bytes_write=18090 bytes_read=37663 bytes_retransmit=9 bytes_invalid=0 send_seq=1163 receive_seq=1163 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72002060 sd_pos=21648 heater_bed: target=70 temp=69.5 pwm=0.486 sysload=2.34 cputime=7.549 memavail=2790328 print_time=229.126 buffer_time=0.000 print_stall=0 extruder: target=150 temp=149.9 pwm=0.156
+probe at 161.855,102.591 is z=1.307500
