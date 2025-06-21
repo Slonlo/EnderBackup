@@ -2935,3 +2935,8 @@ Properties:
 2025-06-21 07:05:11,044 [application.py:log_request()] - 101 GET /websocket (192.168.1.6) [_TRUSTED_USER_] 3.73ms
 2025-06-21 07:05:11,045 [websockets.py:open()] - Websocket Opened: ID: 140201159890448, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36, Host Name: 192.168.1.130
 2025-06-21 07:05:11,065 [websockets.py:_handle_identify()] - Websocket 140201159890448 Client Identified - Name: mainsail, Version: 2.13.2, Type: web
+2025-06-21 07:17:53,667 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.111
+2025-06-21 07:17:53,671 [application.py:log_request()] - 101 GET /websocket (192.168.1.111) [_TRUSTED_USER_] 6.65ms
+2025-06-21 07:17:53,672 [websockets.py:open()] - Websocket Opened: ID: 140201158253680, Proxied: True, User Agent: Dart/3.6 (dart:io), Host Name: 192.168.1.130
+2025-06-21 07:17:53,891 [websockets.py:_handle_identify()] - Websocket 140201158253680 Client Identified - Name: Mobileraker-android, Version: 2.9.0-641, Type: mobile
+2025-06-21 07:18:42,954 [websockets.py:on_close()] - Websocket Closed: ID: 140201158253680 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.26
