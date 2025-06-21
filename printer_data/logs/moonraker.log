@@ -2882,3 +2882,53 @@ Content-Type: multipart/form-data; boundary=------------------------506341837103
 
 2025-06-21 07:04:08,907 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: outer(2)_PLA_48m18s.gcode, sliced by OrcaSlicer
 
+2025-06-21 07:04:13,877 [shell_command.py:_check_proc_success()] - Command (/home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-4r1ipwqc.json) successfully finished
+2025-06-21 07:04:13,880 [klippy_apis.py:start_print()] - Requesting Job Start, filename = outer(2)_PLA_48m18s.gcode
+2025-06-21 07:04:13,888 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.6) [_TRUSTED_USER_] 5662.68ms
+2025-06-21 07:04:13,934 [power.py:_handle_job_queued()] - Power Device Power: Job 'outer(2)_PLA_48m18s.gcode' queued, powering on
+2025-06-21 07:04:14,115 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper
+2025-06-21 07:04:14,136 [power.py:process_bound_services()] - Power Device Power: Performing start action on bound service klipper-mcu
+2025-06-21 07:04:14,166 [server.py:_process_event()] - 
+Error processing callback in event job_queue:job_queue_changed
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/power.py", line 132, in _handle_job_queued
+    await dev.process_request("on")
+  File "/home/chase/moonraker/moonraker/components/power.py", line 418, in process_request
+    await self.process_power_changed()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 308, in process_power_changed
+    await self.process_bound_services()
+  File "/home/chase/moonraker/moonraker/components/power.py", line 330, in process_bound_services
+    await machine_cmp.do_service_action(action, svc)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 323, in do_service_action
+    await self.sys_provider.do_service_action(action, service_name)
+  File "/home/chase/moonraker/moonraker/components/machine.py", line 1245, in do_service_action
+    await mgr.call_start_unit(service_name, "replace")  # type: ignore
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/aio/proxy_object.py", line 108, in method_fn
+    BaseProxyInterface._check_method_return(msg, intr_method.out_signature)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/dbus_fast/proxy_object.py", line 80, in _check_method_return
+    raise DBusError._from_message(msg)
+dbus_fast.errors.DBusError: Unit klipper-mcu.service not found.
+
+2025-06-21 07:04:15,004 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-06-21 07:04:15,081 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', '-.mount', 'sysinit.target']
+**After=['basic.target', '-.mount', 'system.slice', 'sysinit.target', 'network-online.target', 'systemd-journald.socket']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+2025-06-21 07:04:18,435 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-06-21 07:04:18,441 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-06-21 07:04:18,686 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-06-21 07:04:18,972 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-06-21 07:04:19,709 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-06-21 07:04:20,199 [klippy_apis.py:start_print()] - Requesting Job Start, filename = outer(2)_PLA_48m18s.gcode
+2025-06-21 07:04:20,446 [job_state.py:_status_update()] - Job Started: outer(2)_PLA_48m18s.gcode
