@@ -1699,3 +1699,6 @@ Traceback (most recent call last):
   File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
     return await transaction.run(method, *args, notify=notify)
 moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-06-22 03:57:31,870 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-06-22 03:57:31,877 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-06-22 03:57:31,885 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
