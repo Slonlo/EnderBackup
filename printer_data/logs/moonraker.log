@@ -2238,3 +2238,73 @@ Pinned Commit: None
 2025-06-30 04:57:30,565 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
 2025-06-30 04:57:30,591 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
 2025-06-30 04:57:30,644 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
+2025-06-30 04:57:31,027 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) successfully finished
+2025-06-30 04:57:31,052 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-06-30 04:57:31,078 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse HEAD) successfully finished
+2025-06-30 04:57:31,107 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-06-30 04:57:31,130 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse origin/main) successfully finished
+2025-06-30 04:57:31,166 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-06-30 04:57:31,194 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-list HEAD..f9e74250f41d98af78837520a856bd49c4e85ad1 --count) successfully finished
+2025-06-30 04:57:31,224 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup log 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-06-30 04:57:31,263 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-06-30 04:57:31,266 [git_deploy.py:log_repo_info()] - Git Repo klipper-backup Detected:
+Owner: Staubgeborener
+Repository Name: klipper-backup
+Path: /home/chase/klipper-backup
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Staubgeborener/klipper-backup.git
+Recovery URL: https://github.com/Staubgeborener/klipper-backup.git
+Current Commit SHA: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Upstream Commit SHA: f9e74250f41d98af78837520a856bd49c4e85ad1
+Current Version: v1.3.2-0-g1ccd26ad
+Upstream Version: v1.3.3-5-gf9e74250
+Rollback Commit: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Rollback Branch: main
+Rollback Version: v1.3.2-0-g1ccd26ad-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 6
+Diverged: False
+Pinned Commit: None
+2025-06-30 04:57:31,266 [base_deploy.py:log_info()] - Git Repo klipper-backup: Channel: dev
+2025-06-30 04:57:31,266 [base_deploy.py:log_info()] - Git Repo klipper-backup: Validity check for git repo passed
+2025-06-30 04:57:31,299 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion status --porcelain -b) successfully finished
+2025-06-30 04:57:31,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion branch --list --no-color) successfully finished
+2025-06-30 04:57:31,369 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion remote get-url origin) successfully finished
+2025-06-30 04:57:31,730 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) successfully finished
+2025-06-30 04:57:31,757 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-06-30 04:57:31,783 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-parse HEAD) successfully finished
+2025-06-30 04:57:31,815 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-06-30 04:57:31,844 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-parse origin/main) successfully finished
+2025-06-30 04:57:31,876 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion describe origin/main --always --tags --long --abbrev=8) successfully finished
+2025-06-30 04:57:31,907 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-list HEAD..5abf2f1cabb29a426f591f0156f783c46304d335 --count) successfully finished
+2025-06-30 04:57:31,938 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion log 1d1e2ebe101af12f83ea770301549e15055b36ea..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-06-30 04:57:31,977 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-06-30 04:57:31,978 [git_deploy.py:log_repo_info()] - Git Repo mobileraker Detected:
+Owner: Clon1998
+Repository Name: mobileraker_companion
+Path: /home/chase/mobileraker_companion
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Clon1998/mobileraker_companion.git
+Recovery URL: https://github.com/Clon1998/mobileraker_companion.git
+Current Commit SHA: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Upstream Commit SHA: 5abf2f1cabb29a426f591f0156f783c46304d335
+Current Version: v0.4.0-91-g1d1e2ebe
+Upstream Version: v0.5.0-2-g5abf2f1c
+Rollback Commit: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Rollback Branch: main
+Rollback Version: v0.4.0-91-g1d1e2ebe
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 3
+Diverged: False
+Pinned Commit: None
+2025-06-30 04:57:31,979 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
+2025-06-30 04:57:31,979 [base_deploy.py:log_info()] - Git Repo mobileraker: Validity check for git repo passed
+2025-06-30 04:57:36,902 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-06-30 04:57:36,910 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-06-30 04:57:36,916 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
