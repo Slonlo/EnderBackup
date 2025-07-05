@@ -1056,3 +1056,6 @@ Rollback Repo: fluidd-core/fluidd
 2025-07-05 01:58:09,870 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
 2025-07-05 01:58:09,878 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
 2025-07-05 01:58:09,887 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-07-05 01:58:39,869 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2025-07-05 01:58:39,876 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2025-07-05 01:58:39,883 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
