@@ -325,3 +325,18 @@ moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --prog
 2025-07-19 03:57:32,085 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
 2025-07-19 03:57:32,086 [base_deploy.py:log_info()] - Git Repo fluidd-config: Repo validation check failed, updates disabled
 2025-07-19 03:57:32,283 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2025-07-19 03:57:33,110 [base_deploy.py:log_info()] - Web Client fluidd: Github Request Error - [Errno -3] Temporary failure in name resolution
+2025-07-19 03:57:33,111 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.34.3
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.3/fluidd.zip
+Download Size: 4345018
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
