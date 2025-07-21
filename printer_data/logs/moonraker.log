@@ -946,3 +946,16 @@ Properties:
 2025-07-21 12:18:00,835 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 12.68ms
 2025-07-21 12:18:00,838 [websockets.py:open()] - Websocket Opened: ID: 139696822576560, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
 2025-07-21 12:18:00,950 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-07-21 12:18:14,854 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': Timeout while connecting
+2025-07-21 12:18:19,884 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-07-21 12:18:19,886 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.01ms
+2025-07-21 12:18:19,887 [websockets.py:open()] - Websocket Opened: ID: 139696821855712, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-07-21 12:19:21,482 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-07-21 12:19:21,485 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-07-21 12:19:21,489 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
