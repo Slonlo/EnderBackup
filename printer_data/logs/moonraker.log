@@ -265,3 +265,23 @@ Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-07-24 03:00:24,745 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
 2025-07-24 03:01:00,769 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821855712
+2025-07-24 03:01:04,890 [websockets.py:on_close()] - Websocket Closed: ID: 139696821855712 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-07-24 03:01:11,787 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696822576560
+2025-07-24 03:01:15,842 [websockets.py:on_close()] - Websocket Closed: ID: 139696822576560 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-07-24 03:02:34,932 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-07-24 03:02:34,933 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-07-24 03:02:44,945 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-07-24 03:02:44,947 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-07-24 03:02:47,944 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-07-24 03:02:47,947 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.82ms
+2025-07-24 03:02:47,948 [websockets.py:open()] - Websocket Opened: ID: 139696821984128, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-07-24 03:03:01,891 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-07-24 03:03:01,892 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.05ms
+2025-07-24 03:03:01,893 [websockets.py:open()] - Websocket Opened: ID: 139696821983120, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-07-24 04:02:53,247 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-07-24 04:07:53,248 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-07-24 15:56:44,802 [websockets.py:on_close()] - Websocket Closed: ID: 139696821983120 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.88
+2025-07-24 15:57:13,887 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-07-24 15:57:13,890 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.03ms
+2025-07-24 15:57:13,890 [websockets.py:open()] - Websocket Opened: ID: 139696821766320, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-07-24 16:57:53,451 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
