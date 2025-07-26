@@ -331,3 +331,17 @@ Diverged: False
 Pinned Commit: None
 2025-07-26 04:17:54,916 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
 2025-07-26 04:17:54,916 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
+2025-07-26 04:17:59,156 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.34.3
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.3/fluidd.zip
+Download Size: 4345018
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
