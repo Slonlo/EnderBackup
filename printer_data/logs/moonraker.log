@@ -266,3 +266,28 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2025-07-27 03:00:29,783 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
 2025-07-27 03:01:02,791 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696822506256
 2025-07-27 03:01:06,906 [websockets.py:on_close()] - Websocket Closed: ID: 139696822506256 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2025-07-27 03:01:18,816 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821984128
+2025-07-27 03:01:22,954 [websockets.py:on_close()] - Websocket Closed: ID: 139696821984128 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-07-27 03:02:39,990 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-07-27 03:02:39,992 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-07-27 03:02:48,984 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-07-27 03:02:48,986 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.67ms
+2025-07-27 03:02:48,987 [websockets.py:open()] - Websocket Opened: ID: 139696821983888, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-07-27 03:02:49,999 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-07-27 03:02:50,000 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-07-27 03:03:00,879 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-07-27 03:03:00,881 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.75ms
+2025-07-27 03:03:00,881 [websockets.py:open()] - Websocket Opened: ID: 139696821764832, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-07-27 04:02:54,375 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-07-27 04:07:54,376 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-07-27 04:17:53,606 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
+    await self._update_package_cache(force=True)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
+    await self.provider.refresh_packages(notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
+    await self.run_transaction("refresh_cache", False, notify=notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
+    return await transaction.run(method, *args, notify=notify)
+moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
