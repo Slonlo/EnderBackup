@@ -1,4 +1,4 @@
--------------------- Log Start | Sun Jul 27 07:00:29 2025 --------------------
+-------------------- Log Start | Tue Jul 29 07:17:53 2025 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,31 +263,92 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-07-27 03:00:29,783 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2025-07-27 03:01:02,791 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696822506256
-2025-07-27 03:01:06,906 [websockets.py:on_close()] - Websocket Closed: ID: 139696822506256 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
-2025-07-27 03:01:18,816 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821984128
-2025-07-27 03:01:22,954 [websockets.py:on_close()] - Websocket Closed: ID: 139696821984128 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2025-07-27 03:02:39,990 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2025-07-27 03:02:39,992 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2025-07-27 03:02:48,984 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
-2025-07-27 03:02:48,986 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.67ms
-2025-07-27 03:02:48,987 [websockets.py:open()] - Websocket Opened: ID: 139696821983888, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
-2025-07-27 03:02:49,999 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2025-07-27 03:02:50,000 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
-2025-07-27 03:03:00,879 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
-2025-07-27 03:03:00,881 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.75ms
-2025-07-27 03:03:00,881 [websockets.py:open()] - Websocket Opened: ID: 139696821764832, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
-2025-07-27 04:02:54,375 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
-2025-07-27 04:07:54,376 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
-2025-07-27 04:17:53,606 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
-    await self._update_package_cache(force=True)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
-    await self.provider.refresh_packages(notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
-    await self.run_transaction("refresh_cache", False, notify=notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
-    return await transaction.run(method, *args, notify=notify)
-moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-07-29 03:17:53,474 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-07-29 03:17:53,513 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-07-29 03:17:53,559 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-07-29 03:17:54,294 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
+2025-07-29 03:17:54,326 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-07-29 03:17:54,354 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
+2025-07-29 03:17:54,392 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-07-29 03:17:54,420 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
+2025-07-29 03:17:54,453 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-07-29 03:17:54,490 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..77c91493488ea04af35ae94d6158a4e83ab75619 --count) successfully finished
+2025-07-29 03:17:54,523 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-07-29 03:17:54,615 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-07-29 03:17:54,617 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/chase/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
+Upstream Commit SHA: 77c91493488ea04af35ae94d6158a4e83ab75619
+Current Version: v0.9.3-58-ga0164e15
+Upstream Version: v0.9.3-101-g77c91493
+Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
+Rollback Branch: master
+Rollback Version: v0.9.3-48-g354cc11b
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 43
+Diverged: False
+Pinned Commit: None
+2025-07-29 03:17:54,617 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-07-29 03:17:54,617 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2025-07-29 03:17:54,694 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2025-07-29 03:17:54,718 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2025-07-29 03:17:54,766 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
+2025-07-29 03:17:56,277 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) successfully finished
+2025-07-29 03:17:56,310 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-07-29 03:17:56,334 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse HEAD) successfully finished
+2025-07-29 03:17:56,506 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-07-29 03:17:56,533 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse origin/master) successfully finished
+2025-07-29 03:17:56,685 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-07-29 03:17:56,726 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-list HEAD..e1176e4dfb9018e712d4fa86daf41e9e762a1698 --count) successfully finished
+2025-07-29 03:17:56,770 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper log 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-07-29 03:17:56,956 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-07-29 03:17:56,958 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/chase/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Upstream Commit SHA: e1176e4dfb9018e712d4fa86daf41e9e762a1698
+Current Version: v0.12.0-439-g1fc6d214
+Upstream Version: v0.13.0-181-ge1176e4d
+Rollback Commit: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Rollback Branch: master
+Rollback Version: v0.12.0-439-g1fc6d214
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 235
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py']
+2025-07-29 03:17:56,959 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2025-07-29 03:17:56,959 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2025-07-29 03:17:57,147 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.14.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.14.0/mainsail.zip
+Download Size: 2848929
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2025-07-29 03:17:57,176 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2025-07-29 03:17:57,202 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2025-07-29 03:17:57,249 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
