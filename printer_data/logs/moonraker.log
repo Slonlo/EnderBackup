@@ -520,3 +520,8 @@ Diverged: False
 Pinned Commit: None
 2025-07-29 03:18:00,496 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
 2025-07-29 03:18:00,496 [base_deploy.py:log_info()] - Git Repo mobileraker: Validity check for git repo passed
+2025-07-29 06:43:25,012 [websockets.py:on_close()] - Websocket Closed: ID: 139696821764832 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.12
+2025-07-29 06:45:04,146 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-07-29 06:45:04,148 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.95ms
+2025-07-29 06:45:04,148 [websockets.py:open()] - Websocket Opened: ID: 139696821983360, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-07-29 07:47:55,238 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
