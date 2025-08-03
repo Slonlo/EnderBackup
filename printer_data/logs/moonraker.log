@@ -1,4 +1,4 @@
--------------------- Log Start | Thu Jul 31 07:00:31 2025 --------------------
+-------------------- Log Start | Sun Aug  3 04:17:53 2025 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,17 +263,85 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-07-31 03:00:31,066 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2025-07-31 03:00:55,062 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821983360
-2025-07-31 03:00:59,152 [websockets.py:on_close()] - Websocket Closed: ID: 139696821983360 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
-2025-07-31 03:01:09,076 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821983888
-2025-07-31 03:01:13,993 [websockets.py:on_close()] - Websocket Closed: ID: 139696821983888 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2025-07-31 03:02:41,270 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2025-07-31 03:02:56,983 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
-2025-07-31 03:02:56,986 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 7.16ms
-2025-07-31 03:02:56,988 [websockets.py:open()] - Websocket Opened: ID: 139696822590480, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
-2025-07-31 03:02:59,694 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
-2025-07-31 03:02:59,697 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.39ms
-2025-07-31 03:02:59,697 [websockets.py:open()] - Websocket Opened: ID: 139696821857296, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
-2025-07-31 04:07:55,971 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
-2025-07-31 04:07:55,972 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-08-03 00:17:53,684 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest status --porcelain -b) successfully finished
+2025-08-03 00:17:53,721 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest branch --list --no-color) successfully finished
+2025-08-03 00:17:53,776 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest remote get-url origin) successfully finished
+2025-08-03 00:17:54,416 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) successfully finished
+2025-08-03 00:17:54,441 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-03 00:17:54,466 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse HEAD) successfully finished
+2025-08-03 00:17:54,501 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-03 00:17:54,527 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse origin/master) successfully finished
+2025-08-03 00:17:54,563 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-03 00:17:54,593 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-list HEAD..2558506f2f68920d130175d7fc7753864c35eaee --count) successfully finished
+2025-08-03 00:17:54,623 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest log dd390b60049bd139e3b1ae0ab6ba45175d639180..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-08-03 00:17:54,673 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-08-03 00:17:54,676 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/chase/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Upstream Commit SHA: 2558506f2f68920d130175d7fc7753864c35eaee
+Current Version: v4.1.10-1-gdd390b60
+Upstream Version: v4.1.15-1-g2558506f
+Rollback Commit: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Rollback Branch: master
+Rollback Version: v4.1.10-1-gdd390b60
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 26
+Diverged: False
+Pinned Commit: None
+2025-08-03 00:17:54,677 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
+2025-08-03 00:17:54,677 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2025-08-03 00:17:54,707 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
+2025-08-03 00:17:54,736 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
+2025-08-03 00:17:54,782 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
+2025-08-03 00:17:55,151 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) successfully finished
+2025-08-03 00:17:55,176 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-03 00:17:55,201 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse HEAD) successfully finished
+2025-08-03 00:17:55,228 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-03 00:17:55,252 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse origin/master) successfully finished
+2025-08-03 00:17:55,279 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-03 00:17:55,306 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-list HEAD..807175d72e3a00cdc6b5e249444a4630e1e03a55 --count) successfully finished
+2025-08-03 00:17:55,308 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+Owner: fluidd-core
+Repository Name: fluidd-config
+Path: /home/chase/fluidd-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/fluidd-core/fluidd-config.git
+Recovery URL: https://github.com/fluidd-core/fluidd-config.git
+Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Current Version: v1.2.1-0-g807175d7
+Upstream Version: v1.2.1-0-g807175d7
+Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Rollback Branch: master
+Rollback Version: v1.2.1-0-g807175d7
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-08-03 00:17:55,308 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2025-08-03 00:17:55,308 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
+2025-08-03 00:17:55,505 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.34.3
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.3/fluidd.zip
+Download Size: 4345018
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
