@@ -1,0 +1,375 @@
+-------------------- Log Start | Sun Aug  3 04:17:53 2025 --------------------
+platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
+data_path: /home/chase/printer_data
+is_default_data_path: False
+config_file: /home/chase/printer_data/config/moonraker.conf
+backup_config: None
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: b8aeafbbdbb14078bbacb03f480f8081
+unix_socket_path: /home/chase/printer_data/comms/moonraker.sock
+software_version: v0.9.3-58-ga0164e1
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker
+modified_files: []
+unofficial_components: []
+log_file: /home/chase/printer_data/logs/moonraker.log
+python_version: 3.8.10 (default, Mar 18 2025, 20:04:55)  [GCC 9.4.0]
+launch_args: /home/chase/moonraker-env/bin/python /home/chase/moonraker/moonraker/moonraker.py -d /home/chase/printer_data
+msgspec_enabled: True
+uvloop_enabled: True
+
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[file_manager]
+enable_object_processing = True
+queue_gcode_uploads = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+	https://ender.slonlo.com
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	192.168.1.121
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+[power Power]
+type = tplink_smartplug
+address = 192.168.1.31
+off_when_shutdown = True
+on_when_job_queued = True
+restart_klipper_when_powered = True
+locked_while_printing = False
+bound_services = 
+	klipper
+	klipper-mcu
+
+[wled printerled]
+type = http
+address = 192.168.1.154
+initial_red = 0.0
+initial_green = 0.0
+initial_blue = 0.0
+chain_count = 20
+
+[job_queue]
+load_on_startup = True
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/chase/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/chase/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager mobileraker]
+type = git_repo
+path = /home/chase/mobileraker_companion
+origin = https://github.com/Clon1998/mobileraker_companion.git
+primary_branch = main
+managed_services = mobileraker
+env = /home/chase/mobileraker-env/bin/python
+requirements = scripts/mobileraker-requirements.txt
+install_script = scripts/install.sh
+
+[update_manager fluidd-config]
+type = git_repo
+primary_branch = master
+path = ~/fluidd-config
+origin = https://github.com/fluidd-core/fluidd-config.git
+managed_services = klipper
+
+[update_manager fluidd]
+type = web
+channel = stable
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
+#################################################################
+All Configuration Files:
+/home/chase/printer_data/config/moonraker.conf
+/home/chase/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+Loading Sqlite database provider. Sqlite Version: 3.31.1
+Unsafe Shutdown Count: 10
+
+System Info:
+
+***python***
+  version: (3, 8, 10, 'final', 0)
+  version_string: 3.8.10 (default, Mar 18 2025, 20:04:55)  [GCC 9.4.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 64bit
+  processor: x86_64
+  cpu_desc: Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz
+  serial_number: 
+  hardware_desc: 
+  model: 
+  total_memory: 3933588
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Ubuntu 20.04.6 LTS
+  id: ubuntu
+  version: 20.04
+  version_parts: {'major': '20', 'minor': '04', 'build_number': ''}
+  like: debian
+  codename: focal
+  release_info: {}
+  kernel_version: 5.15.0-139-generic
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+  mobileraker
+Module libcamera unavailble, import failed
+
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['network-online.target', 'system.slice', '-.mount', 'sysinit.target']
+**After=['network-online.target', 'basic.target', 'system.slice', 'sysinit.target', 'systemd-journald.socket', '-.mount']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/chase/printer_data/systemd/moonraker.env
+**ExecStart=/home/chase/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/chase/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=chase
+
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', 'system.slice', '-.mount']
+**After=['systemd-journald.socket', 'basic.target', 'sysinit.target', '-.mount', 'system.slice', 'network-online.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/chase/printer_data/systemd/klipper.env
+**ExecStart=/home/chase/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/chase/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=chase
+Git Repo moonraker: No warnings detected
+Git Repo klipper: Warnings detected:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py']
+Git Repo mainsail-config: No warnings detected
+Git Repo crowsnest: No warnings detected
+Git Repo sonar: No warnings detected
+Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
+Git Repo klipper-backup: No warnings detected
+Git Repo mobileraker: No warnings detected
+Git Repo fluidd-config: No warnings detected
+Klipper Version: v0.12.0-439-g1fc6d214f-dirty
+2025-08-03 00:17:53,684 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest status --porcelain -b) successfully finished
+2025-08-03 00:17:53,721 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest branch --list --no-color) successfully finished
+2025-08-03 00:17:53,776 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest remote get-url origin) successfully finished
+2025-08-03 00:17:54,416 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) successfully finished
+2025-08-03 00:17:54,441 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-03 00:17:54,466 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse HEAD) successfully finished
+2025-08-03 00:17:54,501 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-03 00:17:54,527 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse origin/master) successfully finished
+2025-08-03 00:17:54,563 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-03 00:17:54,593 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-list HEAD..2558506f2f68920d130175d7fc7753864c35eaee --count) successfully finished
+2025-08-03 00:17:54,623 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest log dd390b60049bd139e3b1ae0ab6ba45175d639180..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-08-03 00:17:54,673 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-08-03 00:17:54,676 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/chase/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Upstream Commit SHA: 2558506f2f68920d130175d7fc7753864c35eaee
+Current Version: v4.1.10-1-gdd390b60
+Upstream Version: v4.1.15-1-g2558506f
+Rollback Commit: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Rollback Branch: master
+Rollback Version: v4.1.10-1-gdd390b60
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 26
+Diverged: False
+Pinned Commit: None
+2025-08-03 00:17:54,677 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
+2025-08-03 00:17:54,677 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2025-08-03 00:17:54,707 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
+2025-08-03 00:17:54,736 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
+2025-08-03 00:17:54,782 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
+2025-08-03 00:17:55,151 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) successfully finished
+2025-08-03 00:17:55,176 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-03 00:17:55,201 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse HEAD) successfully finished
+2025-08-03 00:17:55,228 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-03 00:17:55,252 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse origin/master) successfully finished
+2025-08-03 00:17:55,279 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-03 00:17:55,306 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-list HEAD..807175d72e3a00cdc6b5e249444a4630e1e03a55 --count) successfully finished
+2025-08-03 00:17:55,308 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+Owner: fluidd-core
+Repository Name: fluidd-config
+Path: /home/chase/fluidd-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/fluidd-core/fluidd-config.git
+Recovery URL: https://github.com/fluidd-core/fluidd-config.git
+Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Current Version: v1.2.1-0-g807175d7
+Upstream Version: v1.2.1-0-g807175d7
+Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Rollback Branch: master
+Rollback Version: v1.2.1-0-g807175d7
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-08-03 00:17:55,308 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2025-08-03 00:17:55,308 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
+2025-08-03 00:17:55,505 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.34.3
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.3/fluidd.zip
+Download Size: 4345018
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
+2025-08-03 03:00:31,487 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-08-03 03:01:00,504 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821857296
+2025-08-03 03:01:04,703 [websockets.py:on_close()] - Websocket Closed: ID: 139696821857296 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-08-03 03:01:17,534 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696822590480
+2025-08-03 03:01:21,995 [websockets.py:on_close()] - Websocket Closed: ID: 139696822590480 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2025-08-03 03:02:41,706 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2025-08-03 03:02:41,709 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2025-08-03 03:02:51,722 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2025-08-03 03:02:51,725 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2025-08-03 03:02:56,079 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2025-08-03 03:02:56,082 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 6.28ms
+2025-08-03 03:02:56,082 [websockets.py:open()] - Websocket Opened: ID: 139696821858208, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2025-08-03 03:03:00,701 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2025-08-03 03:03:00,703 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.08ms
+2025-08-03 03:03:00,704 [websockets.py:open()] - Websocket Opened: ID: 139696822588464, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
+2025-08-03 04:02:57,137 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2025-08-03 04:07:57,139 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2025-08-03 04:17:53,864 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
+    await self._update_package_cache(force=True)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
+    await self.provider.refresh_packages(notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
+    await self.run_transaction("refresh_cache", False, notify=notify)
+  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
+    return await transaction.run(method, *args, notify=notify)
+moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
