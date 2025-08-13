@@ -1,4 +1,4 @@
--------------------- Log Start | Sun Aug 10 05:17:54 2025 --------------------
+-------------------- Log Start | Wed Aug 13 04:17:54 2025 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,113 +263,131 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2025-08-10 01:17:54,079 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest status --porcelain -b) successfully finished
-2025-08-10 01:17:54,119 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest branch --list --no-color) successfully finished
-2025-08-10 01:17:54,182 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest remote get-url origin) successfully finished
-2025-08-10 01:17:54,566 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) successfully finished
-2025-08-10 01:17:54,594 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
-2025-08-10 01:17:54,623 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse HEAD) successfully finished
-2025-08-10 01:17:54,658 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
-2025-08-10 01:17:54,684 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse origin/master) successfully finished
-2025-08-10 01:17:54,719 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
-2025-08-10 01:17:54,746 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-list HEAD..2558506f2f68920d130175d7fc7753864c35eaee --count) successfully finished
-2025-08-10 01:17:54,778 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest log dd390b60049bd139e3b1ae0ab6ba45175d639180..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2025-08-10 01:17:54,826 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2025-08-10 01:17:54,830 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
-Owner: mainsail-crew
-Repository Name: crowsnest
-Path: /home/chase/crowsnest
+2025-08-13 00:17:54,165 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2025-08-13 00:17:54,192 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2025-08-13 00:17:54,243 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2025-08-13 00:17:54,804 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) successfully finished
+2025-08-13 00:17:54,838 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-13 00:17:54,868 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse HEAD) successfully finished
+2025-08-13 00:17:54,901 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-13 00:17:54,926 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-parse origin/master) successfully finished
+2025-08-13 00:17:54,959 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-13 00:17:54,989 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker rev-list HEAD..f20feff6c67884ff1253414506c43222e04c0460 --count) successfully finished
+2025-08-13 00:17:55,022 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker log a0164e157543a91255a02cc9ce4c3848dc3ee694..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-08-13 00:17:55,120 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-08-13 00:17:55,123 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/chase/moonraker
 Remote: origin
 Branch: master
-Remote URL: https://github.com/mainsail-crew/crowsnest.git
-Recovery URL: https://github.com/mainsail-crew/crowsnest.git
-Current Commit SHA: dd390b60049bd139e3b1ae0ab6ba45175d639180
-Upstream Commit SHA: 2558506f2f68920d130175d7fc7753864c35eaee
-Current Version: v4.1.10-1-gdd390b60
-Upstream Version: v4.1.15-1-g2558506f
-Rollback Commit: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: a0164e157543a91255a02cc9ce4c3848dc3ee694
+Upstream Commit SHA: f20feff6c67884ff1253414506c43222e04c0460
+Current Version: v0.9.3-58-ga0164e15
+Upstream Version: v0.9.3-102-gf20feff6
+Rollback Commit: 354cc11b8e3cd3c1353b9f961d768b3bb615060d
 Rollback Branch: master
-Rollback Version: v4.1.10-1-gdd390b60
+Rollback Version: v0.9.3-48-g354cc11b
 Is Dirty: False
 Is Detached: False
 Is Shallow: False
-Commits Behind Count: 26
+Commits Behind Count: 44
 Diverged: False
 Pinned Commit: None
-2025-08-10 01:17:54,832 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
-2025-08-10 01:17:54,832 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
-2025-08-10 01:17:54,868 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
-2025-08-10 01:17:54,892 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
-2025-08-10 01:17:54,947 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
-2025-08-10 01:17:55,290 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) successfully finished
-2025-08-10 01:17:55,316 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config merge-base --is-ancestor HEAD origin/master) successfully finished
-2025-08-10 01:17:55,344 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse HEAD) successfully finished
-2025-08-10 01:17:55,375 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe --always --tags --long --dirty --abbrev=8) successfully finished
-2025-08-10 01:17:55,401 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse origin/master) successfully finished
-2025-08-10 01:17:55,429 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe origin/master --always --tags --long --abbrev=8) successfully finished
-2025-08-10 01:17:55,456 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-list HEAD..807175d72e3a00cdc6b5e249444a4630e1e03a55 --count) successfully finished
-2025-08-10 01:17:55,459 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
-Owner: fluidd-core
-Repository Name: fluidd-config
-Path: /home/chase/fluidd-config
+2025-08-13 00:17:55,124 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2025-08-13 00:17:55,124 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2025-08-13 00:17:55,204 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2025-08-13 00:17:55,232 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2025-08-13 00:17:55,283 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
+2025-08-13 00:17:56,253 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) successfully finished
+2025-08-13 00:17:56,287 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-13 00:17:56,313 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse HEAD) successfully finished
+2025-08-13 00:17:56,479 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-13 00:17:56,502 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-parse origin/master) successfully finished
+2025-08-13 00:17:56,652 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-13 00:17:56,694 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper rev-list HEAD..3ef760c18ff8dfd9710ab4f0fae6cf644d3d7c34 --count) successfully finished
+2025-08-13 00:17:56,740 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper log 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2025-08-13 00:17:56,939 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2025-08-13 00:17:56,944 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/chase/klipper
 Remote: origin
 Branch: master
-Remote URL: https://github.com/fluidd-core/fluidd-config.git
-Recovery URL: https://github.com/fluidd-core/fluidd-config.git
-Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
-Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
-Current Version: v1.2.1-0-g807175d7
-Upstream Version: v1.2.1-0-g807175d7
-Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
+Upstream Commit SHA: 3ef760c18ff8dfd9710ab4f0fae6cf644d3d7c34
+Current Version: v0.12.0-439-g1fc6d214
+Upstream Version: v0.13.0-192-g3ef760c1
+Rollback Commit: 1fc6d214f4fab8b9e6a051fbe42f27ef4add77ef
 Rollback Branch: master
-Rollback Version: v1.2.1-0-g807175d7
+Rollback Version: v0.12.0-439-g1fc6d214
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 246
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py']
+2025-08-13 00:17:56,945 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2025-08-13 00:17:56,945 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2025-08-13 00:17:57,129 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.14.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.14.0/mainsail.zip
+Download Size: 2848929
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2025-08-13 00:17:57,159 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2025-08-13 00:17:57,186 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2025-08-13 00:17:57,231 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
+2025-08-13 00:17:57,628 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) successfully finished
+2025-08-13 00:17:57,653 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2025-08-13 00:17:57,676 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse HEAD) successfully finished
+2025-08-13 00:17:57,704 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-13 00:17:57,731 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse origin/master) successfully finished
+2025-08-13 00:17:57,756 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2025-08-13 00:17:57,784 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-list HEAD..ff3869a621db17ce3ef660adbbd3fa321995ac42 --count) successfully finished
+2025-08-13 00:17:57,787 [git_deploy.py:log_repo_info()] - Git Repo mainsail-config Detected:
+Owner: mainsail-crew
+Repository Name: mainsail-config
+Path: /home/chase/mainsail-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/mainsail-config.git
+Recovery URL: https://github.com/mainsail-crew/mainsail-config.git
+Current Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Upstream Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Current Version: v1.2.1-1-gff3869a6
+Upstream Version: v1.2.1-1-gff3869a6
+Rollback Commit: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Rollback Branch: master
+Rollback Version: v1.2.1-1-gff3869a6
 Is Dirty: False
 Is Detached: False
 Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
-2025-08-10 01:17:55,459 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
-2025-08-10 01:17:55,460 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
-2025-08-10 01:17:55,648 [base_deploy.py:log_info()] - Web Client fluidd: Detected
-Repo: fluidd-core/fluidd
-Channel: stable
-Path: /home/chase/fluidd
-Local Version: v1.33.0
-Remote Version: v1.34.3
-Valid: True
-Fallback Detected: False
-Pre-release: False
-Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.3/fluidd.zip
-Download Size: 4345018
-Content Type: application/zip
-Rollback Version: v1.33.0
-Rollback Repo: fluidd-core/fluidd
-2025-08-10 03:00:31,259 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2025-08-10 03:01:04,287 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821858208
-2025-08-10 03:01:08,706 [websockets.py:on_close()] - Websocket Closed: ID: 139696821858208 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2025-08-10 03:01:13,296 [websockets.py:write_to_socket()] - Websocket closed while writing: 139696821856768
-2025-08-10 03:01:17,771 [websockets.py:on_close()] - Websocket Closed: ID: 139696821856768 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2025-08-10 03:02:41,478 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2025-08-10 03:02:41,480 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2025-08-10 03:02:51,491 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2025-08-10 03:02:51,495 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
-2025-08-10 03:03:02,703 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
-2025-08-10 03:03:02,706 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 7.08ms
-2025-08-10 03:03:02,707 [websockets.py:open()] - Websocket Opened: ID: 139696821854944, Proxied: False, User Agent: HomeAssistant/2025.3.0 aiohttp/3.11.13 Python/3.13, Host Name: 192.168.1.130
-2025-08-10 03:03:07,032 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
-2025-08-10 03:03:07,036 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.48ms
-2025-08-10 03:03:07,036 [websockets.py:open()] - Websocket Opened: ID: 139697066793136, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
-2025-08-10 04:07:59,962 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
-2025-08-10 04:07:59,963 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
-2025-08-10 04:17:54,254 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
-    await self._update_package_cache(force=True)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
-    await self.provider.refresh_packages(notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
-    await self.run_transaction("refresh_cache", False, notify=notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
-    return await transaction.run(method, *args, notify=notify)
-moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2025-08-13 00:17:57,787 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2025-08-13 00:17:57,787 [base_deploy.py:log_info()] - Git Repo mainsail-config: Validity check for git repo passed
+2025-08-13 00:17:57,817 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar status --porcelain -b) successfully finished
+2025-08-13 00:17:57,843 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
+2025-08-13 00:17:57,889 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
+2025-08-13 00:17:58,336 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) successfully finished
+2025-08-13 00:17:58,364 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2025-08-13 00:17:58,388 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse HEAD) successfully finished
+2025-08-13 00:17:58,417 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe --always --tags --long --dirty --abbrev=8) successfully finished
+2025-08-13 00:17:58,445 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse origin/main) successfully finished
+2025-08-13 00:17:58,472 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe origin/main --always --tags --long --abbrev=8) successfully finished
