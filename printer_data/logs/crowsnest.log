@@ -3020,3 +3020,4 @@
 [07/21/25 12:18:00] crowsnest: V4L2 Control: No parameters set for [cam 1]. Skipped.
 [07/21/25 12:18:04] crowsnest: Starting ustreamer with Device /dev/video0 ...
 [07/21/25 12:18:06] crowsnest:  ... Done!
+[08/15/25 21:04:12] crowsnest: WATCHDOG: Lost Device: '/dev/video0'
