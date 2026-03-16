@@ -1847,3 +1847,16 @@ Traceback (most recent call last):
     for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
   File "uvloop/loop.pyx", line 1529, in getaddrinfo
 socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-03-16 11:43:24,574 [websockets.py:on_close()] - Websocket Closed: ID: 139798114190816 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.43
+2026-03-16 11:43:53,268 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-03-16 11:43:53,271 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.69ms
+2026-03-16 11:43:53,272 [websockets.py:open()] - Websocket Opened: ID: 139798114190144, Proxied: False, User Agent: HomeAssistant/2026.2.3 aiohttp/3.13.3 Python/3.13, Host Name: 192.168.1.130
+2026-03-16 11:44:21,208 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-03-16 11:53:17,028 [websockets.py:on_close()] - Websocket Closed: ID: 139798114190144 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.62
+2026-03-16 11:53:52,628 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.08ms
+2026-03-16 11:53:52,630 [websockets.py:open()] - Websocket Opened: ID: 139798114370368, Proxied: False, User Agent: HomeAssistant/2026.2.3 aiohttp/3.13.3 Python/3.13, Host Name: 192.168.1.130
+2026-03-16 11:54:05,904 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-03-16 12:55:39,662 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-03-16 13:23:03,840 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.143
+2026-03-16 13:23:03,842 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 5.43ms
+2026-03-16 13:23:03,842 [websockets.py:open()] - Websocket Opened: ID: 139798114221168, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
