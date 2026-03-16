@@ -1070,3 +1070,82 @@ Pinned Commit: None
 2026-03-16 07:44:02,787 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion status --porcelain -b) successfully finished
 2026-03-16 07:44:02,811 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion branch --list --no-color) successfully finished
 2026-03-16 07:44:02,858 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion remote get-url origin) successfully finished
+2026-03-16 07:44:03,553 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) successfully finished
+2026-03-16 07:44:03,577 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion merge-base --is-ancestor HEAD origin/main) successfully finished
+2026-03-16 07:44:03,601 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-parse HEAD) successfully finished
+2026-03-16 07:44:03,633 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-03-16 07:44:03,657 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-parse origin/main) successfully finished
+2026-03-16 07:44:03,689 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion describe origin/main --always --tags --long --abbrev=8) successfully finished
+2026-03-16 07:44:03,715 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion rev-list HEAD..1e866ae25278d574d38e779c1a31a9780a130761 --count) successfully finished
+2026-03-16 07:44:03,745 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion log 1d1e2ebe101af12f83ea770301549e15055b36ea..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2026-03-16 07:44:03,776 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2026-03-16 07:44:03,779 [git_deploy.py:log_repo_info()] - Git Repo mobileraker Detected:
+Owner: Clon1998
+Repository Name: mobileraker_companion
+Path: /home/chase/mobileraker_companion
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Clon1998/mobileraker_companion.git
+Recovery URL: https://github.com/Clon1998/mobileraker_companion.git
+Current Commit SHA: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Upstream Commit SHA: 1e866ae25278d574d38e779c1a31a9780a130761
+Current Version: v0.4.0-91-g1d1e2ebe
+Upstream Version: v0.5.0-6-g1e866ae2
+Rollback Commit: 1d1e2ebe101af12f83ea770301549e15055b36ea
+Rollback Branch: main
+Rollback Version: v0.4.0-91-g1d1e2ebe
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 7
+Diverged: False
+Pinned Commit: None
+2026-03-16 07:44:03,779 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
+2026-03-16 07:44:03,780 [base_deploy.py:log_info()] - Git Repo mobileraker: Validity check for git repo passed
+2026-03-16 07:44:03,843 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
+2026-03-16 07:44:03,867 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
+2026-03-16 07:44:03,915 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
+2026-03-16 07:44:04,377 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) successfully finished
+2026-03-16 07:44:04,402 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-03-16 07:44:04,424 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse HEAD) successfully finished
+2026-03-16 07:44:04,450 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-03-16 07:44:04,473 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-parse origin/master) successfully finished
+2026-03-16 07:44:04,498 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-03-16 07:44:04,524 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config rev-list HEAD..807175d72e3a00cdc6b5e249444a4630e1e03a55 --count) successfully finished
+2026-03-16 07:44:04,526 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+Owner: fluidd-core
+Repository Name: fluidd-config
+Path: /home/chase/fluidd-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/fluidd-core/fluidd-config.git
+Recovery URL: https://github.com/fluidd-core/fluidd-config.git
+Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Current Version: v1.2.1-0-g807175d7
+Upstream Version: v1.2.1-0-g807175d7
+Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Rollback Branch: master
+Rollback Version: v1.2.1-0-g807175d7
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-03-16 07:44:04,527 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2026-03-16 07:44:04,527 [base_deploy.py:log_info()] - Git Repo fluidd-config: Validity check for git repo passed
+2026-03-16 07:44:10,292 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.36.2
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.36.2/fluidd.zip
+Download Size: 4539063
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
