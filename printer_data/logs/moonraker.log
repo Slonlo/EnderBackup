@@ -1860,3 +1860,4 @@ socket.gaierror: [Errno -3] Temporary failure in name resolution
 2026-03-16 13:23:03,840 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.143
 2026-03-16 13:23:03,842 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 5.43ms
 2026-03-16 13:23:03,842 [websockets.py:open()] - Websocket Opened: ID: 139798114221168, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 13:23:19,649 [websockets.py:on_close()] - Websocket Closed: ID: 139798114221168 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.74
