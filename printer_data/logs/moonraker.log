@@ -930,3 +930,143 @@ moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --prog
 2026-03-16 07:47:45,430 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest remote get-url origin) successfully finished
 2026-03-16 07:48:15,518 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) exited with return code 128
 2026-03-16 07:48:46,109 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) exited with return code 128
+2026-03-16 07:49:10,311 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) exited with return code 128
+2026-03-16 07:49:34,661 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) exited with return code 128
+2026-03-16 07:49:41,965 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) successfully finished
+2026-03-16 07:49:42,000 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-03-16 07:49:42,027 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse HEAD) successfully finished
+2026-03-16 07:49:42,063 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-03-16 07:49:42,092 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse origin/master) successfully finished
+2026-03-16 07:49:42,132 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-03-16 07:49:42,170 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-list HEAD..9cc3d4af94bcc67741ddf07ac301df5de8ba23a4 --count) successfully finished
+2026-03-16 07:49:42,210 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest log dd390b60049bd139e3b1ae0ab6ba45175d639180..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2026-03-16 07:49:42,294 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2026-03-16 07:49:42,297 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/chase/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Upstream Commit SHA: 9cc3d4af94bcc67741ddf07ac301df5de8ba23a4
+Current Version: v4.1.10-1-gdd390b60
+Upstream Version: v4.1.17-1-g9cc3d4af
+Rollback Commit: dd390b60049bd139e3b1ae0ab6ba45175d639180
+Rollback Branch: master
+Rollback Version: v4.1.10-1-gdd390b60
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 37
+Diverged: False
+Pinned Commit: None
+2026-03-16 07:49:42,298 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
+2026-03-16 07:49:42,298 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2026-03-16 07:49:42,391 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar status --porcelain -b) successfully finished
+2026-03-16 07:49:42,421 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar branch --list --no-color) successfully finished
+2026-03-16 07:49:42,476 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar remote get-url origin) successfully finished
+2026-03-16 07:43:59,961 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar fetch origin --prune --progress) successfully finished
+2026-03-16 07:43:59,987 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2026-03-16 07:44:00,010 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse HEAD) successfully finished
+2026-03-16 07:44:00,040 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-03-16 07:44:00,068 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-parse origin/main) successfully finished
+2026-03-16 07:44:00,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar describe origin/main --always --tags --long --abbrev=8) successfully finished
+2026-03-16 07:44:00,133 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar rev-list HEAD..0d1d7c89bbb97fb5f54c80f7814ef322c24d6e45 --count) successfully finished
+2026-03-16 07:44:00,161 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar log eacc498a52f79292063b6f9b0e0c191c34c5dc09..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2026-03-16 07:44:00,199 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/sonar for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2026-03-16 07:44:00,201 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
+Owner: mainsail-crew
+Repository Name: sonar
+Path: /home/chase/sonar
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/sonar.git
+Recovery URL: https://github.com/mainsail-crew/sonar.git
+Current Commit SHA: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Upstream Commit SHA: 0d1d7c89bbb97fb5f54c80f7814ef322c24d6e45
+Current Version: v0.1.3-1-geacc498a
+Upstream Version: v0.2.0-1-g0d1d7c89
+Rollback Commit: eacc498a52f79292063b6f9b0e0c191c34c5dc09
+Rollback Branch: main
+Rollback Version: v0.1.3-1-geacc498a-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 9
+Diverged: False
+Pinned Commit: None
+2026-03-16 07:44:00,201 [base_deploy.py:log_info()] - Git Repo sonar: Channel: dev
+2026-03-16 07:44:00,201 [base_deploy.py:log_info()] - Git Repo sonar: Validity check for git repo passed
+2026-03-16 07:44:00,260 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging status --porcelain -b) successfully finished
+2026-03-16 07:44:00,286 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging branch --list --no-color) successfully finished
+2026-03-16 07:44:00,334 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging remote get-url origin) successfully finished
+2026-03-16 07:44:00,819 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) successfully finished
+2026-03-16 07:44:00,844 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging merge-base --is-ancestor HEAD origin/main) successfully finished
+2026-03-16 07:44:00,871 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse HEAD) successfully finished
+2026-03-16 07:44:00,927 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-03-16 07:44:00,951 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-parse origin/main) successfully finished
+2026-03-16 07:44:00,985 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging describe origin/main --always --tags --long --abbrev=8) successfully finished
+2026-03-16 07:44:01,012 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/Klipper-Adaptive-Meshing-Purging rev-list HEAD..b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0 --count) successfully finished
+2026-03-16 07:44:01,014 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+Owner: kyleisah
+Repository Name: Klipper-Adaptive-Meshing-Purging
+Path: /home/chase/Klipper-Adaptive-Meshing-Purging
+Remote: origin
+Branch: main
+Remote URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Recovery URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Current Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Upstream Commit SHA: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Current Version: v1.1.2-13-gb0dad8ec
+Upstream Version: v1.1.2-13-gb0dad8ec
+Rollback Commit: b0dad8ec9ee31cb644b94e39d4b8a8fb9d6c9ba0
+Rollback Branch: main
+Rollback Version: v1.1.2-13-gb0dad8ec
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-03-16 07:44:01,014 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
+2026-03-16 07:44:01,015 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Validity check for git repo passed
+2026-03-16 07:44:01,085 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup status --porcelain -b) successfully finished
+2026-03-16 07:44:01,111 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup branch --list --no-color) successfully finished
+2026-03-16 07:44:01,161 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup remote get-url origin) successfully finished
+2026-03-16 07:44:02,511 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup fetch origin --prune --progress) successfully finished
+2026-03-16 07:44:02,536 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup merge-base --is-ancestor HEAD origin/main) successfully finished
+2026-03-16 07:44:02,562 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse HEAD) successfully finished
+2026-03-16 07:44:02,591 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-03-16 07:44:02,618 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-parse origin/main) successfully finished
+2026-03-16 07:44:02,654 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup describe origin/main --always --tags --long --abbrev=8) successfully finished
+2026-03-16 07:44:02,682 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup rev-list HEAD..70a77c64493a4a9183b2a27bade75b76e358eead --count) successfully finished
+2026-03-16 07:44:02,710 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup log 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2026-03-16 07:44:02,747 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper-backup for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2026-03-16 07:44:02,748 [git_deploy.py:log_repo_info()] - Git Repo klipper-backup Detected:
+Owner: Staubgeborener
+Repository Name: klipper-backup
+Path: /home/chase/klipper-backup
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Staubgeborener/klipper-backup.git
+Recovery URL: https://github.com/Staubgeborener/klipper-backup.git
+Current Commit SHA: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Upstream Commit SHA: 70a77c64493a4a9183b2a27bade75b76e358eead
+Current Version: v1.3.2-0-g1ccd26ad
+Upstream Version: v1.3.5-5-g70a77c64
+Rollback Commit: 1ccd26ad624ce5e50b8554b7ac9ebbae3d922712
+Rollback Branch: main
+Rollback Version: v1.3.2-0-g1ccd26ad-dirty
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 16
+Diverged: False
+Pinned Commit: None
+2026-03-16 07:44:02,749 [base_deploy.py:log_info()] - Git Repo klipper-backup: Channel: dev
+2026-03-16 07:44:02,749 [base_deploy.py:log_info()] - Git Repo klipper-backup: Validity check for git repo passed
+2026-03-16 07:44:02,787 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion status --porcelain -b) successfully finished
+2026-03-16 07:44:02,811 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion branch --list --no-color) successfully finished
+2026-03-16 07:44:02,858 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion remote get-url origin) successfully finished
