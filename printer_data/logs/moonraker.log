@@ -849,3 +849,66 @@ Traceback (most recent call last):
 moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
 2026-03-16 07:45:25,202 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
 2026-03-16 07:45:25,202 [base_deploy.py:log_info()] - Git Repo klipper: Repo validation check failed, updates disabled
+2026-03-16 07:45:41,226 [base_deploy.py:log_info()] - Web Client mainsail: Github Request Error - Timeout while connecting
+2026-03-16 07:45:41,228 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.14.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.14.0/mainsail.zip
+Download Size: 2848929
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2026-03-16 07:45:41,302 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2026-03-16 07:45:41,333 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2026-03-16 07:45:41,389 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
+2026-03-16 07:45:55,247 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f25501253a0>, <Task finished name='Task-2725' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-03-16 07:46:00,755 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f2548fb81f0>, <Task finished name='Task-2771' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-03-16 07:46:06,856 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2026-03-16 07:46:15,270 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7f2548fafe50>, <Task finished name='Task-2832' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-03-16 07:46:27,446 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
+2026-03-16 07:46:48,030 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) exited with return code 128
