@@ -1861,3 +1861,24 @@ socket.gaierror: [Errno -3] Temporary failure in name resolution
 2026-03-16 13:23:03,842 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 5.43ms
 2026-03-16 13:23:03,842 [websockets.py:open()] - Websocket Opened: ID: 139798114221168, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
 2026-03-16 13:23:19,649 [websockets.py:on_close()] - Websocket Closed: ID: 139798114221168 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.74
+2026-03-16 13:28:23,380 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 7.55ms
+2026-03-16 13:28:23,380 [websockets.py:open()] - Websocket Opened: ID: 139798114218768, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 13:28:47,179 [websockets.py:on_close()] - Websocket Closed: ID: 139798114218768 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.71
+2026-03-16 13:49:28,956 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 5.96ms
+2026-03-16 13:49:28,956 [websockets.py:open()] - Websocket Opened: ID: 139798114219728, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 13:49:38,254 [websockets.py:on_close()] - Websocket Closed: ID: 139798114219728 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.30
+2026-03-16 14:50:39,697 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.143
+2026-03-16 14:55:56,101 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.143
+2026-03-16 14:55:56,105 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 5.63ms
+2026-03-16 14:55:56,105 [websockets.py:open()] - Websocket Opened: ID: 139798114220304, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 14:56:37,693 [websockets.py:on_close()] - Websocket Closed: ID: 139798114220304 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.57
+2026-03-16 14:59:49,057 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 4.77ms
+2026-03-16 14:59:49,058 [websockets.py:open()] - Websocket Opened: ID: 139798114218816, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 15:00:08,021 [websockets.py:on_close()] - Websocket Closed: ID: 139798114218816 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.95
+2026-03-16 15:00:08,599 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 3.89ms
+2026-03-16 15:00:08,600 [websockets.py:open()] - Websocket Opened: ID: 139798114221264, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 15:00:20,429 [websockets.py:on_close()] - Websocket Closed: ID: 139798114221264 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.82
+2026-03-16 15:31:36,787 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 5.10ms
+2026-03-16 15:31:36,788 [websockets.py:open()] - Websocket Opened: ID: 139798114193312, Proxied: True, User Agent: Dart/3.9 (dart:io), Host Name: 192.168.1.130
+2026-03-16 15:31:55,800 [websockets.py:on_close()] - Websocket Closed: ID: 139798114193312 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.99
+2026-03-16 16:35:39,724 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.143
