@@ -731,3 +731,51 @@ moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --prog
 2026-05-10 15:56:47,132 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion remote get-url origin) successfully finished
 2026-05-10 15:56:47,196 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) exited with return code 128
 2026-05-10 15:56:47,752 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:48,318 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:48,879 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:49,444 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mobileraker_companion fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:49,947 [git_deploy.py:refresh_repo_state()] - Git Repo mobileraker: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2026-05-10 15:56:49,948 [base_deploy.py:log_info()] - Git Repo mobileraker: Channel: dev
+2026-05-10 15:56:49,948 [base_deploy.py:log_info()] - Git Repo mobileraker: Repo validation check failed, updates disabled
+2026-05-10 15:56:50,010 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config status --porcelain -b) successfully finished
+2026-05-10 15:56:50,032 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config branch --list --no-color) successfully finished
+2026-05-10 15:56:50,081 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config remote get-url origin) successfully finished
+2026-05-10 15:56:50,143 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:50,705 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:51,263 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:51,823 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:52,386 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-05-10 15:56:52,889 [git_deploy.py:refresh_repo_state()] - Git Repo fluidd-config: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2026-05-10 15:56:52,890 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2026-05-10 15:56:52,890 [base_deploy.py:log_info()] - Git Repo fluidd-config: Repo validation check failed, updates disabled
+2026-05-10 15:56:53,921 [base_deploy.py:log_info()] - Web Client fluidd: Github Request Error - [Errno -3] Temporary failure in name resolution
+2026-05-10 15:56:53,922 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.36.2
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.36.2/fluidd.zip
+Download Size: 4539063
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
