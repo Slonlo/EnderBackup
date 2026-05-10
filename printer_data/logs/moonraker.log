@@ -801,3 +801,4 @@ Error configuring printer
 2026-05-10 16:53:49,728 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.134
 2026-05-10 16:53:49,730 [application.py:log_request()] - 101 GET /websocket (192.168.1.134) [_TRUSTED_USER_] 5.29ms
 2026-05-10 16:53:49,731 [websockets.py:open()] - Websocket Opened: ID: 139672542765840, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-05-10 16:53:58,360 [websockets.py:on_close()] - Websocket Closed: ID: 139672542765840 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.63
