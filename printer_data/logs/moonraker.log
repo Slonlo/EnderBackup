@@ -788,3 +788,4 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2026-05-10 16:05:06,717 [machine.py:_find_public_ip()] - Failed to detect local IP address
