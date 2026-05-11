@@ -266,3 +266,4 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-05-11 11:17:27,577 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.143
 2026-05-11 11:17:27,579 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 7.39ms
 2026-05-11 11:17:27,580 [websockets.py:open()] - Websocket Opened: ID: 139672542909056, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-05-11 11:17:50,078 [websockets.py:on_close()] - Websocket Closed: ID: 139672542909056 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.49
