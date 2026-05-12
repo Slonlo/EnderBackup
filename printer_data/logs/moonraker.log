@@ -267,3 +267,16 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-05-11 11:17:27,579 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 7.39ms
 2026-05-11 11:17:27,580 [websockets.py:open()] - Websocket Opened: ID: 139672542909056, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
 2026-05-11 11:17:50,078 [websockets.py:on_close()] - Websocket Closed: ID: 139672542909056 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.49
+2026-05-11 11:24:17,803 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 6.42ms
+2026-05-11 11:24:17,804 [websockets.py:open()] - Websocket Opened: ID: 139672542909056, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-05-11 11:24:49,775 [websockets.py:on_close()] - Websocket Closed: ID: 139672542909056 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.95
+2026-05-11 11:55:32,601 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 3.38ms
+2026-05-11 11:55:32,602 [websockets.py:open()] - Websocket Opened: ID: 139672542911552, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-05-11 11:55:43,052 [websockets.py:on_close()] - Websocket Closed: ID: 139672542911552 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.44
+2026-05-11 11:59:07,534 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 4.24ms
+2026-05-11 11:59:07,535 [websockets.py:open()] - Websocket Opened: ID: 139672542767376, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-05-11 11:59:20,300 [websockets.py:on_close()] - Websocket Closed: ID: 139672542767376 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.00
+2026-05-11 12:01:43,356 [application.py:log_request()] - 101 GET /websocket (192.168.1.143) [_TRUSTED_USER_] 4.53ms
+2026-05-11 12:01:43,357 [websockets.py:open()] - Websocket Opened: ID: 139672542911024, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-05-11 12:01:50,487 [websockets.py:on_close()] - Websocket Closed: ID: 139672542911024 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.13
+2026-05-11 13:05:25,977 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.143
