@@ -1,4 +1,4 @@
--------------------- Log Start | Mon Jun  1 04:55:27 2026 --------------------
+-------------------- Log Start | Sun May 31 07:00:36 2026 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,14 +263,17 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2026-06-01 00:55:27,952 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
-    await self._update_package_cache(force=True)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
-    await self.provider.refresh_packages(notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
-    await self.run_transaction("refresh_cache", False, notify=notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
-    return await transaction.run(method, *args, notify=notify)
-moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2026-05-31 03:00:36,310 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-05-31 03:01:10,322 [websockets.py:write_to_socket()] - Websocket closed while writing: 139672543269744
+2026-05-31 03:01:14,986 [websockets.py:on_close()] - Websocket Closed: ID: 139672543269744 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2026-05-31 03:01:21,339 [websockets.py:write_to_socket()] - Websocket closed while writing: 139672542765744
+2026-05-31 03:01:25,807 [websockets.py:on_close()] - Websocket Closed: ID: 139672542765744 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.01
+2026-05-31 03:02:46,511 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-05-31 03:03:01,675 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2026-05-31 03:03:01,677 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.61ms
+2026-05-31 03:03:01,677 [websockets.py:open()] - Websocket Opened: ID: 139672542911264, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-05-31 03:03:10,063 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-05-31 03:03:10,066 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.75ms
+2026-05-31 03:03:10,067 [websockets.py:open()] - Websocket Opened: ID: 139672543269600, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
+2026-05-31 04:05:33,608 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-05-31 04:05:33,609 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
