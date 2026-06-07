@@ -264,3 +264,5 @@ Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-06-07 03:00:24,375 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-06-07 03:00:51,368 [websockets.py:write_to_socket()] - Websocket closed while writing: 139672543944080
+2026-06-07 03:00:56,190 [websockets.py:on_close()] - Websocket Closed: ID: 139672543944080 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
