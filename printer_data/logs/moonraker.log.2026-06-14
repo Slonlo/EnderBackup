@@ -1,4 +1,4 @@
--------------------- Log Start | Mon Jun 15 04:55:28 2026 --------------------
+-------------------- Log Start | Sun Jun 14 07:00:27 2026 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,14 +263,38 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2026-06-15 00:55:28,539 [base_deploy.py:log_exc()] - PackageKit: Error Refreshing System Packages
-Traceback (most recent call last):
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 99, in refresh
-    await self._update_package_cache(force=True)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 138, in _update_package_cache
-    await self.provider.refresh_packages(notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 255, in refresh_packages
-    await self.run_transaction("refresh_cache", False, notify=notify)
-  File "/home/chase/moonraker/moonraker/components/update_manager/system_deploy.py", line 304, in run_transaction
-    return await transaction.run(method, *args, notify=notify)
-moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authentication.
+2026-06-14 03:00:26,999 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-06-14 03:01:02,002 [websockets.py:write_to_socket()] - Websocket closed while writing: 139672579049936
+2026-06-14 03:01:06,221 [websockets.py:on_close()] - Websocket Closed: ID: 139672579049936 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2026-06-14 03:01:18,028 [websockets.py:write_to_socket()] - Websocket closed while writing: 139672578282400
+2026-06-14 03:01:22,207 [websockets.py:on_close()] - Websocket Closed: ID: 139672578282400 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-06-14 03:02:37,174 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-06-14 03:02:57,316 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2026-06-14 03:02:57,319 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 6.52ms
+2026-06-14 03:02:57,320 [websockets.py:open()] - Websocket Opened: ID: 139672578656720, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-06-14 03:02:59,179 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-06-14 03:02:59,180 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 2.83ms
+2026-06-14 03:02:59,180 [websockets.py:open()] - Websocket Opened: ID: 139672579051040, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
+2026-06-14 04:05:39,077 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-06-14 04:05:39,079 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-06-14 14:30:13,066 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.155
+2026-06-14 14:30:13,069 [application.py:log_request()] - 101 GET /websocket (192.168.1.155) [_TRUSTED_USER_] 6.32ms
+2026-06-14 14:30:13,070 [websockets.py:open()] - Websocket Opened: ID: 139672543420176, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-06-14 14:30:27,229 [websockets.py:on_close()] - Websocket Closed: ID: 139672543420176 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.14
+2026-06-14 15:09:04,121 [application.py:log_request()] - 101 GET /websocket (192.168.1.155) [_TRUSTED_USER_] 4.05ms
+2026-06-14 15:09:04,122 [websockets.py:open()] - Websocket Opened: ID: 139672543417248, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-06-14 15:09:21,022 [websockets.py:on_close()] - Websocket Closed: ID: 139672543417248 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.88
+2026-06-14 16:10:39,263 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.155
+2026-06-14 16:48:02,277 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.155
+2026-06-14 16:48:02,280 [application.py:log_request()] - 101 GET /websocket (192.168.1.155) [_TRUSTED_USER_] 7.51ms
+2026-06-14 16:48:02,280 [websockets.py:open()] - Websocket Opened: ID: 139672543418064, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-06-14 16:48:29,136 [websockets.py:on_close()] - Websocket Closed: ID: 139672543418064 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.84
+2026-06-14 17:50:39,287 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.155
+2026-06-14 17:58:34,245 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.155
+2026-06-14 17:58:34,250 [application.py:log_request()] - 101 GET /websocket (192.168.1.155) [_TRUSTED_USER_] 8.65ms
+2026-06-14 17:58:34,251 [websockets.py:open()] - Websocket Opened: ID: 139672543418304, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-06-14 17:58:57,806 [websockets.py:on_close()] - Websocket Closed: ID: 139672543418304 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.25
+2026-06-14 18:36:53,056 [application.py:log_request()] - 101 GET /websocket (192.168.1.155) [_TRUSTED_USER_] 6.47ms
+2026-06-14 18:36:53,057 [websockets.py:open()] - Websocket Opened: ID: 139672543418304, Proxied: True, User Agent: Dart/3.11 (dart:io), Host Name: 192.168.1.130
+2026-06-14 18:37:01,712 [websockets.py:on_close()] - Websocket Closed: ID: 139672543418304 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.66
+2026-06-14 19:40:39,322 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.155
