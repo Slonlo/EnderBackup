@@ -938,3 +938,5 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2026-06-18 17:49:42,160 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-06-18 17:49:42,162 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
