@@ -929,3 +929,12 @@ Properties:
 2026-06-18 16:45:13,210 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
 2026-06-18 16:45:13,212 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.88ms
 2026-06-18 16:45:13,213 [websockets.py:open()] - Websocket Opened: ID: 140195118447200, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
+2026-06-18 16:46:09,663 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-06-18 16:46:09,666 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-06-18 16:46:09,669 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
