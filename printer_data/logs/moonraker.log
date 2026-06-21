@@ -286,3 +286,17 @@ Traceback (most recent call last):
     for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
   File "uvloop/loop.pyx", line 1529, in getaddrinfo
 socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-06-21 03:00:38,062 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-06-21 03:01:04,072 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118447200
+2026-06-21 03:01:08,220 [websockets.py:on_close()] - Websocket Closed: ID: 140195118447200 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-06-21 03:01:18,120 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118444896
+2026-06-21 03:01:22,960 [websockets.py:on_close()] - Websocket Closed: ID: 140195118444896 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-06-21 03:02:38,242 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-06-21 03:02:55,623 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2026-06-21 03:02:55,627 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 9.36ms
+2026-06-21 03:02:55,629 [websockets.py:open()] - Websocket Opened: ID: 140195118444992, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-06-21 03:03:04,284 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-06-21 03:03:04,286 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.98ms
+2026-06-21 03:03:04,287 [websockets.py:open()] - Websocket Opened: ID: 140195118018464, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
+2026-06-21 04:04:43,143 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-06-21 04:04:43,144 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
