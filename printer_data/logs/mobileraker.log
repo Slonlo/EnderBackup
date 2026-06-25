@@ -23008,3 +23008,222 @@ OSError: [Errno 101] Network is unreachable
 2026-06-21 04:56:26,060 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 5123}
 2026-06-21 04:56:26,062 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 300 seconds...
 2026-06-21 05:01:26,065 mobileraker.Ender3V2.sync ERROR - Resync process was not completed. Klippy was not ready after 30 retries.
+2026-06-25 03:01:37,370 mobileraker.Ender3V2.jrpc INFO - websocket closed ?????...
+2026-06-25 03:01:37,371 mobileraker.Ender3V2.jrpc INFO - Notifying listeners about connection state False
+2026-06-25 03:01:37,372 mobileraker.Ender3V2.sync INFO - Connection state changed to <is_connected: False>
+2026-06-25 03:01:37,377 websockets.client INFO - ! connect failed; reconnecting in 4.9 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:01:42,250 websockets.client INFO - ! connect failed again; retrying in 3 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:01:45,257 websockets.client INFO - ! connect failed again; retrying in 5 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:01:50,268 websockets.client INFO - ! connect failed again; retrying in 8 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:01:58,281 websockets.client INFO - ! connect failed again; retrying in 13 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:02:11,296 websockets.client INFO - ! connect failed again; retrying in 21 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:02:32,320 websockets.client INFO - ! connect failed again; retrying in 34 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:03:06,357 websockets.client INFO - ! connect failed again; retrying in 55 seconds
+Traceback (most recent call last):
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 598, in __aiter__
+    async with self as protocol:
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/chase/mobileraker-env/lib/python3.8/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 496, in sock_connect
+    return await fut
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 501, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+2026-06-25 03:04:01,429 mobileraker.Ender3V2.jrpc INFO - WebSocket connected
+2026-06-25 03:04:01,430 mobileraker.Ender3V2.jrpc INFO - Notifying listeners about connection state True
+2026-06-25 03:04:01,454 mobileraker.Ender3V2.sync INFO - Connection state changed to <is_connected: True>
+2026-06-25 03:04:01,455 mobileraker.Ender3V2.sync INFO - Doing a (Re)Sync with moonraker
+2026-06-25 03:04:01,456 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:04:01,488 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 8018}
+2026-06-25 03:04:01,490 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 2 seconds...
+2026-06-25 03:04:01,492 mobileraker.Ender3V2 INFO - Updated companion meta data in moonraker database
+2026-06-25 03:04:03,492 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:04:03,501 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 7305}
+2026-06-25 03:04:03,503 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 4 seconds...
+2026-06-25 03:04:07,506 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:04:07,514 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 7596}
+2026-06-25 03:04:07,516 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 8 seconds...
+2026-06-25 03:04:15,519 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:04:15,528 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 9606}
+2026-06-25 03:04:15,530 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 16 seconds...
+2026-06-25 03:04:31,532 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:04:31,540 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 5347}
+2026-06-25 03:04:31,542 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 32 seconds...
+2026-06-25 03:05:03,544 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:05:03,552 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 9813}
+2026-06-25 03:05:03,555 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 64 seconds...
+2026-06-25 03:06:07,557 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:06:07,567 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 4377}
+2026-06-25 03:06:07,568 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 128 seconds...
+2026-06-25 03:08:15,571 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:08:15,579 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 293}
+2026-06-25 03:08:15,580 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 256 seconds...
+2026-06-25 03:12:31,583 mobileraker.Ender3V2.sync INFO - Syncing klippy Objects
+2026-06-25 03:12:31,591 mobileraker.Ender3V2.sync INFO - Received server info: {'jsonrpc': '2.0', 'result': {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'wled', 'update_manager', 'power'], 'failed_components': ['power'], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': ['[update_manager]: Failed to load extension octoeverywhere: Invalid path for option `path` in section [update_manager octoeverywhere]: Path `/home/chase/octoeverywhere` does not exist', "Unparsed config option 'origin: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'env: /home/chase/octoeverywhere-env/bin/python' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'requirements: requirements.txt' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'install_script: install.sh' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Unparsed config option 'managed_services: <br/>octoeverywhere' detected in section [update_manager octoeverywhere].  This may be an option no longer available or could be the result of a module that failed to load.  In the future this will result in a startup error.", "Component 'power' failed to load with error: Bound Service klipper-mcu is not available", 'PolKit warnings detected. See https://moonraker.readthedocs.io/en/latest/installation/#policykit-permissions for instructions on how to resolve.', 'Moonraker not authorized for PolicyKit action: [org.freedesktop.packagekit.system-sources-refresh], The Update Manager will fail to fetch package updates'], 'websocket_count': 2, 'moonraker_version': 'v0.9.3-58-ga0164e1', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}, 'id': 3720}
+2026-06-25 03:12:31,592 mobileraker.Ender3V2.sync WARNING - Klippy was not ready. Trying resync again in 300 seconds...
