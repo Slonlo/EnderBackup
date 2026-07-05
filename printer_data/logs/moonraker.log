@@ -1,4 +1,4 @@
--------------------- Log Start | Thu Jul  2 07:00:36 2026 --------------------
+-------------------- Log Start | Sun Jul  5 07:00:17 2026 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -272,30 +272,4 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2026-07-02 03:00:36,228 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2026-07-02 03:01:00,220 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118324704
-2026-07-02 03:01:05,183 [websockets.py:on_close()] - Websocket Closed: ID: 140195118324704 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2026-07-02 03:01:16,265 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118018128
-2026-07-02 03:01:20,533 [websockets.py:on_close()] - Websocket Closed: ID: 140195118018128 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2026-07-02 03:02:36,417 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2026-07-02 03:02:53,896 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
-2026-07-02 03:02:53,902 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 9.29ms
-2026-07-02 03:02:53,903 [websockets.py:open()] - Websocket Opened: ID: 140195118252576, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
-2026-07-02 03:03:04,183 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
-2026-07-02 03:03:04,185 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.80ms
-2026-07-02 03:03:04,186 [websockets.py:open()] - Websocket Opened: ID: 140195118254304, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
-2026-07-02 04:04:47,407 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
-2026-07-02 04:04:47,409 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
-2026-07-02 10:50:59,055 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2026-07-02 10:51:05,029 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118254304
-2026-07-02 10:51:09,192 [websockets.py:on_close()] - Websocket Closed: ID: 140195118254304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2026-07-02 10:51:42,090 [websockets.py:on_close()] - Websocket Closed: ID: 140195118252576 Close Code: 1011, Close Reason: keepalive ping timeout, Pong Time Elapsed: 38.18
-2026-07-02 10:51:42,102 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
-2026-07-02 10:51:42,104 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.09ms
-2026-07-02 10:51:42,105 [websockets.py:open()] - Websocket Opened: ID: 140195118255216, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
-2026-07-02 10:51:49,135 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
-2026-07-02 10:51:56,299 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
-2026-07-02 10:51:56,301 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 5.34ms
-2026-07-02 10:51:56,301 [websockets.py:open()] - Websocket Opened: ID: 140195118173632, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
-2026-07-02 11:54:47,535 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
-2026-07-02 11:54:47,536 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-07-05 03:00:17,892 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
