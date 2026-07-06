@@ -275,3 +275,14 @@ Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-07-05 03:00:17,892 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
 2026-07-05 03:00:46,894 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118173632
 2026-07-05 03:00:51,305 [websockets.py:on_close()] - Websocket Closed: ID: 140195118173632 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-07-05 03:01:12,937 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195118255216
+2026-07-05 03:01:17,110 [websockets.py:on_close()] - Websocket Closed: ID: 140195118255216 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-07-05 03:03:18,133 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-07-05 03:03:19,183 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-07-05 03:03:19,184 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.12ms
+2026-07-05 03:03:19,185 [websockets.py:open()] - Websocket Opened: ID: 140195119195376, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
+2026-07-05 03:03:48,929 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2026-07-05 03:03:48,931 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 5.20ms
+2026-07-05 03:03:48,931 [websockets.py:open()] - Websocket Opened: ID: 140195118173824, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-07-05 04:04:48,586 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-07-05 04:04:48,587 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
