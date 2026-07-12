@@ -1,4 +1,4 @@
--------------------- Log Start | Thu Jul  9 07:00:59 2026 --------------------
+-------------------- Log Start | Sun Jul 12 07:00:13 2026 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -272,9 +272,4 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2026-07-09 03:00:59,340 [websockets.py:write_to_socket()] - Websocket closed while writing: 140195119195376
-2026-07-09 03:01:04,191 [websockets.py:on_close()] - Websocket Closed: ID: 140195119195376 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
-2026-07-09 03:02:25,271 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
-2026-07-09 03:02:25,275 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.26ms
-2026-07-09 03:02:25,276 [websockets.py:open()] - Websocket Opened: ID: 140195163057648, Proxied: False, User Agent: HomeAssistant/2026.3.2 aiohttp/3.13.3 Python/3.14, Host Name: 192.168.1.130
-2026-07-09 04:04:50,144 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-07-12 03:00:13,651 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
