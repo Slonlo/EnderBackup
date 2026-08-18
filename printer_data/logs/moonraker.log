@@ -924,3 +924,7 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2026-08-17 23:42:34,424 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-08-17 23:42:34,426 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.40ms
+2026-08-17 23:42:34,427 [websockets.py:open()] - Websocket Opened: ID: 140374634727072, Proxied: False, User Agent: HomeAssistant/2026.7.4 aiohttp/3.14.3 Python/3.14, Host Name: 192.168.1.130
+2026-08-17 23:42:43,031 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
