@@ -264,3 +264,4 @@ Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-08-18 00:38:40,761 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-08-18 00:43:40,762 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
