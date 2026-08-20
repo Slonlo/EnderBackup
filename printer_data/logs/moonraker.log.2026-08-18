@@ -1,4 +1,4 @@
--------------------- Log Start | Thu Aug 20 07:00:36 2026 --------------------
+-------------------- Log Start | Tue Aug 18 04:38:40 2026 --------------------
 platform: Linux-5.15.0-139-generic-x86_64-with-glibc2.29
 data_path: /home/chase/printer_data
 is_default_data_path: False
@@ -263,4 +263,5 @@ Git Repo klipper-backup: No warnings detected
 Git Repo mobileraker: No warnings detected
 Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
-2026-08-20 03:00:36,010 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-08-18 00:38:40,761 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-08-18 00:43:40,762 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
