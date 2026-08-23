@@ -265,3 +265,18 @@ Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-08-23 03:00:23,971 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
 2026-08-23 03:00:56,981 [websockets.py:write_to_socket()] - Websocket closed while writing: 140374634729280
+2026-08-23 03:01:01,647 [websockets.py:on_close()] - Websocket Closed: ID: 140374634729280 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2026-08-23 03:01:17,010 [websockets.py:write_to_socket()] - Websocket closed while writing: 140374634901456
+2026-08-23 03:01:21,344 [websockets.py:on_close()] - Websocket Closed: ID: 140374634901456 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-08-23 03:02:44,194 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-08-23 03:03:00,278 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-08-23 03:03:00,280 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.74ms
+2026-08-23 03:03:00,280 [websockets.py:open()] - Websocket Opened: ID: 140374634726208, Proxied: False, User Agent: HomeAssistant/2026.7.4 aiohttp/3.14.3 Python/3.14, Host Name: 192.168.1.130
+2026-08-23 03:03:05,823 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2026-08-23 03:03:05,826 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 7.17ms
+2026-08-23 03:03:05,827 [websockets.py:open()] - Websocket Opened: ID: 140374634900928, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-08-23 04:03:42,794 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-08-23 04:03:42,795 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-08-23 16:51:33,233 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.188
+2026-08-23 16:51:33,235 [application.py:log_request()] - 101 GET /websocket (192.168.1.188) [_TRUSTED_USER_] 6.51ms
+2026-08-23 16:51:33,236 [websockets.py:open()] - Websocket Opened: ID: 140374634727360, Proxied: True, User Agent: Dart/3.12 (dart:io), Host Name: 192.168.1.130
