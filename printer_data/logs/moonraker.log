@@ -858,3 +858,224 @@ Traceback (most recent call last):
     for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
   File "uvloop/loop.pyx", line 1529, in getaddrinfo
 socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 17:33:49,121 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 17:33:51,156 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 17:33:53,191 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 17:34:13,641 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d879d0>, <Task finished name='Task-6717013' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 18:03:49,128 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 18:03:51,167 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 18:03:53,203 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 18:04:13,649 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87550>, <Task finished name='Task-6722244' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 18:33:49,121 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 18:33:51,157 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 18:33:53,191 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 18:34:13,641 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87160>, <Task finished name='Task-6727479' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 19:03:49,123 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 19:03:51,165 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 19:03:53,203 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 19:04:13,645 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d874c0>, <Task finished name='Task-6732714' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 19:33:49,128 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 19:33:51,169 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 19:33:53,207 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 19:34:13,647 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d878b0>, <Task finished name='Task-6737946' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 20:03:49,129 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 20:03:51,165 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 20:03:53,202 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 20:04:13,640 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87c10>, <Task finished name='Task-6743181' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 20:33:49,130 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 20:33:51,176 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 20:33:53,215 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 20:34:13,646 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87550>, <Task finished name='Task-6748416' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 21:03:49,128 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 21:03:51,161 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 21:03:53,201 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 21:04:13,652 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87d30>, <Task finished name='Task-6753651' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 21:33:49,133 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 21:33:51,172 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 21:33:53,212 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 21:34:13,649 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87700>, <Task finished name='Task-6758883' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 22:03:49,137 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 22:03:51,176 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 22:03:53,209 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 22:04:13,645 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87550>, <Task finished name='Task-6764118' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 22:33:49,136 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 22:33:51,175 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 22:33:53,222 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 22:34:13,656 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87940>, <Task finished name='Task-6769353' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 23:03:49,136 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 23:03:51,173 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 23:03:53,209 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 23:04:13,656 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d87040>, <Task finished name='Task-6774584' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-08-28 23:33:49,137 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-08-28 23:33:51,172 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-08-28 23:33:53,210 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-08-28 23:34:13,655 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab85d878b0>, <Task finished name='Task-6779819' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
