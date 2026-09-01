@@ -501,3 +501,45 @@ moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --prog
 2026-09-01 01:34:07,202 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
 2026-09-01 01:34:07,770 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
 2026-09-01 01:34:08,332 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:34:08,892 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:34:09,449 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/fluidd-config fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:34:09,951 [git_deploy.py:refresh_repo_state()] - Git Repo fluidd-config: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2026-09-01 01:34:09,953 [base_deploy.py:log_info()] - Git Repo fluidd-config: Channel: dev
+2026-09-01 01:34:09,953 [base_deploy.py:log_info()] - Git Repo fluidd-config: Repo validation check failed, updates disabled
+2026-09-01 01:34:10,981 [base_deploy.py:log_info()] - Web Client fluidd: Github Request Error - [Errno -3] Temporary failure in name resolution
+2026-09-01 01:34:10,982 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/chase/fluidd
+Local Version: v1.33.0
+Remote Version: v1.37.4
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.37.4/fluidd.zip
+Download Size: 4332247
+Content Type: application/zip
+Rollback Version: v1.33.0
+Rollback Repo: fluidd-core/fluidd
+2026-09-01 01:34:13,870 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab8441a4c0>, <Task finished name='Task-7554523' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
