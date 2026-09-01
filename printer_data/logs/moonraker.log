@@ -294,3 +294,61 @@ moonraker.utils.exceptions.ServerError: NOT_AUTHORIZED: Failed to obtain authent
 2026-09-01 00:33:49,338 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
 2026-09-01 00:33:51,369 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
 2026-09-01 00:33:53,398 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-09-01 00:34:13,856 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab8441a3a0>, <Task finished name='Task-7544034' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-09-01 01:03:49,344 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2026-09-01 01:03:51,379 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-09-01 01:03:53,415 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2026-09-01 01:04:13,862 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0x7fab8441a310>, <Task finished name='Task-7549264' coro=<_HTTPConnection.run() done, defined at /home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
+Traceback (most recent call last):
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
+    gen.convert_yielded(self.run()), lambda f: f.result()
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/simple_httpclient.py", line 340, in run
+    stream = await self.tcp_client.connect(
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/tcpclient.py", line 269, in connect
+    addrinfo = await self.resolver.resolve(host, port, af)
+  File "/home/chase/moonraker-env/lib/python3.8/site-packages/tornado/netutil.py", line 433, in resolve
+    for fam, _, _, _, address in await asyncio.get_running_loop().getaddrinfo(
+  File "uvloop/loop.pyx", line 1529, in getaddrinfo
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+2026-09-01 01:33:42,434 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker status --porcelain -b) successfully finished
+2026-09-01 01:33:42,465 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker branch --list --no-color) successfully finished
+2026-09-01 01:33:42,523 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker remote get-url origin) successfully finished
+2026-09-01 01:33:42,599 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:43,176 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:43,750 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:44,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:44,896 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/moonraker fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:45,399 [git_deploy.py:refresh_repo_state()] - Git Repo moonraker: Initialization failure
+Traceback (most recent call last):
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 352, in refresh_repo_state
+    await self.fetch()
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 781, in fetch
+    await self._run_git_cmd_async(
+  File "/home/chase/moonraker/moonraker/components/update_manager/git_deploy.py", line 1229, in _run_git_cmd_async
+    raise self.server.error(f"Git Command '{cmd}' failed")
+moonraker.utils.exceptions.ServerError: Git Command 'fetch origin --prune --progress' failed
+2026-09-01 01:33:45,400 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2026-09-01 01:33:45,401 [base_deploy.py:log_info()] - Git Repo moonraker: Repo validation check failed, updates disabled
+2026-09-01 01:33:45,498 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper status --porcelain -b) successfully finished
+2026-09-01 01:33:45,526 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper branch --list --no-color) successfully finished
+2026-09-01 01:33:45,579 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper remote get-url origin) successfully finished
+2026-09-01 01:33:45,640 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:46,204 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:46,767 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:47,340 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
+2026-09-01 01:33:47,912 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/klipper fetch origin --prune --progress) exited with return code 128
