@@ -265,3 +265,4 @@ Git Repo fluidd-config: No warnings detected
 Klipper Version: v0.12.0-439-g1fc6d214f-dirty
 2026-09-05 00:03:49,599 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
 2026-09-05 00:03:51,631 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2026-09-05 00:03:53,658 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
