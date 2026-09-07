@@ -1562,3 +1562,5 @@ Error configuring printer
 2026-09-06 19:05:31,142 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.38ms
 2026-09-06 19:05:31,144 [websockets.py:open()] - Websocket Opened: ID: 139765417486320, Proxied: False, User Agent: HomeAssistant/2026.9.0b4 aiohttp/3.14.3 Python/3.14, Host Name: 192.168.1.130
 2026-09-06 19:05:37,822 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-09-06 20:04:11,968 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-09-06 20:09:11,969 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
