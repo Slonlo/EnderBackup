@@ -971,3 +971,57 @@ Error configuring printer
 2026-10-20 09:53:14,183 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.37ms
 2026-10-20 09:53:14,184 [websockets.py:open()] - Websocket Opened: ID: 139885410183584, Proxied: False, User Agent: HomeAssistant/2026.10.1 aiohttp/3.14.4 Python/3.14, Host Name: 192.168.1.130
 2026-10-20 09:53:20,888 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-10-20 10:55:16,771 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-10-20 10:55:16,772 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-10-20 14:34:54,567 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 14:35:14,593 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410183584
+2026-10-20 14:35:19,190 [websockets.py:on_close()] - Websocket Closed: ID: 139885410183584 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-10-20 14:35:35,589 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410160592
+2026-10-20 14:35:40,423 [websockets.py:on_close()] - Websocket Closed: ID: 139885410160592 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-10-20 14:35:44,633 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2026-10-20 14:35:44,634 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2026-10-20 14:36:34,699 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 14:36:34,702 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2026-10-20 14:36:39,308 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.130
+2026-10-20 14:36:39,312 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 8.19ms
+2026-10-20 14:36:39,313 [websockets.py:open()] - Websocket Opened: ID: 139885410030544, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-10-20 14:43:25,889 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-10-20 14:43:25,893 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 6.13ms
+2026-10-20 14:43:25,893 [websockets.py:open()] - Websocket Opened: ID: 139885410182672, Proxied: False, User Agent: HomeAssistant/2026.10.1 aiohttp/3.14.4 Python/3.14, Host Name: 192.168.1.130
+2026-10-20 14:44:03,760 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-10-20 15:20:38,590 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 15:21:06,611 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410182672
+2026-10-20 15:21:10,898 [websockets.py:on_close()] - Websocket Closed: ID: 139885410182672 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-10-20 15:21:28,680 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2026-10-20 15:21:28,682 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2026-10-20 15:21:29,652 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410030544
+2026-10-20 15:21:34,320 [websockets.py:on_close()] - Websocket Closed: ID: 139885410030544 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-10-20 15:22:08,745 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2026-10-20 15:22:11,785 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 4.65ms
+2026-10-20 15:22:11,785 [websockets.py:open()] - Websocket Opened: ID: 139885410032512, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-10-20 15:22:18,762 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 15:22:18,765 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2026-10-20 15:25:29,067 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 15:26:12,113 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410032512
+2026-10-20 15:26:16,792 [websockets.py:on_close()] - Websocket Closed: ID: 139885410032512 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2026-10-20 15:27:19,267 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2026-10-20 15:27:19,268 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2026-10-20 15:27:39,300 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 15:27:39,304 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.130
+2026-10-20 15:27:57,260 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.86ms
+2026-10-20 15:27:57,261 [websockets.py:open()] - Websocket Opened: ID: 139885410032512, Proxied: False, User Agent: HomeAssistant/2026.10.1 aiohttp/3.14.4 Python/3.14, Host Name: 192.168.1.130
+2026-10-20 15:27:59,340 [application.py:log_request()] - 101 GET /websocket (192.168.1.130) [_TRUSTED_USER_] 3.77ms
+2026-10-20 15:27:59,341 [websockets.py:open()] - Websocket Opened: ID: 139885410184880, Proxied: False, User Agent: Python/3.8 websockets/10.1, Host Name: 192.168.1.130
+2026-10-20 15:28:24,590 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-10-20 16:30:16,866 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.130
+2026-10-20 16:30:16,867 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.175
+2026-10-20 17:04:00,706 [websockets.py:on_close()] - Websocket Closed: ID: 139885410032512 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.44
+2026-10-20 17:04:45,719 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.175
+2026-10-20 17:04:45,721 [application.py:log_request()] - 101 GET /websocket (192.168.1.175) [_TRUSTED_USER_] 4.99ms
+2026-10-20 17:04:45,722 [websockets.py:open()] - Websocket Opened: ID: 139885410183440, Proxied: False, User Agent: HomeAssistant/2026.10.1 aiohttp/3.14.4 Python/3.14, Host Name: 192.168.1.130
+2026-10-20 17:05:13,940 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.spoolman.status, Code: -32601, Message: Method not found
+2026-10-20 17:54:54,052 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.130
+2026-10-20 17:55:16,057 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410183440
+2026-10-20 17:55:20,727 [websockets.py:on_close()] - Websocket Closed: ID: 139885410183440 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2026-10-20 17:55:40,092 [websockets.py:write_to_socket()] - Websocket closed while writing: 139885410184880
+2026-10-20 17:55:44,349 [websockets.py:on_close()] - Websocket Closed: ID: 139885410184880 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
