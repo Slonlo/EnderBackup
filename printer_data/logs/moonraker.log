@@ -958,3 +958,12 @@ Download Size: 4406335
 Content Type: application/zip
 Rollback Version: v1.33.0
 Rollback Repo: fluidd-core/fluidd
+2026-10-20 09:51:46,304 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-20 09:51:46,307 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-20 09:51:46,309 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
