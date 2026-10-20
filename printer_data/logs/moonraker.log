@@ -660,3 +660,61 @@ Repo Warnings:
   Repo has untracked source files: ['klippy/extras/gcode_shell_command.py']
 2026-10-20 09:50:58,167 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
 2026-10-20 09:50:58,168 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2026-10-20 09:50:50,427 [base_deploy.py:log_info()] - Web Client mainsail: Github Request Error - Timeout while connecting
+2026-10-20 09:50:50,427 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/chase/mainsail
+Local Version: v2.13.2
+Remote Version: v2.19.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.19.0/mainsail.zip
+Download Size: 3137812
+Content Type: application/zip
+Rollback Version: v2.13.2
+Rollback Repo: mainsail-crew/mainsail
+2026-10-20 09:50:50,469 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config status --porcelain -b) successfully finished
+2026-10-20 09:50:50,493 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config branch --list --no-color) successfully finished
+2026-10-20 09:50:50,542 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config remote get-url origin) successfully finished
+2026-10-20 09:50:50,947 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config fetch origin --prune --progress) successfully finished
+2026-10-20 09:50:50,971 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-20 09:50:50,996 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse HEAD) successfully finished
+2026-10-20 09:50:51,024 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-20 09:50:51,048 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-parse origin/master) successfully finished
+2026-10-20 09:50:51,076 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-10-20 09:50:51,104 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/mainsail-config rev-list HEAD..ff3869a621db17ce3ef660adbbd3fa321995ac42 --count) successfully finished
+2026-10-20 09:50:51,107 [git_deploy.py:log_repo_info()] - Git Repo mainsail-config Detected:
+Owner: mainsail-crew
+Repository Name: mainsail-config
+Path: /home/chase/mainsail-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/mainsail-config.git
+Recovery URL: https://github.com/mainsail-crew/mainsail-config.git
+Current Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Upstream Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Current Version: v1.2.1-1-gff3869a6
+Upstream Version: v1.2.1-1-gff3869a6
+Rollback Commit: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Rollback Branch: master
+Rollback Version: v1.2.1-1-gff3869a6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-10-20 09:50:51,107 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2026-10-20 09:50:51,107 [base_deploy.py:log_info()] - Git Repo mainsail-config: Validity check for git repo passed
+2026-10-20 09:50:51,185 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest status --porcelain -b) successfully finished
+2026-10-20 09:50:51,213 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest branch --list --no-color) successfully finished
+2026-10-20 09:50:51,262 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest remote get-url origin) successfully finished
+2026-10-20 09:50:51,905 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest fetch origin --prune --progress) successfully finished
+2026-10-20 09:50:51,933 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-20 09:50:51,958 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse HEAD) successfully finished
+2026-10-20 09:50:51,995 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-20 09:50:52,021 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-parse origin/master) successfully finished
+2026-10-20 09:50:52,062 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-10-20 09:50:52,092 [shell_command.py:_check_proc_success()] - Command (git -C /home/chase/crowsnest rev-list HEAD..cf936dabdcf6a3d1eb0138d8eea9044745b40db6 --count) successfully finished
